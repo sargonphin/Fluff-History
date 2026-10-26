@@ -1,0 +1,66 @@
+Fluff-History - Microsoft component distribution terms
+Agreement version: 2026-10-26.1
+
+First-party software and independent open-source components
+
+Fluff-History's first-party code, documentation and artwork additions are licensed
+under the MIT License included in LICENSE. Nothing in the terms below limits that
+MIT grant or changes the separate licenses of independent open-source components.
+In particular, these terms do not prohibit modifying, publishing or commercially
+redistributing Fluff-History's MIT-licensed source.
+
+Scope and acceptance
+
+These additional terms apply only to the Microsoft distributable binary components
+included with this application under the Windows App SDK and Windows SDK licenses
+(the "Microsoft Components"). Exact Microsoft licenses and other third-party
+notices are retained separately in ThirdPartyNotices. Microsoft and its suppliers
+are intended beneficiaries of the protections below. By accepting these terms,
+you agree to these conditions for the Microsoft Components. If accepting on behalf
+of an organization, you must have authority to do so. If you do not agree, cancel
+installation of this bundle; your independent MIT rights remain unchanged.
+
+1. Permitted use and redistribution
+
+You may use the Microsoft Components as part of Fluff-History on Microsoft Windows.
+You may copy and redistribute their unmodified object-code form with an application
+that adds significant primary functionality, subject to the applicable Microsoft
+redistribution rights and these protections. Do not offer the Microsoft Components
+as a separate SDK, standalone product or leased service. Static library code may
+be redistributed only as linked into the application. Retain all applicable
+copyright, patent, trademark and license notices. Distributors must pass on these
+component terms and the exact applicable notices, and require their distributors
+and external end users to agree to terms providing at least these protections.
+
+2. Component restrictions
+
+Do not bypass technical limitations of the Microsoft Components, or reverse
+engineer, decompile or disassemble them except where applicable law or separately
+applicable open-source terms permit it. Do not use them unlawfully or in malicious
+or deceptive software, remove or alter their notices, or suggest Microsoft
+authorship, endorsement or sponsorship of your application. Do not impose source
+disclosure or modification-right obligations on Microsoft's proprietary component
+code or other Microsoft intellectual property. This restriction does not apply to
+Fluff-History's own MIT source or override any separate open-source grant.
+Comply with applicable export restrictions. Microsoft and its suppliers retain
+rights in their components except for the applicable license grants.
+
+3. Microsoft warranties, support and liability
+
+To the maximum extent permitted by applicable law, the Microsoft Components are
+provided as-is, with no Microsoft or supplier warranty, including implied
+merchantability, fitness for a particular purpose or non-infringement. No additional
+Microsoft support or service obligation is created by this distribution. To that
+same extent, Microsoft and its suppliers are liable only for direct damages up to
+US $5.00, and not consequential, special, indirect, incidental or lost-profit
+damages, including where advised of their possibility.
+
+Nothing here excludes mandatory consumer rights, non-excludable liability or
+separately applicable Microsoft rights and regional protections. This includes
+applicable protections concerning intentional conduct, gross negligence, personal
+injury, product liability and essential contractual duties. A separately applicable
+license granting additional rights or requiring non-waivable protections prevails
+for that component. These component terms do not create or expand any warranty
+for Fluff-History's independently MIT-licensed contributions.
+
+Copyright (c) 2026 Fish & Dog Software - first-party contributions only.

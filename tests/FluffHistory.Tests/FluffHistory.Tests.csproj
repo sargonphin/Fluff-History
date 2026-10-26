@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <!-- Reuse this assembly as a child-process lock probe; no extra test-helper project. -->
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Pure Desktop presentation logic is portable; no WinUI project reference enters Ubuntu's graph. -->
+    <Compile Include="../../src/FluffHistory.Desktop/Presentation/Models/*.cs" Link="Presentation/%(Filename)%(Extension)" />
+    <Compile Include="../../tools/FluffHistory.Localization/CatalogValidation.cs" Link="Localization/CatalogValidation.cs" />
+    <Compile Include="../../tools/FluffHistory.Localization/TranslationHygiene.cs" Link="Localization/TranslationHygiene.cs" />
+    <Content Include="../../src/FluffHistory.Desktop/Strings/**/*.resw" Link="Localization/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <!-- Standalone Windows PowerShell/.NET Framework research adapter, compiled by the opt-in script. -->
+    <Compile Remove="Diagnostics/MicrosoftAccountProbeNative.cs" />
+    <Content Include="Diagnostics/Invoke-MicrosoftAccountProbe.ps1;Diagnostics/MicrosoftAccountProbeNative.cs" CopyToOutputDirectory="PreserveNewest" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/FluffHistory.Core/FluffHistory.Core.csproj" />
+    <ProjectReference Include="../../src/FluffHistory.Storage/FluffHistory.Storage.csproj" />
+    <ProjectReference Include="../../src/FluffHistory.Engine/FluffHistory.Engine.csproj" />
+    <ProjectReference Include="..\..\src\FluffHistory.Windows\FluffHistory.Windows.csproj" />
+    <ProjectReference Include="..\..\src\FluffHistory.Application\FluffHistory.Application.csproj" />
+  </ItemGroup>
+</Project>

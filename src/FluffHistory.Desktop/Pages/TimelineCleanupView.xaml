@@ -1,0 +1,12 @@
+<UserControl x:Class="FluffHistory.Desktop.Pages.TimelineCleanupView"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:loc="using:FluffHistory.Desktop.Presentation">
+ <StackPanel Spacing="16" MaxWidth="520">
+  <ComboBox loc:Localize.Uid="TimelineCleanup_ComboBox_CleanupSelection" ItemsSource="{x:Bind Model.Choices, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedChoice, Mode=TwoWay}" DisplayMemberPath="Label" HorizontalAlignment="Stretch" IsEnabled="{x:Bind Model.CanEdit, Mode=OneWay}"/>
+  <TextBlock Text="{x:Bind Model.Explanation, Mode=OneWay}" Style="{StaticResource BodyText}"/>
+  <TextBlock Text="{x:Bind Model.Summary, Mode=OneWay}" Style="{StaticResource BodyText}" AutomationProperties.LiveSetting="Polite"/>
+  <TextBlock Text="{x:Bind Model.SpaceExplanation, Mode=OneWay}" Style="{StaticResource SecondaryText}" Visibility="{x:Bind Model.HasSpaceEstimate, Mode=OneWay, Converter={StaticResource VisibleWhen}}"/>
+  <ProgressRing Width="24" Height="24" HorizontalAlignment="Left" IsActive="{x:Bind Model.Busy, Mode=OneWay}" Visibility="{x:Bind Model.Busy, Mode=OneWay, Converter={StaticResource VisibleWhen}}"/>
+  <Button loc:Localize.Uid="TimelineCleanup_Button_Cancel" Command="{x:Bind Model.Cancel}" Visibility="{x:Bind Model.Busy, Mode=OneWay, Converter={StaticResource VisibleWhen}}"/>
+  <TextBlock Text="{x:Bind Model.Result, Mode=OneWay}" Style="{StaticResource BodyText}" AutomationProperties.LiveSetting="Polite"/>
+ </StackPanel>
+</UserControl>

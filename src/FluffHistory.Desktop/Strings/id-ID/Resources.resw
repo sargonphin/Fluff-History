@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>id-ID</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Ringkasan</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Garis waktu</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Konfigurasi</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Pengaturan aplikasi</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Siap</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Konfigurasi</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Lokasi cadangan</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Ubah kata sandi pemulihan…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Aktifkan enkripsi…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Nonaktifkan enkripsi…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kemajuan konversi enkripsi</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Lanjutkan</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Jeda</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Ruang drive</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ruang drive cadangan yang digunakan</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pulihkan akses…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Pulihkan akses…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Pulihkan dengan Akun Microsoft (Eksperimental)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Ubah…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ubah lokasi cadangan</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Folder yang dicadangkan</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Folder yang dicadangkan</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Tambah folder…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Hapus dari pencadangan</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Menghapus folder menghentikan pencadangan berikutnya. Riwayat yang ada tetap disimpan sesuai pengaturan retensi.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Folder yang dikecualikan</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Folder yang dikecualikan tidak disertakan dalam cadangan berikutnya. Riwayat yang ada tetap disimpan.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Folder yang dikecualikan</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Kecualikan folder…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kecualikan folder</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Hapus pengecualian</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hapus pengecualian pengguna yang dipilih</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Pencadangan otomatis</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pencadangan otomatis</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Cadangkan berkas</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Frekuensi pencadangan</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Simpan versi yang tersimpan</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Retensi versi tersimpan</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Pencadangan otomatis tetap berjalan saat jendela ini ditutup. Pencadangan yang terlewat tidak diantrekan.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Daya dan jaringan</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Daya dan jaringan</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Daya dan jaringan</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Jeda pencadangan otomatis saat menggunakan baterai</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Izinkan cadangan yang menggunakan jaringan pada koneksi terukur</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Tunggu saat Windows melaporkan tidak ada jaringan untuk cadangan jaringan</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lanjutan</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lanjutan</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Lanjutan</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Simpan kunci pemulihan ke OneDrive (eksperimental)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Verifikasi pemulihan OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Pemulihan eksperimental</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Tunggu saat Windows tidak dapat menentukan status daya</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Atur ulang konfigurasi aplikasi…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Simpan perubahan</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Buang perubahan</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Pratinjau Pengembang Fluff-History</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Pencadangan terjadwal tetap berjalan saat jendela ini ditutup. Integrasi Explorer dan Properti dipasang bersama Fluff-History. Mendukung pemulihan dengan kata sandi dan akses Windows lokal. Tanpa telemetri atau unggahan otomatis.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Salin diagnostik yang telah dibersihkan</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Periksa jalur folder sebelum berbagi. Kata sandi pemulihan, materi kunci, atau token akun tidak disertakan.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Diagnostik aplikasi</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Garis waktu</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Perubahan enkripsi berlangsung</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>Riwayat cadangan sementara tidak tersedia. Lanjutkan perubahan enkripsi di Konfigurasi hingga selesai.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Jalur folder garis waktu</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Garis waktu pada</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Terbaru</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Pilih tanggal/waktu…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Tampilkan garis waktu menurut waktu lokal</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tanggal acuan</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Waktu</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Waktu acuan</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Tampilkan garis waktu</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Segarkan</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Folder induk</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Folder induk</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Pulihkan</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Lebih awal</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Waktu lebih awal di garis waktu</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Lebih akhir</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Waktu lebih akhir di garis waktu</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Segarkan</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Bersihkan versi lama…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Tampilan</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Ikon besar</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Daftar</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Pulihkan yang dipilih…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Batalkan semua pilihan</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Daftar garis waktu</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ikon besar garis waktu</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Tidak ada versi garis waktu untuk ditampilkan</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Buka Konfigurasi</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Muat lebih banyak berkas dan folder</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Pratinjau / Buka</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Pulihkan</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pulihkan versi yang dipilih</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Opsi versi tersimpan</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Pulihkan ke…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Versi · terbaru dahulu</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Versi berkas</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Muat lebih banyak versi</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Memuat garis waktu</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Batalkan pemuatan</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Ringkasan</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Siapkan Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Cadangkan sekarang</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pulihkan akses…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Pulihkan akses…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Konfigurasi</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Perlu perhatian</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aktivitas pencadangan</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Ruang drive</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ruang drive cadangan yang digunakan</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Masalah berkas atau folder</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Batalkan pencadangan</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Buka garis waktu</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Pengaturan aplikasi</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Tampilan</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Pilih tampilan Fluff-History. Sistem mengikuti tampilan Windows Anda.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilan</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Preferensi aplikasi tidak dapat dimuat. Nilai bawaan yang aman digunakan. Pilih preferensi untuk menyimpan salinan baru.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Folder, jadwal, dan retensi cadangan dikelola di Konfigurasi. Garis waktu mengingat pilihan Ikon besar atau Daftar.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Hapus versi tersimpan</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Pilih yang akan dihapus...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rentang pembersihan</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Batalkan pembersihan</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Pulihkan</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Pulihkan ke…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Pratinjau / Buka</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Hapus versi tersimpan…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Lanjutkan</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Lanjutkan</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Konfirmasi</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Gunakan lokasi cadangan ini</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Menutup</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Menunggu operasi aktif selesai…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Penutupan perlu perhatian</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Tunggu operasi berkas aktif, lalu coba tutup lagi.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Tindakan perlu perhatian</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Perlu pemulihan</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Buka Ringkasan atau Konfigurasi untuk memulihkan akses dengan kata sandi pemulihan.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Belum dikonfigurasi</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Pilih Siapkan Fluff-History di Ringkasan untuk memulai.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Siap dikonfigurasi</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Dibatalkan; operasi berkas yang sudah selesai tetap selesai.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Operasi tidak dapat diselesaikan. Periksa folder yang dipilih, konfigurasi, dan koneksi, lalu coba lagi.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Preferensi aplikasi disimpan</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Atur ulang pengaturan aplikasi yang rusak secara eksplisit sebelum menyimpan.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History ditutup untuk pembaruan.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Agen latar belakang tidak tersedia. Buka kembali Fluff-History atau perbaiki pemasangan.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Pratinjau garis waktu dibuka</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Pemulihan: {0:N0} disalin · {1:N0} dilewati · {2:N0} gagal · {3:N0} belum dikonfirmasi · {4:N0} peringatan metadata</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Dibatalkan</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Pemulihan selesai. Pengguna Windows ini kini dapat membuka cadangan.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Kata sandi pemulihan tidak dapat membuka cadangan ini. Periksa kata sandi dan coba lagi.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Pemulihan belum dapat dikonfirmasi sepenuhnya. Pembukaan lokal baru berhasil; verifikasi akses sebelum mencoba lagi.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Akses lokal setelah pemulihan belum dapat dikonfirmasi. Periksa lokasi cadangan sebelum mencoba lagi.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Lokasi cadangan tidak valid atau rusak. Pemulihan belum selesai.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Pemulihan dibatalkan.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Pemulihan tidak dapat diselesaikan. Periksa lokasi cadangan dan koneksi sebelum mencoba lagi.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Lokasi cadangan</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Tambah folder</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Folder yang dicadangkan</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Lindungi cadangan ini dengan kata sandi pemulihan</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Siapkan lokasi cadangan ini?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Folder kosong ini akan disiapkan sekarang. Setelah itu simpan perubahan untuk mulai menggunakannya.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Kata sandi pemulihan</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Konfirmasi kata sandi</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Ubah kata sandi pemulihan</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Lanjutkan perubahan enkripsi</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Lindungi cadangan Anda</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Pulihkan akses cadangan</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Ubah kata sandi</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Siapkan cadangan terlindungi</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Pulihkan akses</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Mengubah kata sandi untuk pemulihan portabel. Data cadangan yang ada tidak perlu dienkripsi ulang. Simpan kata sandi baru di tempat aman.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Masukkan kata sandi pemulihan untuk perubahan enkripsi ini. Cadangan tetap dijeda jika akses tidak dapat dikonfirmasi.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Simpan kata sandi pemulihan di tempat aman. Anda memerlukannya untuk memulihkan akses di instalasi Windows lain. Pengguna Windows ini dapat membuka cadangan secara normal.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Cadangan ini ada, tetapi pengguna Windows ini belum dapat membukanya. Masukkan kata sandi pemulihan untuk mengaktifkan akses.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Masukkan kata sandi; konfirmasi harus cocok</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Cadangan yang ada ditemukan</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Bersihkan versi lama</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Hapus versi…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Konfirmasi pembersihan garis waktu</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Dihapus dari cadangan berikutnya. Riwayat yang ada tetap disimpan sesuai pengaturan retensi.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Folder ini disertakan dalam cadangan berikutnya kecuali ada pengecualian lain. Riwayat yang ada tetap disimpan.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Atur ulang konfigurasi aplikasi?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Data cadangan dan sumber tidak disentuh. Hanya pengaturan aplikasi ini yang diatur ulang.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Atur ulang konfigurasi</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Perubahan enkripsi dijeda</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Penghapusan enkripsi dijeda</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Perubahan enkripsi perlu perhatian</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Menyiapkan perubahan enkripsi</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} dari {1} · {2:N0} dari {3:N0} berkas</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Kontrol konversi tidak dapat diverifikasi. Riwayat cadangan tetap tidak tersedia. Periksa koneksi cadangan dan Diagnostik.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>Riwayat cadangan sementara tidak tersedia hingga konversi selesai. Dapat dilanjutkan setelah terputus.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Terenkripsi</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Tidak terenkripsi</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Gunakan pemulihan untuk mengaktifkan akses bagi akun Windows ini.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Akun Windows ini dapat membuka kunci cadangan ini.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Memeriksa pemulihan OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Pemulihan OneDrive: aktif</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Kunci pemulihan tidak ada di OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Pemulihan OneDrive dinonaktifkan secara lokal; pembersihan cloud mungkin diperlukan</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>Pemulihan OneDrive perlu perhatian</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Pemulihan OneDrive tidak tersedia</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Pemulihan OneDrive: nonaktif</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Eksperimental. Kunci pemulihan acak disimpan di folder aplikasi Fluff-History di OneDrive; file cadangan tetap di lokasi pencadangan. Izin hanya mencakup folder aplikasi ini. PC lain mungkin dapat memulihkan cadangan setelah masuk ke akun Microsoft. Microsoft menandai izin ini sebagai Preview. Simpan kata sandi pemulihan Anda.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Kata sandi pemulihan diubah. Simpan kata sandi baru di tempat aman.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Pemulihan OneDrive diaktifkan dan diverifikasi. Simpan kata sandi pemulihan Anda.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Pemulihan OneDrive dinonaktifkan. Kata sandi dan akses Windows tidak berubah.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Pemulihan OneDrive diverifikasi.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Pemulihan selesai. Akun Windows ini kini dapat membuka kunci cadangan.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Kunci pemulihan tidak ada di OneDrive. Gunakan kata sandi pemulihan Anda.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>Kunci pemulihan OneDrive tidak dapat mengautentikasi cadangan ini. Gunakan kata sandi pemulihan Anda.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Perubahan belum dapat dikonfirmasi sepenuhnya. Periksa akses sebelum mencoba lagi; riwayat cadangan tidak berubah.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Operasi dibatalkan.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Perubahan keamanan tidak dapat diselesaikan. Periksa akses dan coba lagi. Pemulihan kata sandi tetap tersedia.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Enkripsi cadangan</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Isi cadangan yang ada akan dienkripsi di tempat. Pencadangan dan pemulihan sementara tidak tersedia. Simpan kata sandi pemulihan; akses Windows ditambahkan otomatis. Diperlukan ruang kosong yang cukup dan dapat dilanjutkan setelah gangguan.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Metadata dan isi berkas akan disimpan tanpa enkripsi di lokasi cadangan. Pencadangan dan pemulihan sementara tidak tersedia selama konversi. Dapat dilanjutkan setelah gangguan.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Aktifkan enkripsi?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Nonaktifkan enkripsi?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Perubahan enkripsi selesai.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Sebagian metadata yang tidak lagi digunakan mungkin tetap tanpa enkripsi hingga pembersihan berhasil. Pembersihan akan dicoba lagi.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Sebagian metadata lama belum dapat dihapus; pembersihan akan dicoba lagi.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Perubahan enkripsi dijeda. Lanjutkan hingga selesai; berkas yang sudah dikonversi tetap disimpan.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Konversi enkripsi belum dimulai.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Diperlukan lebih banyak ruang kosong. Kosongkan ruang lalu lanjutkan. Tidak ada riwayat yang dihapus.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Diperlukan lebih banyak ruang kosong. Kosongkan ruang lalu coba ubah enkripsi lagi. Tidak ada riwayat yang dihapus.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Gunakan kata sandi pemulihan untuk melanjutkan perubahan enkripsi.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Perubahan enkripsi perlu perhatian. Periksa koneksi cadangan dan kata sandi pemulihan lalu lanjutkan. Jangan hapus berkas konversi.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Perubahan enkripsi tidak dapat dimulai. Periksa koneksi cadangan dan data cache opsional lalu coba lagi. Riwayat cadangan tidak berubah.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Simpan versi selamanya</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Tidak ada folder yang dikecualikan.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Pilih tempat menyimpan cadangan</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Pilih lokasi cadangan untuk melanjutkan.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Enkripsi cadangan ini dijeda</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Penghapusan enkripsi dijeda</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Perubahan belum disimpan · tetap ada saat berganti halaman</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Konfigurasi sudah mutakhir</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Pilih frekuensi pencadangan yang didukung.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Pilih lokasi cadangan.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Pilih lokasi cadangan sebelum menyimpan.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Lokasi cadangan tidak tersedia. Pilih Ubah untuk memilihnya lagi atau menggunakan lokasi lain.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Periksa folder yang dipilih dan lokasi cadangan.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Folder ini sudah berisi data yang tidak terkait. Fluff-History tidak akan membuat cadangan baru di sana. Pilih folder kosong atau cadangan Fluff-History yang ada.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Pilih lokasi cadangan lain</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Lokasi ini tidak tersedia. Periksa koneksi atau pilih lokasi lain.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Lokasi cadangan tidak tersedia</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Simpan perubahan untuk menjadikannya lokasi cadangan Anda.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Kata sandi pemulihan tidak dapat membuka cadangan ini.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Akses belum dapat dikonfirmasi sepenuhnya. Periksa cadangan ini sebelum mencoba lagi.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Lokasi cadangan dipilih. Pilih folder lalu simpan perubahan.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Pilih paling banyak 1.024 folder.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Sudah dicadangkan melalui {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Folder ini tidak dapat dipilih.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Konflik pemilihan folder</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Cadangkan folder-folder ini?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Tetap cadangkan</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Folder ini sudah dikecualikan.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Folder dikecualikan dari cadangan berikutnya. Riwayat yang ada tetap disimpan.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Terbaru</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Tambahkan folder di Konfigurasi untuk memulai. Folder tersimpan akan muncul di sini.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Folder ini belum memiliki versi tersimpan. Berkas akan muncul setelah pencadangan berhasil.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Folder ini tidak memiliki berkas tersimpan pada waktu yang dipilih. Coba waktu lain atau pilih Terbaru.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Garis waktu berubah. Segarkan untuk melanjutkan.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Garis waktu pada: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>4.096 item dimuat. Buka folder untuk mempersempit tampilan.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>1.024 waktu dimuat. Persempit folder atau pilih tanggal dan waktu.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>1.024 versi dimuat. Pratinjau ini membatasi daftar versi.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Tidak ada folder di garis waktu</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Versi terbaru yang tersisa</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Versi berhasil saat ini dilindungi dan tidak dapat dihapus.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Pilih berkas atau folder</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Buka folder ini untuk menjelajahi berkas tersimpan.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Buka folder untuk menjelajahi berkas tersimpan. Folder-folder ini adalah entri navigasi, bukan versi direktori yang dapat dipulihkan.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Pilih berkas atau folder dari tampilan ini untuk dipulihkan bersama. Pilih satu berkas untuk melihat versinya.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Folder menampilkan berkas yang disimpan di garis waktu. Tanggal dan properti folder tidak disimpan terpisah.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Buka Konfigurasi untuk menyiapkan garis waktu.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Buka Konfigurasi untuk melanjutkan.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Segarkan untuk memuat garis waktu cadangan ini.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Item ini saat ini tidak dicadangkan oleh Fluff-History.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Buka Konfigurasi atau Ringkasan untuk mengakses cadangan ini.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Item ini belum memiliki riwayat tersimpan.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Berkas ini belum memiliki versi tersimpan.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Saat ini tidak dicadangkan</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Saat ini tidak dicadangkan</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Folder ini tidak lagi ada di garis waktu.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Waktu lokal ini tidak ada karena waktu musim panas. Pilih waktu lain.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Pemuatan dibatalkan. Baris yang selesai tetap tersedia.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Memuat garis waktu…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Pemuatan dibatalkan.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Tidak dapat memulihkan item yang dipilih</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Pulihkan ke lokasi asli?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Berkas historis yang dipilih akan dipulihkan ke lokasi sumber aslinya. Windows akan menanyakan konflik berkas yang ada.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Hapus versi tersimpan ini?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Versi tersimpan dihapus.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Penghapusan dibatalkan. {0:N0} versi tersimpan dihapus sebelum pembatalan; penghapusan yang dikonfirmasi tetap selesai.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Penghapusan perlu perhatian. Sebagian perubahan atau pembersihan isi mungkin belum dikonfirmasi. Periksa cadangan sebelum mencoba lagi.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Tindakan tidak dapat diselesaikan. Periksa konfigurasi dan coba lagi.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Perubahan enkripsi berlangsung</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Agen latar belakang tidak tersedia</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Siapkan Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Pencadangan berlangsung</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Pencadangan perlu perhatian</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Pilih lokasi cadangan dan folder yang ingin dicadangkan.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Pencadangan otomatis diaktifkan</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Pencadangan otomatis dinonaktifkan</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Memeriksa kondisi pencadangan…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Membuka cadangan…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Memindai dan mencadangkan berkas…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Menerapkan kebijakan retensi…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Memeriksa metadata…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Memadatkan metadata…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Membersihkan metadata…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Mengompresi metadata…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Mengenkripsi…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Mendekripsi…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Menyelesaikan pencadangan…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Pembatalan diminta</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Folder tidak dipetakan</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Menampilkan {0:N0} dari {1:N0} masalah yang dicatat dalam sesi ini.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>Riwayat cadangan sementara tidak tersedia. Lanjutkan perubahan enkripsi di Konfigurasi.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Cadangan ada, tetapi pengguna Windows ini tidak memiliki akses. Kata sandi pemulihan dapat memulihkannya.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Pencadangan selesai, tetapi pemeliharaan garis waktu perlu perhatian. Lihat Diagnostik sebelum mencoba pembersihan lagi.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Sebagian perubahan belum dapat dikonfirmasi. Periksa lokasi cadangan sebelum melanjutkan.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Lokasi cadangan memerlukan lebih banyak ruang kosong sebelum pencadangan berlanjut.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Sebagian berkas atau folder dilewati. Perluas Masalah berkas atau folder di bawah untuk melihat jalur dan alasannya. Versi lain yang berhasil tetap tersimpan.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Tambahkan folder di Konfigurasi untuk mulai mencadangkan.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Tidak ada perubahan untuk dicadangkan.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>kurang dari satu detik</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} dan {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Pemulihan diperlukan. Gunakan kata sandi pemulihan untuk mengaktifkan akses pengguna Windows ini.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Selesaikan perubahan enkripsi di Konfigurasi sebelum menggunakan riwayat cadangan.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Garis waktu berubah. Segarkan untuk melanjutkan penelusuran dan pemulihan.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Lokasi cadangan ini tidak valid atau rusak. Periksa lokasi yang dipilih.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Pencadangan atau pembersihan sudah berjalan. Tunggu hingga selesai lalu coba lagi.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Pilihan ini tidak dapat digunakan di sini. Pilih item dari folder dan waktu saat ini.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Item historis yang dipilih berisi berkas dan folder dengan jalur sama dan tidak dapat dipulihkan bersama.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Operasi dibatalkan. Operasi berkas yang selesai tetap selesai.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Lokasi cadangan atau tujuan tidak tersedia. Periksa lokasi dan koneksi lalu coba lagi.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Lokasi cadangan tidak valid</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Pencadangan selesai</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Pencadangan selesai dengan masalah folder atau berkas</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Pencadangan dibatalkan</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Pencadangan dijeda: ruang tidak cukup</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Pencadangan ditunda</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Pencadangan perlu perhatian</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Belum ada pencadangan dalam sesi aplikasi ini.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Menunggu daya eksternal.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows tidak dapat menentukan status daya.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Menunggu koneksi tidak terukur.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows melaporkan tidak ada jaringan untuk cadangan jalur jaringan.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Terang</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Gelap</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} digunakan dari {1} · {2} kosong</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Memeriksa ruang drive…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Informasi ruang drive tidak tersedia.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Menghitung ukuran cadangan…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Cadangan memakai {0} saat pemeriksaan terakhir</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Cadangan memakai {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Ukuran cadangan tidak tersedia</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Pilih yang akan dihapus untuk pratinjau. Tidak ada yang dihapus hingga Anda mengonfirmasi.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Memeriksa versi tersimpan…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Garis waktu berubah. Pilih lagi yang akan dihapus.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Ini akan mengosongkan sekitar {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Tidak ada yang dihapus untuk pilihan ini.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Periksa pratinjau sebelum menghapus versi.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Pratinjau dibatalkan. Tidak ada yang dihapus.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Pratinjau tidak lengkap: batas kerja tercapai. Pembersihan tidak dapat dijalankan.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Menghapus versi tersimpan…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Garis waktu berubah setelah pratinjau ini. Lihat pratinjau lagi sebelum menghapus versi.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Sebagian isi tersimpan belum dapat dibersihkan.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Pembersihan selesai. Segarkan garis waktu untuk melihat versi tersisa.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Pembersihan dibatalkan. Penghapusan yang dikonfirmasi tetap selesai. Segarkan garis waktu.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Pembersihan perlu perhatian. Sebagian perubahan mungkin belum dikonfirmasi; periksa cadangan sebelum mencoba lagi. Segarkan garis waktu.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Menyimpan satu versi terbaru yang tersisa di setiap jalur, termasuk berkas yang tidak lagi dicadangkan. Versi saat ini tetap dilindungi.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Versi saat ini tetap dilindungi. Berkas yang hanya ada di garis waktu dapat hilang seluruhnya jika semua versinya lebih tua dari usia ini.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Ruang perkiraan; ruang kosong sebenarnya mungkin berbeda.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} bita</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} bita</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} bita</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} bita</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} bita</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} bita</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} folder yang ada</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} folder yang ada</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} folder yang ada</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} folder yang ada</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} folder yang ada</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} folder yang ada</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} masalah berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} masalah berkas</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} masalah berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} masalah berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} masalah berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} masalah berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} berkas</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versi berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} versi berkas</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} versi berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} versi berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} versi berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} versi berkas</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} jam</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} jam</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} jam</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} jam</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} jam</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} jam</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} menit</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} menit</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} menit</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} menit</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} menit</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} menit</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versi baru disimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} versi baru disimpan</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} versi baru disimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} versi baru disimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} versi baru disimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} versi baru disimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versi tersimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} versi tersimpan</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} versi tersimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} versi tersimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} versi tersimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} versi tersimpan</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} detik</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} detik</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} detik</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} detik</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} detik</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} detik</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, Folder</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, Berkas, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Disimpan {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} dipilih</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} item dipilih</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Disimpan: {1:f}
+
+Ini hanya menghapus versi tersimpan ini secara permanen. Berkas sumber dan versi tersimpan lain tetap ada. Tidak dapat dibatalkan.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} folder di garis waktu</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>{0} ditambahkan · {1} diaktifkan ulang · {2} sudah dipilih</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} tidak ditambahkan</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>{0} dihapus ({1} isi tersimpan).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Hapus {0} dari {1} secara permanen? Berkas sumber dan versi saat ini tetap ada. Tidak dapat dibatalkan.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} dipilih untuk dicadangkan</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Terakhir dicadangkan pada {0:f} dan memerlukan {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Upaya pencadangan terakhir pada {0:f} dan memerlukan {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Disimpan {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Berkas diubah {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Disimpan: {2:G}
+Berkas diubah: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Garis waktu pada {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Garis waktu</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Setiap 10 menit</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Setiap 30 menit</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Setiap jam</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Setiap 3 jam</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Setiap 6 jam</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Setiap 12 jam</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Setiap hari</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Sampai ruang penuh</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 bulan</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 bulan</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 bulan</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 bulan</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 tahun</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 tahun</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Selamanya</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Versi yang lebih tua dari usia ini dapat dihapus setelah pencadangan berhasil. Versi saat ini tetap dilindungi.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Versi disimpan hingga volume cadangan mencapai ambang keamanan kapasitas. Saat ruang diperlukan, versi tertua yang memenuhi syarat dihapus otomatis. Versi saat ini tetap dilindungi.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Kebijakan “Selamanya” tidak pernah otomatis menghapus riwayat garis waktu. Versi terus bertambah hingga volume tidak dapat menerima cadangan baru dengan aman. Anda kemudian harus mengosongkan ruang atau membersihkan garis waktu secara manual.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Lebih lama dari 1 bulan</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Lebih lama dari 3 bulan</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Lebih lama dari 6 bulan</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Lebih lama dari 9 bulan</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Lebih lama dari 1 tahun</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Lebih lama dari 2 tahun</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Simpan hanya versi terbaru</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData berisi status aplikasi, cache, basis data, dan berkas sementara. Isinya sering berubah dan dapat memperbesar garis waktu dengan cepat. Memulihkan berkas ini bukan pengganti pemasangan ulang atau pemulihan aplikasi yang benar.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Berkas sistem dan program terpasang besar dan sering berubah. Fluff-History bukan cadangan citra sistem. Memulihkan berkas ini saja mungkin tidak memperbaiki Windows atau aplikasi terpasang.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData dapat berisi status aplikasi bersama, cache, dan basis data yang sering berubah. Hal ini dapat menghasilkan banyak data garis waktu.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Lokasi ini terutama berisi berkas sementara atau pemasangan dan dapat menimbulkan banyak perubahan garis waktu yang berumur pendek.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Lokasi ini berisi metadata sistem atau berkas kerja Fluff-History dan tidak dapat dicadangkan.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Memeriksa konfigurasi cadangan…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Pengaturan aplikasi perlu perhatian. Atur ulang konfigurasi secara eksplisit; data cadangan tidak disentuh.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Konfigurasi cadangan tersimpan tidak tersedia atau tidak valid. Periksa Konfigurasi sebelum melanjutkan.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows tidak dapat memvalidasi lokasi cadangan atau data kerja sementara aplikasi. Periksa akses dan ruang kosong lalu coba lagi.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Folder yang dipilih untuk cadangan tidak dapat sekaligus dikecualikan. Hapus dari pencadangan atau ubah pengecualian.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Pilih paling banyak 256 folder yang dikecualikan dengan paling banyak 256 KiB jalur.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Sumber ini mendukung paling banyak 256 folder efektif yang dikecualikan dan 256 KiB konfigurasi. Pilih pengecualian lebih sedikit atau lebih pendek.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Folder hanya dapat dipilih sekali.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Folder bersarang yang dipilih harus dikecualikan dari folder induknya.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Pilih jalur folder absolut.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Pilih folder drive atau jaringan biasa.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Pilih jalur berbagi jaringan lengkap.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Jalur folder ini ambigu atau keluar dari akarnya. Pilih jalur folder absolut biasa.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Folder di dalam lokasi cadangan atau yang memuat lokasi cadangan tidak dapat dicadangkan.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Konfirmasikan peringatan sebelum menambahkan folder ini.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Ini mengarah ke folder sistem Windows atau data aplikasi. Pilih lokasi sebenarnya dan konfirmasikan peringatan terlebih dahulu.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Folder-folder ini mengarah ke lokasi Windows yang tumpang tindih. Pilih setiap lokasi sekali.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Folder ini mengarah ke data kerja sementara Fluff-History dan tidak dapat dicadangkan.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Dokumen</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Unduhan</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Gambar</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Musik</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Nama berkas atau folder tidak didukung.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Alias huruf besar/kecil ambigu.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Batas tidak didukung, titik penguraian ulang, atau EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Berkas tidak didukung atau terlalu besar.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Sumber berubah saat disalin.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Tidak dapat mengakses berkas atau folder ini.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Tidak dapat mengakses berkas atau folder ini (kesalahan Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Akar sumber atau leluhurnya bukan direktori biasa.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Batas direktori tidak didukung.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Memeriksa ruang</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Mengenkripsi berkas</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Mendekripsi berkas</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Membangun ulang metadata</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Menyelesaikan cadangan</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Berkas atau folder ini sedang digunakan aplikasi lain.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Akses ke berkas atau folder ini ditolak.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Berkas atau folder ini tidak ditemukan saat pemindaian.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Konfigurasi disimpan</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Perubahan folder disimpan. Folder yang diperbarui akan disertakan dalam cadangan terjadwal berikutnya.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Perubahan folder disimpan. Folder yang diperbarui akan disertakan dalam cadangan berikutnya.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Pencadangan diminta</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Pencadangan sudah berjalan atau sedang diselesaikan.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Siapkan lokasi cadangan dan folder yang siap di Konfigurasi.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Pulihkan versi sebelumnya…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Memuat riwayat...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Dicadangkan</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Saat ini tidak dicadangkan</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Tidak dicadangkan oleh Fluff-History</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Perlu pemulihan</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Cadangan tidak tersedia</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Sesi riwayat kedaluwarsa</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Cadangan tidak tersedia. Buka Fluff-History atau segarkan.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Sesi riwayat kedaluwarsa. Segarkan untuk melanjutkan.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Lokasi cadangan: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Jelajahi riwayat folder</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Buka Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Jelajahi semua versi</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Folder disusun dari versi berkas tersimpan.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Pemulihan mengubah berkas aktif. Riwayat tersimpan tetap ada.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History tidak tersedia. Pasang Pratinjau Pengembang dan coba lagi.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Pulihkan versi tersimpan ini ke lokasi aslinya? Windows akan menanyakan konflik berkas yang ada. Riwayat tersimpan tetap ada.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Pulihkan versi tersimpan?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Memulihkan versi yang dipilih...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Cadangan tidak tersedia. Buka Fluff-History untuk melanjutkan.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Pulihkan</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Segarkan</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>Riwayat folder disusun dari versi berkas tersimpan.
+Waktu garis waktu terbaru:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Belum ada versi berkas tersimpan.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Diubah {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Tidak ada versi tersimpan berkas ini. Buka Garis waktu atau Konfigurasi untuk melanjutkan.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Versi tersimpan terbaru: {0:f}
+Versi dipertahankan: {1:N0}
+Versi tertua dipertahankan: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Versi tersimpan terbaru: {0:f}
+Versi dipertahankan: {1:N0}+; buka garis waktu untuk riwayat lengkap
+Versi tertua dipertahankan: buka garis waktu untuk riwayat lengkap</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Tidak dicadangkan oleh Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Pemulihan diperlukan. Buka Fluff-History untuk memulihkan akses.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Cadangan tidak tersedia. Buka Fluff-History atau coba lagi.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Pemulihan perlu perhatian. Periksa tujuan sebelum mencoba lagi.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Pemulihan dibatalkan. Operasi berkas yang selesai tetap selesai.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Berkas dipulihkan. Riwayat tersimpan tidak berubah.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Tidak ada berkas dipulihkan. Periksa tujuan.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Riwayat berubah. Segarkan sebelum memulihkan.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Pemulihan tidak tersedia. Buka Fluff-History untuk melanjutkan.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Pemulihan dibatalkan. Periksa tujuan.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>id-ID</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Pintasan:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Buat pintasan &amp;Desktop</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Buat pintasan menu &amp;Mulai</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History memerlukan folder pemasangan tetap per pengguna.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Pemasangan atau startup aplikasi sedang aktif. Tunggu sebentar dan coba lagi.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History tidak dapat menyiapkan pembaruan. Tutup operasi berkas aktif dan halaman Properti, lalu coba lagi. Repositori cadangan tidak berubah.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History tidak dapat menyelesaikan pemasangan. Status aplikasi disimpan untuk percobaan ulang; repositori cadangan tidak berubah.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Pemasangan perlu perhatian</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History tidak dapat menyelesaikan pemasangan. Pengaturan aplikasi dan repositori cadangan tetap ada. Jalankan Penyiapan lagi untuk mencoba ulang.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Tutup Fluff-History, operasi berkas aktif, dan halaman Properti sebelum mencopot pemasangan. Tidak ada yang dihentikan paksa.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Diagnostik disalin. Periksa jalur folder sebelum berbagi.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Bahasa</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bahasa aplikasi</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Gunakan bahasa Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Perubahan langsung diterapkan. Tanggal dan angka menggunakan pengaturan regional Anda.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Perbaiki pemulihan OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Nonaktifkan secara lokal…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Pemulihan lama perlu ditingkatkan ke OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Pemulihan OneDrive eksperimental belum dikonfigurasi dalam build ini.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Masuk ke Microsoft untuk menggunakan pemulihan OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Masuk atau persetujuan Microsoft ditolak. Pemulihan dengan kata sandi tetap tersedia.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Izin folder aplikasi OneDrive yang diperlukan tidak tersedia. Pemulihan dengan kata sandi tetap tersedia.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>Pemulihan OneDrive memerlukan koneksi internet. Kata sandi dan akses Windows lokal tetap tersedia.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>Pemulihan OneDrive tidak dapat diverifikasi saat ini. Coba lagi nanti atau gunakan kata sandi pemulihan Anda.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive sedang sibuk. Coba lagi nanti.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive tidak tersedia atau belum disiapkan untuk akun Microsoft ini. Gunakan kata sandi pemulihan Anda.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>Kunci pemulihan OneDrive berubah atau tidak valid. Gunakan kata sandi pemulihan Anda atau perbaiki pemulihan di PC yang dapat membuka kunci cadangan ini.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Pembersihan OneDrive mungkin masih diperlukan. Hanya kunci pemulihan yang terpengaruh; kata sandi dan akses Windows tidak berubah.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Pembersihan OneDrive mungkin masih diperlukan. File pemulihan: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>Pemulihan OneDrive berfungsi, tetapi kredensial pemulihan Windows lama tidak dapat dihapus sepenuhnya.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Nonaktifkan pemulihan OneDrive secara lokal?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Ini menghapus tautan pemulihan OneDrive cadangan tanpa menghapus file pemulihannya di cloud. Anda mungkin perlu menghapus file itu secara manual dari OneDrive. Kata sandi dan akses Windows tidak berubah.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Pemulihan OneDrive dinonaktifkan secara lokal.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Perbaiki pemulihan OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Buat dan verifikasi kunci pemulihan baru sebelum menonaktifkan yang lama. File cloud yang diubah akan dipertahankan.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Pembaruan</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Saluran pembaruan</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Periksa otomatis</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Stabil</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Tidak pernah</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Harian</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Mingguan</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Bulanan</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Periksa sekarang</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Versi saat ini: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Terakhir diperiksa: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Build pengembangan yang belum diterbitkan</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>{0} ({1}) tersedia: {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Unduh dan instal</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Lihat catatan rilis</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Sudah terbaru</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Memeriksa pembaruan…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Mengunduh pembaruan… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Memverifikasi pembaruan…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Siap diinstal</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Menunggu pencadangan atau pekerjaan aktif lainnya selesai.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Menginstal pembaruan…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Tidak dapat menghubungi GitHub. Coba lagi nanti.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub membatasi permintaan. Coba lagi nanti.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Tidak ada rilis yang dapat diinstal.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Verifikasi penginstal gagal. Pembaruan tidak diinstal.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Penginstalan otomatis akan tersedia setelah penanda tangan rilis disetujui.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Pembaruan tidak dapat diinstal. Coba lagi nanti.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Pembaruan telah diinstal, tetapi jendela tidak dapat dibuka kembali.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Build yang belum diterbitkan ini tidak dapat menginstal pembaruan publik.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Pemeriksaan pembaruan otomatis dinonaktifkan.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Pemeriksaan otomatis menghubungi GitHub. Tidak ada detail cadangan atau akun yang dikirim.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Pencadangan sedang berjalan. Hentikan dan instal pembaruan?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Hentikan pencadangan dan instal</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Belum diperiksa</value></data>
+</root>

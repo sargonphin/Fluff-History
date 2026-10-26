@@ -1,0 +1,4 @@
+# The frozen v2 comparison table is a format artifact; preserve its documented bytes.
+src/FluffHistory.Core/OrdinalCaseMap.txt text eol=lf
+# Preserve verbatim upstream legal snapshots, including original whitespace.
+installer/ThirdPartyNotices/*.rtf -text -whitespace

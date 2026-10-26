@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>sk-SK</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Prehľad</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Časová os</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Konfigurácia</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Informácie</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Nastavenia aplikácie</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Pripravené</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Konfigurácia</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Umiestnenie zálohy</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Zmeniť heslo na obnovenie…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Zapnúť šifrovanie…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Vypnúť šifrovanie…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Priebeh konverzie šifrovania</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Pokračovať</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Pozastaviť</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Miesto na disku</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Využité miesto na zálohovacej jednotke</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Obnoviť prístup…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Obnoviť prístup…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Obnoviť pomocou konta Microsoft (experimentálne)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Zmeniť…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zmeniť umiestnenie zálohy</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Zálohované priečinky</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zálohované priečinky</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Pridať priečinky…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Odobrať zo zálohovania</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Odobratie priečinka zastaví jeho budúce zálohovanie. Existujúca história sa zachová podľa nastavení uchovávania.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Vylúčené priečinky</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Vylúčené priečinky sa nezahŕňajú do budúcich záloh. Existujúca história sa zachová.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vylúčené priečinky</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Vylúčiť priečinok…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vylúčiť priečinok</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Odobrať vylúčenie</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Odobrať vybraté používateľské vylúčenie</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Automatické zálohy</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automatické zálohy</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Zálohovať súbory</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Frekvencia zálohovania</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Uchovávať uložené verzie</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Uchovávanie uložených verzií</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Automatické zálohovanie pokračuje aj po zatvorení okna. Zmeškané zálohy sa nezaraďujú do frontu.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Napájanie a sieť</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Napájanie a sieť</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Napájanie a sieť</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Pozastaviť automatické zálohovanie pri napájaní z batérie</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Povoliť sieťové zálohy cez pripojenia účtované podľa objemu údajov</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Čakať, ak Windows pri sieťovej zálohe nehlási sieť</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rozšírené</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rozšírené</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Rozšírené</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Uložiť kľúč na obnovenie do OneDrive (experimentálne)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Overiť obnovenie cez OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Experimentálne obnovenie</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Čakať, ak Windows nedokáže určiť stav napájania</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Obnoviť konfiguráciu aplikácie…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Uložiť zmeny</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Zahodiť</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Informácie</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History – vývojárska ukážka</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Plánované zálohovanie pokračuje po zatvorení okna. Integrácia s Prieskumníkom a Vlastnosťami sa inštaluje s Fluff-History. Podporované je obnovenie heslom a lokálny prístup Windows. Bez telemetrie a automatického odosielania.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Kopírovať očistenú diagnostiku</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Pred zdieľaním skontrolujte cesty priečinkov. Heslá na obnovenie, materiál kľúčov ani tokeny kont sa nezahŕňajú.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Diagnostika aplikácie</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Časová os</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Prebieha zmena šifrovania</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>História zálohy je dočasne nedostupná. Dokončite zmenu šifrovania pokračovaním v Konfigurácii.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cesta priečinka na časovej osi</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Referenčný čas časovej osi</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Najnovšie</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Vybrať dátum a čas…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Zobraziť časovú os k miestnemu času</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Referenčný dátum</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Referenčný čas</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Zobraziť časovú os</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Nadradený</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Nadradený priečinok</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Skôr</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Skorší okamih časovej osi</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Neskôr</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Neskorší okamih časovej osi</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Vyčistiť staré verzie…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Zobrazenie</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Veľké ikony</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Zoznam</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Obnoviť vybraté…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Zrušiť výber</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zoznam časovej osi</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Veľké ikony časovej osi</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Na časovej osi nie sú verzie na zobrazenie</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Otvoriť Konfiguráciu</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Načítať ďalšie súbory a priečinky</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Ukážka / Otvoriť</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Obnoviť vybratú verziu</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Možnosti uloženej verzie</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Obnoviť do…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Verzie · od najnovšej</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Verzie súboru</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Načítať ďalšie verzie</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Načítavanie časovej osi</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Zrušiť načítavanie</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Prehľad</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Nastaviť Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Zálohovať teraz</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Obnoviť prístup…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Obnoviť prístup…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Konfigurácia</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Vyžaduje pozornosť</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aktivita zálohovania</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Miesto na disku</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Využité miesto na zálohovacej jednotke</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Problémy so súbormi alebo priečinkami</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Zrušiť zálohovanie</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Otvoriť časovú os</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Nastavenia aplikácie</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Vzhľad</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Vyberte vzhľad Fluff-History. Systém preberá vzhľad Windows.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vzhľad</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Predvoľby aplikácie sa nepodarilo načítať. Používajú sa bezpečné predvolené hodnoty. Vyberte predvoľbu na uloženie novej kópie.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Priečinky, plánovanie a uchovávanie sa spravujú v Konfigurácii. Časová os si pamätá voľbu Veľké ikony alebo Zoznam.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Odobrať uložené verzie</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Vyberte, čo odobrať...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Interval čistenia</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Zrušiť čistenie</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Otvoriť</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Obnoviť</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Obnoviť do…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Ukážka / Otvoriť</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Odstrániť uloženú verziu…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Pokračovať</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Pokračovať</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Potvrdiť</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Použiť toto umiestnenie zálohy</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Zatváranie</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Čakanie na dokončenie aktívnych operácií…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Ukončenie vyžaduje pozornosť</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Počkajte na aktívnu operáciu so súborom a skúste znova zavrieť.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Akcia vyžaduje pozornosť</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Vyžaduje sa obnovenie</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Otvorte Prehľad alebo Konfiguráciu a obnovte prístup heslom na obnovenie.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Nenakonfigurované</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Začnite voľbou Nastaviť Fluff-History v Prehľade.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Pripravené na konfiguráciu</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Zrušené; už dokončené operácie so súbormi zostávajú dokončené.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Operáciu sa nepodarilo dokončiť. Skontrolujte vybraté priečinky, konfiguráciu a pripojenie a skúste to znova.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Predvoľby aplikácie uložené</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Pred uložením výslovne obnovte poškodené nastavenia aplikácie.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History sa zatvára kvôli aktualizácii.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Agent na pozadí nie je dostupný. Znova otvorte Fluff-History alebo opravte inštaláciu.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Ukážka časovej osi otvorená</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Obnovenie: {0:N0} skopírovaných · {1:N0} preskočených · {2:N0} zlyhaných · {3:N0} nepotvrdených · {4:N0} upozornení metadát</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Zrušené</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Obnovenie dokončené. Tento používateľ Windows teraz môže otvoriť zálohu.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Heslo na obnovenie túto zálohu neodomklo. Skontrolujte heslo a skúste to znova.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Obnovenie sa nepodarilo úplne potvrdiť. Nové lokálne otvorenie uspelo; pred ďalším pokusom overte prístup.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Lokálny prístup po obnovení sa nepodarilo potvrdiť. Pred ďalším pokusom skontrolujte umiestnenie zálohy.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Umiestnenie zálohy je neplatné alebo poškodené. Obnovenie nebolo dokončené.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Obnovenie zrušené.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Obnovenie sa nepodarilo dokončiť. Pred ďalším pokusom skontrolujte umiestnenie zálohy a pripojenie.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Umiestnenie zálohy</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Pridať priečinky</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Zálohované priečinky</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Chrániť túto zálohu heslom na obnovenie</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Nastaviť toto umiestnenie zálohy?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Tento prázdny priečinok sa teraz nastaví. Potom uložte zmeny, aby ste ho začali používať.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Heslo na obnovenie</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Potvrdiť heslo</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Zmeniť heslo na obnovenie</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Pokračovať v zmene šifrovania</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Chrániť zálohu</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Obnoviť prístup k zálohe</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Zmeniť heslo</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Nastaviť chránenú zálohu</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Obnoviť prístup</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Zmení heslo používané na prenosné obnovenie. Existujúce údaje zálohy nie je potrebné znova šifrovať. Nové heslo bezpečne uschovajte.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Zadajte heslo na obnovenie tejto zmeny šifrovania. Záloha zostane pozastavená, ak prístup nemožno potvrdiť.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Heslo na obnovenie bezpečne uschovajte. Budete ho potrebovať na obnovenie prístupu v inej inštalácii Windows. Tento používateľ Windows môže zálohu bežne otvárať.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Táto záloha existuje, ale tento používateľ Windows ju zatiaľ nemôže otvoriť. Prístup povolíte zadaním hesla na obnovenie.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Zadajte heslo; potvrdenie sa musí zhodovať</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Nájdená existujúca záloha</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Vyčistiť staré verzie</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Odobrať verzie…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Potvrdiť čistenie časovej osi</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Odobraté z budúcich záloh. Existujúca história zostáva podľa nastavení uchovávania.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Tento priečinok bude zahrnutý do budúcich záloh, ak neplatí iné vylúčenie. Existujúca história sa zachová.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Obnoviť konfiguráciu aplikácie?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Zdrojové údaje aj zálohy zostanú nedotknuté. Obnovia sa len nastavenia tejto aplikácie.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Obnoviť konfiguráciu</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Zmena šifrovania pozastavená</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Odoberanie šifrovania pozastavené</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Zmena šifrovania vyžaduje pozornosť</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Príprava zmeny šifrovania</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} z {1} · {2:N0} z {3:N0} súborov</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Riadenie konverzie sa nepodarilo overiť. História zálohy zostáva nedostupná. Skontrolujte pripojenie k zálohe a Diagnostiku.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>História zálohy je počas konverzie dočasne nedostupná. Po prerušení možno pokračovať.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Šifrované</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Nešifrované</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Obnovením povolíte prístup tomuto kontu Windows.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Toto konto Windows môže zálohu odomknúť.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Overovanie obnovenia cez OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Obnovenie cez OneDrive: zapnuté</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>V OneDrive chýba kľúč na obnovenie</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Obnovenie cez OneDrive je lokálne vypnuté; môže byť potrebné vyčistenie cloudu</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>Obnovenie cez OneDrive vyžaduje pozornosť</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Obnovenie cez OneDrive nie je dostupné</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Obnovenie cez OneDrive: vypnuté</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Experimentálne. Náhodný kľúč na obnovenie sa ukladá do priečinka aplikácie Fluff-History v OneDrive; zálohované súbory zostávajú v umiestnení zálohy. Povolenie platí iba pre tento priečinok. Iný počítač môže zálohu obnoviť po prihlásení do konta Microsoft. Microsoft toto povolenie označuje ako Preview. Uschovajte si heslo na obnovenie.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Heslo na obnovenie zmenené. Nové heslo bezpečne uschovajte.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Obnovenie cez OneDrive je zapnuté a overené. Uschovajte si heslo na obnovenie.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Obnovenie cez OneDrive je vypnuté. Heslo a prístup cez Windows zostávajú nezmenené.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Obnovenie cez OneDrive je overené.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Obnovenie dokončené. Toto konto Windows teraz môže zálohu odomknúť.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>V OneDrive chýba kľúč na obnovenie. Použite heslo na obnovenie.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>Kľúč na obnovenie z OneDrive nedokázal overiť túto zálohu. Použite heslo na obnovenie.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Zmenu sa nepodarilo úplne potvrdiť. Pred ďalším pokusom skontrolujte prístup; história zálohy sa nezmenila.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Operácia zrušená.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Zmenu zabezpečenia sa nepodarilo dokončiť. Skontrolujte prístup a skúste to znova. Obnovenie heslom zostáva dostupné.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Šifrovanie zálohy</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Existujúci obsah zálohy sa zašifruje na mieste. Zálohovanie a obnovenie budú dočasne nedostupné. Uchovajte heslo na obnovenie; prístup Windows sa pridá automaticky. Je potrebný dostatok voľného miesta a po prerušení možno pokračovať.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Metadáta a obsah súborov zálohy sa uložia nešifrovane v umiestnení zálohy. Zálohovanie a obnovenie budú počas konverzie dočasne nedostupné. Po prerušení možno pokračovať.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Zapnúť šifrovanie?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Vypnúť šifrovanie?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Zmena šifrovania dokončená.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Niektoré vyradené metadáta môžu zostať nešifrované, kým čistenie neuspeje. Čistenie sa zopakuje.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Niektoré staré metadáta sa zatiaľ nepodarilo odobrať; čistenie sa zopakuje.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Zmena šifrovania pozastavená. Pokračujte na dokončenie; už skonvertované súbory sa zachovajú.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Konverzia šifrovania sa nezačala.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Je potrebné viac voľného miesta. Uvoľnite miesto a pokračujte. Žiadna história sa neodobrala.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Je potrebné viac voľného miesta. Uvoľnite miesto a skúste zmenu šifrovania znova. Žiadna história sa neodobrala.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Použite heslo na obnovenie na pokračovanie zmeny šifrovania.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Zmena šifrovania vyžaduje pozornosť. Skontrolujte pripojenie k zálohe a heslo na obnovenie a pokračujte. Neodoberajte súbory konverzie.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Zmenu šifrovania sa nepodarilo spustiť. Skontrolujte pripojenie k zálohe a voliteľné údaje vyrovnávacej pamäte a skúste to znova. História zálohy sa nezmenila.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Uchovávať verzie navždy</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Žiadne vylúčené priečinky.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Vyberte, kam ukladať zálohy</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Na pokračovanie vyberte umiestnenie zálohy.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Šifrovanie tejto zálohy je pozastavené</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Odoberanie šifrovania je pozastavené</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Neuložené zmeny · zachované pri prechode medzi stránkami</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Konfigurácia je aktuálna</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Vyberte podporovanú frekvenciu zálohovania.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Vyberte umiestnenie zálohy.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Pred uložením vyberte umiestnenie zálohy.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Umiestnenie zálohy je nedostupné. Voľbou Zmeniť ho znova vyberte alebo použite iné umiestnenie.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Skontrolujte vybraté priečinky a umiestnenie zálohy.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Tento priečinok už obsahuje iné údaje. Fluff-History v ňom nenastaví novú zálohu. Vyberte prázdny priečinok alebo existujúcu zálohu Fluff-History.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Vybrať iné umiestnenie zálohy</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Toto umiestnenie je nedostupné. Skontrolujte pripojenie alebo vyberte iné.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Umiestnenie zálohy je nedostupné</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Uložte zmeny na použitie tohto umiestnenia zálohy.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Heslo na obnovenie túto zálohu neodomklo.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Prístup sa nepodarilo úplne potvrdiť. Pred ďalším pokusom skontrolujte zálohu.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Umiestnenie zálohy vybraté. Vyberte priečinky a uložte zmeny.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Vyberte najviac 1 024 priečinkov.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Už zálohované prostredníctvom {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Tento priečinok sa nepodarilo vybrať.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Konflikt výberu priečinkov</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Zálohovať tieto priečinky?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Napriek tomu zálohovať</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Tento priečinok je už vylúčený.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Priečinok vylúčený z budúcich záloh. Existujúca história sa zachová.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Najnovšie</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Priečinok</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Začnite pridaním priečinkov v Konfigurácii. Uložené priečinky sa zobrazia tu.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Tento priečinok zatiaľ nemá uložené verzie. Súbory sa zobrazia po úspešnej zálohe.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Tento priečinok nemá v danom čase uložené súbory. Skúste iný čas alebo vyberte Najnovšie.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Časová os sa zmenila. Na pokračovanie ju obnovte.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Časová os k: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>Načítaných 4 096 položiek. Otvorte priečinok na spresnenie zobrazenia.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>Načítaných 1 024 okamihov. Spresnite priečinok alebo vyberte dátum a čas.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>Načítaných 1 024 verzií. Táto ukážka obmedzuje zoznam verzií.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Na časovej osi nie sú priečinky</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Najnovšie zachované verzie</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Aktuálna úspešná verzia je chránená a nemožno ju odstrániť.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Vyberte súbor alebo priečinok</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Otvorte priečinok na prezeranie uložených súborov.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Otvorte priečinok na prezeranie uložených súborov. Tieto priečinky slúžia na navigáciu, nie sú to obnoviteľné verzie adresárov.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Vyberte súbory alebo priečinky z tohto zobrazenia na spoločné obnovenie. Výberom jedného súboru zobrazíte jeho verzie.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Priečinky zobrazujú súbory uložené na časovej osi. Dátumy a vlastnosti priečinkov sa neukladajú samostatne.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Otvorte Konfiguráciu na nastavenie časovej osi.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Na pokračovanie otvorte Konfiguráciu.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Obnovte zobrazenie na načítanie časovej osi tejto zálohy.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Táto položka sa teraz nezálohuje pomocou Fluff-History.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Na prístup k zálohe otvorte Konfiguráciu alebo Prehľad.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Táto položka zatiaľ nemá uloženú históriu.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Tento súbor zatiaľ nemá uloženú verziu.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Teraz nezálohované</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Teraz nezálohované</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Tento priečinok už nie je na časovej osi.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Tento miestny čas neexistuje pre prechod na letný čas. Vyberte iný čas.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Načítavanie zrušené. Dokončené riadky zostávajú dostupné.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Načítavanie časovej osi…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Načítavanie zrušené.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Vybraté položky nemožno obnoviť</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Obnoviť do pôvodného umiestnenia?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Vybraté historické súbory sa obnovia do pôvodných zdrojových umiestnení. Windows sa spýta na konflikty s existujúcimi súbormi.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Odstrániť túto uloženú verziu?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Uložená verzia odstránená.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Odstraňovanie zrušené. Pred zrušením sa odstránilo {0:N0} uložených verzií; potvrdené odobratia zostávajú dokončené.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Odstránenie vyžaduje pozornosť. Niektoré zmeny alebo čistenie obsahu môžu byť nepotvrdené. Pred ďalším pokusom skontrolujte zálohu.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Akciu sa nepodarilo dokončiť. Skontrolujte konfiguráciu a skúste to znova.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Prebieha zmena šifrovania</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Agent na pozadí nie je dostupný</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Nastaviť Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Prebieha zálohovanie</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Záloha vyžaduje pozornosť</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Vyberte umiestnenie zálohy a priečinky, ktoré chcete zálohovať.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Automatické zálohovanie je povolené</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Automatické zálohovanie je zakázané</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Kontrola podmienok zálohovania…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Otváranie zálohy…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Prehľadávanie a zálohovanie súborov…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Používanie zásad uchovávania…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Kontrola metadát…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Zhutňovanie metadát…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Čistenie metadát…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Kompresia metadát…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Šifrovanie…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Dešifrovanie…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Dokončovanie zálohy…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Požadované zrušenie</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Nepriradený priečinok</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Zobrazených {0:N0} z {1:N0} problémov zaznamenaných v tejto relácii.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>História zálohy je dočasne nedostupná. Pokračujte v zmene šifrovania v Konfigurácii.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Záloha existuje, ale tento používateľ Windows nemá prístup. Heslo na obnovenie ho môže obnoviť.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Záloha sa dokončila, ale údržba časovej osi vyžaduje pozornosť. Pred ďalším čistením skontrolujte Diagnostiku.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Niektoré zmeny sa nepodarilo potvrdiť. Pred pokračovaním skontrolujte umiestnenie zálohy.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Umiestnenie zálohy potrebuje viac voľného miesta, aby zálohovanie mohlo pokračovať.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Niektoré súbory alebo priečinky sa preskočili. Rozbaľte nižšie Problémy so súbormi alebo priečinkami na zobrazenie ciest a dôvodov. Ostatné úspešné verzie zostávajú uložené.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Pridajte priečinky v Konfigurácii na začatie zálohovania.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Žiadne zmeny na zálohovanie.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>menej ako sekundu</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} a {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Vyžaduje sa obnovenie. Pomocou hesla na obnovenie povoľte prístup tomuto používateľovi Windows.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Pred použitím histórie zálohy dokončite zmenu šifrovania v Konfigurácii.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Časová os sa zmenila. Obnovte ju na ďalšie prezeranie a obnovenie.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Toto umiestnenie zálohy je neplatné alebo poškodené. Skontrolujte vybraté umiestnenie.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Už prebieha zálohovanie alebo čistenie. Počkajte na dokončenie a skúste to znova.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Tento výber tu nemožno použiť. Vyberte položky z aktuálneho priečinka a času.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Vybraté historické položky obsahujú súbor a priečinok s rovnakou cestou a nemožno ich obnoviť spoločne.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Operácia zrušená. Dokončené operácie so súbormi zostávajú dokončené.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Umiestnenie zálohy alebo cieľ je nedostupný. Skontrolujte umiestnenie a pripojenie a skúste to znova.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Neplatné umiestnenie zálohy</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Zálohovanie dokončené</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Zálohovanie dokončené s problémami súborov alebo priečinkov</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Zálohovanie zrušené</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Zálohovanie pozastavené: nedostatok miesta</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Zálohovanie odložené</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Záloha vyžaduje pozornosť</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>V tejto relácii aplikácie zatiaľ neprebehlo zálohovanie.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Čakanie na externé napájanie.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows nedokázal určiť stav napájania.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Čakanie na pripojenie neúčtované podľa objemu údajov.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows nehlási sieť pre zálohu v sieťovej ceste.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Systém</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Svetlý</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Tmavý</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>Využité {0} z {1} · voľné {2}</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Kontrola miesta na disku…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Informácie o mieste na disku nie sú dostupné.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Výpočet veľkosti zálohy…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Pri poslednej kontrole záloha zaberala {0}</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Záloha zaberá {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Veľkosť zálohy nie je dostupná</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Vyberte, čo odobrať, na zobrazenie ukážky. Bez potvrdenia sa nič neodoberie.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Kontrola uložených verzií…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Časová os sa zmenila. Znova vyberte, čo odobrať.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Tým by sa uvoľnilo približne {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Pre tento výber nie je čo odobrať.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Pred odobratím verzií skontrolujte ukážku.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Ukážka zrušená. Nič sa neodobralo.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Ukážka neúplná: dosiahnutý limit práce. Čistenie nemožno vykonať.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Odoberanie uložených verzií…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Časová os sa po ukážke zmenila. Pred odobratím verzií vytvorte novú ukážku.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Časť uloženého obsahu zatiaľ nebolo možné odstrániť.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Čistenie dokončené. Obnovte časovú os na zobrazenie zostávajúcich verzií.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Čistenie zrušené. Potvrdené odobratia zostávajú dokončené. Obnovte časovú os.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Čistenie vyžaduje pozornosť. Niektoré zmeny môžu byť nepotvrdené; pred ďalším pokusom skontrolujte zálohu. Obnovte časovú os.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Uchová najnovšiu zachovanú verziu na každej ceste, aj pri už nezálohovaných súboroch. Aktuálne verzie zostávajú chránené.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Aktuálne verzie zostávajú chránené. Súbory dostupné len na časovej osi môžu úplne zmiznúť, ak sú všetky ich verzie staršie než tento vek.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Odhadované miesto; skutočné voľné miesto sa môže líšiť.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} bajtov</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} bajt</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} bajtov</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} bajty</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} bajtov</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} bajtov</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} existujúcich priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} existujúci priečinok</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} existujúcich priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} existujúce priečinky</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} existujúcich priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} existujúcich priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} problémov so súbormi</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} problém so súborom</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} problémov so súbormi</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} problémy so súbormi</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} problémov so súbormi</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} problémov so súbormi</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} súborov</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} súbor</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} súborov</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} súbory</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} súborov</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} súborov</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} verzií súboru</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} verzia súboru</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} verzií súboru</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} verzie súboru</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} verzií súboru</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} verzií súboru</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} priečinok</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} priečinky</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} priečinkov</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} hodín</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} hodina</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} hodín</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} hodiny</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} hodín</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} hodín</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} položiek</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} položka</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} položiek</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} položky</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} položiek</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} položiek</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} minút</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} minúta</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} minút</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} minúty</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} minút</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} minút</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} nových verzií uložených</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} nová verzia uložená</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} nových verzií uložených</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} nové verzie uložené</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} nových verzií uložených</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} nových verzií uložených</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} uložených verzií</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} uložená verzia</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} uložených verzií</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} uložené verzie</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} uložených verzií</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} uložených verzií</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} sekúnd</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} sekunda</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} sekúnd</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} sekundy</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} sekúnd</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} sekúnd</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, Priečinok</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, Súbor, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Uložené {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · vybratých {1:N0}</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>Vybratých {0:N0} položiek</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Uložené: {1:f}
+
+Tým sa natrvalo odoberie len táto uložená verzia. Zdrojový súbor a ostatné uložené verzie sa zachovajú. Túto akciu nemožno vrátiť späť.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} priečinkov na časovej osi</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Pridaných {0} · znova povolených {1} · už vybratých {2}</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · nepridaných {0}</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>Odobratých {0} ({1} uloženého obsahu).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Natrvalo odobrať {0} z {1}? Zdrojové súbory a aktuálne verzie sa zachovajú. Túto akciu nemožno vrátiť späť.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} vybratých na zálohovanie</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Posledná záloha: {0:f}; trvanie: {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Posledný pokus o zálohu: {0:f}; trvanie: {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Uložené {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Súbor zmenený {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Uložené: {2:G}
+Súbor zmenený: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Časová os k {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Časová os</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Každých 10 minút</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Každých 30 minút</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Každú hodinu</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Každé 3 hodiny</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Každých 6 hodín</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Každých 12 hodín</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Každý deň</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Do zaplnenia priestoru</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 mesiac</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 mesiace</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 mesiacov</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 mesiacov</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 rok</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 roky</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Navždy</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Verzie staršie než tento vek možno odobrať po úspešnej zálohe. Aktuálne verzie zostávajú chránené.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Verzie sa uchovávajú, kým zväzok zálohy nedosiahne bezpečný limit kapacity. Keď je na zálohu potrebné miesto, najstaršie oprávnené verzie sa automaticky odoberú. Aktuálne verzie zostávajú chránené.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Zásada „Navždy“ nikdy automaticky neodoberá históriu časovej osi. Verzie sa pridávajú, kým zväzok zálohy nedokáže bezpečne prijať ďalšiu zálohu. Potom bude potrebné uvoľniť miesto alebo ručne vyčistiť časovú os.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Staršie než 1 mesiac</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Staršie než 3 mesiace</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Staršie než 6 mesiacov</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Staršie než 9 mesiacov</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Staršie než 1 rok</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Staršie než 2 roky</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Ponechať len najnovšiu verziu</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData obsahuje stav aplikácií, vyrovnávacie pamäte, databázy a dočasné súbory. Môžu sa často meniť a rýchlo zväčšovať časovú os. Obnovenie týchto súborov nenahrádza preinštalovanie ani správne obnovenie aplikácie.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Systémové súbory a súbory nainštalovaných programov sú veľké a často sa menia. Fluff-History nevytvára obraz systému. Obnovenie samotných týchto súborov nemusí opraviť Windows ani nainštalovanú aplikáciu.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData môže obsahovať zdieľaný stav aplikácií, vyrovnávacie pamäte a databázy, ktoré sa často menia. To môže vytvárať veľké množstvo údajov časovej osi.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Toto umiestnenie obsahuje hlavne dočasné alebo inštalačné súbory a môže vytvárať veľa krátkodobých zmien časovej osi.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Toto umiestnenie obsahuje systémové metadáta alebo pracovné súbory Fluff-History a nemožno ho zálohovať.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Kontrola konfigurácie zálohy…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Nastavenie aplikácie vyžaduje pozornosť. Výslovne obnovte konfiguráciu; údaje zálohy zostanú nedotknuté.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Uložená konfigurácia zálohy je nedostupná alebo neplatná. Pred pokračovaním skontrolujte Konfiguráciu.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows nedokázal overiť umiestnenie zálohy alebo dočasné pracovné údaje aplikácie. Skontrolujte prístup a voľné miesto a skúste to znova.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Priečinok vybratý na zálohovanie nemôže byť zároveň vylúčený. Odoberte ho zo zálohovania alebo zmeňte vylúčenie.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Vyberte najviac 256 vylúčených priečinkov s najviac 256 KiB ciest.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Tento zdroj podporuje najviac 256 účinne vylúčených priečinkov a 256 KiB konfigurácie. Vyberte menej alebo kratšie vylúčenia.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Priečinok možno vybrať len raz.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Vnorené vybraté priečinky musia byť vylúčené z nadradeného priečinka.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Vyberte absolútnu cestu priečinka.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Vyberte bežný priečinok na disku alebo v sieti.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Vyberte úplnú cestu sieťového zdieľania.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Cesta priečinka je nejednoznačná alebo opúšťa koreň. Vyberte bežnú absolútnu cestu priečinka.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Priečinok v umiestnení zálohy ani priečinok obsahujúci umiestnenie zálohy nemožno zálohovať.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Pred pridaním priečinka potvrďte upozornenie.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Cesta vedie do systémového priečinka Windows alebo údajov aplikácií. Vyberte skutočné umiestnenie a najprv potvrďte upozornenie.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Priečinky vedú do prekrývajúcich sa umiestnení Windows. Každé umiestnenie vyberte raz.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Priečinok vedie do dočasných pracovných údajov Fluff-History a nemožno ho zálohovať.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Pracovná plocha</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Dokumenty</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Stiahnuté súbory</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Obrázky</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Hudba</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Videá</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Nepodporovaný názov súboru alebo priečinka.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Nejednoznačný alias veľkosti písmen.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Nepodporovaná hranica, bod zmeny spracovania alebo EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Nepodporovaný alebo príliš veľký súbor.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Zdroj sa počas kopírovania zmenil.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>K tomuto súboru alebo priečinku nemožno pristupovať.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>K tomuto súboru alebo priečinku nemožno pristupovať (chyba Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Koreň zdroja alebo nadradený priečinok nie je bežný adresár.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Nepodporovaná hranica adresára.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Kontrola miesta</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Šifrovanie súborov</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Dešifrovanie súborov</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Opätovné zostavovanie metadát</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Dokončovanie zálohy</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Tento súbor alebo priečinok používa iná aplikácia.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Prístup k tomuto súboru alebo priečinku bol odmietnutý.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Tento súbor alebo priečinok sa počas prehľadávania nenašli.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Konfigurácia uložená</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Zmeny priečinkov uložené. Aktualizované priečinky sa zahrnú do ďalšej plánovanej zálohy.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Zmeny priečinkov uložené. Aktualizované priečinky sa zahrnú do ďalšej zálohy.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Zálohovanie vyžiadané</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Zálohovanie už prebieha alebo sa dokončuje.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>V Konfigurácii nastavte dostupné umiestnenie zálohy a priečinky.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Obnoviť predchádzajúcu verziu…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Načítavanie histórie...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Zálohované</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Teraz nezálohované</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Nezálohované pomocou Fluff-History</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Vyžaduje sa obnovenie</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Záloha nie je dostupná</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Relácia histórie vypršala</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Záloha nie je dostupná. Otvorte Fluff-History alebo obnovte zobrazenie.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Relácia histórie vypršala. Na pokračovanie obnovte zobrazenie.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Umiestnenie zálohy: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Prezerať históriu priečinka</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Otvoriť Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Prezerať všetky verzie</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Priečinky sa zostavujú z uložených verzií súborov.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Obnovenie zmení aktuálny súbor. Uložená história sa zachová.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History nie je dostupné. Nainštalujte vývojársku ukážku a skúste to znova.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Obnoviť túto uloženú verziu do pôvodného umiestnenia? Windows sa spýta na konflikty s existujúcimi súbormi. Uložená história sa zachová.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Obnoviť uloženú verziu?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Obnovovanie vybratej verzie...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Záloha nie je dostupná. Na pokračovanie otvorte Fluff-History.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>História priečinka sa zostavuje z uložených verzií súborov.
+Nedávne okamihy časovej osi:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Zatiaľ nie sú uložené verzie súborov.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Zmenené {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Tento súbor nemá uloženú verziu. Na pokračovanie otvorte Časovú os alebo Konfiguráciu.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Najnovšia uložená verzia: {0:f}
+Uchované verzie: {1:N0}
+Najstaršia uchovaná verzia: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Najnovšia uložená verzia: {0:f}
+Uchované verzie: {1:N0}+; úplnú históriu otvorte na Časovej osi
+Najstaršia uchovaná verzia: úplnú históriu otvorte na Časovej osi</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Nezálohované pomocou Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Vyžaduje sa obnovenie. Otvorte Fluff-History na obnovenie prístupu.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Záloha nie je dostupná. Otvorte Fluff-History alebo to skúste znova.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Obnovenie vyžaduje pozornosť. Pred ďalším pokusom skontrolujte cieľ.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Obnovenie zrušené. Dokončené operácie so súbormi zostávajú dokončené.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Súbor obnovený. Uložená história sa nezmenila.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Neobnovil sa žiadny súbor. Skontrolujte cieľ.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>História sa zmenila. Pred obnovením obnovte zobrazenie.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Obnovenie nie je dostupné. Na pokračovanie otvorte Fluff-History.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Obnovenie zrušené. Skontrolujte cieľ.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>sk-SK</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Odkazy:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Vytvoriť odkaz na &amp;pracovnej ploche</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Vytvoriť odkaz v ponuke Š&amp;tart</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History vyžaduje pevný inštalačný priečinok pre používateľa.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Prebieha inštalácia alebo spúšťanie aplikácie. Chvíľu počkajte a skúste to znova.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History nedokázalo pripraviť aktualizáciu. Zatvorte aktívne operácie so súbormi a stránky Vlastností a skúste to znova. Úložisko zálohy sa nezmenilo.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History nedokázalo dokončiť inštaláciu. Stav aplikácie sa zachoval na ďalší pokus; úložisko zálohy sa nezmenilo.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Inštalácia vyžaduje pozornosť</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History nedokázalo dokončiť inštaláciu. Nastavenia aplikácie a úložisko zálohy sa zachovali. Skúste znova spustiť inštalačný program.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Pred odinštalovaním zatvorte Fluff-History, aktívne operácie so súbormi a stránky Vlastností. Nič sa násilne nezastavilo.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Diagnostika skopírovaná. Pred zdieľaním skontrolujte cesty priečinkov.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Jazyk</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Jazyk aplikácie</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Použiť jazyk Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Zmeny sa prejavia okamžite. Dátumy a čísla používajú miestne nastavenia.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Opraviť obnovenie cez OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Vypnúť lokálne…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Pôvodné obnovenie je potrebné aktualizovať na OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Experimentálne obnovenie cez OneDrive nie je v tejto zostave nastavené.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Ak chcete používať obnovenie cez OneDrive, prihláste sa do Microsoftu.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Prihlásenie do Microsoftu alebo súhlas boli odmietnuté. Obnovenie pomocou hesla zostáva dostupné.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Požadované povolenie pre priečinok aplikácie v OneDrive nie je dostupné. Obnovenie pomocou hesla zostáva dostupné.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>Obnovenie cez OneDrive vyžaduje pripojenie na internet. Heslo a lokálny prístup cez Windows zostávajú dostupné.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>Obnovenie cez OneDrive sa teraz nepodarilo overiť. Skúste to neskôr alebo použite heslo na obnovenie.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive je zaneprázdnený. Skúste to neskôr.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive nie je pre toto konto Microsoft dostupný alebo nastavený. Použite heslo na obnovenie.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>Kľúč na obnovenie z OneDrive sa zmenil alebo nie je platný. Použite heslo na obnovenie alebo opravte obnovenie na počítači, ktorý dokáže odomknúť túto zálohu.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Ešte môže byť potrebné vyčistenie OneDrive. Týka sa to iba kľúča na obnovenie; heslo a prístup cez Windows zostávajú nezmenené.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Ešte môže byť potrebné vyčistenie OneDrive. Súbor na obnovenie: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>Obnovenie cez OneDrive funguje, ale pôvodný obnovovací prihlasovací údaj Windows sa nepodarilo úplne odstrániť.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Vypnúť obnovenie cez OneDrive lokálne?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Tým sa odstráni prepojenie zálohy s obnovením cez OneDrive bez odstránenia súboru na obnovenie v cloude. Tento súbor možno budete musieť z OneDrive odstrániť ručne. Heslo a prístup cez Windows zostávajú nezmenené.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Obnovenie cez OneDrive je lokálne vypnuté.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Opraviť obnovenie cez OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Pred vyradením starého kľúča vytvorte a overte nový kľúč na obnovenie. Upravené súbory v cloude zostanú zachované.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Aktualizácie</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Kanál aktualizácií</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Kontrolovať automaticky</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Stabilný</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Nikdy</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Denne</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Týždenne</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Mesačne</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Skontrolovať teraz</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Aktuálna verzia: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Posledná kontrola: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Nevydaná vývojová zostava</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Je dostupná verzia {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Stiahnuť a nainštalovať</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Zobraziť poznámky k vydaniu</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Aktuálne</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Vyhľadávanie aktualizácií…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Sťahovanie aktualizácie… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Overovanie aktualizácie…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Pripravené na inštaláciu</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Čaká sa na dokončenie zálohovania alebo inej prebiehajúcej práce.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Inštalácia aktualizácie…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Nepodarilo sa kontaktovať GitHub. Skúste to neskôr.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub obmedzuje požiadavky. Skúste to neskôr.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Nie je dostupné žiadne vydanie na inštaláciu.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Overenie inštalačného programu zlyhalo. Aktualizácia nebola nainštalovaná.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Automatická inštalácia bude dostupná po schválení podpisovateľa vydania.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Aktualizáciu sa nepodarilo nainštalovať. Skúste to neskôr.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Aktualizácia bola nainštalovaná, ale okno sa nepodarilo znovu otvoriť.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Táto nevydaná zostava nemôže inštalovať verejné aktualizácie.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Automatické kontroly aktualizácií sú vypnuté.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Automatické kontroly kontaktujú GitHub. Údaje o zálohách ani účtoch sa neodosielajú.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Prebieha zálohovanie. Zastaviť ho a nainštalovať aktualizáciu?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Zastaviť zálohovanie a inštalovať</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Zatiaľ nekontrolované</value></data>
+</root>

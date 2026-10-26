@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dependencies": {
+    "net10.0-windows7.0": {
+      "fluffhistory.application": {
+        "type": "Project",
+        "dependencies": {
+          "FluffHistory.Engine": "[1.0.0, )"
+        }
+      },
+      "fluffhistory.core": {
+        "type": "Project"
+      },
+      "fluffhistory.engine": {
+        "type": "Project",
+        "dependencies": {
+          "FluffHistory.Core": "[1.0.0, )",
+          "FluffHistory.Storage": "[1.0.0, )",
+          "System.IO.Hashing": "[10.0.0, )"
+        }
+      },
+      "fluffhistory.storage": {
+        "type": "Project",
+        "dependencies": {
+          "FluffHistory.Core": "[1.0.0, )",
+          "System.IO.Hashing": "[10.0.0, )"
+        }
+      },
+      "fluffhistory.windows": {
+        "type": "Project",
+        "dependencies": {
+          "FluffHistory.Application": "[1.0.0, )",
+          "FluffHistory.Engine": "[1.0.0, )"
+        }
+      },
+      "System.IO.Hashing": {
+        "type": "CentralTransitive",
+        "requested": "[10.0.0, )",
+        "resolved": "10.0.0",
+        "contentHash": "MqSp5IfX9RdWVwTED0WSRL1kZDNB7GlFj64O/NAJs4uO1beBHWEAFLlC7j8Fw/PkI+SUzooLVNvAe4aEkSwsRg=="
+      }
+    },
+    "net10.0-windows7.0/win-x64": {}
+  }
+}

@@ -1,0 +1,20 @@
+<Project>
+  <Target Name="ValidateDevelopmentUpdateComposition" BeforeTargets="PrepareForBuild" Condition="'$(DevelopmentUpdateTesting)' == 'true'">
+    <PropertyGroup><ValidDevelopmentUpdateSigner>$([System.Text.RegularExpressions.Regex]::IsMatch('$(UpdateSignerCertificateSha256)', '^[0-9A-Fa-f]{64}$'))</ValidDevelopmentUpdateSigner></PropertyGroup>
+    <Error Condition="'$(ReleaseVersion)' == 'development' or '$(ProductVersion)' == '' or '$(ValidDevelopmentUpdateSigner)' != 'True'" Text="Controlled update tests require explicit release/build identity and exact developer signer approval." />
+  </Target>
+  <Target Name="ValidatePublicReleaseIdentity" BeforeTargets="PrepareForBuild" Condition="'$(ReleaseVersion)' != 'development'">
+    <PropertyGroup><ReleasePowerShell Condition="'$(OS)' == 'Windows_NT'">powershell.exe</ReleasePowerShell><ReleasePowerShell Condition="'$(OS)' != 'Windows_NT'">pwsh</ReleasePowerShell></PropertyGroup>
+    <Exec Command="$(ReleasePowerShell) -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildThisFileDirectory)scripts/Get-ReleaseVersion.ps1&quot; -ReleaseVersion &quot;$(ReleaseVersion)&quot; -ProductVersion &quot;$(ProductVersion)&quot;" />
+  </Target>
+  <!-- Authentication is shipped only by Desktop; the opt-in diagnostic uses the same reviewed set.
+       Verify restored artifacts on every build, including incremental builds and publish. -->
+  <Target Name="ValidateRecoveryDependencyApproval" BeforeTargets="BuildNativeShell;PrepareForBuild"
+          Condition="'$(MSBuildProjectName)' == 'FluffHistory.Desktop' or '$(MSBuildProjectName)' == 'FluffHistory.OneDriveSmoke'">
+    <PropertyGroup>
+      <RecoveryPowerShell Condition="'$(OS)' == 'Windows_NT'">powershell.exe</RecoveryPowerShell>
+      <RecoveryPowerShell Condition="'$(OS)' != 'Windows_NT'">pwsh</RecoveryPowerShell>
+    </PropertyGroup>
+    <Exec Command="$(RecoveryPowerShell) -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildThisFileDirectory)scripts/Test-RecoveryDependencies.ps1&quot; -Repository &quot;$(MSBuildThisFileDirectory).&quot; -AssetsPath &quot;$(ProjectAssetsFile)&quot;" />
+  </Target>
+</Project>

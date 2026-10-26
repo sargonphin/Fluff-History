@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>ca-ES</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Resum</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Línia de temps</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Quant a</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Configuració de l'aplicació</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>A punt</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Ubicació de la còpia de seguretat</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Canvia la contrasenya de recuperació…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Activa el xifratge…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Desactiva el xifratge…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Progrés de la conversió del xifratge</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Reprèn</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Espai de la unitat</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Espai utilitzat de la unitat de còpies de seguretat</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Recupera l'accés…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Recupera l'accés…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Recupera amb el compte Microsoft (experimental)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Canvia…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Canvia la ubicació de la còpia de seguretat</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Carpetes per incloure a la còpia</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Carpetes per incloure a la còpia</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Afegeix carpetes…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Treu de la còpia de seguretat</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Si traieu una carpeta, se n'aturen les còpies futures. L'historial existent es conserva segons la configuració de retenció.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Carpetes excloses</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Les carpetes excloses no s'inclouen a les còpies futures. Es conserva l'historial existent.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Carpetes excloses</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Exclou una carpeta…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Exclou una carpeta</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Treu l'exclusió</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Treu l'exclusió d'usuari seleccionada</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Còpies de seguretat automàtiques</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Còpies de seguretat automàtiques</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Fes còpies dels fitxers</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Freqüència de les còpies</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Conserva les versions desades</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Retenció de les versions desades</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Les còpies automàtiques continuen amb aquesta finestra tancada. Les còpies omeses no es posen en cua.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alimentació i xarxa</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alimentació i xarxa</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Alimentació i xarxa</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Pausa les còpies automàtiques quan s'utilitzi la bateria</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Permet les còpies que utilitzen la xarxa en connexions d'ús mesurat</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Espera quan el Windows indiqui que no hi ha xarxa per a una còpia en xarxa</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Opcions avançades</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Opcions avançades</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Opcions avançades</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Desa una clau de recuperació al OneDrive (experimental)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Verifica la recuperació amb el OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Recuperació experimental</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Espera quan el Windows no pugui determinar l'estat d'alimentació</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Restableix la configuració de l'aplicació…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Desa els canvis</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Descarta</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Quant a</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Versió preliminar per a desenvolupadors del Fluff-History</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Les còpies programades continuen amb aquesta finestra tancada. La integració amb l'Explorador i les propietats s'instal·la amb el Fluff-History. S'admeten la recuperació amb contrasenya i l'accés local del Windows. No hi ha telemetria ni càrregues automàtiques.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Copia el diagnòstic depurat</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Reviseu els camins de les carpetes abans de compartir. No s'hi inclouen contrasenyes de recuperació, material de claus ni testimonis de compte.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Diagnòstic de l'aplicació</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Línia de temps</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Canvi de xifratge en curs</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>L'historial de còpies no està disponible temporalment. Repreneu el canvi de xifratge a Configuració per acabar-lo.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Camí de la carpeta de la línia de temps</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Línia de temps a data de</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Més recent</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Tria la data i l'hora…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Mostra la línia de temps segons l'hora local</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Data de referència</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hora de referència</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Mostra la línia de temps</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Actualitza</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Carpeta superior</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Carpeta superior</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Restaura</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Moment anterior de la línia de temps</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Posterior</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Moment posterior de la línia de temps</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Actualitza</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Neteja les versions antigues…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Visualització</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Icones grans</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Llista</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Restaura la selecció…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Desselecciona-ho tot</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Llista de la línia de temps</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Icones grans de la línia de temps</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>No hi ha versions de la línia de temps per mostrar</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Obre Configuració</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Carrega més fitxers i carpetes</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Previsualitza / Obre</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Restaura</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Restaura la versió seleccionada</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Opcions de la versió desada</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Restaura a…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Suprimeix</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Versions · primer les més recents</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Versions del fitxer</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Carrega més versions</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>S'està carregant la línia de temps</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Cancel·la la càrrega</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Resum</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Configura el Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Fes una còpia ara</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Recupera l'accés…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Recupera l'accés…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Cal atenció</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Estat</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Activitat de còpia de seguretat</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Espai de la unitat</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Espai utilitzat de la unitat de còpies de seguretat</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Problemes amb fitxers o carpetes</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Cancel·la la còpia</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Obre la línia de temps</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Configuració de l'aplicació</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Aparença</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Trieu l'aparença del Fluff-History. Sistema segueix l'aparença del Windows.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aparença</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>No s'han pogut carregar les preferències. S'utilitzen valors predeterminats segurs. Trieu una preferència per desar-ne una còpia nova.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Les carpetes, la programació i la retenció es gestionen a Configuració. La línia de temps recorda si trieu Icones grans o Llista.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Treu les versions desades</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Trieu què voleu treure...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Interval de neteja</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Cancel·la la neteja</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Obre</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Restaura</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Restaura a…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Previsualitza / Obre</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Suprimeix la versió desada…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Suprimeix</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Cancel·la</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Continua</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Reprèn</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Confirma</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Utilitza aquesta ubicació de còpia</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>S'està tancant</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>S'està esperant que acabin les operacions actives…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>El tancament requereix atenció</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Espereu que acabi l'operació de fitxer activa i torneu a provar de tancar.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>L'acció requereix atenció</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Cal recuperació</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Obriu Resum o Configuració per recuperar l'accés amb la contrasenya de recuperació.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Sense configurar</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Per començar, trieu Configura el Fluff-History a Resum.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>A punt per configurar</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Cancel·lat; les operacions de fitxer ja completades es mantenen.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>No s'ha pogut completar l'operació. Comproveu les carpetes seleccionades, la configuració i la connexió, i torneu-ho a provar.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>S'han desat les preferències de l'aplicació</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Restabliu explícitament la configuració malmesa abans de desar.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>El Fluff-History es tanca per actualitzar-se.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>L'agent en segon pla no està disponible. Torneu a obrir el Fluff-History o repareu la instal·lació.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>S'ha obert la previsualització de la línia de temps</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Restauració: {0:N0} copiats · {1:N0} omesos · {2:N0} fallits · {3:N0} sense confirmar · {4:N0} avisos de metadades</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Cancel·lat</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>S'ha completat la recuperació. Aquest usuari del Windows ja pot obrir la còpia.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>La contrasenya de recuperació no ha pogut desbloquejar aquesta còpia. Comproveu-la i torneu-ho a provar.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>No s'ha pogut confirmar del tot la recuperació. Una nova obertura local ha funcionat; verifiqueu l'accés abans de tornar-ho a provar.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>No s'ha pogut confirmar l'accés local després de la recuperació. Reviseu la ubicació de la còpia abans de tornar-ho a provar.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>La ubicació de la còpia no és vàlida o està malmesa. La recuperació no s'ha completat.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>S'ha cancel·lat la recuperació.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>No s'ha pogut completar la recuperació. Comproveu la ubicació i la connexió de la còpia abans de tornar-ho a provar.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Ubicació de la còpia de seguretat</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Afegeix carpetes</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Carpetes per incloure a la còpia</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Protegeix aquesta còpia amb una contrasenya de recuperació</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Voleu configurar aquesta ubicació de còpia?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Ara es prepararà aquesta carpeta buida. Després deseu els canvis per començar a utilitzar-la.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Contrasenya de recuperació</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Confirma la contrasenya</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Canvia la contrasenya de recuperació</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Reprèn el canvi de xifratge</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Protegiu la còpia de seguretat</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Recupera l'accés a la còpia</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Canvia la contrasenya</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Configura una còpia protegida</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Recupera l'accés</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Canvia la contrasenya utilitzada per a la recuperació portable. No cal tornar a xifrar les dades existents. Guardeu la contrasenya nova en un lloc segur.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Introduïu la contrasenya de recuperació d'aquest canvi de xifratge. La còpia romandrà en pausa si no es pot confirmar l'accés.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Guardeu la contrasenya de recuperació en un lloc segur. La necessitareu per recuperar l'accés en una altra instal·lació del Windows. Aquest usuari del Windows pot obrir la còpia normalment.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Aquesta còpia existeix, però aquest usuari del Windows encara no la pot obrir. Introduïu la contrasenya de recuperació per habilitar-hi l'accés.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Introduïu una contrasenya; la confirmació ha de coincidir</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>S'ha trobat una còpia existent</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Neteja les versions antigues</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Treu les versions…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Confirma la neteja de la línia de temps</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>S'ha tret de les còpies futures. L'historial existent es conserva segons la configuració de retenció.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Aquesta carpeta s'inclourà a les còpies futures tret que s'hi apliqui una altra exclusió. Es conserva l'historial existent.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Voleu restablir la configuració de l'aplicació?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Les dades de còpia i d'origen no es modifiquen. Només es restableix la configuració d'aquesta aplicació.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Restableix la configuració</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>El canvi de xifratge està en pausa</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>La supressió del xifratge està en pausa</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>El canvi de xifratge requereix atenció</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>S'està preparant el canvi de xifratge</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} de {1} · {2:N0} de {3:N0} fitxers</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>No s'ha pogut verificar el control de la conversió. L'historial continua sense estar disponible. Comproveu la connexió de la còpia i el diagnòstic.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>L'historial no està disponible temporalment mentre es completa la conversió. Es pot reprendre després d'una interrupció.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Xifrat</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Sense xifrar</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Utilitzeu la recuperació per habilitar l'accés a aquest compte del Windows.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Aquest compte del Windows pot desbloquejar aquesta còpia.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>S’està comprovant la recuperació amb el OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Recuperació amb el OneDrive: activada</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Falta la clau de recuperació al OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Recuperació amb el OneDrive desactivada localment; pot caldre netejar el núvol</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>La recuperació amb el OneDrive requereix atenció</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Recuperació amb el OneDrive no disponible</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Recuperació amb el OneDrive: desactivada</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Experimental. Es desa una clau de recuperació aleatòria a la carpeta de l’aplicació Fluff-History al OneDrive; els fitxers copiats romanen a la ubicació de la còpia de seguretat. El permís només cobreix aquesta carpeta. Un altre PC podria recuperar la còpia després d’iniciar sessió al compte Microsoft. Microsoft marca aquest permís com a Preview. Conserveu la contrasenya de recuperació.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>S'ha canviat la contrasenya de recuperació. Guardeu la contrasenya nova en un lloc segur.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Recuperació amb el OneDrive activada i verificada. Conserveu la contrasenya de recuperació.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Recuperació amb el OneDrive desactivada. La contrasenya i l’accés del Windows no canvien.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Recuperació amb el OneDrive verificada.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>S'ha completat la recuperació. Aquest compte del Windows ja pot desbloquejar aquesta còpia.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Falta la clau de recuperació al OneDrive. Utilitzeu la contrasenya de recuperació.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>La clau de recuperació del OneDrive no ha pogut autenticar aquesta còpia. Utilitzeu la contrasenya de recuperació.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>No s'ha pogut confirmar del tot el canvi. Comproveu l'accés abans de tornar-ho a provar; l'historial no ha canviat.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>S'ha cancel·lat l'operació.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>No s'ha pogut completar el canvi de seguretat. Comproveu l'accés i torneu-ho a provar. La recuperació amb contrasenya continua disponible.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Xifratge de la còpia de seguretat</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>El contingut existent es xifrarà al mateix lloc. La còpia i la restauració no estaran disponibles temporalment. Conserveu la contrasenya de recuperació; l'accés del Windows s'afegeix automàticament. Cal prou espai lliure i la conversió es pot reprendre si s'interromp.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Això desarà les metadades i el contingut dels fitxers sense xifrar a la ubicació de la còpia. La còpia i la restauració no estaran disponibles temporalment durant la conversió. Es pot reprendre si s'interromp.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Voleu activar el xifratge?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Voleu desactivar el xifratge?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>S'ha completat el canvi de xifratge.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Algunes metadades retirades poden continuar sense xifrar fins que la neteja tingui èxit. Es tornarà a intentar.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Encara no s'han pogut treure algunes metadades antigues; es tornarà a intentar netejar-les.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>El canvi de xifratge està en pausa. Repreneu-lo per acabar; es conserven els fitxers ja convertits.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>No s'ha iniciat la conversió del xifratge.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Cal més espai lliure. Allibereu espai i repreneu la conversió. No s'ha tret cap historial.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Cal més espai lliure. Allibereu espai i torneu a provar el canvi de xifratge. No s'ha tret cap historial.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Utilitzeu la contrasenya de recuperació per continuar el canvi de xifratge.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>El canvi de xifratge requereix atenció. Comproveu la connexió de la còpia i la contrasenya de recuperació i repreneu-lo. No elimineu els fitxers de conversió.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>No s'ha pogut iniciar el canvi de xifratge. Comproveu la connexió de la còpia i les dades opcionals de memòria cau i torneu-ho a provar. L'historial no ha canviat.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Conserva les versions per sempre</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>No hi ha carpetes excloses.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Trieu on es desaran les còpies de seguretat</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Trieu una ubicació de còpia per continuar.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>El xifratge d'aquesta còpia està en pausa</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>La supressió del xifratge està en pausa</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Canvis sense desar · es mantenen en canviar de pàgina</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>La configuració està al dia</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Trieu una freqüència de còpia admesa.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Trieu una ubicació de còpia de seguretat.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Trieu una ubicació de còpia abans de desar.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>La ubicació de la còpia no està disponible. Trieu Canvia per tornar-la a seleccionar o utilitzar una altra ubicació.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Comproveu les carpetes seleccionades i la ubicació de la còpia.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Aquesta carpeta ja conté dades no relacionades. El Fluff-History no hi crearà una còpia nova. Trieu una carpeta buida o una còpia existent del Fluff-History.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Trieu una altra ubicació de còpia</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Aquesta ubicació no està disponible. Comproveu la connexió o trieu una altra ubicació.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>La ubicació de la còpia no està disponible</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Deseu els canvis per utilitzar aquesta ubicació de còpia.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>La contrasenya de recuperació no ha pogut desbloquejar aquesta còpia.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>No s'ha pogut confirmar del tot l'accés. Comproveu aquesta còpia abans de tornar-ho a provar.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>S'ha seleccionat la ubicació de còpia. Trieu les carpetes i deseu els canvis.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Trieu un màxim de 1.024 carpetes.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Ja s'inclou a la còpia de {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>No s'ha pogut seleccionar aquesta carpeta.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Conflicte de selecció de carpetes</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Voleu fer còpies d'aquestes carpetes?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Fes-ne una còpia igualment</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Aquesta carpeta ja està exclosa.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>S'ha exclòs la carpeta de les còpies futures. Es conserva l'historial existent.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Més recent</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Carpeta</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Afegiu carpetes a Configuració per començar. Les carpetes desades apareixeran aquí.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Aquesta carpeta encara no té versions desades. Els fitxers apareixeran després d'una còpia correcta.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Aquesta carpeta no té fitxers desats al moment seleccionat. Proveu una altra hora o trieu Més recent.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>La línia de temps ha canviat. Actualitzeu-la per continuar.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Línia de temps a data de: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>S'han carregat 4.096 elements. Obriu una carpeta per acotar aquesta vista.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>S'han carregat 1.024 moments. Acoteu la carpeta o trieu una data i una hora.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>S'han carregat 1.024 versions. Aquesta previsualització limita la llista de versions.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>No hi ha carpetes a la línia de temps</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Versions conservades més recents</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>La versió actual correcta està protegida i no es pot suprimir.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Seleccioneu un fitxer o una carpeta</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Obriu aquesta carpeta per explorar-ne els fitxers desats.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Obriu una carpeta per explorar-ne els fitxers desats. Aquestes carpetes són entrades de navegació, no versions de directori restaurables.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Seleccioneu fitxers o carpetes d'aquesta vista per restaurar-los junts. Seleccioneu un fitxer per explorar-ne les versions.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Les carpetes mostren els fitxers desats a la línia de temps. Les dates i les propietats de les carpetes no es desen per separat.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Obriu Configuració per preparar la línia de temps.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Obriu Configuració per continuar.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Actualitzeu per carregar la línia de temps d'aquesta còpia.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Actualment el Fluff-History no fa còpies d'aquest element.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Obriu Configuració o Resum per accedir a aquesta còpia.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Aquest element encara no té historial desat.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Aquest fitxer encara no té cap versió desada.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Actualment no se'n fan còpies</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Actualment no se'n fan còpies</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Aquesta carpeta ja no és a la línia de temps.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Aquesta hora local no existeix pel canvi d'hora. Trieu una altra hora.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>S'ha cancel·lat la càrrega. Les files completades continuen disponibles.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>S'està carregant la línia de temps…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>S'ha cancel·lat la càrrega.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>No es poden restaurar els elements seleccionats</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Voleu restaurar a la ubicació original?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Els fitxers històrics seleccionats es restauraran a les ubicacions originals. El Windows preguntarà pels conflictes amb fitxers existents.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Voleu suprimir aquesta versió desada?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>S'ha suprimit la versió desada.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>S'ha cancel·lat la supressió. S'han suprimit {0:N0} versions desades abans de cancel·lar; les eliminacions confirmades es mantenen.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>La supressió requereix atenció. Alguns canvis o neteges del contingut poden estar sense confirmar. Reviseu la còpia abans de tornar-ho a provar.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>No s'ha pogut completar l'acció. Comproveu la configuració i torneu-ho a provar.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Canvi de xifratge en curs</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>L'agent en segon pla no està disponible</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Configura el Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Còpia de seguretat en curs</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>La còpia requereix atenció</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Trieu una ubicació de còpia i les carpetes que voleu copiar.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Les còpies automàtiques estan activades</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Les còpies automàtiques estan desactivades</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>S'estan comprovant les condicions de còpia…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>S'està obrint la còpia…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>S'estan examinant i copiant els fitxers…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>S'està aplicant la política de retenció…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>S'estan comprovant les metadades…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>S'estan compactant les metadades…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>S'estan netejant les metadades…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>S'estan comprimint les metadades…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>S'està xifrant…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>S'està desxifrant…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>S'està acabant la còpia…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · S'ha demanat la cancel·lació</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Carpeta sense assignar</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Es mostren {0:N0} de {1:N0} problemes registrats en aquesta sessió.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>L'historial no està disponible temporalment. Repreneu el canvi de xifratge a Configuració.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>La còpia existeix, però aquest usuari del Windows no hi té accés. La contrasenya de recuperació pot restablir-lo.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>La còpia s'ha completat, però el manteniment de la línia de temps requereix atenció. Consulteu el diagnòstic abans de tornar a netejar.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>No s'han pogut confirmar alguns canvis. Comproveu la ubicació de la còpia abans de continuar.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Cal més espai lliure a la ubicació de la còpia abans de poder continuar.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>S'han omès alguns fitxers o carpetes. Desplegueu Problemes amb fitxers o carpetes per veure els camins i els motius. Les altres versions correctes es mantenen desades.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Afegiu carpetes a Configuració per començar a fer còpies.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>No hi ha canvis per copiar.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>menys d'un segon</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} i {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Cal recuperació. Utilitzeu la contrasenya de recuperació per habilitar l'accés a aquest usuari del Windows.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Completeu el canvi de xifratge a Configuració abans d'utilitzar l'historial.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>La línia de temps ha canviat. Actualitzeu-la per continuar explorant i restaurant.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Aquesta ubicació de còpia no és vàlida o està malmesa. Comproveu la ubicació seleccionada.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Ja s'està fent una còpia o una neteja. Espereu que acabi i torneu-ho a provar.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Aquesta selecció no es pot utilitzar aquí. Trieu elements de la carpeta i el moment actuals.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Aquests elements històrics seleccionats contenen un fitxer i una carpeta amb el mateix camí i no es poden restaurar junts.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>S'ha cancel·lat l'operació. Les operacions de fitxer completades es mantenen.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>La ubicació de còpia o la destinació no està disponible. Comproveu-ne la ubicació i la connexió i torneu-ho a provar.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Ubicació de còpia no vàlida</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>S'ha completat la còpia</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Còpia completada amb problemes de carpetes o fitxers</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>S'ha cancel·lat la còpia</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Còpia en pausa: no hi ha prou espai</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>S'ha ajornat la còpia</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>La còpia requereix atenció</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>No s'ha executat cap còpia en aquesta sessió de l'aplicació.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>S'està esperant alimentació externa.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>El Windows no ha pogut determinar l'estat d'alimentació.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>S'està esperant una connexió sense ús mesurat.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>El Windows indica que no hi ha xarxa per a una còpia en un camí de xarxa.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Clara</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Fosca</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} utilitzats de {1} · {2} lliures</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>S'està comprovant l'espai de la unitat…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>La informació d'espai de la unitat no està disponible.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>S'està calculant la mida de la còpia…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>La còpia ocupava {0} a l'última comprovació</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>La còpia ocupa {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>La mida de la còpia no està disponible</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Trieu què voleu treure per veure una previsualització. No es treu res fins que ho confirmeu.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>S'estan comprovant les versions desades…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>La línia de temps ha canviat. Torneu a triar què voleu treure.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Això alliberaria aproximadament {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>No hi ha res per treure amb aquesta selecció.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Reviseu la previsualització abans de treure les versions.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>S'ha cancel·lat la previsualització. No s'ha tret res.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Previsualització incompleta: s'ha arribat al límit de treball. No es pot executar cap neteja.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>S'estan traient les versions desades…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>La línia de temps ha canviat després de la previsualització. Torneu a previsualitzar abans de treure cap versió.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Encara no s'ha pogut netejar part del contingut desat.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>S'ha acabat la neteja. Actualitzeu la línia de temps per veure les versions restants.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>S'ha cancel·lat la neteja. Les eliminacions confirmades es mantenen. Actualitzeu la línia de temps.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>La neteja requereix atenció. Alguns canvis poden estar sense confirmar; reviseu la còpia abans de tornar-ho a provar. Actualitzeu la línia de temps.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Conserva la versió més recent que queda a cada camí, inclosos els fitxers que ja no es copien. Les versions actuals continuen protegides.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Les versions actuals continuen protegides. Els fitxers que només existeixen a la línia de temps poden desaparèixer del tot si totes les versions són més antigues que aquest límit.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Espai estimat; l'espai lliure real pot variar.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} carpetes existents</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} carpeta existent</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} carpetes existents</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} carpetes existents</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} carpetes existents</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} carpetes existents</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} problemes de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} problema de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} problemes de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} problemes de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} problemes de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} problemes de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} fitxers</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} fitxers</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} fitxers</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} fitxers</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} fitxers</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versions de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} versió de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} versions de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} versions de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} versions de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} versions de fitxer</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} carpetes</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} carpeta</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} carpetes</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} carpetes</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} carpetes</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} carpetes</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} hores</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} hora</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} hores</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} hores</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} hores</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} hores</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} elements</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} element</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} elements</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} elements</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} elements</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} elements</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} minuts</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} minut</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} minuts</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} minuts</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} minuts</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} minuts</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versions noves desades</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} versió nova desada</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} versions noves desades</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} versions noves desades</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} versions noves desades</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} versions noves desades</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versions desades</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} versió desada</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} versions desades</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} versions desades</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} versions desades</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} versions desades</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} segons</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} segon</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} segons</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} segons</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} segons</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} segons</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, carpeta</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, fitxer, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Desat el {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} seleccionats</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} elements seleccionats</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Desat: {1:f}
+
+Això només elimina permanentment aquesta versió desada. Es conserven el fitxer d'origen i les altres versions desades. Aquesta acció no es pot desfer.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} carpetes a la línia de temps</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Afegides {0} · Reactivades {1} · {2} ja seleccionades</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} no afegides</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>S'ha tret {0} ({1} de contingut desat).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Voleu treure permanentment {0} de {1}? Es conserven els fitxers d'origen i les versions actuals. Aquesta acció no es pot desfer.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} seleccionats per copiar</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Última còpia el {0:f}, amb una durada de {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Últim intent de còpia el {0:f}, amb una durada de {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Desat el {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Fitxer modificat el {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Desat: {2:G}
+Fitxer modificat: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Línia de temps a data de {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Línia de temps</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Cada 10 minuts</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Cada 30 minuts</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Cada hora</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Cada 3 hores</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Cada 6 hores</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Cada 12 hores</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Cada dia</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Fins que s'ompli l'espai</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 mes</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 mesos</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 mesos</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 mesos</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 any</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 anys</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Per sempre</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Les versions més antigues que aquest límit es poden treure després d'una còpia correcta. Les versions actuals continuen protegides.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Les versions es conserven fins que el volum de còpies arriba al llindar de seguretat de capacitat. Quan cal espai per a una còpia, les versions aptes més antigues es treuen automàticament. Les versions actuals continuen protegides.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>La política «Per sempre» no treu mai l'historial automàticament. S'afegiran versions fins que el volum ja no pugui acceptar una altra còpia amb seguretat. Aleshores haureu d'alliberar espai o netejar la línia de temps manualment.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Més antigues d'1 mes</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Més antigues de 3 mesos</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Més antigues de 6 mesos</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Més antigues de 9 mesos</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Més antigues d'1 any</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Més antigues de 2 anys</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Conserva només la versió més recent</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData conté l'estat d'aplicacions, memòries cau, bases de dades i fitxers temporals. Pot canviar sovint i fer créixer ràpidament la línia de temps. Restaurar aquests fitxers no substitueix reinstal·lar o restaurar correctament una aplicació.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Els fitxers del sistema i dels programes instal·lats són grans i canvien sovint. El Fluff-History no és una còpia d'imatge del sistema. Restaurar només aquests fitxers pot no reparar el Windows o una aplicació instal·lada.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData pot contenir estat compartit d'aplicacions, memòries cau i bases de dades que canvien sovint. Això pot generar moltes dades a la línia de temps.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Aquesta ubicació conté principalment fitxers temporals o d'instal·lació i pot generar molts canvis de curta durada a la línia de temps.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Aquesta ubicació conté metadades del sistema o fitxers de treball del Fluff-History i no se'n pot fer còpia.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>S'està comprovant la configuració de còpia…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>La configuració de l'aplicació requereix atenció. Restabliu-la explícitament; les dades de còpia no es modifiquen.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>La configuració de còpia desada no està disponible o no és vàlida. Reviseu Configuració abans de continuar.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>El Windows no ha pogut validar la ubicació de la còpia o les dades temporals de treball. Comproveu l'accés i l'espai lliure i torneu-ho a provar.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Una carpeta seleccionada per copiar no pot estar també exclosa. Traieu-la de la còpia o canvieu l'exclusió.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Trieu un màxim de 256 carpetes excloses, amb un màxim de 256 KiB de camins.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Aquest origen admet un màxim de 256 carpetes excloses efectives i 256 KiB de configuració. Trieu menys exclusions o més curtes.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Una carpeta només es pot seleccionar una vegada.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Les carpetes seleccionades imbricades s'han d'excloure de la carpeta superior.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Trieu un camí de carpeta absolut.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Trieu una carpeta de disc o de xarxa ordinària.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Trieu un camí complet de recurs compartit de xarxa.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Aquest camí és ambigu o surt de l'arrel. Trieu un camí de carpeta absolut ordinari.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>No es pot copiar una carpeta dins de la ubicació de còpia ni una carpeta que la contingui.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Confirmeu l'avís abans d'afegir aquesta carpeta.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Això apunta a una carpeta del sistema o de dades d'aplicació del Windows. Seleccioneu-ne la ubicació real i confirmeu primer l'avís.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Aquestes carpetes apunten a ubicacions del Windows superposades. Seleccioneu cada ubicació només una vegada.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Aquesta carpeta apunta a dades temporals de treball del Fluff-History i no se'n pot fer còpia.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Escriptori</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Baixades</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Imatges</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Música</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Vídeos</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Nom de fitxer o carpeta no admès.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Àlies ambigu de majúscules i minúscules.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Límit no admès, de punt d'anàlisi o EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Fitxer no admès o massa gran.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>L'origen ha canviat mentre es copiava.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>No es pot accedir a aquest fitxer o carpeta.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>No es pot accedir a aquest fitxer o carpeta (error del Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>L'arrel d'origen o un directori superior no és un directori ordinari.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Límit de directori no admès.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>S'està comprovant l'espai</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>S'estan xifrant els fitxers</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>S'estan desxifrant els fitxers</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>S'estan reconstruint les metadades</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>S'està finalitzant la còpia</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Una altra aplicació està utilitzant aquest fitxer o carpeta.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>S'ha denegat l'accés a aquest fitxer o carpeta.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>No s'ha trobat aquest fitxer o carpeta durant l'examen.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>D'acord</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>S'ha desat la configuració</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>S'han desat els canvis de carpetes. Les carpetes actualitzades s'inclouran a la propera còpia programada.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>S'han desat els canvis de carpetes. Les carpetes actualitzades s'inclouran a la propera còpia.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>S'ha demanat una còpia</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Ja hi ha una còpia en curs o acabant-se.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Prepareu una ubicació de còpia i les carpetes a Configuració.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Restaura una versió anterior…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>S'està carregant l'historial...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Amb còpia de seguretat</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Actualment no se'n fan còpies</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>El Fluff-History no en fa còpies</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Cal recuperació</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Còpia no disponible</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>La sessió de l'historial ha caducat</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>La còpia no està disponible. Obriu el Fluff-History o actualitzeu.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>La sessió de l'historial ha caducat. Actualitzeu per continuar.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Ubicació de la còpia: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Explora l'historial de la carpeta</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Obre el Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Explora totes les versions</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Les carpetes es formen a partir de versions de fitxers desades.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>La restauració modifica el fitxer actual. Es conserva l'historial desat.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>El Fluff-History no està disponible. Instal·leu la versió preliminar i torneu-ho a provar.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Voleu restaurar aquesta versió desada a la ubicació original? El Windows preguntarà pels conflictes amb fitxers existents. Es conserva l'historial desat.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Voleu restaurar la versió desada?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>S'està restaurant la versió seleccionada...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>La còpia no està disponible. Obriu el Fluff-History per continuar.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Restaura</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Actualitza</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>L'historial de la carpeta es forma a partir de versions de fitxers desades.
+Moments recents de la línia de temps:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Encara no hi ha versions de fitxers desades.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Modificat el {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>No hi ha cap versió desada d'aquest fitxer. Obriu Línia de temps o Configuració per continuar.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Versió desada més recent: {0:f}
+Versions conservades: {1:N0}
+Versió conservada més antiga: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Versió desada més recent: {0:f}
+Versions conservades: {1:N0}+; obriu la línia de temps per veure l'historial complet
+Versió conservada més antiga: obriu la línia de temps per veure l'historial complet</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>El Fluff-History no en fa còpies.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Cal recuperació. Obriu el Fluff-History per recuperar l'accés.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>La còpia no està disponible. Obriu el Fluff-History o torneu-ho a provar.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>La restauració requereix atenció. Reviseu la destinació abans de tornar-ho a provar.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>S'ha cancel·lat la restauració. Les operacions de fitxer completades es mantenen.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>S'ha restaurat el fitxer. L'historial desat no ha canviat.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>No s'ha restaurat cap fitxer. Reviseu la destinació.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>L'historial ha canviat. Actualitzeu abans de restaurar.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>La restauració no està disponible. Obriu el Fluff-History per continuar.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>S'ha cancel·lat la restauració. Reviseu la destinació.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>ca-ES</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Dreceres:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Crea una drecera a l'&amp;escriptori</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Crea una drecera al menú &amp;Inicia</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>El Fluff-History necessita la seva carpeta d'instal·lació fixa per usuari.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Hi ha una instal·lació o un inici d'aplicació actiu. Espereu un moment i torneu-ho a provar.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>El Fluff-History no ha pogut preparar l'actualització. Tanqueu les operacions de fitxer i les pàgines de propietats i torneu-ho a provar. El repositori de còpies no ha canviat.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>El Fluff-History no ha pogut completar la instal·lació. S'ha conservat l'estat de l'aplicació per tornar-ho a provar; el repositori de còpies no ha canviat.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>La instal·lació requereix atenció</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>El Fluff-History no ha pogut completar la instal·lació. S'han conservat la configuració i el repositori de còpies. Executeu l'instal·lador de nou per tornar-ho a provar.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Tanqueu el Fluff-History, les operacions de fitxer i les pàgines de propietats abans de desinstal·lar. No s'ha aturat res per força.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>S'ha copiat el diagnòstic. Reviseu els camins de les carpetes abans de compartir.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Llengua</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Llengua de l’aplicació</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Utilitza la llengua del Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Els canvis s’apliquen immediatament. Les dates i els nombres fan servir la configuració regional.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Repara la recuperació amb el OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Desactiva localment…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Cal actualitzar la recuperació antiga al OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>La recuperació experimental amb el OneDrive no està configurada en aquesta versió.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Inicieu sessió a Microsoft per utilitzar la recuperació amb el OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>S’ha rebutjat l’inici de sessió o el consentiment de Microsoft. La recuperació amb contrasenya continua disponible.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>El permís necessari per a la carpeta de l’aplicació del OneDrive no està disponible. La recuperació amb contrasenya continua disponible.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>La recuperació amb el OneDrive requereix connexió a Internet. La contrasenya i l’accés local del Windows continuen disponibles.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>Ara no s’ha pogut verificar la recuperació amb el OneDrive. Torneu-ho a provar més tard o utilitzeu la contrasenya de recuperació.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>El OneDrive està ocupat. Torneu-ho a provar més tard.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>El OneDrive no està disponible o no està configurat per a aquest compte Microsoft. Utilitzeu la contrasenya de recuperació.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>La clau de recuperació del OneDrive ha canviat o no és vàlida. Utilitzeu la contrasenya de recuperació o repareu la recuperació en un PC que pugui desbloquejar aquesta còpia.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Encara pot caldre netejar el OneDrive. Només afecta la clau de recuperació; la contrasenya i l’accés del Windows no canvien.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Encara pot caldre netejar el OneDrive. Fitxer de recuperació: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>La recuperació amb el OneDrive funciona, però no s’ha pogut eliminar del tot la credencial de recuperació antiga del Windows.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Voleu desactivar localment la recuperació amb el OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Això elimina l’enllaç de recuperació amb el OneDrive de la còpia sense esborrar el fitxer de recuperació al núvol. Pot ser que hàgiu d’eliminar aquest fitxer manualment del OneDrive. La contrasenya i l’accés del Windows no canvien.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Recuperació amb el OneDrive desactivada localment.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Voleu reparar la recuperació amb el OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Creeu i verifiqueu una clau de recuperació nova abans de retirar l’antiga. Es conservaran els fitxers modificats al núvol.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Actualitzacions</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Canal d’actualització</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Comprova automàticament</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Estable</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Mai</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Diàriament</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Setmanalment</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Mensualment</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Comprova ara</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Versió actual: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Última comprovació: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Compilació de desenvolupament no publicada</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>{0} ({1}) està disponible: {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Baixa i instal·la</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Mostra les notes de la versió</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Actualitzat</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>S’estan cercant actualitzacions…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>S’està baixant l’actualització… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>S’està verificant l’actualització…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>A punt per instal·lar</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>S’espera que acabi la còpia de seguretat o una altra tasca activa.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>S’està instal·lant l’actualització…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>No s’ha pogut contactar amb GitHub. Torneu-ho a provar més tard.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub està limitant les sol·licituds. Torneu-ho a provar més tard.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>No hi ha cap versió instal·lable disponible.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Ha fallat la verificació de l’instal·lador. L’actualització no s’ha instal·lat.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>La instal·lació automàtica estarà disponible quan s’aprovi el signant de la versió.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>No s’ha pogut instal·lar l’actualització. Torneu-ho a provar més tard.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>L’actualització s’ha instal·lat, però no s’ha pogut tornar a obrir la finestra.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Aquesta compilació no publicada no pot instal·lar actualitzacions públiques.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Les comprovacions automàtiques d’actualitzacions estan desactivades.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Les comprovacions automàtiques contacten amb GitHub. No s’envien dades de còpies de seguretat ni de comptes.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Hi ha una còpia de seguretat en curs. Voleu aturar-la i instal·lar l’actualització?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Atura la còpia i instal·la</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Encara no s’ha comprovat</value></data>
+</root>

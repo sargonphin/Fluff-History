@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../FluffHistory.Core/FluffHistory.Core.csproj" />
+    <ProjectReference Include="../FluffHistory.Storage/FluffHistory.Storage.csproj" />
+    <PackageReference Include="System.IO.Hashing" />
+    <InternalsVisibleTo Include="FluffHistory.Tests" />
+    <InternalsVisibleTo Include="FluffHistory.Windows" />
+  </ItemGroup>
+</Project>

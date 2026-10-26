@@ -1,0 +1,131 @@
+<UserControl x:Class="FluffHistory.Desktop.Pages.HistoryPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:loc="using:FluffHistory.Desktop.Presentation" xmlns:models="using:FluffHistory.Desktop.Presentation.Models" xmlns:presentation="using:FluffHistory.Desktop.Presentation" Loaded="PageLoaded">
+
+ <presentation:PageLayout Scrollable="False">
+
+ <presentation:PageLayout.Header>
+<TextBlock loc:Localize.Uid="History_TextBlock_PageTitle" Style="{StaticResource PageTitle}" />
+ </presentation:PageLayout.Header>
+
+ <presentation:PageLayout.Body>
+<Grid><Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions><StackPanel Spacing="10">
+   <InfoBar loc:Localize.Uid="History_InfoBar_EncryptionMaintenance" IsOpen="{x:Bind Model.EncryptionBlocked, Mode=OneWay}" Visibility="{x:Bind Model.EncryptionBlocked, Mode=OneWay, Converter={StaticResource VisibleWhen}}" IsClosable="False" Severity="Informational" />
+   <StackPanel Spacing="8" Visibility="{x:Bind Model.IsConfigured, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+    <BreadcrumbBar loc:Localize.Uid="History_BreadcrumbBar_FolderBreadcrumbs" ItemsSource="{x:Bind Model.Breadcrumbs}" ItemClicked="BreadcrumbClicked" IsEnabled="{x:Bind Model.CanNavigate, Mode=OneWay}" />
+    <Grid ColumnSpacing="8">
+     <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+     <TextBlock loc:Localize.Uid="History_TextBlock_TimelineTimeName" Text="{x:Bind Model.AsOfLabel, Mode=OneWay}" Style="{StaticResource BodyText}" VerticalAlignment="Center" />
+     <Button loc:Localize.Uid="History_Button_Latest" Grid.Column="1" Command="{x:Bind Model.Latest}" />
+     <Button loc:Localize.Uid="History_Button_ChooseTime" Grid.Column="2" Click="ChooseTimeClicked" IsEnabled="{x:Bind Model.CanNavigate, Mode=OneWay}">
+      <Button.Flyout><Flyout x:Name="TimeFlyout"><StackPanel Spacing="12">
+       <TextBlock loc:Localize.Uid="History_TextBlock_ChooseTimeExplanation" Style="{StaticResource BodyText}" />
+       <CalendarDatePicker loc:Localize.Uid="History_CalendarDatePicker_AsOfDate" x:Name="AsOfDate" />
+       <TimePicker loc:Localize.Uid="History_TimePicker_AsOfTime" x:Name="AsOfTime" ClockIdentifier="24HourClock" />
+       <Button loc:Localize.Uid="History_Button_ShowTimeline" Click="UseAsOfClicked" />
+      </StackPanel></Flyout></Button.Flyout>
+     </Button>
+    </Grid>
+   </StackPanel>
+   <InfoBar IsOpen="{x:Bind Model.ShowRefreshNotice, Mode=OneWay}" Visibility="{x:Bind Model.ShowRefreshNotice, Mode=OneWay, Converter={StaticResource VisibleWhen}}" IsClosable="False" Severity="Informational" Title="{x:Bind Model.RefreshMessage, Mode=OneWay}">
+    <InfoBar.ActionButton><Button loc:Localize.Uid="History_Button_Refresh" Command="{x:Bind Model.Refresh}" /></InfoBar.ActionButton>
+   </InfoBar>
+   <CommandBar DefaultLabelPosition="Right" IsDynamicOverflowEnabled="True" HorizontalContentAlignment="Left" HorizontalAlignment="Left">
+   <AppBarButton loc:Localize.Uid="History_AppBarButton_Parent" Icon="Up" Command="{x:Bind Model.Parent}" />
+   <AppBarButton loc:Localize.Uid="History_AppBarButton_RestoreOriginal" Icon="Download" Command="{x:Bind Model.RestoreOriginal}" />
+   <AppBarButton loc:Localize.Uid="History_AppBarButton_Older" Icon="Back" Command="{x:Bind Model.Older}" />
+   <AppBarButton loc:Localize.Uid="History_AppBarButton_Newer" Icon="Forward" Command="{x:Bind Model.Newer}" />
+   <AppBarButton loc:Localize.Uid="History_AppBarButton_Refresh" Icon="Refresh" Command="{x:Bind Model.Refresh}" />
+   <AppBarButton loc:Localize.Uid="History_AppBarButton_Cleanup" Click="CleanupClicked" IsEnabled="{x:Bind Cleanup.CanOpen, Mode=OneWay}"><AppBarButton.Icon><FontIcon Glyph="" /></AppBarButton.Icon></AppBarButton>
+   <AppBarButton loc:Localize.Uid="History_AppBarButton_View" Icon="ViewAll"><AppBarButton.Flyout><MenuFlyout>
+    <ToggleMenuFlyoutItem loc:Localize.Uid="History_ToggleMenuFlyoutItem_LargeIcons" IsChecked="{x:Bind Model.IsLargeIcons, Mode=OneWay}" Command="{x:Bind Model.LargeIcons}" />
+    <ToggleMenuFlyoutItem loc:Localize.Uid="History_ToggleMenuFlyoutItem_ListView" IsChecked="{x:Bind Model.IsList, Mode=OneWay}" Command="{x:Bind Model.ListView}" />
+   </MenuFlyout></AppBarButton.Flyout></AppBarButton>
+   <CommandBar.SecondaryCommands>
+    <AppBarButton loc:Localize.Uid="History_AppBarButton_RestoreSelected" Command="{x:Bind Model.RestoreSelected}" />
+    <AppBarButton loc:Localize.Uid="History_AppBarButton_Clear" Command="{x:Bind Model.Clear}" />
+   </CommandBar.SecondaryCommands>
+  </CommandBar>
+  </StackPanel><SplitView x:Name="DetailsHost" Grid.Row="1" Margin="0,10,0,0" DisplayMode="Inline" IsPaneOpen="True" PanePlacement="Right" OpenPaneLength="320">
+   <SplitView.Content>
+   <Grid RowSpacing="8">
+    <Grid.RowDefinitions><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+    <ListView loc:Localize.Uid="History_ListView_TimelineList" x:Name="ChildList" ItemsSource="{x:Bind Model.Items, Mode=OneWay}" Visibility="{x:Bind Model.IsList, Mode=OneWay, Converter={StaticResource VisibleWhen}}" SelectionMode="Extended" SelectionChanged="ChildrenSelected" DoubleTapped="ChildDoubleTapped" ContextRequested="ItemsContextRequested" ContextCanceled="ContextMenuCanceled" HorizontalContentAlignment="Stretch" ItemContainerStyle="{StaticResource FullRowItem}">
+     <ListView.ItemTemplate><DataTemplate x:DataType="models:TimelineItem">
+      <Grid Background="Transparent" ColumnSpacing="12" Padding="0,8" AutomationProperties.Name="{x:Bind AccessibleName, Mode=OneWay}" ToolTipService.ToolTip="{x:Bind ToolTip, Mode=OneWay}">
+       <Grid.ColumnDefinitions><ColumnDefinition Width="32" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+       <presentation:ShellIcon Key="{x:Bind IconKey}" Width="28" Height="28" VerticalAlignment="Center" />
+       <StackPanel Grid.Column="1" Spacing="2">
+        <TextBlock Text="{x:Bind Name, Mode=OneWay}" TextTrimming="CharacterEllipsis" IsTextSelectionEnabled="False" />
+        <TextBlock Text="{x:Bind Description, Mode=OneWay}" Style="{StaticResource SecondaryText}" IsTextSelectionEnabled="False" />
+       </StackPanel>
+      </Grid>
+     </DataTemplate></ListView.ItemTemplate>
+    </ListView>
+    <GridView loc:Localize.Uid="History_GridView_TimelineTiles" x:Name="TileList" ItemsSource="{x:Bind Model.Items, Mode=OneWay}" Visibility="{x:Bind Model.IsLargeIcons, Mode=OneWay, Converter={StaticResource VisibleWhen}}" SelectionMode="Extended" SelectionChanged="ChildrenSelected" DoubleTapped="ChildDoubleTapped" ContextRequested="ItemsContextRequested" ContextCanceled="ContextMenuCanceled" ItemContainerStyle="{StaticResource FullTileItem}">
+     <GridView.ItemTemplate><DataTemplate x:DataType="models:TimelineItem">
+      <Grid Width="160" Height="160" Background="Transparent" Padding="10" RowSpacing="6" AutomationProperties.Name="{x:Bind AccessibleName, Mode=OneWay}" ToolTipService.ToolTip="{x:Bind ToolTip, Mode=OneWay}">
+       <Grid.RowDefinitions><RowDefinition Height="70" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+       <presentation:ShellIcon Key="{x:Bind IconKey}" Width="64" Height="64" HorizontalAlignment="Center" />
+       <TextBlock Grid.Row="1" Text="{x:Bind Name, Mode=OneWay}" TextAlignment="Center" TextWrapping="Wrap" MaxLines="2" IsTextSelectionEnabled="False" />
+       <TextBlock Grid.Row="2" Text="{x:Bind TileDescription, Mode=OneWay}" TextAlignment="Center" TextWrapping="Wrap" MaxLines="2" FontSize="12" Style="{StaticResource SecondaryText}" IsTextSelectionEnabled="False" />
+      </Grid>
+     </DataTemplate></GridView.ItemTemplate>
+    </GridView>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="12" MaxWidth="360" Visibility="{x:Bind Model.IsEmpty, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+     <TextBlock loc:Localize.Uid="History_TextBlock_EmptyTimeline" Style="{StaticResource SectionTitle}" />
+     <TextBlock Text="{x:Bind Model.EmptyMessage, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+     <Button loc:Localize.Uid="History_Button_Setup" Command="{x:Bind Model.Setup}" />
+    </StackPanel>
+    <Button loc:Localize.Uid="History_Button_LoadChildren" Grid.Row="1" Command="{x:Bind Model.LoadChildren}" />
+   </Grid>
+   </SplitView.Content>
+   <SplitView.Pane>
+   <Border x:Name="DetailsPane" Style="{StaticResource SectionPanel}" Padding="16" Margin="12,0,0,0">
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+     <StackPanel Spacing="12">
+      <TextBlock Text="{x:Bind Model.DetailsTitle, Mode=OneWay}" Style="{StaticResource SectionTitle}" />
+      <TextBlock Text="{x:Bind Model.Details, Mode=OneWay}" Style="{StaticResource BodyText}" />
+      <StackPanel Spacing="12" Visibility="{x:Bind Model.HasFileSelection, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+      <StackPanel Spacing="8">
+       <Button loc:Localize.Uid="History_Button_Preview" Command="{x:Bind Model.Preview}" />
+       <StackPanel Orientation="Horizontal" Spacing="8">
+        <Button loc:Localize.Uid="History_Button_RestoreExactOriginal" Command="{x:Bind Model.RestoreExactOriginal}" />
+        <Button loc:Localize.Uid="History_Button_VersionOptionsName" Content="" FontFamily="{StaticResource SymbolThemeFontFamily}">
+         <Button.Flyout><MenuFlyout>
+          <MenuFlyoutItem loc:Localize.Uid="History_MenuFlyoutItem_RestoreExact" Command="{x:Bind Model.RestoreExact}" />
+          <MenuFlyoutSeparator />
+          <MenuFlyoutItem loc:Localize.Uid="History_MenuFlyoutItem_DeleteVersion" Command="{x:Bind Model.DeleteVersion}" />
+         </MenuFlyout></Button.Flyout>
+        </Button>
+       </StackPanel>
+       <TextBlock Text="{x:Bind Model.VersionDeletionNotice, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+      </StackPanel>
+      <TextBlock loc:Localize.Uid="History_TextBlock_VersionOrder" FontWeight="SemiBold" />
+      <ListView loc:Localize.Uid="History_ListView_VersionsName" ItemsSource="{x:Bind Model.Versions}" SelectedItem="{x:Bind Model.SelectedVersion, Mode=TwoWay}" Height="180" SelectionMode="Single" ContextRequested="VersionsContextRequested" ContextCanceled="ContextMenuCanceled" HorizontalContentAlignment="Stretch" ItemContainerStyle="{StaticResource FullRowItem}">
+       <ListView.ItemTemplate><DataTemplate x:DataType="models:VersionRow">
+        <StackPanel Spacing="3" Padding="0,6" Background="Transparent"><TextBlock Text="{x:Bind Stored, Mode=OneWay}" TextWrapping="Wrap" IsTextSelectionEnabled="False" /><TextBlock Text="{x:Bind Description, Mode=OneWay}" Style="{StaticResource SecondaryText}" IsTextSelectionEnabled="False" /></StackPanel>
+       </DataTemplate></ListView.ItemTemplate>
+      </ListView>
+      <Button loc:Localize.Uid="History_Button_LoadVersions" Command="{x:Bind Model.LoadVersions}" />
+      <TextBlock Text="{x:Bind Model.VersionLimit, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+      </StackPanel>
+     </StackPanel>
+    </ScrollViewer>
+   </Border>
+   </SplitView.Pane>
+  </SplitView></Grid>
+ </presentation:PageLayout.Body>
+
+ <presentation:PageLayout.Footer>
+<StackPanel Margin="0,10,0,0" Spacing="4">
+   <StackPanel Orientation="Horizontal" Spacing="12">
+    <ProgressRing loc:Localize.Uid="History_ProgressRing_LoadingName" Width="20" Height="20" IsActive="{x:Bind Model.Busy, Mode=OneWay}" Visibility="{x:Bind Model.Busy, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+    <Button loc:Localize.Uid="History_Button_Cancel" Command="{x:Bind Model.Cancel}" Visibility="{x:Bind Model.Busy, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+    <TextBlock Text="{x:Bind Model.CountText, Mode=OneWay}" Style="{StaticResource SecondaryText}" VerticalAlignment="Center" />
+   </StackPanel>
+   <TextBlock Text="{x:Bind Model.Message, Mode=OneWay}" Style="{StaticResource SecondaryText}" AutomationProperties.LiveSetting="Polite" />
+  </StackPanel>
+ </presentation:PageLayout.Footer>
+
+ </presentation:PageLayout>
+
+</UserControl>

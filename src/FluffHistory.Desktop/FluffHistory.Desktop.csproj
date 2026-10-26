@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.22000.0</TargetPlatformMinVersion>
+    <SupportedOSPlatformVersion>10.0.22000.0</SupportedOSPlatformVersion>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <UseWinUI>true</UseWinUI>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <WindowsPackageType>None</WindowsPackageType>
+    <Version Condition="'$(ProductVersion)' != ''">$(ProductVersion)</Version>
+    <DefineConstants>$(DefineConstants);DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+    <EnableMsixTooling>true</EnableMsixTooling>
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <SelfContained>true</SelfContained>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <AppxBundle>Never</AppxBundle>
+    <AppxSymbolPackageEnabled>false</AppxSymbolPackageEnabled>
+    <AppxPackageIncludePrivateSymbols>false</AppxPackageIncludePrivateSymbols>
+    <DebugType>none</DebugType>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\FluffHistory.ico</ApplicationIcon>
+    <ApplicationTitle>Fluff-History UI</ApplicationTitle>
+    <AssemblyTitle>Fluff-History UI</AssemblyTitle>
+    <Product>Fluff-History</Product>
+    <Company>Fish &amp; Dog Software</Company>
+    <NativeShellOutputDirectory Condition="'$(NativeShellOutputDirectory)' == ''">$(MSBuildThisFileDirectory)..\..\artifacts\native-shell</NativeShellOutputDirectory>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(GitCommit)' != ''">
+    <AssemblyMetadata Include="GitCommit" Value="$(GitCommit)" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\*.png" />
+    <Content Update="Assets\Square44x44Logo.scale-400.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Assets\FluffHistory.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="..\..\artwork\LICENSE-Icons8.txt" Link="ThirdPartyNotices\Icons8.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="$(NativeShellOutputDirectory)\FluffHistory.ExplorerCommand.dll" Link="FluffHistory.ExplorerCommand.dll" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\native\Shell\Assets\LICENSE.txt" Link="ThirdPartyNotices\FluentSystemIcons.txt" CopyToOutputDirectory="PreserveNewest" />
+    <!-- Components from the pinned stable 2.5.1 graph. Foundation supplies AppLifecycle
+         and Storage Pickers transitively; preserve the existing InteractiveExperiences version. -->
+    <PackageReference Include="Microsoft.WindowsAppSDK.WinUI" />
+    <PackageReference Include="Microsoft.WindowsAppSDK.InteractiveExperiences" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
+    <!-- Management UI only. Agent and native Shell never acquire OAuth tokens. -->
+    <PackageReference Include="Microsoft.Identity.Client" />
+    <PackageReference Include="Microsoft.Identity.Client.Broker" />
+    <PackageReference Include="Microsoft.Identity.Client.NativeInterop" />
+    <ProjectReference Include="../FluffHistory.Application/FluffHistory.Application.csproj" />
+    <ProjectReference Include="../FluffHistory.Windows/FluffHistory.Windows.csproj" />
+  </ItemGroup>
+  <Target Name="BuildNativeShell" BeforeTargets="PrepareForBuild">
+    <Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildThisFileDirectory)..\..\scripts\Build-NativeShell.ps1&quot; -OutputDirectory &quot;$(NativeShellOutputDirectory)&quot; -ProductVersion &quot;$(ProductVersion)&quot;" />
+  </Target>
+  <Target Name="PrepareDeveloperPreviewManifest" BeforeTargets="PrepareForBuild" Condition="'$(DeveloperPreviewVersion)' != ''">
+    <MakeDir Directories="$(IntermediateOutputPath)" />
+    <Copy SourceFiles="Package.appxmanifest" DestinationFiles="$(IntermediateOutputPath)DeveloperPreview.appxmanifest" />
+    <XmlPoke XmlInputPath="$(IntermediateOutputPath)DeveloperPreview.appxmanifest"
+      Query="/*[local-name()='Package']/*[local-name()='Identity']/@Version" Value="$(DeveloperPreviewVersion)" />
+    <ItemGroup>
+      <AppxManifest Remove="@(AppxManifest)" />
+      <AppxManifest Include="$(IntermediateOutputPath)DeveloperPreview.appxmanifest" />
+    </ItemGroup>
+  </Target>
+  <!-- This preview intentionally emits no symbol package. The SDK otherwise probes VS native PDB tools
+       even when symbol packaging is disabled. Do not require a C++ workload for unused symbol conversion. -->
+  <Target Name="ExcludeDeveloperPreviewSymbolPayload" BeforeTargets="_EnsurePdbCmfExeFullPath" Condition="'$(AppxSymbolPackageEnabled)' == 'false'">
+    <ItemGroup><PDBPayload Remove="@(PDBPayload)" /><PDBUploadPayload Remove="@(PDBUploadPayload)" /></ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,7 @@
+Fluff-History development preview
+
+This preview installs for your Windows account. The background agent continues automatic backups when the main window is closed.
+
+This build uses a development signing certificate. Windows may ask for administrator permission to trust that exact public certificate on this test computer. Certificate trust affects every user of the computer. Only this trust step needs elevation; application and Explorer registration stay in your own account. Production releases will use normal release signing.
+
+Uninstall retains your application settings and never deletes your backup repository. Development trust is removed only when this setup installed it and no other user's package still relies on it.

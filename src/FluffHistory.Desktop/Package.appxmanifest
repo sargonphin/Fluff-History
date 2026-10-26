@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+ xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+ xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+ xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10"
+ xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4"
+ xmlns:desktop5="http://schemas.microsoft.com/appx/manifest/desktop/windows10/5"
+ IgnorableNamespaces="uap rescap com desktop4 desktop5">
+ <Identity Name="Sargonphin.FluffHistory.DeveloperPreview" Publisher="CN=Fluff-History Developer Preview" Version="0.24.0.0" ProcessorArchitecture="x64" />
+ <Properties><DisplayName>Fluff-History</DisplayName><PublisherDisplayName>Fish &amp; Dog Software</PublisherDisplayName><Logo>Assets\StoreLogo.png</Logo></Properties>
+ <Dependencies><TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26100.0" /></Dependencies>
+ <Resources>
+  <Resource Language="en-US" />
+  <Resource Language="de-DE" />
+  <Resource Language="fr-FR" />
+  <Resource Language="es-ES" />
+  <Resource Language="it-IT" />
+  <Resource Language="pt-BR" />
+  <Resource Language="pt-PT" />
+  <Resource Language="nl-NL" />
+  <Resource Language="pl-PL" />
+  <Resource Language="cs-CZ" />
+  <Resource Language="sk-SK" />
+  <Resource Language="hu-HU" />
+  <Resource Language="ro-RO" />
+  <Resource Language="bg-BG" />
+  <Resource Language="hr-HR" />
+  <Resource Language="sl-SI" />
+  <Resource Language="sr-Latn-RS" />
+  <Resource Language="sr-Cyrl-RS" />
+  <Resource Language="el-GR" />
+  <Resource Language="tr-TR" />
+  <Resource Language="ru-RU" />
+  <Resource Language="uk-UA" />
+  <Resource Language="sv-SE" />
+  <Resource Language="nb-NO" />
+  <Resource Language="da-DK" />
+  <Resource Language="fi-FI" />
+  <Resource Language="et-EE" />
+  <Resource Language="lv-LV" />
+  <Resource Language="lt-LT" />
+  <Resource Language="ca-ES" />
+  <Resource Language="ar-SA" />
+  <Resource Language="he-IL" />
+  <Resource Language="fa-IR" />
+  <Resource Language="hi-IN" />
+  <Resource Language="bn-BD" />
+  <Resource Language="zh-Hans" />
+  <Resource Language="zh-Hant" />
+  <Resource Language="ja-JP" />
+  <Resource Language="ko-KR" />
+  <Resource Language="th-TH" />
+  <Resource Language="vi-VN" />
+  <Resource Language="id-ID" />
+  <Resource Language="ms-MY" />
+  <Resource Language="fil-PH" />
+ </Resources>
+ <Applications><Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
+  <uap:VisualElements DisplayName="Fluff-History" Description="Fluff-History UI" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" />
+  <Extensions>
+   <com:Extension Category="windows.comServer"><com:ComServer><com:SurrogateServer DisplayName="Fluff-History Explorer command">
+    <com:Class Id="80F01E21-B634-4183-834E-CF09D7242401" Path="FluffHistory.ExplorerCommand.dll" ThreadingModel="STA" />
+   </com:SurrogateServer></com:ComServer></com:Extension>
+   <desktop4:Extension Category="windows.fileExplorerContextMenus"><desktop4:FileExplorerContextMenus>
+    <desktop5:ItemType Type="*"><desktop5:Verb Id="RestorePreviousVersion" Clsid="80F01E21-B634-4183-834E-CF09D7242401" /></desktop5:ItemType>
+    <desktop5:ItemType Type="Directory"><desktop5:Verb Id="RestorePreviousVersion" Clsid="80F01E21-B634-4183-834E-CF09D7242401" /></desktop5:ItemType>
+   </desktop4:FileExplorerContextMenus></desktop4:Extension>
+  </Extensions>
+ </Application></Applications>
+ <Capabilities><rescap:Capability Name="runFullTrust" /></Capabilities>
+</Package>

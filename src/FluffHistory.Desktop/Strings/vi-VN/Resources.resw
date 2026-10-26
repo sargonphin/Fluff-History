@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>vi-VN</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Dòng thời gian</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Thiết lập sao lưu</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Cài đặt ứng dụng</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Sẵn sàng</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Thiết lập sao lưu</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Vị trí sao lưu</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Đổi mật khẩu khôi phục…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Bật mã hóa…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Tắt mã hóa…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tiến độ chuyển đổi mã hóa</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Tiếp tục</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Tạm dừng</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Dung lượng ổ đĩa</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dung lượng đã dùng trên ổ sao lưu</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Khôi phục quyền truy cập…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Khôi phục quyền truy cập…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Khôi phục bằng tài khoản Microsoft (thử nghiệm)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Thay đổi…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Đổi vị trí sao lưu</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Thư mục cần sao lưu</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thư mục cần sao lưu</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Thêm thư mục…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Bỏ khỏi bản sao lưu</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Bỏ thư mục sẽ dừng sao lưu thư mục đó trong tương lai. Lịch sử hiện có được giữ theo cài đặt lưu giữ.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Thư mục bị loại trừ</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Thư mục bị loại trừ không được đưa vào các lần sao lưu sau. Lịch sử hiện có được giữ lại.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thư mục bị loại trừ</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Loại trừ thư mục…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Loại trừ thư mục</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Bỏ loại trừ</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bỏ loại trừ do người dùng chọn</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Sao lưu tự động</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sao lưu tự động</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Sao lưu tệp</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tần suất sao lưu</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Giữ các phiên bản đã lưu</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lưu giữ phiên bản đã lưu</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Sao lưu tự động tiếp tục khi đóng cửa sổ này. Các lần sao lưu bị lỡ không được xếp hàng.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nguồn điện và mạng</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nguồn điện và mạng</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Nguồn điện và mạng</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Tạm dừng sao lưu tự động khi dùng pin</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Cho phép sao lưu dùng mạng trên kết nối tính phí theo lưu lượng</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Chờ khi Windows báo không có mạng cho sao lưu mạng</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Lưu khóa khôi phục vào OneDrive (thử nghiệm)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Xác minh khôi phục OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Khôi phục thử nghiệm</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Chờ khi Windows không xác định được trạng thái nguồn điện</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Đặt lại cấu hình ứng dụng…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Lưu thay đổi</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Bỏ thay đổi</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History — bản xem trước cho nhà phát triển</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Sao lưu theo lịch tiếp tục khi đóng cửa sổ này. Tích hợp Explorer và Thuộc tính được cài cùng Fluff-History. Hỗ trợ khôi phục bằng mật khẩu và truy cập Windows cục bộ. Không thu thập đo từ xa hay tự động tải lên.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Sao chép chẩn đoán đã lọc dữ liệu nhạy cảm</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Xem lại đường dẫn thư mục trước khi chia sẻ. Không bao gồm mật khẩu khôi phục, dữ liệu khóa hoặc mã thông báo tài khoản.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Chẩn đoán ứng dụng</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Dòng thời gian</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Đang thay đổi mã hóa</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>Lịch sử sao lưu tạm thời không khả dụng. Tiếp tục thay đổi mã hóa trong Thiết lập sao lưu để hoàn tất.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Đường dẫn thư mục Dòng thời gian</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dòng thời gian tại</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Mới nhất</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Chọn ngày/giờ…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Hiện Dòng thời gian theo giờ địa phương</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ngày tham chiếu</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Giờ tham chiếu</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Hiện Dòng thời gian</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Thư mục cha</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Thư mục cha</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Khôi phục</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Trước đó</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Thời điểm trước trên Dòng thời gian</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Sau đó</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Thời điểm sau trên Dòng thời gian</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Dọn các phiên bản cũ…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Dạng xem</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Biểu tượng lớn</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Danh sách</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Khôi phục mục đã chọn…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Bỏ chọn tất cả</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Danh sách Dòng thời gian</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biểu tượng lớn của Dòng thời gian</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Không có phiên bản Dòng thời gian để hiển thị</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Mở Thiết lập sao lưu</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Tải thêm tệp và thư mục</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Xem trước / Mở</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Khôi phục</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Khôi phục phiên bản đã chọn</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tùy chọn phiên bản đã lưu</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Khôi phục đến…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Phiên bản · mới nhất trước</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Phiên bản tệp</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Tải thêm phiên bản</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Đang tải Dòng thời gian</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Hủy tải</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Thiết lập Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Sao lưu ngay</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Khôi phục quyền truy cập…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Khôi phục quyền truy cập…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Thiết lập sao lưu</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Cần chú ý</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hoạt động sao lưu</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Dung lượng ổ đĩa</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dung lượng đã dùng trên ổ sao lưu</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Sự cố tệp hoặc thư mục</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Hủy sao lưu</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Mở Dòng thời gian</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Cài đặt ứng dụng</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Chọn giao diện Fluff-History. Hệ thống sẽ theo giao diện Windows.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Không tải được tùy chọn ứng dụng. Đang dùng giá trị mặc định an toàn. Chọn một tùy chọn để lưu bản mới.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Thư mục sao lưu, lịch và thời gian lưu giữ được quản lý trong Thiết lập sao lưu. Dòng thời gian ghi nhớ lựa chọn Biểu tượng lớn hoặc Danh sách.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Xóa các phiên bản đã lưu</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Chọn nội dung cần xóa...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Khoảng thời gian dọn dẹp</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Hủy dọn dẹp</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Khôi phục</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Khôi phục đến…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Xem trước / Mở</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Xóa phiên bản đã lưu…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Tiếp tục</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Tiếp tục</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Dùng vị trí sao lưu này</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Đang đóng</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Đang chờ các thao tác đang chạy hoàn tất…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Việc đóng cần chú ý</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Chờ thao tác tệp đang chạy rồi thử đóng lại.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Thao tác cần chú ý</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Cần khôi phục</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Mở Tổng quan hoặc Thiết lập sao lưu để khôi phục quyền truy cập bằng mật khẩu khôi phục.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Chưa thiết lập</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Chọn Thiết lập Fluff-History trong Tổng quan để bắt đầu.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Sẵn sàng thiết lập</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Đã hủy; các thao tác tệp đã hoàn tất vẫn giữ nguyên.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Không thể hoàn tất thao tác. Kiểm tra thư mục đã chọn, thiết lập và kết nối rồi thử lại.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Đã lưu tùy chọn ứng dụng</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Hãy đặt lại rõ ràng các cài đặt ứng dụng bị hỏng trước khi lưu.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History đang đóng để cập nhật.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Tác nhân nền không khả dụng. Mở lại Fluff-History hoặc sửa cài đặt.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Đã mở bản xem trước Dòng thời gian</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Khôi phục: {0:N0} đã chép · {1:N0} bỏ qua · {2:N0} thất bại · {3:N0} chưa xác nhận · {4:N0} cảnh báo siêu dữ liệu</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Đã hủy</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Đã khôi phục xong. Người dùng Windows này có thể mở bản sao lưu.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Mật khẩu khôi phục không mở khóa được bản sao lưu. Kiểm tra mật khẩu rồi thử lại.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Chưa thể xác nhận đầy đủ việc khôi phục. Mở mới cục bộ đã thành công; xác minh truy cập trước khi thử lại.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Không xác nhận được truy cập cục bộ sau khôi phục. Kiểm tra vị trí sao lưu trước khi thử lại.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Vị trí sao lưu không hợp lệ hoặc bị hỏng. Khôi phục chưa hoàn tất.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Đã hủy khôi phục.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Không hoàn tất được khôi phục. Kiểm tra vị trí sao lưu và kết nối trước khi thử lại.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Vị trí sao lưu</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Thêm thư mục</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Thư mục cần sao lưu</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Bảo vệ bản sao lưu bằng mật khẩu khôi phục</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Thiết lập vị trí sao lưu này?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Thư mục trống này sẽ được thiết lập ngay. Sau đó lưu thay đổi để bắt đầu dùng.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Mật khẩu khôi phục</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Xác nhận mật khẩu</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Đổi mật khẩu khôi phục</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Tiếp tục thay đổi mã hóa</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Bảo vệ bản sao lưu</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Khôi phục quyền truy cập bản sao lưu</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Đổi mật khẩu</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Thiết lập bản sao lưu được bảo vệ</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Khôi phục quyền truy cập</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Đổi mật khẩu dùng để khôi phục trên hệ thống khác. Không cần mã hóa lại dữ liệu sao lưu hiện có. Giữ mật khẩu mới ở nơi an toàn.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Nhập mật khẩu khôi phục cho thay đổi mã hóa này. Sao lưu vẫn tạm dừng nếu không xác nhận được quyền truy cập.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Giữ mật khẩu khôi phục ở nơi an toàn. Bạn sẽ cần mật khẩu để khôi phục quyền truy cập trên bản cài Windows khác. Người dùng Windows này có thể mở bản sao lưu bình thường.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Bản sao lưu đã tồn tại nhưng người dùng Windows này chưa mở được. Nhập mật khẩu khôi phục để cho phép truy cập.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Nhập mật khẩu; phần xác nhận phải khớp</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Tìm thấy bản sao lưu hiện có</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Dọn các phiên bản cũ</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Xóa phiên bản…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Xác nhận dọn Dòng thời gian</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Đã bỏ khỏi các lần sao lưu sau. Lịch sử hiện có được giữ theo cài đặt lưu giữ.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Thư mục này sẽ được sao lưu về sau trừ khi có loại trừ khác. Lịch sử hiện có được giữ lại.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Đặt lại cấu hình ứng dụng?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Dữ liệu sao lưu và dữ liệu nguồn không bị thay đổi. Chỉ đặt lại cài đặt của ứng dụng này.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Đặt lại cấu hình</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Thay đổi mã hóa đã tạm dừng</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Gỡ mã hóa đã tạm dừng</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Thay đổi mã hóa cần chú ý</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Đang chuẩn bị thay đổi mã hóa</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} trên {1} · {2:N0} trên {3:N0} tệp</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Không xác minh được điều khiển chuyển đổi. Lịch sử sao lưu vẫn không khả dụng. Kiểm tra kết nối sao lưu và chẩn đoán.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>Lịch sử sao lưu tạm thời không khả dụng trong khi hoàn tất chuyển đổi. Có thể tiếp tục sau khi gián đoạn.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Đã mã hóa</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Không mã hóa</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Dùng khôi phục để cho phép tài khoản Windows này truy cập.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Tài khoản Windows này có thể mở khóa bản sao lưu.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Đang kiểm tra khôi phục OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Khôi phục OneDrive: bật</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Thiếu khóa khôi phục trong OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Đã tắt khôi phục OneDrive cục bộ; có thể cần dọn dẹp đám mây</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>Khôi phục OneDrive cần được chú ý</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Khôi phục OneDrive không khả dụng</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Khôi phục OneDrive: tắt</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Thử nghiệm. Một khóa khôi phục ngẫu nhiên được lưu trong thư mục ứng dụng Fluff-History trên OneDrive; các tệp đã sao lưu vẫn ở vị trí sao lưu. Quyền chỉ bao gồm thư mục ứng dụng này. PC khác có thể khôi phục bản sao lưu sau khi đăng nhập tài khoản Microsoft. Microsoft đánh dấu quyền này là Preview. Hãy giữ mật khẩu khôi phục.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Đã đổi mật khẩu khôi phục. Giữ mật khẩu mới ở nơi an toàn.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Đã bật và xác minh khôi phục OneDrive. Hãy giữ mật khẩu khôi phục.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Đã tắt khôi phục OneDrive. Mật khẩu và quyền truy cập Windows không đổi.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Đã xác minh khôi phục OneDrive.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Đã khôi phục xong. Tài khoản Windows này có thể mở khóa bản sao lưu.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Thiếu khóa khôi phục trong OneDrive. Hãy dùng mật khẩu khôi phục.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>Khóa khôi phục OneDrive không thể xác thực bản sao lưu này. Hãy dùng mật khẩu khôi phục.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Chưa thể xác nhận đầy đủ thay đổi. Kiểm tra truy cập trước khi thử lại; lịch sử sao lưu không đổi.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Đã hủy thao tác.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Không hoàn tất được thay đổi bảo mật. Kiểm tra truy cập rồi thử lại. Vẫn có thể khôi phục bằng mật khẩu.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Mã hóa bản sao lưu</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Nội dung sao lưu hiện có sẽ được mã hóa tại chỗ. Sao lưu và khôi phục tạm thời không khả dụng. Giữ mật khẩu khôi phục; truy cập Windows được thêm tự động. Cần đủ dung lượng trống và có thể tiếp tục sau gián đoạn.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Siêu dữ liệu và nội dung tệp sẽ được lưu không mã hóa tại vị trí sao lưu. Sao lưu và khôi phục tạm thời không khả dụng khi chuyển đổi. Có thể tiếp tục sau gián đoạn.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Bật mã hóa?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Tắt mã hóa?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Đã thay đổi mã hóa xong.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Một số siêu dữ liệu đã loại bỏ có thể vẫn không mã hóa cho đến khi dọn thành công. Sẽ thử dọn lại.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Chưa xóa được một số siêu dữ liệu cũ; sẽ thử dọn lại.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Thay đổi mã hóa đã tạm dừng. Tiếp tục để hoàn tất; giữ nguyên các tệp đã chuyển đổi.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Chưa bắt đầu chuyển đổi mã hóa.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Cần thêm dung lượng trống. Giải phóng dung lượng rồi tiếp tục. Không xóa lịch sử.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Cần thêm dung lượng trống. Giải phóng dung lượng rồi thử đổi mã hóa lại. Không xóa lịch sử.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Dùng mật khẩu khôi phục để tiếp tục thay đổi mã hóa.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Thay đổi mã hóa cần chú ý. Kiểm tra kết nối sao lưu và mật khẩu khôi phục rồi tiếp tục. Đừng xóa tệp chuyển đổi.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Không bắt đầu được thay đổi mã hóa. Kiểm tra kết nối sao lưu và dữ liệu bộ nhớ đệm tùy chọn rồi thử lại. Lịch sử sao lưu không đổi.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Giữ phiên bản mãi mãi</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Không có thư mục bị loại trừ.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Chọn nơi lưu bản sao lưu</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Chọn vị trí sao lưu để tiếp tục.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Mã hóa bản sao lưu này đã tạm dừng</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Gỡ mã hóa đã tạm dừng</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Thay đổi chưa lưu · giữ lại khi đổi trang</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Thiết lập đã cập nhật</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Chọn tần suất sao lưu được hỗ trợ.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Chọn vị trí sao lưu.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Chọn vị trí sao lưu trước khi lưu.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Vị trí sao lưu không khả dụng. Chọn Thay đổi để chọn lại hoặc dùng vị trí khác.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Kiểm tra thư mục đã chọn và vị trí sao lưu.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Thư mục này đã có dữ liệu không liên quan. Fluff-History sẽ không thiết lập bản sao lưu mới ở đây. Chọn thư mục trống hoặc bản sao lưu Fluff-History hiện có.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Chọn vị trí sao lưu khác</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Vị trí này không khả dụng. Kiểm tra kết nối hoặc chọn vị trí khác.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Vị trí sao lưu không khả dụng</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Lưu thay đổi để dùng nơi này làm vị trí sao lưu.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Mật khẩu khôi phục không mở khóa được bản sao lưu.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Chưa thể xác nhận đầy đủ quyền truy cập. Kiểm tra bản sao lưu trước khi thử lại.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Đã chọn vị trí sao lưu. Chọn thư mục rồi lưu thay đổi.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Chọn tối đa 1.024 thư mục.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Đã được sao lưu qua {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Không chọn được thư mục này.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Xung đột chọn thư mục</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Sao lưu các thư mục này?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Vẫn sao lưu</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Thư mục này đã bị loại trừ.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Đã loại trừ thư mục khỏi sao lưu sau này. Lịch sử hiện có được giữ lại.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Mới nhất</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Thư mục</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Thêm thư mục trong Thiết lập sao lưu để bắt đầu. Các thư mục đã lưu sẽ xuất hiện ở đây.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Thư mục này chưa có phiên bản đã lưu. Tệp sẽ xuất hiện sau lần sao lưu thành công.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Thư mục này không có tệp đã lưu tại thời điểm chọn. Thử thời điểm khác hoặc chọn Mới nhất.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Dòng thời gian đã thay đổi. Làm mới để tiếp tục.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Dòng thời gian tại: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>Đã tải 4.096 mục. Mở thư mục để thu hẹp dạng xem.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>Đã tải 1.024 thời điểm. Thu hẹp thư mục hoặc chọn ngày giờ.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>Đã tải 1.024 phiên bản. Bản xem trước này giới hạn danh sách phiên bản.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Không có thư mục trong Dòng thời gian</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Các phiên bản mới nhất còn lại</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Phiên bản hiện tại thành công được bảo vệ, không thể xóa.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Chọn tệp hoặc thư mục</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Mở thư mục này để duyệt tệp đã lưu.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Mở thư mục để duyệt tệp đã lưu. Các thư mục này là mục điều hướng, không phải phiên bản thư mục có thể khôi phục.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Chọn tệp hoặc thư mục ở đây để khôi phục cùng nhau. Chọn một tệp để duyệt các phiên bản.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Thư mục hiển thị các tệp trong Dòng thời gian. Ngày và thuộc tính thư mục không được lưu riêng.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Mở Thiết lập sao lưu để thiết lập Dòng thời gian.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Mở Thiết lập sao lưu để tiếp tục.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Làm mới để tải Dòng thời gian của bản sao lưu.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Fluff-History hiện không sao lưu mục này.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Mở Thiết lập sao lưu hoặc Tổng quan để truy cập bản sao lưu.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Mục này chưa có lịch sử đã lưu.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Tệp này chưa có phiên bản đã lưu.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Hiện không được sao lưu</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Hiện không được sao lưu</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Thư mục này không còn trong Dòng thời gian.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Giờ địa phương này không tồn tại do giờ mùa hè. Chọn giờ khác.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Đã hủy tải. Các dòng hoàn tất vẫn khả dụng.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Đang tải Dòng thời gian…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Đã hủy tải.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Không thể khôi phục các mục đã chọn</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Khôi phục về vị trí gốc?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Các tệp lịch sử đã chọn sẽ được khôi phục về vị trí nguồn ban đầu. Windows sẽ hỏi về xung đột tệp hiện có.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Xóa phiên bản đã lưu này?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Đã xóa phiên bản đã lưu.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Đã hủy xóa. Đã xóa {0:N0} phiên bản trước khi hủy; các lần xóa đã xác nhận vẫn có hiệu lực.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Việc xóa cần chú ý. Một số thay đổi hoặc dọn nội dung có thể chưa được xác nhận. Kiểm tra bản sao lưu trước khi thử lại.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Không hoàn tất được thao tác. Kiểm tra thiết lập rồi thử lại.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Đang thay đổi mã hóa</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Tác nhân nền không khả dụng</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Thiết lập Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Đang sao lưu</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Sao lưu cần chú ý</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Chọn vị trí sao lưu và các thư mục cần sao lưu.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Sao lưu tự động đang bật</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Sao lưu tự động đang tắt</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Đang kiểm tra điều kiện sao lưu…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Đang mở bản sao lưu…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Đang quét và sao lưu tệp…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Đang áp dụng chính sách lưu giữ…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Đang kiểm tra siêu dữ liệu…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Đang thu gọn siêu dữ liệu…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Đang dọn siêu dữ liệu…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Đang nén siêu dữ liệu…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Đang mã hóa…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Đang giải mã…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Đang hoàn tất sao lưu…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Đã yêu cầu hủy</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Thư mục chưa ánh xạ</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Đang hiện {0:N0} trên {1:N0} sự cố đã ghi trong phiên này.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>Lịch sử sao lưu tạm thời không khả dụng. Tiếp tục thay đổi mã hóa trong Thiết lập sao lưu.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Bản sao lưu tồn tại nhưng người dùng Windows này không có quyền truy cập. Mật khẩu khôi phục có thể cấp lại quyền.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Sao lưu đã hoàn tất nhưng bảo trì Dòng thời gian cần chú ý. Xem Chẩn đoán trước khi dọn lại.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Không xác nhận được một số thay đổi. Kiểm tra vị trí sao lưu trước khi tiếp tục.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Vị trí sao lưu cần thêm dung lượng trống trước khi tiếp tục.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Đã bỏ qua một số tệp hoặc thư mục. Mở rộng Sự cố tệp hoặc thư mục bên dưới để xem đường dẫn và lý do. Các phiên bản thành công khác vẫn được lưu.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Thêm thư mục trong Thiết lập sao lưu để bắt đầu sao lưu.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Không có thay đổi cần sao lưu.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>chưa đến một giây</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} và {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Cần khôi phục. Dùng mật khẩu khôi phục để cấp quyền cho người dùng Windows này.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Hoàn tất thay đổi mã hóa trong Thiết lập sao lưu trước khi dùng lịch sử.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Dòng thời gian đã thay đổi. Làm mới để tiếp tục duyệt và khôi phục.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Vị trí sao lưu không hợp lệ hoặc bị hỏng. Kiểm tra vị trí đã chọn.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Đang có sao lưu hoặc dọn dẹp. Chờ hoàn tất rồi thử lại.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Không dùng được lựa chọn này ở đây. Chọn mục trong thư mục và thời điểm hiện tại.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Các mục lịch sử đã chọn có tệp và thư mục cùng đường dẫn nên không thể khôi phục cùng nhau.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Đã hủy thao tác. Các thao tác tệp đã hoàn tất vẫn giữ nguyên.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Vị trí sao lưu hoặc đích không khả dụng. Kiểm tra vị trí và kết nối rồi thử lại.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Vị trí sao lưu không hợp lệ</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Đã sao lưu xong</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Sao lưu hoàn tất với sự cố thư mục hoặc tệp</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Đã hủy sao lưu</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Sao lưu tạm dừng: không đủ dung lượng</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Đã hoãn sao lưu</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Sao lưu cần chú ý</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Chưa chạy sao lưu trong phiên ứng dụng này.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Đang chờ nguồn điện ngoài.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows không xác định được trạng thái nguồn điện.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Đang chờ kết nối không tính phí theo lưu lượng.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows báo không có mạng cho sao lưu đến đường dẫn mạng.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Sáng</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Tối</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>Đã dùng {0} trên {1} · trống {2}</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Đang kiểm tra dung lượng ổ đĩa…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Thông tin dung lượng ổ đĩa không khả dụng.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Đang tính kích thước bản sao lưu…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Bản sao lưu chiếm {0} khi kiểm tra gần nhất</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Bản sao lưu chiếm {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Không có kích thước bản sao lưu</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Chọn nội dung cần xóa để xem trước. Không xóa gì trước khi xác nhận.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Đang kiểm tra phiên bản đã lưu…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Dòng thời gian đã thay đổi. Chọn lại nội dung cần xóa.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Thao tác sẽ giải phóng khoảng {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Không có gì để xóa với lựa chọn này.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Xem lại bản xem trước khi xóa phiên bản.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Đã hủy xem trước. Không xóa gì.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Xem trước chưa đủ: đã đạt giới hạn công việc. Không thể dọn dẹp.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Đang xóa phiên bản đã lưu…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Dòng thời gian thay đổi sau lần xem trước. Xem trước lại trước khi xóa phiên bản.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Chưa xóa được một số nội dung đã lưu.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Đã dọn xong. Làm mới Dòng thời gian để xem phiên bản còn lại.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Đã hủy dọn dẹp. Các lần xóa đã xác nhận vẫn có hiệu lực. Làm mới Dòng thời gian.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Dọn dẹp cần chú ý. Một số thay đổi có thể chưa được xác nhận; kiểm tra bản sao lưu trước khi thử lại. Làm mới Dòng thời gian.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Giữ một phiên bản mới nhất còn lại ở mỗi đường dẫn, kể cả tệp không còn được sao lưu. Các phiên bản hiện tại vẫn được bảo vệ.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Các phiên bản hiện tại vẫn được bảo vệ. Tệp chỉ có trong Dòng thời gian có thể biến mất hoàn toàn nếu mọi phiên bản đều cũ hơn giới hạn này.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Dung lượng ước tính; dung lượng trống thực tế có thể khác.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} thư mục hiện có</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} thư mục hiện có</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} thư mục hiện có</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} thư mục hiện có</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} thư mục hiện có</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} thư mục hiện có</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} sự cố tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} sự cố tệp</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} sự cố tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} sự cố tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} sự cố tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} sự cố tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} tệp</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} phiên bản tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} phiên bản tệp</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} phiên bản tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} phiên bản tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} phiên bản tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} phiên bản tệp</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} thư mục</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} thư mục</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} thư mục</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} thư mục</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} thư mục</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} thư mục</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} giờ</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} giờ</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} giờ</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} giờ</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} giờ</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} giờ</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} mục</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} mục</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} mục</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} mục</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} mục</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} mục</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} phút</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} phút</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} phút</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} phút</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} phút</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} phút</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>Đã lưu {0:N0} phiên bản mới</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>Đã lưu {0:N0} phiên bản mới</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>Đã lưu {0:N0} phiên bản mới</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>Đã lưu {0:N0} phiên bản mới</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>Đã lưu {0:N0} phiên bản mới</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>Đã lưu {0:N0} phiên bản mới</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} phiên bản đã lưu</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} phiên bản đã lưu</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} phiên bản đã lưu</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} phiên bản đã lưu</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} phiên bản đã lưu</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} phiên bản đã lưu</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} giây</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} giây</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} giây</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} giây</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} giây</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} giây</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, Thư mục</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, Tệp, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Đã lưu {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · đã chọn {1:N0}</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>Đã chọn {0:N0} mục</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Đã lưu: {1:f}
+
+Thao tác chỉ xóa vĩnh viễn phiên bản đã lưu này. Tệp nguồn và các phiên bản khác được giữ lại. Không thể hoàn tác.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} thư mục trong Dòng thời gian</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Đã thêm {0} · Bật lại {1} · {2} đã chọn sẵn</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} không được thêm</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>Đã xóa {0} ({1} nội dung đã lưu).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Xóa vĩnh viễn {0} khỏi {1}? Tệp nguồn và các phiên bản hiện tại được giữ lại. Không thể hoàn tác.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} đã chọn để sao lưu</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Sao lưu gần nhất lúc {0:f}, mất {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Lần thử sao lưu gần nhất lúc {0:f}, mất {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Đã lưu {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Tệp sửa đổi {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Đã lưu: {2:G}
+Tệp sửa đổi: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Dòng thời gian tại {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Dòng thời gian</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Mỗi 10 phút</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Mỗi 30 phút</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Mỗi giờ</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Mỗi 3 giờ</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Mỗi 6 giờ</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Mỗi 12 giờ</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Mỗi ngày</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Đến khi đầy dung lượng</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 tháng</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 tháng</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 tháng</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 tháng</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 năm</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 năm</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Mãi mãi</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Phiên bản cũ hơn giới hạn này có thể bị xóa sau sao lưu thành công. Phiên bản hiện tại vẫn được bảo vệ.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Giữ phiên bản đến khi ổ sao lưu đạt ngưỡng an toàn dung lượng. Khi cần chỗ sao lưu, các phiên bản đủ điều kiện cũ nhất bị xóa tự động. Phiên bản hiện tại vẫn được bảo vệ.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Chính sách “Mãi mãi” không bao giờ tự động xóa lịch sử. Phiên bản tiếp tục được thêm đến khi ổ sao lưu không thể nhận bản mới an toàn. Khi đó bạn phải giải phóng dung lượng hoặc dọn Dòng thời gian thủ công.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Cũ hơn 1 tháng</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Cũ hơn 3 tháng</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Cũ hơn 6 tháng</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Cũ hơn 9 tháng</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Cũ hơn 1 năm</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Cũ hơn 2 năm</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Chỉ giữ phiên bản mới nhất</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData chứa trạng thái ứng dụng, bộ nhớ đệm, cơ sở dữ liệu và tệp tạm. Chúng thay đổi thường xuyên và có thể làm lịch sử tăng nhanh. Khôi phục các tệp này không thay thế cài lại hoặc khôi phục ứng dụng đúng cách.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Tệp hệ thống và chương trình đã cài lớn, thay đổi thường xuyên. Fluff-History không phải bản sao lưu ảnh hệ thống. Chỉ khôi phục các tệp này có thể không sửa được Windows hoặc ứng dụng.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData có thể chứa trạng thái ứng dụng dùng chung, bộ nhớ đệm và cơ sở dữ liệu thay đổi thường xuyên. Điều này có thể tạo nhiều dữ liệu lịch sử.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Vị trí này chủ yếu chứa tệp tạm hoặc cài đặt và có thể tạo nhiều thay đổi lịch sử tồn tại ngắn.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Vị trí này chứa siêu dữ liệu hệ thống hoặc tệp làm việc Fluff-History, không thể sao lưu.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Đang kiểm tra thiết lập sao lưu…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Cài đặt ứng dụng cần chú ý. Hãy đặt lại cấu hình rõ ràng; dữ liệu sao lưu không bị thay đổi.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Thiết lập sao lưu đã lưu không khả dụng hoặc không hợp lệ. Kiểm tra Thiết lập sao lưu trước khi tiếp tục.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows không xác minh được vị trí sao lưu hoặc dữ liệu làm việc tạm của ứng dụng. Kiểm tra truy cập và dung lượng trống rồi thử lại.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Thư mục đã chọn sao lưu không thể đồng thời bị loại trừ. Bỏ thư mục khỏi sao lưu hoặc đổi loại trừ.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Chọn tối đa 256 thư mục loại trừ, với đường dẫn tổng cộng tối đa 256 KiB.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Nguồn này hỗ trợ tối đa 256 thư mục loại trừ hiệu lực và 256 KiB cấu hình. Chọn ít loại trừ hơn hoặc đường dẫn ngắn hơn.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Mỗi thư mục chỉ được chọn một lần.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Thư mục con đã chọn phải được loại trừ khỏi thư mục cha.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Chọn đường dẫn thư mục tuyệt đối.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Chọn thư mục ổ đĩa hoặc mạng thông thường.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Chọn đường dẫn chia sẻ mạng đầy đủ.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Đường dẫn không rõ ràng hoặc vượt khỏi gốc. Chọn đường dẫn thư mục tuyệt đối thông thường.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Không thể sao lưu thư mục nằm trong vị trí sao lưu hoặc chứa vị trí sao lưu.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Xác nhận cảnh báo trước khi thêm thư mục.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Đường dẫn dẫn đến thư mục hệ thống Windows hoặc dữ liệu ứng dụng. Chọn vị trí thực và xác nhận cảnh báo trước.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Các thư mục dẫn đến vị trí Windows chồng lấp. Mỗi vị trí chỉ chọn một lần.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Thư mục dẫn đến dữ liệu làm việc tạm của Fluff-History nên không thể sao lưu.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Màn hình nền</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Tải xuống</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Ảnh</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Nhạc</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Tên tệp hoặc thư mục không được hỗ trợ.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Bí danh chữ hoa/thường không rõ ràng.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Ranh giới, điểm phân tích lại hoặc EFS không được hỗ trợ.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Tệp không hỗ trợ hoặc quá lớn.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Nguồn thay đổi trong khi sao chép.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Không thể truy cập tệp hoặc thư mục.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Không thể truy cập tệp hoặc thư mục (lỗi Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Gốc nguồn hoặc thư mục tổ tiên không phải thư mục thông thường.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Ranh giới thư mục không được hỗ trợ.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Đang kiểm tra dung lượng</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Đang mã hóa tệp</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Đang giải mã tệp</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Đang dựng lại siêu dữ liệu</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Đang hoàn tất bản sao lưu</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Tệp hoặc thư mục đang được ứng dụng khác dùng.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Truy cập tệp hoặc thư mục bị từ chối.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Không tìm thấy tệp hoặc thư mục khi quét.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Đã lưu thiết lập</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Đã lưu thay đổi thư mục. Thư mục đã cập nhật sẽ được đưa vào lần sao lưu theo lịch kế tiếp.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Đã lưu thay đổi thư mục. Thư mục đã cập nhật sẽ được đưa vào lần sao lưu kế tiếp.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Đã yêu cầu sao lưu</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Đã có sao lưu đang chạy hoặc hoàn tất.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Thiết lập vị trí sao lưu và thư mục sẵn sàng trong Thiết lập sao lưu.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Khôi phục phiên bản trước…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Đang tải lịch sử...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Đã sao lưu</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Hiện không được sao lưu</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Không được Fluff-History sao lưu</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Cần khôi phục</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Bản sao lưu không khả dụng</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Phiên lịch sử đã hết hạn</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Bản sao lưu không khả dụng. Mở Fluff-History hoặc làm mới.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Phiên lịch sử hết hạn. Làm mới để tiếp tục.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Vị trí sao lưu: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Duyệt lịch sử thư mục</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Mở Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Duyệt mọi phiên bản</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Thư mục được dựng từ các phiên bản tệp đã lưu.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Khôi phục thay đổi tệp hiện tại. Lịch sử đã lưu được giữ lại.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History không khả dụng. Cài bản xem trước cho nhà phát triển rồi thử lại.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Khôi phục phiên bản này về vị trí gốc? Windows sẽ hỏi về xung đột tệp hiện có. Lịch sử đã lưu được giữ lại.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Khôi phục phiên bản đã lưu?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Đang khôi phục phiên bản đã chọn...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Bản sao lưu không khả dụng. Mở Fluff-History để tiếp tục.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Khôi phục</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>Lịch sử thư mục được dựng từ các phiên bản tệp đã lưu.
+Thời điểm Dòng thời gian gần đây:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Chưa có phiên bản tệp đã lưu.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Sửa đổi {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Không có phiên bản đã lưu của tệp. Mở Dòng thời gian hoặc Thiết lập sao lưu để tiếp tục.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Phiên bản đã lưu mới nhất: {0:f}
+Số phiên bản giữ lại: {1:N0}
+Phiên bản cũ nhất giữ lại: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Phiên bản đã lưu mới nhất: {0:f}
+Số phiên bản giữ lại: {1:N0}+; mở Dòng thời gian để xem lịch sử đầy đủ
+Phiên bản cũ nhất giữ lại: mở Dòng thời gian để xem lịch sử đầy đủ</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Không được Fluff-History sao lưu.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Cần khôi phục. Mở Fluff-History để khôi phục quyền truy cập.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Bản sao lưu không khả dụng. Mở Fluff-History hoặc thử lại.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Khôi phục cần chú ý. Kiểm tra đích trước khi thử lại.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Đã hủy khôi phục. Các thao tác tệp đã hoàn tất vẫn giữ nguyên.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Đã khôi phục tệp. Lịch sử đã lưu không đổi.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Không có tệp được khôi phục. Kiểm tra đích.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Lịch sử đã thay đổi. Làm mới trước khi khôi phục.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Khôi phục không khả dụng. Mở Fluff-History để tiếp tục.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Đã hủy khôi phục. Kiểm tra đích.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>vi-VN</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Lối tắt:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Tạo lối tắt trên &amp;màn hình nền</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Tạo lối tắt trong menu &amp;Bắt đầu</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History yêu cầu thư mục cài đặt cố định cho từng người dùng.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Đang có cài đặt hoặc khởi động ứng dụng. Đợi một lát rồi thử lại.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History không chuẩn bị được cập nhật. Đóng thao tác tệp đang chạy và trang Thuộc tính rồi thử lại. Kho sao lưu không đổi.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History không hoàn tất được cài đặt. Đã giữ trạng thái ứng dụng để thử lại; kho sao lưu không đổi.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Cài đặt cần chú ý</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History không hoàn tất được cài đặt. Cài đặt ứng dụng và kho sao lưu được giữ lại. Chạy lại trình cài để thử lại.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Đóng Fluff-History, thao tác tệp đang chạy và trang Thuộc tính trước khi gỡ cài đặt. Không ép dừng gì.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Đã sao chép chẩn đoán. Xem lại đường dẫn thư mục trước khi chia sẻ.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ngôn ngữ ứng dụng</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Dùng ngôn ngữ Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Thay đổi có hiệu lực ngay. Ngày và số dùng thiết đặt khu vực của bạn.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Sửa khôi phục OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Tắt cục bộ…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Cần nâng cấp cách khôi phục cũ sang OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Khôi phục OneDrive thử nghiệm chưa được cấu hình trong bản dựng này.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Đăng nhập Microsoft để dùng khôi phục OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Đăng nhập hoặc sự đồng ý với Microsoft bị từ chối. Khôi phục bằng mật khẩu vẫn khả dụng.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Quyền thư mục ứng dụng OneDrive cần thiết không khả dụng. Khôi phục bằng mật khẩu vẫn khả dụng.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>Khôi phục OneDrive cần kết nối Internet. Mật khẩu và truy cập Windows cục bộ vẫn khả dụng.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>Hiện không thể xác minh khôi phục OneDrive. Thử lại sau hoặc dùng mật khẩu khôi phục.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive đang bận. Hãy thử lại sau.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive không khả dụng hoặc chưa được thiết lập cho tài khoản Microsoft này. Hãy dùng mật khẩu khôi phục.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>Khóa khôi phục OneDrive đã thay đổi hoặc không hợp lệ. Dùng mật khẩu khôi phục hoặc sửa khôi phục trên PC có thể mở khóa bản sao lưu này.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Có thể vẫn cần dọn dẹp OneDrive. Chỉ khóa khôi phục bị ảnh hưởng; mật khẩu và truy cập Windows không đổi.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Có thể vẫn cần dọn dẹp OneDrive. Tệp khôi phục: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>Khôi phục OneDrive hoạt động, nhưng không thể xóa hoàn toàn thông tin xác thực khôi phục Windows cũ.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Tắt khôi phục OneDrive cục bộ?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Thao tác này xóa liên kết khôi phục OneDrive của bản sao lưu mà không xóa tệp khôi phục trên đám mây. Bạn có thể cần xóa thủ công tệp đó khỏi OneDrive. Mật khẩu và truy cập Windows không đổi.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Đã tắt khôi phục OneDrive cục bộ.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Sửa khôi phục OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Tạo và xác minh khóa khôi phục mới trước khi ngừng dùng khóa cũ. Các tệp đám mây đã sửa đổi sẽ được giữ lại.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Bản cập nhật</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Kênh cập nhật</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Tự động kiểm tra</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Ổn định</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Không bao giờ</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Hằng ngày</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Hằng tuần</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Hằng tháng</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Kiểm tra ngay</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Phiên bản hiện tại: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Kiểm tra gần nhất: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Bản dựng phát triển chưa công bố</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Đã có {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Tải xuống và cài đặt</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Xem ghi chú phát hành</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Đã cập nhật</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Đang kiểm tra bản cập nhật…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Đang tải bản cập nhật… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Đang xác minh bản cập nhật…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Sẵn sàng cài đặt</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Đang chờ sao lưu hoặc công việc đang chạy khác hoàn tất.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Đang cài đặt bản cập nhật…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Không thể liên hệ GitHub. Hãy thử lại sau.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub đang giới hạn yêu cầu. Hãy thử lại sau.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Không có bản phát hành nào có thể cài đặt.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Xác minh trình cài đặt thất bại. Bản cập nhật chưa được cài đặt.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Cài đặt tự động sẽ khả dụng sau khi bên ký bản phát hành được phê duyệt.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Không thể cài đặt bản cập nhật. Hãy thử lại sau.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Đã cài đặt bản cập nhật nhưng không thể mở lại cửa sổ.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Bản dựng chưa công bố này không thể cài đặt các bản cập nhật công khai.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Đã tắt kiểm tra bản cập nhật tự động.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Kiểm tra tự động liên hệ GitHub. Không gửi thông tin sao lưu hoặc tài khoản.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Đang sao lưu. Dừng sao lưu và cài đặt bản cập nhật?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Dừng sao lưu và cài đặt</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Chưa kiểm tra</value></data>
+</root>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier><PlatformTarget>x64</PlatformTarget>
+    <SelfContained>true</SelfContained><PublishTrimmed>false</PublishTrimmed>
+    <Version Condition="'$(ProductVersion)' != ''">$(ProductVersion)</Version>
+    <ApplicationTitle>Fluff-History Background Agent</ApplicationTitle>
+    <ApplicationIcon>..\FluffHistory.Desktop\Assets\FluffHistory.ico</ApplicationIcon>
+    <AssemblyTitle>Fluff-History Background Agent</AssemblyTitle>
+    <Product>Fluff-History</Product>
+    <Company>Fish &amp; Dog Software</Company>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../FluffHistory.Windows/FluffHistory.Windows.csproj" /></ItemGroup>
+  <ItemGroup Condition="'$(GitCommit)' != ''"><AssemblyMetadata Include="GitCommit" Value="$(GitCommit)" /></ItemGroup>
+</Project>

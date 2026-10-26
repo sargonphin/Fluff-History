@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
+  <RuntimeIdentifier>win-x64</RuntimeIdentifier><PlatformTarget>x64</PlatformTarget><SelfContained>true</SelfContained>
+  <PublishTrimmed>false</PublishTrimmed><Version Condition="'$(ProductVersion)' != ''">$(ProductVersion)</Version>
+  <PublishSingleFile>true</PublishSingleFile><IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  <AssemblyTitle>Fluff-History Installation Helper</AssemblyTitle><Product>Fluff-History</Product><Company>Fish &amp; Dog Software</Company></PropertyGroup>
+ <PropertyGroup><ApplicationIcon>..\FluffHistory.Desktop\Assets\FluffHistory.ico</ApplicationIcon></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../FluffHistory.Windows/FluffHistory.Windows.csproj" /></ItemGroup>
+</Project>

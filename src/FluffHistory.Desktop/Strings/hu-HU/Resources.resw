@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>hu-HU</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Áttekintés</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Idővonal</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Biztonsági mentés beállításai</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Alkalmazásbeállítások</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Kész</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Biztonsági mentés beállításai</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Biztonsági mentés helye</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Helyreállítási jelszó módosítása…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Titkosítás bekapcsolása…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Titkosítás kikapcsolása…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Titkosítási átalakítás folyamatjelzője</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Folytatás</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Szüneteltetés</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Meghajtó tárhelye</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biztonsági mentési meghajtó foglalt tárhelye</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hozzáférés helyreállítása…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Hozzáférés helyreállítása…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Helyreállítás Microsoft-fiókkal (kísérleti)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Módosítás…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biztonsági mentés helyének módosítása</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Mentendő mappák</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mentendő mappák</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Mappák hozzáadása…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Eltávolítás a mentésből</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>A mappa eltávolítása leállítja a további mentéseit. A meglévő előzmények a megőrzési beállítások szerint megmaradnak.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Kizárt mappák</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>A kizárt mappák nem szerepelnek a jövőbeli mentésekben. A meglévő előzmények megmaradnak.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kizárt mappák</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Mappa kizárása…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mappa kizárása</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Kizárás eltávolítása</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kijelölt felhasználói kizárás eltávolítása</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Automatikus biztonsági mentések</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automatikus biztonsági mentések</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Fájlok mentése</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mentés gyakorisága</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Mentett verziók megőrzése</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mentett verziók megőrzési ideje</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Az automatikus mentések az ablak bezárása után is folytatódnak. A kimaradt mentések nem kerülnek várólistára.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Energiaellátás és hálózat</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Energiaellátás és hálózat</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Energiaellátás és hálózat</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Automatikus mentések szüneteltetése akkumulátoros üzemmódban</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Hálózatot használó mentések engedélyezése forgalmi díjas kapcsolaton</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Várakozás, ha a Windows nem jelez hálózatot a hálózati mentéshez</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Speciális</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Speciális</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Speciális</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Helyreállítási kulcs mentése a OneDrive-ra (kísérleti)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>OneDrive-helyreállítás ellenőrzése</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Kísérleti helyreállítás</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Várakozás, ha a Windows nem tudja megállapítani az energiaellátást</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Alkalmazásbeállítások alaphelyzetbe állítása…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Módosítások mentése</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Elvetés</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History fejlesztői előzetes</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Az ütemezett mentések az ablak bezárása után is folytatódnak. Az Intéző és a Tulajdonságok integrációja a Fluff-History részeként települ. A jelszavas helyreállítás és a helyi Windows-hozzáférés támogatott. Nincs telemetria vagy automatikus feltöltés.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Megtisztított diagnosztika másolása</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Megosztás előtt ellenőrizze a mappaelérési utakat. Helyreállítási jelszavakat, kulcsanyagot és fióktokeneket nem tartalmaz.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alkalmazásdiagnosztika</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Idővonal</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Titkosítás módosítása folyamatban</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>A mentési előzmények átmenetileg nem érhetők el. A befejezéshez folytassa a titkosítás módosítását a mentés beállításainál.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Idővonal mappaelérési útja</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Idővonal időpontja</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Legutóbbi</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Dátum és idő kiválasztása…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Idővonal megjelenítése helyi idő szerint</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Állapot dátuma</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Idő</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Állapot időpontja</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Idővonal megjelenítése</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Frissítés</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Szülőmappa</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Szülőmappa</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Visszaállítás</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Korábbi</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Korábbi idővonal-időpont</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Későbbi</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Későbbi idővonal-időpont</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Frissítés</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Régi verziók törlése…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Nézet</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Nagy ikonok</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Kijelöltek visszaállítása…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Kijelölések megszüntetése</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Idővonal listája</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Idővonal nagy ikonokkal</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Nincs megjeleníthető idővonal-verzió</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Mentés beállításainak megnyitása</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>További fájlok és mappák betöltése</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Előnézet / Megnyitás</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Visszaállítás</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kijelölt verzió visszaállítása</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mentett verzió beállításai</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Visszaállítás ide…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Verziók · legújabb elöl</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fájlverziók</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>További verziók betöltése</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Idővonal betöltése</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Betöltés megszakítása</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Áttekintés</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Fluff-History beállítása</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Mentés most</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hozzáférés helyreállítása…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Hozzáférés helyreállítása…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Biztonsági mentés beállításai</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Figyelmet igényel</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mentési tevékenység</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Meghajtó tárhelye</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biztonsági mentési meghajtó foglalt tárhelye</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Fájl- vagy mappaproblémák</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Mentés megszakítása</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Idővonal megnyitása</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Alkalmazásbeállítások</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Megjelenés</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Válassza ki a Fluff-History megjelenését. A Rendszer beállítás a Windows megjelenését követi.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Megjelenés</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Az alkalmazás beállításai nem tölthetők be. Biztonságos alapértékek vannak használatban. Új példány mentéséhez válasszon egy beállítást.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>A mentendő mappák, az ütemezés és a megőrzés a mentés beállításainál kezelhetők. Az idővonal megjegyzi a Nagy ikonok vagy Lista választását.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Mentett verziók eltávolítása</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Válassza ki, mit töröl...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tisztítás időtartama</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Tisztítás megszakítása</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Megnyitás</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Visszaállítás</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Visszaállítás ide…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Előnézet / Megnyitás</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Mentett verzió törlése…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Folytatás</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Folytatás</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Megerősítés</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Ezen mentési hely használata</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Bezárás folyamatban</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Várakozás az aktív műveletek befejezésére…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>A leállítás figyelmet igényel</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Várja meg az aktív fájlműveletet, majd próbálja újra bezárni.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>A művelet figyelmet igényel</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Helyreállítás szükséges</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Nyissa meg az Áttekintést vagy a mentés beállításait a hozzáférés helyreállításához a helyreállítási jelszóval.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Nincs beállítva</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>A kezdéshez válassza az Áttekintésben a Fluff-History beállítása lehetőséget.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Beállításra kész</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Megszakítva; a már befejezett fájlműveletek eredménye megmarad.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>A művelet nem fejezhető be. Ellenőrizze a kijelölt mappákat, a beállításokat és a kapcsolatot, majd próbálja újra.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Alkalmazásbeállítások mentve</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Mentés előtt kifejezetten állítsa alaphelyzetbe a sérült alkalmazásbeállításokat.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>A Fluff-History frissítéshez bezárul.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>A háttérügynök nem érhető el. Próbálja újranyitni a Fluff-Historyt, vagy javítsa a telepítést.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Idővonal-előnézet megnyitva</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Visszaállítás: {0:N0} másolva · {1:N0} kihagyva · {2:N0} sikertelen · {3:N0} nem megerősített · {4:N0} metaadat-figyelmeztetés</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Megszakítva</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>A helyreállítás befejeződött. Ez a Windows-felhasználó most már megnyithatja a mentést.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>A helyreállítási jelszó nem oldotta fel ezt a mentést. Ellenőrizze a jelszót, majd próbálja újra.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>A helyreállítás nem erősíthető meg teljesen. Az új helyi megnyitás sikerült; újrapróbálás előtt ellenőrizze a hozzáférést.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>A helyi hozzáférés a helyreállítás után nem erősíthető meg. Újrapróbálás előtt vizsgálja meg a mentési helyet.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>A mentési hely érvénytelen vagy sérült. A helyreállítás nem fejeződött be.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Helyreállítás megszakítva.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>A helyreállítás nem fejezhető be. Újrapróbálás előtt ellenőrizze a mentési helyet és a kapcsolatot.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Biztonsági mentés helye</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Mappák hozzáadása</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Mentendő mappák</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Mentés védelme helyreállítási jelszóval</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Beállítja ezt a mentési helyet?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Ez az üres mappa most beállításra kerül. A használat megkezdéséhez utána mentse a módosításokat.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Helyreállítási jelszó</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Jelszó megerősítése</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Helyreállítási jelszó módosítása</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Titkosítás módosításának folytatása</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Védje a mentést</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Mentéshez való hozzáférés helyreállítása</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Jelszó módosítása</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Védett mentés beállítása</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Hozzáférés helyreállítása</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Módosítja a hordozható helyreállításhoz használt jelszót. A meglévő mentési adatokat nem kell újratitkosítani. Tartsa az új jelszót biztonságos helyen.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Adja meg a titkosítás módosításához tartozó helyreállítási jelszót. A mentés szünetel, ha a hozzáférés nem erősíthető meg.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Tartsa a helyreállítási jelszót biztonságos helyen. Másik Windows-telepítésen szüksége lesz rá a hozzáférés helyreállításához. Ez a Windows-felhasználó a szokásos módon megnyithatja a mentést.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Ez a mentés létezik, de ez a Windows-felhasználó még nem tudja megnyitni. A hozzáférés engedélyezéséhez adja meg a helyreállítási jelszót.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Adjon meg egy jelszót; a megerősítésnek egyeznie kell</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Meglévő mentés található</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Régi verziók törlése</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Verziók eltávolítása…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Idővonal tisztításának megerősítése</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Eltávolítva a jövőbeli mentésekből. A meglévő előzmények a megőrzési beállítások szerint megmaradnak.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Ez a mappa szerepelni fog a jövőbeli mentésekben, hacsak más kizárás nem vonatkozik rá. A meglévő előzmények megmaradnak.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Alaphelyzetbe állítja az alkalmazásbeállításokat?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>A mentési és forrásadatok érintetlenek maradnak. Csak az alkalmazás beállításai állnak alaphelyzetbe.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Beállítások alaphelyzetbe állítása</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Titkosítás módosítása szünetel</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Titkosítás eltávolítása szünetel</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>A titkosítás módosítása figyelmet igényel</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Titkosítás módosításának előkészítése</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} / {1} · {2:N0} / {3:N0} fájl</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Az átalakítás vezérlőadatai nem ellenőrizhetők. A mentési előzmények nem érhetők el. Ellenőrizze a mentési kapcsolatot és a diagnosztikát.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>A mentési előzmények az átalakítás befejezéséig átmenetileg nem érhetők el. Megszakítás után folytatható.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Titkosított</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Titkosítatlan</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>A helyreállítással engedélyezze a hozzáférést ennek a Windows-fióknak.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Ez a Windows-fiók fel tudja oldani ezt a mentést.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>OneDrive-helyreállítás ellenőrzése…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>OneDrive-helyreállítás: bekapcsolva</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>A helyreállítási kulcs hiányzik a OneDrive-ról</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>A OneDrive-helyreállítás helyileg kikapcsolva; felhőbeli tisztításra lehet szükség</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>A OneDrive-helyreállítás figyelmet igényel</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>A OneDrive-helyreállítás nem érhető el</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>OneDrive-helyreállítás: kikapcsolva</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Kísérleti. Egy véletlen helyreállítási kulcs a Fluff-History OneDrive-alkalmazásmappájában tárolódik; a mentett fájlok a biztonsági mentés helyén maradnak. Az engedély csak erre a mappára vonatkozik. Egy másik számítógép a Microsoft-fiókba való bejelentkezés után helyreállíthatja a mentést. A Microsoft ezt az engedélyt Preview jelöléssel látja el. Őrizze meg a helyreállítási jelszót.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>A helyreállítási jelszó módosult. Tartsa az új jelszót biztonságos helyen.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>A OneDrive-helyreállítás bekapcsolva és ellenőrizve. Őrizze meg a helyreállítási jelszót.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>A OneDrive-helyreállítás kikapcsolva. A jelszó és a Windows-hozzáférés változatlan.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>A OneDrive-helyreállítás ellenőrizve.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>A helyreállítás befejeződött. Ez a Windows-fiók most már fel tudja oldani ezt a mentést.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>A helyreállítási kulcs hiányzik a OneDrive-ról. Használja a helyreállítási jelszót.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>A OneDrive helyreállítási kulcsa nem tudta hitelesíteni ezt a mentést. Használja a helyreállítási jelszót.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>A módosítás nem erősíthető meg teljesen. Újrapróbálás előtt ellenőrizze a hozzáférést; a mentési előzmények változatlanok.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Művelet megszakítva.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>A biztonsági módosítás nem fejezhető be. Ellenőrizze a hozzáférést, majd próbálja újra. A jelszavas helyreállítás továbbra is elérhető.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Biztonsági mentés titkosítása</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>A meglévő mentés tartalma a helyén titkosításra kerül. A mentés és visszaállítás átmenetileg nem érhető el. Őrizze meg a helyreállítási jelszót; a Windows-hozzáférés automatikusan hozzáadódik. Elegendő szabad hely szükséges, és megszakítás után folytatható.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>A mentés metaadatai és a fájlok tartalma titkosítatlanul lesznek tárolva a mentési helyen. A mentés és visszaállítás az átalakítás során átmenetileg nem érhető el. Megszakítás után folytatható.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Bekapcsolja a titkosítást?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Kikapcsolja a titkosítást?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>A titkosítás módosítása befejeződött.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Néhány kivont metaadat titkosítatlan maradhat a sikeres tisztításig. A tisztítás újra meg lesz kísérelve.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Néhány régi metaadat még nem távolítható el; a tisztítás újra meg lesz kísérelve.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>A titkosítás módosítása szünetel. A befejezéshez folytassa; a már átalakított fájlok megmaradnak.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>A titkosítási átalakítás nem indult el.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Több szabad hely szükséges. Szabadítson fel helyet, majd folytassa. Előzmény nem lett eltávolítva.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Több szabad hely szükséges. Szabadítson fel helyet, majd próbálja újra a titkosítás módosítását. Előzmény nem lett eltávolítva.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>A titkosítás módosításának folytatásához használja a helyreállítási jelszót.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>A titkosítás módosítása figyelmet igényel. Ellenőrizze a mentési kapcsolatot és a helyreállítási jelszót, majd folytassa. Ne törölje az átalakítás fájljait.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>A titkosítás módosítása nem indítható el. Ellenőrizze a mentési kapcsolatot és a választható gyorsítótáradatokat, majd próbálja újra. A mentési előzmények változatlanok.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Verziók örök megőrzése</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Nincsenek kizárt mappák.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Válassza ki a mentések tárolási helyét</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>A folytatáshoz válasszon mentési helyet.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>A mentés titkosítása szünetel</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>A titkosítás eltávolítása szünetel</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Nem mentett módosítások · lapváltáskor megmaradnak</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>A beállítások naprakészek</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Válasszon támogatott mentési gyakoriságot.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Válasszon mentési helyet.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Mentés előtt válasszon mentési helyet.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>A mentési hely nem érhető el. A Módosítás gombbal válassza ki újra, vagy használjon másik helyet.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Ellenőrizze a kijelölt mappákat és a mentési helyet.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Ez a mappa már más adatokat tartalmaz. A Fluff-History nem állít be itt új mentést. Válasszon üres mappát vagy meglévő Fluff-History-mentést.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Másik mentési hely választása</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Ez a hely nem érhető el. Ellenőrizze a kapcsolatot, vagy válasszon másik helyet.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>A mentési hely nem érhető el</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>A hely mentési helyként való használatához mentse a módosításokat.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>A helyreállítási jelszó nem oldotta fel ezt a mentést.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>A hozzáférés nem erősíthető meg teljesen. Újrapróbálás előtt ellenőrizze a mentést.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Mentési hely kiválasztva. Válassza ki a mappákat, majd mentse a módosításokat.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Legfeljebb 1024 mappát válasszon.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Már menti ez: {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Ez a mappa nem választható ki.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Mappakijelölési ütközés</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Menti ezeket a mappákat?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Mentés mindenképpen</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Ez a mappa már ki van zárva.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Mappa kizárva a jövőbeli mentésekből. A meglévő előzmények megmaradnak.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Legutóbbi</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>A kezdéshez adjon hozzá mappákat a mentés beállításainál. A mentett mappák itt jelennek meg.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Ebben a mappában még nincsenek mentett verziók. A fájlok egy sikeres mentés után jelennek meg.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>A kijelölt időpontban nincsenek mentett fájlok ebben a mappában. Próbáljon másik időpontot, vagy válassza a Legutóbbi lehetőséget.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Az idővonal megváltozott. A folytatáshoz frissítsen.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Idővonal ekkor: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>4096 elem betöltve. A nézet szűkítéséhez nyisson meg egy mappát.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>1024 időpont betöltve. Szűkítse a mappát, vagy válasszon dátumot és időt.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>1024 verzió betöltve. Ez az előnézet korlátozza a verziólistát.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Nincsenek mappák az idővonalon</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Legújabb megmaradt verziók</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>A jelenlegi sikeres verzió védett, és nem törölhető.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Válasszon fájlt vagy mappát</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>A mentett fájlok böngészéséhez nyissa meg ezt a mappát.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>A mentett fájlok böngészéséhez nyisson meg egy mappát. Ezek navigációs elemek, nem visszaállítható könyvtárverziók.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>A közös visszaállításhoz jelöljön ki fájlokat vagy mappákat ebben a nézetben. Egy fájl verzióinak böngészéséhez jelöljön ki egyetlen fájlt.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>A mappák az idővonalon mentett fájlokat mutatják. A mappák dátumai és tulajdonságai nem kerülnek külön mentésre.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Az idővonal beállításához nyissa meg a mentés beállításait.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. A folytatáshoz nyissa meg a mentés beállításait.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>A mentés idővonalának betöltéséhez frissítsen.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Ezt az elemet jelenleg nem menti a Fluff-History.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>A mentés eléréséhez nyissa meg a mentés beállításait vagy az Áttekintést.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Ennek az elemnek még nincsenek mentett előzményei.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Ennek a fájlnak még nincs mentett verziója.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Jelenleg nincs mentve</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Jelenleg nincs mentve</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Ez a mappa már nincs az idővonalon.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Ez a helyi időpont az óraátállítás miatt nem létezik. Válasszon másik időpontot.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Betöltés megszakítva. A betöltött sorok elérhetők maradnak.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Idővonal betöltése…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Betöltés megszakítva.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>A kijelölt elemek nem állíthatók vissza</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Visszaállítja az eredeti helyre?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>A kijelölt korábbi fájlok az eredeti forráshelyükre lesznek visszaállítva. A Windows rákérdez a meglévő fájlok ütközéseire.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Törli ezt a mentett verziót?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Mentett verzió törölve.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Törlés megszakítva. A megszakítás előtt {0:N0} mentett verzió törlődött; a megerősített eltávolítások eredménye megmarad.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>A törlés figyelmet igényel. Néhány módosítás vagy tartalomtisztítás nem biztos, hogy megerősített. Újrapróbálás előtt vizsgálja meg a mentést.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>A művelet nem fejezhető be. Ellenőrizze a beállításokat, majd próbálja újra.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Titkosítás módosítása folyamatban</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>A háttérügynök nem érhető el</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Fluff-History beállítása</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Mentés folyamatban</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>A mentés figyelmet igényel</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Válasszon mentési helyet és mentendő mappákat.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Az automatikus mentések engedélyezve vannak</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Az automatikus mentések le vannak tiltva</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Mentési feltételek ellenőrzése…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Mentés megnyitása…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Fájlok vizsgálata és mentése…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Megőrzési szabály alkalmazása…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Metaadatok ellenőrzése…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Metaadatok tömör rendezése…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Metaadatok tisztítása…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Metaadatok tömörítése…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Titkosítás…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Titkosítás feloldása…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Mentés befejezése…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Megszakítás kérve</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Nem társított mappa</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+A munkamenetben rögzített {1:N0} problémából {0:N0} látható.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>A mentési előzmények átmenetileg nem érhetők el. Folytassa a titkosítás módosítását a mentés beállításainál.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>A mentés létezik, de ennek a Windows-felhasználónak nincs hozzáférése. A helyreállítási jelszóval visszaállítható.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>A mentés befejeződött, de az idővonal karbantartása figyelmet igényel. Újabb tisztítás előtt nézze meg a diagnosztikát.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Néhány módosítás nem erősíthető meg. Folytatás előtt ellenőrizze a mentési helyet.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>A mentés folytatásához több szabad hely szükséges a mentési helyen.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Néhány fájl vagy mappa kimaradt. Az utak és okok megtekintéséhez nyissa ki alább a Fájl- vagy mappaproblémák részt. A többi sikeres verzió mentve marad.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>A mentés megkezdéséhez adjon hozzá mappákat a mentés beállításainál.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Nincsenek mentendő módosítások.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>kevesebb mint egy másodperc</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} és {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Helyreállítás szükséges. A helyreállítási jelszóval engedélyezze a hozzáférést ennek a Windows-felhasználónak.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>A mentési előzmények használata előtt fejezze be a titkosítás módosítását a mentés beállításainál.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Az idővonal megváltozott. A böngészés és visszaállítás folytatásához frissítsen.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Ez a mentési hely érvénytelen vagy sérült. Ellenőrizze a kiválasztott helyet.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Már folyamatban van mentés vagy tisztítás. Várja meg a befejezését, majd próbálja újra.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Ez a kijelölés itt nem használható. Az aktuális mappából és időpontból válasszon elemeket.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>A kijelölt korábbi elemek között azonos elérési útú fájl és mappa szerepel, ezért együtt nem állíthatók vissza.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Művelet megszakítva. A befejezett fájlműveletek eredménye megmarad.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>A mentési hely vagy a cél nem érhető el. Ellenőrizze a helyét és a kapcsolatot, majd próbálja újra.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Érvénytelen mentési hely</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Mentés befejezve</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>A mentés fájl- vagy mappaproblémákkal befejeződött</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Mentés megszakítva</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Mentés szünetel: nincs elég hely</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Mentés elhalasztva</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>A mentés figyelmet igényel</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Ebben az alkalmazás-munkamenetben még nem futott mentés.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Várakozás külső tápellátásra.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>A Windows nem tudta megállapítani az energiaellátás állapotát.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Várakozás nem forgalmi díjas kapcsolatra.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>A Windows nem jelez hálózatot a hálózati elérési útra történő mentéshez.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Rendszer</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Világos</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Sötét</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} foglalt / {1} · {2} szabad</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Meghajtó tárhelyének ellenőrzése…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>A meghajtó tárhelyadatai nem érhetők el.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Mentés méretének kiszámítása…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>A mentés az utolsó ellenőrzéskor {0} helyet foglalt</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>A mentés {0} helyet foglal</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>A mentés mérete nem érhető el</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Az előnézethez válassza ki, mit távolít el. A megerősítésig semmi sem törlődik.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Mentett verziók ellenőrzése…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Az idővonal megváltozott. Válassza ki újra, mit távolít el.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Ez körülbelül {0} helyet szabadítana fel.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Ehhez a kijelöléshez nincs eltávolítható elem.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>A verziók eltávolítása előtt nézze át az előnézetet.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Előnézet megszakítva. Semmi sem lett eltávolítva.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Az előnézet hiányos: a munkakorlát elérve. A tisztítás nem hajtható végre.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Mentett verziók eltávolítása…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Az idővonal az előnézet óta megváltozott. Verziók eltávolítása előtt készítsen új előnézetet.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Néhány mentett tartalom még nem törölhető.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>A tisztítás befejeződött. A megmaradt verziókhoz frissítse az idővonalat.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Tisztítás megszakítva. A megerősített eltávolítások eredménye megmarad. Frissítse az idővonalat.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>A tisztítás figyelmet igényel. Néhány módosítás nem biztos, hogy megerősített; újrapróbálás előtt vizsgálja meg a mentést. Frissítse az idővonalat.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Minden elérési úton egy legújabb megmaradt verziót őriz meg, a már nem mentett fájlokból is. A jelenlegi verziók védettek maradnak.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>A jelenlegi verziók védettek maradnak. A csak az idővonalon található fájlok teljesen eltűnhetnek, ha minden verziójuk ennél régebbi.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Becsült tárhely; a tényleges szabad hely eltérhet.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} bájt</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} bájt</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} bájt</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} bájt</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} bájt</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} bájt</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} meglévő mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} meglévő mappa</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} meglévő mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} meglévő mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} meglévő mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} meglévő mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} fájlprobléma</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} fájlprobléma</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} fájlprobléma</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} fájlprobléma</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} fájlprobléma</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} fájlprobléma</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} fájl</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} fájl</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} fájl</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} fájl</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} fájl</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} fájl</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} fájlverzió</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} fájlverzió</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} fájlverzió</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} fájlverzió</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} fájlverzió</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} fájlverzió</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} óra</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} óra</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} óra</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} óra</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} óra</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} óra</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} elem</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} elem</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} elem</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} elem</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} elem</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} elem</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} perc</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} perc</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} perc</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} perc</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} perc</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} perc</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} új verzió mentve</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} új verzió mentve</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} új verzió mentve</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} új verzió mentve</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} új verzió mentve</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} új verzió mentve</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} mentett verzió</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} mentett verzió</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} mentett verzió</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} mentett verzió</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} mentett verzió</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} mentett verzió</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} másodperc</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} másodperc</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} másodperc</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} másodperc</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} másodperc</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} másodperc</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, mappa</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, fájl, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Mentve: {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} kijelölve</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} elem kijelölve</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Mentve: {1:f}
+
+Ez véglegesen csak ezt a mentett verziót távolítja el. A forrásfájl és a többi mentett verzió megmarad. Ez nem vonható vissza.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} mappa az idővonalon</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Hozzáadva: {0} · Újraengedélyezve: {1} · Már kijelölve: {2}</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} nem lett hozzáadva</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>{0} eltávolítva ({1} mentett tartalom).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Véglegesen eltávolítja ezt: {0}, innen: {1}? A forrásfájlok és a jelenlegi verziók megmaradnak. Ez nem vonható vissza.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} mentésre kijelölve</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Utolsó mentés: {0:f}, időtartama: {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Utolsó mentési kísérlet: {0:f}, időtartama: {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Mentve: {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Fájl módosítva: {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Mentve: {2:G}
+Fájl módosítva: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Idővonal ekkor: {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Idővonal</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>10 percenként</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>30 percenként</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Óránként</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>3 óránként</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>6 óránként</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>12 óránként</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Naponta</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>A tárhely telítődéséig</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 hónap</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 hónap</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 hónap</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 hónap</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 év</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 év</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Örökké</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Az ennél régebbi verziók sikeres mentés után eltávolíthatók. A jelenlegi verziók védettek maradnak.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>A verziók a mentési kötet kapacitásának biztonsági küszöbéig megmaradnak. Ha mentéshez hely szükséges, a legrégebbi eltávolítható verziók automatikusan törlődnek. A jelenlegi verziók védettek maradnak.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Az „Örökké” megőrzési szabály soha nem törli automatikusan az idővonal előzményeit. A verziók addig gyűlnek, amíg a mentési kötet már nem tud biztonságosan új mentést fogadni. Ekkor helyet kell felszabadítania, vagy kézzel tisztítania az idővonalat.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>1 hónapnál régebbi</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>3 hónapnál régebbi</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>6 hónapnál régebbi</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>9 hónapnál régebbi</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>1 évnél régebbi</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>2 évnél régebbi</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Csak a legújabb verzió megőrzése</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>Az AppData alkalmazásállapotot, gyorsítótárakat, adatbázisokat és ideiglenes fájlokat tartalmaz. Gyakran változhat, így az idővonal gyorsan növekedhet. E fájlok visszaállítása nem helyettesíti az alkalmazás újratelepítését vagy megfelelő helyreállítását.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>A rendszer- és telepített programfájlok nagyok, és gyakran változnak. A Fluff-History nem rendszerképmentés. Önmagában e fájlok visszaállítása nem feltétlenül javítja meg a Windowst vagy egy telepített alkalmazást.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>A ProgramData közös alkalmazásállapotot, gyorsítótárakat és gyakran változó adatbázisokat tartalmazhat. Ez nagy mennyiségű idővonaladatot eredményezhet.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Ez a hely főként ideiglenes vagy telepítési fájlokat tartalmaz, és sok rövid életű változást hozhat létre az idővonalon.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Ez a hely rendszer-metaadatokat vagy Fluff-History-munkafájlokat tartalmaz, ezért nem menthető.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Mentési beállítások ellenőrzése…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Az alkalmazásbeállítások figyelmet igényelnek. Állítsa őket kifejezetten alaphelyzetbe; a mentési adatok érintetlenek maradnak.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>A mentett mentési beállítások nem érhetők el vagy érvénytelenek. Folytatás előtt ellenőrizze a mentés beállításait.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>A Windows nem tudta ellenőrizni a mentési helyet vagy az alkalmazás ideiglenes munkaadatait. Ellenőrizze a hozzáférést és a szabad helyet, majd próbálja újra.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>A mentésre kijelölt mappa nem lehet egyben kizárva. Távolítsa el a mentésből, vagy módosítsa a kizárást.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Legfeljebb 256 kizárt mappát válasszon, legfeljebb 256 KiB mappaelérési úttal.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Ez a forrás legfeljebb 256 ténylegesen kizárt mappát és 256 KiB beállítást támogat. Válasszon kevesebb vagy rövidebb kizárást.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Egy mappa csak egyszer jelölhető ki.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Az egymásba ágyazott kijelölt mappákat ki kell zárni a szülőmappájukból.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Válasszon abszolút mappaelérési utat.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Válasszon hagyományos meghajtó- vagy hálózati mappát.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Válasszon teljes hálózati megosztási elérési utat.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Ez a mappaelérési út kétértelmű vagy kilép a gyökeréből. Válasszon hagyományos abszolút mappaelérési utat.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>A mentési helyen belüli vagy a mentési helyet tartalmazó mappa nem menthető.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>A mappa hozzáadása előtt erősítse meg a figyelmeztetést.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Ez egy Windows-rendszer- vagy alkalmazásadat-mappára mutat. Először válassza ki a tényleges helyét, és erősítse meg a figyelmeztetést.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Ezek a mappák átfedő Windows-helyekre mutatnak. Minden helyet csak egyszer jelöljön ki.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Ez a mappa a Fluff-History ideiglenes munkaadataira mutat, ezért nem menthető.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Asztal</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Dokumentumok</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Letöltések</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Képek</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Zene</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Videók</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Nem támogatott fájl- vagy mappanév.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Kis- és nagybetűk szerinti kétértelmű álnév.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Nem támogatott, újraelemzési pont vagy EFS-határ.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Nem támogatott vagy túlméretes fájl.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>A forrás másolás közben megváltozott.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Ez a fájl vagy mappa nem érhető el.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Ez a fájl vagy mappa nem érhető el (Windows-hiba: {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>A forrás gyökere vagy valamelyik őse nem hagyományos könyvtár.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Nem támogatott könyvtárhatár.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Tárhely ellenőrzése</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Fájlok titkosítása</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Fájlok titkosításának feloldása</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Metaadatok újraépítése</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Mentés véglegesítése</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Ezt a fájlt vagy mappát másik alkalmazás használja.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>A fájlhoz vagy mappához való hozzáférés megtagadva.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Ez a fájl vagy mappa nem található a vizsgálat során.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Beállítások mentve</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>A mappamódosítások mentve. A frissített mappák a következő ütemezett mentésben szerepelnek.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>A mappamódosítások mentve. A frissített mappák a következő mentésben szerepelnek.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Mentés kérve</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Már fut vagy befejeződik egy mentés.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Állítson be használatra kész mentési helyet és mappákat a mentés beállításainál.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Korábbi verzió visszaállítása…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Előzmények betöltése...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Mentve</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Jelenleg nincs mentve</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>A Fluff-History nem menti</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Helyreállítás szükséges</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>A mentés nem érhető el</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Az előzmény-munkamenet lejárt</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>A mentés nem érhető el. Nyissa meg a Fluff-Historyt, vagy frissítsen.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Az előzmény-munkamenet lejárt. A folytatáshoz frissítsen.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Mentési hely: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Mappa előzményeinek böngészése</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Fluff-History megnyitása</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Összes verzió böngészése</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>A mappák mentett fájlverziókból állnak össze.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>A visszaállítás módosítja az élő fájlt. A mentett előzmények megmaradnak.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>A Fluff-History nem érhető el. Telepítse a fejlesztői előzetest, majd próbálja újra.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Visszaállítja ezt a mentett verziót az eredeti helyére? A Windows rákérdez a meglévő fájlok ütközéseire. A mentett előzmények megmaradnak.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Visszaállítja a mentett verziót?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Kijelölt verzió visszaállítása...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>A mentés nem érhető el. A folytatáshoz nyissa meg a Fluff-Historyt.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Visszaállítás</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Frissítés</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>A mappa előzményei mentett fájlverziókból állnak össze.
+Legutóbbi idővonal-időpontok:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Még nincsenek mentett fájlverziók.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Módosítva: {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>A fájlnak nincs mentett verziója. A folytatáshoz nyissa meg az idővonalat vagy a mentés beállításait.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Legújabb mentett verzió: {0:f}
+Megőrzött verziók: {1:N0}
+Legrégebbi megőrzött verzió: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Legújabb mentett verzió: {0:f}
+Megőrzött verziók: {1:N0}+; a teljes előzményhez nyissa meg az idővonalat
+Legrégebbi megőrzött verzió: a teljes előzményhez nyissa meg az idővonalat</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>A Fluff-History nem menti.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Helyreállítás szükséges. A hozzáférés helyreállításához nyissa meg a Fluff-Historyt.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>A mentés nem érhető el. Nyissa meg a Fluff-Historyt, vagy próbálja újra.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>A visszaállítás figyelmet igényel. Újrapróbálás előtt vizsgálja meg a célt.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Visszaállítás megszakítva. A befejezett fájlműveletek eredménye megmarad.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Fájl visszaállítva. A mentett előzmények változatlanok.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Nem lett fájl visszaállítva. Vizsgálja meg a célt.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Az előzmények megváltoztak. Visszaállítás előtt frissítsen.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>A visszaállítás nem érhető el. A folytatáshoz nyissa meg a Fluff-Historyt.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Visszaállítás megszakítva. Vizsgálja meg a célt.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>hu-HU</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Parancsikonok:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>&amp;Asztali parancsikon létrehozása</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>&amp;Start menü parancsikonjának létrehozása</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>A Fluff-History a rögzített felhasználónkénti telepítési mappáját igényli.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Telepítés vagy alkalmazásindítás van folyamatban. Várjon egy kicsit, majd próbálja újra.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>A Fluff-History nem tudta előkészíteni a frissítést. Zárja be az aktív fájlműveleteket és Tulajdonságok-lapokat, majd próbálja újra. A mentési tár változatlan.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>A Fluff-History telepítése nem fejezhető be. Az alkalmazás állapota az újrapróbáláshoz megmaradt; a mentési tár változatlan.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>A telepítés figyelmet igényel</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>A Fluff-History telepítése nem fejezhető be. Az alkalmazásbeállítások és a mentési tár megmaradtak. Újrapróbáláshoz futtassa újra a telepítőt.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Eltávolítás előtt zárja be a Fluff-Historyt, az aktív fájlműveleteket és a Tulajdonságok-lapokat. Semmi sem lett kényszerítve leállítva.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Diagnosztika másolva. Megosztás előtt ellenőrizze a mappaelérési utakat.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Nyelv</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alkalmazás nyelve</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>A Windows nyelvének használata</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>A módosítások azonnal érvénybe lépnek. A dátumok és számok a területi beállításokat használják.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>OneDrive-helyreállítás javítása</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Kikapcsolás helyileg…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>A régi helyreállítást OneDrive-alapúra kell frissíteni.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>A kísérleti OneDrive-helyreállítás nincs beállítva ebben a verzióban.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>A OneDrive-helyreállításhoz jelentkezzen be a Microsoftba.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>A Microsoft-bejelentkezést vagy a hozzájárulást elutasították. A jelszavas helyreállítás továbbra is elérhető.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>A szükséges OneDrive-alkalmazásmappa-engedély nem érhető el. A jelszavas helyreállítás továbbra is elérhető.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>A OneDrive-helyreállításhoz internetkapcsolat szükséges. A jelszó és a helyi Windows-hozzáférés továbbra is használható.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>A OneDrive-helyreállítás most nem ellenőrizhető. Próbálja újra később, vagy használja a helyreállítási jelszót.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>A OneDrive foglalt. Próbálja újra később.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>A OneDrive nem érhető el vagy nincs beállítva ehhez a Microsoft-fiókhoz. Használja a helyreállítási jelszót.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>A OneDrive helyreállítási kulcsa megváltozott vagy érvénytelen. Használja a helyreállítási jelszót, vagy javítsa a helyreállítást egy olyan számítógépen, amely fel tudja oldani ezt a mentést.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>A OneDrive tisztítására még szükség lehet. Ez csak a helyreállítási kulcsot érinti; a jelszó és a Windows-hozzáférés változatlan.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>A OneDrive tisztítására még szükség lehet. Helyreállítási fájl: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>A OneDrive-helyreállítás működik, de a régi Windows-helyreállítási hitelesítő adat nem távolítható el teljesen.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Kikapcsolja helyileg a OneDrive-helyreállítást?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Ez eltávolítja a mentés OneDrive-helyreállítási kapcsolatát, de nem törli a felhőbeli helyreállítási fájlt. Ezt a fájlt esetleg kézzel kell eltávolítania a OneDrive-ról. A jelszó és a Windows-hozzáférés változatlan.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>A OneDrive-helyreállítás helyileg kikapcsolva.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Javítja a OneDrive-helyreállítást?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Hozzon létre és ellenőrizzen egy új helyreállítási kulcsot a régi kivonása előtt. A módosított felhőbeli fájlok megmaradnak.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Frissítések</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Frissítési csatorna</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Automatikus keresés</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Stabil</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Béta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Soha</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Naponta</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Hetente</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Havonta</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Keresés most</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Jelenlegi verzió: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Utolsó ellenőrzés: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Nem közzétett fejlesztői build</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Elérhető: {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Letöltés és telepítés</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Kiadási megjegyzések</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Naprakész</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Frissítések keresése…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Frissítés letöltése… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Frissítés ellenőrzése…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Telepítésre kész</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Várakozás a biztonsági mentés vagy más folyamatban lévő munka befejezésére.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Frissítés telepítése…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Nem sikerült kapcsolatba lépni a GitHubbal. Próbálja újra később.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>A GitHub korlátozza a kéréseket. Próbálja újra később.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Nincs elérhető telepíthető kiadás.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>A telepítő ellenőrzése sikertelen. A frissítés nem lett telepítve.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Az automatikus telepítés a kiadás aláírójának jóváhagyása után válik elérhetővé.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Nem sikerült telepíteni a frissítést. Próbálja újra később.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>A frissítés telepítve lett, de az ablakot nem sikerült újra megnyitni.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Ez a nem közzétett build nem telepíthet nyilvános frissítéseket.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Az automatikus frissítéskeresés ki van kapcsolva.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Az automatikus ellenőrzés kapcsolatba lép a GitHubbal. Nem küld mentési vagy fiókadatokat.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Biztonsági mentés fut. Leállítja, és telepíti a frissítést?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Mentés leállítása és telepítés</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Még nem ellenőrizve</value></data>
+</root>

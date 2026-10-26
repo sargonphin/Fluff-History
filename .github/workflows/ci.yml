@@ -1,0 +1,78 @@
+name: .NET CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    name: build-and-test (windows-latest)
+    runs-on: windows-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+          cache: true
+          cache-dependency-path: '**/packages.lock.json'
+      - name: Restore locked dependencies
+        run: dotnet restore FluffHistory.sln --locked-mode
+      - name: Validate localization source and generated resources
+        shell: bash
+        run: |
+          dotnet restore tools/FluffHistory.Localization --locked-mode
+          dotnet build tools/FluffHistory.Localization -c Release --no-restore
+          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- guard .
+          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- test-guards .
+          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- validate .
+          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate . --check
+          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate-native . --check
+          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate-installer . --check
+          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate-manifests . --check
+      - name: Validate reviewed recovery dependencies and license regression guard
+        shell: pwsh
+        run: |
+          ./scripts/Test-RecoveryDependencies.ps1
+          ./scripts/Test-RecoveryDependencyGuard.ps1
+          ./scripts/Test-DistributionTerms.ps1
+      - name: Build Release
+        run: dotnet build FluffHistory.sln --configuration Release --no-restore "-p:GitCommit=$(git rev-parse HEAD)"
+      - name: Test
+        run: dotnet test tests/FluffHistory.Tests/FluffHistory.Tests.csproj --configuration Release --no-build --no-restore --filter "Category!=MetadataDiagnostic"
+      - name: Install pinned Inno Setup build tool
+        if: github.event_name == 'workflow_dispatch'
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $bootstrap = Join-Path $env:RUNNER_TEMP 'innosetup-7.1.0-x64.exe'
+          Invoke-WebRequest 'https://github.com/jrsoftware/issrc/releases/download/is-7_1_0/innosetup-7.1.0-x64.exe' -OutFile $bootstrap
+          if ((Get-FileHash -LiteralPath $bootstrap).Hash -ne '0362A383ED217D4C4239B5933866DD96D3EB2102737DA92F80F6057A4B40DF2F') { throw 'Inno Setup download hash mismatch.' }
+          $signature = Get-AuthenticodeSignature -LiteralPath $bootstrap
+          if ($signature.Status -ne 'Valid' -or $signature.SignerCertificate.Subject -notmatch '^CN=Pyrsys B\.V\.,') { throw 'Inno Setup publisher verification failed.' }
+          $directory = Join-Path $env:RUNNER_TEMP 'InnoSetup7'
+          $process = Start-Process -FilePath $bootstrap -ArgumentList '/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART','/SP-',('/DIR="' + $directory + '"') -WindowStyle Hidden -Wait -PassThru
+          if ($process.ExitCode -ne 0) { throw 'Inno Setup build-tool installation failed.' }
+      - name: Build signed development Setup and validate payload inventory
+        if: github.event_name == 'workflow_dispatch'
+        shell: powershell
+        run: .\scripts\Build-Setup.ps1 -OutputDirectory "$env:GITHUB_WORKSPACE\artifacts\ci-setup" -InnoCompiler "$env:RUNNER_TEMP\InnoSetup7\ISCC.exe"
+      - name: Upload Windows deployment evidence
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v7
+        with:
+          name: windows-development-setup
+          path: artifacts/ci-setup/
+          retention-days: 7

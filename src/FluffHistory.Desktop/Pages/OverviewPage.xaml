@@ -1,0 +1,55 @@
+<UserControl x:Class="FluffHistory.Desktop.Pages.OverviewPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:loc="using:FluffHistory.Desktop.Presentation" xmlns:presentation="using:FluffHistory.Desktop.Presentation">
+
+ <presentation:PageLayout>
+
+ <presentation:PageLayout.Header>
+<TextBlock loc:Localize.Uid="Overview_TextBlock_PageTitle" Style="{StaticResource PageTitle}" />
+ </presentation:PageLayout.Header>
+
+ <presentation:PageLayout.Body>
+<StackPanel Style="{StaticResource PageSections}">
+   <Border Style="{StaticResource SectionPanel}">
+    <StackPanel Spacing="12">
+     <TextBlock Text="{x:Bind Model.Title, Mode=OneWay}" Style="{StaticResource SectionTitle}" AutomationProperties.LiveSetting="Polite" />
+     <TextBlock Text="{x:Bind Model.Summary, Mode=OneWay}" Style="{StaticResource BodyText}" />
+     <TextBlock Text="{x:Bind Model.Schedule, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+     <Button loc:Localize.Uid="Overview_Button_Setup" Command="{x:Bind Model.Setup}" Style="{StaticResource AccentButtonStyle}" Visibility="{x:Bind Model.IsUnconfigured, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+     <Button loc:Localize.Uid="Overview_Button_BackUp" Command="{x:Bind Model.BackUp}" Style="{StaticResource AccentButtonStyle}" Visibility="{x:Bind Model.IsReady, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+     <Button loc:Localize.Uid="Overview_Button_Recover" Command="{x:Bind Model.Recover}" Visibility="{x:Bind Model.NeedsRecovery, Mode=OneWay, Converter={StaticResource VisibleWhen}}"><StackPanel Orientation="Horizontal" Spacing="8"><FontIcon Glyph="" FontSize="16" /><TextBlock loc:Localize.Uid="Overview_TextBlock_RecoverAccess" /></StackPanel></Button>
+     <HyperlinkButton loc:Localize.Uid="Overview_HyperlinkButton_Setup" Command="{x:Bind Model.Setup}" Padding="0,4" />
+    </StackPanel>
+   </Border>
+   <InfoBar loc:Localize.Uid="Overview_InfoBar_NeedsAttention" IsOpen="{x:Bind Model.HasAttention, Mode=OneWay}" Visibility="{x:Bind Model.HasAttention, Mode=OneWay, Converter={StaticResource VisibleWhen}}" IsClosable="False" Severity="Warning" Message="{x:Bind Model.Attention, Mode=OneWay}" />
+   <Border Style="{StaticResource SectionPanel}">
+   <StackPanel Spacing="12">
+    <TextBlock loc:Localize.Uid="Overview_TextBlock_Status" Style="{StaticResource SectionTitle}" />
+    <TextBlock Text="{x:Bind Model.CurrentBackup, Mode=OneWay}" Style="{StaticResource BodyText}" Visibility="{x:Bind Model.HasCurrentBackup, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+    <StackPanel Spacing="8" Visibility="{x:Bind Model.IsActive, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+     <ProgressBar loc:Localize.Uid="Overview_ProgressBar_BackupActivity" IsIndeterminate="{x:Bind Model.IsProgressIndeterminate, Mode=OneWay}" Minimum="0" Maximum="100" Value="{x:Bind Model.ProgressPercent, Mode=OneWay}" />
+     <TextBlock Text="{x:Bind Model.CurrentPhase, Mode=OneWay}" Style="{StaticResource BodyText}" AutomationProperties.LiveSetting="Polite" />
+    </StackPanel>
+    <StackPanel Spacing="4" Visibility="{x:Bind Model.ShowIdleDetails, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+     <TextBlock Text="{x:Bind Model.Counts, Mode=OneWay}" Style="{StaticResource BodyText}" Visibility="{x:Bind Model.HasCompletedCounts, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+     <TextBlock Text="{x:Bind Model.ResultDetail, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+    </StackPanel>
+    <StackPanel Style="{StaticResource DriveUsageContainer}" Margin="0,4,0,4" Visibility="{x:Bind Model.Storage.HasLocation, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+     <TextBlock loc:Localize.Uid="Overview_TextBlock_DriveSpace" Style="{StaticResource BodyText}" />
+     <Border Style="{StaticResource DriveUsageTrack}" Visibility="{x:Bind Model.Storage.HasDriveSpace, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+      <ProgressBar loc:Localize.Uid="Overview_ProgressBar_DriveSpaceUsed" Style="{StaticResource DriveUsageBar}" Value="{x:Bind Model.Storage.UsedPercent, Mode=OneWay}" />
+     </Border>
+     <TextBlock Text="{x:Bind Model.Storage.DriveSpace, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+    </StackPanel>
+    <Expander loc:Localize.Uid="Overview_Expander_SourceProblems" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" Visibility="{x:Bind Model.HasSourceProblems, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+     <TextBlock Text="{x:Bind Model.SourceProblems, Mode=OneWay}" Style="{StaticResource BodyText}" IsTextSelectionEnabled="True" />
+    </Expander>
+    <Button loc:Localize.Uid="Overview_Button_Cancel" Command="{x:Bind Model.Cancel}" Visibility="{x:Bind Model.IsActive, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+    <HyperlinkButton loc:Localize.Uid="Overview_HyperlinkButton_OpenHistory" Command="{x:Bind Model.OpenHistory}" Padding="0,4" />
+   </StackPanel>
+   </Border>
+
+  </StackPanel>
+ </presentation:PageLayout.Body>
+
+ </presentation:PageLayout>
+
+</UserControl>

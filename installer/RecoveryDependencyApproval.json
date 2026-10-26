@@ -1,0 +1,51 @@
+{
+    "schema":  1,
+    "reviewed":  "2026-10-25",
+    "review":  "Exact artifact- and license-reviewed WAM versions. Future changes require fresh artifact/license review and an intentional approval update; no permanent version ceiling.",
+    "lockFiles":  [
+                      "src/FluffHistory.Desktop/packages.lock.json",
+                      "tools/FluffHistory.OneDriveSmoke/packages.lock.json"
+                  ],
+    "packages":  [
+                     {
+                         "id":  "Microsoft.Identity.Client",
+                         "version":  "4.83.3",
+                         "direct":  true,
+                         "license":  "MIT",
+                         "contentHash":  "XNJJn5uctuGvl3u6qzAof2TNysAZ/PPVKzkAglxvTO5XHgff/Ibs1+yi2G26Xrf6X/f780kS4fMKKdHcGb96hQ==",
+                         "archiveSha256":  "36F7C1F6D1E90630953EFA8A5979F7759F07B6250541AE7073BA80BFBF3F4716",
+                         "notice":  "installer/ThirdPartyNotices/MSAL.NET-4.83.3.txt",
+                         "noticeSha256":  "2F07C72751AED99790B8A4869CF2311DF85A860B22DED05FA22803587A48922C"
+                     },
+                     {
+                         "id":  "Microsoft.Identity.Client.Broker",
+                         "version":  "4.83.3",
+                         "direct":  true,
+                         "license":  "MIT",
+                         "contentHash":  "1yn682hgnCimnYR27Ne/SRMWxCWUZtCKjYwPzWbjrfhqBF1GS7bDlPZkF4yvJxl90Y+xzDdZFh4u9pcGIFSEvw==",
+                         "archiveSha256":  "0A89367A7346D98AE3069B028894A49ADD20200A82FACA83003DD2CDFB0AEF69",
+                         "notice":  "installer/ThirdPartyNotices/MSAL.NET-4.83.3.txt",
+                         "noticeSha256":  "2F07C72751AED99790B8A4869CF2311DF85A860B22DED05FA22803587A48922C"
+                     },
+                     {
+                         "id":  "Microsoft.Identity.Client.NativeInterop",
+                         "version":  "0.20.4",
+                         "direct":  true,
+                         "license":  "MIT",
+                         "contentHash":  "JHlfJ8oolxj20sNlwdIh8H8MZtzVQ55MyOjrIrQCtD/KJL5x8EOjQxafYu8AEYZOCSW+09DQnRogGk+J37BURA==",
+                         "archiveSha256":  "5B89BBA3DA0BA3C934E8EF441053717C635668C887BCBC62187EF2612F696EC2",
+                         "notice":  "installer/ThirdPartyNotices/NativeInterop-0.20.4.txt",
+                         "noticeSha256":  "2F07C72751AED99790B8A4869CF2311DF85A860B22DED05FA22803587A48922C"
+                     },
+                     {
+                         "id":  "Microsoft.IdentityModel.Abstractions",
+                         "version":  "8.14.0",
+                         "direct":  false,
+                         "license":  "MIT",
+                         "contentHash":  "iwbCpSjD3ehfTwBhtSNEtKPK0ICun6ov7Ibx6ISNA9bfwIyzI2Siwyi9eJFCJBwxowK9xcA1mj+jBWiigeqgcQ==",
+                         "archiveSha256":  "6E40AECF55A3E7A37E2C758BBC728B702B4846A04AFB7939BC3DAA7C1EF15CA9",
+                         "notice":  "installer/ThirdPartyNotices/IdentityModel-Abstractions-8.14.0.txt",
+                         "noticeSha256":  "B09AC0E46520EEC4EE7B16AF87D4CCBF8180551F3B2FF0F6C9B4F3DDCD585640"
+                     }
+                 ]
+}

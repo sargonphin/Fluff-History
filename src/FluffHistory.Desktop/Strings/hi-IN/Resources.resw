@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>hi-IN</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>अवलोकन</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>टाइमलाइन</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>परिचय</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>ऐप सेटिंग</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>तैयार</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>बैकअप स्थान</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड बदलें…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>एन्क्रिप्शन चालू करें…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>एन्क्रिप्शन बंद करें…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>एन्क्रिप्शन रूपांतरण की प्रगति</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>फिर शुरू करें</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>रोकें</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>ड्राइव में जगह</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>बैकअप ड्राइव में उपयोग की गई जगह</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>पहुँच पुनर्प्राप्त करें…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>पहुँच पुनर्प्राप्त करें…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Microsoft खाते से पुनर्प्राप्त करें (प्रयोगात्मक)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>बदलें…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>बैकअप स्थान बदलें</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>बैकअप किए जाने वाले फ़ोल्डर</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>बैकअप किए जाने वाले फ़ोल्डर</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>फ़ोल्डर जोड़ें…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>बैकअप से हटाएँ</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>फ़ोल्डर हटाने से उसके भविष्य के बैकअप रुक जाते हैं। मौजूदा इतिहास आपकी प्रतिधारण सेटिंग के अनुसार रखा जाता है।</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>बाहर रखे गए फ़ोल्डर</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>बाहर रखे गए फ़ोल्डर भविष्य के बैकअप में शामिल नहीं होते। मौजूदा इतिहास रखा जाता है।</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>बाहर रखे गए फ़ोल्डर</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>फ़ोल्डर बाहर रखें…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>फ़ोल्डर बाहर रखें</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>बहिष्करण हटाएँ</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>चयनित उपयोगकर्ता बहिष्करण हटाएँ</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>स्वचालित बैकअप</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>स्वचालित बैकअप</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>फ़ाइलों का बैकअप लें</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>बैकअप आवृत्ति</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>सहेजे गए संस्करण रखें</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>सहेजे गए संस्करणों का प्रतिधारण</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>यह विंडो बंद होने पर भी स्वचालित बैकअप चलते रहते हैं। छूटे हुए बैकअप कतार में नहीं रखे जाते।</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>पावर और नेटवर्क</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>पावर और नेटवर्क</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>पावर और नेटवर्क</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>बैटरी पर चलने पर स्वचालित बैकअप रोकें</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>मीटर किए गए कनेक्शन पर नेटवर्क का उपयोग करने वाले बैकअप की अनुमति दें</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>नेटवर्क बैकअप के लिए Windows द्वारा नेटवर्क न होने की सूचना पर प्रतीक्षा करें</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>उन्नत</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>उन्नत</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>उन्नत</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>OneDrive में पुनर्प्राप्ति कुंजी सहेजें (प्रायोगिक)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति सत्यापित करें</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>प्रयोगात्मक पुनर्प्राप्ति</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>जब Windows पावर स्थिति निर्धारित न कर सके तब प्रतीक्षा करें</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>ऐप कॉन्फ़िगरेशन रीसेट करें…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>परिवर्तन सहेजें</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>त्यागें</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>परिचय</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History डेवलपर पूर्वावलोकन</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>यह विंडो बंद होने पर भी शेड्यूल किए गए बैकअप चलते रहते हैं। Explorer और गुण एकीकरण Fluff-History के साथ स्थापित होते हैं। पासवर्ड पुनर्प्राप्ति और स्थानीय Windows पहुँच समर्थित हैं। कोई टेलीमेट्री या स्वचालित अपलोड नहीं।</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>संवेदनशील जानकारी रहित निदान कॉपी करें</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>साझा करने से पहले फ़ोल्डर पथ जाँचें। पुनर्प्राप्ति पासवर्ड, कुंजी सामग्री या खाता टोकन शामिल नहीं हैं।</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ऐप निदान</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>टाइमलाइन</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन जारी है</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>बैकअप इतिहास अस्थायी रूप से उपलब्ध नहीं है। पूरा करने के लिए कॉन्फ़िगरेशन में एन्क्रिप्शन परिवर्तन फिर शुरू करें।</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>टाइमलाइन फ़ोल्डर पथ</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>इस समय की टाइमलाइन</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>नवीनतम</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>तारीख/समय चुनें…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>स्थानीय समय के अनुसार टाइमलाइन दिखाएँ</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>तारीख</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>स्थिति की तारीख</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>समय</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>स्थिति का समय</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>टाइमलाइन दिखाएँ</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>ताज़ा करें</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>मूल फ़ोल्डर</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>मूल फ़ोल्डर</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>पुनर्स्थापित करें</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>पहले</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>टाइमलाइन का पिछला समय</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>बाद में</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>टाइमलाइन का अगला समय</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>ताज़ा करें</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>पुराने संस्करण साफ़ करें…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>दृश्य</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>बड़े आइकन</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>सूची</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>चयनित पुनर्स्थापित करें…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>सभी का चयन हटाएँ</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>टाइमलाइन सूची</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>टाइमलाइन के बड़े आइकन</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>दिखाने के लिए कोई टाइमलाइन संस्करण नहीं</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन खोलें</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>और फ़ाइलें और फ़ोल्डर लोड करें</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>पूर्वावलोकन / खोलें</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>पुनर्स्थापित करें</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>चयनित संस्करण पुनर्स्थापित करें</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>सहेजे गए संस्करण के विकल्प</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>यहाँ पुनर्स्थापित करें…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>हटाएँ</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>संस्करण · सबसे नया पहले</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>फ़ाइल संस्करण</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>और संस्करण लोड करें</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>टाइमलाइन लोड हो रही है</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>लोड करना रद्द करें</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>अवलोकन</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Fluff-History सेट अप करें</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>अभी बैकअप लें</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>पहुँच पुनर्प्राप्त करें…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>पहुँच पुनर्प्राप्त करें…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>बैकअप गतिविधि</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>ड्राइव में जगह</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>बैकअप ड्राइव में उपयोग की गई जगह</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>फ़ाइल या फ़ोल्डर समस्याएँ</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>बैकअप रद्द करें</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>टाइमलाइन खोलें</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>ऐप सेटिंग</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>दिखावट</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Fluff-History की दिखावट चुनें। सिस्टम आपके Windows की दिखावट का अनुसरण करता है।</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>दिखावट</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>ऐप प्राथमिकताएँ लोड नहीं की जा सकीं। सुरक्षित डिफ़ॉल्ट उपयोग में हैं। नई प्रति सहेजने के लिए कोई प्राथमिकता चुनें।</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>बैकअप फ़ोल्डर, शेड्यूल और प्रतिधारण कॉन्फ़िगरेशन में प्रबंधित होते हैं। टाइमलाइन बड़े आइकन या सूची का आपका चुनाव याद रखती है।</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>सहेजे गए संस्करण हटाएँ</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>क्या हटाना है चुनें...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>सफ़ाई अवधि</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>सफ़ाई रद्द करें</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>खोलें</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>पुनर्स्थापित करें</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>यहाँ पुनर्स्थापित करें…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>पूर्वावलोकन / खोलें</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>सहेजा गया संस्करण हटाएँ…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>हटाएँ</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>जारी रखें</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>फिर शुरू करें</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>पुष्टि करें</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>इस बैकअप स्थान का उपयोग करें</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>बंद हो रहा है</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>सक्रिय कार्य पूरे होने की प्रतीक्षा है…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>बंद करने पर ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>सक्रिय फ़ाइल कार्य की प्रतीक्षा करें और फिर बंद करने का प्रयास करें।</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>कार्य पर ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>पुनर्प्राप्ति आवश्यक है</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड से पहुँच वापस पाने के लिए अवलोकन या कॉन्फ़िगरेशन खोलें।</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>कॉन्फ़िगर नहीं किया गया</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>शुरू करने के लिए अवलोकन में Fluff-History सेट अप करें चुनें।</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>कॉन्फ़िगर करने के लिए तैयार</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>रद्द किया गया; पहले से पूरे फ़ाइल कार्य पूरे ही रहेंगे।</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>कार्य पूरा नहीं हो सका। चयनित फ़ोल्डर, कॉन्फ़िगरेशन और कनेक्शन जाँचें, फिर प्रयास करें।</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>ऐप प्राथमिकताएँ सहेजी गईं</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>सहेजने से पहले दूषित ऐप सेटिंग स्पष्ट रूप से रीसेट करें।</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History अपडेट के लिए बंद हो रहा है।</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>पृष्ठभूमि एजेंट उपलब्ध नहीं है। फिर प्रयास करने के लिए Fluff-History दोबारा खोलें या स्थापना सुधारें।</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>टाइमलाइन पूर्वावलोकन खोला गया</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>पुनर्स्थापना: {0:N0} कॉपी · {1:N0} छोड़े · {2:N0} विफल · {3:N0} अपुष्ट · {4:N0} मेटाडेटा चेतावनियाँ</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · रद्द किया गया</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>पुनर्प्राप्ति पूरी हुई। यह Windows उपयोगकर्ता अब बैकअप खोल सकता है।</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड से यह बैकअप नहीं खुला। पासवर्ड जाँचें और फिर प्रयास करें।</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>पुनर्प्राप्ति की पूरी पुष्टि नहीं हुई। नया स्थानीय खोलना सफल रहा; फिर प्रयास से पहले पहुँच सत्यापित करें।</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>पुनर्प्राप्ति के बाद स्थानीय पहुँच की पुष्टि नहीं हुई। फिर प्रयास से पहले बैकअप स्थान जाँचें।</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>बैकअप स्थान अमान्य या क्षतिग्रस्त है। पुनर्प्राप्ति पूरी नहीं हुई।</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>पुनर्प्राप्ति रद्द की गई।</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>पुनर्प्राप्ति पूरी नहीं हो सकी। फिर प्रयास से पहले बैकअप स्थान और कनेक्शन जाँचें।</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>बैकअप स्थान</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>फ़ोल्डर जोड़ें</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>बैकअप किए जाने वाले फ़ोल्डर</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>इस बैकअप को पुनर्प्राप्ति पासवर्ड से सुरक्षित करें</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>यह बैकअप स्थान सेट अप करें?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>यह खाली फ़ोल्डर अभी सेट अप किया जाएगा। इसके बाद उपयोग शुरू करने के लिए परिवर्तन सहेजें।</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>पासवर्ड की पुष्टि करें</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड बदलें</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन फिर शुरू करें</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>अपना बैकअप सुरक्षित करें</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>बैकअप पहुँच पुनर्प्राप्त करें</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>पासवर्ड बदलें</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>सुरक्षित बैकअप सेट अप करें</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>पहुँच पुनर्प्राप्त करें</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>पोर्टेबल पुनर्प्राप्ति के लिए उपयोग किया जाने वाला पासवर्ड बदलता है। मौजूदा बैकअप डेटा को फिर एन्क्रिप्ट करने की आवश्यकता नहीं है। नया पासवर्ड सुरक्षित स्थान पर रखें।</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>इस एन्क्रिप्शन परिवर्तन का पुनर्प्राप्ति पासवर्ड दर्ज करें। पहुँच की पुष्टि नहीं हो सकी तो बैकअप रुका रहेगा।</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड सुरक्षित स्थान पर रखें। दूसरे Windows इंस्टॉलेशन पर पहुँच वापस पाने के लिए इसकी आवश्यकता होगी। यह Windows उपयोगकर्ता सामान्य रूप से बैकअप खोल सकता है।</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>यह बैकअप मौजूद है, पर यह Windows उपयोगकर्ता अभी इसे नहीं खोल सकता। पहुँच सक्षम करने के लिए पुनर्प्राप्ति पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>पासवर्ड दर्ज करें; पुष्टि मेल खानी चाहिए</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>मौजूदा बैकअप मिला</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>पुराने संस्करण साफ़ करें</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>संस्करण हटाएँ…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>टाइमलाइन सफ़ाई की पुष्टि करें</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>भविष्य के बैकअप से हटाया गया। मौजूदा इतिहास प्रतिधारण सेटिंग के अनुसार रखा जाता है।</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>अन्य बहिष्करण लागू न होने पर यह फ़ोल्डर भविष्य के बैकअप में शामिल होगा। मौजूदा इतिहास रखा जाता है।</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>ऐप कॉन्फ़िगरेशन रीसेट करें?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>बैकअप और स्रोत डेटा को नहीं छुआ जाता। केवल इस ऐप की सेटिंग रीसेट होती हैं।</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन रीसेट करें</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन रुका हुआ है</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>एन्क्रिप्शन हटाना रुका हुआ है</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन पर ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन तैयार हो रहा है</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{1} में से {0} · {3:N0} में से {2:N0} फ़ाइलें</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>रूपांतरण नियंत्रण सत्यापित नहीं हो सका। बैकअप इतिहास अनुपलब्ध रहेगा। बैकअप कनेक्शन और निदान जाँचें।</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>रूपांतरण पूरा होने तक बैकअप इतिहास अस्थायी रूप से अनुपलब्ध है। व्यवधान के बाद फिर शुरू किया जा सकता है।</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>एन्क्रिप्टेड</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>एन्क्रिप्ट नहीं किया गया</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>इस Windows खाते के लिए पहुँच सक्षम करने हेतु पुनर्प्राप्ति का उपयोग करें।</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>यह Windows खाता इस बैकअप को अनलॉक कर सकता है।</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति की जाँच हो रही है…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति: चालू</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>OneDrive में पुनर्प्राप्ति कुंजी नहीं है</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति स्थानीय रूप से बंद है; क्लाउड सफ़ाई की आवश्यकता हो सकती है</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति पर ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति उपलब्ध नहीं है</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति: बंद</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>प्रायोगिक। एक यादृच्छिक पुनर्प्राप्ति कुंजी Fluff-History के OneDrive ऐप फ़ोल्डर में रखी जाती है; बैकअप की गई फ़ाइलें बैकअप स्थान पर रहती हैं। अनुमति केवल इस ऐप फ़ोल्डर तक सीमित है। Microsoft खाते में साइन इन करने के बाद दूसरा PC बैकअप पुनर्प्राप्त कर सकता है। Microsoft इस अनुमति को Preview कहता है। अपना पुनर्प्राप्ति पासवर्ड सुरक्षित रखें।</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड बदल दिया गया। नया पासवर्ड सुरक्षित स्थान पर रखें।</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति चालू और सत्यापित है। अपना पुनर्प्राप्ति पासवर्ड सुरक्षित रखें।</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति बंद है। पासवर्ड और Windows पहुँच अपरिवर्तित हैं।</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति सत्यापित है।</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>पुनर्प्राप्ति पूरी हुई। यह Windows खाता अब इस बैकअप को अनलॉक कर सकता है।</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>OneDrive में पुनर्प्राप्ति कुंजी नहीं है। अपना पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति कुंजी इस बैकअप को प्रमाणित नहीं कर सकी। अपना पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>परिवर्तन की पूरी पुष्टि नहीं हुई। फिर प्रयास से पहले पहुँच जाँचें; बैकअप इतिहास अपरिवर्तित है।</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>कार्य रद्द किया गया।</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>सुरक्षा परिवर्तन पूरा नहीं हो सका। पहुँच जाँचें और फिर प्रयास करें। पासवर्ड पुनर्प्राप्ति उपलब्ध रहती है।</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>बैकअप एन्क्रिप्शन</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>मौजूदा बैकअप सामग्री वहीं एन्क्रिप्ट की जाएगी। बैकअप और पुनर्स्थापना अस्थायी रूप से अनुपलब्ध हैं। पुनर्प्राप्ति पासवर्ड रखें; Windows पहुँच अपने आप जोड़ी जाती है। पर्याप्त खाली जगह चाहिए और व्यवधान के बाद फिर शुरू किया जा सकता है।</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>बैकअप स्थान पर बैकअप मेटाडेटा और फ़ाइल सामग्री बिना एन्क्रिप्शन के रखी जाएगी। रूपांतरण के दौरान बैकअप और पुनर्स्थापना अस्थायी रूप से अनुपलब्ध हैं। व्यवधान के बाद फिर शुरू किया जा सकता है।</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>एन्क्रिप्शन चालू करें?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>एन्क्रिप्शन बंद करें?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन पूरा हुआ।</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> कुछ निष्क्रिय किए गए मेटाडेटा सफल सफ़ाई तक बिना एन्क्रिप्शन के रह सकते हैं। सफ़ाई फिर की जाएगी।</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> कुछ पुराने मेटाडेटा अभी हटाए नहीं जा सके; सफ़ाई फिर की जाएगी।</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन रुका हुआ है। पूरा करने के लिए फिर शुरू करें; पहले से रूपांतरित फ़ाइलें रखी जाती हैं।</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>एन्क्रिप्शन रूपांतरण शुरू नहीं किया गया।</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>और खाली जगह चाहिए। जगह बनाएँ, फिर शुरू करें। कोई इतिहास नहीं हटाया गया।</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>और खाली जगह चाहिए। जगह बनाएँ, फिर एन्क्रिप्शन परिवर्तन का प्रयास करें। कोई इतिहास नहीं हटाया गया।</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन जारी रखने के लिए पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन पर ध्यान देना आवश्यक है। बैकअप कनेक्शन और पुनर्प्राप्ति पासवर्ड जाँचें, फिर शुरू करें। रूपांतरण फ़ाइलें न हटाएँ।</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन शुरू नहीं हो सका। बैकअप कनेक्शन और वैकल्पिक कैश डेटा जाँचें, फिर प्रयास करें। बैकअप इतिहास अपरिवर्तित है।</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>संस्करण हमेशा रखें</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>कोई बाहर रखा गया फ़ोल्डर नहीं।</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>चुनें कि बैकअप कहाँ रखे जाएँगे</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>जारी रखने के लिए बैकअप स्थान चुनें।</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>इस बैकअप का एन्क्रिप्शन रुका हुआ है</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>एन्क्रिप्शन हटाना रुका हुआ है</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>बिना सहेजे परिवर्तन · पृष्ठ बदलने पर बने रहते हैं</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन अद्यतित है</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>समर्थित बैकअप आवृत्ति चुनें।</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>बैकअप स्थान चुनें।</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>सहेजने से पहले बैकअप स्थान चुनें।</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>बैकअप स्थान अनुपलब्ध है। उसे फिर चुनने या दूसरा स्थान उपयोग करने के लिए बदलें चुनें।</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>चयनित फ़ोल्डर और बैकअप स्थान जाँचें।</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>इस फ़ोल्डर में पहले से असंबंधित डेटा है। Fluff-History यहाँ नया बैकअप सेट अप नहीं करेगा। खाली फ़ोल्डर या मौजूदा Fluff-History बैकअप चुनें।</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>दूसरा बैकअप स्थान चुनें</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>यह स्थान अनुपलब्ध है। कनेक्शन जाँचें या दूसरा स्थान चुनें।</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>बैकअप स्थान अनुपलब्ध</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>इसे अपना बैकअप स्थान बनाने के लिए परिवर्तन सहेजें।</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>पुनर्प्राप्ति पासवर्ड से यह बैकअप नहीं खुला।</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>पहुँच की पूरी पुष्टि नहीं हुई। फिर प्रयास से पहले यह बैकअप जाँचें।</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>बैकअप स्थान चुना गया। फ़ोल्डर चुनें, फिर परिवर्तन सहेजें।</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>अधिकतम 1,024 फ़ोल्डर चुनें।</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>पहले से {0} द्वारा बैकअप लिया जाता है</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>यह फ़ोल्डर नहीं चुना जा सका।</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>फ़ोल्डर चयन में विरोध</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>इन फ़ोल्डर का बैकअप लें?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>फिर भी बैकअप लें</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>यह फ़ोल्डर पहले से बाहर है।</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>भविष्य के बैकअप से फ़ोल्डर बाहर रखा गया। मौजूदा इतिहास रखा जाता है।</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>नवीनतम</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>फ़ोल्डर</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>शुरू करने के लिए कॉन्फ़िगरेशन में फ़ोल्डर जोड़ें। सहेजे गए फ़ोल्डर यहाँ दिखेंगे।</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>इस फ़ोल्डर में अभी सहेजे गए संस्करण नहीं हैं। सफल बैकअप के बाद इसकी फ़ाइलें दिखेंगी।</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>चयनित समय पर इस फ़ोल्डर में सहेजी गई फ़ाइलें नहीं हैं। दूसरा समय आज़माएँ या नवीनतम चुनें।</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>टाइमलाइन बदल गई। जारी रखने के लिए ताज़ा करें।</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>इस समय की टाइमलाइन: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>4,096 आइटम लोड किए गए। दृश्य सीमित करने के लिए फ़ोल्डर खोलें।</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>1,024 समय लोड किए गए। फ़ोल्डर सीमित करें या तारीख और समय चुनें।</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>1,024 संस्करण लोड किए गए। यह पूर्वावलोकन संस्करण सूची सीमित करता है।</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>टाइमलाइन में कोई फ़ोल्डर नहीं</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>बचे हुए नवीनतम संस्करण</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>वर्तमान सफल संस्करण सुरक्षित है और हटाया नहीं जा सकता।</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>फ़ाइल या फ़ोल्डर चुनें</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>इसकी सहेजी गई फ़ाइलें देखने के लिए यह फ़ोल्डर खोलें।
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>सहेजी गई फ़ाइलें देखने के लिए फ़ोल्डर खोलें। ये फ़ोल्डर नेविगेशन प्रविष्टियाँ हैं, पुनर्स्थापित किए जा सकने वाले डायरेक्टरी संस्करण नहीं।</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>एक साथ पुनर्स्थापित करने के लिए इस दृश्य से फ़ाइलें या फ़ोल्डर चुनें। संस्करण देखने के लिए एक फ़ाइल चुनें।</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>फ़ोल्डर टाइमलाइन में सहेजी गई फ़ाइलें दिखाते हैं। फ़ोल्डर की तारीख और गुण अलग से नहीं सहेजे जाते।
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>अपनी टाइमलाइन सेट अप करने के लिए कॉन्फ़िगरेशन खोलें।</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. जारी रखने के लिए कॉन्फ़िगरेशन खोलें।</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>इस बैकअप की टाइमलाइन लोड करने के लिए ताज़ा करें।</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Fluff-History अभी इस आइटम का बैकअप नहीं ले रहा है।</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>इस बैकअप तक पहुँचने के लिए कॉन्फ़िगरेशन या अवलोकन खोलें।</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>इस आइटम का अभी सहेजा गया इतिहास नहीं है।</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>इस फ़ाइल का अभी सहेजा गया संस्करण नहीं है।</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>अभी बैकअप नहीं लिया जा रहा</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · अभी बैकअप नहीं लिया जा रहा</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>यह फ़ोल्डर अब टाइमलाइन में नहीं है।</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>डेलाइट सेविंग के कारण यह स्थानीय समय मौजूद नहीं है। दूसरा समय चुनें।</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>लोड करना रद्द किया गया। पूरे हुए रो उपलब्ध रहेंगे।</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>टाइमलाइन लोड हो रही है…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>लोड करना रद्द किया गया।</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>चयनित आइटम पुनर्स्थापित नहीं किए जा सकते</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>मूल स्थान पर पुनर्स्थापित करें?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>चयनित ऐतिहासिक फ़ाइलें अपने मूल स्रोत स्थान पर पुनर्स्थापित होंगी। Windows मौजूदा फ़ाइल विरोधों के बारे में पूछेगा।</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>यह सहेजा गया संस्करण हटाएँ?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>सहेजा गया संस्करण हटाया गया।</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>हटाना रद्द किया गया। रद्द होने से पहले {0:N0} सहेजे गए संस्करण हटे; पुष्ट हटाने पूरे रहेंगे।</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>हटाने पर ध्यान देना आवश्यक है। कुछ परिवर्तन या सामग्री सफ़ाई अपुष्ट हो सकती है। फिर प्रयास से पहले बैकअप जाँचें।</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>कार्य पूरा नहीं हो सका। कॉन्फ़िगरेशन जाँचें और फिर प्रयास करें।</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>एन्क्रिप्शन परिवर्तन जारी है</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>पृष्ठभूमि एजेंट अनुपलब्ध</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Fluff-History सेट अप करें</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>बैकअप चल रहा है</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>बैकअप पर ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>बैकअप स्थान और वे फ़ोल्डर चुनें जिनका बैकअप लेना है।</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>स्वचालित बैकअप सक्षम हैं</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>स्वचालित बैकअप अक्षम हैं</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>बैकअप शर्तें जाँची जा रही हैं…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>बैकअप खोला जा रहा है…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>फ़ाइलें स्कैन और बैकअप की जा रही हैं…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>प्रतिधारण नीति लागू की जा रही है…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>मेटाडेटा जाँचा जा रहा है…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>मेटाडेटा संहत किया जा रहा है…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>मेटाडेटा साफ़ किया जा रहा है…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>मेटाडेटा संपीड़ित किया जा रहा है…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>एन्क्रिप्ट किया जा रहा है…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>डिक्रिप्ट किया जा रहा है…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>बैकअप पूरा किया जा रहा है…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · रद्द करने का अनुरोध</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>मैप नहीं किया गया फ़ोल्डर</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+इस सत्र में दर्ज {1:N0} समस्याओं में से {0:N0} दिखाई जा रही हैं।</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>बैकअप इतिहास अस्थायी रूप से अनुपलब्ध है। कॉन्फ़िगरेशन में एन्क्रिप्शन परिवर्तन फिर शुरू करें।</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>बैकअप मौजूद है, पर इस Windows उपयोगकर्ता की पहुँच नहीं है। आपका पुनर्प्राप्ति पासवर्ड पहुँच वापस दे सकता है।</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>बैकअप पूरा हुआ, पर टाइमलाइन रखरखाव पर ध्यान देना आवश्यक है। फिर सफ़ाई से पहले निदान देखें।</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>कुछ परिवर्तनों की पुष्टि नहीं हुई। जारी रखने से पहले बैकअप स्थान जाँचें।</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>बैकअप जारी रखने से पहले बैकअप स्थान पर और खाली जगह चाहिए।</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>कुछ फ़ाइलें या फ़ोल्डर छोड़े गए। पथ और कारण देखने के लिए नीचे फ़ाइल या फ़ोल्डर समस्याएँ खोलें। दूसरे सफल संस्करण सहेजे रहते हैं।</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>बैकअप शुरू करने के लिए कॉन्फ़िगरेशन में फ़ोल्डर जोड़ें।</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>बैकअप के लिए कोई परिवर्तन नहीं।</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>एक सेकंड से कम</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} और {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>पुनर्प्राप्ति आवश्यक है। इस Windows उपयोगकर्ता की पहुँच सक्षम करने के लिए पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>बैकअप इतिहास उपयोग करने से पहले कॉन्फ़िगरेशन में एन्क्रिप्शन परिवर्तन पूरा करें।</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>टाइमलाइन बदल गई। देखने और पुनर्स्थापित करने के लिए ताज़ा करें।</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>यह बैकअप स्थान अमान्य या क्षतिग्रस्त है। चयनित स्थान जाँचें।</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>बैकअप या सफ़ाई पहले से चल रही है। उसके पूरे होने की प्रतीक्षा करके फिर प्रयास करें।</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>यह चयन यहाँ उपयोग नहीं किया जा सकता। वर्तमान फ़ोल्डर और समय से आइटम चुनें।</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>इन चयनित ऐतिहासिक आइटम में एक ही पथ वाली फ़ाइल और फ़ोल्डर हैं और उन्हें एक साथ पुनर्स्थापित नहीं किया जा सकता।</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>कार्य रद्द किया गया। पूरे हुए फ़ाइल कार्य पूरे ही रहते हैं।</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>बैकअप स्थान या गंतव्य उपलब्ध नहीं है। उसका स्थान और कनेक्शन जाँचें, फिर प्रयास करें।</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>अमान्य बैकअप स्थान</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>बैकअप पूरा हुआ</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>फ़ोल्डर या फ़ाइल समस्याओं के साथ बैकअप पूरा हुआ</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>बैकअप रद्द किया गया</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>बैकअप रोका गया: पर्याप्त जगह नहीं</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>बैकअप स्थगित किया गया</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>बैकअप पर ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>इस ऐप सत्र में कोई बैकअप नहीं चला है।</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>बाहरी पावर की प्रतीक्षा है।</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows पावर स्थिति निर्धारित नहीं कर सका।</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>बिना मीटर वाले कनेक्शन की प्रतीक्षा है।</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows नेटवर्क पथ बैकअप के लिए नेटवर्क न होने की सूचना देता है।</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>सिस्टम</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>हल्का</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>गहरा</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{1} में से {0} उपयोग में · {2} खाली</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>ड्राइव की जगह जाँची जा रही है…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>ड्राइव की जगह की जानकारी उपलब्ध नहीं है।</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>बैकअप आकार की गणना हो रही है…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>पिछली जाँच में बैकअप ने {0} जगह ली थी</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>बैकअप {0} जगह लेता है</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>बैकअप आकार उपलब्ध नहीं</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>पूर्वावलोकन के लिए चुनें कि क्या हटाना है। आपकी पुष्टि तक कुछ नहीं हटता।</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>सहेजे गए संस्करण जाँचे जा रहे हैं…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>टाइमलाइन बदल गई। क्या हटाना है फिर चुनें।</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>इससे लगभग {0} जगह खाली होगी।
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>इस चयन में हटाने के लिए कुछ नहीं।</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>संस्करण हटाने से पहले पूर्वावलोकन जाँचें।</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>पूर्वावलोकन रद्द किया गया। कुछ नहीं हटाया गया।</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>पूर्वावलोकन अधूरा: कार्य सीमा पूरी हुई। सफ़ाई नहीं की जा सकती।</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>सहेजे गए संस्करण हटाए जा रहे हैं…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>इस पूर्वावलोकन के बाद टाइमलाइन बदली। कोई संस्करण हटाने से पहले फिर पूर्वावलोकन करें।</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>कुछ सहेजी गई सामग्री अभी साफ़ नहीं की जा सकी।
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>सफ़ाई पूरी हुई। बचे हुए संस्करण देखने के लिए टाइमलाइन ताज़ा करें।</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>सफ़ाई रद्द की गई। पुष्ट हटाने पूरे रहते हैं। टाइमलाइन ताज़ा करें।</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>सफ़ाई पर ध्यान देना आवश्यक है। कुछ परिवर्तन अपुष्ट हो सकते हैं; फिर प्रयास से पहले बैकअप जाँचें। टाइमलाइन ताज़ा करें।</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>हर पथ का सबसे नया बचा हुआ संस्करण रखता है, उन फ़ाइलों का भी जिनका अब बैकअप नहीं होता। वर्तमान संस्करण सुरक्षित रहते हैं।</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>वर्तमान संस्करण सुरक्षित रहते हैं। केवल टाइमलाइन में मौजूद फ़ाइलें पूरी तरह गायब हो सकती हैं यदि उनके सभी संस्करण इस उम्र से पुराने हों।</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>अनुमानित जगह; वास्तविक खाली जगह अलग हो सकती है।</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} बाइट</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} बाइट</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} बाइट</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} बाइट</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} बाइट</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} बाइट</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} मौजूदा फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} मौजूदा फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} मौजूदा फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} मौजूदा फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} मौजूदा फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} मौजूदा फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} फ़ाइल समस्याएँ</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} फ़ाइल समस्या</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} फ़ाइल समस्याएँ</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} फ़ाइल समस्याएँ</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} फ़ाइल समस्याएँ</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} फ़ाइल समस्याएँ</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} फ़ाइलें</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} फ़ाइल</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} फ़ाइलें</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} फ़ाइलें</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} फ़ाइलें</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} फ़ाइलें</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} फ़ाइल संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} फ़ाइल संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} फ़ाइल संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} फ़ाइल संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} फ़ाइल संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} फ़ाइल संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} फ़ोल्डर</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} घंटे</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} घंटा</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} घंटे</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} घंटे</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} घंटे</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} घंटे</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} आइटम</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} आइटम</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} आइटम</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} आइटम</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} आइटम</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} आइटम</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} मिनट</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} मिनट</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} मिनट</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} मिनट</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} मिनट</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} मिनट</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} नए संस्करण सहेजे गए</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} नया संस्करण सहेजा गया</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} नए संस्करण सहेजे गए</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} नए संस्करण सहेजे गए</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} नए संस्करण सहेजे गए</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} नए संस्करण सहेजे गए</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} सहेजे गए संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} सहेजा गया संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} सहेजे गए संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} सहेजे गए संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} सहेजे गए संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} सहेजे गए संस्करण</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} सेकंड</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} सेकंड</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} सेकंड</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} सेकंड</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} सेकंड</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} सेकंड</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, फ़ोल्डर</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, फ़ाइल, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>सहेजा गया {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} चयनित</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} आइटम चयनित</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+सहेजा गया: {1:f}
+
+यह केवल इस सहेजे गए संस्करण को स्थायी रूप से हटाता है। आपकी स्रोत फ़ाइल और अन्य सहेजे गए संस्करण रखे जाते हैं। इसे वापस नहीं किया जा सकता।</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+टाइमलाइन में {0:N0} फ़ोल्डर</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>{0} जोड़े · {1} फिर सक्षम · {2} पहले से चयनित</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} नहीं जोड़े गए</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>{0} हटाए गए ({1} सहेजी गई सामग्री)।
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>{1} से {0} स्थायी रूप से हटाएँ? स्रोत फ़ाइलें और वर्तमान संस्करण रखे जाते हैं। इसे वापस नहीं किया जा सकता।</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · बैकअप के लिए {2} चयनित</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>अंतिम बैकअप {0:f} को लिया गया और इसमें {1} लगे।</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>अंतिम बैकअप प्रयास {0:f} को हुआ और इसमें {1} लगे।</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · सहेजा गया {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · फ़ाइल बदली {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+सहेजा गया: {2:G}
+फ़ाइल बदली: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>{0:f} की टाइमलाइन</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>टाइमलाइन</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>हर 10 मिनट</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>हर 30 मिनट</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>हर घंटे</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>हर 3 घंटे</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>हर 6 घंटे</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>हर 12 घंटे</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>हर दिन</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>जगह भरने तक</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 महीना</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 महीने</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 महीने</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 महीने</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 साल</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 साल</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>हमेशा</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>सफल बैकअप के बाद इस उम्र से पुराने संस्करण हटाए जा सकते हैं। वर्तमान संस्करण सुरक्षित रहते हैं।</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>संस्करण तब तक रखे जाते हैं जब तक बैकअप वॉल्यूम अपनी क्षमता सुरक्षा सीमा तक नहीं पहुँचता। बैकअप के लिए जगह चाहिए तो सबसे पुराने योग्य संस्करण अपने आप हटते हैं। वर्तमान संस्करण सुरक्षित रहते हैं।</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>“हमेशा” प्रतिधारण नीति टाइमलाइन इतिहास अपने आप कभी नहीं हटाती। संस्करण तब तक जुड़ते रहेंगे जब तक बैकअप वॉल्यूम सुरक्षित रूप से एक और बैकअप स्वीकार नहीं कर सकता। तब जगह खाली करनी या टाइमलाइन हाथ से साफ़ करनी होगी।</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>1 महीने से पुराने</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>3 महीने से पुराने</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>6 महीने से पुराने</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>9 महीने से पुराने</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>1 साल से पुराने</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>2 साल से पुराने</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>केवल सबसे नया संस्करण रखें</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData में ऐप स्थिति, कैश, डेटाबेस और अस्थायी फ़ाइलें होती हैं। यह अक्सर बदल सकता है और टाइमलाइन तेज़ी से बढ़ा सकता है। इन फ़ाइलों की पुनर्स्थापना ऐप को फिर स्थापित करने या ठीक से पुनर्प्राप्त करने का विकल्प नहीं है।</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>सिस्टम और स्थापित प्रोग्राम की फ़ाइलें बड़ी हैं और अक्सर बदलती हैं। Fluff-History सिस्टम इमेज बैकअप नहीं है। केवल इन फ़ाइलों की पुनर्स्थापना से Windows या स्थापित ऐप ठीक हो यह आवश्यक नहीं।</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData में साझा ऐप स्थिति, कैश और अक्सर बदलने वाले डेटाबेस हो सकते हैं। इससे बहुत अधिक टाइमलाइन डेटा बन सकता है।</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>इस स्थान में मुख्यतः अस्थायी या स्थापना फ़ाइलें हैं और यह बहुत से अल्पकालिक टाइमलाइन परिवर्तन बना सकता है।</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>इस स्थान में सिस्टम मेटाडेटा या Fluff-History कार्य फ़ाइलें हैं और इसका बैकअप नहीं लिया जा सकता।</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>बैकअप कॉन्फ़िगरेशन जाँचा जा रहा है…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>ऐप सेटिंग पर ध्यान देना आवश्यक है। कॉन्फ़िगरेशन स्पष्ट रूप से रीसेट करें; बैकअप डेटा नहीं बदला जाता।</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>सहेजा गया बैकअप कॉन्फ़िगरेशन उपलब्ध नहीं या अमान्य है। जारी रखने से पहले कॉन्फ़िगरेशन जाँचें।</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows बैकअप स्थान या ऐप के अस्थायी कार्य डेटा को सत्यापित नहीं कर सका। पहुँच और खाली जगह जाँचें, फिर प्रयास करें।</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>बैकअप के लिए चुना गया फ़ोल्डर बाहर भी नहीं रखा जा सकता। उसे बैकअप से हटाएँ या बहिष्करण बदलें।</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>अधिकतम 256 बाहर रखे फ़ोल्डर और अधिकतम 256 KiB फ़ोल्डर पथ चुनें।</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>यह स्रोत अधिकतम 256 प्रभावी बाहर रखे फ़ोल्डर और 256 KiB कॉन्फ़िगरेशन का समर्थन करता है। कम या छोटे बहिष्करण चुनें।</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>फ़ोल्डर केवल एक बार चुना जा सकता है।</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>अंदर के चुने गए फ़ोल्डर को मूल फ़ोल्डर से बाहर रखना होगा।</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>निरपेक्ष फ़ोल्डर पथ चुनें।</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>सामान्य ड्राइव या नेटवर्क फ़ोल्डर चुनें।</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>पूरा नेटवर्क शेयर पथ चुनें।</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>यह फ़ोल्डर पथ अस्पष्ट है या अपने रूट से बाहर जाता है। सामान्य निरपेक्ष फ़ोल्डर पथ चुनें।</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>बैकअप स्थान के भीतर का फ़ोल्डर या बैकअप स्थान को रखने वाले फ़ोल्डर का बैकअप नहीं लिया जा सकता।</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>यह फ़ोल्डर जोड़ने से पहले चेतावनी की पुष्टि करें।</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>यह Windows सिस्टम या ऐप डेटा फ़ोल्डर तक पहुँचता है। उसका वास्तविक स्थान चुनें और पहले चेतावनी की पुष्टि करें।</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>ये फ़ोल्डर परस्पर जुड़े Windows स्थानों तक पहुँचते हैं। हर स्थान एक बार चुनें।</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>यह फ़ोल्डर Fluff-History के अस्थायी कार्य डेटा तक पहुँचता है और इसका बैकअप नहीं लिया जा सकता।</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>डेस्कटॉप</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>दस्तावेज़</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>डाउनलोड</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>चित्र</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>संगीत</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>वीडियो</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>असमर्थित फ़ाइल या फ़ोल्डर नाम।</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>अक्षर आकार का अस्पष्ट उपनाम।</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>असमर्थित, रीपार्स पॉइंट या EFS सीमा।</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>असमर्थित या बहुत बड़ी फ़ाइल।</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>कॉपी करते समय स्रोत बदला।</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>इस फ़ाइल या फ़ोल्डर तक पहुँच नहीं है।</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>इस फ़ाइल या फ़ोल्डर तक पहुँच नहीं है (Windows त्रुटि {0:N0})।</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>स्रोत रूट या उसका पूर्वज सामान्य डायरेक्टरी नहीं है।</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>असमर्थित डायरेक्टरी सीमा।</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>जगह जाँची जा रही है</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>फ़ाइलें एन्क्रिप्ट की जा रही हैं</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>फ़ाइलें डिक्रिप्ट की जा रही हैं</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>मेटाडेटा फिर बनाया जा रहा है</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>बैकअप अंतिम रूप दिया जा रहा है</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>दूसरा ऐप इस फ़ाइल या फ़ोल्डर का उपयोग कर रहा है।</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>इस फ़ाइल या फ़ोल्डर तक पहुँच अस्वीकृत है।</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>स्कैन करते समय यह फ़ाइल या फ़ोल्डर नहीं मिला।</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन सहेजा गया</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>फ़ोल्डर परिवर्तन सहेजे गए। अपडेट किए फ़ोल्डर अगले शेड्यूल किए बैकअप में शामिल होंगे।</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>फ़ोल्डर परिवर्तन सहेजे गए। अपडेट किए फ़ोल्डर अगले बैकअप में शामिल होंगे।</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>बैकअप का अनुरोध किया गया</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>बैकअप पहले से चल रहा है या पूरा हो रहा है।</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>कॉन्फ़िगरेशन में तैयार बैकअप स्थान और फ़ोल्डर सेट अप करें।</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>पिछला संस्करण पुनर्स्थापित करें…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>इतिहास लोड हो रहा है...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>बैकअप लिया गया</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>अभी बैकअप नहीं लिया जा रहा</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Fluff-History द्वारा बैकअप नहीं लिया जाता</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>पुनर्प्राप्ति आवश्यक है</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>बैकअप अनुपलब्ध</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>इतिहास सत्र समाप्त हुआ</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>बैकअप अनुपलब्ध। Fluff-History खोलें या ताज़ा करें।</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>इतिहास सत्र समाप्त हुआ। जारी रखने के लिए ताज़ा करें।</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>बैकअप स्थान: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>फ़ोल्डर इतिहास देखें</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Fluff-History खोलें</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>सभी संस्करण देखें</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>फ़ोल्डर सहेजे गए फ़ाइल संस्करणों से बनाए जाते हैं।</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>पुनर्स्थापना मौजूदा फ़ाइल बदलती है। सहेजा इतिहास रखा जाता है।</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History अनुपलब्ध है। डेवलपर पूर्वावलोकन स्थापित करें और फिर प्रयास करें।</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>इस सहेजे गए संस्करण को मूल स्थान पर पुनर्स्थापित करें? Windows मौजूदा फ़ाइल विरोधों के बारे में पूछेगा। सहेजा इतिहास रखा जाता है।</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>सहेजा गया संस्करण पुनर्स्थापित करें?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>चयनित संस्करण पुनर्स्थापित हो रहा है...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>बैकअप अनुपलब्ध। जारी रखने के लिए Fluff-History खोलें।</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>पुनर्स्थापित करें</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>ताज़ा करें</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>फ़ोल्डर इतिहास सहेजे गए फ़ाइल संस्करणों से बनाया जाता है।
+हाल के टाइमलाइन समय:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>अभी कोई सहेजे गए फ़ाइल संस्करण नहीं।</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · संशोधित {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>इस फ़ाइल का सहेजा गया संस्करण नहीं। जारी रखने के लिए टाइमलाइन या कॉन्फ़िगरेशन खोलें।</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>नवीनतम सहेजा संस्करण: {0:f}
+रखे गए संस्करण: {1:N0}
+सबसे पुराना रखा संस्करण: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>नवीनतम सहेजा संस्करण: {0:f}
+रखे गए संस्करण: {1:N0}+; पूरे इतिहास के लिए टाइमलाइन खोलें
+सबसे पुराना रखा संस्करण: पूरे इतिहास के लिए टाइमलाइन खोलें</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Fluff-History द्वारा बैकअप नहीं लिया जाता।</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>पुनर्प्राप्ति आवश्यक है। पहुँच वापस पाने के लिए Fluff-History खोलें।</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>बैकअप अनुपलब्ध। Fluff-History खोलें या फिर प्रयास करें।</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>पुनर्स्थापना पर ध्यान देना आवश्यक है। फिर प्रयास से पहले गंतव्य जाँचें।</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>पुनर्स्थापना रद्द की गई। पूरे हुए फ़ाइल कार्य पूरे ही रहते हैं।</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>फ़ाइल पुनर्स्थापित की गई। सहेजा इतिहास अपरिवर्तित है।</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>कोई फ़ाइल पुनर्स्थापित नहीं हुई। गंतव्य जाँचें।</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>इतिहास बदल गया। पुनर्स्थापना से पहले ताज़ा करें।</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>पुनर्स्थापना अनुपलब्ध। जारी रखने के लिए Fluff-History खोलें।</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>पुनर्स्थापना रद्द की गई। गंतव्य जाँचें।</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>hi-IN</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>शॉर्टकट:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>&amp;डेस्कटॉप शॉर्टकट बनाएँ</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>&amp;स्टार्ट मेनू शॉर्टकट बनाएँ</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History को अपना निश्चित प्रति-उपयोगकर्ता स्थापना फ़ोल्डर चाहिए।</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>स्थापना या ऐप शुरू करना सक्रिय है। थोड़ी प्रतीक्षा करें और फिर प्रयास करें।</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History अपडेट तैयार नहीं कर सका। सक्रिय फ़ाइल कार्य और गुण पृष्ठ बंद करें, फिर प्रयास करें। बैकअप रिपॉज़िटरी अपरिवर्तित है।</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History स्थापना पूरी नहीं कर सका। फिर प्रयास के लिए ऐप स्थिति रखी गई; बैकअप रिपॉज़िटरी अपरिवर्तित है।</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>स्थापना पर ध्यान देना आवश्यक है</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History स्थापना पूरी नहीं कर सका। आपकी ऐप सेटिंग और बैकअप रिपॉज़िटरी रखी गई। फिर प्रयास के लिए सेटअप दोबारा चलाएँ।</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>अनइंस्टॉल से पहले Fluff-History, सक्रिय फ़ाइल कार्य और गुण पृष्ठ बंद करें। कुछ भी ज़बरदस्ती नहीं रोका गया।</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>निदान कॉपी किया गया। साझा करने से पहले फ़ोल्डर पथ जाँचें।</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>भाषा</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ऐप्लिकेशन की भाषा</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Windows की भाषा का उपयोग करें</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>बदलाव तुरंत लागू होते हैं। तारीखें और संख्याएँ आपकी क्षेत्रीय सेटिंग का उपयोग करती हैं।</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति सुधारें</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>स्थानीय रूप से बंद करें…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>पुरानी पुनर्प्राप्ति को OneDrive में अपग्रेड करना आवश्यक है।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>इस बिल्ड में प्रायोगिक OneDrive पुनर्प्राप्ति कॉन्फ़िगर नहीं है।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति उपयोग करने के लिए Microsoft में साइन इन करें।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Microsoft साइन-इन या सहमति अस्वीकार कर दी गई। पासवर्ड से पुनर्प्राप्ति उपलब्ध है।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>आवश्यक OneDrive ऐप-फ़ोल्डर अनुमति उपलब्ध नहीं है। पासवर्ड से पुनर्प्राप्ति उपलब्ध है।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति के लिए इंटरनेट कनेक्शन चाहिए। पासवर्ड और स्थानीय Windows पहुँच उपलब्ध हैं।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>अभी OneDrive पुनर्प्राप्ति सत्यापित नहीं हो सकी। बाद में फिर प्रयास करें या अपना पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive व्यस्त है। बाद में फिर प्रयास करें।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>इस Microsoft खाते के लिए OneDrive उपलब्ध नहीं है या सेट अप नहीं है। अपना पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति कुंजी बदल गई है या अमान्य है। अपना पुनर्प्राप्ति पासवर्ड उपयोग करें या उस PC पर पुनर्प्राप्ति सुधारें जो यह बैकअप अनलॉक कर सकता है।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>OneDrive सफ़ाई की अब भी आवश्यकता हो सकती है। केवल पुनर्प्राप्ति कुंजी प्रभावित होती है; पासवर्ड और Windows पहुँच अपरिवर्तित हैं।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>OneDrive सफ़ाई की अब भी आवश्यकता हो सकती है। पुनर्प्राप्ति फ़ाइल: {0}।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति काम करती है, लेकिन पुराना Windows पुनर्प्राप्ति क्रेडेंशियल पूरी तरह हटाया नहीं जा सका।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति स्थानीय रूप से बंद करें?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>इससे क्लाउड की पुनर्प्राप्ति फ़ाइल हटाए बिना बैकअप का OneDrive पुनर्प्राप्ति लिंक हटता है। आपको वह फ़ाइल OneDrive से स्वयं हटानी पड़ सकती है। पासवर्ड और Windows पहुँच अपरिवर्तित हैं।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति स्थानीय रूप से बंद है।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>OneDrive पुनर्प्राप्ति सुधारें?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>पुरानी कुंजी हटाने से पहले नई पुनर्प्राप्ति कुंजी बनाएँ और सत्यापित करें। बदली गई क्लाउड फ़ाइलें रखी जाएँगी।</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>अपडेट</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>अपडेट चैनल</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>अपने आप जाँचें</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>स्थिर</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>बीटा</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>कभी नहीं</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>रोज़ाना</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>साप्ताहिक</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>मासिक</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>अभी जाँचें</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>मौजूदा संस्करण: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>पिछली जाँच: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>अप्रकाशित विकास बिल्ड</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>{0} ({1}) उपलब्ध है: {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>डाउनलोड और इंस्टॉल करें</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>रिलीज़ नोट देखें</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>अप टू डेट</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>अपडेट जाँचे जा रहे हैं…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>अपडेट डाउनलोड हो रहा है… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>अपडेट सत्यापित हो रहा है…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>इंस्टॉल करने के लिए तैयार</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>बैकअप या अन्य सक्रिय काम पूरा होने की प्रतीक्षा है।</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>अपडेट इंस्टॉल हो रहा है…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>GitHub से संपर्क नहीं हो सका। बाद में फिर कोशिश करें।</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub अनुरोधों को सीमित कर रहा है। बाद में फिर कोशिश करें।</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>इंस्टॉल करने योग्य कोई रिलीज़ उपलब्ध नहीं है।</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>इंस्टॉलर का सत्यापन विफल हुआ। अपडेट इंस्टॉल नहीं हुआ।</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>रिलीज़ पर हस्ताक्षर करने वाले की मंज़ूरी मिलने के बाद अपने आप इंस्टॉल करना उपलब्ध होगा।</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>अपडेट इंस्टॉल नहीं हो सका। बाद में फिर कोशिश करें।</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>अपडेट इंस्टॉल हुआ, लेकिन विंडो फिर से नहीं खुल सकी।</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>यह अप्रकाशित बिल्ड सार्वजनिक अपडेट इंस्टॉल नहीं कर सकता।</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>अपडेट की अपने आप जाँच बंद है।</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>अपने आप की जाने वाली जाँच GitHub से संपर्क करती है। बैकअप या खाते की जानकारी नहीं भेजी जाती।</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>बैकअप चल रहा है। इसे रोककर अपडेट इंस्टॉल करें?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>बैकअप रोकें और इंस्टॉल करें</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>अभी तक जाँच नहीं हुई</value></data>
+</root>

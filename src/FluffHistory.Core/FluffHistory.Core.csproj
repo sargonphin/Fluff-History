@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <EmbeddedResource Include="OrdinalCaseMap.txt" />
+    <!-- Storage constructs validated history metadata; internal constructors are not a public materialization API. -->
+    <InternalsVisibleTo Include="FluffHistory.Storage" />
+    <InternalsVisibleTo Include="FluffHistory.Tests" />
+  </ItemGroup>
+</Project>

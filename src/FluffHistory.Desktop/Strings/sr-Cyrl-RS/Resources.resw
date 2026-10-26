@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>sr-Cyrl-RS</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Преглед</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Временска линија</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Конфигурација</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>О програму</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Подешавања апликације</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Спремно</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Конфигурација</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Локација резервне копије</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Промени лозинку за опоравак…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Укључи шифровање…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Искључи шифровање…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Напредак промене шифровања</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Настави</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Паузирај</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Простор на диску</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Заузет простор диска резервне копије</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Врати приступ…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Врати приступ…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Опорави помоћу Microsoft налога (експериментално)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Промени…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Промени локацију резервне копије</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Фасцикле за резервну копију</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Фасцикле за резервну копију</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Додај фасцикле…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Уклони из резервне копије</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Уклањање фасцикле зауставља будуће резервне копије. Постојећа историја се чува према подешавањима задржавања.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Изузете фасцикле</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Изузете фасцикле нису укључене у будуће резервне копије. Постојећа историја се чува.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Изузете фасцикле</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Изузми фасциклу…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Изузми фасциклу</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Уклони изузетак</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Уклони изабрани кориснички изузетак</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Аутоматске резервне копије</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Аутоматске резервне копије</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Прави резервне копије датотека</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Учесталост резервних копија</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Чувај сачуване верзије</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Задржавање сачуваних верзија</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Аутоматске резервне копије се настављају када је овај прозор затворен. Пропуштене копије се не стављају у ред.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Напајање и мрежа</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Напајање и мрежа</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Напајање и мрежа</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Паузирај аутоматске копије при раду на батерији</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Дозволи копије које користе мрежу на везама са ограниченим протоком</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Сачекај када Windows пријави да нема мреже за мрежну копију</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Напредно</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Напредно</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Напредно</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Сачувај кључ за опоравак на OneDrive (експериментално)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Провери OneDrive опоравак</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Експериментални опоравак</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Сачекај када Windows не може да утврди стање напајања</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Поништи конфигурацију апликације…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Сачувај промене</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Одбаци</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>О програму</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History развојни преглед</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Заказане копије се настављају када је овај прозор затворен. Интеграција са Explorer и својствима инсталира се уз Fluff-History. Подржани су опоравак лозинком и локални Windows приступ. Нема телеметрије ни аутоматског отпремања.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Копирај очишћену дијагностику</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Прегледајте путање фасцикли пре дељења. Лозинке за опоравак, материјал кључева и токени налога нису укључени.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Дијагностика апликације</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Временска линија</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Промена шифровања је у току</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>Историја резервних копија привремено није доступна. Наставите промену шифровања у Конфигурацији да бисте завршили.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Путања фасцикле временске линије</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Временска линија на дан</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Најновије</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Изабери датум/време…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Прикажи временску линију према локалном времену</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Датум</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Датум стања</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Време</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Време стања</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Прикажи временску линију</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Освежи</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Надређена фасцикла</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Надређена фасцикла</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Врати</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Раније</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Раније време временске линије</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Касније</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Касније време временске линије</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Освежи</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Очисти старе верзије…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Приказ</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Велике иконе</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Листа</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Врати изабрано…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Поништи све изборе</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Листа временске линије</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Временска линија са великим иконама</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Нема верзија временске линије за приказ</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Отвори Конфигурацију</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Учитај још датотека и фасцикли</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Преглед / Отвори</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Врати</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Врати изабрану верзију</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Опције сачуване верзије</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Врати у…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Избриши</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Верзије · најновије прво</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Верзије датотеке</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Учитај још верзија</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Учитавање временске линије</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Откажи учитавање</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Преглед</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Подеси Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Направи резервну копију сада</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Врати приступ…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Врати приступ…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Конфигурација</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Потребна је пажња</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Стање</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Активност резервне копије</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Простор на диску</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Заузет простор диска резервне копије</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Проблеми са датотекама или фасциклама</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Откажи резервну копију</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Отвори временску линију</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Подешавања апликације</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Изглед</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Изаберите изглед програма Fluff-History. Систем прати изглед Windows система.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Изглед</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Подешавања апликације нису учитана. Користе се безбедне подразумеване вредности. Изаберите подешавање да бисте сачували нову копију.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Фасциклама, распоредом и задржавањем управља се у Конфигурацији. Временска линија памти избор великих икона или листе.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Уклони сачуване верзије</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Изаберите шта да уклоните...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Период чишћења</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Откажи чишћење</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Отвори</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Врати</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Врати у…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Преглед / Отвори</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Избриши сачувану верзију…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Избриши</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Откажи</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Настави</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Настави</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Затвори</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Потврди</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Користи ову локацију резервне копије</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Затварање</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Чекање завршетка активних радњи…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Затварање захтева пажњу</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Сачекајте активну радњу са датотеком па покушајте поново да затворите.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Радња захтева пажњу</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Потребан је опоравак</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Отворите Преглед или Конфигурацију да бисте вратили приступ лозинком за опоравак.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Није конфигурисано</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>За почетак изаберите Подеси Fluff-History у Прегледу.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Спремно за конфигурацију</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Отказано; већ завршене радње са датотекама остају завршене.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Радња није завршена. Проверите изабране фасцикле, конфигурацију и везу па покушајте поново.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Подешавања апликације су сачувана</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Изричито поништите оштећена подешавања апликације пре чувања.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History се затвара ради ажурирања.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Позадински агент није доступан. Поново отворите Fluff-History или поправите инсталацију.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Преглед временске линије је отворен</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Враћање: {0:N0} копирано · {1:N0} прескочено · {2:N0} неуспешно · {3:N0} непотврђено · {4:N0} упозорења метаподатака</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Отказано</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Опоравак је завршен. Овај Windows корисник сада може да отвори копију.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Лозинка за опоравак није откључала ову копију. Проверите лозинку па покушајте поново.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Опоравак није потпуно потврђен. Ново локално отварање је успело; проверите приступ пре поновног покушаја.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Локални приступ није потврђен после опоравка. Прегледајте локацију копије пре поновног покушаја.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Локација копије је неисправна или оштећена. Опоравак није завршен.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Опоравак је отказан.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Опоравак није завршен. Проверите локацију копије и везу пре поновног покушаја.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Локација резервне копије</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Додај фасцикле</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Фасцикле за резервну копију</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Заштити ову копију лозинком за опоравак</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Подесити ову локацију резервне копије?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Ова празна фасцикла ће сада бити подешена. Затим сачувајте промене да бисте почели да је користите.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Лозинка за опоравак</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Потврди лозинку</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Промени лозинку за опоравак</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Настави промену шифровања</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Заштитите резервну копију</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Врати приступ резервној копији</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Промени лозинку</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Подеси заштићену копију</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Врати приступ</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Мења лозинку за преносиви опоравак. Постојеће податке копије није потребно поново шифровати. Чувајте нову лозинку на безбедном месту.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Унесите лозинку за опоравак за ову промену шифровања. Копирање остаје паузирано ако приступ није потврђен.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Чувајте лозинку за опоравак на безбедном месту. Требаће вам за враћање приступа на другој Windows инсталацији. Овај Windows корисник може нормално да отвори копију.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Ова копија постоји, али је овај Windows корисник још не може отворити. Унесите лозинку за опоравак да бисте омогућили приступ.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Унесите лозинку; потврда мора да се подудара</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Пронађена је постојећа копија</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Очисти старе верзије</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Уклони верзије…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Потврди чишћење временске линије</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Уклоњено из будућих копија. Постојећа историја се чува према подешавањима задржавања.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Ова фасцикла ће бити укључена у будуће копије осим ако важи други изузетак. Постојећа историја се чува.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Поништити конфигурацију апликације?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Подаци копије и извора остају нетакнути. Поништавају се само подешавања ове апликације.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Поништи конфигурацију</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Промена шифровања је паузирана</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Уклањање шифровања је паузирано</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Промена шифровања захтева пажњу</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Припрема промене шифровања</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} од {1} · {2:N0} од {3:N0} датотека</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Контрола конверзије није проверена. Историја копија остаје недоступна. Проверите везу копије и дијагностику.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>Историја копија привремено није доступна док се конверзија не заврши. После прекида је могуће наставити.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Шифровано</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Нешифровано</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Користите опоравак да бисте омогућили приступ овом Windows налогу.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Овај Windows налог може да откључа ову копију.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Провера OneDrive опоравка…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>OneDrive опоравак: укључен</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Кључ за опоравак недостаје на OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>OneDrive опоравак је локално искључен; можда је потребно чишћење облака</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>OneDrive опоравак захтева пажњу</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>OneDrive опоравак није доступан</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>OneDrive опоравак: искључен</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Експериментално. Насумични кључ за опоравак чува се у фасцикли апликације Fluff-History на OneDrive; датотеке резервне копије остају на локацији резервне копије. Дозвола обухвата само ту фасциклу. Други рачунар можда може да опорави копију након пријављивања на Microsoft налог. Microsoft означава ову дозволу као Preview. Сачувајте лозинку за опоравак.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Лозинка за опоравак је промењена. Чувајте нову лозинку на безбедном месту.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>OneDrive опоравак је укључен и проверен. Сачувајте лозинку за опоравак.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>OneDrive опоравак је искључен. Лозинка и Windows приступ остају непромењени.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>OneDrive опоравак је проверен.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Опоравак је завршен. Овај Windows налог сада може да откључа ову копију.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Кључ за опоравак недостаје на OneDrive. Користите лозинку за опоравак.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>OneDrive кључ за опоравак није могао да потврди аутентичност ове копије. Користите лозинку за опоравак.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Промена није потпуно потврђена. Проверите приступ пре поновног покушаја; историја копија није промењена.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Радња је отказана.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Безбедносна промена није завршена. Проверите приступ и покушајте поново. Опоравак лозинком остаје доступан.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Шифровање резервне копије</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Постојећи садржај копије биће шифрован на месту. Копирање и враћање привремено нису доступни. Чувајте лозинку за опоравак; Windows приступ се додаје аутоматски. Потребно је довољно слободног простора, а после прекида је могуће наставити.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Метаподаци и садржај датотека биће сачувани нешифровани на локацији копије. Копирање и враћање привремено нису доступни током конверзије. После прекида је могуће наставити.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Укључити шифровање?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Искључити шифровање?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Промена шифровања је завршена.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Неки повучени метаподаци могу остати нешифровани док чишћење не успе. Чишћење ће бити поновљено.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Неки стари метаподаци још нису уклоњени; чишћење ће бити поновљено.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Промена шифровања је паузирана. Наставите да бисте завршили; већ конвертоване датотеке се чувају.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Конверзија шифровања није покренута.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Потребно је више слободног простора. Ослободите простор па наставите. Историја није уклоњена.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Потребно је више слободног простора. Ослободите простор и поново покушајте промену шифровања. Историја није уклоњена.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Користите лозинку за опоравак да бисте наставили промену шифровања.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Промена шифровања захтева пажњу. Проверите везу копије и лозинку за опоравак па наставите. Не уклањајте датотеке конверзије.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Промена шифровања није могла да почне. Проверите везу копије и опционе податке кеша па покушајте поново. Историја копија није промењена.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Чувај верзије заувек</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Нема изузетих фасцикли.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Изаберите где ће се чувати резервне копије</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Изаберите локацију копије да бисте наставили.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Шифровање ове копије је паузирано</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Уклањање шифровања је паузирано</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Несачуване промене · задржавају се при промени странице</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Конфигурација је ажурна</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Изаберите подржану учесталост копирања.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Изаберите локацију копије.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Изаберите локацију копије пре чувања.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Локација копије није доступна. Изаберите Промени да бисте је поново изабрали или користили другу локацију.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Проверите изабране фасцикле и локацију копије.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Ова фасцикла већ садржи неповезане податке. Fluff-History ту неће подесити нову копију. Изаберите празну фасциклу или постојећу Fluff-History копију.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Изаберите другу локацију копије</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Ова локација није доступна. Проверите везу или изаберите другу локацију.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Локација копије није доступна</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Сачувајте промене да би ово била ваша локација копије.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Лозинка за опоравак није откључала ову копију.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Приступ није потпуно потврђен. Проверите ову копију пре поновног покушаја.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Локација копије је изабрана. Изаберите фасцикле па сачувајте промене.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Изаберите највише 1.024 фасцикле.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Већ се копира преко {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Ова фасцикла није могла да буде изабрана.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Сукоб избора фасцикли</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Направити копије ових фасцикли?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Ипак направи копију</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Ова фасцикла је већ изузета.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Фасцикла је изузета из будућих копија. Постојећа историја се чува.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Најновије</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Фасцикла</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Додајте фасцикле у Конфигурацији да бисте почели. Сачуване фасцикле ће се појавити овде.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Ова фасцикла још нема сачуваних верзија. Датотеке ће се појавити после успешне копије.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Ова фасцикла нема сачуваних датотека у изабрано време. Изаберите друго време или Најновије.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Временска линија се променила. Освежите да бисте наставили.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Временска линија на: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>Учитано је 4.096 ставки. Отворите фасциклу да бисте сузили приказ.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>Учитано је 1.024 времена. Сузите фасциклу или изаберите датум и време.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>Учитано је 1.024 верзије. Овај преглед ограничава листу верзија.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Нема фасцикли на временској линији</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Најновије преостале верзије</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Тренутна успешна верзија је заштићена и не може се избрисати.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Изаберите датотеку или фасциклу</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Отворите ову фасциклу за преглед сачуваних датотека.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Отворите фасциклу за преглед сачуваних датотека. Ове фасцикле су ставке за навигацију, а не верзије директоријума за враћање.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Изаберите датотеке или фасцикле из овог приказа да бисте их вратили заједно. Изаберите једну датотеку за преглед њених верзија.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Фасцикле приказују датотеке сачуване на временској линији. Датуми и својства фасцикли се не чувају засебно.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Отворите Конфигурацију да бисте подесили временску линију.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Отворите Конфигурацију да бисте наставили.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Освежите за учитавање временске линије ове копије.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Fluff-History тренутно не копира ову ставку.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Отворите Конфигурацију или Преглед за приступ овој копији.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Ова ставка још нема сачувану историју.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Ова датотека још нема сачувану верзију.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Тренутно се не копира</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Тренутно се не копира</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Ова фасцикла више није на временској линији.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Ово локално време не постоји због летњег рачунања времена. Изаберите друго време.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Учитавање је отказано. Завршени редови остају доступни.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Учитавање временске линије…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Учитавање је отказано.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Изабране ставке није могуће вратити</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Вратити на првобитну локацију?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Изабране историјске датотеке биће враћене на првобитне изворне локације. Windows ће питати о сукобима са постојећим датотекама.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Избрисати ову сачувану верзију?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Сачувана верзија је избрисана.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Брисање је отказано. Пре отказивања је избрисано {0:N0} сачуваних верзија; потврђена уклањања остају завршена.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Брисање захтева пажњу. Неке промене или чишћење садржаја можда нису потврђени. Прегледајте копију пре поновног покушаја.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Радња није завршена. Проверите конфигурацију и покушајте поново.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Промена шифровања је у току</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Позадински агент није доступан</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Подеси Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Прављење резервне копије је у току</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Резервна копија захтева пажњу</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Изаберите локацију копије и фасцикле које желите да копирате.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Аутоматске резервне копије су омогућене</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Аутоматске резервне копије су онемогућене</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Провера услова копирања…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Отварање резервне копије…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Скенирање и копирање датотека…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Примена правила задржавања…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Провера метаподатака…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Збијање метаподатака…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Чишћење метаподатака…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Компресовање метаподатака…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Шифровање…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Дешифровање…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Завршавање резервне копије…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Затражено отказивање</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Неповезана фасцикла</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Приказано је {0:N0} од {1:N0} проблема забележених у овој сесији.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>Историја копија привремено није доступна. Наставите промену шифровања у Конфигурацији.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Копија постоји, али овај Windows корисник нема приступ. Лозинка за опоравак може да га поново омогући.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Копирање је завршено, али одржавање временске линије захтева пажњу. Погледајте дијагностику пре поновног чишћења.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Неке промене нису потврђене. Проверите локацију копије пре наставка.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Локацији копије је потребно више слободног простора пре наставка.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Неке датотеке или фасцикле су прескочене. Проширите Проблеме са датотекама или фасциклама испод да видите путање и разлоге. Остале успешне верзије остају сачуване.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Додајте фасцикле у Конфигурацији да бисте почели копирање.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Нема промена за копирање.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>мање од секунде</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} и {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Потребан је опоравак. Користите лозинку за опоравак да бисте омогућили приступ овом Windows кориснику.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Завршите промену шифровања у Конфигурацији пре коришћења историје копија.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Временска линија се променила. Освежите за наставак прегледа и враћања.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Ова локација копије је неисправна или оштећена. Проверите изабрану локацију.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Копирање или чишћење је већ у току. Сачекајте завршетак па покушајте поново.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Овај избор се овде не може користити. Изаберите ставке из тренутне фасцикле и времена.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Изабране историјске ставке садрже датотеку и фасциклу са истом путањом и не могу се вратити заједно.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Радња је отказана. Завршене радње са датотекама остају завршене.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Локација копије или одредиште није доступно. Проверите локацију и везу па покушајте поново.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Неисправна локација резервне копије</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Резервна копија је завршена</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Копирање је завршено са проблемима фасцикли или датотека</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Резервна копија је отказана</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Копирање је паузирано: нема довољно простора</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Резервна копија је одложена</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Резервна копија захтева пажњу</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>У овој сесији апликације још није покренуто копирање.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Чекање спољног напајања.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows није могао да утврди стање напајања.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Чекање везе без ограниченог протока.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows пријављује да нема мреже за копију на мрежној путањи.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Систем</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Светло</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Тамно</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} заузето од {1} · {2} слободно</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Провера простора на диску…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Подаци о простору на диску нису доступни.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Рачунање величине резервне копије…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Копија је при последњој провери заузимала {0}</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Копија заузима {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Величина копије није доступна</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Изаберите шта да уклоните да бисте видели преглед. Ништа се не уклања док не потврдите.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Провера сачуваних верзија…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Временска линија се променила. Поново изаберите шта да уклоните.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Ово би ослободило око {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>За овај избор нема ничег за уклањање.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Прегледајте преглед пре уклањања верзија.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Преглед је отказан. Ништа није уклоњено.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Преглед није завршен: достигнуто ограничење рада. Чишћење није могуће.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Уклањање сачуваних верзија…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Временска линија се променила после овог прегледа. Поново прегледајте пре уклањања верзија.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Део сачуваног садржаја још није очишћен.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Чишћење је завршено. Освежите временску линију за преостале верзије.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Чишћење је отказано. Потврђена уклањања остају завршена. Освежите временску линију.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Чишћење захтева пажњу. Неке промене можда нису потврђене; прегледајте копију пре поновног покушаја. Освежите временску линију.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Чува једну најновију преосталу верзију на свакој путањи, укључујући датотеке које се више не копирају. Тренутне верзије остају заштићене.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Тренутне верзије остају заштићене. Датотеке које постоје само на временској линији могу потпуно нестати ако су све њихове верзије старије од ове старости.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Процењен простор; стварни слободан простор може да се разликује.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} бајтова</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} бајт</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} бајтова</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} бајта</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} бајтова</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} бајтова</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} постојећих фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} постојећа фасцикла</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} постојећих фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} постојеће фасцикле</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} постојећих фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} постојећих фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} проблема са датотекама</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} проблем са датотеком</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} проблема са датотекама</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} проблема са датотекама</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} проблема са датотекама</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} проблема са датотекама</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} датотека</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} датотека</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} датотека</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} датотеке</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} датотека</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} датотека</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} верзија датотеке</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} верзија датотеке</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} верзија датотеке</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} верзије датотеке</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} верзија датотеке</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} верзија датотеке</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} фасцикла</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} фасцикле</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} фасцикли</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} сати</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} сат</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} сати</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} сата</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} сати</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} сати</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} ставки</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} ставка</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} ставки</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} ставке</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} ставки</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} ставки</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} минута</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} минут</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} минута</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} минута</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} минута</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} минута</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} нових верзија сачувано</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} нова верзија сачувана</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} нових верзија сачувано</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} нове верзије сачуване</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} нових верзија сачувано</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} нових верзија сачувано</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} сачуваних верзија</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} сачувана верзија</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} сачуваних верзија</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} сачуване верзије</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} сачуваних верзија</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} сачуваних верзија</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} секунди</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} секунда</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} секунди</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} секунде</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} секунди</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} секунди</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, фасцикла</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, датотека, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Сачувано {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} изабрано</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>Изабрано {0:N0} ставки</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Сачувано: {1:f}
+
+Овим се трајно уклања само ова сачувана верзија. Изворна датотека и друге сачуване верзије се чувају. Ово се не може опозвати.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} фасцикли на временској линији</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Додато {0} · Поново омогућено {1} · {2} већ изабрано</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} није додато</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>Уклоњено {0} ({1} сачуваног садржаја).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Трајно уклонити {0} из {1}? Изворне датотеке и тренутне верзије се чувају. Ово се не може опозвати.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} изабрано за копирање</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Последња копија је направљена {0:f} и трајала је {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Последњи покушај копирања је био {0:f} и трајао је {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Сачувано {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Датотека измењена {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Сачувано: {2:G}
+Датотека измењена: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Временска линија на {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Временска линија</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Сваких 10 минута</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Сваких 30 минута</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Сваког сата</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Свака 3 сата</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Сваких 6 сати</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Сваких 12 сати</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Сваког дана</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>До попуњавања простора</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 месец</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 месеца</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 месеци</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 месеци</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 година</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 године</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Заувек</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Верзије старије од ове старости могу бити уклоњене после успешне копије. Тренутне верзије остају заштићене.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Верзије се чувају док диск копије не достигне безбедносни праг капацитета. Када је простор потребан за копију, најстарије подобне верзије се аутоматски уклањају. Тренутне верзије остају заштићене.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Правило „Заувек” никад аутоматски не уклања историју временске линије. Верзије се додају док диск копије више не може безбедно да прихвати нову копију. Тада ћете морати да ослободите простор или ручно очистите временску линију.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Старије од 1 месеца</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Старије од 3 месеца</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Старије од 6 месеци</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Старије од 9 месеци</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Старије од 1 године</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Старије од 2 године</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Чувај само најновију верзију</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData садржи стање апликација, кеш, базе података и привремене датотеке. Често се мења и може брзо повећати временску линију. Враћање ових датотека није замена за поновну инсталацију или исправан опоравак апликације.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Системске датотеке и датотеке инсталираних програма су велике и често се мењају. Fluff-History није копија слике система. Само враћање ових датотека можда неће поправити Windows или инсталирану апликацију.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData може да садржи заједничко стање апликација, кеш и базе података које се често мењају. То може да направи много података временске линије.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Ова локација углавном садржи привремене или инсталационе датотеке и може да направи много краткотрајних промена временске линије.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Ова локација садржи системске метаподатке или радне датотеке Fluff-History и не може да се копира.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Провера конфигурације копије…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Подешавања апликације захтевају пажњу. Изричито поништите конфигурацију; подаци копије су нетакнути.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Сачувана конфигурација копије није доступна или исправна. Проверите Конфигурацију пре наставка.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows није потврдио локацију копије или привремене радне податке апликације. Проверите приступ и слободан простор па покушајте поново.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Фасцикла изабрана за копирање не може истовремено бити изузета. Уклоните је из копирања или промените изузетак.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Изаберите највише 256 изузетих фасцикли и највише 256 KiB путања.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Овај извор подржава највише 256 стварно изузетих фасцикли и 256 KiB конфигурације. Изаберите мање или краће изузетке.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Фасцикла се може изабрати само једном.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Угњеждене изабране фасцикле морају бити изузете из надређене фасцикле.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Изаберите апсолутну путању фасцикле.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Изаберите обичну фасциклу на диску или мрежи.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Изаберите потпуну путању мрежног дељеног ресурса.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Ова путања је двосмислена или излази из свог корена. Изаберите обичну апсолутну путању фасцикле.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Фасцикла унутар локације копије или фасцикла која садржи локацију копије не може да се копира.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Потврдите упозорење пре додавања ове фасцикле.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Ово упућује на Windows системску фасциклу или податке апликација. Изаберите стварну локацију и прво потврдите упозорење.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Ове фасцикле упућују на Windows локације које се преклапају. Изаберите сваку локацију само једном.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Ова фасцикла упућује на привремене радне податке Fluff-History и не може да се копира.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Радна површина</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Документи</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Преузимања</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Слике</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Музика</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Видео-записи</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Неподржано име датотеке или фасцикле.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Двосмислен псеудоним према величини слова.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Неподржана граница, тачка поновне обраде или EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Неподржана или превелика датотека.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Извор се променио током копирања.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Није могуће приступити овој датотеци или фасцикли.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Није могуће приступити овој датотеци или фасцикли (Windows грешка {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Корен извора или његов предак није обичан директоријум.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Неподржана граница директоријума.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Провера простора</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Шифровање датотека</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Дешифровање датотека</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Поновна изградња метаподатака</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Завршавање резервне копије</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Ову датотеку или фасциклу користи друга апликација.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Приступ овој датотеци или фасцикли је одбијен.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Ова датотека или фасцикла није пронађена током скенирања.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>У реду</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Конфигурација је сачувана</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Промене фасцикли су сачуване. Ажуриране фасцикле биће укључене у следећу заказану копију.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Промене фасцикли су сачуване. Ажуриране фасцикле биће укључене у следећу копију.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Затражена је резервна копија</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Копирање је већ у току или се завршава.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Подесите спремну локацију копије и фасцикле у Конфигурацији.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Врати претходну верзију…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Учитавање историје...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Направљена резервна копија</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Тренутно се не копира</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Fluff-History не копира</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Потребан је опоравак</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Резервна копија није доступна</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Сесија историје је истекла</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Копија није доступна. Отворите Fluff-History или освежите.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Сесија историје је истекла. Освежите за наставак.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Локација копије: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Прегледај историју фасцикле</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Отвори Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Прегледај све верзије</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Фасцикле се састављају од сачуваних верзија датотека.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Враћање мења активну датотеку. Сачувана историја се чува.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History није доступан. Инсталирајте развојни преглед и покушајте поново.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Вратити ову сачувану верзију на првобитну локацију? Windows ће питати о сукобима са постојећим датотекама. Сачувана историја се чува.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Вратити сачувану верзију?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Враћање изабране верзије...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Копија није доступна. Отворите Fluff-History за наставак.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Врати</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Освежи</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>Историја фасцикле се саставља од сачуваних верзија датотека.
+Недавна времена временске линије:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Још нема сачуваних верзија датотека.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Измењено {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Нема сачуване верзије ове датотеке. Отворите временску линију или Конфигурацију за наставак.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Најновија сачувана верзија: {0:f}
+Задржане верзије: {1:N0}
+Најстарија задржана верзија: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Најновија сачувана верзија: {0:f}
+Задржане верзије: {1:N0}+; отворите временску линију за целу историју
+Најстарија задржана верзија: отворите временску линију за целу историју</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Fluff-History не копира.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Потребан је опоравак. Отворите Fluff-History за враћање приступа.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Копија није доступна. Отворите Fluff-History или покушајте поново.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Враћање захтева пажњу. Прегледајте одредиште пре поновног покушаја.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Враћање је отказано. Завршене радње са датотекама остају завршене.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Датотека је враћена. Сачувана историја није промењена.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Ниједна датотека није враћена. Прегледајте одредиште.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Историја се променила. Освежите пре враћања.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Враћање није доступно. Отворите Fluff-History за наставак.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Враћање је отказано. Прегледајте одредиште.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>sr-Cyrl-RS</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Пречице:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Направи пречицу на &amp;радној површини</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Направи пречицу у менију &amp;Старт</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History захтева своју сталну инсталациону фасциклу по кориснику.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Инсталација или покретање апликације је активно. Сачекајте мало па покушајте поново.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History није припремио ажурирање. Затворите активне радње са датотекама и странице својстава па покушајте поново. Репозиторијум копије није промењен.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History није завршио инсталацију. Стање апликације је сачувано за поновни покушај; репозиторијум копије није промењен.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Инсталација захтева пажњу</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History није завршио инсталацију. Подешавања апликације и репозиторијум копије су сачувани. Поново покрените инсталацију.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Пре деинсталације затворите Fluff-History, активне радње са датотекама и странице својстава. Ништа није насилно заустављено.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Дијагностика је копирана. Прегледајте путање фасцикли пре дељења.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Језик</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Језик апликације</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Користи језик система Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Промене се примењују одмах. Датуми и бројеви користе регионалне поставке.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Поправи OneDrive опоравак</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Искључи локално…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Стари опоравак треба надоградити на OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Експериментални OneDrive опоравак није подешен у овој верзији.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Пријавите се на Microsoft да бисте користили OneDrive опоравак.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Microsoft пријављивање или сагласност су одбијени. Опоравак лозинком остаје доступан.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Потребна дозвола за фасциклу апликације на OneDrive није доступна. Опоравак лозинком остаје доступан.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>OneDrive опоравак захтева интернет везу. Лозинка и локални Windows приступ остају доступни.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>OneDrive опоравак тренутно није могао да се провери. Покушајте касније или користите лозинку за опоравак.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive је заузет. Покушајте касније.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive није доступан или није подешен за овај Microsoft налог. Користите лозинку за опоравак.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>OneDrive кључ за опоравак је промењен или неважећи. Користите лозинку за опоравак или поправите опоравак на рачунару који може да откључа ову копију.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Можда је и даље потребно чишћење OneDrive. То утиче само на кључ за опоравак; лозинка и Windows приступ остају непромењени.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Можда је и даље потребно чишћење OneDrive. Датотека за опоравак: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>OneDrive опоравак ради, али стари Windows акредитив за опоравак није могао потпуно да се уклони.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Искључити OneDrive опоравак локално?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Ово уклања везу резервне копије за OneDrive опоравак без брисања датотеке за опоравак у облаку. Можда ћете морати ручно да уклоните ту датотеку са OneDrive. Лозинка и Windows приступ остају непромењени.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>OneDrive опоравак је локално искључен.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Поправити OneDrive опоравак?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Направите и проверите нови кључ за опоравак пре повлачења старог. Измењене датотеке у облаку биће сачуване.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Ажурирања</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Канал ажурирања</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Проверавај аутоматски</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Стабилно</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Бета</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Никада</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Дневно</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Недељно</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Месечно</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Провери сада</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Тренутна верзија: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Последња провера: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Необјављена развојна верзија</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Доступно је {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Преузми и инсталирај</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Прикажи белешке издања</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Ажурно</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Провера ажурирања…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Преузимање ажурирања… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Проверавање ажурирања…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Спремно за инсталацију</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Чека се завршетак прављења резервне копије или другог активног посла.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Инсталирање ажурирања…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Није могуће контактирати GitHub. Покушајте касније.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub ограничава захтеве. Покушајте касније.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Нема доступног издања за инсталацију.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Провера инсталационог програма није успела. Ажурирање није инсталирано.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Аутоматска инсталација биће доступна након одобрења потписника издања.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Ажурирање није могуће инсталирати. Покушајте касније.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Ажурирање је инсталирано, али прозор није могуће поново отворити.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Ова необјављена верзија не може да инсталира јавна ажурирања.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Аутоматске провере ажурирања су искључене.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Аутоматске провере контактирају GitHub. Не шаљу се подаци о резервним копијама нити налозима.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Прављење резервне копије је у току. Зауставити га и инсталирати ажурирање?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Заустави копирање и инсталирај</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Још није проверено</value></data>
+</root>

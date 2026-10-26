@@ -1,0 +1,45 @@
+<UserControl x:Class="FluffHistory.Desktop.Pages.SettingsPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:loc="using:FluffHistory.Desktop.Presentation" xmlns:presentation="using:FluffHistory.Desktop.Presentation">
+
+ <presentation:PageLayout>
+
+ <presentation:PageLayout.Header>
+<TextBlock loc:Localize.Uid="Settings_TextBlock_PageTitle" Style="{StaticResource PageTitle}" />
+ </presentation:PageLayout.Header>
+
+ <presentation:PageLayout.Body>
+<StackPanel Style="{StaticResource PageSections}">
+   <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
+    <TextBlock loc:Localize.Uid="Settings_TextBlock_Appearance" Style="{StaticResource SectionTitle}" />
+    <TextBlock loc:Localize.Uid="Settings_TextBlock_AppearanceExplanation" Style="{StaticResource SecondaryText}" />
+    <ComboBox loc:Localize.Uid="Settings_ComboBox_Appearance" ItemsSource="{x:Bind Model.Appearances, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedAppearance, Mode=TwoWay}" DisplayMemberPath="Label" HorizontalAlignment="Stretch" />
+   </StackPanel></Border>
+   <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
+    <TextBlock loc:Localize.Uid="Settings_TextBlock_Language" Style="{StaticResource SectionTitle}" />
+    <ComboBox loc:Localize.Uid="Settings_ComboBox_Language" ItemsSource="{x:Bind Model.Languages, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedLanguage, Mode=TwoWay}" DisplayMemberPath="Label" HorizontalAlignment="Stretch" />
+    <TextBlock loc:Localize.Uid="Settings_TextBlock_LanguageExplanation" Style="{StaticResource SecondaryText}" />
+   </StackPanel></Border>
+   <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
+    <TextBlock Text="{x:Bind Model.UpdateTitle, Mode=OneWay}" Style="{StaticResource SectionTitle}" />
+    <ComboBox Header="{x:Bind Model.UpdateChannelLabel, Mode=OneWay}" ItemsSource="{x:Bind Model.UpdateChannels, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedUpdateChannel, Mode=TwoWay}" DisplayMemberPath="Label" IsEnabled="{x:Bind Model.CanCheckUpdates, Mode=OneWay}" HorizontalAlignment="Stretch" />
+    <ComboBox Header="{x:Bind Model.UpdateFrequencyLabel, Mode=OneWay}" ItemsSource="{x:Bind Model.UpdateFrequencies, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedUpdateFrequency, Mode=TwoWay}" DisplayMemberPath="Label" IsEnabled="{x:Bind Model.CanCheckUpdates, Mode=OneWay}" HorizontalAlignment="Stretch" />
+    <TextBlock Text="{x:Bind Model.CurrentUpdateVersion, Mode=OneWay}" TextWrapping="Wrap" />
+    <TextBlock Text="{x:Bind Model.LastUpdateCheck, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+    <TextBlock Text="{x:Bind Model.UpdateStatus, Mode=OneWay}" TextWrapping="Wrap" />
+    <TextBlock Text="{x:Bind Model.AvailableUpdate, Mode=OneWay}" Visibility="{x:Bind Model.HasUpdate, Mode=OneWay}" TextWrapping="Wrap" />
+    <StackPanel Orientation="Horizontal" Spacing="8">
+     <Button Content="{x:Bind Model.UpdateCheckLabel, Mode=OneWay}" Click="CheckUpdates_Click" IsEnabled="{x:Bind Model.CanCheckUpdates, Mode=OneWay}" />
+     <Button Content="{x:Bind Model.UpdateInstallLabel, Mode=OneWay}" Click="InstallUpdate_Click" IsEnabled="{x:Bind Model.CanInstallUpdate, Mode=OneWay}" Visibility="{x:Bind Model.HasUpdate, Mode=OneWay}" Style="{StaticResource AccentButtonStyle}" />
+    </StackPanel>
+    <HyperlinkButton Content="{x:Bind Model.UpdateNotesLabel, Mode=OneWay}" Click="ReleaseNotes_Click" Visibility="{x:Bind Model.HasUpdate, Mode=OneWay}" />
+    <TextBlock Text="{x:Bind Model.UpdateDisabledLabel, Mode=OneWay}" Visibility="{x:Bind Model.AutomaticChecksDisabled, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+    <TextBlock Text="{x:Bind Model.UpdatePrivacyLabel, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+   </StackPanel></Border>
+
+   <InfoBar loc:Localize.Uid="Settings_InfoBar_PreferencesUnavailable" IsOpen="{x:Bind Model.NeedsAttention, Mode=OneWay}" IsClosable="False" Severity="Warning" />
+   <TextBlock loc:Localize.Uid="Settings_TextBlock_SettingsExplanation" Style="{StaticResource SecondaryText}" />
+  </StackPanel>
+ </presentation:PageLayout.Body>
+
+ </presentation:PageLayout>
+
+</UserControl>

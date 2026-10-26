@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>fil-PH</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Pangkalahatang-ideya</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Linya ng panahon</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Pagsasaayos</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Tungkol dito</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Mga setting ng application</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Handa</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Pagsasaayos</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Lokasyon ng backup</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Baguhin ang password sa pagbawi…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>I-on ang pag-encrypt…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>I-off ang pag-encrypt…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pag-usad ng pagpapalit ng encryption</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Ipagpatuloy</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>I-pause</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Espasyo sa drive</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nagamit na espasyo sa backup drive</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bawiin ang access…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Bawiin ang access…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Bawiin gamit ang Microsoft Account (Eksperimental)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Baguhin…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Baguhin ang lokasyon ng backup</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Mga folder na iba-back up</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga folder na iba-back up</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Magdagdag ng mga folder…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Alisin sa backup</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Kapag inalis ang isang folder, hihinto ang mga susunod nitong backup. Pananatilihin ang kasalukuyang kasaysayan ayon sa iyong mga setting ng pagpapanatili.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Mga ibinukod na folder</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Hindi isasama sa mga susunod na backup ang mga ibinukod na folder. Pananatilihin ang kasalukuyang kasaysayan.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga ibinukod na folder</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Ibukod ang folder…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ibukod ang folder</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Alisin ang pagbubukod</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alisin ang napiling pagbubukod ng user</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Mga awtomatikong backup</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga awtomatikong backup</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>I-back up ang mga file</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dalas ng pag-backup</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Panatilihin ang mga naka-save na bersyon</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pagpapanatili ng mga naka-save na bersyon</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Tuloy ang mga awtomatikong backup kahit sarado ang window na ito. Hindi ipinipila ang mga napalampas na backup.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Power at network</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Power at network</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Power at network</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>I-pause ang mga awtomatikong backup kapag naka-baterya</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Payagan ang mga backup na gumagamit ng network sa mga metered na koneksyon</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Maghintay kapag walang network na iniulat ang Windows para sa network backup</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga advanced na opsyon</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga advanced na opsyon</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Mga advanced na opsyon</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Mag-save ng susi sa pagbawi sa OneDrive (eksperimental)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Beripikahin ang pagbawi sa OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Eksperimental na pagbawi</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Maghintay kapag hindi matukoy ng Windows ang katayuan ng power</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>I-reset ang pagsasaayos ng application…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>I-save ang mga pagbabago</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Itapon ang mga pagbabago</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Tungkol dito</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Preview para sa mga developer ng Fluff-History</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Tuloy ang mga nakaiskedyul na backup kahit sarado ang window na ito. Kasama sa pag-install ng Fluff-History ang integrasyon sa Explorer at Mga Katangian. Sinusuportahan ang pagbawi gamit ang password at lokal na Windows access. Walang telemetry o awtomatikong pag-upload.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Kopyahin ang mga nalinis na diagnostic</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Suriin ang mga path ng folder bago ibahagi. Hindi kasama ang mga password sa pagbawi, materyal ng key o token ng account.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga diagnostic ng application</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Linya ng panahon</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Isinasagawa ang pagbabago ng encryption</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>Pansamantalang hindi magagamit ang kasaysayan ng backup. Ipagpatuloy ang pagbabago ng encryption sa Pagsasaayos upang matapos.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Path ng folder sa linya ng panahon</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Linya ng panahon noong</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Pinakabago</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Pumili ng petsa/oras…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Ipakita ang linya ng panahon ayon sa lokal na oras</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Petsa</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Petsa ng kalagayan</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Oras</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oras ng kalagayan</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Ipakita ang linya ng panahon</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>I-refresh</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Magulang na folder</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Magulang na folder</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Ibalik</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Mas maaga</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mas maagang oras sa linya ng panahon</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Mas huli</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mas huling oras sa linya ng panahon</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>I-refresh</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Linisin ang mga lumang bersyon…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Tingnan</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Malalaking icon</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Listahan</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Ibalik ang mga napili…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Alisin ang lahat ng pagpili</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Listahan sa linya ng panahon</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Malalaking icon sa linya ng panahon</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Walang bersyon sa linya ng panahon na maipapakita</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Buksan ang Pagsasaayos</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Mag-load ng higit pang file at folder</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>I-preview / Buksan</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Ibalik</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ibalik ang napiling bersyon</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga opsyon ng naka-save na bersyon</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Ibalik sa…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Burahin</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Mga bersyon · pinakabago muna</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mga bersyon ng file</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Mag-load ng higit pang bersyon</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nilo-load ang linya ng panahon</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Kanselahin ang pag-load</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Pangkalahatang-ideya</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>I-set up ang Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Mag-backup ngayon</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bawiin ang access…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Bawiin ang access…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Pagsasaayos</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Kailangan ng pansin</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Katayuan</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aktibidad ng backup</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Espasyo sa drive</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nagamit na espasyo sa backup drive</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Mga problema sa file o folder</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Kanselahin ang backup</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Buksan ang linya ng panahon</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Mga setting ng application</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Hitsura</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Piliin ang hitsura ng Fluff-History. Sinusunod ng System ang hitsura ng iyong Windows.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hitsura</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Hindi ma-load ang mga kagustuhan ng application. Ligtas na mga default ang ginagamit. Pumili ng kagustuhan upang mag-save ng bagong kopya.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Sa Pagsasaayos pinamamahalaan ang mga folder, iskedyul at pagpapanatili ng backup. Naaalala ng linya ng panahon ang pagpili ng Malalaking icon o Listahan.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Alisin ang mga naka-save na bersyon</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Piliin kung ano ang aalisin...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Panahon ng paglilinis</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Kanselahin ang paglilinis</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Buksan</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Ibalik</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Ibalik sa…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>I-preview / Buksan</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Burahin ang naka-save na bersyon…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Burahin</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Kanselahin</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Magpatuloy</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Ipagpatuloy</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Isara</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Kumpirmahin</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Gamitin ang lokasyong ito ng backup</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Isinasara</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Hinihintay na matapos ang mga aktibong operasyon…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Kailangan ng pansin ang pagsasara</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Hintayin ang aktibong operasyon ng file at subukang isara muli.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Kailangan ng pansin ang pagkilos</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Kailangan ng pagbawi</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Buksan ang Pangkalahatang-ideya o Pagsasaayos upang bawiin ang access gamit ang password sa pagbawi.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Hindi pa naisaayos</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Piliin ang I-set up ang Fluff-History sa Pangkalahatang-ideya upang magsimula.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Handa nang isaayos</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Kinansela; mananatiling tapos ang mga operasyon ng file na natapos na.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Hindi matapos ang operasyon. Suriin ang mga napiling folder, pagsasaayos at koneksyon, at subukan muli.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Na-save ang mga kagustuhan ng application</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Tahasang i-reset ang mga sirang setting ng application bago mag-save.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Isinasara ang Fluff-History para sa pag-update.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Hindi magagamit ang background agent. Muling buksan ang Fluff-History o ayusin ang pag-install.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Nabuksan ang preview ng linya ng panahon</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Pagpapanumbalik: {0:N0} nakopya · {1:N0} nilaktawan · {2:N0} nabigo · {3:N0} hindi nakumpirma · {4:N0} babala sa metadata</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Kinansela</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Natapos ang pagbawi. Mabubuksan na ng Windows user na ito ang backup.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Hindi na-unlock ng password sa pagbawi ang backup na ito. Suriin ang password at subukan muli.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Hindi lubos na nakumpirma ang pagbawi. Gumana ang bagong lokal na pagbukas; tiyakin ang access bago subukan muli.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Hindi makumpirma ang lokal na access matapos ang pagbawi. Suriin ang lokasyon ng backup bago subukan muli.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Hindi wasto o sira ang lokasyon ng backup. Hindi natapos ang pagbawi.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Kinansela ang pagbawi.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Hindi matapos ang pagbawi. Suriin ang lokasyon ng backup at koneksyon bago subukan muli.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Lokasyon ng backup</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Magdagdag ng mga folder</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Mga folder na iba-back up</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Protektahan ang backup na ito gamit ang password sa pagbawi</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>I-set up ang lokasyong ito ng backup?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Ise-set up ngayon ang bakanteng folder na ito. I-save ang mga pagbabago pagkatapos upang magsimulang gamitin ito.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Password sa pagbawi</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Kumpirmahin ang password</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Baguhin ang password sa pagbawi</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Ipagpatuloy ang pagbabago ng encryption</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Protektahan ang iyong backup</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Bawiin ang access sa backup</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Baguhin ang password</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>I-set up ang protektadong backup</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Bawiin ang access</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Binabago ang password para sa naililipat na pagbawi. Hindi kailangang i-encrypt muli ang kasalukuyang data ng backup. Itago ang bagong password sa ligtas na lugar.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Ilagay ang password sa pagbawi para sa pagbabagong ito ng encryption. Mananatiling naka-pause ang backup kung hindi makumpirma ang access.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Itago ang password sa pagbawi sa ligtas na lugar. Kakailanganin ito upang bawiin ang access sa ibang instalasyon ng Windows. Mabubuksan ng Windows user na ito ang backup nang normal.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Umiiral ang backup na ito ngunit hindi pa ito mabuksan ng Windows user na ito. Ilagay ang password sa pagbawi upang paganahin ang access.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Maglagay ng password; dapat magkatugma ang kumpirmasyon</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>May nahanap na kasalukuyang backup</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Linisin ang mga lumang bersyon</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Alisin ang mga bersyon…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Kumpirmahin ang paglilinis ng linya ng panahon</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Inalis sa mga susunod na backup. Pananatilihin ang kasalukuyang kasaysayan ayon sa mga setting ng pagpapanatili.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Isasama ang folder na ito sa mga susunod na backup maliban kung may ibang pagbubukod. Pananatilihin ang kasalukuyang kasaysayan.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>I-reset ang pagsasaayos ng application?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Hindi gagalawin ang data ng backup at pinagmulan. Mga setting lang ng application na ito ang ire-reset.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>I-reset ang pagsasaayos</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Naka-pause ang pagbabago ng encryption</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Naka-pause ang pag-alis ng encryption</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Kailangan ng pansin ang pagbabago ng encryption</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Inihahanda ang pagbabago ng encryption</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} sa {1} · {2:N0} sa {3:N0} file</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Hindi masuri ang kontrol ng conversion. Hindi magagamit ang kasaysayan ng backup. Suriin ang koneksyon ng backup at Mga Diagnostic.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>Pansamantalang hindi magagamit ang kasaysayan ng backup habang tinatapos ang conversion. Maaaring ipagpatuloy pagkatapos maputol.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Naka-encrypt</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Hindi naka-encrypt</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Gamitin ang pagbawi upang paganahin ang access para sa Windows account na ito.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Kayang i-unlock ng Windows account na ito ang backup.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Sinusuri ang pagbawi sa OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Pagbawi sa OneDrive: naka-on</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Walang susi sa pagbawi sa OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Naka-off nang lokal ang pagbawi sa OneDrive; maaaring kailanganin ang paglilinis sa cloud</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>Kailangan ng pansin ang pagbawi sa OneDrive</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Hindi available ang pagbawi sa OneDrive</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Pagbawi sa OneDrive: naka-off</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Eksperimental. Isang random na susi sa pagbawi ang iniimbak sa app folder ng Fluff-History sa OneDrive; nananatili ang mga na-backup na file sa lokasyon ng backup. Para lamang sa app folder na ito ang pahintulot. Maaaring mabawi ng ibang PC ang backup matapos mag-sign in sa Microsoft account. Minamarkahan ng Microsoft ang pahintulot na ito bilang Preview. Itago ang iyong password sa pagbawi.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Nabago ang password sa pagbawi. Itago ang bagong password sa ligtas na lugar.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Naka-on at naberipika ang pagbawi sa OneDrive. Itago ang iyong password sa pagbawi.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Naka-off ang pagbawi sa OneDrive. Hindi nagbago ang password at pag-access sa Windows.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Naberipika ang pagbawi sa OneDrive.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Natapos ang pagbawi. Kaya nang i-unlock ng Windows account na ito ang backup.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Walang susi sa pagbawi sa OneDrive. Gamitin ang iyong password sa pagbawi.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>Hindi mapatunayan ng susi sa pagbawi ng OneDrive ang backup na ito. Gamitin ang iyong password sa pagbawi.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Hindi lubos na nakumpirma ang pagbabago. Suriin ang access bago subukan muli; hindi nagbago ang kasaysayan ng backup.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Kinansela ang operasyon.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Hindi matapos ang pagbabago sa seguridad. Suriin ang access at subukan muli. Magagamit pa rin ang pagbawi gamit ang password.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Encryption ng backup</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>I-e-encrypt sa kasalukuyang lokasyon ang laman ng backup. Pansamantalang hindi magagamit ang backup at pagpapanumbalik. Itago ang password sa pagbawi; awtomatikong idinadagdag ang Windows access. Kailangan ng sapat na libreng espasyo at maaaring ipagpatuloy pagkatapos maputol.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Iimbakin nang walang encryption ang metadata at laman ng mga file sa lokasyon ng backup. Pansamantalang hindi magagamit ang backup at pagpapanumbalik habang nagko-convert. Maaaring ipagpatuloy pagkatapos maputol.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>I-on ang pag-encrypt?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>I-off ang pag-encrypt?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Natapos ang pagbabago ng encryption.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Maaaring manatiling hindi naka-encrypt ang ilang retiradong metadata hanggang magtagumpay ang paglilinis. Susubukan muli ang paglilinis.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Hindi pa maalis ang ilang lumang metadata; susubukan muli ang paglilinis.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Naka-pause ang pagbabago ng encryption. Ipagpatuloy upang matapos; pananatilihin ang mga file na na-convert na.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Hindi nasimulan ang conversion ng encryption.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Kailangan ng higit pang libreng espasyo. Magbakante ng espasyo at ipagpatuloy. Walang kasaysayang inalis.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Kailangan ng higit pang libreng espasyo. Magbakante at subukang baguhin muli ang encryption. Walang kasaysayang inalis.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Gamitin ang password sa pagbawi upang ipagpatuloy ang pagbabago ng encryption.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Kailangan ng pansin ang pagbabago ng encryption. Suriin ang koneksyon ng backup at password sa pagbawi, at ipagpatuloy. Huwag alisin ang mga file ng conversion.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Hindi masimulan ang pagbabago ng encryption. Suriin ang koneksyon ng backup at opsyonal na data ng cache, at subukan muli. Hindi nagbago ang kasaysayan ng backup.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Panatilihin ang mga bersyon magpakailanman</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Walang ibinukod na folder.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Piliin kung saan iimbakin ang mga backup</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Pumili ng lokasyon ng backup upang magpatuloy.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Naka-pause ang pag-encrypt ng backup na ito</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Naka-pause ang pag-alis ng encryption</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Mga hindi na-save na pagbabago · nananatili kapag lumipat ng pahina</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Napapanahon ang pagsasaayos</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Pumili ng sinusuportahang dalas ng backup.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Pumili ng lokasyon ng backup.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Pumili ng lokasyon ng backup bago mag-save.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang lokasyon ng backup. Piliin ang Baguhin upang piliin itong muli o gumamit ng ibang lokasyon.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Suriin ang mga napiling folder at lokasyon ng backup.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>May iba nang hindi kaugnay na data ang folder na ito. Hindi magse-set up ang Fluff-History ng bagong backup dito. Pumili ng bakanteng folder o kasalukuyang backup ng Fluff-History.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Pumili ng ibang lokasyon ng backup</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Hindi magagamit ang lokasyong ito. Suriin ang koneksyon o pumili ng ibang lokasyon.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang lokasyon ng backup</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>I-save ang mga pagbabago upang gawin itong lokasyon ng iyong backup.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Hindi na-unlock ng password sa pagbawi ang backup na ito.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Hindi lubos na nakumpirma ang access. Suriin ang backup na ito bago subukan muli.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Napili ang lokasyon ng backup. Piliin ang mga folder at i-save ang mga pagbabago.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Pumili ng hanggang 1,024 na folder.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Naka-backup na sa pamamagitan ng {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Hindi mapili ang folder na ito.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Salungatan sa pagpili ng folder</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>I-back up ang mga folder na ito?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>I-back up pa rin</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Ibinukod na ang folder na ito.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Ibinukod ang folder sa mga susunod na backup. Pananatilihin ang kasalukuyang kasaysayan.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Pinakabago</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Magdagdag ng mga folder sa Pagsasaayos upang magsimula. Lilitaw dito ang mga naka-save na folder.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Wala pang naka-save na bersyon ang folder na ito. Lilitaw ang mga file pagkatapos ng matagumpay na backup.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Walang naka-save na file ang folder na ito sa napiling oras. Subukan ang ibang oras o piliin ang Pinakabago.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Nagbago ang linya ng panahon. I-refresh upang magpatuloy.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Linya ng panahon noong: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>Na-load ang 4,096 na item. Magbukas ng folder upang paliitin ang tanawing ito.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>Na-load ang 1,024 na oras. Paliitin ang folder o pumili ng petsa at oras.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>Na-load ang 1,024 na bersyon. Nililimitahan ng preview na ito ang listahan ng bersyon.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Walang folder sa linya ng panahon</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Mga pinakabagong natitirang bersyon</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Protektado ang kasalukuyang matagumpay na bersyon at hindi maaaring burahin.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Pumili ng file o folder</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Buksan ang folder na ito upang tingnan ang mga naka-save na file.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Magbukas ng folder upang tingnan ang mga naka-save na file. Ang mga folder na ito ay para sa pag-navigate, hindi mga bersyon ng direktoryong maibabalik.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Pumili ng mga file o folder mula rito upang ibalik nang sama-sama. Pumili ng isang file upang tingnan ang mga bersyon nito.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Ipinapakita ng mga folder ang mga file sa linya ng panahon. Hindi hiwalay na sine-save ang mga petsa at katangian ng folder.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Buksan ang Pagsasaayos upang i-set up ang linya ng panahon.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Buksan ang Pagsasaayos upang magpatuloy.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>I-refresh upang i-load ang linya ng panahon ng backup na ito.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Hindi kasalukuyang bina-backup ng Fluff-History ang item na ito.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Buksan ang Pagsasaayos o Pangkalahatang-ideya upang ma-access ang backup na ito.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Wala pang naka-save na kasaysayan ang item na ito.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Wala pang naka-save na bersyon ang file na ito.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Hindi kasalukuyang naka-backup</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Hindi kasalukuyang naka-backup</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Wala na sa linya ng panahon ang folder na ito.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Hindi umiiral ang lokal na oras na ito dahil sa daylight saving. Pumili ng ibang oras.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Kinansela ang pag-load. Magagamit pa ang mga natapos na hilera.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Nilo-load ang linya ng panahon…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Kinansela ang pag-load.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Hindi maibalik ang mga napiling item</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Ibalik sa orihinal na lokasyon?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Ibabalik ang mga napiling makasaysayang file sa orihinal nilang lokasyon. Magtatanong ang Windows tungkol sa salungatan sa kasalukuyang mga file.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Burahin ang naka-save na bersyong ito?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Nabura ang naka-save na bersyon.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Kinansela ang pagbura. Nabura ang {0:N0} naka-save na bersyon bago ang pagkansela; mananatili ang mga nakumpirmang pag-alis.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Kailangan ng pansin ang pagbura. Maaaring hindi nakumpirma ang ilang pagbabago o paglilinis ng laman. Suriin ang backup bago subukan muli.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Hindi matapos ang pagkilos. Suriin ang pagsasaayos at subukan muli.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Isinasagawa ang pagbabago ng encryption</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang background agent</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>I-set up ang Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Isinasagawa ang backup</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Kailangan ng pansin ang backup</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Pumili ng lokasyon ng backup at mga folder na nais i-back up.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Pinagana ang mga awtomatikong backup</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Hindi pinagana ang mga awtomatikong backup</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Sinusuri ang mga kundisyon ng backup…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Binubuksan ang backup…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Ini-scan at bina-backup ang mga file…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Inilalapat ang patakaran sa pagpapanatili…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Sinusuri ang metadata…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Pinagsisiksik ang metadata…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Nililinis ang metadata…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Kino-compress ang metadata…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Ine-encrypt…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Dine-decrypt…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Tinatapos ang backup…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Hiniling ang pagkansela</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Hindi nakamapang folder</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Ipinapakita ang {0:N0} sa {1:N0} problemang naitala sa sesyong ito.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>Pansamantalang hindi magagamit ang kasaysayan ng backup. Ipagpatuloy ang pagbabago ng encryption sa Pagsasaayos.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Umiiral ang backup ngunit walang access ang Windows user na ito. Maibabalik ito ng password sa pagbawi.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Natapos ang backup ngunit kailangan ng pansin ang pagpapanatili ng linya ng panahon. Tingnan ang Mga Diagnostic bago muling maglinis.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Hindi makumpirma ang ilang pagbabago. Suriin ang lokasyon ng backup bago magpatuloy.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Kailangan ng higit pang libreng espasyo sa lokasyon ng backup bago magpatuloy.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>May mga nilaktawang file o folder. Palawakin ang Mga problema sa file o folder sa ibaba upang makita ang mga path at dahilan. Nananatiling naka-save ang ibang matagumpay na bersyon.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Magdagdag ng mga folder sa Pagsasaayos upang magsimulang mag-backup.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Walang pagbabagong iba-back up.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>wala pang isang segundo</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} at {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Kailangan ng pagbawi. Gamitin ang password sa pagbawi upang paganahin ang access para sa Windows user na ito.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Tapusin ang pagbabago ng encryption sa Pagsasaayos bago gamitin ang kasaysayan ng backup.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Nagbago ang linya ng panahon. I-refresh upang magpatuloy sa pagtingin at pagpapanumbalik.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Hindi wasto o sira ang lokasyong ito ng backup. Suriin ang napiling lokasyon.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>May backup o paglilinis na isinasagawa. Hintaying matapos at subukan muli.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Hindi magamit ang pagpiling ito rito. Pumili ng mga item mula sa kasalukuyang folder at oras.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>May file at folder na magkapareho ang path sa mga napiling makasaysayang item at hindi maibabalik nang magkasama.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Kinansela ang operasyon. Mananatiling tapos ang mga natapos na operasyon ng file.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Hindi magagamit ang lokasyon ng backup o destinasyon. Suriin ang lokasyon at koneksyon, at subukan muli.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Hindi wastong lokasyon ng backup</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Natapos ang backup</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Natapos ang backup na may problema sa folder o file</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Kinansela ang backup</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Naka-pause ang backup: kulang ang espasyo</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Ipinagpaliban ang backup</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Kailangan ng pansin ang backup</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Wala pang backup na tumakbo sa sesyong ito ng application.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Naghihintay ng panlabas na power.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Hindi matukoy ng Windows ang katayuan ng power.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Naghihintay ng hindi metered na koneksyon.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Iniulat ng Windows na walang network para sa backup sa network path.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Maliwanag</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Madilim</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} nagamit sa {1} · {2} libre</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Sinusuri ang espasyo sa drive…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang impormasyon ng espasyo sa drive.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Kinakalkula ang laki ng backup…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Sumakop ang backup ng {0} noong huling pagsusuri</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Sumasakop ang backup ng {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang laki ng backup</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Piliin kung ano ang aalisin para makita ang preview. Walang aalisin hangga't hindi mo kinukumpirma.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Sinusuri ang mga naka-save na bersyon…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Nagbago ang linya ng panahon. Piliin muli kung ano ang aalisin.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Magbabakante ito ng humigit-kumulang {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Walang aalisin para sa pagpiling ito.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Suriin ang preview bago mag-alis ng mga bersyon.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Kinansela ang preview. Walang inalis.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Hindi kumpleto ang preview: naabot ang limitasyon ng trabaho. Hindi maaaring maglinis.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Inaalis ang mga naka-save na bersyon…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Nagbago ang linya ng panahon pagkatapos ng preview na ito. Mag-preview muli bago mag-alis ng bersyon.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Hindi pa malinis ang ilang naka-save na laman.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Natapos ang paglilinis. I-refresh ang linya ng panahon upang makita ang mga natitirang bersyon.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Kinansela ang paglilinis. Mananatili ang mga nakumpirmang pag-alis. I-refresh ang linya ng panahon.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Kailangan ng pansin ang paglilinis. Maaaring hindi nakumpirma ang ilang pagbabago; suriin ang backup bago subukan muli. I-refresh ang linya ng panahon.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Pinapanatili ang pinakabagong natitirang bersyon sa bawat path, pati mga file na hindi na bina-backup. Protektado pa rin ang kasalukuyang mga bersyon.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Protektado pa rin ang kasalukuyang mga bersyon. Maaaring tuluyang mawala ang mga file na nasa linya ng panahon lang kung mas luma sa edad na ito ang lahat ng bersyon nila.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Tinatayang espasyo; maaaring iba ang aktuwal na libreng espasyo.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} bytes</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} kasalukuyang folder</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} kasalukuyang folder</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} kasalukuyang folder</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} kasalukuyang folder</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} kasalukuyang folder</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} kasalukuyang folder</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} problema sa file</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} problema sa file</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} problema sa file</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} problema sa file</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} problema sa file</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} problema sa file</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} file</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} file</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} file</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} file</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} file</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} file</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} bersyon ng file</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} bersyon ng file</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} bersyon ng file</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} bersyon ng file</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} bersyon ng file</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} bersyon ng file</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} oras</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} oras</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} oras</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} oras</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} oras</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} oras</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} item</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} minuto</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} minuto</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} minuto</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} minuto</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} minuto</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} minuto</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} bagong bersyon ang na-save</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} bagong bersyon ang na-save</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} bagong bersyon ang na-save</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} bagong bersyon ang na-save</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} bagong bersyon ang na-save</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} bagong bersyon ang na-save</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} naka-save na bersyon</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} naka-save na bersyon</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} naka-save na bersyon</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} naka-save na bersyon</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} naka-save na bersyon</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} naka-save na bersyon</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} segundo</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} segundo</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} segundo</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} segundo</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} segundo</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} segundo</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, Folder</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, File, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Na-save noong {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} napili</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} item ang napili</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Na-save: {1:f}
+
+Permanenteng aalisin lang nito ang naka-save na bersyong ito. Pananatilihin ang pinagmulan mong file at ibang naka-save na bersyon. Hindi ito maa-undo.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} folder sa linya ng panahon</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>{0} idinagdag · {1} muling pinagana · {2} napili na</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} hindi naidagdag</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>Inalis ang {0} ({1} ng naka-save na laman).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Permanenteng alisin ang {0} mula sa {1}? Pananatilihin ang pinagmulan mong mga file at kasalukuyang mga bersyon. Hindi ito maa-undo.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} napili para sa backup</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Huling na-backup noong {0:f} at inabot ng {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Huling pagtatangka sa backup noong {0:f} at inabot ng {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Na-save noong {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Binago ang file noong {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Na-save: {2:G}
+Binago ang file: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Linya ng panahon noong {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Linya ng panahon</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Tuwing 10 minuto</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Tuwing 30 minuto</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Bawat oras</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Tuwing 3 oras</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Tuwing 6 oras</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Tuwing 12 oras</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Araw-araw</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Hanggang mapuno ang espasyo</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 buwan</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 buwan</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 buwan</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 buwan</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 taon</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 taon</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Magpakailanman</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Maaaring alisin ang mga bersyong mas luma sa edad na ito pagkatapos ng matagumpay na backup. Protektado pa rin ang kasalukuyang mga bersyon.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Itinatago ang mga bersyon hanggang maabot ng backup volume ang ligtas na hangganan ng kapasidad. Kapag kailangan ng espasyo, awtomatikong inaalis ang pinakalumang mga bersyong maaaring alisin. Protektado pa rin ang kasalukuyang mga bersyon.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Hindi kailanman awtomatikong inaalis ng patakarang “Magpakailanman” ang kasaysayan ng linya ng panahon. Patuloy na madaragdagan ang mga bersyon hanggang hindi na ligtas na makatanggap ng isa pang backup ang volume. Kakailanganin mong magbakante ng espasyo o manu-manong linisin ang linya ng panahon.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Mas luma sa 1 buwan</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Mas luma sa 3 buwan</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Mas luma sa 6 buwan</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Mas luma sa 9 buwan</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Mas luma sa 1 taon</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Mas luma sa 2 taon</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Panatilihin lang ang pinakabagong bersyon</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>May estado ng application, cache, database at pansamantalang file ang AppData. Maaari itong magbago nang madalas at mabilis palakihin ang linya ng panahon. Hindi pamalit ang pagpapanumbalik ng mga file na ito sa muling pag-install o wastong pagbawi ng application.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Malalaki at madalas magbago ang mga file ng sistema at naka-install na programa. Hindi system-image backup ang Fluff-History. Maaaring hindi maayos ang Windows o application sa pagpapanumbalik lang ng mga file na ito.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>Maaaring may pinagsasaluhang estado ng application, cache at madalas magbagong database ang ProgramData. Maaari itong lumikha ng maraming data sa linya ng panahon.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Pangunahing may pansamantala o pang-install na file ang lokasyong ito at maaaring lumikha ng maraming panandaliang pagbabago sa linya ng panahon.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>May metadata ng sistema o gumaganang file ng Fluff-History ang lokasyong ito at hindi maaaring i-back up.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Sinusuri ang pagsasaayos ng backup…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Kailangan ng pansin ang mga setting ng application. Tahasang i-reset ang pagsasaayos; hindi gagalawin ang data ng backup.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Hindi magagamit o hindi wasto ang naka-save na pagsasaayos ng backup. Suriin ang Pagsasaayos bago magpatuloy.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Hindi masuri ng Windows ang lokasyon ng backup o pansamantalang data ng application. Suriin ang access at libreng espasyo, at subukan muli.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Hindi maaaring ibukod din ang folder na napili para sa backup. Alisin ito sa backup o baguhin ang pagbubukod.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Pumili ng hanggang 256 na ibinukod na folder at hanggang 256 KiB ng mga path.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Sinusuportahan ng pinagmulang ito ang hanggang 256 na epektibong ibinukod na folder at 256 KiB ng pagsasaayos. Pumili ng mas kaunti o mas maiikling pagbubukod.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Isang beses lang maaaring piliin ang isang folder.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Dapat ibukod sa magulang na folder ang mga napiling nakapaloob na folder.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Pumili ng ganap na path ng folder.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Pumili ng karaniwang folder sa drive o network.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Pumili ng kumpletong path ng network share.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Malabo o lumalabas sa ugat nito ang path na ito. Pumili ng karaniwang ganap na path ng folder.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Hindi maaaring i-back up ang folder sa loob ng lokasyon ng backup o ang folder na naglalaman nito.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Kumpirmahin ang babala bago idagdag ang folder na ito.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Tumutukoy ito sa folder ng sistema o data ng application ng Windows. Piliin ang tunay na lokasyon at kumpirmahin muna ang babala.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Tumutukoy ang mga folder na ito sa magkakapatong na lokasyon ng Windows. Piliin ang bawat lokasyon nang isang beses.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Tumutukoy ang folder na ito sa pansamantalang data ng Fluff-History at hindi maaaring i-back up.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Mga Dokumento</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Mga Download</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Mga Larawan</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Musika</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Mga Video</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Hindi sinusuportahang pangalan ng file o folder.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Malabong alyas sa laki ng titik.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Hindi sinusuportahang hangganan, reparse point o EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Hindi sinusuportahan o sobrang laking file.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Nagbago ang pinagmulan habang kinokopya.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Hindi ma-access ang file o folder na ito.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Hindi ma-access ang file o folder na ito (error ng Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Hindi karaniwang direktoryo ang ugat ng pinagmulan o isang ninuno nito.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Hindi sinusuportahang hangganan ng direktoryo.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Sinusuri ang espasyo</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Ine-encrypt ang mga file</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Dine-decrypt ang mga file</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Muling binubuo ang metadata</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Tinatapos ang backup</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Ginagamit ng ibang application ang file o folder na ito.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Tinanggihan ang access sa file o folder na ito.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Hindi nahanap ang file o folder na ito habang nag-i-scan.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Na-save ang pagsasaayos</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Na-save ang mga pagbabago sa folder. Isasama ang na-update na mga folder sa susunod na nakaiskedyul na backup.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Na-save ang mga pagbabago sa folder. Isasama ang na-update na mga folder sa susunod na backup.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Hiniling ang backup</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>May backup nang isinasagawa o tinatapos.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Mag-set up ng handang lokasyon ng backup at mga folder sa Pagsasaayos.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Ibalik ang nakaraang bersyon…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Nilo-load ang kasaysayan...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Naka-backup</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Hindi kasalukuyang naka-backup</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Hindi bina-backup ng Fluff-History</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Kailangan ng pagbawi</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Hindi magagamit ang backup</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Nag-expire ang sesyon ng kasaysayan</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Hindi magagamit ang backup. Buksan ang Fluff-History o i-refresh.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Nag-expire ang sesyon ng kasaysayan. I-refresh upang magpatuloy.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Lokasyon ng backup: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Tingnan ang kasaysayan ng folder</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Buksan ang Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Tingnan ang lahat ng bersyon</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Binubuo ang mga folder mula sa mga naka-save na bersyon ng file.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Binabago ng pagpapanumbalik ang aktuwal na file. Pananatilihin ang naka-save na kasaysayan.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang Fluff-History. I-install ang preview para sa mga developer at subukan muli.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Ibalik ang naka-save na bersyong ito sa orihinal na lokasyon? Magtatanong ang Windows tungkol sa salungatan sa kasalukuyang mga file. Pananatilihin ang naka-save na kasaysayan.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Ibalik ang naka-save na bersyon?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Ibinabalik ang napiling bersyon...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Hindi magagamit ang backup. Buksan ang Fluff-History upang magpatuloy.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Ibalik</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>I-refresh</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>Binubuo ang kasaysayan ng folder mula sa mga naka-save na bersyon ng file.
+Mga kamakailang oras sa linya ng panahon:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Wala pang naka-save na bersyon ng file.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Binago noong {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Walang naka-save na bersyon ng file na ito. Buksan ang Linya ng panahon o Pagsasaayos upang magpatuloy.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Pinakabagong naka-save na bersyon: {0:f}
+Mga pinanatiling bersyon: {1:N0}
+Pinakalumang pinanatiling bersyon: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Pinakabagong naka-save na bersyon: {0:f}
+Mga pinanatiling bersyon: {1:N0}+; buksan ang linya ng panahon para sa buong kasaysayan
+Pinakalumang pinanatiling bersyon: buksan ang linya ng panahon para sa buong kasaysayan</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Hindi bina-backup ng Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Kailangan ng pagbawi. Buksan ang Fluff-History upang bawiin ang access.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang backup. Buksan ang Fluff-History o subukan muli.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Kailangan ng pansin ang pagpapanumbalik. Suriin ang destinasyon bago subukan muli.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Kinansela ang pagpapanumbalik. Mananatiling tapos ang mga natapos na operasyon ng file.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Naibalik ang file. Hindi nagbago ang naka-save na kasaysayan.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Walang file na naibalik. Suriin ang destinasyon.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Nagbago ang kasaysayan. I-refresh bago magpanumbalik.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Hindi magagamit ang pagpapanumbalik. Buksan ang Fluff-History upang magpatuloy.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Kinansela ang pagpapanumbalik. Suriin ang destinasyon.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>fil-PH</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Mga shortcut:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Gumawa ng shortcut sa &amp;Desktop</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Gumawa ng shortcut sa &amp;Start Menu</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Kailangan ng Fluff-History ang nakapirming folder ng pag-install nito para sa bawat user.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>May aktibong pag-install o pagsisimula ng application. Maghintay sandali at subukan muli.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Hindi maihanda ng Fluff-History ang pag-update. Isara ang mga aktibong operasyon ng file at pahina ng Mga Katangian, at subukan muli. Hindi nagbago ang imbakan ng backup.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Hindi matapos ng Fluff-History ang pag-install. Itinago ang estado ng application para sa muling pagsubok; hindi nagbago ang imbakan ng backup.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Kailangan ng pansin ang pag-install</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Hindi matapos ng Fluff-History ang pag-install. Pinanatili ang mga setting at imbakan ng backup. Patakbuhin muli ang Setup upang subukan muli.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Isara ang Fluff-History, mga aktibong operasyon ng file at pahina ng Mga Katangian bago mag-uninstall. Walang puwersahang pinatigil.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Nakopya ang mga diagnostic. Suriin ang mga path ng folder bago ibahagi.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Wika</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Wika ng application</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Gamitin ang wika ng Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Agad na inilalapat ang mga pagbabago. Ginagamit ng mga petsa at numero ang iyong mga panrehiyong setting.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Ayusin ang pagbawi sa OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>I-off nang lokal…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Kailangang i-upgrade sa OneDrive ang lumang pagbawi.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Hindi pa na-configure ang eksperimental na pagbawi sa OneDrive sa build na ito.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Mag-sign in sa Microsoft para gamitin ang pagbawi sa OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Tinanggihan ang pag-sign in o pahintulot sa Microsoft. Available pa rin ang pagbawi gamit ang password.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Hindi available ang kinakailangang pahintulot sa app folder ng OneDrive. Available pa rin ang pagbawi gamit ang password.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>Kailangan ng internet ang pagbawi sa OneDrive. Available pa rin ang password at lokal na pag-access sa Windows.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>Hindi maberipika ngayon ang pagbawi sa OneDrive. Subukang muli mamaya o gamitin ang iyong password sa pagbawi.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>Abala ang OneDrive. Subukang muli mamaya.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>Hindi available o hindi pa naka-set up ang OneDrive para sa Microsoft account na ito. Gamitin ang iyong password sa pagbawi.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>Nagbago o hindi wasto ang susi sa pagbawi ng OneDrive. Gamitin ang iyong password sa pagbawi o ayusin ang pagbawi sa PC na kayang mag-unlock ng backup na ito.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Maaaring kailangan pa ring linisin ang OneDrive. Susi sa pagbawi lamang ang apektado; hindi nagbago ang password at pag-access sa Windows.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Maaaring kailangan pa ring linisin ang OneDrive. File sa pagbawi: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>Gumagana ang pagbawi sa OneDrive, pero hindi ganap na maalis ang lumang kredensyal sa pagbawi ng Windows.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>I-off nang lokal ang pagbawi sa OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Inaalis nito ang link ng backup para sa pagbawi sa OneDrive nang hindi binubura ang file sa pagbawi sa cloud. Maaaring kailanganin mong manu-manong alisin ang file na iyon sa OneDrive. Hindi nagbago ang password at pag-access sa Windows.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Naka-off nang lokal ang pagbawi sa OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Ayusin ang pagbawi sa OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Gumawa at beripikahin ang bagong susi sa pagbawi bago ihinto ang paggamit ng luma. Pananatilihin ang mga nabagong file sa cloud.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Mga update</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Channel ng update</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Awtomatikong suriin</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Matatag</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Huwag kailanman</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Araw-araw</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Lingguhan</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Buwanan</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Suriin ngayon</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Kasalukuyang bersyon: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Huling sinuri: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Hindi pa nailalathalang development build</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Available ang {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>I-download at i-install</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Tingnan ang mga tala ng release</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Napapanahon</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Naghahanap ng mga update…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Dina-download ang update… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Bineberipika ang update…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Handa nang i-install</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Hinihintay matapos ang pag-backup o iba pang aktibong gawain.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Ini-install ang update…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Hindi makontak ang GitHub. Subukan ulit mamaya.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>Nililimitahan ng GitHub ang mga kahilingan. Subukan ulit mamaya.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Walang available na release na maaaring i-install.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Nabigo ang pagberipika sa installer. Hindi na-install ang update.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Magiging available ang awtomatikong pag-install kapag naaprubahan ang lumagda sa release.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Hindi ma-install ang update. Subukan ulit mamaya.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Na-install ang update, ngunit hindi muling mabuksan ang window.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Hindi maaaring mag-install ng mga pampublikong update ang hindi pa nailalathalang build na ito.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Naka-disable ang awtomatikong paghahanap ng mga update.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Kumokontak sa GitHub ang mga awtomatikong pagsusuri. Walang ipinapadalang detalye ng backup o account.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>May kasalukuyang pag-backup. Ihinto ito at i-install ang update?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Ihinto ang backup at i-install</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Hindi pa nasusuri</value></data>
+</root>

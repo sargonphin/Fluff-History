@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>nb-NO</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Oversikt</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Tidslinje</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Konfigurasjon</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Programinnstillinger</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Konfigurasjon</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Plassering for sikkerhetskopi</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Endre gjenopprettingspassord…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Slå på kryptering…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Slå av kryptering…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fremdrift for krypteringskonvertering</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Gjenoppta</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Sett på pause</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Diskplass</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Brukt plass på sikkerhetskopidisken</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gjenopprett tilgang…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Gjenopprett tilgang…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Gjenopprett med Microsoft-konto (eksperimentelt)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Endre…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Endre plassering for sikkerhetskopi</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Mapper som skal sikkerhetskopieres</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mapper som skal sikkerhetskopieres</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Legg til mapper…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Fjern fra sikkerhetskopiering</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Hvis du fjerner en mappe, stoppes fremtidig sikkerhetskopiering av den. Eksisterende historikk beholdes etter oppbevaringsinnstillingene.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Utelatte mapper</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Utelatte mapper tas ikke med i fremtidige sikkerhetskopier. Eksisterende historikk beholdes.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Utelatte mapper</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Utelat mappe…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Utelat mappe</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Fjern utelatelse</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fjern valgt brukerutelatelse</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Automatiske sikkerhetskopier</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automatiske sikkerhetskopier</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Sikkerhetskopier filer</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sikkerhetskopieringsintervall</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Behold lagrede versjoner</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oppbevaring av lagrede versjoner</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Automatisk sikkerhetskopiering fortsetter når vinduet er lukket. Uteblitte sikkerhetskopier settes ikke i kø.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Strøm og nettverk</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Strøm og nettverk</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Strøm og nettverk</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Sett automatisk sikkerhetskopiering på pause ved batteridrift</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Tillat sikkerhetskopiering over nettverket på forbruksmålte tilkoblinger</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Vent når Windows ikke finner nettverk for en nettverkssikkerhetskopi</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avansert</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avansert</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Avansert</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Lagre en gjenopprettingsnøkkel i OneDrive (eksperimentelt)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Bekreft OneDrive-gjenoppretting</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Eksperimentell gjenoppretting</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Vent når Windows ikke kan fastslå strømstatus</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Tilbakestill programkonfigurasjon…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Lagre endringer</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Forkast</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History – forhåndsversjon for utviklere</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Planlagt sikkerhetskopiering fortsetter når vinduet er lukket. Integrasjon med Filutforsker og Egenskaper installeres med Fluff-History. Passordgjenoppretting og lokal Windows-tilgang støttes. Ingen telemetri eller automatisk opplasting.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Kopier renset diagnostikk</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Se gjennom mappestier før deling. Gjenopprettingspassord, nøkkelmateriale og kontotokener tas ikke med.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Programdiagnostikk</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Tidslinje</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Krypteringsendring pågår</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>Sikkerhetskopihistorikken er midlertidig utilgjengelig. Gjenoppta krypteringsendringen i Konfigurasjon for å fullføre.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mappesti i tidslinjen</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tidslinjens referansetid</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Nyeste</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Velg dato/klokkeslett…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Vis tidslinjen ved lokal tid</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Referansedato</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Klokkeslett</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Referanseklokkeslett</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Vis tidslinje</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Overordnet</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Overordnet mappe</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Gjenopprett</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Tidligere</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tidligere tidspunkt i tidslinjen</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Senere</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Senere tidspunkt i tidslinjen</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Rydd opp i gamle versjoner…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Visning</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Store ikoner</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Gjenopprett valgte…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Fjern alle markeringer</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tidslinjeliste</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Store ikoner i tidslinjen</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Ingen tidslinjeversjoner å vise</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Åpne Konfigurasjon</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Last inn flere filer og mapper</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Forhåndsvis / Åpne</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Gjenopprett</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gjenopprett valgt versjon</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alternativer for lagret versjon</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Gjenopprett til…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Slett</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Versjoner · nyeste først</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Filversjoner</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Last inn flere versjoner</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Laster inn tidslinje</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Avbryt innlasting</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Oversikt</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Konfigurer Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Sikkerhetskopier nå</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gjenopprett tilgang…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Gjenopprett tilgang…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Konfigurasjon</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Krever oppmerksomhet</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sikkerhetskopieringsaktivitet</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Diskplass</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Brukt plass på sikkerhetskopidisken</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Problemer med filer eller mapper</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Avbryt sikkerhetskopiering</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Åpne tidslinje</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Programinnstillinger</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Utseende</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Velg hvordan Fluff-History skal se ut. System følger Windows-utseendet.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Utseende</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Programinnstillingene kunne ikke lastes inn. Trygge standardverdier brukes. Velg en innstilling for å lagre en ny kopi.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Mapper, planlegging og oppbevaring administreres i Konfigurasjon. Tidslinjen husker valget av Store ikoner eller Liste.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Fjern lagrede versjoner</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Velg hva som skal fjernes...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oppryddingsintervall</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Avbryt opprydding</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Åpne</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Gjenopprett</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Gjenopprett til…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Forhåndsvis / Åpne</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Slett lagret versjon…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Slett</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Fortsett</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Gjenoppta</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Lukk</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Bekreft</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Bruk denne plasseringen for sikkerhetskopi</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Lukker</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Venter på at aktive operasjoner fullføres…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Avslutning krever oppmerksomhet</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Vent på den aktive filoperasjonen, og prøv å lukke igjen.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Handlingen krever oppmerksomhet</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Gjenoppretting kreves</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Åpne Oversikt eller Konfigurasjon for å gjenopprette tilgang med gjenopprettingspassordet.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Ikke konfigurert</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Velg Konfigurer Fluff-History i Oversikt for å begynne.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Klar til å konfigurere</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Avbrutt; filoperasjoner som allerede er fullført, forblir fullført.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Operasjonen kunne ikke fullføres. Kontroller valgte mapper, konfigurasjon og tilkobling, og prøv igjen.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Programinnstillinger lagret</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Tilbakestill skadede programinnstillinger uttrykkelig før du lagrer.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History lukkes for en oppdatering.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Bakgrunnsagenten er utilgjengelig. Åpne Fluff-History igjen, eller reparer installasjonen.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Forhåndsvisning av tidslinjen åpnet</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Gjenoppretting: {0:N0} kopiert · {1:N0} hoppet over · {2:N0} mislykket · {3:N0} ubekreftet · {4:N0} metadataadvarsler</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Avbrutt</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Gjenoppretting fullført. Denne Windows-brukeren kan nå åpne sikkerhetskopien.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Gjenopprettingspassordet kunne ikke låse opp sikkerhetskopien. Kontroller passordet og prøv igjen.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Gjenopprettingen kunne ikke bekreftes fullt ut. En ny lokal åpning lyktes; kontroller tilgang før du prøver igjen.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Lokal tilgang kunne ikke bekreftes etter gjenoppretting. Kontroller plasseringen for sikkerhetskopi før du prøver igjen.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Plasseringen for sikkerhetskopi er ugyldig eller skadet. Gjenopprettingen ble ikke fullført.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Gjenoppretting avbrutt.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Gjenopprettingen kunne ikke fullføres. Kontroller sikkerhetskopiplasseringen og tilkoblingen før du prøver igjen.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Plassering for sikkerhetskopi</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Legg til mapper</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Mapper som skal sikkerhetskopieres</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Beskytt sikkerhetskopien med et gjenopprettingspassord</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Konfigurere denne plasseringen for sikkerhetskopi?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Denne tomme mappen konfigureres nå. Lagre endringene etterpå for å begynne å bruke den.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Gjenopprettingspassord</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Bekreft passord</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Endre gjenopprettingspassord</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Gjenoppta krypteringsendring</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Beskytt sikkerhetskopien</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Gjenopprett tilgang til sikkerhetskopien</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Endre passord</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Konfigurer beskyttet sikkerhetskopi</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Gjenopprett tilgang</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Endrer passordet for portabel gjenoppretting. Eksisterende sikkerhetskopidata trenger ikke å krypteres på nytt. Oppbevar det nye passordet trygt.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Skriv inn gjenopprettingspassordet for krypteringsendringen. Sikkerhetskopien forblir satt på pause hvis tilgang ikke kan bekreftes.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Oppbevar gjenopprettingspassordet trygt. Du trenger det for å gjenopprette tilgang på en annen Windows-installasjon. Denne Windows-brukeren kan åpne sikkerhetskopien normalt.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Sikkerhetskopien finnes, men denne Windows-brukeren kan ikke åpne den ennå. Skriv inn gjenopprettingspassordet for å gi tilgang.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Skriv inn et passord; bekreftelsen må samsvare</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Eksisterende sikkerhetskopi funnet</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Rydd opp i gamle versjoner</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Fjern versjoner…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Bekreft opprydding i tidslinjen</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Fjernet fra fremtidig sikkerhetskopiering. Eksisterende historikk beholdes etter oppbevaringsinnstillingene.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Mappen tas med i fremtidige sikkerhetskopier med mindre en annen utelatelse gjelder. Eksisterende historikk beholdes.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Tilbakestille programkonfigurasjonen?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Sikkerhetskopi- og kildedata forblir urørt. Bare programmets innstillinger tilbakestilles.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Tilbakestill konfigurasjon</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Krypteringsendring satt på pause</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Fjerning av kryptering satt på pause</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Krypteringsendring krever oppmerksomhet</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Forbereder krypteringsendring</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} av {1} · {2:N0} av {3:N0} filer</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Konverteringskontrollen kunne ikke bekreftes. Sikkerhetskopihistorikken forblir utilgjengelig. Kontroller tilkoblingen og Diagnostikk.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>Sikkerhetskopihistorikken er midlertidig utilgjengelig under konverteringen. Den kan gjenopptas etter avbrudd.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Kryptert</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Ukryptert</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Bruk gjenoppretting for å gi denne Windows-kontoen tilgang.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Denne Windows-kontoen kan låse opp sikkerhetskopien.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Kontrollerer OneDrive-gjenoppretting…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>OneDrive-gjenoppretting: på</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Gjenopprettingsnøkkelen mangler i OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>OneDrive-gjenoppretting deaktivert lokalt; opprydding i skyen kan være nødvendig</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>OneDrive-gjenoppretting krever oppmerksomhet</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>OneDrive-gjenoppretting er utilgjengelig</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>OneDrive-gjenoppretting: av</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Eksperimentelt. En tilfeldig gjenopprettingsnøkkel lagres i Fluff-Historys appmappe i OneDrive; sikkerhetskopierte filer forblir på sikkerhetskopiplasseringen. Tillatelsen gjelder bare denne appmappen. En annen PC kan kanskje gjenopprette sikkerhetskopien etter pålogging med Microsoft-kontoen. Microsoft merker denne tillatelsen som Preview. Ta vare på gjenopprettingspassordet.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Gjenopprettingspassordet er endret. Oppbevar det nye passordet trygt.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>OneDrive-gjenoppretting er aktivert og bekreftet. Ta vare på gjenopprettingspassordet.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>OneDrive-gjenoppretting er deaktivert. Passord og Windows-tilgang er uendret.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>OneDrive-gjenoppretting er bekreftet.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Gjenoppretting fullført. Denne Windows-kontoen kan nå låse opp sikkerhetskopien.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Gjenopprettingsnøkkelen mangler i OneDrive. Bruk gjenopprettingspassordet.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>OneDrive-gjenopprettingsnøkkelen kunne ikke autentisere denne sikkerhetskopien. Bruk gjenopprettingspassordet.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Endringen kunne ikke bekreftes fullt ut. Kontroller tilgang før du prøver igjen; sikkerhetskopihistorikken er uendret.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Operasjonen ble avbrutt.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Sikkerhetsendringen kunne ikke fullføres. Kontroller tilgang og prøv igjen. Passordgjenoppretting er fortsatt tilgjengelig.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Kryptering av sikkerhetskopi</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Eksisterende innhold i sikkerhetskopien krypteres på stedet. Sikkerhetskopiering og gjenoppretting blir midlertidig utilgjengelig. Behold gjenopprettingspassordet; Windows-tilgang legges til automatisk. Nok ledig plass kreves, og avbrudd kan gjenopptas.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Sikkerhetskopiens metadata og filinnhold lagres ukryptert på sikkerhetskopiplasseringen. Sikkerhetskopiering og gjenoppretting er midlertidig utilgjengelig under konverteringen. Den kan gjenopptas etter avbrudd.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Slå på kryptering?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Slå av kryptering?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Krypteringsendring fullført.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Noen utrangerte metadata kan forbli ukryptert til oppryddingen lykkes. Oppryddingen prøves igjen.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Noen gamle metadata kunne ikke fjernes ennå; oppryddingen prøves igjen.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Krypteringsendringen er satt på pause. Gjenoppta for å fullføre; allerede konverterte filer beholdes.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Krypteringskonverteringen ble ikke startet.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Mer ledig plass kreves. Frigjør plass og gjenoppta. Ingen historikk ble fjernet.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Mer ledig plass kreves. Frigjør plass og prøv krypteringsendringen igjen. Ingen historikk ble fjernet.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Bruk gjenopprettingspassordet for å fortsette krypteringsendringen.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Krypteringsendringen krever oppmerksomhet. Kontroller tilkoblingen og gjenopprettingspassordet, og gjenoppta. Ikke fjern konverteringsfiler.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Krypteringsendringen kunne ikke starte. Kontroller tilkoblingen og eventuelle hurtigbufferdata, og prøv igjen. Sikkerhetskopihistorikken er uendret.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Behold versjoner for alltid</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Ingen utelatte mapper.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Velg hvor sikkerhetskopiene skal lagres</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Velg en sikkerhetskopiplassering for å fortsette.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Kryptering av denne sikkerhetskopien er satt på pause</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Fjerning av kryptering er satt på pause</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Ulagrede endringer · beholdes når du bytter side</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Konfigurasjonen er oppdatert</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Velg et støttet sikkerhetskopieringsintervall.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Velg en sikkerhetskopiplassering.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Velg en sikkerhetskopiplassering før du lagrer.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Sikkerhetskopiplasseringen er utilgjengelig. Velg Endre for å velge den på nytt eller bruke en annen plassering.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Kontroller valgte mapper og sikkerhetskopiplassering.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Mappen inneholder allerede andre data. Fluff-History konfigurerer ikke en ny sikkerhetskopi der. Velg en tom mappe eller en eksisterende Fluff-History-sikkerhetskopi.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Velg en annen sikkerhetskopiplassering</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Plasseringen er utilgjengelig. Kontroller tilkoblingen eller velg en annen plassering.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Sikkerhetskopiplasseringen er utilgjengelig</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Lagre endringene for å bruke denne sikkerhetskopiplasseringen.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Gjenopprettingspassordet kunne ikke låse opp sikkerhetskopien.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Tilgangen kunne ikke bekreftes fullt ut. Kontroller sikkerhetskopien før du prøver igjen.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Sikkerhetskopiplassering valgt. Velg mapper og lagre endringene.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Velg maksimalt 1 024 mapper.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Allerede sikkerhetskopiert av {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Mappen kunne ikke velges.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Konflikt ved mappevalg</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Sikkerhetskopiere disse mappene?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Sikkerhetskopier likevel</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Mappen er allerede utelatt.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Mappen utelates fra fremtidig sikkerhetskopiering. Eksisterende historikk beholdes.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Nyeste</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Legg til mapper i Konfigurasjon for å begynne. Lagrede mapper vises her.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Mappen har ingen lagrede versjoner ennå. Filene vises etter en vellykket sikkerhetskopiering.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Mappen har ingen lagrede filer på valgt tidspunkt. Prøv et annet tidspunkt eller velg Nyeste.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Tidslinjen er endret. Oppdater for å fortsette.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Tidslinje per: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>4 096 elementer lastet inn. Åpne en mappe for å avgrense visningen.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>1 024 tidspunkter lastet inn. Avgrens mappen eller velg dato og klokkeslett.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>1 024 versjoner lastet inn. Denne forhåndsvisningen begrenser versjonslisten.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Ingen mapper i tidslinjen</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Nyeste gjenværende versjoner</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Den gjeldende vellykkede versjonen er beskyttet og kan ikke slettes.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Velg en fil eller mappe</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Åpne mappen for å se lagrede filer.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Åpne en mappe for å se lagrede filer. Mappene er navigasjonselementer, ikke gjenopprettbare katalogversjoner.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Velg filer eller mapper i visningen for å gjenopprette dem sammen. Velg én fil for å se versjonene.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Mapper viser filer som er lagret i tidslinjen. Mappedatoer og egenskaper lagres ikke separat.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Åpne Konfigurasjon for å konfigurere tidslinjen.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Åpne Konfigurasjon for å fortsette.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Oppdater for å laste inn sikkerhetskopiens tidslinje.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Dette elementet sikkerhetskopieres for øyeblikket ikke av Fluff-History.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Åpne Konfigurasjon eller Oversikt for tilgang til sikkerhetskopien.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Elementet har ingen lagret historikk ennå.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Filen har ingen lagret versjon ennå.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Sikkerhetskopieres ikke nå</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Sikkerhetskopieres ikke nå</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Mappen finnes ikke lenger i tidslinjen.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Dette lokale klokkeslettet finnes ikke på grunn av sommertid. Velg et annet klokkeslett.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Innlasting avbrutt. Ferdig innlastede rader er fortsatt tilgjengelige.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Laster inn tidslinje…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Innlasting avbrutt.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Kan ikke gjenopprette valgte elementer</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Gjenopprette til opprinnelig plassering?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Valgte historiske filer gjenopprettes til sine opprinnelige kildeplasseringer. Windows spør om konflikter med eksisterende filer.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Slette denne lagrede versjonen?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Lagret versjon slettet.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Sletting avbrutt. {0:N0} lagrede versjoner ble slettet før avbruddet; bekreftede slettinger forblir fullført.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Sletting krever oppmerksomhet. Noen endringer eller opprydding av innhold kan være ubekreftet. Kontroller sikkerhetskopien før du prøver igjen.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Handlingen kunne ikke fullføres. Kontroller konfigurasjonen og prøv igjen.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Krypteringsendring pågår</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Bakgrunnsagenten er utilgjengelig</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Konfigurer Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Sikkerhetskopiering pågår</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Sikkerhetskopien krever oppmerksomhet</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Velg en sikkerhetskopiplassering og mappene som skal sikkerhetskopieres.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Automatisk sikkerhetskopiering er aktivert</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Automatisk sikkerhetskopiering er deaktivert</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Kontrollerer vilkår for sikkerhetskopiering…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Åpner sikkerhetskopi…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Skanner og sikkerhetskopierer filer…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Bruker oppbevaringspolicy…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Kontrollerer metadata…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Kompakterer metadata…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Rydder metadata…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Komprimerer metadata…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Krypterer…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Dekrypterer…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Fullfører sikkerhetskopiering…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Avbrudd forespurt</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Ikke-tilordnet mappe</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Viser {0:N0} av {1:N0} problemer registrert i denne økten.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>Sikkerhetskopihistorikken er midlertidig utilgjengelig. Gjenoppta krypteringsendringen i Konfigurasjon.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Sikkerhetskopien finnes, men Windows-brukeren har ikke tilgang. Gjenopprettingspassordet kan gjenopprette tilgangen.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Sikkerhetskopieringen er fullført, men tidslinjevedlikehold krever oppmerksomhet. Se Diagnostikk før du prøver opprydding igjen.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Noen endringer kunne ikke bekreftes. Kontroller sikkerhetskopiplasseringen før du fortsetter.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Sikkerhetskopiplasseringen trenger mer ledig plass før sikkerhetskopieringen kan fortsette.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Noen filer eller mapper ble hoppet over. Utvid Problemer med filer eller mapper nedenfor for stier og årsaker. Andre vellykkede versjoner er lagret.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Legg til mapper i Konfigurasjon for å begynne sikkerhetskopiering.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Ingen endringer å sikkerhetskopiere.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>mindre enn ett sekund</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} og {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Gjenoppretting kreves. Bruk gjenopprettingspassordet for å gi Windows-brukeren tilgang.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Fullfør krypteringsendringen i Konfigurasjon før du bruker sikkerhetskopihistorikken.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Tidslinjen er endret. Oppdater for å fortsette å bla og gjenopprette.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Sikkerhetskopiplasseringen er ugyldig eller skadet. Kontroller valgt plassering.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Sikkerhetskopiering eller opprydding pågår allerede. Vent til den er ferdig og prøv igjen.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Dette utvalget kan ikke brukes her. Velg elementer fra gjeldende mappe og tidspunkt.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>De valgte historiske elementene inneholder en fil og en mappe med samme sti og kan ikke gjenopprettes sammen.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Operasjonen ble avbrutt. Fullførte filoperasjoner forblir fullført.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Sikkerhetskopiplasseringen eller målet er utilgjengelig. Kontroller plassering og tilkobling og prøv igjen.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Ugyldig sikkerhetskopiplassering</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Sikkerhetskopiering fullført</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Sikkerhetskopiering fullført med mappe- eller filproblemer</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Sikkerhetskopiering avbrutt</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Sikkerhetskopiering på pause: for lite plass</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Sikkerhetskopiering utsatt</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Sikkerhetskopien krever oppmerksomhet</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Ingen sikkerhetskopiering er kjørt i denne programøkten.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Venter på ekstern strøm.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows kunne ikke fastslå strømstatus.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Venter på en ikke-forbruksmålt tilkobling.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows melder om manglende nettverk for en sikkerhetskopi på nettverkssti.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Lys</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Mørk</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} brukt av {1} · {2} ledig</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Kontrollerer diskplass…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Informasjon om diskplass er utilgjengelig.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Beregner sikkerhetskopiens størrelse…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Sikkerhetskopien brukte {0} ved siste kontroll</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Sikkerhetskopien bruker {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Sikkerhetskopiens størrelse er utilgjengelig</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Velg hva som skal fjernes for å se en forhåndsvisning. Ingenting fjernes før du bekrefter.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Kontrollerer lagrede versjoner…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Tidslinjen er endret. Velg hva som skal fjernes på nytt.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Dette ville frigjøre omtrent {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Ingenting å fjerne for dette utvalget.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Se gjennom forhåndsvisningen før du fjerner versjoner.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Forhåndsvisning avbrutt. Ingenting ble fjernet.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Ufullstendig forhåndsvisning: arbeidsgrensen er nådd. Opprydding kan ikke kjøres.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Fjerner lagrede versjoner…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Tidslinjen er endret etter forhåndsvisningen. Lag en ny forhåndsvisning før du fjerner versjoner.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Noe lagret innhold kunne ikke fjernes ennå.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Opprydding fullført. Oppdater tidslinjen for å se gjenværende versjoner.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Oppryddingen ble avbrutt. Bekreftede fjerninger forblir fullført. Oppdater tidslinjen.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Opprydding krever oppmerksomhet. Noen endringer kan være ubekreftet; kontroller sikkerhetskopien før du prøver igjen. Oppdater tidslinjen.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Beholder den nyeste gjenværende versjonen på hver sti, også for filer som ikke lenger sikkerhetskopieres. Gjeldende versjoner forblir beskyttet.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Gjeldende versjoner forblir beskyttet. Filer som bare finnes i tidslinjen kan forsvinne helt hvis alle versjonene er eldre enn denne alderen.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Anslått plass; faktisk ledig plass kan variere.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} byte</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} eksisterende mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} eksisterende mappe</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} eksisterende mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} eksisterende mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} eksisterende mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} eksisterende mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} filproblemer</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} filproblem</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} filproblemer</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} filproblemer</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} filproblemer</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} filproblemer</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} filer</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} fil</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} filer</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} filer</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} filer</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} filer</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} filversjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} filversjon</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} filversjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} filversjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} filversjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} filversjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} mappe</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} mapper</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} timer</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} time</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} timer</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} timer</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} timer</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} timer</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} elementer</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} element</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} elementer</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} elementer</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} elementer</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} elementer</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} minutter</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} minutt</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} minutter</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} minutter</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} minutter</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} minutter</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} nye versjoner lagret</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} ny versjon lagret</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} nye versjoner lagret</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} nye versjoner lagret</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} nye versjoner lagret</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} nye versjoner lagret</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} lagrede versjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} lagret versjon</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} lagrede versjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} lagrede versjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} lagrede versjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} lagrede versjoner</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} sekunder</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} sekund</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} sekunder</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} sekunder</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} sekunder</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} sekunder</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, Mappe</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, Fil, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Lagret {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} valgt</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} elementer valgt</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Lagret: {1:f}
+
+Dette fjerner bare denne lagrede versjonen permanent. Kildefilen og andre lagrede versjoner beholdes. Dette kan ikke angres.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} mapper i tidslinjen</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>{0} lagt til · {1} aktivert igjen · {2} allerede valgt</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} ikke lagt til</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>{0} fjernet ({1} lagret innhold).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Fjerne {0} fra {1} permanent? Kildefiler og gjeldende versjoner beholdes. Dette kan ikke angres.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} valgt for sikkerhetskopiering</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Sist sikkerhetskopiert {0:f}; tok {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Siste sikkerhetskopieringsforsøk {0:f}; tok {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Lagret {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Fil endret {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Lagret: {2:G}
+Fil endret: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Tidslinje per {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Tidslinje</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Hvert 10. minutt</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Hvert 30. minutt</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Hver time</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Hver 3. time</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Hver 6. time</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Hver 12. time</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Hver dag</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Til plassgrensen nås</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 måned</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 måneder</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 måneder</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 måneder</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 år</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 år</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>For alltid</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Versjoner eldre enn denne alderen kan fjernes etter en vellykket sikkerhetskopiering. Gjeldende versjoner forblir beskyttet.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Versjoner beholdes til sikkerhetskopivolumet når sin trygge kapasitetsgrense. Når en sikkerhetskopi trenger plass, fjernes de eldste kvalifiserte versjonene automatisk. Gjeldende versjoner forblir beskyttet.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Oppbevaringspolicyen «For alltid» fjerner aldri tidslinjehistorikk automatisk. Versjoner legges til til sikkerhetskopivolumet ikke trygt kan ta imot en ny sikkerhetskopi. Du må da frigjøre plass eller rydde tidslinjen manuelt.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Eldre enn 1 måned</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Eldre enn 3 måneder</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Eldre enn 6 måneder</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Eldre enn 9 måneder</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Eldre enn 1 år</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Eldre enn 2 år</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Behold bare den nyeste versjonen</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData inneholder programtilstand, hurtigbuffere, databaser og midlertidige filer. Dette kan endres ofte og få tidslinjen til å vokse raskt. Gjenoppretting av filene erstatter ikke ny installasjon eller riktig gjenoppretting av et program.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Systemfiler og filer for installerte programmer er store og endres ofte. Fluff-History er ikke en systemavbildningskopi. Gjenoppretting av bare filene reparerer kanskje ikke Windows eller et installert program.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData kan inneholde delt programtilstand, hurtigbuffere og databaser som endres ofte. Dette kan skape store mengder tidslinjedata.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Plasseringen inneholder hovedsakelig midlertidige filer eller installasjonsfiler og kan skape mange kortvarige endringer i tidslinjen.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Plasseringen inneholder systemmetadata eller arbeidsfiler for Fluff-History og kan ikke sikkerhetskopieres.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Kontrollerer sikkerhetskopikonfigurasjon…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Programinnstillingene krever oppmerksomhet. Tilbakestill konfigurasjonen uttrykkelig; sikkerhetskopidata forblir urørt.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Den lagrede sikkerhetskopikonfigurasjonen er utilgjengelig eller ugyldig. Kontroller Konfigurasjon før du fortsetter.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows kunne ikke validere sikkerhetskopiplasseringen eller programmets midlertidige arbeidsdata. Kontroller tilgang og ledig plass og prøv igjen.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>En mappe valgt for sikkerhetskopiering kan ikke også utelates. Fjern mappen fra sikkerhetskopieringen eller endre utelatelsen.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Velg maksimalt 256 utelatte mapper med maksimalt 256 KiB mappestier.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Kilden støtter maksimalt 256 effektive mappeutelatelser og 256 KiB konfigurasjon. Velg færre eller kortere utelatelser.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>En mappe kan bare velges én gang.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Valgte undermapper må utelates fra den overordnede mappen.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Velg en absolutt mappesti.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Velg en vanlig stasjons- eller nettverksmappe.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Velg en fullstendig sti til en nettverksressurs.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Mappestien er tvetydig eller går utenfor roten. Velg en vanlig absolutt mappesti.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>En mappe inne i sikkerhetskopiplasseringen eller som inneholder plasseringen kan ikke sikkerhetskopieres.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Bekreft advarselen før du legger til mappen.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Dette peker til en Windows-systemmappe eller programdatamappe. Velg den faktiske plasseringen og bekreft advarselen først.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Mappene peker til overlappende Windows-plasseringer. Velg hver plassering én gang.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Mappen peker til midlertidige arbeidsdata for Fluff-History og kan ikke sikkerhetskopieres.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Skrivebord</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Dokumenter</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Nedlastinger</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Musikk</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Videoer</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Fil- eller mappenavnet støttes ikke.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Tvetydig alias for store og små bokstaver.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Grense, reanalyseringspunkt eller EFS-grense støttes ikke.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Filen støttes ikke eller er for stor.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Kilden ble endret under kopiering.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Kan ikke få tilgang til filen eller mappen.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Kan ikke få tilgang til filen eller mappen (Windows-feil {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Kilderoten eller en overordnet mappe er ikke en vanlig katalog.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Kataloggrensen støttes ikke.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Kontrollerer plass</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Krypterer filer</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Dekrypterer filer</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Bygger metadata på nytt</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Fullfører sikkerhetskopi</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Filen eller mappen er i bruk av et annet program.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Tilgang til filen eller mappen ble nektet.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Filen eller mappen ble ikke funnet under skanningen.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Konfigurasjon lagret</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Mappeendringer lagret. Oppdaterte mapper tas med i neste planlagte sikkerhetskopiering.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Mappeendringer lagret. Oppdaterte mapper tas med i neste sikkerhetskopiering.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Sikkerhetskopiering forespurt</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Sikkerhetskopiering pågår eller fullføres allerede.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Konfigurer en tilgjengelig sikkerhetskopiplassering og mapper i Konfigurasjon.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Gjenopprett tidligere versjon…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Laster inn historikk...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Sikkerhetskopiert</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Sikkerhetskopieres ikke nå</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Sikkerhetskopieres ikke av Fluff-History</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Gjenoppretting kreves</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Sikkerhetskopien er utilgjengelig</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Historikkøkten er utløpt</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Sikkerhetskopien er utilgjengelig. Åpne Fluff-History eller oppdater.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Historikkøkten er utløpt. Oppdater for å fortsette.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Sikkerhetskopiplassering: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Se mappehistorikk</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Åpne Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Se alle versjoner</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Mapper settes sammen fra lagrede filversjoner.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Gjenoppretting endrer den aktive filen. Lagret historikk beholdes.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History er utilgjengelig. Installer forhåndsversjonen for utviklere og prøv igjen.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Gjenopprette den lagrede versjonen til opprinnelig plassering? Windows spør om konflikter med eksisterende filer. Lagret historikk beholdes.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Gjenopprette lagret versjon?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Gjenoppretter valgt versjon...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Sikkerhetskopien er utilgjengelig. Åpne Fluff-History for å fortsette.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Gjenopprett</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>Mappehistorikk settes sammen fra lagrede filversjoner.
+Nylige tidspunkter i tidslinjen:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Ingen lagrede filversjoner ennå.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Endret {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Ingen lagret versjon av filen. Åpne Tidslinje eller Konfigurasjon for å fortsette.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Nyeste lagrede versjon: {0:f}
+Beholdte versjoner: {1:N0}
+Eldste beholdte versjon: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Nyeste lagrede versjon: {0:f}
+Beholdte versjoner: {1:N0}+; åpne Tidslinje for full historikk
+Eldste beholdte versjon: åpne Tidslinje for full historikk</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Sikkerhetskopieres ikke av Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Gjenoppretting kreves. Åpne Fluff-History for å gjenopprette tilgang.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Sikkerhetskopien er utilgjengelig. Åpne Fluff-History eller prøv igjen.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Gjenoppretting krever oppmerksomhet. Kontroller målet før du prøver igjen.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Gjenoppretting avbrutt. Fullførte filoperasjoner forblir fullført.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Filen er gjenopprettet. Lagret historikk er uendret.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Ingen fil ble gjenopprettet. Kontroller målet.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Historikken er endret. Oppdater før du gjenoppretter.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Gjenoppretting er utilgjengelig. Åpne Fluff-History for å fortsette.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Gjenoppretting avbrutt. Kontroller målet.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>nb-NO</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Snarveier:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Opprett en snarvei på &amp;skrivebordet</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Opprett en snarvei i Start&amp;menyen</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History krever sin faste installasjonsmappe per bruker.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>En installasjon eller programstart pågår. Vent litt og prøv igjen.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History kunne ikke forberede oppdateringen. Lukk aktive filoperasjoner og Egenskaper-sider og prøv igjen. Sikkerhetskopilageret er uendret.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History kunne ikke fullføre installasjonen. Programtilstanden er beholdt for et nytt forsøk; sikkerhetskopilageret er uendret.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Installasjonen krever oppmerksomhet</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History kunne ikke fullføre installasjonen. Programinnstillingene og sikkerhetskopilageret er bevart. Kjør installasjonen igjen for å prøve på nytt.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Lukk Fluff-History, aktive filoperasjoner og Egenskaper-sider før avinstallasjon. Ingenting ble tvangsstoppet.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Diagnostikk kopiert. Se gjennom mappestier før deling.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Språk</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Programspråk</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Bruk Windows-språket</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Endringene tas i bruk umiddelbart. Datoer og tall bruker de regionale innstillingene dine.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Reparer OneDrive-gjenoppretting</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Deaktiver lokalt…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Eldre gjenoppretting må oppgraderes til OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Eksperimentell OneDrive-gjenoppretting er ikke konfigurert i denne versjonen.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Logg på Microsoft for å bruke OneDrive-gjenoppretting.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Microsoft-pålogging eller samtykke ble avslått. Gjenoppretting med passord er fortsatt tilgjengelig.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Den nødvendige tillatelsen til OneDrive-appmappen er utilgjengelig. Gjenoppretting med passord er fortsatt tilgjengelig.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>OneDrive-gjenoppretting krever internettilkobling. Passord og lokal Windows-tilgang er fortsatt tilgjengelig.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>OneDrive-gjenoppretting kunne ikke bekreftes nå. Prøv igjen senere eller bruk gjenopprettingspassordet.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive er opptatt. Prøv igjen senere.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive er utilgjengelig eller ikke konfigurert for denne Microsoft-kontoen. Bruk gjenopprettingspassordet.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>OneDrive-gjenopprettingsnøkkelen er endret eller ugyldig. Bruk gjenopprettingspassordet eller reparer gjenopprettingen på en PC som kan låse opp denne sikkerhetskopien.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Opprydding i OneDrive kan fortsatt være nødvendig. Bare gjenopprettingsnøkkelen berøres; passord og Windows-tilgang er uendret.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Opprydding i OneDrive kan fortsatt være nødvendig. Gjenopprettingsfil: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>OneDrive-gjenoppretting fungerer, men den gamle Windows-gjenopprettingslegitimasjonen kunne ikke fjernes helt.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Deaktivere OneDrive-gjenoppretting lokalt?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Dette fjerner sikkerhetskopiens OneDrive-gjenopprettingskobling uten å slette gjenopprettingsfilen i skyen. Du må kanskje fjerne filen manuelt fra OneDrive. Passord og Windows-tilgang er uendret.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>OneDrive-gjenoppretting er deaktivert lokalt.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Reparere OneDrive-gjenoppretting?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Opprett og bekreft en ny gjenopprettingsnøkkel før den gamle tas ut av bruk. Endrede skyfiler beholdes.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Oppdateringer</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Oppdateringskanal</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Se etter automatisk</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Stabil</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Aldri</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Daglig</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Ukentlig</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Månedlig</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Se etter nå</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Gjeldende versjon: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Sist kontrollert: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Upublisert utviklingsversjon</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>{0} ({1}) er tilgjengelig: {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Last ned og installer</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Vis versjonsnotater</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Oppdatert</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Ser etter oppdateringer…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Laster ned oppdatering… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Kontrollerer oppdatering…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Klar til installasjon</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Venter på at sikkerhetskopieringen eller annet aktivt arbeid blir ferdig.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Installerer oppdatering…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Kunne ikke kontakte GitHub. Prøv igjen senere.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub begrenser forespørslene. Prøv igjen senere.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Ingen installerbar versjon er tilgjengelig.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Kontrollen av installasjonsprogrammet mislyktes. Oppdateringen ble ikke installert.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Automatisk installasjon blir tilgjengelig etter at utgivelsens signatar er godkjent.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Oppdateringen kunne ikke installeres. Prøv igjen senere.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Oppdateringen ble installert, men vinduet kunne ikke åpnes igjen.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Denne upubliserte versjonen kan ikke installere offentlige oppdateringer.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Automatisk søk etter oppdateringer er deaktivert.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Automatiske kontroller kontakter GitHub. Ingen sikkerhetskopi- eller kontodetaljer sendes.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>En sikkerhetskopiering pågår. Stoppe den og installere oppdateringen?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Stopp sikkerhetskopi og installer</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Ikke kontrollert ennå</value></data>
+</root>

@@ -1,0 +1,226 @@
+{
+    "de-DE":  {
+                  "Overview_TextBlock_Status.Text":  "Status is the standard German Windows term.",
+                  "Appearance_System":  "System is the standard German appearance option.",
+                  "Folder_Desktop":  "Desktop is the German Windows known-folder name.",
+                  "Folder_Downloads":  "Downloads is the German Windows known-folder name.",
+                  "Folder_Videos":  "Videos is the German Windows known-folder name.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Title":  "Reviewed de-DE update terminology: this short localized label has the same spelling as English.",
+                  "Update_Beta":  "Reviewed de-DE update terminology: this short localized label has the same spelling as English."
+              },
+    "fr-FR":  {
+                  "Navigation_Configuration.Content":  "Configuration is also the French term.",
+                  "Configuration_TextBlock_PageTitle.Text":  "Configuration is also the French page title.",
+                  "Overview_HyperlinkButton_Setup.Content":  "Configuration is also the French navigation label.",
+                  "History_CalendarDatePicker_AsOfDate.Header":  "Date is also the French term.",
+                  "History_AppBarButton_Parent.Label":  "Parent is also the French navigation term.",
+                  "Count_Minutes_Zero":  "The French plural minutes has the same spelling as English.",
+                  "Count_Minutes_One":  "The French singular minute has the same spelling as English.",
+                  "Count_Minutes_Two":  "The French plural minutes has the same spelling as English.",
+                  "Count_Minutes_Few":  "The French plural minutes has the same spelling as English.",
+                  "Count_Minutes_Many":  "The French plural minutes has the same spelling as English.",
+                  "Count_Minutes_Other":  "The French plural minutes has the same spelling as English.",
+                  "Folder_Documents":  "Documents is the French Windows known-folder name.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Stable":  "Reviewed fr-FR update terminology: this short localized label has the same spelling as English."
+              },
+    "es-ES":  {
+                  "Count_Bytes_Zero":  "Spanish Windows also uses the standard unit bytes.",
+                  "Count_Bytes_One":  "Spanish Windows also uses the standard unit byte.",
+                  "Count_Bytes_Two":  "Spanish Windows also uses the standard unit bytes.",
+                  "Count_Bytes_Few":  "Spanish Windows also uses the standard unit bytes.",
+                  "Count_Bytes_Many":  "Spanish Windows also uses the standard unit bytes.",
+                  "Count_Bytes_Other":  "Spanish Windows also uses the standard unit bytes.",
+                  "Update_Beta":  "Reviewed es-ES update terminology: this short localized label has the same spelling as English."
+              },
+    "it-IT":  {
+                  "Count_Bytes_One":  "Italian Windows also uses the standard unit byte.",
+                  "Count_Files_One":  "File is also the Italian Windows noun.",
+                  "History_FileAccessible":  "File is also the Italian Windows noun; the other fields are data placeholders.",
+                  "Folder_Desktop":  "Desktop is the Italian Windows known-folder name.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed it-IT update terminology: this short localized label has the same spelling as English."
+              },
+    "pt-BR":  {
+                  "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
+                  "Count_Bytes_Zero":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Two":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Few":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Many":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Other":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Items_One":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Folder_Downloads":  "Downloads is also the localized Windows known-folder name.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed pt-BR update terminology: this short localized label has the same spelling as English."
+              },
+    "pt-PT":  {
+                  "Count_Bytes_Zero":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Two":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Few":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Many":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Other":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Items_One":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed pt-PT update terminology: this short localized label has the same spelling as English."
+              },
+    "nl-NL":  {
+                  "History_AppBarButton_Newer.Label":  "Later is also the Dutch navigation label for a later time.",
+                  "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
+                  "Count_Bytes_Zero":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Two":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Few":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Many":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Bytes_Other":  "The standard byte unit has the same spelling in this locale.",
+                  "Count_Items_Zero":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Count_Items_One":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Count_Items_Two":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Count_Items_Few":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Count_Items_Many":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Count_Items_Other":  "Item/items are also the standard Dutch nouns; Portuguese uses item in the singular.",
+                  "Folder_Downloads":  "Downloads is also the localized Windows known-folder name.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Title":  "Reviewed nl-NL update terminology: this short localized label has the same spelling as English."
+              },
+    "sv-SE":  {
+                  "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
+                  "Appearance_System":  "System is also the localized appearance option.",
+                  "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed sv-SE update terminology: this short localized label has the same spelling as English."
+              },
+    "nb-NO":  {
+                  "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
+                  "Appearance_System":  "System is also the localized appearance option.",
+                  "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed nb-NO update terminology: this short localized label has the same spelling as English."
+              },
+    "da-DK":  {
+                  "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
+                  "Appearance_System":  "System is also the localized appearance option.",
+                  "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed da-DK update terminology: this short localized label has the same spelling as English."
+              },
+    "pl-PL":  {
+                  "History_Folder":  "Folder is also the Polish Windows noun.",
+                  "Appearance_System":  "System is also the localized appearance option.",
+                  "Count_Folders_One":  "Folder is also the Polish noun in this singular count.",
+                  "History_FolderAccessible":  "Folder is also the Polish Windows noun; the other field is a data placeholder.",
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed pl-PL update terminology: this short localized label has the same spelling as English."
+              },
+    "cs-CZ":  {
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed cs-CZ update terminology: this short localized label has the same spelling as English."
+              },
+    "sk-SK":  {
+                  "Action_OK":  "OK is the standard Windows confirmation label.",
+                  "Update_Beta":  "Reviewed sk-SK update terminology: this short localized label has the same spelling as English."
+              },
+    "bg-BG":  {
+                  "Action_OK":  "OK is the standard Windows confirmation label."
+              },
+    "ca-ES":  {
+                  "Count_Bytes_Zero":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Two":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Few":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Many":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Other":  "The standard byte unit is also used in this locale.",
+                  "Folder_Documents":  "Documents is also the Catalan Windows known-folder name.",
+                  "Update_Beta":  "Reviewed ca-ES update terminology: this short localized label has the same spelling as English."
+              },
+    "el-GR":  {
+                  "Count_Bytes_Zero":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Two":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Few":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Many":  "The standard byte unit is also used in this locale.",
+                  "Count_Bytes_Other":  "The standard byte unit is also used in this locale.",
+                  "Action_OK":  "OK is the standard confirmation label in this locale."
+              },
+    "et-EE":  {
+                  "Action_OK":  "OK is the standard confirmation label in this locale."
+              },
+    "fi-FI":  {
+                  "Action_OK":  "OK is the standard confirmation label in this locale."
+              },
+    "fil-PH":  {
+                   "History_Folder":  "Folder is also the standard localized Windows noun.",
+                   "Count_Bytes_Zero":  "The standard byte unit is also used in this locale.",
+                   "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
+                   "Count_Bytes_Two":  "The standard byte unit is also used in this locale.",
+                   "Count_Bytes_Few":  "The standard byte unit is also used in this locale.",
+                   "Count_Bytes_Many":  "The standard byte unit is also used in this locale.",
+                   "Count_Bytes_Other":  "The standard byte unit is also used in this locale.",
+                   "Count_Files_One":  "File is also the Filipino noun after a numeric count.",
+                   "Count_Folders_One":  "Folder is also the localized noun after a numeric count.",
+                   "Count_Items_One":  "Item is also the localized noun after a numeric count.",
+                   "History_FolderAccessible":  "Folder is also the localized noun; the other field is data.",
+                   "History_FileAccessible":  "File is also the Filipino Windows noun; the other fields are data.",
+                   "Folder_Desktop":  "Desktop is also the localized Windows known-folder label.",
+                   "Action_OK":  "OK is the standard confirmation label in this locale.",
+                   "Update_Beta":  "Reviewed fil-PH update terminology: this short localized label has the same spelling as English."
+               },
+    "hu-HU":  {
+                  "Action_OK":  "OK is the standard confirmation label in this locale."
+              },
+    "id-ID":  {
+                  "Overview_TextBlock_Status.Text":  "Status is also the standard localized heading.",
+                  "History_Folder":  "Folder is also the standard localized Windows noun.",
+                  "Count_Folders_One":  "Folder is also the localized noun after a numeric count.",
+                  "Count_Items_One":  "Item is also the localized noun after a numeric count.",
+                  "History_FolderAccessible":  "Folder is also the localized noun; the other field is data.",
+                  "Folder_Desktop":  "Desktop is also the localized Windows known-folder label.",
+                  "Action_OK":  "OK is the standard confirmation label in this locale.",
+                  "Update_Beta":  "Reviewed id-ID update terminology: this short localized label has the same spelling as English."
+              },
+    "ja-JP":  {
+                  "Action_OK":  "OK is the standard confirmation label in this locale."
+              },
+    "ms-MY":  {
+                  "Overview_TextBlock_Status.Text":  "Status is also the standard localized heading.",
+                  "History_Folder":  "Folder is also the standard localized Windows noun.",
+                  "Count_Folders_One":  "Folder is also the localized noun after a numeric count.",
+                  "Count_Items_One":  "Item is also the localized noun after a numeric count.",
+                  "History_FolderAccessible":  "Folder is also the localized noun; the other field is data.",
+                  "Folder_Desktop":  "Desktop is also the localized Windows known-folder label.",
+                  "Action_OK":  "OK is the standard confirmation label in this locale.",
+                  "Update_Beta":  "Reviewed ms-MY update terminology: this short localized label has the same spelling as English."
+              },
+    "ro-RO":  {
+                  "History_Folder":  "Folder is also the standard localized Windows noun.",
+                  "Count_Folders_One":  "Folder is also the localized noun after a numeric count.",
+                  "Folder_Desktop":  "Desktop is also the localized Windows known-folder label.",
+                  "Action_OK":  "OK is the standard confirmation label in this locale.",
+                  "Update_Beta":  "Reviewed ro-RO update terminology: this short localized label has the same spelling as English."
+              },
+    "vi-VN":  {
+                  "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
+                  "Action_OK":  "OK is the standard confirmation label in this locale.",
+                  "Update_Beta":  "Reviewed vi-VN update terminology: this short localized label has the same spelling as English."
+              },
+    "lv-LV":  {
+                  "Update_Beta":  "Reviewed lv-LV update terminology: this short localized label has the same spelling as English."
+              },
+    "lt-LT":  {
+                  "Update_Beta":  "Reviewed lt-LT update terminology: this short localized label has the same spelling as English."
+              },
+    "sl-SI":  {
+                  "Update_Beta":  "Reviewed sl-SI update terminology: this short localized label has the same spelling as English."
+              },
+    "hr-HR":  {
+                  "Update_Beta":  "Reviewed hr-HR update terminology: this short localized label has the same spelling as English."
+              },
+    "tr-TR":  {
+                  "Update_Beta":  "Reviewed tr-TR update terminology: this short localized label has the same spelling as English."
+              },
+    "sr-Latn-RS":  {
+                       "Update_Beta":  "Reviewed sr-Latn-RS update terminology: this short localized label has the same spelling as English."
+                   }
+}

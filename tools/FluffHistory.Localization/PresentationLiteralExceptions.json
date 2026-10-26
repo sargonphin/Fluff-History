@@ -1,0 +1,560 @@
+[
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "Assets",
+        "Reason":  "Installed artwork path component."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "Square44x44Logo.scale-400.png",
+        "Reason":  "Installed artwork path component."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "FluffHistory.ico",
+        "Reason":  "Installed artwork path component."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "Overview",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "History",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "Configuration",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "Diagnostics",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "MainWindow",
+        "Value":  "Settings",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "SetForegroundWindow",
+        "Value":  "user32.dll",
+        "Reason":  "Native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "RouteActivationAsync",
+        "Value":  "History",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "NavigateChanged",
+        "Value":  "History",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/MainWindow.xaml.cs",
+        "Member":  "NavigateChanged",
+        "Value":  "Settings",
+        "Reason":  "Stable internal navigation route, not its displayed resource label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Program.cs",
+        "Member":  "Main",
+        "Value":  "--shell-broker",
+        "Reason":  "Stable activation/IPC/AppInstance identity or native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Program.cs",
+        "Member":  "Main",
+        "Value":  "FluffHistory.ShellBroker.",
+        "Reason":  "Stable activation/IPC/AppInstance identity or native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Program.cs",
+        "Member":  "Main",
+        "Value":  "FluffHistory.UI",
+        "Reason":  "Stable activation/IPC/AppInstance identity or native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Program.cs",
+        "Member":  "Main",
+        "Value":  "--shell-request",
+        "Reason":  "Stable activation/IPC/AppInstance identity or native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Program.cs",
+        "Member":  "Parse",
+        "Value":  "--shell-request",
+        "Reason":  "Stable activation/IPC/AppInstance identity or native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Program.cs",
+        "Member":  "AllowSetForegroundWindow",
+        "Value":  "user32.dll",
+        "Reason":  "Stable activation/IPC/AppInstance identity or native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Program.cs",
+        "Member":  "CoWaitForMultipleHandles",
+        "Value":  "ole32.dll",
+        "Reason":  "Stable activation/IPC/AppInstance identity or native P/Invoke library name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DesktopLifetime.cs",
+        "Member":  "CurrentPage",
+        "Value":  "Overview",
+        "Reason":  "Stable internal page route."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DesktopLifetime.cs",
+        "Member":  "BrowserActivity",
+        "Value":  "Closed",
+        "Reason":  "Developer-only browser activity diagnostic, not a normal status label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DesktopLifetime.cs",
+        "Member":  "WithBrowserAsync",
+        "Value":  "Captured ",
+        "Reason":  "Developer-only browser activity diagnostic, not a normal status label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DesktopLifetime.cs",
+        "Member":  "RetireOwnersAsync",
+        "Value":  "Closed",
+        "Reason":  "Developer-only browser activity diagnostic, not a normal status label."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DestructiveDialog.cs",
+        "Member":  "Create",
+        "Value":  "AccentButtonStyle",
+        "Reason":  "WinUI system theme resource key; system accent/destructive button styling."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DestructiveDialog.cs",
+        "Member":  "Create",
+        "Value":  "AccentButtonBackground",
+        "Reason":  "WinUI system theme resource key; system accent/destructive button styling."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DestructiveDialog.cs",
+        "Member":  "Create",
+        "Value":  "AccentButtonBackgroundPointerOver",
+        "Reason":  "WinUI system theme resource key; system accent/destructive button styling."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DestructiveDialog.cs",
+        "Member":  "Create",
+        "Value":  "AccentButtonBackgroundPressed",
+        "Reason":  "WinUI system theme resource key; system accent/destructive button styling."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DestructiveDialog.cs",
+        "Member":  "Create",
+        "Value":  "AccentButtonForeground",
+        "Reason":  "WinUI system theme resource key; system accent/destructive button styling."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DestructiveDialog.cs",
+        "Member":  "Create",
+        "Value":  "AccentButtonForegroundPointerOver",
+        "Reason":  "WinUI system theme resource key; system accent/destructive button styling."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DestructiveDialog.cs",
+        "Member":  "Create",
+        "Value":  "AccentButtonForegroundPressed",
+        "Reason":  "WinUI system theme resource key; system accent/destructive button styling."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/FolderIconConverter.cs",
+        "Member":  "SourceAsync",
+        "Value":  "section:",
+        "Reason":  "Internal native-icon cache key prefix, not displayed text."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/FolderIconConverter.cs",
+        "Member":  "SourceAsync",
+        "Value":  "known:",
+        "Reason":  "Internal native-icon cache key prefix, not displayed text."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/FolderIconConverter.cs",
+        "Member":  "SourceAsync",
+        "Value":  "file:",
+        "Reason":  "Internal native-icon cache key prefix, not displayed text."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/MrtAppStrings.cs",
+        "Member":  "MrtAppStrings",
+        "Value":  "FluffHistory.Desktop.pri",
+        "Reason":  "PRI filename, resource-map name, qualifier or language-marker key."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/MrtAppStrings.cs",
+        "Member":  "MrtAppStrings",
+        "Value":  "Resources",
+        "Reason":  "PRI filename, resource-map name, qualifier or language-marker key."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/MrtAppStrings.cs",
+        "Member":  "MrtAppStrings",
+        "Value":  "Language",
+        "Reason":  "PRI filename, resource-map name, qualifier or language-marker key."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/MrtAppStrings.cs",
+        "Member":  "MrtAppStrings",
+        "Value":  "UILanguage",
+        "Reason":  "PRI filename, resource-map name, qualifier or language-marker key."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/ShellIcon.cs",
+        "Member":  "Changed",
+        "Value":  "section:",
+        "Reason":  "Internal native-icon cache key prefix, not displayed text."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/ConfigurationViewModel.cs",
+        "Member":  "ForeverWarning",
+        "Value":  "forever",
+        "Reason":  "Invariant persisted retention-policy identifier."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/HistoryViewModel.cs",
+        "Member":  "IconKey",
+        "Value":  "known:",
+        "Reason":  "Internal native-icon cache key prefix."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/HistoryViewModel.cs",
+        "Member":  "Label",
+        "Value":  "G",
+        "Reason":  "Standard regional date/time format specifier."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/HistoryViewModel.cs",
+        "Member":  "IconKey",
+        "Value":  "file:",
+        "Reason":  "Internal native-icon cache key prefix."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/HistoryViewModel.cs",
+        "Member":  "Stored",
+        "Value":  "G",
+        "Reason":  "Standard regional date/time format specifier."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/HistoryViewModel.cs",
+        "Member":  "HistoryViewModel",
+        "Value":  "Configuration",
+        "Reason":  "Stable internal page route."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/HistoryViewModel.cs",
+        "Member":  "TimeLabel",
+        "Value":  "G",
+        "Reason":  "Standard regional date/time format specifier."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/HistoryViewModel.cs",
+        "Member":  "InvalidateHistory",
+        "Value":  "Closed",
+        "Reason":  "Developer-only browser activity diagnostic."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Count",
+        "Value":  "Count__",
+        "Reason":  "Generated typed resource-identifier pattern, not displayed text."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "id",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "ja",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "ko",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "ms",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "th",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "vi",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "zh",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "ar",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "ru",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "uk",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "pl",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "hr",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "sr",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "cs",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "sk",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "sl",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "ro",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "lt",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "lv",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "he",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "fil",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "bn",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "fa",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "hi",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "fr",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "pt",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "pt-PT",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "ca",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "it",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/LocalizedCounts.cs",
+        "Member":  "Category",
+        "Value":  "es",
+        "Reason":  "BCP-47 language identifier for the closed integer-cardinal rule set."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/OverviewViewModel.cs",
+        "Member":  "OverviewViewModel",
+        "Value":  "Configuration",
+        "Reason":  "Stable internal page route."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/OverviewViewModel.cs",
+        "Member":  "OverviewViewModel",
+        "Value":  "History",
+        "Reason":  "Stable internal page route."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/PresentationServices.cs",
+        "Member":  "Size",
+        "Value":  "bytes",
+        "Reason":  "Unused zero-index unit sentinel; sub-1000 values use localized Count_Bytes resources."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/PresentationServices.cs",
+        "Member":  "Size",
+        "Value":  "kB",
+        "Reason":  "Invariant SI decimal-size unit abbreviation."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/PresentationServices.cs",
+        "Member":  "Size",
+        "Value":  "MB",
+        "Reason":  "Invariant SI decimal-size unit abbreviation."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/PresentationServices.cs",
+        "Member":  "Size",
+        "Value":  "GB",
+        "Reason":  "Invariant SI decimal-size unit abbreviation."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/PresentationServices.cs",
+        "Member":  "Size",
+        "Value":  "TB",
+        "Reason":  "Invariant SI decimal-size unit abbreviation."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/ShellHistoryText.cs",
+        "Member":  "Folder",
+        "Value":  "f",
+        "Reason":  "Standard regional long-date/time format specifier."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Localize.cs",
+        "Member":  "UidProperty",
+        "Value":  "Uid",
+        "Reason":  "Dependency-property registration name for live resource identifiers."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/MrtAppStrings.cs",
+        "Member":  "PrepareLanguage",
+        "Value":  "Language",
+        "Reason":  "Documented MRT ResourceContext qualifier name."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DesktopLegacyRecoveryCleanup.cs",
+        "Member":  "Find",
+        "Value":  "FluffHistory",
+        "Reason":  "Exact legacy credential name; cleanup-only machine contract."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DesktopLegacyRecoveryCleanup.cs",
+        "Member":  "Find",
+        "Value":  "FluffHistory-Recovery-v1-",
+        "Reason":  "Exact legacy credential resource prefix; cleanup-only machine contract."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/DesktopLegacyRecoveryCleanup.cs",
+        "Member":  "Find",
+        "Value":  "N",
+        "Reason":  "Canonical legacy repository UUID format."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/OneDriveAuthentication.cs",
+        "Member":  "ClientId",
+        "Value":  "9ffb1f5d-107e-4f78-a4e5-b2fed2958562",
+        "Reason":  "Publisher-owned public Entra application identifier; invariant protocol metadata, not display text."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/OneDriveAuthentication.cs",
+        "Member":  "IsConfigured",
+        "Value":  "D",
+        "Reason":  "Canonical public Entra client GUID format."
+    },
+    {
+        "File":  "src/FluffHistory.Desktop/Presentation/Models/SettingsViewModel.cs",
+        "Member":  "LastUpdateCheck",
+        "Value":  "g",
+        "Reason":  "Standard .NET general short-date/time format, using the separate user formatting culture."
+    }
+]

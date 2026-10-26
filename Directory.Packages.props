@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.WindowsAppSDK.WinUI" Version="2.3.9" />
+    <PackageVersion Include="Microsoft.WindowsAppSDK.InteractiveExperiences" Version="2.1.9" />
+    <PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.6584" />
+    <!-- Reviewed authentication set; see installer/RecoveryDependencyApproval.json before updating. -->
+    <PackageVersion Include="Microsoft.Identity.Client" Version="[4.83.3]" />
+    <PackageVersion Include="Microsoft.Identity.Client.Broker" Version="[4.83.3]" />
+    <PackageVersion Include="Microsoft.Identity.Client.NativeInterop" Version="[0.20.4]" />
+    <PackageVersion Include="System.IO.Hashing" Version="10.0.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+  </ItemGroup>
+</Project>

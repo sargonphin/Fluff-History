@@ -1,0 +1,4 @@
+#include <windows.h>
+#pragma code_page(65001)
+#include "Generated/Strings.rc"
+101 ICON "Assets\\history.ico"

@@ -1,0 +1,358 @@
+{
+    "upstream":  "https://github.com/jrsoftware/issrc",
+    "tag":  "is-7_1_0",
+    "commit":  "7d634620f1d1caca6c76e8398da7133153db9e7b",
+    "license":  "InnoSetup-LICENSE.txt",
+    "files":  [
+                  {
+                      "language":  "en-US",
+                      "file":  "Default.isl",
+                      "upstreamPath":  "Files/Default.isl",
+                      "upstreamBlob":  "8770b754f07bd48f82265a3483e72bef13f636db",
+                      "origin":  "distribution",
+                      "textSha256":  "14267C5B21DFEB33E1BC65455F7B59D8443132FEA13F351E251A316B95B0178E"
+                  },
+                  {
+                      "language":  "de-DE",
+                      "file":  "German.isl",
+                      "upstreamPath":  "Files/Languages/German.isl",
+                      "upstreamBlob":  "1ef40dc4637aef1bae1f34181cb37b43ced46496",
+                      "origin":  "distribution",
+                      "textSha256":  "60070E369DCDB15FB1ADBF2638F5A866F2F2AC959E0C0CD953808E20C7BE9AC7"
+                  },
+                  {
+                      "language":  "fr-FR",
+                      "file":  "French.isl",
+                      "upstreamPath":  "Files/Languages/French.isl",
+                      "upstreamBlob":  "38a892317e41dca0eac0a8ee6f74bbb30bad701a",
+                      "origin":  "distribution",
+                      "textSha256":  "2BD504CDEA0A4D5E3CBC6D2026B42223DE7C8D4478B3BB2051D57FCC137A39A3"
+                  },
+                  {
+                      "language":  "es-ES",
+                      "file":  "Spanish.isl",
+                      "upstreamPath":  "Files/Languages/Spanish.isl",
+                      "upstreamBlob":  "53810c28ea460123278ab34ae08d463b6284df09",
+                      "origin":  "distribution",
+                      "textSha256":  "D19BA9D7D21154CB158A351AE806CB5926D74C8371C3832D52C11999E52AE46A"
+                  },
+                  {
+                      "language":  "it-IT",
+                      "file":  "Italian.isl",
+                      "upstreamPath":  "Files/Languages/Italian.isl",
+                      "upstreamBlob":  "75876f99190c2024489b501a27400acf416fcd47",
+                      "origin":  "distribution",
+                      "textSha256":  "8EF6A49DADB5C7F314D88EE922A00FDB6C9F1A9114A5C06576300223BBCBEDF2"
+                  },
+                  {
+                      "language":  "pt-BR",
+                      "file":  "BrazilianPortuguese.isl",
+                      "upstreamPath":  "Files/Languages/BrazilianPortuguese.isl",
+                      "upstreamBlob":  "fc2dcc8558010abde6f142107ad0eae9c54c269b",
+                      "origin":  "distribution",
+                      "textSha256":  "9275A9EA176DC0B8A14EB7C8BE1392212684FD063CC2FE344BB9B5CBFB6FB6DD"
+                  },
+                  {
+                      "language":  "pt-PT",
+                      "file":  "Portuguese.isl",
+                      "upstreamPath":  "Files/Languages/Portuguese.isl",
+                      "upstreamBlob":  "ced88af3f86ae26789ab260e8687cede5599ac91",
+                      "origin":  "distribution",
+                      "textSha256":  "A75B52EF8C69372E454B5A165EFBFB3C20887F50FDD9EF8A77D75EA59A2E6833"
+                  },
+                  {
+                      "language":  "nl-NL",
+                      "file":  "Dutch.isl",
+                      "upstreamPath":  "Files/Languages/Dutch.isl",
+                      "upstreamBlob":  "fb37aca4469d0a721473ffce7d09248abd25c864",
+                      "origin":  "distribution",
+                      "textSha256":  "0A175DB39A3C4678178C9D8CB54E6353711EA9504073B59306B27F4ECC56F6BB"
+                  },
+                  {
+                      "language":  "pl-PL",
+                      "file":  "Polish.isl",
+                      "upstreamPath":  "Files/Languages/Polish.isl",
+                      "upstreamBlob":  "ca7dea89aa2acc83c0c709a36dc67d0542b5cde5",
+                      "origin":  "distribution",
+                      "textSha256":  "FB2C8C4564B5940390102DEBFCECB496B33D26A5F54931AF721447C68989A79C"
+                  },
+                  {
+                      "language":  "cs-CZ",
+                      "file":  "Czech.isl",
+                      "upstreamPath":  "Files/Languages/Czech.isl",
+                      "upstreamBlob":  "a70a37e4aa7c0f304ee88677ddc01152c8659671",
+                      "origin":  "distribution",
+                      "textSha256":  "E8EA05B6ECAC67866D58AFF3B23D9640D6CDCC0445BDE0F6888D9F4C7ED5A764"
+                  },
+                  {
+                      "language":  "sk-SK",
+                      "file":  "Slovak.isl",
+                      "upstreamPath":  "Files/Languages/Slovak.isl",
+                      "upstreamBlob":  "158266a901a9dd0795ee02b81fa128ca844260cd",
+                      "origin":  "distribution",
+                      "textSha256":  "A05596174DEC28B3C9E4479AD0CB0F1207A292A920163D4A48302420424C9C8E"
+                  },
+                  {
+                      "language":  "hu-HU",
+                      "file":  "Hungarian.isl",
+                      "upstreamPath":  "Files/Languages/Hungarian.isl",
+                      "upstreamBlob":  "e5999b238ede026c78cf3a73e2cb367ff9594b37",
+                      "origin":  "distribution",
+                      "textSha256":  "CFE5DCDA67D65A45DD45078AD31D178CEF9DD311794BB72DF9E8527B1FF3105F"
+                  },
+                  {
+                      "language":  "bg-BG",
+                      "file":  "Bulgarian.isl",
+                      "upstreamPath":  "Files/Languages/Bulgarian.isl",
+                      "upstreamBlob":  "a61752a4b47d2d4807b94830d8d1c9fdc7b2b637",
+                      "origin":  "distribution",
+                      "textSha256":  "5BFA2AE4F2850945AA787E65144BE1ACBFC7091ACF3E5EB2F337EE151CAFD068"
+                  },
+                  {
+                      "language":  "sl-SI",
+                      "file":  "Slovenian.isl",
+                      "upstreamPath":  "Files/Languages/Slovenian.isl",
+                      "upstreamBlob":  "c343b069683fd1a22f7f4e583a51dbf2ae118fbd",
+                      "origin":  "distribution",
+                      "textSha256":  "AE55A929AA2DA417E2E58DF09E75F3C600CC50B8D9FC2ADA161A3C5ABD7F9C4D"
+                  },
+                  {
+                      "language":  "tr-TR",
+                      "file":  "Turkish.isl",
+                      "upstreamPath":  "Files/Languages/Turkish.isl",
+                      "upstreamBlob":  "9e6d97b9a834a11346160e02976bdb8e1ef5f86b",
+                      "origin":  "distribution",
+                      "textSha256":  "E0BB5EAA2B5FC00B12232AB402938090EF271B317B6B0AFD1665E328B68DEA86"
+                  },
+                  {
+                      "language":  "ru-RU",
+                      "file":  "Russian.isl",
+                      "upstreamPath":  "Files/Languages/Russian.isl",
+                      "upstreamBlob":  "9669094bba9f046bddf123f8da942fd96ca721f7",
+                      "origin":  "distribution",
+                      "textSha256":  "C6978EFCD666176328210D6CD755D024D9F2A21B89544426EFC3C4A3077A4C70"
+                  },
+                  {
+                      "language":  "uk-UA",
+                      "file":  "Ukrainian.isl",
+                      "upstreamPath":  "Files/Languages/Ukrainian.isl",
+                      "upstreamBlob":  "852d5e8d423f81b1fd27fa10aebe042684067254",
+                      "origin":  "distribution",
+                      "textSha256":  "9CDABDE3F3E7484E478FF2F4A33B5751ED3D5C0CA264D098146C8B9C471DC72C"
+                  },
+                  {
+                      "language":  "sv-SE",
+                      "file":  "Swedish.isl",
+                      "upstreamPath":  "Files/Languages/Swedish.isl",
+                      "upstreamBlob":  "cba17ec020884c1a52d9e73042190a19f86b1890",
+                      "origin":  "distribution",
+                      "textSha256":  "B98915102648B5EC344F1D93CBA936700A8EECC4153DBAB09ABC80C7E1FCE3D9"
+                  },
+                  {
+                      "language":  "nb-NO",
+                      "file":  "Norwegian.isl",
+                      "upstreamPath":  "Files/Languages/Norwegian.isl",
+                      "upstreamBlob":  "577079f769e81c0a5ae49ad45eed5b218a3068ea",
+                      "origin":  "distribution",
+                      "textSha256":  "E268D472C9E0B81A5A76F356B538262E76B2C40A8A0E584662BDD5B5E22F937A"
+                  },
+                  {
+                      "language":  "da-DK",
+                      "file":  "Danish.isl",
+                      "upstreamPath":  "Files/Languages/Danish.isl",
+                      "upstreamBlob":  "14d36c768de26fd2e047de919d8046c8139c88d1",
+                      "origin":  "distribution",
+                      "textSha256":  "31873F3F21342B23D8C20B5F582B364DEF9CB2433819739CFCB64D132F77839D"
+                  },
+                  {
+                      "language":  "fi-FI",
+                      "file":  "Finnish.isl",
+                      "upstreamPath":  "Files/Languages/Finnish.isl",
+                      "upstreamBlob":  "3b26a8a376ea9bd4abd5eca1b4cd09f198328358",
+                      "origin":  "distribution",
+                      "textSha256":  "AD1D0DE60BE2345A8BC76624A549CBEC0A93C3A7DDD476128C6066A529CB0A38"
+                  },
+                  {
+                      "language":  "lt-LT",
+                      "file":  "Lithuanian.isl",
+                      "upstreamPath":  "Files/Languages/Lithuanian.isl",
+                      "upstreamBlob":  "559ca8d72d099ac42b09e59e719dcac01ca300ff",
+                      "origin":  "distribution",
+                      "textSha256":  "626ECEC1614F99F2247E27087CCF3E42C876454507202450353085579B4CCB7F"
+                  },
+                  {
+                      "language":  "ca-ES",
+                      "file":  "Catalan.isl",
+                      "upstreamPath":  "Files/Languages/Catalan.isl",
+                      "upstreamBlob":  "0624be1284d029b8a7bbd8e735783927c84b2510",
+                      "origin":  "distribution",
+                      "textSha256":  "E65725055E62942201232A38BD8178D157BDF08C0206670C5EF2A600B922C5D8"
+                  },
+                  {
+                      "language":  "ar-SA",
+                      "file":  "Arabic.isl",
+                      "upstreamPath":  "Files/Languages/Arabic.isl",
+                      "upstreamBlob":  "6402cc1887343860f92657c8bf092ff951bebdac",
+                      "origin":  "distribution",
+                      "textSha256":  "9BEDC2637DDDF5C9A84361B9D6D55DF8FD8E06446C6098A4656BB6DEE5CE2CC4"
+                  },
+                  {
+                      "language":  "he-IL",
+                      "file":  "Hebrew.isl",
+                      "upstreamPath":  "Files/Languages/Hebrew.isl",
+                      "upstreamBlob":  "f6f64f7c4e8d85615f61be74d8b87601e85a22ec",
+                      "origin":  "distribution",
+                      "textSha256":  "8742937665C92CF11466DF3EE3DD609E0A2C97A53704AA29FB560147990E583B"
+                  },
+                  {
+                      "language":  "zh-Hans",
+                      "file":  "ChineseSimplified.isl",
+                      "upstreamPath":  "Files/Languages/ChineseSimplified.isl",
+                      "upstreamBlob":  "d0d44258f51aa3127fc0d1167a7c8be328a9bdcf",
+                      "origin":  "distribution",
+                      "textSha256":  "BF0751FA176569C6FAA2F6E17ED2734617BEF325D5CC06EAE030FDD0258EE778"
+                  },
+                  {
+                      "language":  "zh-Hant",
+                      "file":  "ChineseTraditional.isl",
+                      "upstreamPath":  "Files/Languages/ChineseTraditional.isl",
+                      "upstreamBlob":  "2976928a652a82d819c46e69a9b91d82639cca51",
+                      "origin":  "distribution",
+                      "textSha256":  "4D00BC8A041A2DA458532A2082A4294A5132729A555574D4E1CFFFD5F1590A26"
+                  },
+                  {
+                      "language":  "ja-JP",
+                      "file":  "Japanese.isl",
+                      "upstreamPath":  "Files/Languages/Japanese.isl",
+                      "upstreamBlob":  "532b14ed4ecba07589d5e2b6f35ecd2cdb662bed",
+                      "origin":  "distribution",
+                      "textSha256":  "CF3A95889756F1D1369BB3FA1E35E907A177ED65C8D6E9846F8E22D438E79D38"
+                  },
+                  {
+                      "language":  "ko-KR",
+                      "file":  "Korean.isl",
+                      "upstreamPath":  "Files/Languages/Korean.isl",
+                      "upstreamBlob":  "c7caf4898da2f14a73cd4b75b6e60eac711ddb06",
+                      "origin":  "distribution",
+                      "textSha256":  "F596D8BB4D50442046CD7C21C2EA9EA3B4739DA42AB91769442EEF33ED6A19A4"
+                  },
+                  {
+                      "language":  "th-TH",
+                      "file":  "Thai.isl",
+                      "upstreamPath":  "Files/Languages/Thai.isl",
+                      "upstreamBlob":  "bc5a496d1f4f9620326b764098d5b310f2a40ff7",
+                      "origin":  "distribution",
+                      "textSha256":  "83AE2A74C85D753FC0B71686B609206667CC133800254812858FCD2A02723E72"
+                  },
+                  {
+                      "language":  "ro-RO",
+                      "file":  "Romanian.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Romanian.isl",
+                      "upstreamBlob":  "30d4b7cc60489f15c73d9780ee3212cdf51e60be",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "42D3A4649EDE8B6D57E0651F11DB9C5F9A23331A31E2F82CBA5F541787205454"
+                  },
+                  {
+                      "language":  "hr-HR",
+                      "file":  "Croatian.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Croatian.isl",
+                      "upstreamBlob":  "ec7f9b49f543ab8a9349c50a31c29190b0843f29",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "729C7EAE83E24DF22E66A31192F14FA6664F05C8913CFB876F4405BB9D6F2962"
+                  },
+                  {
+                      "language":  "sr-Latn-RS",
+                      "file":  "SerbianLatin.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/SerbianLatin.isl",
+                      "upstreamBlob":  "813a925025496a87f07b8dc0a931c0754d29699f",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "68C5790BCA6A919287ACB8D791829441E307592551FB63FE58915E65568CA7A2"
+                  },
+                  {
+                      "language":  "sr-Cyrl-RS",
+                      "file":  "SerbianCyrillic.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/SerbianCyrillic.isl",
+                      "upstreamBlob":  "a67ef2e972ed19e394c83f2b6fa3485b192ac3f1",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "2FC895C1BC323B17A108E6891D39BB382583E77A146D9194B245B61C5AA252B9"
+                  },
+                  {
+                      "language":  "el-GR",
+                      "file":  "Greek.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Greek.isl",
+                      "upstreamBlob":  "f7b44437c70506050dd6e4a2398a66b39e884a95",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "5B2C00B7192592808D77BDA54C5D4FD06F66343FEE53CD343B170606F4E6E6E5"
+                  },
+                  {
+                      "language":  "et-EE",
+                      "file":  "Estonian.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Estonian.isl",
+                      "upstreamBlob":  "003275f6c9cb18353627c25495bc3810ba2bbb61",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "2DBD487F605615FB6872711EFB6FB22986C6C1F671515802B0B3873F2B1EAF91"
+                  },
+                  {
+                      "language":  "lv-LV",
+                      "file":  "Latvian.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Latvian.isl",
+                      "upstreamBlob":  "59706149068ad84e572b51d94a94b9c36814a508",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "1A4970BC6C050DB4D06AE49229411022AA957C4CB697FF1F839D093DF98AF9A5"
+                  },
+                  {
+                      "language":  "fa-IR",
+                      "file":  "Farsi.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Farsi.isl",
+                      "upstreamBlob":  "10c466c1fb2a9b9e1b47edd8eb32b3bbc4da7772",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "216F3FFB905F1D58CD68FFED3D623E043BB056DED199D22C02FCD51C6C31AF6A"
+                  },
+                  {
+                      "language":  "hi-IN",
+                      "file":  "Hindi.islu",
+                      "upstreamPath":  "Files/Languages/Unofficial/Hindi.islu",
+                      "upstreamBlob":  "596783144acae8376ce7d2e562afdbb141daf58f",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "7DF2AB65C751071C9FD371DD421A7F792299118855AEFEF3ACF071A7E8B17C89"
+                  },
+                  {
+                      "language":  "bn-BD",
+                      "file":  "Bengali.islu",
+                      "upstreamPath":  "Files/Languages/Unofficial/Bengali.islu",
+                      "upstreamBlob":  "846093a3397681bbb36051b955cd2bf5bead1f73",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "BFB9E277712C495A63BD965BF5D6CD8C971CA2EE7F9AD3C4A1D844A8A80E15F5"
+                  },
+                  {
+                      "language":  "vi-VN",
+                      "file":  "Vietnamese.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Vietnamese.isl",
+                      "upstreamBlob":  "8da80b2969aea761d557030cb5ed942e7fe2d2b0",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "4AC2A3BB0801551269800BBC8E48D22FB24E4A2434996DA20BBC781E219535C2"
+                  },
+                  {
+                      "language":  "id-ID",
+                      "file":  "Indonesian.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Indonesian.isl",
+                      "upstreamBlob":  "ac5a0870c02d78223db1010800146b533b2f6bdc",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "CCF77CF658228E8952B1D6D2CC0FE5B19D60699FF62F088B061BED15642F343A"
+                  },
+                  {
+                      "language":  "ms-MY",
+                      "file":  "Malaysian.isl",
+                      "upstreamPath":  "Files/Languages/Unofficial/Malaysian.isl",
+                      "upstreamBlob":  "382f9212408c9db9b6896c1cc88d2486f29d2eb7",
+                      "origin":  "upstream-contributed",
+                      "textSha256":  "4AA85AE90F830AB00132CC7E4C23B0C8217743DF28E21AAE56AED5736B1EB30E"
+                  }
+              ],
+    "exceptions":  [
+                       {
+                           "language":  "fil-PH",
+                           "reason":  "No Filipino/Tagalog base language file in the pinned Inno Setup 7.1.0 upstream distribution or contributed-language directory. Desktop and Shell still require Filipino."
+                       }
+                   ]
+}

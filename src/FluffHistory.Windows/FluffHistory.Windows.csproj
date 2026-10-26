@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../FluffHistory.Engine/FluffHistory.Engine.csproj" />
+    <InternalsVisibleTo Include="FluffHistory.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FluffHistory.Application\FluffHistory.Application.csproj" />
+  </ItemGroup>
+</Project>

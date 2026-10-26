@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>fr-FR</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Vue d’ensemble</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Chronologie</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Paramètres de l’application</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Emplacement de sauvegarde</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Modifier le mot de passe de récupération…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Activer le chiffrement…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Désactiver le chiffrement…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Progression de la conversion du chiffrement</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Reprendre</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Suspendre</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Espace disque</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Espace utilisé sur le lecteur de sauvegarde</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Récupérer l’accès…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Récupérer l’accès…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Récupérer avec un compte Microsoft (expérimental)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Modifier…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Modifier l’emplacement de sauvegarde</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Dossiers à sauvegarder</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dossiers à sauvegarder</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Ajouter des dossiers…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Retirer de la sauvegarde</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Retirer un dossier arrête ses futures sauvegardes. L’historique existant est conservé selon vos paramètres de rétention.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Dossiers exclus</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Les dossiers exclus ne sont pas inclus dans les futures sauvegardes. L’historique existant est conservé.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dossiers exclus</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Exclure un dossier…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Exclure un dossier</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Supprimer l’exclusion</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Supprimer l’exclusion utilisateur sélectionnée</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Sauvegardes automatiques</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sauvegardes automatiques</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Sauvegarder les fichiers</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fréquence de sauvegarde</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Conserver les versions enregistrées</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rétention des versions enregistrées</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Les sauvegardes automatiques continuent lorsque cette fenêtre est fermée. Les sauvegardes manquées ne sont pas mises en attente.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alimentation et réseau</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alimentation et réseau</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Alimentation et réseau</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Suspendre les sauvegardes automatiques sur batterie</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Autoriser les sauvegardes utilisant le réseau sur les connexions limitées</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Attendre si Windows ne détecte pas de réseau pour une sauvegarde réseau</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Sauvegarder une clé de récupération dans OneDrive (expérimental)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Vérifier la récupération OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Récupération expérimentale</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Attendre si Windows ne peut pas déterminer l’état de l’alimentation</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Réinitialiser la configuration de l’application…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Enregistrer les modifications</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Ignorer</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Version préliminaire de Fluff-History</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Les sauvegardes planifiées continuent lorsque cette fenêtre est fermée. L’intégration à l’Explorateur et aux propriétés est installée avec Fluff-History. La récupération par mot de passe et l’accès Windows local sont pris en charge. Aucune télémétrie ni aucun envoi automatique.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Copier les diagnostics expurgés</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Vérifiez les chemins des dossiers avant de partager. Aucun mot de passe de récupération, matériel de clé ou jeton de compte n’est inclus.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Diagnostics de l’application</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Chronologie</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Modification du chiffrement en cours</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>L’historique de sauvegarde est temporairement indisponible. Reprenez la modification du chiffrement dans Configuration pour la terminer.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Chemin du dossier de la chronologie</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Date de référence de la chronologie</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Le plus récent</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Choisir une date et une heure…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Afficher la chronologie à l’heure locale indiquée</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Date de référence</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Heure de référence</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Afficher la chronologie</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Parent</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dossier parent</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Plus tôt</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Date antérieure de la chronologie</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Plus tard</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Date ultérieure de la chronologie</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Nettoyer les anciennes versions…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Affichage</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Grandes icônes</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Restaurer la sélection…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Tout désélectionner</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Liste de la chronologie</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Grandes icônes de la chronologie</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Aucune version à afficher dans la chronologie</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Ouvrir Configuration</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Charger plus de fichiers et de dossiers</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Aperçu / Ouvrir</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Restaurer la version sélectionnée</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Options de la version enregistrée</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Restaurer vers…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Versions · les plus récentes d’abord</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Versions du fichier</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Charger plus de versions</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Chargement de la chronologie</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Annuler le chargement</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Vue d’ensemble</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Configurer Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Sauvegarder maintenant</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Récupérer l’accès…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Récupérer l’accès…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Intervention nécessaire</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Activité de sauvegarde</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Espace disque</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Espace utilisé sur le lecteur de sauvegarde</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Problèmes de fichiers ou de dossiers</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Annuler la sauvegarde</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Ouvrir la chronologie</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Paramètres de l’application</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Apparence</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Choisissez l’apparence de Fluff-History. Le mode Système suit l’apparence de Windows.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Apparence</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Les préférences de l’application n’ont pas pu être chargées. Des valeurs par défaut sûres sont utilisées. Choisissez une préférence pour enregistrer une nouvelle copie.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Les dossiers de sauvegarde, la planification et la rétention se gèrent dans Configuration. La chronologie mémorise votre choix entre Grandes icônes et Liste.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Supprimer des versions enregistrées</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Sélectionner les éléments à supprimer...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Intervalle de nettoyage</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Annuler le nettoyage</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Restaurer</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Restaurer vers…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Aperçu / Ouvrir</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Supprimer la version enregistrée…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Continuer</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Reprendre</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Utiliser cet emplacement de sauvegarde</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Fermeture</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>En attente de la fin des opérations en cours…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>La fermeture nécessite votre attention</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Attendez la fin de l’opération sur les fichiers, puis réessayez de fermer.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>L’action nécessite votre attention</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Récupération de l’accès nécessaire</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Ouvrez Vue d’ensemble ou Configuration pour récupérer l’accès avec votre mot de passe de récupération.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Non configuré</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Choisissez Configurer Fluff-History dans Vue d’ensemble pour commencer.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Prêt à être configuré</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Annulé ; les opérations sur les fichiers déjà terminées restent effectuées.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>L’opération n’a pas pu se terminer. Vérifiez les dossiers sélectionnés, la configuration et la connexion, puis réessayez.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Préférences de l’application enregistrées</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Réinitialisez explicitement les paramètres endommagés de l’application avant d’enregistrer.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History se ferme pour une mise à jour.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>L’agent d’arrière-plan est indisponible. Rouvrez Fluff-History pour réessayer ou réparez l’installation.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Aperçu de la chronologie ouvert</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Restauration : {0:N0} copiés · {1:N0} ignorés · {2:N0} échecs · {3:N0} non confirmés · {4:N0} avertissements de métadonnées</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Annulé</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Récupération terminée. Cet utilisateur Windows peut maintenant ouvrir la sauvegarde.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Le mot de passe de récupération n’a pas permis de déverrouiller cette sauvegarde. Vérifiez le mot de passe, puis réessayez.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>La récupération n’a pas pu être entièrement confirmée. Une nouvelle ouverture locale a réussi ; vérifiez l’accès avant de réessayer.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>L’accès local n’a pas pu être confirmé après la récupération. Vérifiez l’emplacement de sauvegarde avant de réessayer.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>L’emplacement de sauvegarde est invalide ou endommagé. La récupération n’a pas abouti.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Récupération annulée.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>La récupération n’a pas pu aboutir. Vérifiez l’emplacement de sauvegarde et la connexion avant de réessayer.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Emplacement de sauvegarde</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Ajouter des dossiers</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Dossiers à sauvegarder</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Protéger cette sauvegarde avec un mot de passe de récupération</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Configurer cet emplacement de sauvegarde ?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Ce dossier vide va être configuré. Enregistrez ensuite les modifications pour commencer à l’utiliser.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Mot de passe de récupération</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Confirmer le mot de passe</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Modifier le mot de passe de récupération</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Reprendre la modification du chiffrement</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Protéger votre sauvegarde</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Récupérer l’accès à la sauvegarde</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Modifier le mot de passe</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Configurer une sauvegarde protégée</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Récupérer l’accès</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Modifie le mot de passe utilisé pour la récupération portable. Les données de sauvegarde existantes n’ont pas besoin d’être chiffrées à nouveau. Conservez le nouveau mot de passe en lieu sûr.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Saisissez le mot de passe de récupération de cette modification du chiffrement. La sauvegarde reste suspendue si l’accès ne peut pas être confirmé.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Conservez votre mot de passe de récupération en lieu sûr. Vous en aurez besoin pour récupérer l’accès sur une autre installation de Windows. Cet utilisateur Windows peut ouvrir la sauvegarde normalement.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Cette sauvegarde existe, mais cet utilisateur Windows ne peut pas encore l’ouvrir. Saisissez votre mot de passe de récupération pour autoriser l’accès.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Saisissez un mot de passe ; la confirmation doit être identique</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Sauvegarde existante détectée</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Nettoyer les anciennes versions</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Supprimer des versions…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Confirmer le nettoyage de la chronologie</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Retiré des futures sauvegardes. L’historique existant est conservé selon vos paramètres de rétention.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Ce dossier sera inclus dans les futures sauvegardes, sauf si une autre exclusion s’applique. L’historique existant est conservé.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Réinitialiser la configuration de l’application ?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Les données sources et sauvegardées restent intactes. Seuls les paramètres de cette application sont réinitialisés.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Réinitialiser la configuration</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Modification du chiffrement suspendue</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Suppression du chiffrement suspendue</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>La modification du chiffrement nécessite votre attention</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Préparation de la modification du chiffrement</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} sur {1} · {2:N0} fichiers sur {3:N0}</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Le contrôle de conversion n’a pas pu être vérifié. L’historique de sauvegarde reste indisponible. Vérifiez la connexion à la sauvegarde et les diagnostics.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>L’historique de sauvegarde est temporairement indisponible pendant la conversion. Celle-ci peut reprendre après une interruption.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Chiffré</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Non chiffré</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Utilisez la récupération pour autoriser l’accès à ce compte Windows.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Ce compte Windows peut déverrouiller cette sauvegarde.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Vérification de la récupération OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Récupération OneDrive : activée</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Clé de récupération absente de OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Récupération OneDrive désactivée localement ; un nettoyage dans le cloud peut être nécessaire</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>La récupération OneDrive nécessite votre attention</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Récupération OneDrive indisponible</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Récupération OneDrive : désactivée</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Expérimental. Une clé de récupération aléatoire est stockée dans le dossier d’application OneDrive de Fluff-History ; les fichiers sauvegardés restent à l’emplacement de sauvegarde. L’autorisation couvre uniquement ce dossier. Un autre PC peut éventuellement récupérer la sauvegarde après connexion au compte Microsoft. Microsoft désigne cette autorisation comme Preview. Conservez votre mot de passe de récupération.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Mot de passe de récupération modifié. Conservez le nouveau mot de passe en lieu sûr.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Récupération OneDrive activée et vérifiée. Conservez votre mot de passe de récupération.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Récupération OneDrive désactivée. Le mot de passe et l’accès Windows restent inchangés.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Récupération OneDrive vérifiée.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Récupération terminée. Ce compte Windows peut maintenant déverrouiller cette sauvegarde.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Clé de récupération absente de OneDrive. Utilisez votre mot de passe de récupération.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>La clé de récupération OneDrive n’a pas pu authentifier cette sauvegarde. Utilisez votre mot de passe de récupération.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>La modification n’a pas pu être entièrement confirmée. Vérifiez l’accès avant de réessayer ; l’historique de sauvegarde reste inchangé.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Opération annulée.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>La modification de sécurité n’a pas pu aboutir. Vérifiez l’accès, puis réessayez. La récupération par mot de passe reste disponible.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Chiffrement de la sauvegarde</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Le contenu existant de la sauvegarde sera chiffré sur place. La sauvegarde et la restauration seront temporairement indisponibles. Conservez votre mot de passe de récupération ; l’accès Windows est ajouté automatiquement. Il faut suffisamment d’espace libre et la conversion peut reprendre après une interruption.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Les métadonnées et le contenu des fichiers de sauvegarde seront stockés sans chiffrement à l’emplacement de sauvegarde. La sauvegarde et la restauration seront temporairement indisponibles pendant la conversion. Celle-ci peut reprendre après une interruption.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Activer le chiffrement ?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Désactiver le chiffrement ?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Modification du chiffrement terminée.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Certaines métadonnées retirées peuvent rester non chiffrées tant que le nettoyage n’a pas réussi. Le nettoyage sera réessayé.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Certaines anciennes métadonnées n’ont pas encore pu être supprimées ; le nettoyage sera réessayé.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Modification du chiffrement suspendue. Reprenez pour terminer ; les fichiers déjà convertis sont conservés.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>La conversion du chiffrement n’a pas été démarrée.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Il faut davantage d’espace libre. Libérez de l’espace, puis reprenez. Aucun historique n’a été supprimé.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Il faut davantage d’espace libre. Libérez de l’espace, puis réessayez la modification du chiffrement. Aucun historique n’a été supprimé.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Utilisez le mot de passe de récupération pour poursuivre la modification du chiffrement.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>La modification du chiffrement nécessite votre attention. Vérifiez la connexion à la sauvegarde et le mot de passe de récupération, puis reprenez. Ne supprimez pas les fichiers de conversion.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>La modification du chiffrement n’a pas pu démarrer. Vérifiez la connexion à la sauvegarde et les données de cache facultatives, puis réessayez. L’historique de sauvegarde reste inchangé.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Conserver les versions indéfiniment</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Aucun dossier exclu.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Choisissez où stocker vos sauvegardes</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Choisissez un emplacement de sauvegarde pour continuer.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Le chiffrement de cette sauvegarde est suspendu</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>La suppression du chiffrement est suspendue</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Modifications non enregistrées · conservées lorsque vous changez de page</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>La configuration est à jour</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Choisissez une fréquence de sauvegarde prise en charge.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Choisissez un emplacement de sauvegarde.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Choisissez un emplacement de sauvegarde avant d’enregistrer.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>L’emplacement de sauvegarde est indisponible. Choisissez Modifier pour le sélectionner à nouveau ou utilisez un autre emplacement.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Vérifiez les dossiers sélectionnés et l’emplacement de sauvegarde.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Ce dossier contient déjà d’autres données. Fluff-History n’y configurera pas de nouvelle sauvegarde. Choisissez un dossier vide ou une sauvegarde Fluff-History existante.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Choisir un autre emplacement de sauvegarde</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Cet emplacement est indisponible. Vérifiez la connexion ou choisissez un autre emplacement.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Emplacement de sauvegarde indisponible</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Enregistrez les modifications pour utiliser cet emplacement de sauvegarde.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Le mot de passe de récupération n’a pas permis de déverrouiller cette sauvegarde.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>L’accès n’a pas pu être entièrement confirmé. Vérifiez cette sauvegarde avant de réessayer.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Emplacement de sauvegarde sélectionné. Choisissez vos dossiers, puis enregistrez les modifications.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Choisissez au maximum 1 024 dossiers.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Déjà sauvegardé par {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Ce dossier n’a pas pu être sélectionné.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Conflit de sélection de dossiers</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Sauvegarder ces dossiers ?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Sauvegarder quand même</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Ce dossier est déjà exclu.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Dossier exclu des futures sauvegardes. L’historique existant est conservé.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Le plus récent</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Dossier</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Ajoutez des dossiers dans Configuration pour commencer. Les dossiers enregistrés apparaîtront ici.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Ce dossier n’a pas encore de versions enregistrées. Ses fichiers apparaîtront après une sauvegarde réussie.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Ce dossier ne contient aucun fichier enregistré à la date choisie. Essayez une autre date ou choisissez Le plus récent.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>La chronologie a changé. Actualisez pour continuer.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Chronologie au : {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>4 096 éléments chargés. Ouvrez un dossier pour affiner cette vue.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>1 024 dates chargées. Affinez le dossier ou choisissez une date et une heure.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>1 024 versions chargées. Cet aperçu limite la liste des versions.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Aucun dossier dans la chronologie</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Versions les plus récentes encore présentes</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>La version actuelle sauvegardée avec succès est protégée et ne peut pas être supprimée.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Sélectionner un fichier ou un dossier</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Ouvrez ce dossier pour parcourir ses fichiers enregistrés.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Ouvrez un dossier pour parcourir ses fichiers enregistrés. Ces dossiers servent à naviguer ; ils ne sont pas des versions de répertoires restaurables.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Sélectionnez des fichiers ou des dossiers dans cette vue pour les restaurer ensemble. Sélectionnez un seul fichier pour parcourir ses versions.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Les dossiers affichent les fichiers enregistrés dans la chronologie. Les dates et les propriétés des dossiers ne sont pas enregistrées séparément.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Ouvrez Configuration pour configurer votre chronologie.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Ouvrez Configuration pour continuer.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Actualisez pour charger la chronologie de cette sauvegarde.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Cet élément n’est pas actuellement sauvegardé par Fluff-History.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Ouvrez Configuration ou Vue d’ensemble pour accéder à cette sauvegarde.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Cet élément n’a pas encore d’historique enregistré.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Ce fichier n’a pas encore de version enregistrée.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Non sauvegardé actuellement</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Non sauvegardé actuellement</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Ce dossier n’est plus dans la chronologie.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Cette heure locale n’existe pas en raison du changement d’heure. Choisissez une autre heure.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Chargement annulé. Les lignes déjà chargées restent disponibles.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Chargement de la chronologie…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Chargement annulé.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Impossible de restaurer les éléments sélectionnés</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Restaurer à l’emplacement d’origine ?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Les fichiers historiques sélectionnés seront restaurés à leurs emplacements sources d’origine. Windows vous demandera de résoudre les conflits avec les fichiers existants.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Supprimer cette version enregistrée ?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Version enregistrée supprimée.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Suppression annulée. {0:N0} versions enregistrées ont été supprimées avant l’annulation ; les suppressions confirmées restent effectuées.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>La suppression nécessite votre attention. Certaines modifications ou le nettoyage du contenu peuvent ne pas être confirmés. Vérifiez la sauvegarde avant de réessayer.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>L’action n’a pas pu aboutir. Vérifiez la configuration, puis réessayez.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Modification du chiffrement en cours</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Agent d’arrière-plan indisponible</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Configurer Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Sauvegarde en cours</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>La sauvegarde nécessite votre attention</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Choisissez un emplacement de sauvegarde et les dossiers à sauvegarder.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Les sauvegardes automatiques sont activées</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Les sauvegardes automatiques sont désactivées</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Vérification des conditions de sauvegarde…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Ouverture de la sauvegarde…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Analyse et sauvegarde des fichiers…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Application de la stratégie de rétention…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Vérification des métadonnées…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Compactage des métadonnées…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Nettoyage des métadonnées…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Compression des métadonnées…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Chiffrement…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Déchiffrement…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Finalisation de la sauvegarde…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Annulation demandée</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Dossier non associé</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Affichage de {0:N0} problèmes sur {1:N0} enregistrés au cours de cette session.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>L’historique de sauvegarde est temporairement indisponible. Reprenez la modification du chiffrement dans Configuration.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>La sauvegarde existe, mais cet utilisateur Windows n’y a pas accès. Votre mot de passe de récupération peut rétablir cet accès.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Votre sauvegarde est terminée, mais la maintenance de la chronologie nécessite votre attention. Consultez les diagnostics avant de réessayer le nettoyage.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Certaines modifications n’ont pas pu être confirmées. Vérifiez l’emplacement de sauvegarde avant de continuer.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>L’emplacement de sauvegarde a besoin de plus d’espace libre pour poursuivre la sauvegarde.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Certains fichiers ou dossiers ont été ignorés. Développez Problèmes de fichiers ou de dossiers ci-dessous pour afficher les chemins et les causes. Les autres versions sauvegardées avec succès restent enregistrées.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Ajoutez des dossiers dans Configuration pour commencer la sauvegarde.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Aucune modification à sauvegarder.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>moins d’une seconde</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} et {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Récupération de l’accès nécessaire. Utilisez votre mot de passe de récupération pour autoriser cet utilisateur Windows à accéder à la sauvegarde.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Terminez la modification du chiffrement dans Configuration avant d’utiliser l’historique de sauvegarde.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>La chronologie a changé. Actualisez pour continuer à parcourir et à restaurer.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Cet emplacement de sauvegarde est invalide ou endommagé. Vérifiez l’emplacement sélectionné.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Une sauvegarde ou un nettoyage est déjà en cours. Attendez la fin de l’opération, puis réessayez.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Cette sélection ne peut pas être utilisée ici. Choisissez des éléments du dossier et de la date actuellement affichés.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Les éléments historiques sélectionnés contiennent un fichier et un dossier ayant le même chemin et ne peuvent pas être restaurés ensemble.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Opération annulée. Les opérations sur les fichiers terminées restent effectuées.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>L’emplacement de sauvegarde ou la destination est indisponible. Vérifiez l’emplacement et la connexion, puis réessayez.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Emplacement de sauvegarde invalide</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Sauvegarde terminée</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Sauvegarde terminée avec des problèmes de dossiers ou de fichiers</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Sauvegarde annulée</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Sauvegarde suspendue : espace insuffisant</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Sauvegarde différée</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>La sauvegarde nécessite une intervention</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Aucune sauvegarde n’a été exécutée au cours de cette session de l’application.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>En attente d’une alimentation externe.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows n’a pas pu déterminer l’état de l’alimentation.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>En attente d’une connexion non limitée.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows ne détecte pas de réseau pour une sauvegarde vers un chemin réseau.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Système</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Clair</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Sombre</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} utilisés sur {1} · {2} disponibles</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Vérification de l’espace disque…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Les informations d’espace disque sont indisponibles.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Calcul de la taille de la sauvegarde…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>La sauvegarde occupait {0} lors de la dernière vérification</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>La sauvegarde occupe {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Taille de la sauvegarde indisponible</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Sélectionnez ce que vous souhaitez supprimer pour afficher un aperçu. Rien ne sera supprimé sans votre confirmation.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Vérification des versions enregistrées…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>La chronologie a changé. Sélectionnez à nouveau ce que vous souhaitez supprimer.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Cela libérerait environ {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Rien à supprimer pour cette sélection.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Vérifiez l’aperçu avant de supprimer des versions.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Aperçu annulé. Rien n’a été supprimé.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Aperçu incomplet : limite de travail atteinte. Aucun nettoyage ne peut être exécuté.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Suppression des versions enregistrées…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>La chronologie a changé depuis cet aperçu. Générez un nouvel aperçu avant de supprimer des versions.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Certains contenus enregistrés n’ont pas encore pu être effacés.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Nettoyage terminé. Actualisez la chronologie pour voir les versions restantes.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Nettoyage annulé. Les suppressions confirmées restent effectuées. Actualisez la chronologie.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Le nettoyage nécessite votre attention. Certaines modifications peuvent ne pas être confirmées ; vérifiez la sauvegarde avant de réessayer. Actualisez la chronologie.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Conserve la version la plus récente encore présente à chaque chemin, y compris pour les fichiers qui ne sont plus sauvegardés. Les versions actuelles restent protégées.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Les versions actuelles restent protégées. Les fichiers présents uniquement dans la chronologie peuvent disparaître entièrement si toutes leurs versions sont plus anciennes que cet âge.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Espace estimé ; l’espace réellement disponible peut différer.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} octets</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} octet</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} octets</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} octets</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} octets</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} octets</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} dossiers existants</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} dossier existant</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} dossiers existants</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} dossiers existants</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} dossiers existants</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} dossiers existants</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} problèmes de fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} problème de fichier</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} problèmes de fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} problèmes de fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} problèmes de fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} problèmes de fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} fichier</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} fichiers</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versions de fichier</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} version de fichier</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} versions de fichier</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} versions de fichier</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} versions de fichier</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} versions de fichier</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} dossiers</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} dossier</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} dossiers</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} dossiers</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} dossiers</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} dossiers</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} heures</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} heure</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} heures</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} heures</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} heures</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} heures</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} éléments</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} élément</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} éléments</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} éléments</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} éléments</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} éléments</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} minutes</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} minute</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} minutes</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} minutes</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} minutes</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} minutes</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} nouvelles versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} nouvelle version enregistrée</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} nouvelles versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} nouvelles versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} nouvelles versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} nouvelles versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} version enregistrée</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} versions enregistrées</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} secondes</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} seconde</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} secondes</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} secondes</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} secondes</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} secondes</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, Dossier</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, Fichier, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Enregistré le {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} sélectionnés</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} éléments sélectionnés</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Enregistrée le : {1:f}
+
+Cette action supprime définitivement cette seule version enregistrée. Votre fichier source et les autres versions enregistrées sont conservés. Cette action est irréversible.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} dossiers dans la chronologie</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>{0} ajoutés · {1} réactivés · {2} déjà sélectionnés</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} non ajoutés</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>{0} supprimés ({1} de contenu enregistré).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Supprimer définitivement {0} de {1} ? Vos fichiers sources et les versions actuelles sont conservés. Cette action est irréversible.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} sélectionnés pour la sauvegarde</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Dernière sauvegarde le {0:f} ; durée : {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Dernière tentative de sauvegarde le {0:f} ; durée : {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Enregistré le {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Fichier modifié le {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Enregistré le : {2:G}
+Fichier modifié le : {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Chronologie au {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Chronologie</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Toutes les 10 minutes</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Toutes les 30 minutes</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Toutes les heures</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Toutes les 3 heures</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Toutes les 6 heures</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Toutes les 12 heures</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Tous les jours</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Jusqu’à saturation de l’espace</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 mois</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 mois</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 mois</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 mois</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 an</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 ans</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Indéfiniment</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Les versions plus anciennes que cet âge peuvent être supprimées après une sauvegarde réussie. Les versions actuelles restent protégées.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Les versions sont conservées jusqu’à ce que le volume de sauvegarde atteigne son seuil de sécurité de capacité. Lorsqu’une sauvegarde a besoin d’espace, les versions éligibles les plus anciennes sont supprimées automatiquement. Les versions actuelles restent protégées.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>La stratégie de rétention « Indéfiniment » ne supprime jamais automatiquement l’historique de la chronologie. Les versions s’accumulent jusqu’à ce que le volume de sauvegarde ne puisse plus accepter une nouvelle sauvegarde en toute sécurité. Vous devrez alors libérer de l’espace ou nettoyer la chronologie manuellement.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>De plus de 1 mois</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>De plus de 3 mois</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>De plus de 6 mois</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>De plus de 9 mois</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>De plus de 1 an</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>De plus de 2 ans</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Conserver uniquement la version la plus récente</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData contient l’état des applications, des caches, des bases de données et des fichiers temporaires. Ces données peuvent changer fréquemment et faire grossir rapidement la chronologie. Restaurer ces fichiers ne remplace pas la réinstallation ni la restauration correcte d’une application.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Les fichiers système et des programmes installés sont volumineux et changent fréquemment. Fluff-History ne crée pas de sauvegarde d’image système. Restaurer ces seuls fichiers ne suffit pas nécessairement à réparer Windows ou une application installée.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData peut contenir l’état partagé des applications, des caches et des bases de données qui changent fréquemment. Cela peut créer un volume important de données dans la chronologie.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Cet emplacement contient surtout des fichiers temporaires ou d’installation et peut produire de nombreuses modifications éphémères dans la chronologie.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Cet emplacement contient des métadonnées système ou des fichiers de travail de Fluff-History et ne peut pas être sauvegardé.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Vérification de la configuration de sauvegarde…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Les paramètres de l’application nécessitent votre attention. Réinitialisez explicitement la configuration ; les données sauvegardées restent intactes.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>La configuration de sauvegarde enregistrée est indisponible ou invalide. Vérifiez Configuration avant de continuer.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows n’a pas pu valider l’emplacement de sauvegarde ou les données de travail temporaires de l’application. Vérifiez l’accès et l’espace libre, puis réessayez.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Un dossier sélectionné pour la sauvegarde ne peut pas également être exclu. Retirez-le de la sauvegarde ou modifiez l’exclusion.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Choisissez au maximum 256 dossiers exclus, avec au plus 256 KiB de chemins de dossiers.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Cette source accepte au maximum 256 dossiers effectivement exclus et 256 KiB de configuration. Choisissez moins d’exclusions ou des chemins plus courts.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Un dossier ne peut être sélectionné qu’une seule fois.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Les dossiers sélectionnés imbriqués doivent être exclus de leur dossier parent.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Choisissez un chemin de dossier absolu.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Choisissez un dossier ordinaire sur un lecteur ou le réseau.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Choisissez un chemin complet de partage réseau.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Ce chemin de dossier est ambigu ou sort de sa racine. Choisissez un chemin de dossier absolu ordinaire.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Un dossier situé dans l’emplacement de sauvegarde, ou qui contient cet emplacement, ne peut pas être sauvegardé.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Confirmez l’avertissement avant d’ajouter ce dossier.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Ce chemin correspond à un dossier système Windows ou de données d’application. Sélectionnez son emplacement réel et confirmez d’abord l’avertissement.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Ces dossiers correspondent à des emplacements Windows qui se chevauchent. Sélectionnez chaque emplacement une seule fois.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Ce dossier correspond à des données de travail temporaires de Fluff-History et ne peut pas être sauvegardé.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Bureau</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Téléchargements</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Musique</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Vidéos</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Nom de fichier ou de dossier non pris en charge.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Alias de casse ambigu.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Limite non prise en charge, point d’analyse ou chiffrement EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Fichier non pris en charge ou trop volumineux.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>La source a changé pendant sa copie.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Impossible d’accéder à ce fichier ou dossier.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Impossible d’accéder à ce fichier ou dossier (erreur Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>La racine source ou un de ses parents n’est pas un répertoire ordinaire.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Limite de répertoire non prise en charge.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Vérification de l’espace</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Chiffrement des fichiers</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Déchiffrement des fichiers</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Reconstruction des métadonnées</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Finalisation de la sauvegarde</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Ce fichier ou dossier est utilisé par une autre application.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>L’accès à ce fichier ou dossier a été refusé.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Ce fichier ou dossier est introuvable au cours de l’analyse.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Configuration enregistrée</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Modifications des dossiers enregistrées. Les dossiers mis à jour seront inclus dans la prochaine sauvegarde planifiée.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Modifications des dossiers enregistrées. Les dossiers mis à jour seront inclus dans la prochaine sauvegarde.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Sauvegarde demandée</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Une sauvegarde est déjà en cours ou se termine.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Configurez un emplacement de sauvegarde disponible et des dossiers dans Configuration.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Restaurer une version précédente…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Chargement de l’historique...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Non sauvegardé actuellement</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Non sauvegardé par Fluff-History</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Récupération de l’accès nécessaire</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Sauvegarde indisponible</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Session d’historique expirée</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Sauvegarde indisponible. Ouvrez Fluff-History ou actualisez l’affichage.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>La session d’historique a expiré. Actualisez l’affichage pour continuer.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Emplacement de sauvegarde : </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Parcourir l’historique du dossier</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Ouvrir Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Parcourir toutes les versions</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Les dossiers sont reconstitués à partir des versions de fichiers enregistrées.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>La restauration modifie le fichier actuel. L’historique enregistré est conservé.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History est indisponible. Installez la version préliminaire et réessayez.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Restaurer cette version enregistrée à son emplacement d’origine ? Windows vous demandera de résoudre les conflits avec les fichiers existants. L’historique enregistré est conservé.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Restaurer la version enregistrée ?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Restauration de la version sélectionnée...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Sauvegarde indisponible. Ouvrez Fluff-History pour continuer.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>L’historique du dossier est reconstitué à partir des versions de fichiers enregistrées.
+Dates récentes dans la chronologie :
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Aucune version de fichier enregistrée pour le moment.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Modifié le {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Aucune version enregistrée de ce fichier. Ouvrez la chronologie ou la configuration pour continuer.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Dernière version enregistrée : {0:f}
+Versions conservées : {1:N0}
+Version conservée la plus ancienne : {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Dernière version enregistrée : {0:f}
+Versions conservées : {1:N0}+ ; ouvrez la chronologie pour l’historique complet
+Version conservée la plus ancienne : ouvrez la chronologie pour l’historique complet</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Non sauvegardé par Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Récupération de l’accès nécessaire. Ouvrez Fluff-History pour récupérer l’accès.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Sauvegarde indisponible. Ouvrez Fluff-History ou réessayez.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>La restauration nécessite votre attention. Vérifiez la destination avant de réessayer.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Restauration annulée. Les opérations sur les fichiers déjà terminées restent effectuées.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Fichier restauré. L’historique enregistré est inchangé.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Aucun fichier n’a été restauré. Vérifiez la destination.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>L’historique a changé. Actualisez l’affichage avant la restauration.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Restauration indisponible. Ouvrez Fluff-History pour continuer.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Restauration annulée. Vérifiez la destination.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>fr-FR</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Raccourcis :</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Créer un raccourci sur le &amp;Bureau</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Créer un raccourci dans le menu &amp;Démarrer</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History nécessite son dossier d’installation fixe propre à l’utilisateur.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Une installation ou un démarrage de l’application est en cours. Patientez un instant, puis réessayez.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History n’a pas pu préparer la mise à jour. Fermez les opérations sur les fichiers et les fenêtres de propriétés en cours, puis réessayez. Votre dépôt de sauvegarde reste inchangé.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History n’a pas pu terminer l’installation. L’état de l’application a été conservé pour une nouvelle tentative ; le dépôt de sauvegarde reste inchangé.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>L’installation nécessite votre attention</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History n’a pas pu terminer l’installation. Vos paramètres et votre dépôt de sauvegarde ont été conservés. Relancez le programme d’installation pour réessayer.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Avant de désinstaller, fermez Fluff-History, les opérations sur les fichiers et les fenêtres de propriétés en cours. Aucun arrêt n’a été forcé.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Diagnostics copiés. Vérifiez les chemins des dossiers avant de partager.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Langue</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Langue de l’application</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Utiliser la langue de Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Les modifications s’appliquent immédiatement. Les dates et les nombres suivent vos paramètres régionaux.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Réparer la récupération OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Désactiver localement…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>L’ancienne récupération doit être mise à niveau vers OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>La récupération OneDrive expérimentale n’est pas configurée dans cette version.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Connectez-vous à Microsoft pour utiliser la récupération OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>La connexion à Microsoft ou le consentement a été refusé. La récupération par mot de passe reste disponible.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>L’autorisation requise pour le dossier d’application OneDrive est indisponible. La récupération par mot de passe reste disponible.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>La récupération OneDrive nécessite une connexion Internet. Le mot de passe et l’accès Windows local restent disponibles.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>La récupération OneDrive n’a pas pu être vérifiée pour le moment. Réessayez plus tard ou utilisez votre mot de passe de récupération.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive est occupé. Réessayez plus tard.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive est indisponible ou non configuré pour ce compte Microsoft. Utilisez votre mot de passe de récupération.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>La clé de récupération OneDrive a changé ou n’est pas valide. Utilisez votre mot de passe de récupération ou réparez la récupération sur un PC pouvant déverrouiller cette sauvegarde.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Un nettoyage de OneDrive peut encore être nécessaire. Seule la clé de récupération est concernée ; le mot de passe et l’accès Windows restent inchangés.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Un nettoyage de OneDrive peut encore être nécessaire. Fichier de récupération : {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>La récupération OneDrive fonctionne, mais l’ancien identifiant de récupération Windows n’a pas pu être entièrement supprimé.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Désactiver la récupération OneDrive localement ?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Cela supprime le lien de récupération OneDrive de la sauvegarde sans supprimer son fichier de récupération dans le cloud. Vous devrez peut-être supprimer ce fichier de OneDrive manuellement. Le mot de passe et l’accès Windows restent inchangés.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Récupération OneDrive désactivée localement.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Réparer la récupération OneDrive ?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Créez et vérifiez une nouvelle clé de récupération avant de retirer l’ancienne. Les fichiers cloud modifiés seront conservés.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Mises à jour</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Canal de mise à jour</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Vérifier automatiquement</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Stable</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Bêta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Jamais</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Chaque jour</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Chaque semaine</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Chaque mois</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Vérifier maintenant</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Version actuelle : {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Dernière vérification : {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Version de développement non publiée</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>{0} ({1}) est disponible : {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Télécharger et installer</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Voir les notes de version</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>À jour</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Recherche de mises à jour…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Téléchargement de la mise à jour… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Vérification de la mise à jour…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Prêt pour l’installation</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>En attente de la fin de la sauvegarde ou des autres opérations en cours.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Installation de la mise à jour…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Impossible de contacter GitHub. Réessayez plus tard.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub limite les requêtes. Réessayez plus tard.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Aucune version installable n’est disponible.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>La vérification du programme d’installation a échoué. La mise à jour n’a pas été installée.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>L’installation automatique sera disponible après approbation du signataire de la version.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>La mise à jour n’a pas pu être installée. Réessayez plus tard.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>La mise à jour a été installée, mais la fenêtre n’a pas pu être rouverte.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Cette version non publiée ne peut pas installer de mises à jour publiques.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Les vérifications automatiques des mises à jour sont désactivées.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Les vérifications automatiques contactent GitHub. Aucune donnée de sauvegarde ou de compte n’est envoyée.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Une sauvegarde est en cours. L’arrêter et installer la mise à jour ?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Arrêter la sauvegarde et installer</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Aucune vérification effectuée</value></data>
+</root>

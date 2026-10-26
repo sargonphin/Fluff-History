@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>et-EE</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Ülevaade</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Ajajoon</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Varunduse seadistus</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Teave</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Rakenduse sätted</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Valmis</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Varunduse seadistus</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Varukoopia asukoht</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Muuda taasteparooli…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Lülita krüptimine sisse…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Lülita krüptimine välja…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Krüptimise teisendamise edenemine</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Jätka</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Peata</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Kettaruum</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Varundusketta kasutatud ruum</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Taasta juurdepääs…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Taasta juurdepääs…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Taasta Microsofti kontoga (katseline)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Muuda…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Muuda varukoopia asukohta</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Varundatavad kaustad</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Varundatavad kaustad</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Lisa kaustu…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Eemalda varundusest</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Kausta eemaldamine peatab selle edasise varundamise. Senine ajalugu säilitatakse sinu säilitussätete järgi.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Välistatud kaustad</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Välistatud kaustu ei kaasata edasistesse varukoopiatesse. Senine ajalugu säilib.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Välistatud kaustad</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Välista kaust…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Välista kaust</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Eemalda välistus</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Eemalda valitud kasutaja välistus</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Automaatsed varukoopiad</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automaatsed varukoopiad</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Varunda faile</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Varundamise sagedus</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Säilita salvestatud versioonid</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Salvestatud versioonide säilitamine</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Automaatsed varundused jätkuvad ka selle akna sulgemisel. Vahelejäänud varundusi ei panda järjekorda.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toide ja võrk</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toide ja võrk</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Toide ja võrk</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Peata automaatne varundamine akutoitel</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Luba võrku kasutavad varundused mahupõhistes ühendustes</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Oota, kui Windows teatab võrguvarunduseks vajaliku võrgu puudumisest</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Täpsemad sätted</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Täpsemad sätted</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Täpsemad sätted</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Varunda taastevõti OneDrive’i (katsetuslik)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Kontrolli OneDrive’i taastet</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Katseline taastamine</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Oota, kui Windows ei saa toiteolekut määrata</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Lähtesta rakenduse seadistus…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Salvesta muudatused</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Hülga</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Teave</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History arendaja eelvaade</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Ajastatud varundused jätkuvad selle akna sulgemisel. Fluff-History paigaldab Exploreri ja atribuutide integratsiooni. Toetatud on parooliga taastamine ja kohalik Windowsi juurdepääs. Telemeetriat ega automaatset üleslaadimist pole.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Kopeeri puhastatud diagnostika</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Vaata kaustateed enne jagamist üle. Taasteparoole, võtmematerjali ega kontopääsmeid ei kaasata.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rakenduse diagnostika</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Ajajoon</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Krüptimise muutmine on pooleli</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>Varundusajalugu pole ajutiselt saadaval. Lõpetamiseks jätka krüptimise muutmist varunduse seadistuses.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajajoone kaustatee</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajajoone ajahetk</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Uusim</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Vali kuupäev ja kellaaeg…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Kuva ajajoon kohaliku aja järgi</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Kuupäev</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Seisu kuupäev</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Kellaaeg</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Seisu kellaaeg</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Kuva ajajoon</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Värskenda</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Ülemkaust</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ülemkaust</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Taasta</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Varasem</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Varasem ajajoone aeg</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Hilisem</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Hilisem ajajoone aeg</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Värskenda</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Puhasta vanad versioonid…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Vaade</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Suured ikoonid</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Loend</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Taasta valitud…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Tühista kõik valikud</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajajoone loend</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajajoone suured ikoonid</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Pole kuvatavaid ajajoone versioone</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Ava varunduse seadistus</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Laadi veel faile ja kaustu</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Eelvaade / Ava</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Taasta</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Taasta valitud versioon</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Salvestatud versiooni valikud</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Taasta asukohta…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Kustuta</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Versioonid · uusim eespool</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Failiversioonid</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Laadi veel versioone</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajajoone laadimine</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Tühista laadimine</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Ülevaade</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Seadista Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Varunda kohe</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Taasta juurdepääs…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Taasta juurdepääs…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Varunduse seadistus</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Vajab tähelepanu</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Olek</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Varundustegevus</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Kettaruum</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Varundusketta kasutatud ruum</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Failide või kaustade probleemid</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Tühista varundamine</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Ava ajajoon</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Rakenduse sätted</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Ilme</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Vali Fluff-History ilme. Süsteemi valik järgib Windowsi ilmet.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ilme</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Rakenduse eelistusi ei saanud laadida. Kasutusel on ohutud vaikeväärtused. Värske koopia salvestamiseks vali mõni eelistus.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Varundatavaid kaustu, ajastamist ja säilitamist hallatakse varunduse seadistuses. Ajajoon jätab meelde suurte ikoonide või loendi valiku.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Eemalda salvestatud versioonid</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Vali, mida eemaldada...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Puhastamise ajavahemik</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Tühista puhastamine</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Ava</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Taasta</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Taasta asukohta…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Eelvaade / Ava</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Kustuta salvestatud versioon…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Kustuta</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Tühista</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Jätka</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Jätka</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Sule</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Kinnita</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Kasuta seda varukoopia asukohta</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Sulgemine</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Aktiivsete toimingute lõppemise ootamine…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Sulgemine vajab tähelepanu</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Oota aktiivse failitoimingu lõppu ja proovi uuesti sulgeda.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Toiming vajab tähelepanu</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Taastamine on vajalik</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Ava ülevaade või varunduse seadistus, et taastada juurdepääs taasteparooliga.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Seadistamata</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Alustamiseks vali ülevaates Seadista Fluff-History.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Seadistamiseks valmis</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Tühistatud; juba lõpetatud failitoimingud jäävad tehtuks.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Toimingut ei saanud lõpetada. Kontrolli valitud kaustu, seadistust ja ühendust ning proovi uuesti.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Rakenduse eelistused salvestatud</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Lähtesta rikutud rakenduse sätted enne salvestamist eraldi.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History sulgub värskenduseks.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Taustaagent pole saadaval. Proovimiseks ava Fluff-History uuesti või paranda paigaldus.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Ajajoone eelvaade avatud</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Taastamine: {0:N0} kopeeritud · {1:N0} vahele jäetud · {2:N0} nurjunud · {3:N0} kinnitamata · {4:N0} metaandmete hoiatust</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Tühistatud</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Taastamine lõpetatud. See Windowsi kasutaja saab nüüd varukoopia avada.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Taasteparool ei avanud seda varukoopiat. Kontrolli parooli ja proovi uuesti.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Taastamist ei saanud täielikult kinnitada. Uus kohalik avamine õnnestus; kontrolli juurdepääsu enne uut katset.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Kohalikku juurdepääsu ei saanud pärast taastamist kinnitada. Kontrolli varukoopia asukohta enne uut katset.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Varukoopia asukoht on vigane või kahjustatud. Taastamine ei lõppenud.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Taastamine tühistatud.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Taastamist ei saanud lõpetada. Kontrolli varukoopia asukohta ja ühendust enne uut katset.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Varukoopia asukoht</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Lisa kaustu</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Varundatavad kaustad</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Kaitse seda varukoopiat taasteparooliga</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Kas seadistada see varukoopia asukoht?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>See tühi kaust seadistatakse nüüd. Kasutamise alustamiseks salvesta seejärel muudatused.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Taasteparool</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Kinnita parool</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Muuda taasteparooli</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Jätka krüptimise muutmist</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Kaitse oma varukoopiat</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Taasta varukoopia juurdepääs</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Muuda parooli</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Seadista kaitstud varukoopia</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Taasta juurdepääs</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Muudab teisaldatavaks taastamiseks kasutatavat parooli. Olemasolevat varukoopiat ei pea uuesti krüptima. Hoia uut parooli turvalises kohas.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Sisesta selle krüptimise muutmise taasteparool. Varundus jääb peatatuks, kui juurdepääsu ei saa kinnitada.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Hoia taasteparooli turvalises kohas. Vajad seda juurdepääsu taastamiseks teises Windowsi paigalduses. See Windowsi kasutaja saab varukoopia tavapäraselt avada.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>See varukoopia on olemas, kuid see Windowsi kasutaja ei saa seda veel avada. Juurdepääsu lubamiseks sisesta taasteparool.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Sisesta parool; kinnitus peab ühtima</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Leiti olemasolev varukoopia</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Puhasta vanad versioonid</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Eemalda versioone…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Kinnita ajajoone puhastamine</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Edasistest varundustest eemaldatud. Senine ajalugu säilitatakse sinu säilitussätete järgi.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>See kaust kaasatakse edasistesse varundustesse, kui mõni teine välistus ei kehti. Senine ajalugu säilib.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Kas lähtestada rakenduse seadistus?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Varukoopia ja lähteandmed jäävad puutumata. Lähtestatakse ainult selle rakenduse sätted.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Lähtesta seadistus</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Krüptimise muutmine peatatud</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Krüptimise eemaldamine peatatud</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Krüptimise muutmine vajab tähelepanu</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Krüptimise muutmise ettevalmistamine</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} / {1} · {2:N0} / {3:N0} faili</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Teisenduse juhtandmeid ei saanud kontrollida. Varundusajalugu pole saadaval. Kontrolli varukoopia ühendust ja diagnostikat.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>Varundusajalugu pole teisenduse lõpetamiseni ajutiselt saadaval. Katkestuse järel saab jätkata.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Krüptitud</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Krüptimata</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Kasuta taastamist selle Windowsi konto juurdepääsu lubamiseks.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>See Windowsi konto saab selle varukoopia avada.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>OneDrive’i taaste kontrollimine…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>OneDrive’i taaste: sees</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>OneDrive’is puudub taastevõti</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>OneDrive’i taaste on kohalikult välja lülitatud; pilve puhastamine võib olla vajalik</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>OneDrive’i taaste vajab tähelepanu</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>OneDrive’i taaste pole saadaval</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>OneDrive’i taaste: väljas</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Katsetuslik. Juhuslik taastevõti salvestatakse Fluff-History OneDrive’i rakendusekausta; varundatud failid jäävad varunduskohta. Õigus kehtib ainult selle rakendusekausta kohta. Teine arvuti võib pärast Microsofti kontole sisselogimist varukoopia taastada. Microsoft märgistab selle õiguse kui Preview. Hoia oma taasteparool alles.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Taasteparool muudetud. Hoia uut parooli turvalises kohas.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>OneDrive’i taaste on lubatud ja kontrollitud. Hoia oma taasteparool alles.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>OneDrive’i taaste on välja lülitatud. Parool ja Windowsi juurdepääs ei muutu.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>OneDrive’i taaste kontrollitud.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Taastamine lõpetatud. See Windowsi konto saab nüüd selle varukoopia avada.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>OneDrive’is puudub taastevõti. Kasuta oma taasteparooli.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>OneDrive’i taastevõti ei saanud seda varukoopiat autentida. Kasuta oma taasteparooli.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Muudatust ei saanud täielikult kinnitada. Kontrolli juurdepääsu enne uut katset; varundusajalugu ei muutu.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Toiming tühistatud.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Turbemuudatust ei saanud lõpetada. Kontrolli juurdepääsu ja proovi uuesti. Parooliga taastamine on endiselt saadaval.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Varukoopia krüptimine</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Olemasoleva varukoopia sisu krüptitakse kohapeal. Varundamine ja taastamine pole ajutiselt saadaval. Hoia taasteparool alles; Windowsi juurdepääs lisatakse automaatselt. Vaja on piisavalt vaba ruumi ning katkestuse järel saab jätkata.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>See salvestab varukoopia metaandmed ja failisisu varundusasukohta krüptimata. Varundamine ja taastamine pole teisenduse ajal ajutiselt saadaval. Katkestuse järel saab jätkata.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Kas lülitada krüptimine sisse?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Kas lülitada krüptimine välja?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Krüptimise muutmine lõpetatud.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Osa kasutusest kõrvaldatud metaandmeid võib jääda krüptimata, kuni puhastamine õnnestub. Puhastamist proovitakse uuesti.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Mõningaid vanu metaandmeid ei saanud veel eemaldada; puhastamist proovitakse uuesti.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Krüptimise muutmine on peatatud. Lõpetamiseks jätka; juba teisendatud failid säilivad.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Krüptimise teisendamist ei alustatud.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Vaja on rohkem vaba ruumi. Lisa ruumi ja jätka. Ajalugu ei eemaldatud.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Vaja on rohkem vaba ruumi. Lisa ruumi ja proovi krüptimise muutmist uuesti. Ajalugu ei eemaldatud.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Kasuta krüptimise muutmise jätkamiseks taasteparooli.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Krüptimise muutmine vajab tähelepanu. Kontrolli varukoopia ühendust ja taasteparooli ning jätka. Ära eemalda teisendusfaile.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Krüptimise muutmist ei saanud alustada. Kontrolli varukoopia ühendust ja valikulisi vahemäluandmeid ning proovi uuesti. Varundusajalugu ei muutu.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Säilita versioone igavesti</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Välistatud kaustu pole.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Vali varukoopiate salvestuskoht</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Jätkamiseks vali varukoopia asukoht.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Selle varukoopia krüptimine on peatatud</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Krüptimise eemaldamine on peatatud</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Salvestamata muudatused · säilivad lehe vahetamisel</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Seadistus on ajakohane</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Vali toetatud varundussagedus.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Vali varukoopia asukoht.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Vali enne salvestamist varukoopia asukoht.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Varukoopia asukoht pole saadaval. Vali Muuda, et see uuesti valida või kasutada teist asukohta.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Kontrolli valitud kaustu ja varukoopia asukohta.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>See kaust sisaldab juba muid andmeid. Fluff-History ei seadista sinna uut varukoopiat. Vali tühi kaust või olemasolev Fluff-History varukoopia.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Vali teine varukoopia asukoht</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>See asukoht pole saadaval. Kontrolli ühendust või vali teine asukoht.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Varukoopia asukoht pole saadaval</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Selle varukoopia asukoha kasutamiseks salvesta muudatused.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Taasteparool ei avanud seda varukoopiat.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Juurdepääsu ei saanud täielikult kinnitada. Kontrolli seda varukoopiat enne uut katset.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Varukoopia asukoht valitud. Vali kaustad ja salvesta muudatused.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Vali kuni 1024 kausta.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Juba varundatud kausta {0} kaudu</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Seda kausta ei saanud valida.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Kaustavaliku konflikt</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Kas varundada need kaustad?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Varunda ikkagi</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>See kaust on juba välistatud.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Kaust on edasistest varundustest välistatud. Senine ajalugu säilib.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Uusim</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Kaust</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Alustamiseks lisa kaustu varunduse seadistuses. Salvestatud kaustad ilmuvad siia.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Selles kaustas pole veel salvestatud versioone. Selle failid ilmuvad pärast edukat varundamist.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Selles kaustas pole valitud ajal salvestatud faile. Proovi teist aega või vali Uusim.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Ajajoon muutus. Jätkamiseks värskenda.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Ajajoone seisuga: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>4096 üksust laaditud. Vaate täpsustamiseks ava kaust.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>1024 aega laaditud. Täpsusta kausta või vali kuupäev ja kellaaeg.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>1024 versiooni laaditud. See eelvaade piirab versiooniloendit.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Ajajoonel pole kaustu</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Uusimad säilinud versioonid</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Praegune edukas versioon on kaitstud ja seda ei saa kustutada.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Vali fail või kaust</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Ava see kaust selle salvestatud failide sirvimiseks.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Ava kaust selle salvestatud failide sirvimiseks. Need kaustad on navigeerimiskirjed, mitte taastatavad kataloogiversioonid.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Vali sellest vaatest faile või kaustu, et need koos taastada. Ühe faili versioonide sirvimiseks vali see fail.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Kaustad näitavad ajajoonele salvestatud faile. Kaustade kuupäevi ja atribuute ei salvestata eraldi.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Ajajoone seadistamiseks ava varunduse seadistus.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Jätkamiseks ava varunduse seadistus.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Selle varukoopia ajajoone laadimiseks värskenda.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Fluff-History ei varunda praegu seda üksust.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Sellele varukoopiale juurdepääsuks ava varunduse seadistus või ülevaade.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Sellel üksusel pole veel salvestatud ajalugu.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Sellel failil pole veel salvestatud versiooni.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Praegu ei varundata</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Praegu ei varundata</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Seda kausta pole enam ajajoonel.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Seda kohalikku kellaaega pole suveajale ülemineku tõttu olemas. Vali teine aeg.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Laadimine tühistatud. Valmis read jäävad saadavale.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Ajajoone laadimine…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Laadimine tühistatud.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Valitud üksusi ei saa taastada</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Kas taastada algsesse asukohta?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Valitud ajaloolised failid taastatakse nende algsetesse lähteasukohtadesse. Windows küsib olemasolevate failide konfliktide kohta.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Kas kustutada see salvestatud versioon?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Salvestatud versioon kustutatud.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Kustutamine tühistatud. Enne tühistamist kustutati {0:N0} salvestatud versiooni; kinnitatud eemaldamised jäävad tehtuks.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Kustutamine vajab tähelepanu. Mõned muudatused või sisu puhastamine võivad olla kinnitamata. Kontrolli varukoopiat enne uut katset.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Toimingut ei saanud lõpetada. Kontrolli seadistust ja proovi uuesti.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Krüptimise muutmine on pooleli</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Taustaagent pole saadaval</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Seadista Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Varundamine käib</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Varundamine vajab tähelepanu</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Vali varukoopia asukoht ja varundatavad kaustad.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Automaatsed varundused on lubatud</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Automaatsed varundused on keelatud</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Varundustingimuste kontrollimine…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Varukoopia avamine…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Failide skannimine ja varundamine…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Säilituspoliitika rakendamine…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Metaandmete kontrollimine…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Metaandmete tihendamine…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Metaandmete puhastamine…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Metaandmete pakkimine…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Krüptimine…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Lahtikrüptimine…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Varundamise lõpetamine…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Tühistamine taotletud</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Vastenduseta kaust</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Kuvatakse {0:N0} selle seansi ajal salvestatud {1:N0} probleemist.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>Varundusajalugu pole ajutiselt saadaval. Jätka krüptimise muutmist varunduse seadistuses.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Varukoopia on olemas, kuid sellel Windowsi kasutajal pole juurdepääsu. Taasteparooliga saab selle taastada.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Varundamine lõppes, kuid ajajoone hooldus vajab tähelepanu. Enne uut puhastamiskatset vaata diagnostikat.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Mõningaid muudatusi ei saanud kinnitada. Kontrolli varukoopia asukohta enne jätkamist.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Varukoopia asukoht vajab enne varundamise jätkamist rohkem vaba ruumi.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Mõned failid või kaustad jäeti vahele. Teede ja põhjuste nägemiseks ava allpool Failide või kaustade probleemid. Muud edukad versioonid jäävad salvestatuks.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Varundamise alustamiseks lisa kaustu varunduse seadistuses.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Pole varundatavaid muudatusi.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>alla sekundi</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} ja {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Taastamine on vajalik. Selle Windowsi kasutaja juurdepääsu lubamiseks kasuta taasteparooli.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Lõpeta enne varundusajaloo kasutamist krüptimise muutmine varunduse seadistuses.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Ajajoon muutus. Sirvimise ja taastamise jätkamiseks värskenda.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>See varukoopia asukoht on vigane või kahjustatud. Kontrolli valitud asukohta.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Varundamine või puhastamine juba käib. Oota selle lõppu ja proovi uuesti.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Seda valikut ei saa siin kasutada. Vali üksused praegusest kaustast ja ajahetkest.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Need valitud ajaloolised üksused sisaldavad sama teega faili ja kausta ning neid ei saa koos taastada.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Toiming tühistatud. Lõpetatud failitoimingud jäävad tehtuks.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Varukoopia asukoht või sihtkoht pole saadaval. Kontrolli asukohta ja ühendust ning proovi uuesti.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Vigane varukoopia asukoht</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Varundamine lõpetatud</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Varundamine lõppes kausta- või failiprobleemidega</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Varundamine tühistatud</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Varundamine peatatud: ruumi pole piisavalt</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Varundamine edasi lükatud</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Varundamine vajab tähelepanu</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Selles rakenduse seansis pole varundamist käivitatud.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Välise toite ootamine.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows ei saanud toiteolekut määrata.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Mahupiiranguta ühenduse ootamine.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows teatab võrgu puudumisest võrguteele varundamiseks.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Süsteem</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Hele</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Tume</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} kasutatud / {1} · {2} vaba</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Kettaruumi kontrollimine…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Kettaruumi teave pole saadaval.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Varukoopia suuruse arvutamine…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Varukoopia hõivas viimasel kontrollil {0}</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Varukoopia hõivab {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Varukoopia suurus pole saadaval</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Eelvaate nägemiseks vali, mida eemaldada. Enne kinnitamist ei eemaldata midagi.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Salvestatud versioonide kontrollimine…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Ajajoon muutus. Vali uuesti, mida eemaldada.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>See vabastaks umbes {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Selle valiku jaoks pole midagi eemaldada.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Vaata eelvaade enne versioonide eemaldamist üle.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Eelvaade tühistatud. Midagi ei eemaldatud.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Eelvaade on poolik: tööpiir on saavutatud. Puhastamist ei saa teha.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Salvestatud versioonide eemaldamine…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Ajajoon muutus pärast seda eelvaadet. Enne versioonide eemaldamist loo uus eelvaade.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Osa salvestatud sisu ei saanud veel kustutada.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Puhastamine lõppes. Allesjäänud versioonide nägemiseks värskenda ajajoont.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Puhastamine tühistatud. Kinnitatud eemaldamised jäävad tehtuks. Värskenda ajajoont.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Puhastamine vajab tähelepanu. Mõned muudatused võivad olla kinnitamata; kontrolli varukoopiat enne uut katset. Värskenda ajajoont.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Säilitab igal teel ühe uusima säilinud versiooni, ka failidest, mida enam ei varundata. Praegused versioonid jäävad kaitstuks.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Praegused versioonid jäävad kaitstuks. Ainult ajajoonel olevad failid võivad täielikult kaduda, kui kõik nende versioonid on sellest vanemad.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Hinnanguline ruum; tegelik vaba ruum võib erineda.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} baiti</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} bait</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} baiti</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} baiti</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} baiti</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} baiti</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} olemasolevat kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} olemasolev kaust</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} olemasolevat kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} olemasolevat kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} olemasolevat kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} olemasolevat kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} failiprobleemi</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} failiprobleem</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} failiprobleemi</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} failiprobleemi</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} failiprobleemi</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} failiprobleemi</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} faili</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} fail</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} faili</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} faili</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} faili</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} faili</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} failiversiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} failiversioon</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} failiversiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} failiversiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} failiversiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} failiversiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} kaust</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} kausta</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} tundi</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} tund</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} tundi</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} tundi</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} tundi</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} tundi</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} üksust</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} üksus</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} üksust</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} üksust</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} üksust</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} üksust</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} minutit</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} minut</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} minutit</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} minutit</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} minutit</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} minutit</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} uut versiooni salvestatud</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} uus versioon salvestatud</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} uut versiooni salvestatud</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} uut versiooni salvestatud</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} uut versiooni salvestatud</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} uut versiooni salvestatud</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} salvestatud versiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} salvestatud versioon</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} salvestatud versiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} salvestatud versiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} salvestatud versiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} salvestatud versiooni</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} sekundit</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} sekund</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} sekundit</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} sekundit</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} sekundit</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} sekundit</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, kaust</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, fail, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Salvestatud {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} valitud</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} üksust valitud</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Salvestatud: {1:f}
+
+See eemaldab jäädavalt ainult selle salvestatud versiooni. Lähtefail ja muud salvestatud versioonid säilivad. Seda ei saa tagasi võtta.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} kausta ajajoonel</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Lisatud {0} · Uuesti lubatud {1} · {2} juba valitud</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} lisamata</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>Eemaldatud {0} ({1} salvestatud sisu).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Kas eemaldada {0} jäädavalt asukohast {1}? Lähtefailid ja praegused versioonid säilivad. Seda ei saa tagasi võtta.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} varundamiseks valitud</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Viimati varundatud {0:f}, kestus {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Viimane varunduskatse {0:f}, kestus {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Salvestatud {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Fail muudetud {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Salvestatud: {2:G}
+Fail muudetud: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Ajajoone seisuga {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Ajajoon</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Iga 10 minuti järel</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Iga 30 minuti järel</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Iga tunni järel</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Iga 3 tunni järel</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Iga 6 tunni järel</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Iga 12 tunni järel</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Iga päev</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Kuni ruumi täitumiseni</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 kuu</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 kuud</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 kuud</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 kuud</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 aasta</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 aastat</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Igavesti</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Sellest vanemad versioonid võidakse pärast edukat varundamist eemaldada. Praegused versioonid jäävad kaitstuks.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Versioonid säilivad, kuni varundusketas jõuab mahu ohutuspiirini. Kui varunduseks on ruumi vaja, eemaldatakse vanimad sobivad versioonid automaatselt. Praegused versioonid jäävad kaitstuks.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Säilituspoliitika „Igavesti” ei eemalda kunagi ajajoone ajalugu automaatselt. Versioone lisatakse seni, kuni varundusketas ei saa enam turvaliselt uut varukoopiat vastu võtta. Siis pead ruumi vabastama või ajajoont käsitsi puhastama.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Vanemad kui 1 kuu</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Vanemad kui 3 kuud</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Vanemad kui 6 kuud</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Vanemad kui 9 kuud</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Vanemad kui 1 aasta</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Vanemad kui 2 aastat</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Säilita ainult uusim versioon</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData sisaldab rakenduste olekut, vahemälusid, andmebaase ja ajutisi faile. See võib sageli muutuda ning ajajoont kiiresti kasvatada. Nende failide taastamine ei asenda rakenduse uuesti paigaldamist või korrektset taastamist.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Süsteemi ja paigaldatud programmide failid on suured ja muutuvad sageli. Fluff-History ei ole süsteemitõmmise varundus. Ainult nende failide taastamine ei pruugi Windowsi või paigaldatud rakendust parandada.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData võib sisaldada rakenduste jagatud olekut, vahemälusid ja andmebaase, mis muutuvad sageli. See võib tekitada suure hulga ajajoone andmeid.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>See asukoht sisaldab peamiselt ajutisi või paigaldusfaile ning võib tekitada palju lühiajalisi ajajoone muudatusi.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>See asukoht sisaldab süsteemi metaandmeid või Fluff-History tööfaile ning seda ei saa varundada.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Varunduse seadistuse kontrollimine…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Rakenduse sätted vajavad tähelepanu. Lähtesta seadistus eraldi; varukoopia andmed jäävad puutumata.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Salvestatud varundusseadistus pole saadaval või on vigane. Kontrolli enne jätkamist varunduse seadistust.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows ei saanud kontrollida varukoopia asukohta või rakenduse ajutisi tööandmeid. Kontrolli juurdepääsu ja vaba ruumi ning proovi uuesti.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Varundamiseks valitud kausta ei saa ka välistada. Eemalda kaust varundusest või muuda välistust.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Vali kuni 256 välistatud kausta ja kuni 256 KiB kaustateid.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>See allikas toetab kuni 256 tegelikult välistatud kausta ja 256 KiB seadistust. Vali vähem või lühemaid välistusi.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Kausta saab valida ainult ühe korra.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Pesastatud valitud kaustad tuleb nende ülemkaustast välistada.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Vali absoluutne kaustatee.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Vali tavaline ketta- või võrgukaust.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Vali täielik võrguketta ühiskasutustee.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>See kaustatee on mitmetähenduslik või väljub oma juurest. Vali tavaline absoluutne kaustatee.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Varukoopia asukohas olevat või seda sisaldavat kausta ei saa varundada.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Kinnita hoiatus enne selle kausta lisamist.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>See viitab Windowsi süsteemi- või rakenduseandmete kaustale. Vali selle tegelik asukoht ja kinnita esmalt hoiatus.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Need kaustad viitavad kattuvatele Windowsi asukohtadele. Vali iga asukoht üks kord.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>See kaust viitab Fluff-History ajutistele tööandmetele ning seda ei saa varundada.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Töölaud</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Dokumendid</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Allalaadimised</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Pildid</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Muusika</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Videod</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Toetamata faili- või kaustanimi.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Mitmetähenduslik tähesuuruse alias.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Toetamata, ümbersuunamispunkti või EFS-i piir.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Toetamata või liiga suur fail.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Allikas muutus kopeerimise ajal.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Sellele failile või kaustale ei pääse juurde.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Sellele failile või kaustale ei pääse juurde (Windowsi tõrge {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Allika juur või selle eellane pole tavaline kataloog.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Toetamata kataloogipiir.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Ruumi kontrollimine</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Failide krüptimine</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Failide lahtikrüptimine</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Metaandmete taasloomine</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Varundamise lõpetamine</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Seda faili või kausta kasutab teine rakendus.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Juurdepääs sellele failile või kaustale keelati.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Seda faili või kausta ei leitud skannimise ajal.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Seadistus salvestatud</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Kaustamuudatused salvestatud. Uuendatud kaustad kaasatakse järgmisse ajastatud varundusse.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Kaustamuudatused salvestatud. Uuendatud kaustad kaasatakse järgmisse varundusse.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Varundamine taotletud</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Varundamine juba käib või on lõpetamisel.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Seadista varunduse seadistuses valmis varukoopia asukoht ja kaustad.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Taasta eelmine versioon…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Ajaloo laadimine...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Varundatud</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Praegu ei varundata</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Fluff-History ei varunda</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Taastamine on vajalik</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Varukoopia pole saadaval</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Ajalooseanss aegus</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Varukoopia pole saadaval. Ava Fluff-History või värskenda.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Ajalooseanss aegus. Jätkamiseks värskenda.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Varukoopia asukoht: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Sirvi kausta ajalugu</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Ava Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Sirvi kõiki versioone</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Kaustad koostatakse salvestatud failiversioonidest.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Taastamine muudab praegust faili. Salvestatud ajalugu säilib.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History pole saadaval. Paigalda arendaja eelvaade ja proovi uuesti.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Kas taastada see salvestatud versioon algsesse asukohta? Windows küsib olemasolevate failide konfliktide kohta. Salvestatud ajalugu säilib.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Kas taastada salvestatud versioon?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Valitud versiooni taastamine...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Varukoopia pole saadaval. Jätkamiseks ava Fluff-History.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Taasta</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Värskenda</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>Kausta ajalugu koostatakse salvestatud failiversioonidest.
+Hiljutised ajajoone ajad:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Salvestatud failiversioone veel pole.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Muudetud {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Sellest failist pole salvestatud versiooni. Jätkamiseks ava ajajoon või varunduse seadistus.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Uusim salvestatud versioon: {0:f}
+Säilitatud versioone: {1:N0}
+Vanim säilitatud versioon: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Uusim salvestatud versioon: {0:f}
+Säilitatud versioone: {1:N0}+; täieliku ajaloo jaoks ava ajajoon
+Vanim säilitatud versioon: täieliku ajaloo jaoks ava ajajoon</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Fluff-History ei varunda.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Taastamine on vajalik. Juurdepääsu taastamiseks ava Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Varukoopia pole saadaval. Ava Fluff-History või proovi uuesti.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Taastamine vajab tähelepanu. Kontrolli sihtkohta enne uut katset.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Taastamine tühistatud. Lõpetatud failitoimingud jäävad tehtuks.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Fail taastatud. Salvestatud ajalugu ei muutunud.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Ühtegi faili ei taastatud. Kontrolli sihtkohta.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Ajalugu muutus. Enne taastamist värskenda.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Taastamine pole saadaval. Jätkamiseks ava Fluff-History.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Taastamine tühistatud. Kontrolli sihtkohta.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>et-EE</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Otseteed:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Loo otsetee &amp;töölauale</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Loo otsetee &amp;menüüsse Start</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History vajab oma kindlat kasutajapõhist paigalduskausta.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Paigaldus või rakenduse käivitamine on pooleli. Oota veidi ja proovi uuesti.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History ei saanud värskendust ette valmistada. Sulge aktiivsed failitoimingud ja atribuutide lehed ning proovi uuesti. Varukoopiahoidla ei muutunud.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History ei saanud paigaldust lõpetada. Rakenduse olek säilitati uue katse jaoks; varukoopiahoidla ei muutunud.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Paigaldus vajab tähelepanu</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History ei saanud paigaldust lõpetada. Rakenduse sätted ja varukoopiahoidla säilitati. Proovimiseks käivita paigaldus uuesti.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Enne eemaldamist sulge Fluff-History, aktiivsed failitoimingud ja atribuutide lehed. Midagi ei peatatud sunniviisiliselt.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Diagnostika kopeeritud. Vaata kaustateed enne jagamist üle.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Keel</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rakenduse keel</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Kasuta Windowsi keelt</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Muudatused rakenduvad kohe. Kuupäevad ja arvud kasutavad piirkonnasätteid.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Paranda OneDrive’i taaste</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Lülita kohalikult välja…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Vana taasteviis vajab üleviimist OneDrive’i.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Katsetuslik OneDrive’i taaste pole selles versioonis seadistatud.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>OneDrive’i taaste kasutamiseks logi Microsofti sisse.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Microsofti sisselogimine või nõusolek lükati tagasi. Parooliga taastamine on endiselt saadaval.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>OneDrive’i rakendusekausta nõutav õigus pole saadaval. Parooliga taastamine on endiselt saadaval.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>OneDrive’i taaste vajab internetiühendust. Parool ja kohalik Windowsi juurdepääs on endiselt saadaval.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>OneDrive’i taastet ei saanud praegu kontrollida. Proovi hiljem uuesti või kasuta oma taasteparooli.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive on hõivatud. Proovi hiljem uuesti.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive pole selle Microsofti konto jaoks saadaval või seadistatud. Kasuta oma taasteparooli.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>OneDrive’i taastevõti on muutunud või vigane. Kasuta oma taasteparooli või paranda taaste arvutis, mis saab selle varukoopia avada.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>OneDrive’i puhastamine võib veel olla vajalik. See puudutab ainult taastevõtit; parool ja Windowsi juurdepääs ei muutu.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>OneDrive’i puhastamine võib veel olla vajalik. Taastefail: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>OneDrive’i taaste töötab, kuid vana Windowsi taastemandaati ei saanud täielikult eemaldada.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Kas lülitada OneDrive’i taaste kohalikult välja?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>See eemaldab varukoopia OneDrive’i taastelingi ilma pilves olevat taastefaili kustutamata. Võimalik, et pead selle faili OneDrive’ist käsitsi eemaldama. Parool ja Windowsi juurdepääs ei muutu.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>OneDrive’i taaste on kohalikult välja lülitatud.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Kas parandada OneDrive’i taaste?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Loo ja kontrolli uus taastevõti enne vana kõrvaldamist. Muudetud pilvefailid säilitatakse.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Värskendused</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Värskenduskanal</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Kontrolli automaatselt</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Stabiilne</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beeta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Mitte kunagi</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Iga päev</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Iga nädal</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Iga kuu</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Kontrolli kohe</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Praegune versioon: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Viimati kontrollitud: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Avaldamata arendusversioon</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Saadaval on {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Laadi alla ja installi</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Vaata väljalaskemärkmeid</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Ajakohane</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Värskenduste otsimine…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Värskenduse allalaadimine… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Värskenduse kontrollimine…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Installimiseks valmis</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Varundamise või muu käimasoleva töö lõpu ootamine.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Värskenduse installimine…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>GitHubiga ei õnnestunud ühendust saada. Proovi hiljem uuesti.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub piirab päringuid. Proovi hiljem uuesti.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Installitavat versiooni pole saadaval.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Installeri kontroll nurjus. Värskendust ei installitud.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Automaatne installimine muutub kättesaadavaks pärast väljalaske allkirjastaja heakskiitmist.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Värskendust ei saanud installida. Proovi hiljem uuesti.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Värskendus installiti, kuid akent ei saanud uuesti avada.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>See avaldamata versioon ei saa avalikke värskendusi installida.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Automaatne värskenduste otsimine on keelatud.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Automaatsed kontrollid võtavad ühendust GitHubiga. Varukoopia- ega kontoandmeid ei saadeta.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Varundamine käib. Kas peatada see ja installida värskendus?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Peata varundamine ja installi</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Pole veel kontrollitud</value></data>
+</root>

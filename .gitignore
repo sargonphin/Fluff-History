@@ -1,0 +1,19 @@
+# .NET and test output
+**/bin/
+**/obj/
+**/TestResults/
+artifacts/
+*.trx
+*.coverage
+*.coveragexml
+
+# Local IDE settings
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db

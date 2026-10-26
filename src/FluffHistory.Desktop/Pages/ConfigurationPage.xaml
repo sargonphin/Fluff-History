@@ -1,0 +1,112 @@
+<UserControl x:Class="FluffHistory.Desktop.Pages.ConfigurationPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:loc="using:FluffHistory.Desktop.Presentation" xmlns:models="using:FluffHistory.Desktop.Presentation.Models" xmlns:presentation="using:FluffHistory.Desktop.Presentation">
+
+ <presentation:PageLayout>
+
+ <presentation:PageLayout.Header>
+<TextBlock loc:Localize.Uid="Configuration_TextBlock_PageTitle" Style="{StaticResource PageTitle}" />
+ </presentation:PageLayout.Header>
+
+ <presentation:PageLayout.Body>
+<StackPanel Style="{StaticResource PageSections}">
+    <Border Style="{StaticResource SectionPanel}" HorizontalAlignment="Stretch"><Grid ColumnSpacing="16">
+     <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+     <presentation:ShellIcon Key="section:Drive" Width="24" Height="24" VerticalAlignment="Top" Margin="0,3,0,0" />
+     <StackPanel Grid.Column="1" Spacing="6">
+      <TextBlock loc:Localize.Uid="Configuration_TextBlock_BackupLocation" Style="{StaticResource SectionTitle}" />
+      <TextBlock Text="{x:Bind Model.RepositoryPath, Mode=OneWay}" Style="{StaticResource BodyText}" IsTextSelectionEnabled="True" />
+      <TextBlock Text="{x:Bind Model.RepositoryStatus, Mode=OneWay}" Style="{StaticResource SecondaryText}" AutomationProperties.LiveSetting="Polite" />
+      <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,4" Visibility="{x:Bind Model.HasEncryptionStatus, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+       <Button loc:Localize.Uid="Configuration_Button_ChangePassword" Command="{x:Bind Model.ChangePassword}" Visibility="{x:Bind Model.IsEncrypted, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+       <Button loc:Localize.Uid="Configuration_Button_TurnOnEncryption" Command="{x:Bind Model.TurnOnEncryption}" Visibility="{x:Bind Model.IsUnencrypted, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+       <Button loc:Localize.Uid="Configuration_Button_TurnOffEncryption" Command="{x:Bind Model.TurnOffEncryption}" Visibility="{x:Bind Model.IsEncrypted, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+      </StackPanel>
+      <StackPanel Spacing="8" Visibility="{x:Bind Model.ShowEncryptionMaintenance, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+       <TextBlock Text="{x:Bind Model.EncryptionMaintenanceTitle, Mode=OneWay}" Style="{StaticResource BodyText}" Visibility="{x:Bind Model.EncryptionIsActive, Mode=OneWay, Converter={StaticResource VisibleWhen}}" AutomationProperties.LiveSetting="Polite" />
+       <TextBlock Text="{x:Bind Model.EncryptionMaintenanceDetail, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+       <ProgressBar loc:Localize.Uid="Configuration_ProgressBar_EncryptionProgress" Minimum="0" Maximum="100" Value="{x:Bind Model.EncryptionProgressPercent, Mode=OneWay}" IsIndeterminate="{x:Bind Model.EncryptionIndeterminate, Mode=OneWay}" Visibility="{x:Bind Model.EncryptionIsActive, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+       <StackPanel Orientation="Horizontal" Spacing="8"><Button loc:Localize.Uid="Configuration_Button_ResumeEncryption" Command="{x:Bind Model.ResumeEncryption}" /><Button loc:Localize.Uid="Configuration_Button_PauseEncryption" Command="{x:Bind Model.PauseEncryption}" /></StackPanel>
+      </StackPanel>
+      <StackPanel Style="{StaticResource DriveUsageContainer}" Margin="0,6,0,4" Visibility="{x:Bind Model.Storage.HasLocation, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+       <TextBlock loc:Localize.Uid="Configuration_TextBlock_DriveSpace" Style="{StaticResource BodyText}" />
+       <Border Style="{StaticResource DriveUsageTrack}" Visibility="{x:Bind Model.Storage.HasDriveSpace, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+        <ProgressBar loc:Localize.Uid="Configuration_ProgressBar_DriveSpaceUsed" Style="{StaticResource DriveUsageBar}" Value="{x:Bind Model.Storage.UsedPercent, Mode=OneWay}" />
+       </Border>
+       <TextBlock Text="{x:Bind Model.Storage.DriveSpace, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+      </StackPanel>
+      <Button loc:Localize.Uid="Configuration_Button_Recover" Command="{x:Bind Model.Recover}" Visibility="{x:Bind Model.NeedsRecovery, Mode=OneWay, Converter={StaticResource VisibleWhen}}"><StackPanel Orientation="Horizontal" Spacing="8"><FontIcon Glyph="" FontSize="16" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_RecoverAccess" /></StackPanel></Button>
+      <Button loc:Localize.Uid="Configuration_Button_RecoverExperimental" Command="{x:Bind Model.RecoverExperimental}" Visibility="{x:Bind Model.CanOfferExperimentalRecovery, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+     </StackPanel>
+     <Button loc:Localize.Uid="Configuration_Button_ChangeLocation" Grid.Column="2" Command="{x:Bind Model.ChangeLocation}" IsEnabled="{x:Bind Model.CanEdit, Mode=OneWay}" VerticalAlignment="Top" />
+    </Grid></Border>
+   <ContentControl IsEnabled="{x:Bind Model.CanEdit, Mode=OneWay}" HorizontalContentAlignment="Stretch"><StackPanel Spacing="16" HorizontalAlignment="Stretch" Padding="0,0,0,12">
+    <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
+     <StackPanel Style="{StaticResource SectionHeading}"><presentation:ShellIcon Key="section:Folders" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_SourceFolders" Style="{StaticResource SectionTitle}" VerticalAlignment="Center" /></StackPanel>
+     <ListView loc:Localize.Uid="Configuration_ListView_SourceFolders" ItemsSource="{x:Bind Model.Sources}" SelectedItem="{x:Bind Model.SelectedSource, Mode=TwoWay}" MaxHeight="230" SelectionMode="Single" HorizontalContentAlignment="Stretch" ItemContainerStyle="{StaticResource FullRowItem}">
+      <ListView.ItemTemplate><DataTemplate x:DataType="models:SourceRow">
+       <Grid Background="Transparent" ColumnSpacing="12" Padding="0,6"><Grid.ColumnDefinitions><ColumnDefinition Width="24" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+        <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+        <ContentControl Grid.RowSpan="2" Content="{x:Bind IconKind, Converter={StaticResource FolderIcon}}" IsTabStop="False" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+        <TextBlock Grid.Column="1" Text="{x:Bind Label}" TextWrapping="Wrap" IsTextSelectionEnabled="False" VerticalAlignment="Center" />
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{x:Bind Description}" Style="{StaticResource SecondaryText}" IsTextSelectionEnabled="False" Margin="0,3,0,0" />
+       </Grid>
+      </DataTemplate></ListView.ItemTemplate>
+     </ListView>
+     <StackPanel Orientation="Horizontal" Spacing="8"><Button loc:Localize.Uid="Configuration_Button_Add" Command="{x:Bind Model.Add}" /><Button loc:Localize.Uid="Configuration_Button_Remove" Command="{x:Bind Model.Remove}" /></StackPanel>
+     <TextBlock loc:Localize.Uid="Configuration_TextBlock_RemoveFolderExplanation" Style="{StaticResource SecondaryText}" />
+    </StackPanel></Border>
+    <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
+      <StackPanel Style="{StaticResource SectionHeading}"><presentation:ShellIcon Key="section:ExcludedFolders" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_ExcludedFolders" Style="{StaticResource SectionTitle}" VerticalAlignment="Center" /></StackPanel>
+      <TextBlock loc:Localize.Uid="Configuration_TextBlock_ExclusionsExplanation" Style="{StaticResource SecondaryText}" />
+      <TextBlock Text="{x:Bind Model.ExclusionsEmptyMessage, Mode=OneWay}" Style="{StaticResource SecondaryText}" Visibility="{x:Bind Model.NoExcludedFolders, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+      <ListView loc:Localize.Uid="Configuration_ListView_ExcludedFolders" ItemsSource="{x:Bind Model.ExcludedFolders}" SelectedItem="{x:Bind Model.SelectedExclusion, Mode=TwoWay}" DisplayMemberPath="Label" MaxHeight="160" SelectionMode="Single" Visibility="{x:Bind Model.HasExcludedFolders, Mode=OneWay, Converter={StaticResource VisibleWhen}}" HorizontalContentAlignment="Stretch" />
+      <StackPanel Orientation="Horizontal" Spacing="8"><Button loc:Localize.Uid="Configuration_Button_ExcludeFolder" Command="{x:Bind Model.ExcludeFolder}" /><Button loc:Localize.Uid="Configuration_Button_RemoveExclusion" Command="{x:Bind Model.RemoveExclusion}" /></StackPanel>
+    </StackPanel></Border>
+    <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="16">
+     <StackPanel Style="{StaticResource SectionHeading}"><presentation:ShellIcon Key="section:AutomaticBackups" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_AutomaticBackups" Style="{StaticResource SectionTitle}" VerticalAlignment="Center" /></StackPanel>
+     <ToggleSwitch loc:Localize.Uid="Configuration_ToggleSwitch_AutomaticBackups" IsOn="{x:Bind Model.SchedulingEnabled, Mode=TwoWay}" />
+     <ComboBox loc:Localize.Uid="Configuration_ComboBox_BackupFrequency" ItemsSource="{x:Bind Model.Frequencies, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedFrequency, Mode=TwoWay}" DisplayMemberPath="Label" HorizontalAlignment="Stretch" />
+     <ComboBox loc:Localize.Uid="Configuration_ComboBox_RetentionPolicy" ItemsSource="{x:Bind Model.RetentionPolicies, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedRetention, Mode=TwoWay}" DisplayMemberPath="Label" HorizontalAlignment="Stretch" />
+     <InfoBar AutomationProperties.AutomationId="RetentionNotice" IsOpen="True" IsClosable="False" MinHeight="112" Severity="{x:Bind Model.ForeverWarning, Mode=OneWay, Converter={StaticResource RetentionSeverity}}" Title="{x:Bind Model.RetentionNoticeTitle, Mode=OneWay}" Message="{x:Bind Model.RetentionNotice, Mode=OneWay}" />
+     <TextBlock loc:Localize.Uid="Configuration_TextBlock_BackgroundSchedulingExplanation" Style="{StaticResource SecondaryText}" />
+    </StackPanel></Border>
+    <Expander loc:Localize.Uid="Configuration_Expander_PowerNetwork" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+     <Expander.Header><StackPanel loc:Localize.Uid="Configuration_StackPanel_PowerNetwork" Style="{StaticResource SectionHeading}"><FontIcon FontFamily="Segoe Fluent Icons" Glyph="" FontSize="22" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_PowerNetwork" Style="{StaticResource SectionTitle}" VerticalAlignment="Center" /></StackPanel></Expander.Header>
+     <StackPanel Spacing="8">
+     <CheckBox loc:Localize.Uid="Configuration_CheckBox_PauseOnBattery" IsChecked="{x:Bind Model.PauseOnBattery, Mode=TwoWay}" />
+     <CheckBox loc:Localize.Uid="Configuration_CheckBox_AllowMeteredNetwork" IsChecked="{x:Bind Model.AllowMetered, Mode=TwoWay}" />
+     <CheckBox loc:Localize.Uid="Configuration_CheckBox_WaitForNetwork" IsChecked="{x:Bind Model.DeferOffline, Mode=TwoWay}" />
+    </StackPanel></Expander>
+    <Expander loc:Localize.Uid="Configuration_Expander_Advanced" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+     <Expander.Header><StackPanel loc:Localize.Uid="Configuration_StackPanel_Advanced" Style="{StaticResource SectionHeading}"><presentation:ShellIcon Key="section:Advanced" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_Advanced" Style="{StaticResource SectionTitle}" VerticalAlignment="Center" /></StackPanel></Expander.Header>
+     <StackPanel Spacing="16">
+     <StackPanel Spacing="8" Visibility="{x:Bind Model.IsEncrypted, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+      <CheckBox loc:Localize.Uid="Configuration_CheckBox_ToggleExperimental" IsChecked="{x:Bind Model.ExperimentalEnabled, Mode=OneWay}" Command="{x:Bind Model.ToggleExperimental}" AutomationProperties.HelpText="{x:Bind Model.ExperimentalExplanation, Mode=OneWay}" />
+      <TextBlock Text="{x:Bind Model.ExperimentalStatus, Mode=OneWay}" Style="{StaticResource SecondaryText}" AutomationProperties.LiveSetting="Polite" />
+      <Button loc:Localize.Uid="Configuration_Button_VerifyExperimental" Command="{x:Bind Model.VerifyExperimental}" />
+      <StackPanel Orientation="Horizontal" Spacing="8">
+       <Button loc:Localize.Uid="Configuration_Button_RepairExperimental" Command="{x:Bind Model.RepairExperimental}" />
+       <Button loc:Localize.Uid="Configuration_Button_DisableExperimentalLocally" Command="{x:Bind Model.DisableExperimentalLocally}" />
+      </StackPanel>
+      <InfoBar loc:Localize.Uid="Configuration_InfoBar_ExperimentalRecovery" IsOpen="True" IsClosable="False" Severity="Informational" Message="{x:Bind Model.ExperimentalExplanation, Mode=OneWay}" />
+     </StackPanel>
+     <CheckBox loc:Localize.Uid="Configuration_CheckBox_WaitForPowerState" IsChecked="{x:Bind Model.BlockUnknownPower, Mode=TwoWay}" />
+     <Button loc:Localize.Uid="Configuration_Button_Reset" Command="{x:Bind Model.Reset}" />
+    </StackPanel></Expander>
+   </StackPanel></ContentControl></StackPanel>
+ </presentation:PageLayout.Body>
+
+ <presentation:PageLayout.Footer>
+<StackPanel Margin="0,16,0,0" Spacing="6">
+   <TextBlock Text="{x:Bind Model.Message, Mode=OneWay}" Style="{StaticResource BodyText}" AutomationProperties.LiveSetting="Polite" MaxLines="4" />
+   <TextBlock Text="{x:Bind Model.Validation, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+   <StackPanel Orientation="Horizontal" Spacing="12">
+    <Button loc:Localize.Uid="Configuration_Button_Apply" Command="{x:Bind Model.Apply}" Style="{StaticResource AccentButtonStyle}" />
+    <Button loc:Localize.Uid="Configuration_Button_Discard" Command="{x:Bind Model.Discard}" />
+    <TextBlock Text="{x:Bind Model.DraftStatus, Mode=OneWay}" Style="{StaticResource SecondaryText}" VerticalAlignment="Center" />
+   </StackPanel>
+  </StackPanel>
+ </presentation:PageLayout.Footer>
+
+ </presentation:PageLayout>
+
+</UserControl>

@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>ru-RU</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Шкала времени</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Настройки приложения</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Расположение резервной копии</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Изменить пароль восстановления…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Включить шифрование…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Отключить шифрование…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ход преобразования шифрования</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Приостановить</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Место на диске</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Занятое место на диске резервной копии</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Восстановить доступ…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Восстановить доступ…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Восстановить через учётную запись Microsoft (экспериментально)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Изменить…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Изменить расположение резервной копии</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Папки для резервного копирования</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Папки для резервного копирования</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Добавить папки…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Исключить из резервного копирования</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Удаление папки прекращает её будущее резервное копирование. Существующая история сохраняется согласно настройкам хранения.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Исключённые папки</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Исключённые папки не включаются в будущие резервные копии. Существующая история сохраняется.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Исключённые папки</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Исключить папку…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Исключить папку</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Удалить исключение</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Удалить выбранное пользовательское исключение</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Автоматическое резервное копирование</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Автоматическое резервное копирование</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Копировать файлы</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Частота резервного копирования</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Хранить сохранённые версии</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Срок хранения версий</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Автоматическое копирование продолжается после закрытия окна. Пропущенные копии не ставятся в очередь.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Питание и сеть</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Питание и сеть</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Питание и сеть</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Приостанавливать автоматическое копирование при работе от батареи</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Разрешить сетевые резервные копии через лимитные подключения</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Ждать, если Windows не обнаруживает сеть для сетевой копии</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Сохранить ключ восстановления в OneDrive (экспериментально)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Проверить восстановление через OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Экспериментальное восстановление</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Ждать, если Windows не может определить состояние питания</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Сбросить конфигурацию приложения…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Отменить изменения</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History — предварительная версия для разработчиков</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Плановое копирование продолжается после закрытия окна. Интеграция с Проводником и Свойствами устанавливается вместе с Fluff-History. Поддерживаются восстановление паролем и локальный доступ Windows. Без телеметрии и автоматической отправки.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Копировать очищенную диагностику</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Проверьте пути к папкам перед отправкой. Пароли восстановления, ключевые данные и токены учётных записей не включаются.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Диагностика приложения</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Шкала времени</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Выполняется изменение шифрования</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>История копии временно недоступна. Продолжите изменение шифрования в Конфигурации, чтобы завершить его.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Путь к папке на шкале времени</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Дата шкалы времени</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Последние</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Выбрать дату и время…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Показать шкалу времени на местное время</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Дата просмотра</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Время просмотра</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Показать шкалу времени</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Выше</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Родительская папка</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Раньше</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Более ранний момент шкалы времени</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Позже</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Более поздний момент шкалы времени</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Удалить старые версии…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Крупные значки</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Список</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Восстановить выбранное…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Снять выделение</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Список шкалы времени</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Крупные значки шкалы времени</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Нет версий для отображения на шкале времени</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Открыть Конфигурацию</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Загрузить ещё файлы и папки</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Просмотр / Открыть</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Восстановить выбранную версию</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Действия с сохранённой версией</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Восстановить в…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Версии · сначала новые</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Версии файла</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Загрузить ещё версии</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Загрузка шкалы времени</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Отменить загрузку</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Настроить Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Создать копию сейчас</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Восстановить доступ…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Восстановить доступ…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Требуется внимание</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ход резервного копирования</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Место на диске</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Занятое место на диске резервной копии</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Проблемы с файлами или папками</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Отменить копирование</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Открыть шкалу времени</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Настройки приложения</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Выберите внешний вид Fluff-History. Системный режим использует оформление Windows.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Не удалось загрузить настройки приложения. Используются безопасные значения по умолчанию. Выберите настройку, чтобы сохранить новую копию.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Папки, расписание и хранение настраиваются в Конфигурации. Шкала времени запоминает выбор крупных значков или списка.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Удалить сохранённые версии</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Выберите, что удалить...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Период очистки</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Отменить очистку</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Восстановить</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Восстановить в…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Просмотр / Открыть</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Удалить сохранённую версию…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Использовать это расположение копии</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Закрытие</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Ожидание завершения активных операций…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Завершение работы требует внимания</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Дождитесь активной операции с файлами и попробуйте закрыть снова.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Действие требует внимания</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Требуется восстановление</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Откройте Обзор или Конфигурацию, чтобы восстановить доступ паролем восстановления.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Не настроено</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Выберите Настроить Fluff-History в Обзоре, чтобы начать.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Готово к настройке</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Отменено; уже завершённые операции с файлами остаются выполненными.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Не удалось завершить операцию. Проверьте выбранные папки, конфигурацию и подключение и попробуйте снова.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Настройки приложения сохранены</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Перед сохранением явно сбросьте повреждённые настройки приложения.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History закрывается для обновления.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Фоновый агент недоступен. Откройте Fluff-History снова или восстановите установку.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Предпросмотр шкалы времени открыт</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Восстановление: {0:N0} скопировано · {1:N0} пропущено · {2:N0} ошибок · {3:N0} не подтверждено · {4:N0} предупреждений метаданных</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Отменено</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Восстановление завершено. Этот пользователь Windows теперь может открыть копию.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Пароль восстановления не смог разблокировать копию. Проверьте пароль и попробуйте снова.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Восстановление не удалось полностью подтвердить. Новое локальное открытие удалось; проверьте доступ перед повтором.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Не удалось подтвердить локальный доступ после восстановления. Проверьте расположение копии перед повтором.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Расположение копии недопустимо или повреждено. Восстановление не завершено.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Восстановление отменено.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Не удалось завершить восстановление. Проверьте расположение копии и подключение перед повтором.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Расположение резервной копии</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Добавить папки</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Папки для резервного копирования</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Защитить копию паролем восстановления</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Настроить это расположение копии?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Эта пустая папка будет настроена сейчас. Затем сохраните изменения, чтобы начать её использовать.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Пароль восстановления</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Подтвердите пароль</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Изменить пароль восстановления</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Продолжить изменение шифрования</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Защитить резервную копию</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Восстановить доступ к копии</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Создать защищённую копию</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Восстановить доступ</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Изменяет пароль для переносимого восстановления. Данные существующей копии не нужно шифровать заново. Храните новый пароль в надёжном месте.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Введите пароль восстановления для этого изменения шифрования. Копирование останется приостановленным, если доступ не удастся подтвердить.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Храните пароль восстановления в надёжном месте. Он понадобится для восстановления доступа в другой установке Windows. Этот пользователь Windows может открывать копию обычным образом.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Копия существует, но этот пользователь Windows пока не может её открыть. Введите пароль восстановления, чтобы разрешить доступ.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Введите пароль; подтверждение должно совпадать</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>Найдена существующая копия</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Удалить старые версии</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Удалить версии…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Подтвердить очистку шкалы времени</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Удалено из будущих копий. Существующая история сохраняется согласно настройкам хранения.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Эта папка будет включаться в будущие копии, если не действует другое исключение. Существующая история сохраняется.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Сбросить конфигурацию приложения?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Исходные данные и копия останутся нетронутыми. Сбрасываются только настройки приложения.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Сбросить конфигурацию</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Изменение шифрования приостановлено</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Удаление шифрования приостановлено</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Изменение шифрования требует внимания</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Подготовка изменения шифрования</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} из {1} · {2:N0} из {3:N0} файлов</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Не удалось проверить управление преобразованием. История копии остаётся недоступной. Проверьте подключение к копии и Диагностику.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>История копии временно недоступна во время преобразования. После прерывания можно продолжить.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Зашифровано</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Не зашифровано</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Используйте восстановление, чтобы разрешить доступ этой учётной записи Windows.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Эта учётная запись Windows может разблокировать копию.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Проверка восстановления через OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Восстановление через OneDrive: включено</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>В OneDrive отсутствует ключ восстановления</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Восстановление через OneDrive отключено локально; может потребоваться очистка в облаке</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>Восстановление через OneDrive требует внимания</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Восстановление через OneDrive недоступно</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Восстановление через OneDrive: отключено</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Экспериментальная функция. Случайный ключ восстановления хранится в папке приложения Fluff-History в OneDrive; файлы резервной копии остаются в месте резервного копирования. Разрешение охватывает только эту папку. Другой компьютер может восстановить копию после входа в учетную запись Microsoft. Microsoft помечает это разрешение как Preview. Сохраните пароль восстановления.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Пароль восстановления изменён. Храните новый пароль в надёжном месте.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Восстановление через OneDrive включено и проверено. Сохраните пароль восстановления.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Восстановление через OneDrive отключено. Пароль и доступ через Windows не изменены.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Восстановление через OneDrive проверено.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Восстановление завершено. Эта учётная запись Windows теперь может разблокировать копию.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>В OneDrive отсутствует ключ восстановления. Используйте пароль восстановления.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>Ключ восстановления OneDrive не смог подтвердить подлинность этой копии. Используйте пароль восстановления.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Не удалось полностью подтвердить изменение. Проверьте доступ перед повтором; история копии не изменена.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Операция отменена.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Не удалось завершить изменение безопасности. Проверьте доступ и повторите попытку. Восстановление паролем остаётся доступным.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Шифрование резервной копии</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Существующее содержимое копии будет зашифровано на месте. Копирование и восстановление временно недоступны. Сохраните пароль восстановления; доступ Windows добавляется автоматически. Требуется достаточно свободного места; после прерывания можно продолжить.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Метаданные и содержимое файлов копии будут храниться незашифрованными в расположении копии. Копирование и восстановление временно недоступны при преобразовании. После прерывания можно продолжить.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Включить шифрование?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Отключить шифрование?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Изменение шифрования завершено.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Некоторые выведенные из использования метаданные могут оставаться незашифрованными до успешной очистки. Очистка будет повторена.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Некоторые старые метаданные пока не удалось удалить; очистка будет повторена.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Изменение шифрования приостановлено. Продолжите для завершения; уже преобразованные файлы сохранены.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Преобразование шифрования не запущено.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Требуется больше свободного места. Освободите место и продолжите. История не удалялась.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Требуется больше свободного места. Освободите место и повторите изменение шифрования. История не удалялась.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Используйте пароль восстановления, чтобы продолжить изменение шифрования.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Изменение шифрования требует внимания. Проверьте подключение к копии и пароль восстановления, затем продолжите. Не удаляйте файлы преобразования.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Не удалось начать изменение шифрования. Проверьте подключение к копии и необязательные данные кэша, затем повторите. История копии не изменена.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Хранить версии всегда</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Нет исключённых папок.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Выберите место хранения копий</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Выберите расположение копии, чтобы продолжить.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Шифрование этой копии приостановлено</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Удаление шифрования приостановлено</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Несохранённые изменения · сохраняются при смене страницы</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Конфигурация актуальна</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Выберите поддерживаемую частоту копирования.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Выберите расположение копии.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Выберите расположение копии перед сохранением.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Расположение копии недоступно. Нажмите Изменить, чтобы выбрать его снова или использовать другое.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Проверьте выбранные папки и расположение копии.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Эта папка уже содержит посторонние данные. Fluff-History не создаст в ней новую копию. Выберите пустую папку или существующую копию Fluff-History.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Выбрать другое расположение копии</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Это расположение недоступно. Проверьте подключение или выберите другое.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Расположение копии недоступно</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Сохраните изменения, чтобы использовать это расположение копии.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Пароль восстановления не смог разблокировать копию.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Не удалось полностью подтвердить доступ. Проверьте копию перед повтором.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Расположение копии выбрано. Выберите папки и сохраните изменения.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Выберите не более 1 024 папок.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Уже копируется через {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Не удалось выбрать эту папку.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Конфликт выбора папок</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Копировать эти папки?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Всё равно копировать</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Эта папка уже исключена.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Папка исключена из будущих копий. Существующая история сохраняется.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Последние</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Добавьте папки в Конфигурации, чтобы начать. Сохранённые папки появятся здесь.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>В этой папке пока нет сохранённых версий. Файлы появятся после успешного копирования.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>В папке нет сохранённых файлов на выбранный момент. Выберите другой момент или Последние.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Шкала времени изменилась. Обновите для продолжения.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Шкала времени на: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>Загружено 4 096 элементов. Откройте папку, чтобы уточнить представление.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>Загружено 1 024 момента. Уточните папку или выберите дату и время.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>Загружено 1 024 версии. Предпросмотр ограничивает список версий.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Нет папок на шкале времени</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Последние сохранившиеся версии</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Текущая успешная версия защищена и не может быть удалена.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Выберите файл или папку</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Откройте папку для просмотра сохранённых файлов.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Откройте папку для просмотра сохранённых файлов. Эти папки служат для навигации и не являются восстанавливаемыми версиями каталогов.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Выберите файлы или папки в этом представлении для совместного восстановления. Выберите один файл для просмотра его версий.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Папки показывают файлы, сохранённые на шкале времени. Даты и свойства папок отдельно не сохраняются.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Откройте Конфигурацию, чтобы настроить шкалу времени.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Откройте Конфигурацию для продолжения.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Обновите, чтобы загрузить шкалу времени этой копии.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Этот элемент сейчас не копируется Fluff-History.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Откройте Конфигурацию или Обзор для доступа к копии.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>У элемента пока нет сохранённой истории.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>У файла пока нет сохранённой версии.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Сейчас не копируется</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Сейчас не копируется</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Этой папки больше нет на шкале времени.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Это местное время не существует из-за перехода на летнее время. Выберите другое.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Загрузка отменена. Загруженные строки остаются доступными.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Загрузка шкалы времени…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Загрузка отменена.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Не удаётся восстановить выбранные элементы</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Восстановить в исходное расположение?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Выбранные исторические файлы будут восстановлены в исходные расположения. Windows спросит о конфликтах с существующими файлами.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Удалить эту сохранённую версию?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Сохранённая версия удалена.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Удаление отменено. До отмены удалено {0:N0} сохранённых версий; подтверждённые удаления остаются выполненными.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Удаление требует внимания. Некоторые изменения или очистка содержимого могут быть не подтверждены. Проверьте копию перед повтором.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Не удалось завершить действие. Проверьте конфигурацию и повторите.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Выполняется изменение шифрования</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Фоновый агент недоступен</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Настроить Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Выполняется копирование</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Копия требует внимания</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Выберите расположение копии и папки для копирования.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Автоматическое копирование включено</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Автоматическое копирование отключено</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Проверка условий копирования…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Открытие резервной копии…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Сканирование и копирование файлов…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Применение политики хранения…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Проверка метаданных…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Уплотнение метаданных…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Очистка метаданных…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Сжатие метаданных…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Шифрование…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Расшифровка…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Завершение копирования…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Запрошена отмена</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Несопоставленная папка</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Показано {0:N0} из {1:N0} проблем, зафиксированных в этом сеансе.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>История копии временно недоступна. Продолжите изменение шифрования в Конфигурации.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Копия существует, но у этого пользователя Windows нет доступа. Пароль восстановления может вернуть доступ.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Копирование завершено, но обслуживание шкалы времени требует внимания. Проверьте Диагностику перед повторной очисткой.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Некоторые изменения не удалось подтвердить. Проверьте расположение копии перед продолжением.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Для продолжения копирования требуется больше свободного места в расположении копии.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Некоторые файлы или папки пропущены. Раскройте раздел Проблемы с файлами или папками ниже, чтобы увидеть пути и причины. Другие успешные версии сохранены.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Добавьте папки в Конфигурации, чтобы начать копирование.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Нет изменений для копирования.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>меньше секунды</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} и {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Требуется восстановление. Используйте пароль восстановления, чтобы разрешить доступ этому пользователю Windows.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Завершите изменение шифрования в Конфигурации перед использованием истории копии.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Шкала времени изменилась. Обновите для продолжения просмотра и восстановления.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Расположение копии недопустимо или повреждено. Проверьте выбранное расположение.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>Копирование или очистка уже выполняется. Дождитесь завершения и повторите.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Этот выбор нельзя использовать здесь. Выберите элементы из текущей папки и момента.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Выбранные исторические элементы содержат файл и папку с одним путём и не могут быть восстановлены вместе.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Операция отменена. Завершённые операции с файлами остаются выполненными.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Расположение копии или цель недоступны. Проверьте расположение и подключение и повторите.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Недопустимое расположение копии</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Резервное копирование завершено</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Копирование завершено с проблемами файлов или папок</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Резервное копирование отменено</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Копирование приостановлено: мало места</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Резервное копирование отложено</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Резервная копия требует внимания</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>В этом сеансе приложения копирование ещё не выполнялось.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Ожидание внешнего питания.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows не удалось определить состояние питания.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Ожидание безлимитного подключения.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows сообщает об отсутствии сети для копии по сетевому пути.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Системный</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Светлый</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Тёмный</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>Занято {0} из {1} · свободно {2}</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Проверка места на диске…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Сведения о месте на диске недоступны.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Вычисление размера копии…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>При последней проверке копия занимала {0}</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Копия занимает {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Размер копии недоступен</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Выберите, что удалить, для предпросмотра. Без подтверждения ничего не удаляется.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Проверка сохранённых версий…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Шкала времени изменилась. Снова выберите, что удалить.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>Это освободит примерно {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Для выбранного варианта нечего удалять.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Проверьте предпросмотр перед удалением версий.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Предпросмотр отменён. Ничего не удалено.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Предпросмотр неполон: достигнут предел работы. Очистку нельзя выполнить.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Удаление сохранённых версий…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Шкала времени изменилась после предпросмотра. Создайте новый предпросмотр перед удалением версий.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>Некоторое сохранённое содержимое пока не удалось очистить.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Очистка завершена. Обновите шкалу времени, чтобы увидеть оставшиеся версии.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Очистка отменена. Подтверждённые удаления остаются выполненными. Обновите шкалу времени.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Очистка требует внимания. Некоторые изменения могут быть не подтверждены; проверьте копию перед повтором. Обновите шкалу времени.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Сохраняет последнюю сохранившуюся версию по каждому пути, включая файлы, которые больше не копируются. Текущие версии защищены.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Текущие версии защищены. Файлы, существующие только на шкале времени, могут полностью исчезнуть, если все версии старше этого возраста.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Оценка места; фактически свободное место может отличаться.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} байт</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} байт</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} байт</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} байта</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} байт</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} байт</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} существующих папок</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} существующая папка</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} существующих папок</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} существующие папки</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} существующих папок</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} существующих папок</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} проблем с файлами</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} проблема с файлом</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} проблем с файлами</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} проблемы с файлами</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} проблем с файлами</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} проблем с файлами</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} файлов</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} файл</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} файлов</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} файла</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} файлов</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} файлов</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} версий файла</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} версия файла</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} версий файла</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} версии файла</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} версий файла</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} версий файла</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} папок</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} папка</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} папок</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} папки</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} папок</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} папок</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} часов</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} час</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} часов</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} часа</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} часов</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} часов</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} элементов</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} элемент</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} элементов</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} элемента</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} элементов</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} элементов</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} минут</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} минута</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} минут</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} минуты</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} минут</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} минут</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} новых версий сохранено</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} новая версия сохранена</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} новых версий сохранено</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} новые версии сохранены</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} новых версий сохранено</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} новых версий сохранено</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} сохранённых версий</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} сохранённая версия</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} сохранённых версий</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} сохранённые версии</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} сохранённых версий</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} сохранённых версий</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} секунд</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} секунда</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} секунд</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} секунды</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} секунд</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} секунд</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, Папка</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, Файл, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Сохранено {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · выбрано {1:N0}</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>Выбрано элементов: {0:N0}</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Сохранено: {1:f}
+
+Это навсегда удалит только эту сохранённую версию. Исходный файл и другие сохранённые версии останутся. Отменить это действие нельзя.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+Папок на шкале времени: {0:N0}</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Добавлено {0} · повторно включено {1} · уже выбрано {2}</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · не добавлено {0}</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>Удалено {0} ({1} сохранённого содержимого).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Навсегда удалить {0} из {1}? Исходные файлы и текущие версии останутся. Отменить это действие нельзя.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} выбрано для копирования</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Последняя копия: {0:f}; длительность: {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Последняя попытка копирования: {0:f}; длительность: {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Сохранено {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Файл изменён {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Сохранено: {2:G}
+Файл изменён: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Шкала времени на {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Шкала времени</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>Каждые 10 минут</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>Каждые 30 минут</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>Каждый час</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>Каждые 3 часа</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>Каждые 6 часов</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>Каждые 12 часов</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>Каждый день</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>До заполнения места</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 месяц</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 месяца</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 месяцев</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 месяцев</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 год</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 года</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Всегда</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Версии старше этого возраста могут удаляться после успешного копирования. Текущие версии защищены.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Версии сохраняются, пока том копии не достигнет безопасного предела ёмкости. Когда для копирования нужно место, старейшие подходящие версии удаляются автоматически. Текущие версии защищены.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Политика «Всегда» никогда не удаляет историю шкалы времени автоматически. Версии добавляются, пока том не перестанет безопасно принимать новую копию. Затем потребуется освободить место или очистить шкалу времени вручную.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Старше 1 месяца</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Старше 3 месяцев</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Старше 6 месяцев</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Старше 9 месяцев</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Старше 1 года</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Старше 2 лет</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Оставить только последнюю версию</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData содержит состояние приложений, кэши, базы данных и временные файлы. Они могут часто меняться и быстро увеличивать шкалу времени. Восстановление этих файлов не заменяет переустановку или правильное восстановление приложения.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Системные файлы и файлы установленных программ велики и часто меняются. Fluff-History не создаёт образ системы. Восстановление только этих файлов может не исправить Windows или приложение.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData может содержать общее состояние приложений, кэши и базы данных, которые часто меняются. Это может создавать большой объём данных шкалы времени.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Это расположение в основном содержит временные или установочные файлы и может создавать множество кратковременных изменений шкалы времени.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Расположение содержит системные метаданные или рабочие файлы Fluff-History и не может копироваться.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Проверка конфигурации копии…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Настройки приложения требуют внимания. Явно сбросьте конфигурацию; данные копии останутся нетронутыми.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Сохранённая конфигурация копии недоступна или недопустима. Проверьте Конфигурацию перед продолжением.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows не удалось проверить расположение копии или временные рабочие данные приложения. Проверьте доступ и свободное место и повторите.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Папка, выбранная для копирования, не может быть исключена одновременно. Удалите её из копирования или измените исключение.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Выберите не более 256 исключённых папок с общим объёмом путей до 256 KiB.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Источник поддерживает не более 256 действующих исключённых папок и 256 KiB конфигурации. Выберите меньше исключений или более короткие пути.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Папку можно выбрать только один раз.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Выбранные вложенные папки должны исключаться из родительской папки.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Выберите абсолютный путь к папке.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Выберите обычную папку диска или сети.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Выберите полный путь к сетевому ресурсу.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Путь к папке неоднозначен или выходит за корень. Выберите обычный абсолютный путь.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Нельзя копировать папку внутри расположения копии или папку, содержащую расположение копии.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Подтвердите предупреждение перед добавлением папки.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Путь ведёт к системной папке Windows или данным приложения. Выберите фактическое расположение и сначала подтвердите предупреждение.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Папки ведут к пересекающимся расположениям Windows. Выберите каждое расположение один раз.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Папка ведёт к временным рабочим данным Fluff-History и не может копироваться.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Рабочий стол</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Загрузки</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Музыка</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Неподдерживаемое имя файла или папки.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Неоднозначный псевдоним регистра.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Неподдерживаемая граница, точка повторной обработки или EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Неподдерживаемый или слишком большой файл.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Источник изменился во время копирования.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Не удаётся получить доступ к файлу или папке.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Не удаётся получить доступ к файлу или папке (ошибка Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Корень источника или родитель не является обычным каталогом.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Неподдерживаемая граница каталога.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Проверка места</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Шифрование файлов</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Расшифровка файлов</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Перестроение метаданных</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Завершение резервной копии</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Этот файл или папка используется другим приложением.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Доступ к файлу или папке запрещён.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Файл или папка не найдены при сканировании.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Конфигурация сохранена</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Изменения папок сохранены. Обновлённые папки войдут в следующую плановую копию.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Изменения папок сохранены. Обновлённые папки войдут в следующую копию.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Запрошено резервное копирование</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>Копирование уже выполняется или завершается.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Настройте доступное расположение копии и папки в Конфигурации.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Восстановить предыдущую версию…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Загрузка истории...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Есть резервная копия</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Сейчас не копируется</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Не копируется Fluff-History</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Требуется восстановление</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Резервная копия недоступна</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Сеанс истории истёк</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Копия недоступна. Откройте Fluff-History или обновите.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Сеанс истории истёк. Обновите для продолжения.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Расположение копии: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Просмотр истории папки</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Открыть Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Просмотреть все версии</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Папки собираются из сохранённых версий файлов.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Восстановление изменяет текущий файл. Сохранённая история остаётся.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History недоступен. Установите предварительную версию для разработчиков и повторите.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Восстановить эту сохранённую версию в исходное расположение? Windows спросит о конфликтах с существующими файлами. Сохранённая история остаётся.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Восстановить сохранённую версию?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Восстановление выбранной версии...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Копия недоступна. Откройте Fluff-History для продолжения.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>История папок собирается из сохранённых версий файлов.
+Недавние моменты шкалы времени:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Пока нет сохранённых версий файлов.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Изменён {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Нет сохранённой версии файла. Откройте Шкалу времени или Конфигурацию для продолжения.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Последняя сохранённая версия: {0:f}
+Сохранившиеся версии: {1:N0}
+Самая старая версия: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Последняя сохранённая версия: {0:f}
+Сохранившиеся версии: {1:N0}+; полная история на Шкале времени
+Самая старая версия: полная история на Шкале времени</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Не копируется Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Требуется восстановление. Откройте Fluff-History для восстановления доступа.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Копия недоступна. Откройте Fluff-History или повторите.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Восстановление требует внимания. Проверьте цель перед повтором.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Восстановление отменено. Завершённые операции с файлами остаются выполненными.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Файл восстановлен. Сохранённая история не изменена.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Файл не восстановлен. Проверьте цель.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>История изменилась. Обновите перед восстановлением.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Восстановление недоступно. Откройте Fluff-History для продолжения.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Восстановление отменено. Проверьте цель.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>ru-RU</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Ярлыки:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Создать ярлык на &amp;рабочем столе</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Создать ярлык в меню &amp;Пуск</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History требуется фиксированная папка установки для пользователя.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>Выполняется установка или запуск приложения. Подождите немного и повторите.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History не удалось подготовить обновление. Закройте активные операции с файлами и страницы Свойств и повторите. Хранилище копии не изменено.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History не удалось завершить установку. Состояние приложения сохранено для повтора; хранилище копии не изменено.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Установка требует внимания</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History не удалось завершить установку. Настройки приложения и хранилище копии сохранены. Запустите установку снова.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Перед удалением закройте Fluff-History, активные операции с файлами и страницы Свойств. Ничего не останавливалось принудительно.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Диагностика скопирована. Проверьте пути к папкам перед отправкой.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Язык</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Язык приложения</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Использовать язык Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Изменения применяются сразу. Даты и числа используют региональные параметры.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Исправить восстановление через OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Отключить локально…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Прежний способ восстановления нужно обновить до OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Экспериментальное восстановление через OneDrive не настроено в этой сборке.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Войдите в Microsoft, чтобы использовать восстановление через OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Вход в Microsoft или согласие отклонены. Восстановление с паролем остается доступным.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Необходимое разрешение для папки приложения OneDrive недоступно. Восстановление с паролем остается доступным.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>Для восстановления через OneDrive нужен интернет. Пароль и локальный доступ через Windows остаются доступными.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>Сейчас не удалось проверить восстановление через OneDrive. Повторите позже или используйте пароль восстановления.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive занят. Повторите позже.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive недоступен или не настроен для этой учетной записи Microsoft. Используйте пароль восстановления.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>Ключ восстановления OneDrive изменен или недействителен. Используйте пароль восстановления или исправьте восстановление на компьютере, который может разблокировать эту копию.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Может потребоваться дополнительная очистка OneDrive. Это касается только ключа восстановления; пароль и доступ через Windows не изменены.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Может потребоваться дополнительная очистка OneDrive. Файл восстановления: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>Восстановление через OneDrive работает, но старые учетные данные восстановления Windows не удалось полностью удалить.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Отключить восстановление через OneDrive локально?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Будет удалена связь этой копии с восстановлением через OneDrive без удаления файла восстановления в облаке. Возможно, этот файл потребуется удалить из OneDrive вручную. Пароль и доступ через Windows не изменены.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Восстановление через OneDrive отключено локально.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Исправить восстановление через OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Создайте и проверьте новый ключ восстановления, прежде чем выводить старый из использования. Измененные файлы в облаке будут сохранены.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Обновления</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Канал обновлений</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Проверять автоматически</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Стабильный</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Бета</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Никогда</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Ежедневно</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Еженедельно</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Ежемесячно</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Проверить сейчас</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Текущая версия: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Последняя проверка: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Неопубликованная сборка для разработки</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Доступна версия {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Скачать и установить</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Примечания к выпуску</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>Установлена актуальная версия</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Проверка обновлений…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Скачивание обновления… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Проверка обновления…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Готово к установке</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Ожидание завершения резервного копирования или других активных операций.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Установка обновления…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Не удалось связаться с GitHub. Повторите попытку позже.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub ограничивает запросы. Повторите попытку позже.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Нет доступного выпуска для установки.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Не удалось проверить установщик. Обновление не установлено.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Автоматическая установка станет доступна после одобрения подписанта выпуска.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Не удалось установить обновление. Повторите попытку позже.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Обновление установлено, но окно не удалось открыть снова.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Эта неопубликованная сборка не может устанавливать общедоступные обновления.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Автоматическая проверка обновлений отключена.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Автоматические проверки обращаются к GitHub. Данные резервных копий и учётных записей не отправляются.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Выполняется резервное копирование. Остановить его и установить обновление?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Остановить копирование и установить</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Проверка ещё не выполнялась</value></data>
+</root>

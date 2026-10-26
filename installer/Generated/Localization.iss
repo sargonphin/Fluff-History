@@ -1,0 +1,477 @@
+﻿; Generated from pinned Inno bases and product RESW catalogs.
+[Languages]
+Name: "enUS"; MessagesFile: "Languages\Default.isl"
+Name: "deDE"; MessagesFile: "Languages\German.isl"
+Name: "frFR"; MessagesFile: "Languages\French.isl"
+Name: "esES"; MessagesFile: "Languages\Spanish.isl"
+Name: "itIT"; MessagesFile: "Languages\Italian.isl"
+Name: "ptBR"; MessagesFile: "Languages\BrazilianPortuguese.isl"
+Name: "ptPT"; MessagesFile: "Languages\Portuguese.isl"
+Name: "nlNL"; MessagesFile: "Languages\Dutch.isl"
+Name: "plPL"; MessagesFile: "Languages\Polish.isl"
+Name: "csCZ"; MessagesFile: "Languages\Czech.isl"
+Name: "skSK"; MessagesFile: "Languages\Slovak.isl"
+Name: "huHU"; MessagesFile: "Languages\Hungarian.isl"
+Name: "bgBG"; MessagesFile: "Languages\Bulgarian.isl"
+Name: "slSI"; MessagesFile: "Languages\Slovenian.isl"
+Name: "trTR"; MessagesFile: "Languages\Turkish.isl"
+Name: "ruRU"; MessagesFile: "Languages\Russian.isl"
+Name: "ukUA"; MessagesFile: "Languages\Ukrainian.isl"
+Name: "svSE"; MessagesFile: "Languages\Swedish.isl"
+Name: "nbNO"; MessagesFile: "Languages\Norwegian.isl"
+Name: "daDK"; MessagesFile: "Languages\Danish.isl"
+Name: "fiFI"; MessagesFile: "Languages\Finnish.isl"
+Name: "ltLT"; MessagesFile: "Languages\Lithuanian.isl"
+Name: "caES"; MessagesFile: "Languages\Catalan.isl"
+Name: "arSA"; MessagesFile: "Languages\Arabic.isl"
+Name: "heIL"; MessagesFile: "Languages\Hebrew.isl"
+Name: "zhHans"; MessagesFile: "Languages\ChineseSimplified.isl"
+Name: "zhHant"; MessagesFile: "Languages\ChineseTraditional.isl"
+Name: "jaJP"; MessagesFile: "Languages\Japanese.isl"
+Name: "koKR"; MessagesFile: "Languages\Korean.isl"
+Name: "thTH"; MessagesFile: "Languages\Thai.isl"
+Name: "roRO"; MessagesFile: "Languages\Romanian.isl"
+Name: "hrHR"; MessagesFile: "Languages\Croatian.isl"
+Name: "srLatnRS"; MessagesFile: "Languages\SerbianLatin.isl"
+Name: "srCyrlRS"; MessagesFile: "Languages\SerbianCyrillic.isl"
+Name: "elGR"; MessagesFile: "Languages\Greek.isl"
+Name: "etEE"; MessagesFile: "Languages\Estonian.isl"
+Name: "lvLV"; MessagesFile: "Languages\Latvian.isl"
+Name: "faIR"; MessagesFile: "Languages\Farsi.isl"
+Name: "hiIN"; MessagesFile: "Languages\Hindi.islu"
+Name: "bnBD"; MessagesFile: "Languages\Bengali.islu"
+Name: "viVN"; MessagesFile: "Languages\Vietnamese.isl"
+Name: "idID"; MessagesFile: "Languages\Indonesian.isl"
+Name: "msMY"; MessagesFile: "Languages\Malaysian.isl"
+
+[CustomMessages]
+enUS.Installer_AttentionBody=Fluff-History could not complete installation. Your application settings and backup repository were preserved. Run Setup again to retry.
+enUS.Installer_AttentionTitle=Installation needs attention
+enUS.Installer_Busy=An installation or application startup is active. Wait briefly and retry.
+enUS.Installer_DesktopShortcut=Create a &Desktop shortcut
+enUS.Installer_FixedFolder=Fluff-History requires its fixed per-user installation folder.
+enUS.Installer_InstallFailed=Fluff-History could not complete installation. Application state was retained for retry; the backup repository is unchanged.
+enUS.Installer_PrepareFailed=Fluff-History could not prepare the update. Close active file operations and Properties pages, then retry. Your backup repository is unchanged.
+enUS.Installer_ShortcutsGroup=Shortcuts:
+enUS.Installer_StartMenuShortcut=Create a &Start Menu shortcut
+enUS.Installer_UninstallBusy=Close Fluff-History, active file operations and Properties pages before uninstalling. Nothing was forcibly stopped.
+deDE.Installer_AttentionBody=Fluff-History konnte die Installation nicht abschließen. Ihre Anwendungseinstellungen und Ihr Sicherungsrepository wurden beibehalten. Führen Sie Setup erneut aus.
+deDE.Installer_AttentionTitle=Die Installation erfordert Ihre Aufmerksamkeit
+deDE.Installer_Busy=Eine Installation oder ein Anwendungsstart läuft bereits. Warten Sie kurz und versuchen Sie es erneut.
+deDE.Installer_DesktopShortcut=&Desktopverknüpfung erstellen
+deDE.Installer_FixedFolder=Fluff-History benötigt den festgelegten benutzerspezifischen Installationsordner.
+deDE.Installer_InstallFailed=Fluff-History konnte die Installation nicht abschließen. Der Anwendungszustand wurde für einen erneuten Versuch beibehalten; das Sicherungsrepository bleibt unverändert.
+deDE.Installer_PrepareFailed=Fluff-History konnte das Update nicht vorbereiten. Schließen Sie laufende Dateivorgänge und Eigenschaftenfenster und versuchen Sie es erneut. Ihr Sicherungsrepository bleibt unverändert.
+deDE.Installer_ShortcutsGroup=Verknüpfungen:
+deDE.Installer_StartMenuShortcut=Verknüpfung im &Startmenü erstellen
+deDE.Installer_UninstallBusy=Schließen Sie vor der Deinstallation Fluff-History, laufende Dateivorgänge und Eigenschaftenfenster. Es wurde nichts zwangsweise beendet.
+frFR.Installer_AttentionBody=Fluff-History n’a pas pu terminer l’installation. Vos paramètres et votre dépôt de sauvegarde ont été conservés. Relancez le programme d’installation pour réessayer.
+frFR.Installer_AttentionTitle=L’installation nécessite votre attention
+frFR.Installer_Busy=Une installation ou un démarrage de l’application est en cours. Patientez un instant, puis réessayez.
+frFR.Installer_DesktopShortcut=Créer un raccourci sur le &Bureau
+frFR.Installer_FixedFolder=Fluff-History nécessite son dossier d’installation fixe propre à l’utilisateur.
+frFR.Installer_InstallFailed=Fluff-History n’a pas pu terminer l’installation. L’état de l’application a été conservé pour une nouvelle tentative ; le dépôt de sauvegarde reste inchangé.
+frFR.Installer_PrepareFailed=Fluff-History n’a pas pu préparer la mise à jour. Fermez les opérations sur les fichiers et les fenêtres de propriétés en cours, puis réessayez. Votre dépôt de sauvegarde reste inchangé.
+frFR.Installer_ShortcutsGroup=Raccourcis :
+frFR.Installer_StartMenuShortcut=Créer un raccourci dans le menu &Démarrer
+frFR.Installer_UninstallBusy=Avant de désinstaller, fermez Fluff-History, les opérations sur les fichiers et les fenêtres de propriétés en cours. Aucun arrêt n’a été forcé.
+esES.Installer_AttentionBody=Fluff-History no pudo completar la instalación. Se han conservado la configuración de la aplicación y el repositorio de copia. Vuelva a ejecutar el instalador para reintentar.
+esES.Installer_AttentionTitle=La instalación requiere atención
+esES.Installer_Busy=Hay una instalación o un inicio de la aplicación en curso. Espere un momento e inténtelo de nuevo.
+esES.Installer_DesktopShortcut=Crear un acceso directo en el &escritorio
+esES.Installer_FixedFolder=Fluff-History requiere su carpeta de instalación fija por usuario.
+esES.Installer_InstallFailed=Fluff-History no pudo completar la instalación. Se ha conservado el estado de la aplicación para reintentar; el repositorio de copia no ha cambiado.
+esES.Installer_PrepareFailed=Fluff-History no pudo preparar la actualización. Cierre las operaciones de archivo y las ventanas de Propiedades activas e inténtelo de nuevo. El repositorio de copia no ha cambiado.
+esES.Installer_ShortcutsGroup=Accesos directos:
+esES.Installer_StartMenuShortcut=Crear un acceso directo en el menú &Inicio
+esES.Installer_UninstallBusy=Cierre Fluff-History, las operaciones de archivo y las ventanas de Propiedades activas antes de desinstalar. No se ha detenido nada por la fuerza.
+itIT.Installer_AttentionBody=Fluff-History non ha potuto completare l’installazione. Le impostazioni dell’applicazione e l’archivio di backup sono stati conservati. Esegui nuovamente il programma di installazione per riprovare.
+itIT.Installer_AttentionTitle=L’installazione richiede attenzione
+itIT.Installer_Busy=È in corso un’installazione o un avvio dell’applicazione. Attendi un momento e riprova.
+itIT.Installer_DesktopShortcut=Crea un collegamento sul &desktop
+itIT.Installer_FixedFolder=Fluff-History richiede la propria cartella di installazione fissa per utente.
+itIT.Installer_InstallFailed=Fluff-History non ha potuto completare l’installazione. Lo stato dell’applicazione è stato conservato per riprovare; l’archivio di backup non è cambiato.
+itIT.Installer_PrepareFailed=Fluff-History non ha potuto preparare l’aggiornamento. Chiudi le operazioni sui file e le pagine Proprietà attive, quindi riprova. L’archivio di backup non è cambiato.
+itIT.Installer_ShortcutsGroup=Collegamenti:
+itIT.Installer_StartMenuShortcut=Crea un collegamento nel menu &Start
+itIT.Installer_UninstallBusy=Chiudi Fluff-History, le operazioni sui file e le pagine Proprietà attive prima di disinstallare. Nulla è stato arrestato forzatamente.
+ptBR.Installer_AttentionBody=O Fluff-History não pôde concluir a instalação. Suas configurações e o repositório de backup foram preservados. Execute o instalador novamente para tentar outra vez.
+ptBR.Installer_AttentionTitle=A instalação requer atenção
+ptBR.Installer_Busy=Uma instalação ou inicialização do aplicativo está ativa. Aguarde um momento e tente novamente.
+ptBR.Installer_DesktopShortcut=Criar atalho na Área de &Trabalho
+ptBR.Installer_FixedFolder=O Fluff-History exige sua pasta fixa de instalação por usuário.
+ptBR.Installer_InstallFailed=O Fluff-History não pôde concluir a instalação. O estado do aplicativo foi mantido para nova tentativa; o repositório de backup não foi alterado.
+ptBR.Installer_PrepareFailed=O Fluff-History não pôde preparar a atualização. Feche operações de arquivo e páginas de Propriedades ativas e tente novamente. O repositório de backup não foi alterado.
+ptBR.Installer_ShortcutsGroup=Atalhos:
+ptBR.Installer_StartMenuShortcut=Criar atalho no menu &Iniciar
+ptBR.Installer_UninstallBusy=Feche o Fluff-History, operações de arquivo e páginas de Propriedades ativas antes de desinstalar. Nada foi interrompido à força.
+ptPT.Installer_AttentionBody=O Fluff-History não conseguiu concluir a instalação. As definições e o repositório da cópia foram preservados. Execute novamente o programa de instalação para tentar outra vez.
+ptPT.Installer_AttentionTitle=A instalação requer atenção
+ptPT.Installer_Busy=Está em curso uma instalação ou um arranque da aplicação. Aguarde um momento e tente novamente.
+ptPT.Installer_DesktopShortcut=Criar atalho no &Ambiente de Trabalho
+ptPT.Installer_FixedFolder=O Fluff-History requer a pasta de instalação fixa por utilizador.
+ptPT.Installer_InstallFailed=O Fluff-History não conseguiu concluir a instalação. O estado da aplicação foi mantido para nova tentativa; o repositório da cópia não foi alterado.
+ptPT.Installer_PrepareFailed=O Fluff-History não conseguiu preparar a atualização. Feche as operações de ficheiro e páginas de Propriedades ativas e tente novamente. O repositório da cópia não foi alterado.
+ptPT.Installer_ShortcutsGroup=Atalhos:
+ptPT.Installer_StartMenuShortcut=Criar atalho no menu &Iniciar
+ptPT.Installer_UninstallBusy=Feche o Fluff-History, as operações de ficheiro e páginas de Propriedades ativas antes de desinstalar. Nada foi terminado à força.
+nlNL.Installer_AttentionBody=Fluff-History kon de installatie niet voltooien. Uw instellingen en back-upopslag zijn behouden. Voer Setup opnieuw uit om het nogmaals te proberen.
+nlNL.Installer_AttentionTitle=Installatie vereist aandacht
+nlNL.Installer_Busy=Er is een installatie of toepassingsstart actief. Wacht even en probeer het opnieuw.
+nlNL.Installer_DesktopShortcut=Snelkoppeling op het &bureaublad maken
+nlNL.Installer_FixedFolder=Fluff-History vereist de vaste installatiemap per gebruiker.
+nlNL.Installer_InstallFailed=Fluff-History kon de installatie niet voltooien. De toepassingsstatus is bewaard om opnieuw te proberen; de back-upopslag is ongewijzigd.
+nlNL.Installer_PrepareFailed=Fluff-History kon de update niet voorbereiden. Sluit actieve bestandsbewerkingen en Eigenschappen-vensters en probeer het opnieuw. Uw back-upopslag is ongewijzigd.
+nlNL.Installer_ShortcutsGroup=Snelkoppelingen:
+nlNL.Installer_StartMenuShortcut=Snelkoppeling in het &Startmenu maken
+nlNL.Installer_UninstallBusy=Sluit Fluff-History, actieve bestandsbewerkingen en Eigenschappen-vensters voordat u verwijdert. Er is niets geforceerd gestopt.
+plPL.Installer_AttentionBody=Fluff-History nie mógł zakończyć instalacji. Ustawienia aplikacji i repozytorium kopii zostały zachowane. Uruchom instalator ponownie.
+plPL.Installer_AttentionTitle=Instalacja wymaga uwagi
+plPL.Installer_Busy=Trwa instalacja lub uruchamianie aplikacji. Poczekaj chwilę i spróbuj ponownie.
+plPL.Installer_DesktopShortcut=Utwórz skrót na &pulpicie
+plPL.Installer_FixedFolder=Fluff-History wymaga stałego folderu instalacji dla użytkownika.
+plPL.Installer_InstallFailed=Fluff-History nie mógł zakończyć instalacji. Stan aplikacji zachowano do ponownej próby; repozytorium kopii nie zmieniło się.
+plPL.Installer_PrepareFailed=Fluff-History nie mógł przygotować aktualizacji. Zamknij aktywne operacje plikowe i okna Właściwości, a następnie spróbuj ponownie. Repozytorium kopii nie zmieniło się.
+plPL.Installer_ShortcutsGroup=Skróty:
+plPL.Installer_StartMenuShortcut=Utwórz skrót w menu &Start
+plPL.Installer_UninstallBusy=Przed odinstalowaniem zamknij Fluff-History, aktywne operacje plikowe i okna Właściwości. Nic nie zostało wymuszenie zatrzymane.
+csCZ.Installer_AttentionBody=Fluff-History nemohlo dokončit instalaci. Nastavení aplikace a úložiště zálohy byly zachovány. Zkuste znovu spustit instalační program.
+csCZ.Installer_AttentionTitle=Instalace vyžaduje pozornost
+csCZ.Installer_Busy=Probíhá instalace nebo spouštění aplikace. Chvíli počkejte a zkuste to znovu.
+csCZ.Installer_DesktopShortcut=Vytvořit zástupce na &ploše
+csCZ.Installer_FixedFolder=Fluff-History vyžaduje pevnou instalační složku pro uživatele.
+csCZ.Installer_InstallFailed=Fluff-History nemohlo dokončit instalaci. Stav aplikace byl zachován pro další pokus; úložiště zálohy se nezměnilo.
+csCZ.Installer_PrepareFailed=Fluff-History nemohlo připravit aktualizaci. Zavřete aktivní operace se soubory a stránky Vlastností a zkuste to znovu. Úložiště zálohy se nezměnilo.
+csCZ.Installer_ShortcutsGroup=Zástupci:
+csCZ.Installer_StartMenuShortcut=Vytvořit zástupce v nabídce &Start
+csCZ.Installer_UninstallBusy=Před odinstalací zavřete Fluff-History, aktivní operace se soubory a stránky Vlastností. Nic nebylo násilně zastaveno.
+skSK.Installer_AttentionBody=Fluff-History nedokázalo dokončiť inštaláciu. Nastavenia aplikácie a úložisko zálohy sa zachovali. Skúste znova spustiť inštalačný program.
+skSK.Installer_AttentionTitle=Inštalácia vyžaduje pozornosť
+skSK.Installer_Busy=Prebieha inštalácia alebo spúšťanie aplikácie. Chvíľu počkajte a skúste to znova.
+skSK.Installer_DesktopShortcut=Vytvoriť odkaz na &pracovnej ploche
+skSK.Installer_FixedFolder=Fluff-History vyžaduje pevný inštalačný priečinok pre používateľa.
+skSK.Installer_InstallFailed=Fluff-History nedokázalo dokončiť inštaláciu. Stav aplikácie sa zachoval na ďalší pokus; úložisko zálohy sa nezmenilo.
+skSK.Installer_PrepareFailed=Fluff-History nedokázalo pripraviť aktualizáciu. Zatvorte aktívne operácie so súbormi a stránky Vlastností a skúste to znova. Úložisko zálohy sa nezmenilo.
+skSK.Installer_ShortcutsGroup=Odkazy:
+skSK.Installer_StartMenuShortcut=Vytvoriť odkaz v ponuke Š&tart
+skSK.Installer_UninstallBusy=Pred odinštalovaním zatvorte Fluff-History, aktívne operácie so súbormi a stránky Vlastností. Nič sa násilne nezastavilo.
+huHU.Installer_AttentionBody=A Fluff-History telepítése nem fejezhető be. Az alkalmazásbeállítások és a mentési tár megmaradtak. Újrapróbáláshoz futtassa újra a telepítőt.
+huHU.Installer_AttentionTitle=A telepítés figyelmet igényel
+huHU.Installer_Busy=Telepítés vagy alkalmazásindítás van folyamatban. Várjon egy kicsit, majd próbálja újra.
+huHU.Installer_DesktopShortcut=&Asztali parancsikon létrehozása
+huHU.Installer_FixedFolder=A Fluff-History a rögzített felhasználónkénti telepítési mappáját igényli.
+huHU.Installer_InstallFailed=A Fluff-History telepítése nem fejezhető be. Az alkalmazás állapota az újrapróbáláshoz megmaradt; a mentési tár változatlan.
+huHU.Installer_PrepareFailed=A Fluff-History nem tudta előkészíteni a frissítést. Zárja be az aktív fájlműveleteket és Tulajdonságok-lapokat, majd próbálja újra. A mentési tár változatlan.
+huHU.Installer_ShortcutsGroup=Parancsikonok:
+huHU.Installer_StartMenuShortcut=&Start menü parancsikonjának létrehozása
+huHU.Installer_UninstallBusy=Eltávolítás előtt zárja be a Fluff-Historyt, az aktív fájlműveleteket és a Tulajdonságok-lapokat. Semmi sem lett kényszerítve leállítva.
+bgBG.Installer_AttentionBody=Fluff-History не може да завърши инсталирането. Настройките и хранилището на копието са запазени. Стартирайте инсталирането отново.
+bgBG.Installer_AttentionTitle=Инсталирането изисква внимание
+bgBG.Installer_Busy=В ход е инсталиране или стартиране на приложението. Изчакайте малко и опитайте отново.
+bgBG.Installer_DesktopShortcut=Създаване на пряк път на &работния плот
+bgBG.Installer_FixedFolder=Fluff-History изисква фиксираната си папка за инсталиране за потребителя.
+bgBG.Installer_InstallFailed=Fluff-History не може да завърши инсталирането. Състоянието на приложението е запазено за повторен опит; хранилището на копието не е променено.
+bgBG.Installer_PrepareFailed=Fluff-History не може да подготви актуализацията. Затворете активните файлови операции и страниците Свойства и опитайте отново. Хранилището на копието не е променено.
+bgBG.Installer_ShortcutsGroup=Преки пътища:
+bgBG.Installer_StartMenuShortcut=Създаване на пряк път в менюто „&Старт“
+bgBG.Installer_UninstallBusy=Преди деинсталиране затворете Fluff-History, активните файлови операции и страниците Свойства. Нищо не е спирано принудително.
+slSI.Installer_AttentionBody=Fluff-History ni mogel dokončati namestitve. Nastavitve aplikacije in shramba kopij so ohranjene. Za ponovni poskus znova zaženite namestitev.
+slSI.Installer_AttentionTitle=Namestitev zahteva pozornost
+slSI.Installer_Busy=Poteka namestitev ali zagon aplikacije. Malo počakajte in poskusite znova.
+slSI.Installer_DesktopShortcut=Ustvari bližnjico na &namizju
+slSI.Installer_FixedFolder=Fluff-History zahteva svojo stalno namestitveno mapo za posameznega uporabnika.
+slSI.Installer_InstallFailed=Fluff-History ni mogel dokončati namestitve. Stanje aplikacije je ohranjeno za ponovni poskus; shramba kopij je nespremenjena.
+slSI.Installer_PrepareFailed=Fluff-History ni mogel pripraviti posodobitve. Zaprite dejavna datotečna opravila in strani lastnosti ter poskusite znova. Shramba kopij je nespremenjena.
+slSI.Installer_ShortcutsGroup=Bližnjice:
+slSI.Installer_StartMenuShortcut=Ustvari bližnjico v meniju &Start
+slSI.Installer_UninstallBusy=Pred odstranitvijo zaprite Fluff-History, dejavna datotečna opravila in strani lastnosti. Nič ni bilo prisilno ustavljeno.
+trTR.Installer_AttentionBody=Fluff-History kurulumu tamamlayamadı. Uygulama ayarlarınız ve yedek deponuz korundu. Yeniden denemek için Kurulum'u tekrar çalıştırın.
+trTR.Installer_AttentionTitle=Kurulum ilgilenilmesini gerektiriyor
+trTR.Installer_Busy=Bir kurulum veya uygulama başlatma işlemi etkin. Kısa süre bekleyip yeniden deneyin.
+trTR.Installer_DesktopShortcut=&Masaüstü kısayolu oluştur
+trTR.Installer_FixedFolder=Fluff-History, kullanıcıya özel sabit kurulum klasörünü gerektirir.
+trTR.Installer_InstallFailed=Fluff-History kurulumu tamamlayamadı. Yeniden denemek için uygulama durumu korundu; yedek deposu değişmedi.
+trTR.Installer_PrepareFailed=Fluff-History güncellemeyi hazırlayamadı. Etkin dosya işlemlerini ve Özellikler sayfalarını kapatıp yeniden deneyin. Yedek deponuz değişmedi.
+trTR.Installer_ShortcutsGroup=Kısayollar:
+trTR.Installer_StartMenuShortcut=&Başlat Menüsü kısayolu oluştur
+trTR.Installer_UninstallBusy=Kaldırmadan önce Fluff-History'yi, etkin dosya işlemlerini ve Özellikler sayfalarını kapatın. Hiçbir şey zorla durdurulmadı.
+ruRU.Installer_AttentionBody=Fluff-History не удалось завершить установку. Настройки приложения и хранилище копии сохранены. Запустите установку снова.
+ruRU.Installer_AttentionTitle=Установка требует внимания
+ruRU.Installer_Busy=Выполняется установка или запуск приложения. Подождите немного и повторите.
+ruRU.Installer_DesktopShortcut=Создать ярлык на &рабочем столе
+ruRU.Installer_FixedFolder=Fluff-History требуется фиксированная папка установки для пользователя.
+ruRU.Installer_InstallFailed=Fluff-History не удалось завершить установку. Состояние приложения сохранено для повтора; хранилище копии не изменено.
+ruRU.Installer_PrepareFailed=Fluff-History не удалось подготовить обновление. Закройте активные операции с файлами и страницы Свойств и повторите. Хранилище копии не изменено.
+ruRU.Installer_ShortcutsGroup=Ярлыки:
+ruRU.Installer_StartMenuShortcut=Создать ярлык в меню &Пуск
+ruRU.Installer_UninstallBusy=Перед удалением закройте Fluff-History, активные операции с файлами и страницы Свойств. Ничего не останавливалось принудительно.
+ukUA.Installer_AttentionBody=Fluff-History не вдалося завершити інсталяцію. Налаштування програми та сховище копії збережено. Запустіть інсталяцію знову.
+ukUA.Installer_AttentionTitle=Інсталяція потребує уваги
+ukUA.Installer_Busy=Виконується інсталяція або запуск програми. Зачекайте трохи й повторіть.
+ukUA.Installer_DesktopShortcut=Створити ярлик на &робочому столі
+ukUA.Installer_FixedFolder=Fluff-History потрібна фіксована папка інсталяції для користувача.
+ukUA.Installer_InstallFailed=Fluff-History не вдалося завершити інсталяцію. Стан програми збережено для повтору; сховище копії не змінено.
+ukUA.Installer_PrepareFailed=Fluff-History не вдалося підготувати оновлення. Закрийте активні файлові операції та сторінки Властивостей і повторіть. Сховище копії не змінено.
+ukUA.Installer_ShortcutsGroup=Ярлики:
+ukUA.Installer_StartMenuShortcut=Створити ярлик у меню &Пуск
+ukUA.Installer_UninstallBusy=Перед видаленням закрийте Fluff-History, активні файлові операції та сторінки Властивостей. Нічого не зупинялося примусово.
+svSE.Installer_AttentionBody=Fluff-History kunde inte slutföra installationen. Programinställningar och säkerhetskopieringsarkiv har bevarats. Kör installationen igen för ett nytt försök.
+svSE.Installer_AttentionTitle=Installationen kräver åtgärd
+svSE.Installer_Busy=En installation eller programstart pågår. Vänta en stund och försök igen.
+svSE.Installer_DesktopShortcut=Skapa en genväg på &skrivbordet
+svSE.Installer_FixedFolder=Fluff-History kräver sin fasta installationsmapp för användaren.
+svSE.Installer_InstallFailed=Fluff-History kunde inte slutföra installationen. Programtillståndet behålls för ett nytt försök; säkerhetskopieringsarkivet är oförändrat.
+svSE.Installer_PrepareFailed=Fluff-History kunde inte förbereda uppdateringen. Stäng aktiva filåtgärder och Egenskaper-sidor och försök igen. Säkerhetskopieringsarkivet är oförändrat.
+svSE.Installer_ShortcutsGroup=Genvägar:
+svSE.Installer_StartMenuShortcut=Skapa en genväg på Start&menyn
+svSE.Installer_UninstallBusy=Stäng Fluff-History, aktiva filåtgärder och Egenskaper-sidor innan du avinstallerar. Inget stoppades med tvång.
+nbNO.Installer_AttentionBody=Fluff-History kunne ikke fullføre installasjonen. Programinnstillingene og sikkerhetskopilageret er bevart. Kjør installasjonen igjen for å prøve på nytt.
+nbNO.Installer_AttentionTitle=Installasjonen krever oppmerksomhet
+nbNO.Installer_Busy=En installasjon eller programstart pågår. Vent litt og prøv igjen.
+nbNO.Installer_DesktopShortcut=Opprett en snarvei på &skrivebordet
+nbNO.Installer_FixedFolder=Fluff-History krever sin faste installasjonsmappe per bruker.
+nbNO.Installer_InstallFailed=Fluff-History kunne ikke fullføre installasjonen. Programtilstanden er beholdt for et nytt forsøk; sikkerhetskopilageret er uendret.
+nbNO.Installer_PrepareFailed=Fluff-History kunne ikke forberede oppdateringen. Lukk aktive filoperasjoner og Egenskaper-sider og prøv igjen. Sikkerhetskopilageret er uendret.
+nbNO.Installer_ShortcutsGroup=Snarveier:
+nbNO.Installer_StartMenuShortcut=Opprett en snarvei i Start&menyen
+nbNO.Installer_UninstallBusy=Lukk Fluff-History, aktive filoperasjoner og Egenskaper-sider før avinstallasjon. Ingenting ble tvangsstoppet.
+daDK.Installer_AttentionBody=Fluff-History kunne ikke fuldføre installationen. Programindstillinger og sikkerhedskopilager er bevaret. Kør installationen igen for at prøve på ny.
+daDK.Installer_AttentionTitle=Installationen kræver opmærksomhed
+daDK.Installer_Busy=En installation eller programstart er i gang. Vent et øjeblik, og prøv igen.
+daDK.Installer_DesktopShortcut=Opret en genvej på &skrivebordet
+daDK.Installer_FixedFolder=Fluff-History kræver sin faste installationsmappe pr. bruger.
+daDK.Installer_InstallFailed=Fluff-History kunne ikke fuldføre installationen. Programtilstanden er bevaret til et nyt forsøg; sikkerhedskopilageret er uændret.
+daDK.Installer_PrepareFailed=Fluff-History kunne ikke forberede opdateringen. Luk aktive filhandlinger og Egenskaber-sider, og prøv igen. Sikkerhedskopilageret er uændret.
+daDK.Installer_ShortcutsGroup=Genveje:
+daDK.Installer_StartMenuShortcut=Opret en genvej i Start&menuen
+daDK.Installer_UninstallBusy=Luk Fluff-History, aktive filhandlinger og Egenskaber-sider før afinstallation. Intet blev tvangsstoppet.
+fiFI.Installer_AttentionBody=Fluff-History ei voinut suorittaa asennusta loppuun. Sovelluksen asetukset ja varmuuskopioarkisto säilytettiin. Yritä uudelleen suorittamalla asennusohjelma uudelleen.
+fiFI.Installer_AttentionTitle=Asennus vaatii huomiota
+fiFI.Installer_Busy=Asennus tai sovelluksen käynnistys on käynnissä. Odota hetki ja yritä uudelleen.
+fiFI.Installer_DesktopShortcut=Luo &työpöydän pikakuvake
+fiFI.Installer_FixedFolder=Fluff-History vaatii kiinteän käyttäjäkohtaisen asennuskansionsa.
+fiFI.Installer_InstallFailed=Fluff-History ei voinut suorittaa asennusta loppuun. Sovelluksen tila säilytettiin uutta yritystä varten; varmuuskopioarkisto ei muuttunut.
+fiFI.Installer_PrepareFailed=Fluff-History ei voinut valmistella päivitystä. Sulje aktiiviset tiedostotoiminnot ja Ominaisuudet-sivut ja yritä uudelleen. Varmuuskopioarkisto ei muuttunut.
+fiFI.Installer_ShortcutsGroup=Pikakuvakkeet:
+fiFI.Installer_StartMenuShortcut=Luo &Käynnistä-valikon pikakuvake
+fiFI.Installer_UninstallBusy=Sulje Fluff-History, aktiiviset tiedostotoiminnot ja Ominaisuudet-sivut ennen asennuksen poistamista. Mitään ei pysäytetty väkisin.
+ltLT.Installer_AttentionBody=Fluff-History nepavyko baigti diegimo. Programos parametrai ir kopijų saugykla išsaugoti. Paleiskite diegiklį dar kartą.
+ltLT.Installer_AttentionTitle=Diegimui reikia dėmesio
+ltLT.Installer_Busy=Vyksta diegimas arba programos paleidimas. Šiek tiek palaukite ir bandykite dar kartą.
+ltLT.Installer_DesktopShortcut=Sukurti &darbalaukio nuorodą
+ltLT.Installer_FixedFolder=Fluff-History reikalingas fiksuotas kiekvieno naudotojo diegimo aplankas.
+ltLT.Installer_InstallFailed=Fluff-History nepavyko baigti diegimo. Programos būsena išsaugota pakartotiniam bandymui; kopijų saugykla nepakeista.
+ltLT.Installer_PrepareFailed=Fluff-History nepavyko paruošti naujinimo. Uždarykite aktyvias failų operacijas ir ypatybių puslapius, tada bandykite dar kartą. Kopijų saugykla nepakeista.
+ltLT.Installer_ShortcutsGroup=Nuorodos:
+ltLT.Installer_StartMenuShortcut=Sukurti meniu &Pradėti nuorodą
+ltLT.Installer_UninstallBusy=Prieš šalindami uždarykite Fluff-History, aktyvias failų operacijas ir ypatybių puslapius. Niekas nebuvo priverstinai sustabdyta.
+caES.Installer_AttentionBody=El Fluff-History no ha pogut completar la instal·lació. S'han conservat la configuració i el repositori de còpies. Executeu l'instal·lador de nou per tornar-ho a provar.
+caES.Installer_AttentionTitle=La instal·lació requereix atenció
+caES.Installer_Busy=Hi ha una instal·lació o un inici d'aplicació actiu. Espereu un moment i torneu-ho a provar.
+caES.Installer_DesktopShortcut=Crea una drecera a l'&escriptori
+caES.Installer_FixedFolder=El Fluff-History necessita la seva carpeta d'instal·lació fixa per usuari.
+caES.Installer_InstallFailed=El Fluff-History no ha pogut completar la instal·lació. S'ha conservat l'estat de l'aplicació per tornar-ho a provar; el repositori de còpies no ha canviat.
+caES.Installer_PrepareFailed=El Fluff-History no ha pogut preparar l'actualització. Tanqueu les operacions de fitxer i les pàgines de propietats i torneu-ho a provar. El repositori de còpies no ha canviat.
+caES.Installer_ShortcutsGroup=Dreceres:
+caES.Installer_StartMenuShortcut=Crea una drecera al menú &Inicia
+caES.Installer_UninstallBusy=Tanqueu el Fluff-History, les operacions de fitxer i les pàgines de propietats abans de desinstal·lar. No s'ha aturat res per força.
+arSA.Installer_AttentionBody=تعذر على Fluff-History إكمال التثبيت. حُفظت إعدادات التطبيق ومستودع النسخ. شغّل الإعداد مجددًا لإعادة المحاولة.
+arSA.Installer_AttentionTitle=التثبيت يتطلب الانتباه
+arSA.Installer_Busy=هناك تثبيت أو بدء تطبيق نشط. انتظر قليلًا ثم حاول مجددًا.
+arSA.Installer_DesktopShortcut=إنشاء اختصار على &سطح المكتب
+arSA.Installer_FixedFolder=يتطلب Fluff-History مجلد التثبيت الثابت الخاص بكل مستخدم.
+arSA.Installer_InstallFailed=تعذر على Fluff-History إكمال التثبيت. حُفظت حالة التطبيق لإعادة المحاولة؛ لم يتغير مستودع النسخ.
+arSA.Installer_PrepareFailed=تعذر على Fluff-History تحضير التحديث. أغلق عمليات الملفات النشطة وصفحات الخصائص ثم حاول مجددًا. لم يتغير مستودع النسخ.
+arSA.Installer_ShortcutsGroup=الاختصارات:
+arSA.Installer_StartMenuShortcut=إنشاء اختصار في قائمة &ابدأ
+arSA.Installer_UninstallBusy=أغلق Fluff-History وعمليات الملفات النشطة وصفحات الخصائص قبل إزالة التثبيت. لم يُوقَف شيء بالقوة.
+heIL.Installer_AttentionBody=Fluff-History לא הצליח להשלים את ההתקנה. הגדרות היישום ומאגר הגיבוי נשמרו. הפעילו שוב את ההתקנה כדי לנסות שוב.
+heIL.Installer_AttentionTitle=ההתקנה דורשת תשומת לב
+heIL.Installer_Busy=מתבצעת התקנה או הפעלת יישום. המתינו מעט ונסו שוב.
+heIL.Installer_DesktopShortcut=יצירת קיצור דרך ב&שולחן העבודה
+heIL.Installer_FixedFolder=Fluff-History דורש את תיקיית ההתקנה הקבועה שלו לכל משתמש.
+heIL.Installer_InstallFailed=Fluff-History לא הצליח להשלים את ההתקנה. מצב היישום נשמר לניסיון חוזר; מאגר הגיבוי לא השתנה.
+heIL.Installer_PrepareFailed=Fluff-History לא הצליח להכין את העדכון. סגרו פעולות קבצים פעילות ודפי מאפיינים ונסו שוב. מאגר הגיבוי לא השתנה.
+heIL.Installer_ShortcutsGroup=קיצורי דרך:
+heIL.Installer_StartMenuShortcut=יצירת קיצור דרך בתפריט &התחל
+heIL.Installer_UninstallBusy=סגרו את Fluff-History, פעולות קבצים פעילות ודפי מאפיינים לפני הסרת ההתקנה. דבר לא הופסק בכוח.
+zhHans.Installer_AttentionBody=Fluff-History 无法完成安装。应用设置和备份存储库已保留。请再次运行安装程序重试。
+zhHans.Installer_AttentionTitle=安装需要注意
+zhHans.Installer_Busy=安装或应用启动正在进行。请稍候重试。
+zhHans.Installer_DesktopShortcut=创建桌面快捷方式(&D)
+zhHans.Installer_FixedFolder=Fluff-History 必须使用其固定的用户专属安装文件夹。
+zhHans.Installer_InstallFailed=Fluff-History 无法完成安装。已保留应用状态以便重试；备份存储库未更改。
+zhHans.Installer_PrepareFailed=Fluff-History 无法准备更新。请关闭活动文件操作和属性页后重试。备份存储库未更改。
+zhHans.Installer_ShortcutsGroup=快捷方式：
+zhHans.Installer_StartMenuShortcut=创建开始菜单快捷方式(&S)
+zhHans.Installer_UninstallBusy=卸载前请关闭 Fluff-History、活动文件操作和属性页。未强制停止任何操作。
+zhHant.Installer_AttentionBody=Fluff-History 無法完成安裝。應用程式設定與備份存放庫已保留。請再次執行安裝程式以重試。
+zhHant.Installer_AttentionTitle=安裝需要注意
+zhHant.Installer_Busy=安裝或應用程式啟動正在進行。請稍候重試。
+zhHant.Installer_DesktopShortcut=建立桌面捷徑(&D)
+zhHant.Installer_FixedFolder=Fluff-History 必須使用固定的個別使用者安裝資料夾。
+zhHant.Installer_InstallFailed=Fluff-History 無法完成安裝。已保留應用程式狀態以供重試；備份存放庫未變更。
+zhHant.Installer_PrepareFailed=Fluff-History 無法準備更新。請關閉進行中的檔案作業與內容頁面後重試。備份存放庫未變更。
+zhHant.Installer_ShortcutsGroup=捷徑：
+zhHant.Installer_StartMenuShortcut=建立開始功能表捷徑(&S)
+zhHant.Installer_UninstallBusy=解除安裝前請關閉 Fluff-History、進行中的檔案作業與內容頁面。未強制停止任何作業。
+jaJP.Installer_AttentionBody=Fluff-History のインストールを完了できませんでした。アプリ設定とバックアップリポジトリは保持されています。セットアップを再実行してください。
+jaJP.Installer_AttentionTitle=インストールに確認が必要
+jaJP.Installer_Busy=インストールまたはアプリの起動を実行中です。しばらく待って再試行してください。
+jaJP.Installer_DesktopShortcut=デスクトップにショートカットを作成(&D)
+jaJP.Installer_FixedFolder=Fluff-History はユーザーごとの固定インストール先が必要です。
+jaJP.Installer_InstallFailed=Fluff-History のインストールを完了できませんでした。再試行用にアプリの状態を保持しました。バックアップリポジトリは変更していません。
+jaJP.Installer_PrepareFailed=Fluff-History は更新を準備できませんでした。実行中のファイル操作とプロパティを閉じて再試行してください。バックアップリポジトリは変更していません。
+jaJP.Installer_ShortcutsGroup=ショートカット：
+jaJP.Installer_StartMenuShortcut=スタートメニューにショートカットを作成(&S)
+jaJP.Installer_UninstallBusy=アンインストール前に Fluff-History、実行中のファイル操作、プロパティを閉じてください。強制終了は行っていません。
+koKR.Installer_AttentionBody=Fluff-History 설치를 완료할 수 없습니다. 앱 설정과 백업 저장소는 유지되었습니다. 설치 프로그램을 다시 실행하세요.
+koKR.Installer_AttentionTitle=설치 확인 필요
+koKR.Installer_Busy=설치 또는 앱 시작이 진행 중입니다. 잠시 기다렸다가 다시 시도하세요.
+koKR.Installer_DesktopShortcut=바탕 화면 바로 가기 만들기(&D)
+koKR.Installer_FixedFolder=Fluff-History는 고정된 사용자별 설치 폴더가 필요합니다.
+koKR.Installer_InstallFailed=Fluff-History 설치를 완료할 수 없습니다. 다시 시도할 수 있도록 앱 상태가 유지되었습니다. 백업 저장소는 변경되지 않았습니다.
+koKR.Installer_PrepareFailed=Fluff-History가 업데이트를 준비할 수 없습니다. 활성 파일 작업과 속성 페이지를 닫고 다시 시도하세요. 백업 저장소는 변경되지 않았습니다.
+koKR.Installer_ShortcutsGroup=바로 가기:
+koKR.Installer_StartMenuShortcut=시작 메뉴 바로 가기 만들기(&S)
+koKR.Installer_UninstallBusy=제거하기 전에 Fluff-History, 활성 파일 작업 및 속성 페이지를 닫으세요. 강제로 중지된 항목은 없습니다.
+thTH.Installer_AttentionBody=Fluff-History ติดตั้งไม่เสร็จ การตั้งค่าแอปและที่เก็บข้อมูลสำรองยังเก็บไว้ เรียกตัวติดตั้งใหม่เพื่อลองอีกครั้ง
+thTH.Installer_AttentionTitle=การติดตั้งต้องตรวจสอบ
+thTH.Installer_Busy=มีการติดตั้งหรือเริ่มแอปอยู่ รอสักครู่แล้วลองใหม่
+thTH.Installer_DesktopShortcut=สร้างทางลัดบนเดสก์ท็อป (&D)
+thTH.Installer_FixedFolder=Fluff-History ต้องใช้โฟลเดอร์ติดตั้งเฉพาะผู้ใช้ที่กำหนดไว้
+thTH.Installer_InstallFailed=Fluff-History ติดตั้งไม่เสร็จ เก็บสถานะแอปไว้เพื่อลองใหม่ ที่เก็บข้อมูลสำรองไม่เปลี่ยนแปลง
+thTH.Installer_PrepareFailed=Fluff-History เตรียมอัปเดตไม่ได้ ปิดการดำเนินการไฟล์ที่ใช้งานและหน้าคุณสมบัติแล้วลองใหม่ ที่เก็บข้อมูลสำรองไม่เปลี่ยนแปลง
+thTH.Installer_ShortcutsGroup=ทางลัด:
+thTH.Installer_StartMenuShortcut=สร้างทางลัดในเมนูเริ่ม (&S)
+thTH.Installer_UninstallBusy=ปิด Fluff-History การดำเนินการไฟล์ที่ใช้งาน และหน้าคุณสมบัติก่อนถอนการติดตั้ง ไม่มีการบังคับหยุดใดๆ
+roRO.Installer_AttentionBody=Fluff-History nu a putut finaliza instalarea. Setările aplicației și depozitul de backup au fost păstrate. Rulează din nou instalarea pentru a reîncerca.
+roRO.Installer_AttentionTitle=Instalarea necesită atenție
+roRO.Installer_Busy=O instalare sau o pornire a aplicației este activă. Așteaptă puțin și reîncearcă.
+roRO.Installer_DesktopShortcut=Creează o comandă rapidă pe &desktop
+roRO.Installer_FixedFolder=Fluff-History necesită folderul său fix de instalare per utilizator.
+roRO.Installer_InstallFailed=Fluff-History nu a putut finaliza instalarea. Starea aplicației a fost păstrată pentru reîncercare; depozitul de backup este neschimbat.
+roRO.Installer_PrepareFailed=Fluff-History nu a putut pregăti actualizarea. Închide operațiile active cu fișiere și paginile Proprietăți, apoi reîncearcă. Depozitul de backup este neschimbat.
+roRO.Installer_ShortcutsGroup=Comenzi rapide:
+roRO.Installer_StartMenuShortcut=Creează o comandă rapidă în meniul &Start
+roRO.Installer_UninstallBusy=Închide Fluff-History, operațiile active cu fișiere și paginile Proprietăți înainte de dezinstalare. Nimic nu a fost oprit forțat.
+hrHR.Installer_AttentionBody=Fluff-History nije mogao dovršiti instalaciju. Postavke aplikacije i repozitorij kopije sačuvani su. Ponovno pokrenite instalacijski program.
+hrHR.Installer_AttentionTitle=Instalacija zahtijeva pozornost
+hrHR.Installer_Busy=Instalacija ili pokretanje aplikacije je aktivno. Kratko pričekajte i pokušajte ponovno.
+hrHR.Installer_DesktopShortcut=Stvori prečac na &radnoj površini
+hrHR.Installer_FixedFolder=Fluff-History zahtijeva svoju fiksnu instalacijsku mapu po korisniku.
+hrHR.Installer_InstallFailed=Fluff-History nije mogao dovršiti instalaciju. Stanje aplikacije sačuvano je za ponovni pokušaj; repozitorij kopije nije promijenjen.
+hrHR.Installer_PrepareFailed=Fluff-History nije mogao pripremiti ažuriranje. Zatvorite aktivne radnje s datotekama i stranice svojstava pa pokušajte ponovno. Repozitorij kopije nije promijenjen.
+hrHR.Installer_ShortcutsGroup=Prečaci:
+hrHR.Installer_StartMenuShortcut=Stvori prečac u izborniku &Start
+hrHR.Installer_UninstallBusy=Prije deinstalacije zatvorite Fluff-History, aktivne radnje s datotekama i stranice svojstava. Ništa nije prisilno zaustavljeno.
+srLatnRS.Installer_AttentionBody=Fluff-History nije završio instalaciju. Podešavanja aplikacije i repozitorijum kopije su sačuvani. Ponovo pokrenite instalaciju.
+srLatnRS.Installer_AttentionTitle=Instalacija zahteva pažnju
+srLatnRS.Installer_Busy=Instalacija ili pokretanje aplikacije je aktivno. Sačekajte malo pa pokušajte ponovo.
+srLatnRS.Installer_DesktopShortcut=Napravi prečicu na &radnoj površini
+srLatnRS.Installer_FixedFolder=Fluff-History zahteva svoju stalnu instalacionu fasciklu po korisniku.
+srLatnRS.Installer_InstallFailed=Fluff-History nije završio instalaciju. Stanje aplikacije je sačuvano za ponovni pokušaj; repozitorijum kopije nije promenjen.
+srLatnRS.Installer_PrepareFailed=Fluff-History nije pripremio ažuriranje. Zatvorite aktivne radnje sa datotekama i stranice svojstava pa pokušajte ponovo. Repozitorijum kopije nije promenjen.
+srLatnRS.Installer_ShortcutsGroup=Prečice:
+srLatnRS.Installer_StartMenuShortcut=Napravi prečicu u meniju &Start
+srLatnRS.Installer_UninstallBusy=Pre deinstalacije zatvorite Fluff-History, aktivne radnje sa datotekama i stranice svojstava. Ništa nije nasilno zaustavljeno.
+srCyrlRS.Installer_AttentionBody=Fluff-History није завршио инсталацију. Подешавања апликације и репозиторијум копије су сачувани. Поново покрените инсталацију.
+srCyrlRS.Installer_AttentionTitle=Инсталација захтева пажњу
+srCyrlRS.Installer_Busy=Инсталација или покретање апликације је активно. Сачекајте мало па покушајте поново.
+srCyrlRS.Installer_DesktopShortcut=Направи пречицу на &радној површини
+srCyrlRS.Installer_FixedFolder=Fluff-History захтева своју сталну инсталациону фасциклу по кориснику.
+srCyrlRS.Installer_InstallFailed=Fluff-History није завршио инсталацију. Стање апликације је сачувано за поновни покушај; репозиторијум копије није промењен.
+srCyrlRS.Installer_PrepareFailed=Fluff-History није припремио ажурирање. Затворите активне радње са датотекама и странице својстава па покушајте поново. Репозиторијум копије није промењен.
+srCyrlRS.Installer_ShortcutsGroup=Пречице:
+srCyrlRS.Installer_StartMenuShortcut=Направи пречицу у менију &Старт
+srCyrlRS.Installer_UninstallBusy=Пре деинсталације затворите Fluff-History, активне радње са датотекама и странице својстава. Ништа није насилно заустављено.
+elGR.Installer_AttentionBody=Το Fluff-History δεν ολοκλήρωσε την εγκατάσταση. Οι ρυθμίσεις και το αποθετήριο αντιγράφων διατηρήθηκαν. Εκτελέστε ξανά την εγκατάσταση.
+elGR.Installer_AttentionTitle=Η εγκατάσταση χρειάζεται προσοχή
+elGR.Installer_Busy=Υπάρχει ενεργή εγκατάσταση ή εκκίνηση εφαρμογής. Περιμένετε λίγο και δοκιμάστε ξανά.
+elGR.Installer_DesktopShortcut=Δημιουργία συντόμευσης στην &επιφάνεια εργασίας
+elGR.Installer_FixedFolder=Το Fluff-History απαιτεί τον σταθερό φάκελο εγκατάστασής του ανά χρήστη.
+elGR.Installer_InstallFailed=Το Fluff-History δεν ολοκλήρωσε την εγκατάσταση. Η κατάσταση εφαρμογής διατηρήθηκε για νέα προσπάθεια· το αποθετήριο αντιγράφων δεν άλλαξε.
+elGR.Installer_PrepareFailed=Το Fluff-History δεν προετοίμασε την ενημέρωση. Κλείστε ενεργές λειτουργίες αρχείων και σελίδες Ιδιοτήτων και δοκιμάστε ξανά. Το αποθετήριο αντιγράφων δεν άλλαξε.
+elGR.Installer_ShortcutsGroup=Συντομεύσεις:
+elGR.Installer_StartMenuShortcut=Δημιουργία συντόμευσης στο μενού Έ&ναρξη
+elGR.Installer_UninstallBusy=Κλείστε το Fluff-History, ενεργές λειτουργίες αρχείων και σελίδες Ιδιοτήτων πριν από την απεγκατάσταση. Τίποτα δεν διακόπηκε αναγκαστικά.
+etEE.Installer_AttentionBody=Fluff-History ei saanud paigaldust lõpetada. Rakenduse sätted ja varukoopiahoidla säilitati. Proovimiseks käivita paigaldus uuesti.
+etEE.Installer_AttentionTitle=Paigaldus vajab tähelepanu
+etEE.Installer_Busy=Paigaldus või rakenduse käivitamine on pooleli. Oota veidi ja proovi uuesti.
+etEE.Installer_DesktopShortcut=Loo otsetee &töölauale
+etEE.Installer_FixedFolder=Fluff-History vajab oma kindlat kasutajapõhist paigalduskausta.
+etEE.Installer_InstallFailed=Fluff-History ei saanud paigaldust lõpetada. Rakenduse olek säilitati uue katse jaoks; varukoopiahoidla ei muutunud.
+etEE.Installer_PrepareFailed=Fluff-History ei saanud värskendust ette valmistada. Sulge aktiivsed failitoimingud ja atribuutide lehed ning proovi uuesti. Varukoopiahoidla ei muutunud.
+etEE.Installer_ShortcutsGroup=Otseteed:
+etEE.Installer_StartMenuShortcut=Loo otsetee &menüüsse Start
+etEE.Installer_UninstallBusy=Enne eemaldamist sulge Fluff-History, aktiivsed failitoimingud ja atribuutide lehed. Midagi ei peatatud sunniviisiliselt.
+lvLV.Installer_AttentionBody=Fluff-History nevarēja pabeigt instalāciju. Lietotnes iestatījumi un dublējumu krātuve tika saglabāti. Palaidiet instalatoru vēlreiz, lai atkārtotu mēģinājumu.
+lvLV.Installer_AttentionTitle=Instalācijai nepieciešama uzmanība
+lvLV.Installer_Busy=Notiek instalācija vai lietotnes palaišana. Nedaudz uzgaidiet un mēģiniet vēlreiz.
+lvLV.Installer_DesktopShortcut=Izveidot &darbvirsmas īsceļu
+lvLV.Installer_FixedFolder=Fluff-History ir nepieciešama fiksētā katra lietotāja instalācijas mape.
+lvLV.Installer_InstallFailed=Fluff-History nevarēja pabeigt instalāciju. Lietotnes stāvoklis saglabāts atkārtotam mēģinājumam; dublējumu krātuve nav mainīta.
+lvLV.Installer_PrepareFailed=Fluff-History nevarēja sagatavot atjauninājumu. Aizveriet aktīvās failu darbības un rekvizītu lapas, tad mēģiniet vēlreiz. Dublējumu krātuve nav mainīta.
+lvLV.Installer_ShortcutsGroup=Īsceļi:
+lvLV.Installer_StartMenuShortcut=Izveidot izvēlnes &Sākt īsceļu
+lvLV.Installer_UninstallBusy=Pirms atinstalēšanas aizveriet Fluff-History, aktīvās failu darbības un rekvizītu lapas. Nekas netika piespiedu kārtā apturēts.
+faIR.Installer_AttentionBody=Fluff-History نتوانست نصب را تکمیل کند. تنظیمات برنامه و مخزن پشتیبان حفظ شدند. برای تلاش دوباره، نصب‌کننده را مجدداً اجرا کنید.
+faIR.Installer_AttentionTitle=نصب نیازمند رسیدگی است
+faIR.Installer_Busy=نصب یا راه‌اندازی برنامه‌ای فعال است. کمی صبر کنید و دوباره تلاش کنید.
+faIR.Installer_DesktopShortcut=ساخت میانبر روی &میزکار
+faIR.Installer_FixedFolder=Fluff-History به پوشهٔ نصب ثابت ویژهٔ هر کاربر نیاز دارد.
+faIR.Installer_InstallFailed=Fluff-History نتوانست نصب را تکمیل کند. وضعیت برنامه برای تلاش دوباره حفظ شد؛ مخزن پشتیبان تغییری نکرده است.
+faIR.Installer_PrepareFailed=Fluff-History نتوانست به‌روزرسانی را آماده کند. عملیات فعال پرونده‌ها و صفحه‌های ویژگی‌ها را ببندید و دوباره تلاش کنید. مخزن پشتیبان تغییری نکرده است.
+faIR.Installer_ShortcutsGroup=میانبرها:
+faIR.Installer_StartMenuShortcut=ساخت میانبر در منوی &شروع
+faIR.Installer_UninstallBusy=پیش از حذف نصب، Fluff-History، عملیات فعال پرونده‌ها و صفحه‌های ویژگی‌ها را ببندید. هیچ چیزی به‌اجبار متوقف نشد.
+hiIN.Installer_AttentionBody=Fluff-History स्थापना पूरी नहीं कर सका। आपकी ऐप सेटिंग और बैकअप रिपॉज़िटरी रखी गई। फिर प्रयास के लिए सेटअप दोबारा चलाएँ।
+hiIN.Installer_AttentionTitle=स्थापना पर ध्यान देना आवश्यक है
+hiIN.Installer_Busy=स्थापना या ऐप शुरू करना सक्रिय है। थोड़ी प्रतीक्षा करें और फिर प्रयास करें।
+hiIN.Installer_DesktopShortcut=&डेस्कटॉप शॉर्टकट बनाएँ
+hiIN.Installer_FixedFolder=Fluff-History को अपना निश्चित प्रति-उपयोगकर्ता स्थापना फ़ोल्डर चाहिए।
+hiIN.Installer_InstallFailed=Fluff-History स्थापना पूरी नहीं कर सका। फिर प्रयास के लिए ऐप स्थिति रखी गई; बैकअप रिपॉज़िटरी अपरिवर्तित है।
+hiIN.Installer_PrepareFailed=Fluff-History अपडेट तैयार नहीं कर सका। सक्रिय फ़ाइल कार्य और गुण पृष्ठ बंद करें, फिर प्रयास करें। बैकअप रिपॉज़िटरी अपरिवर्तित है।
+hiIN.Installer_ShortcutsGroup=शॉर्टकट:
+hiIN.Installer_StartMenuShortcut=&स्टार्ट मेनू शॉर्टकट बनाएँ
+hiIN.Installer_UninstallBusy=अनइंस्टॉल से पहले Fluff-History, सक्रिय फ़ाइल कार्य और गुण पृष्ठ बंद करें। कुछ भी ज़बरदस्ती नहीं रोका गया।
+bnBD.Installer_AttentionBody=Fluff-History ইনস্টলেশন শেষ করতে পারেনি। অ্যাপ্লিকেশনের সেটিংস ও ব্যাকআপের ভাণ্ডার রাখা হয়েছে। আবার চেষ্টা করতে সেটআপ চালান।
+bnBD.Installer_AttentionTitle=ইনস্টলেশনে মনোযোগ প্রয়োজন
+bnBD.Installer_Busy=ইনস্টলেশন বা অ্যাপ্লিকেশন চালু হচ্ছে। কিছুক্ষণ অপেক্ষা করে আবার চেষ্টা করুন।
+bnBD.Installer_DesktopShortcut=&ডেস্কটপ শর্টকাট তৈরি করুন
+bnBD.Installer_FixedFolder=Fluff-History-এর নির্দিষ্ট প্রতি-ব্যবহারকারীর ইনস্টলেশন ফোল্ডার প্রয়োজন।
+bnBD.Installer_InstallFailed=Fluff-History ইনস্টলেশন শেষ করতে পারেনি। আবার চেষ্টার জন্য অ্যাপ্লিকেশনের অবস্থা রাখা হয়েছে; ব্যাকআপের ভাণ্ডার অপরিবর্তিত।
+bnBD.Installer_PrepareFailed=Fluff-History আপডেট প্রস্তুত করতে পারেনি। সক্রিয় ফাইলের কাজ ও বৈশিষ্ট্যের পৃষ্ঠা বন্ধ করে আবার চেষ্টা করুন। ব্যাকআপের ভাণ্ডার অপরিবর্তিত।
+bnBD.Installer_ShortcutsGroup=শর্টকাট:
+bnBD.Installer_StartMenuShortcut=&স্টার্ট মেনু শর্টকাট তৈরি করুন
+bnBD.Installer_UninstallBusy=আনইনস্টলের আগে Fluff-History, সক্রিয় ফাইলের কাজ ও বৈশিষ্ট্যের পৃষ্ঠা বন্ধ করুন। কিছুই জোর করে থামানো হয়নি।
+viVN.Installer_AttentionBody=Fluff-History không hoàn tất được cài đặt. Cài đặt ứng dụng và kho sao lưu được giữ lại. Chạy lại trình cài để thử lại.
+viVN.Installer_AttentionTitle=Cài đặt cần chú ý
+viVN.Installer_Busy=Đang có cài đặt hoặc khởi động ứng dụng. Đợi một lát rồi thử lại.
+viVN.Installer_DesktopShortcut=Tạo lối tắt trên &màn hình nền
+viVN.Installer_FixedFolder=Fluff-History yêu cầu thư mục cài đặt cố định cho từng người dùng.
+viVN.Installer_InstallFailed=Fluff-History không hoàn tất được cài đặt. Đã giữ trạng thái ứng dụng để thử lại; kho sao lưu không đổi.
+viVN.Installer_PrepareFailed=Fluff-History không chuẩn bị được cập nhật. Đóng thao tác tệp đang chạy và trang Thuộc tính rồi thử lại. Kho sao lưu không đổi.
+viVN.Installer_ShortcutsGroup=Lối tắt:
+viVN.Installer_StartMenuShortcut=Tạo lối tắt trong menu &Bắt đầu
+viVN.Installer_UninstallBusy=Đóng Fluff-History, thao tác tệp đang chạy và trang Thuộc tính trước khi gỡ cài đặt. Không ép dừng gì.
+idID.Installer_AttentionBody=Fluff-History tidak dapat menyelesaikan pemasangan. Pengaturan aplikasi dan repositori cadangan tetap ada. Jalankan Penyiapan lagi untuk mencoba ulang.
+idID.Installer_AttentionTitle=Pemasangan perlu perhatian
+idID.Installer_Busy=Pemasangan atau startup aplikasi sedang aktif. Tunggu sebentar dan coba lagi.
+idID.Installer_DesktopShortcut=Buat pintasan &Desktop
+idID.Installer_FixedFolder=Fluff-History memerlukan folder pemasangan tetap per pengguna.
+idID.Installer_InstallFailed=Fluff-History tidak dapat menyelesaikan pemasangan. Status aplikasi disimpan untuk percobaan ulang; repositori cadangan tidak berubah.
+idID.Installer_PrepareFailed=Fluff-History tidak dapat menyiapkan pembaruan. Tutup operasi berkas aktif dan halaman Properti, lalu coba lagi. Repositori cadangan tidak berubah.
+idID.Installer_ShortcutsGroup=Pintasan:
+idID.Installer_StartMenuShortcut=Buat pintasan menu &Mulai
+idID.Installer_UninstallBusy=Tutup Fluff-History, operasi berkas aktif, dan halaman Properti sebelum mencopot pemasangan. Tidak ada yang dihentikan paksa.
+msMY.Installer_AttentionBody=Fluff-History tidak dapat menyelesaikan pemasangan. Tetapan aplikasi dan repositori sandaran dikekalkan. Jalankan Persediaan semula untuk mencuba lagi.
+msMY.Installer_AttentionTitle=Pemasangan memerlukan perhatian
+msMY.Installer_Busy=Pemasangan atau permulaan aplikasi sedang aktif. Tunggu sebentar dan cuba lagi.
+msMY.Installer_DesktopShortcut=Cipta pintasan &Desktop
+msMY.Installer_FixedFolder=Fluff-History memerlukan folder pemasangan tetap bagi setiap pengguna.
+msMY.Installer_InstallFailed=Fluff-History tidak dapat menyelesaikan pemasangan. Keadaan aplikasi dikekalkan untuk cubaan semula; repositori sandaran tidak berubah.
+msMY.Installer_PrepareFailed=Fluff-History tidak dapat menyediakan kemas kini. Tutup operasi fail aktif dan halaman Sifat, kemudian cuba lagi. Repositori sandaran tidak berubah.
+msMY.Installer_ShortcutsGroup=Pintasan:
+msMY.Installer_StartMenuShortcut=Cipta pintasan menu &Mula
+msMY.Installer_UninstallBusy=Tutup Fluff-History, operasi fail aktif dan halaman Sifat sebelum menyahpasang. Tiada apa dihentikan secara paksa.

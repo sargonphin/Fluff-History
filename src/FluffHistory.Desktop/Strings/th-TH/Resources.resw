@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>th-TH</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>ภาพรวม</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>ไทม์ไลน์</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>การกำหนดค่า</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>การตั้งค่าแอป</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>พร้อม</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>การกำหนดค่า</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่านการกู้คืน…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>เปิดการเข้ารหัส…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>ปิดการเข้ารหัส…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ความคืบหน้าการแปลงการเข้ารหัส</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>ทำต่อ</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>หยุดชั่วคราว</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>พื้นที่ไดรฟ์</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>พื้นที่ที่ใช้บนไดรฟ์สำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>กู้คืนการเข้าถึง…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>กู้คืนการเข้าถึง…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>กู้คืนด้วยบัญชี Microsoft (ทดลอง)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>เปลี่ยน…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เปลี่ยนตำแหน่งสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>โฟลเดอร์ที่จะสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>โฟลเดอร์ที่จะสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>เพิ่มโฟลเดอร์…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>นำออกจากการสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>การนำโฟลเดอร์ออกจะหยุดการสำรองข้อมูลในอนาคต ประวัติที่มีอยู่จะถูกเก็บตามการตั้งค่าการเก็บรักษา</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>โฟลเดอร์ที่ยกเว้น</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>โฟลเดอร์ที่ยกเว้นจะไม่รวมอยู่ในการสำรองข้อมูลครั้งต่อไป ประวัติที่มีอยู่จะถูกเก็บไว้</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>โฟลเดอร์ที่ยกเว้น</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>ยกเว้นโฟลเดอร์…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ยกเว้นโฟลเดอร์</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>นำข้อยกเว้นออก</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>นำข้อยกเว้นของผู้ใช้ที่เลือกออก</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>การสำรองข้อมูลอัตโนมัติ</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>การสำรองข้อมูลอัตโนมัติ</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>สำรองไฟล์</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ความถี่การสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>เก็บเวอร์ชันที่บันทึกไว้</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>การเก็บรักษาเวอร์ชันที่บันทึกไว้</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>การสำรองข้อมูลอัตโนมัติจะดำเนินต่อเมื่อปิดหน้าต่างนี้ การสำรองข้อมูลที่พลาดจะไม่ถูกนำเข้าคิว</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>พลังงานและเครือข่าย</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>พลังงานและเครือข่าย</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>พลังงานและเครือข่าย</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>หยุดการสำรองข้อมูลอัตโนมัติชั่วคราวเมื่อใช้แบตเตอรี่</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>อนุญาตให้สำรองข้อมูลที่ใช้เครือข่ายบนการเชื่อมต่อแบบคิดค่าบริการตามปริมาณข้อมูล</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>รอเมื่อ Windows รายงานว่าไม่มีเครือข่ายสำหรับการสำรองข้อมูลเครือข่าย</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ขั้นสูง</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ขั้นสูง</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>ขั้นสูง</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>บันทึกคีย์การกู้คืนไปยัง OneDrive (ทดลอง)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>ตรวจสอบการกู้คืนผ่าน OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>การกู้คืนแบบทดลอง</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>รอเมื่อ Windows ไม่สามารถระบุสถานะพลังงานได้</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>รีเซ็ตการกำหนดค่าแอป…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>บันทึกการเปลี่ยนแปลง</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>ละทิ้ง</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History รุ่นตัวอย่างสำหรับนักพัฒนา</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>การสำรองข้อมูลตามกำหนดเวลาจะดำเนินต่อเมื่อปิดหน้าต่างนี้ การผสานกับ Explorer และคุณสมบัติจะติดตั้งพร้อม Fluff-History รองรับการกู้คืนด้วยรหัสผ่านและการเข้าถึง Windows ในเครื่อง ไม่มีการวัดและส่งข้อมูลหรือการอัปโหลดอัตโนมัติ</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>คัดลอกข้อมูลวินิจฉัยที่ลบข้อมูลอ่อนไหวแล้ว</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>ตรวจสอบเส้นทางโฟลเดอร์ก่อนแชร์ ไม่มีรหัสผ่านการกู้คืน ข้อมูลคีย์ หรือโทเค็นบัญชีรวมอยู่</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ข้อมูลวินิจฉัยแอป</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>ไทม์ไลน์</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>กำลังเปลี่ยนการเข้ารหัส</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>ประวัติการสำรองข้อมูลไม่พร้อมใช้งานชั่วคราว ดำเนินการเปลี่ยนการเข้ารหัสต่อในการกำหนดค่าเพื่อให้เสร็จสิ้น</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เส้นทางโฟลเดอร์ไทม์ไลน์</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ไทม์ไลน์ ณ เวลา</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>ล่าสุด</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>เลือกวันที่/เวลา…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>แสดงไทม์ไลน์ตามเวลาท้องถิ่น</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>วันที่</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>วันที่อ้างอิง</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>เวลา</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เวลาอ้างอิง</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>แสดงไทม์ไลน์</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>รีเฟรช</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>โฟลเดอร์หลัก</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>โฟลเดอร์หลัก</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>คืนค่า</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>ก่อนหน้า</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>เวลาก่อนหน้าในไทม์ไลน์</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>เวลาถัดไปในไทม์ไลน์</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>รีเฟรช</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>ล้างเวอร์ชันเก่า…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>มุมมอง</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>ไอคอนขนาดใหญ่</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>รายการ</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>คืนค่าที่เลือก…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>ยกเลิกการเลือกทั้งหมด</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>รายการไทม์ไลน์</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ไอคอนขนาดใหญ่ของไทม์ไลน์</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>ไม่มีเวอร์ชันไทม์ไลน์ให้แสดง</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>เปิดการกำหนดค่า</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>โหลดไฟล์และโฟลเดอร์เพิ่มเติม</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>ดูตัวอย่าง / เปิด</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>คืนค่า</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>คืนค่าเวอร์ชันที่เลือก</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ตัวเลือกเวอร์ชันที่บันทึกไว้</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>คืนค่าไปยัง…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>เวอร์ชัน · ใหม่สุดก่อน</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เวอร์ชันไฟล์</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>โหลดเวอร์ชันเพิ่มเติม</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>กำลังโหลดไทม์ไลน์</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>ยกเลิกการโหลด</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>ภาพรวม</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>ตั้งค่า Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>สำรองข้อมูลตอนนี้</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>กู้คืนการเข้าถึง…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>กู้คืนการเข้าถึง…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>การกำหนดค่า</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>ต้องตรวจสอบ</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>กิจกรรมการสำรองข้อมูล</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>พื้นที่ไดรฟ์</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>พื้นที่ที่ใช้บนไดรฟ์สำรองข้อมูล</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>ปัญหาไฟล์หรือโฟลเดอร์</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>ยกเลิกการสำรองข้อมูล</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>เปิดไทม์ไลน์</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>การตั้งค่าแอป</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>ลักษณะที่ปรากฏ</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>เลือกลักษณะของ Fluff-History ตัวเลือกระบบจะใช้ตามลักษณะของ Windows</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ลักษณะที่ปรากฏ</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>ไม่สามารถโหลดการกำหนดลักษณะของแอปได้ กำลังใช้ค่าเริ่มต้นที่ปลอดภัย เลือกการกำหนดลักษณะเพื่อบันทึกสำเนาใหม่</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>จัดการโฟลเดอร์สำรองข้อมูล กำหนดเวลา และการเก็บรักษาได้ในการกำหนดค่า ไทม์ไลน์จะจำตัวเลือกไอคอนขนาดใหญ่หรือรายการ</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>นำเวอร์ชันที่บันทึกไว้ออก</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>เลือกสิ่งที่จะนำออก...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ช่วงเวลาการล้าง</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>ยกเลิกการล้าง</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>คืนค่า</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>คืนค่าไปยัง…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>ดูตัวอย่าง / เปิด</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>ลบเวอร์ชันที่บันทึกไว้…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>ดำเนินการต่อ</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>ทำต่อ</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>ยืนยัน</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>ใช้ตำแหน่งสำรองข้อมูลนี้</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>กำลังปิด</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>กำลังรอให้การดำเนินการที่ใช้งานอยู่เสร็จสิ้น…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>การปิดต้องได้รับการตรวจสอบ</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>รอการดำเนินการไฟล์ที่ใช้งานอยู่ แล้วลองปิดอีกครั้ง</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>การดำเนินการต้องได้รับการตรวจสอบ</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>ต้องกู้คืน</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>เปิดภาพรวมหรือการกำหนดค่าเพื่อกู้คืนการเข้าถึงด้วยรหัสผ่านการกู้คืน</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>ยังไม่ได้กำหนดค่า</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>เลือกตั้งค่า Fluff-History ในภาพรวมเพื่อเริ่มต้น</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>พร้อมกำหนดค่า</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>ยกเลิกแล้ว การดำเนินการไฟล์ที่เสร็จแล้วจะยังคงมีผล</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>ไม่สามารถดำเนินการให้เสร็จได้ ตรวจสอบโฟลเดอร์ที่เลือก การกำหนดค่า และการเชื่อมต่อ แล้วลองอีกครั้ง</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>บันทึกการกำหนดลักษณะแอปแล้ว</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>รีเซ็ตการตั้งค่าแอปที่เสียหายอย่างชัดเจนก่อนบันทึก</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History กำลังปิดเพื่ออัปเดต</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>เอเจนต์เบื้องหลังไม่พร้อมใช้งาน เปิด Fluff-History ใหม่เพื่อลองอีกครั้ง หรือซ่อมแซมการติดตั้ง</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>เปิดตัวอย่างไทม์ไลน์แล้ว</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>การคืนค่า: คัดลอก {0:N0} · ข้าม {1:N0} · ล้มเหลว {2:N0} · ไม่ยืนยัน {3:N0} · คำเตือนเมทาดาทา {4:N0}</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · ยกเลิกแล้ว</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>กู้คืนเสร็จแล้ว ผู้ใช้ Windows นี้สามารถเปิดข้อมูลสำรองได้แล้ว</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>รหัสผ่านการกู้คืนไม่สามารถปลดล็อกข้อมูลสำรองนี้ได้ ตรวจสอบรหัสผ่านแล้วลองอีกครั้ง</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>ไม่สามารถยืนยันการกู้คืนได้ทั้งหมด การเปิดในเครื่องครั้งใหม่สำเร็จแล้ว ตรวจสอบการเข้าถึงก่อนลองอีกครั้ง</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>ไม่สามารถยืนยันการเข้าถึงในเครื่องหลังการกู้คืนได้ ตรวจสอบตำแหน่งสำรองข้อมูลก่อนลองอีกครั้ง</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูลไม่ถูกต้องหรือเสียหาย การกู้คืนยังไม่เสร็จ</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>ยกเลิกการกู้คืนแล้ว</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>ไม่สามารถกู้คืนให้เสร็จได้ ตรวจสอบตำแหน่งสำรองข้อมูลและการเชื่อมต่อก่อนลองอีกครั้ง</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูล</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>เพิ่มโฟลเดอร์</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>โฟลเดอร์ที่จะสำรองข้อมูล</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>ปกป้องข้อมูลสำรองนี้ด้วยรหัสผ่านการกู้คืน</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>ตั้งค่าตำแหน่งสำรองข้อมูลนี้หรือไม่</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>โฟลเดอร์ว่างนี้จะถูกตั้งค่าตอนนี้ จากนั้นบันทึกการเปลี่ยนแปลงเพื่อเริ่มใช้งาน</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>รหัสผ่านการกู้คืน</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>ยืนยันรหัสผ่าน</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่านการกู้คืน</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>ดำเนินการเปลี่ยนการเข้ารหัสต่อ</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>ปกป้องข้อมูลสำรองของคุณ</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>กู้คืนการเข้าถึงข้อมูลสำรอง</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่าน</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>ตั้งค่าข้อมูลสำรองที่ปกป้อง</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>กู้คืนการเข้าถึง</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่านสำหรับการกู้คืนข้ามเครื่อง ไม่จำเป็นต้องเข้ารหัสข้อมูลสำรองเดิมใหม่ เก็บรหัสผ่านใหม่ไว้ในที่ปลอดภัย</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>ป้อนรหัสผ่านการกู้คืนของการเปลี่ยนการเข้ารหัสนี้ การสำรองข้อมูลจะยังหยุดชั่วคราวหากยืนยันการเข้าถึงไม่ได้</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>เก็บรหัสผ่านการกู้คืนไว้ในที่ปลอดภัย คุณต้องใช้เพื่อกู้คืนการเข้าถึงบนการติดตั้ง Windows อื่น ผู้ใช้ Windows นี้สามารถเปิดข้อมูลสำรองได้ตามปกติ</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>ข้อมูลสำรองนี้มีอยู่ แต่ผู้ใช้ Windows นี้ยังเปิดไม่ได้ ป้อนรหัสผ่านการกู้คืนเพื่อเปิดใช้การเข้าถึง</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>ป้อนรหัสผ่านและยืนยันให้ตรงกัน</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>พบข้อมูลสำรองที่มีอยู่</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>ล้างเวอร์ชันเก่า</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>นำเวอร์ชันออก…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>ยืนยันการล้างไทม์ไลน์</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>นำออกจากการสำรองข้อมูลในอนาคตแล้ว ประวัติเดิมเก็บไว้ตามการตั้งค่าการเก็บรักษา</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>โฟลเดอร์นี้จะรวมในการสำรองข้อมูลครั้งต่อไป เว้นแต่มีข้อยกเว้นอื่น ประวัติที่มีอยู่จะถูกเก็บไว้</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>รีเซ็ตการกำหนดค่าแอปหรือไม่</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>ข้อมูลสำรองและข้อมูลต้นทางจะไม่ถูกเปลี่ยนแปลง รีเซ็ตเฉพาะการตั้งค่าแอปนี้</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>รีเซ็ตการกำหนดค่า</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>หยุดการเปลี่ยนการเข้ารหัสชั่วคราว</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>หยุดการนำการเข้ารหัสออกชั่วคราว</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>การเปลี่ยนการเข้ารหัสต้องตรวจสอบ</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>กำลังเตรียมการเปลี่ยนการเข้ารหัส</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} จาก {1} · {2:N0} จาก {3:N0} ไฟล์</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>ไม่สามารถตรวจสอบตัวควบคุมการแปลงได้ ประวัติสำรองข้อมูลยังไม่พร้อมใช้งาน ตรวจสอบการเชื่อมต่อข้อมูลสำรองและข้อมูลวินิจฉัย</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>ประวัติสำรองข้อมูลไม่พร้อมใช้งานชั่วคราวระหว่างการแปลง สามารถทำต่อได้หลังการขัดจังหวะ</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>เข้ารหัสแล้ว</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>ไม่เข้ารหัส</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>ใช้การกู้คืนเพื่อเปิดการเข้าถึงให้บัญชี Windows นี้</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>บัญชี Windows นี้สามารถปลดล็อกข้อมูลสำรองนี้ได้</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>กำลังตรวจสอบการกู้คืนผ่าน OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>การกู้คืนผ่าน OneDrive: เปิด</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>ไม่พบคีย์การกู้คืนใน OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>ปิดการกู้คืนผ่าน OneDrive ในเครื่องแล้ว อาจต้องล้างข้อมูลในคลาวด์</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>การกู้คืนผ่าน OneDrive ต้องได้รับการตรวจสอบ</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>การกู้คืนผ่าน OneDrive ไม่พร้อมใช้งาน</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>การกู้คืนผ่าน OneDrive: ปิด</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>ฟีเจอร์ทดลอง คีย์การกู้คืนแบบสุ่มจะเก็บในโฟลเดอร์แอป Fluff-History บน OneDrive ส่วนไฟล์ที่สำรองไว้ยังอยู่ในตำแหน่งสำรองข้อมูล สิทธิ์ครอบคลุมเฉพาะโฟลเดอร์แอปนี้ พีซีเครื่องอื่นอาจกู้คืนข้อมูลสำรองได้หลังลงชื่อเข้าใช้บัญชี Microsoft โดย Microsoft ระบุสิทธิ์นี้เป็น Preview โปรดเก็บรหัสผ่านการกู้คืนไว้</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่านการกู้คืนแล้ว เก็บรหัสผ่านใหม่ไว้ในที่ปลอดภัย</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>เปิดและตรวจสอบการกู้คืนผ่าน OneDrive แล้ว โปรดเก็บรหัสผ่านการกู้คืนไว้</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>ปิดการกู้คืนผ่าน OneDrive แล้ว รหัสผ่านและการเข้าถึงผ่าน Windows ไม่เปลี่ยนแปลง</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>ตรวจสอบการกู้คืนผ่าน OneDrive แล้ว</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>กู้คืนเสร็จแล้ว บัญชี Windows นี้ปลดล็อกข้อมูลสำรองได้แล้ว</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>ไม่พบคีย์การกู้คืนใน OneDrive โปรดใช้รหัสผ่านการกู้คืน</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>คีย์การกู้คืน OneDrive ไม่สามารถยืนยันความถูกต้องของข้อมูลสำรองนี้ได้ โปรดใช้รหัสผ่านการกู้คืน</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>ไม่สามารถยืนยันการเปลี่ยนแปลงทั้งหมด ตรวจสอบการเข้าถึงก่อนลองใหม่ ประวัติสำรองข้อมูลไม่เปลี่ยนแปลง</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>ยกเลิกการดำเนินการแล้ว</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนความปลอดภัยให้เสร็จได้ ตรวจสอบการเข้าถึงแล้วลองใหม่ ยังใช้การกู้คืนด้วยรหัสผ่านได้</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>การเข้ารหัสข้อมูลสำรอง</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>เนื้อหาข้อมูลสำรองเดิมจะถูกเข้ารหัสในตำแหน่งเดิม การสำรองและคืนค่าจะไม่พร้อมใช้งานชั่วคราว เก็บรหัสผ่านการกู้คืนไว้ การเข้าถึง Windows จะเพิ่มอัตโนมัติ ต้องมีพื้นที่ว่างเพียงพอและทำต่อหลังการขัดจังหวะได้</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>จะจัดเก็บเมทาดาทาและเนื้อหาไฟล์โดยไม่เข้ารหัสในตำแหน่งสำรองข้อมูล การสำรองและคืนค่าไม่พร้อมใช้งานชั่วคราวระหว่างการแปลง ทำต่อหลังการขัดจังหวะได้</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>เปิดการเข้ารหัสหรือไม่</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>ปิดการเข้ารหัสหรือไม่</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>เปลี่ยนการเข้ารหัสเสร็จแล้ว</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> เมทาดาทาที่เลิกใช้งานบางส่วนอาจยังไม่เข้ารหัสจนกว่าจะล้างสำเร็จ ระบบจะลองล้างอีกครั้ง</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> ยังนำเมทาดาทาเก่าบางส่วนออกไม่ได้ ระบบจะลองล้างอีกครั้ง</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>หยุดการเปลี่ยนการเข้ารหัสชั่วคราว ทำต่อเพื่อให้เสร็จ ไฟล์ที่แปลงแล้วจะถูกเก็บไว้</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>ยังไม่ได้เริ่มการแปลงการเข้ารหัส</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>ต้องการพื้นที่ว่างเพิ่ม เพิ่มพื้นที่แล้วทำต่อ ไม่มีการลบประวัติ</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>ต้องการพื้นที่ว่างเพิ่ม เพิ่มพื้นที่แล้วลองเปลี่ยนการเข้ารหัสอีกครั้ง ไม่มีการลบประวัติ</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>ใช้รหัสผ่านการกู้คืนเพื่อดำเนินการเปลี่ยนการเข้ารหัสต่อ</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>การเปลี่ยนการเข้ารหัสต้องตรวจสอบ ตรวจสอบการเชื่อมต่อข้อมูลสำรองและรหัสผ่านการกู้คืนแล้วทำต่อ อย่าลบไฟล์การแปลง</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>เริ่มการเปลี่ยนการเข้ารหัสไม่ได้ ตรวจสอบการเชื่อมต่อข้อมูลสำรองและข้อมูลแคชทางเลือกแล้วลองใหม่ ประวัติสำรองข้อมูลไม่เปลี่ยนแปลง</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>เก็บเวอร์ชันตลอดไป</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>ไม่มีโฟลเดอร์ที่ยกเว้น</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>เลือกที่จัดเก็บข้อมูลสำรอง</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>เลือกตำแหน่งสำรองข้อมูลเพื่อดำเนินการต่อ</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>การเข้ารหัสข้อมูลสำรองนี้หยุดชั่วคราว</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>การนำการเข้ารหัสออกหยุดชั่วคราว</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>การเปลี่ยนแปลงที่ยังไม่บันทึก · เก็บไว้เมื่อเปลี่ยนหน้า</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>การกำหนดค่าเป็นปัจจุบัน</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>เลือกความถี่สำรองข้อมูลที่รองรับ</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>เลือกตำแหน่งสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>เลือกตำแหน่งสำรองข้อมูลก่อนบันทึก</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูลไม่พร้อมใช้งาน เลือกเปลี่ยนเพื่อเลือกอีกครั้งหรือใช้ตำแหน่งอื่น</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>ตรวจสอบโฟลเดอร์ที่เลือกและตำแหน่งสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>โฟลเดอร์นี้มีข้อมูลอื่นอยู่แล้ว Fluff-History จะไม่ตั้งค่าข้อมูลสำรองใหม่ที่นี่ เลือกโฟลเดอร์ว่างหรือข้อมูลสำรอง Fluff-History ที่มีอยู่</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>เลือกตำแหน่งสำรองข้อมูลอื่น</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>ตำแหน่งนี้ไม่พร้อมใช้งาน ตรวจสอบการเชื่อมต่อหรือเลือกตำแหน่งอื่น</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูลไม่พร้อมใช้งาน</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>บันทึกการเปลี่ยนแปลงเพื่อใช้ที่นี่เป็นตำแหน่งสำรองข้อมูล</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>รหัสผ่านการกู้คืนไม่สามารถปลดล็อกข้อมูลสำรองนี้ได้</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>ไม่สามารถยืนยันการเข้าถึงได้ทั้งหมด ตรวจสอบข้อมูลสำรองนี้ก่อนลองใหม่</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>เลือกตำแหน่งสำรองข้อมูลแล้ว เลือกโฟลเดอร์แล้วบันทึกการเปลี่ยนแปลง</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>เลือกได้ไม่เกิน 1,024 โฟลเดอร์</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>สำรองข้อมูลผ่าน {0} อยู่แล้ว</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>ไม่สามารถเลือกโฟลเดอร์นี้ได้</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>การเลือกโฟลเดอร์ขัดแย้งกัน</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>สำรองข้อมูลโฟลเดอร์เหล่านี้หรือไม่</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>สำรองข้อมูลต่อไป</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>โฟลเดอร์นี้ถูกยกเว้นแล้ว</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>ยกเว้นโฟลเดอร์จากการสำรองข้อมูลในอนาคตแล้ว เก็บประวัติเดิมไว้</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>ล่าสุด</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>โฟลเดอร์</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>เพิ่มโฟลเดอร์ในการกำหนดค่าเพื่อเริ่มต้น โฟลเดอร์ที่บันทึกไว้จะแสดงที่นี่</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>โฟลเดอร์นี้ยังไม่มีเวอร์ชันที่บันทึกไว้ ไฟล์จะแสดงหลังสำรองข้อมูลสำเร็จ</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>โฟลเดอร์นี้ไม่มีไฟล์ที่บันทึกไว้ในเวลาที่เลือก ลองเวลาอื่นหรือเลือกล่าสุด</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>ไทม์ไลน์เปลี่ยนแล้ว รีเฟรชเพื่อดำเนินการต่อ</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>ไทม์ไลน์ ณ: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>โหลด 4,096 รายการแล้ว เปิดโฟลเดอร์เพื่อจำกัดมุมมองนี้</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>โหลด 1,024 เวลาแล้ว จำกัดโฟลเดอร์หรือเลือกวันที่และเวลา</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>โหลด 1,024 เวอร์ชันแล้ว ตัวอย่างนี้จำกัดรายการเวอร์ชัน</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>ไม่มีโฟลเดอร์ในไทม์ไลน์</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>เวอร์ชันล่าสุดที่ยังเหลือ</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>เวอร์ชันปัจจุบันที่สำเร็จได้รับการปกป้องและลบไม่ได้</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>เลือกไฟล์หรือโฟลเดอร์</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>เปิดโฟลเดอร์นี้เพื่อดูไฟล์ที่บันทึกไว้
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>เปิดโฟลเดอร์เพื่อดูไฟล์ที่บันทึกไว้ โฟลเดอร์เหล่านี้เป็นรายการนำทาง ไม่ใช่เวอร์ชันไดเรกทอรีที่คืนค่าได้</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>เลือกไฟล์หรือโฟลเดอร์จากมุมมองนี้เพื่อคืนค่าร่วมกัน เลือกไฟล์เดียวเพื่อดูเวอร์ชัน</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>โฟลเดอร์แสดงไฟล์ที่บันทึกในไทม์ไลน์ วันที่และคุณสมบัติโฟลเดอร์ไม่ได้บันทึกแยกกัน
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>เปิดการกำหนดค่าเพื่อตั้งค่าไทม์ไลน์</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. เปิดการกำหนดค่าเพื่อดำเนินการต่อ</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>รีเฟรชเพื่อโหลดไทม์ไลน์ของข้อมูลสำรองนี้</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Fluff-History ไม่ได้สำรองรายการนี้ในขณะนี้</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>เปิดการกำหนดค่าหรือภาพรวมเพื่อเข้าถึงข้อมูลสำรองนี้</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>รายการนี้ยังไม่มีประวัติที่บันทึกไว้</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>ไฟล์นี้ยังไม่มีเวอร์ชันที่บันทึกไว้</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>ไม่ได้สำรองข้อมูลในขณะนี้</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · ไม่ได้สำรองข้อมูลในขณะนี้</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>โฟลเดอร์นี้ไม่อยู่ในไทม์ไลน์แล้ว</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>เวลาท้องถิ่นนี้ไม่มีอยู่เนื่องจากเวลาออมแสง เลือกเวลาอื่น</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>ยกเลิกการโหลดแล้ว แถวที่เสร็จแล้วยังใช้งานได้</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>กำลังโหลดไทม์ไลน์…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>ยกเลิกการโหลดแล้ว</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>คืนค่ารายการที่เลือกไม่ได้</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>คืนค่าไปยังตำแหน่งเดิมหรือไม่</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>ไฟล์ในอดีตที่เลือกจะถูกคืนค่าไปยังตำแหน่งต้นทางเดิม Windows จะถามเมื่อขัดแย้งกับไฟล์ที่มีอยู่</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>ลบเวอร์ชันที่บันทึกไว้นี้หรือไม่</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>ลบเวอร์ชันที่บันทึกไว้แล้ว</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>ยกเลิกการลบแล้ว ลบไป {0:N0} เวอร์ชันก่อนยกเลิก การนำออกที่ยืนยันแล้วจะยังมีผล</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>การลบต้องตรวจสอบ การเปลี่ยนแปลงหรือการล้างเนื้อหาบางส่วนอาจยังไม่ยืนยัน ตรวจสอบข้อมูลสำรองก่อนลองใหม่</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>ไม่สามารถดำเนินการให้เสร็จได้ ตรวจสอบการกำหนดค่าแล้วลองใหม่</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>กำลังเปลี่ยนการเข้ารหัส</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>เอเจนต์เบื้องหลังไม่พร้อมใช้งาน</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>ตั้งค่า Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>กำลังสำรองข้อมูล</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>การสำรองข้อมูลต้องตรวจสอบ</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>เลือกตำแหน่งสำรองข้อมูลและโฟลเดอร์ที่ต้องการสำรอง</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>การสำรองข้อมูลอัตโนมัติเปิดใช้งานอยู่</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>การสำรองข้อมูลอัตโนมัติปิดใช้งานอยู่</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>กำลังตรวจสอบเงื่อนไขสำรองข้อมูล…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>กำลังเปิดข้อมูลสำรอง…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>กำลังสแกนและสำรองไฟล์…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>กำลังใช้นโยบายการเก็บรักษา…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>กำลังตรวจสอบเมทาดาทา…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>กำลังจัดกระชับเมทาดาทา…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>กำลังล้างเมทาดาทา…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>กำลังบีบอัดเมทาดาทา…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>กำลังเข้ารหัส…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>กำลังถอดรหัส…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>กำลังทำการสำรองข้อมูลให้เสร็จ…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · ขอให้ยกเลิกแล้ว</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>โฟลเดอร์ที่ไม่ได้แมป</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+แสดง {0:N0} จาก {1:N0} ปัญหาที่บันทึกในเซสชันนี้</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>ประวัติสำรองข้อมูลไม่พร้อมใช้งานชั่วคราว ดำเนินการเปลี่ยนการเข้ารหัสต่อในการกำหนดค่า</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>ข้อมูลสำรองมีอยู่ แต่ผู้ใช้ Windows นี้เข้าถึงไม่ได้ รหัสผ่านการกู้คืนสามารถคืนการเข้าถึงได้</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>สำรองข้อมูลเสร็จแล้ว แต่การบำรุงรักษาไทม์ไลน์ต้องตรวจสอบ ดูข้อมูลวินิจฉัยก่อนล้างอีกครั้ง</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>ยืนยันการเปลี่ยนแปลงบางส่วนไม่ได้ ตรวจสอบตำแหน่งสำรองข้อมูลก่อนดำเนินการต่อ</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูลต้องมีพื้นที่ว่างเพิ่มก่อนสำรองข้อมูลต่อ</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>ข้ามบางไฟล์หรือโฟลเดอร์แล้ว ขยายปัญหาไฟล์หรือโฟลเดอร์ด้านล่างเพื่อดูเส้นทางและสาเหตุ เวอร์ชันอื่นที่สำเร็จยังคงถูกบันทึก</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>เพิ่มโฟลเดอร์ในการกำหนดค่าเพื่อเริ่มสำรองข้อมูล</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>ไม่มีการเปลี่ยนแปลงให้สำรอง</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>น้อยกว่าหนึ่งวินาที</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} และ {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>ต้องกู้คืน ใช้รหัสผ่านการกู้คืนเพื่อเปิดการเข้าถึงให้ผู้ใช้ Windows นี้</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>เปลี่ยนการเข้ารหัสในการกำหนดค่าให้เสร็จก่อนใช้ประวัติสำรองข้อมูล</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>ไทม์ไลน์เปลี่ยนแล้ว รีเฟรชเพื่อดูและคืนค่าต่อ</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูลนี้ไม่ถูกต้องหรือเสียหาย ตรวจสอบตำแหน่งที่เลือก</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>กำลังสำรองข้อมูลหรือล้างอยู่แล้ว รอให้เสร็จแล้วลองใหม่</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>ใช้รายการที่เลือกนี้ที่นี่ไม่ได้ เลือกรายการจากโฟลเดอร์และเวลาปัจจุบัน</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>รายการในอดีตที่เลือกมีไฟล์และโฟลเดอร์ที่เส้นทางตรงกันและคืนค่าพร้อมกันไม่ได้</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>ยกเลิกแล้ว การดำเนินการไฟล์ที่เสร็จแล้วยังมีผล</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูลหรือปลายทางไม่พร้อมใช้งาน ตรวจสอบตำแหน่งและการเชื่อมต่อแล้วลองใหม่</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูลไม่ถูกต้อง</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>สำรองข้อมูลเสร็จแล้ว</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>สำรองเสร็จโดยมีปัญหาโฟลเดอร์หรือไฟล์</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>ยกเลิกการสำรองข้อมูลแล้ว</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>หยุดสำรองข้อมูลชั่วคราว: พื้นที่ไม่พอ</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>เลื่อนการสำรองข้อมูลแล้ว</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>การสำรองข้อมูลต้องตรวจสอบ</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>ยังไม่สำรองข้อมูลในเซสชันแอปนี้</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>กำลังรอพลังงานภายนอก</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows ระบุสถานะพลังงานไม่ได้</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>กำลังรอการเชื่อมต่อที่ไม่คิดค่าบริการตามปริมาณ</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows รายงานว่าไม่มีเครือข่ายสำหรับสำรองข้อมูลไปยังเส้นทางเครือข่าย</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>ระบบ</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>สว่าง</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>มืด</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>ใช้ {0} จาก {1} · ว่าง {2}</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>กำลังตรวจสอบพื้นที่ไดรฟ์…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>ไม่มีข้อมูลพื้นที่ไดรฟ์</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>กำลังคำนวณขนาดข้อมูลสำรอง…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>ข้อมูลสำรองใช้พื้นที่ {0} เมื่อตรวจสอบครั้งล่าสุด</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>ข้อมูลสำรองใช้พื้นที่ {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>ไม่มีข้อมูลขนาดข้อมูลสำรอง</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>เลือกสิ่งที่จะนำออกเพื่อดูตัวอย่าง จะไม่มีการนำออกจนกว่าจะยืนยัน</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>กำลังตรวจสอบเวอร์ชันที่บันทึกไว้…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>ไทม์ไลน์เปลี่ยนแล้ว เลือกสิ่งที่จะนำออกอีกครั้ง</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>จะได้พื้นที่ว่างประมาณ {0}
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>ไม่มีสิ่งให้นำออกสำหรับตัวเลือกนี้</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>ตรวจสอบตัวอย่างก่อนนำเวอร์ชันออก</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>ยกเลิกตัวอย่างแล้ว ไม่มีสิ่งถูกนำออก</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>ตัวอย่างไม่ครบ: ถึงขีดจำกัดงานแล้ว ไม่สามารถล้างได้</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>กำลังนำเวอร์ชันที่บันทึกไว้ออก…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>ไทม์ไลน์เปลี่ยนหลังตัวอย่างนี้ ดูตัวอย่างใหม่ก่อนนำเวอร์ชันออก</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>ยังล้างเนื้อหาที่บันทึกไว้บางส่วนไม่ได้
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>ล้างเสร็จแล้ว รีเฟรชไทม์ไลน์เพื่อดูเวอร์ชันที่เหลือ</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>ยกเลิกการล้างแล้ว การนำออกที่ยืนยันยังมีผล รีเฟรชไทม์ไลน์</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>การล้างต้องตรวจสอบ การเปลี่ยนแปลงบางส่วนอาจยังไม่ยืนยัน ตรวจสอบข้อมูลสำรองก่อนลองใหม่ แล้วรีเฟรชไทม์ไลน์</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>เก็บเวอร์ชันล่าสุดที่เหลือหนึ่งเวอร์ชันต่อเส้นทาง รวมถึงไฟล์ที่ไม่สำรองแล้ว เวอร์ชันปัจจุบันยังได้รับการปกป้อง</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>เวอร์ชันปัจจุบันยังได้รับการปกป้อง ไฟล์ที่มีเฉพาะในไทม์ไลน์อาจหายทั้งหมดหากทุกเวอร์ชันเก่ากว่าอายุนี้</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>พื้นที่โดยประมาณ พื้นที่ว่างจริงอาจแตกต่าง</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} ไบต์</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} ไบต์</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} ไบต์</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} ไบต์</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} ไบต์</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} ไบต์</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์ที่มีอยู่</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์ที่มีอยู่</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์ที่มีอยู่</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์ที่มีอยู่</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์ที่มีอยู่</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์ที่มีอยู่</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} ปัญหาไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} ปัญหาไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} ปัญหาไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} ปัญหาไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} ปัญหาไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} ปัญหาไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} ไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} ไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} ไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} ไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} ไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} ไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันไฟล์</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} โฟลเดอร์</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} ชั่วโมง</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} ชั่วโมง</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} ชั่วโมง</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} ชั่วโมง</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} ชั่วโมง</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} ชั่วโมง</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} รายการ</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} รายการ</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} รายการ</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} รายการ</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} รายการ</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} รายการ</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} นาที</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} นาที</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} นาที</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} นาที</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} นาที</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} นาที</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>บันทึก {0:N0} เวอร์ชันใหม่แล้ว</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>บันทึก {0:N0} เวอร์ชันใหม่แล้ว</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>บันทึก {0:N0} เวอร์ชันใหม่แล้ว</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>บันทึก {0:N0} เวอร์ชันใหม่แล้ว</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>บันทึก {0:N0} เวอร์ชันใหม่แล้ว</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>บันทึก {0:N0} เวอร์ชันใหม่แล้ว</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันที่บันทึกไว้</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันที่บันทึกไว้</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันที่บันทึกไว้</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันที่บันทึกไว้</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันที่บันทึกไว้</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} เวอร์ชันที่บันทึกไว้</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} วินาที</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} วินาที</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} วินาที</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} วินาที</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} วินาที</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} วินาที</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, โฟลเดอร์</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, ไฟล์, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>บันทึกเมื่อ {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · เลือก {1:N0}</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>เลือก {0:N0} รายการ</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+บันทึกเมื่อ: {1:f}
+
+จะนำเฉพาะเวอร์ชันที่บันทึกไว้นี้ออกถาวร ไฟล์ต้นทางและเวอร์ชันอื่นจะเก็บไว้ ย้อนกลับไม่ได้</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} โฟลเดอร์ในไทม์ไลน์</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>เพิ่ม {0} · เปิดใช้อีกครั้ง {1} · เลือกอยู่แล้ว {2}</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · ไม่เพิ่ม {0}</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>นำ {0} ออกแล้ว (เนื้อหาที่บันทึกไว้ {1})
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>นำ {0} ออกจาก {1} ถาวรหรือไม่ ไฟล์ต้นทางและเวอร์ชันปัจจุบันจะเก็บไว้ ย้อนกลับไม่ได้</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · เลือก {2} เพื่อสำรองข้อมูล</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>สำรองข้อมูลล่าสุดเมื่อ {0:f} ใช้เวลา {1}</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>พยายามสำรองข้อมูลล่าสุดเมื่อ {0:f} ใช้เวลา {1}</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · บันทึก {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · แก้ไขไฟล์ {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+บันทึกเมื่อ: {2:G}
+แก้ไขไฟล์เมื่อ: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>ไทม์ไลน์ ณ {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>ไทม์ไลน์</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>ทุก 10 นาที</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>ทุก 30 นาที</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>ทุกชั่วโมง</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>ทุก 3 ชั่วโมง</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>ทุก 6 ชั่วโมง</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>ทุก 12 ชั่วโมง</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>ทุกวัน</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>จนกว่าพื้นที่จะเต็ม</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 เดือน</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 เดือน</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 เดือน</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 เดือน</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 ปี</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 ปี</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>ตลอดไป</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>เวอร์ชันที่เก่ากว่าอายุนี้อาจถูกนำออกหลังสำรองข้อมูลสำเร็จ เวอร์ชันปัจจุบันยังได้รับการปกป้อง</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>เก็บเวอร์ชันจนไดรฟ์ข้อมูลสำรองถึงเกณฑ์ความจุที่ปลอดภัย เมื่อสำรองข้อมูลต้องการพื้นที่ ระบบจะนำเวอร์ชันเก่าที่เข้าเงื่อนไขออกอัตโนมัติ เวอร์ชันปัจจุบันยังได้รับการปกป้อง</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>นโยบายตลอดไปจะไม่นำประวัติไทม์ไลน์ออกอัตโนมัติ เวอร์ชันจะเพิ่มไปจนไดรฟ์รับข้อมูลสำรองใหม่อย่างปลอดภัยไม่ได้ จากนั้นต้องเพิ่มพื้นที่หรือล้างไทม์ไลน์ด้วยตนเอง</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>เก่ากว่า 1 เดือน</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>เก่ากว่า 3 เดือน</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>เก่ากว่า 6 เดือน</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>เก่ากว่า 9 เดือน</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>เก่ากว่า 1 ปี</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>เก่ากว่า 2 ปี</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>เก็บเฉพาะเวอร์ชันล่าสุด</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData มีสถานะแอป แคช ฐานข้อมูล และไฟล์ชั่วคราว อาจเปลี่ยนบ่อยและทำให้ไทม์ไลน์โตเร็ว การคืนค่าไฟล์เหล่านี้แทนการติดตั้งใหม่หรือกู้คืนแอปอย่างถูกต้องไม่ได้</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>ไฟล์ระบบและโปรแกรมที่ติดตั้งมีขนาดใหญ่และเปลี่ยนบ่อย Fluff-History ไม่ใช่การสำรองอิมเมจระบบ การคืนค่าไฟล์เหล่านี้เพียงอย่างเดียวอาจซ่อม Windows หรือแอปไม่ได้</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData อาจมีสถานะแอปร่วม แคช และฐานข้อมูลที่เปลี่ยนบ่อย ทำให้เกิดข้อมูลไทม์ไลน์จำนวนมาก</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>ตำแหน่งนี้มีไฟล์ชั่วคราวหรือไฟล์ติดตั้งเป็นหลัก และอาจสร้างความเปลี่ยนแปลงไทม์ไลน์จำนวนมากในระยะสั้น</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>ตำแหน่งนี้มีเมทาดาทาระบบหรือไฟล์ทำงานของ Fluff-History และสำรองไม่ได้</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>กำลังตรวจสอบการกำหนดค่าข้อมูลสำรอง…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>การตั้งค่าแอปต้องตรวจสอบ รีเซ็ตการกำหนดค่าอย่างชัดเจน ข้อมูลสำรองจะไม่ถูกเปลี่ยน</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>การกำหนดค่าสำรองที่บันทึกไว้ไม่พร้อมใช้งานหรือไม่ถูกต้อง ตรวจสอบการกำหนดค่าก่อนทำต่อ</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows ตรวจสอบตำแหน่งสำรองหรือข้อมูลทำงานชั่วคราวของแอปไม่ได้ ตรวจสอบการเข้าถึงและพื้นที่ว่าง แล้วลองใหม่</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>โฟลเดอร์ที่เลือกสำรองจะถูกยกเว้นพร้อมกันไม่ได้ นำออกจากการสำรองหรือเปลี่ยนข้อยกเว้น</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>เลือกได้ไม่เกิน 256 โฟลเดอร์ที่ยกเว้น และเส้นทางรวมไม่เกิน 256 KiB</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>แหล่งนี้รองรับโฟลเดอร์ที่ยกเว้นจริงได้ไม่เกิน 256 โฟลเดอร์และการกำหนดค่า 256 KiB เลือกให้น้อยหรือสั้นลง</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>เลือกโฟลเดอร์ได้ครั้งเดียว</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>ต้องยกเว้นโฟลเดอร์ซ้อนที่เลือกจากโฟลเดอร์หลัก</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>เลือกเส้นทางโฟลเดอร์แบบสมบูรณ์</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>เลือกโฟลเดอร์ไดรฟ์หรือเครือข่ายปกติ</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>เลือกเส้นทางแชร์เครือข่ายที่ครบถ้วน</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>เส้นทางโฟลเดอร์นี้กำกวมหรืออยู่นอกราก เลือกเส้นทางสมบูรณ์ปกติ</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>สำรองโฟลเดอร์ภายในตำแหน่งสำรองหรือโฟลเดอร์ที่มีตำแหน่งสำรองอยู่ภายในไม่ได้</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>ยืนยันคำเตือนก่อนเพิ่มโฟลเดอร์นี้</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>เส้นทางนี้ไปยังโฟลเดอร์ระบบ Windows หรือข้อมูลแอป เลือกตำแหน่งจริงแล้วยืนยันคำเตือนก่อน</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>โฟลเดอร์เหล่านี้ไปยังตำแหน่ง Windows ที่ทับซ้อนกัน เลือกแต่ละตำแหน่งครั้งเดียว</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>โฟลเดอร์นี้ไปยังข้อมูลทำงานชั่วคราวของ Fluff-History และสำรองไม่ได้</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>เดสก์ท็อป</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>เอกสาร</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>เพลง</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>วิดีโอ</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>ไม่รองรับชื่อไฟล์หรือโฟลเดอร์</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>ชื่อแทนตัวพิมพ์กำกวม</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>ไม่รองรับขอบเขต จุดแยกวิเคราะห์ใหม่ หรือ EFS</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>ไฟล์ไม่รองรับหรือใหญ่เกินไป</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>ต้นทางเปลี่ยนระหว่างคัดลอก</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>เข้าถึงไฟล์หรือโฟลเดอร์นี้ไม่ได้</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>เข้าถึงไฟล์หรือโฟลเดอร์นี้ไม่ได้ (ข้อผิดพลาด Windows {0:N0})</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>รากต้นทางหรือบรรพบุรุษไม่ใช่ไดเรกทอรีปกติ</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>ไม่รองรับขอบเขตไดเรกทอรี</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>กำลังตรวจสอบพื้นที่</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>กำลังเข้ารหัสไฟล์</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>กำลังถอดรหัสไฟล์</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>กำลังสร้างเมทาดาทาใหม่</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>กำลังทำข้อมูลสำรองให้เสร็จ</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>แอปอื่นกำลังใช้ไฟล์หรือโฟลเดอร์นี้</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>ถูกปฏิเสธการเข้าถึงไฟล์หรือโฟลเดอร์นี้</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>ไม่พบไฟล์หรือโฟลเดอร์นี้ระหว่างสแกน</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>บันทึกการกำหนดค่าแล้ว</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>บันทึกการเปลี่ยนโฟลเดอร์แล้ว โฟลเดอร์ที่อัปเดตจะรวมในข้อมูลสำรองตามกำหนดครั้งถัดไป</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>บันทึกการเปลี่ยนโฟลเดอร์แล้ว โฟลเดอร์ที่อัปเดตจะรวมในการสำรองครั้งถัดไป</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>ขอสำรองข้อมูลแล้ว</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>กำลังสำรองข้อมูลหรือทำให้เสร็จอยู่แล้ว</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>ตั้งค่าตำแหน่งสำรองข้อมูลและโฟลเดอร์ให้พร้อมในการกำหนดค่า</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>คืนค่าเวอร์ชันก่อนหน้า…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>กำลังโหลดประวัติ...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>สำรองข้อมูลแล้ว</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>ไม่ได้สำรองข้อมูลในขณะนี้</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Fluff-History ไม่ได้สำรองข้อมูล</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>ต้องกู้คืน</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>ข้อมูลสำรองไม่พร้อมใช้งาน</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>เซสชันประวัติหมดอายุแล้ว</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>ข้อมูลสำรองไม่พร้อมใช้งาน เปิด Fluff-History หรือรีเฟรช</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>เซสชันประวัติหมดอายุแล้ว รีเฟรชเพื่อทำต่อ</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>ตำแหน่งสำรองข้อมูล: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>ดูประวัติโฟลเดอร์</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>เปิด Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>ดูทุกเวอร์ชัน</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>โฟลเดอร์ประกอบจากเวอร์ชันไฟล์ที่บันทึกไว้</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>การคืนค่าจะเปลี่ยนไฟล์ปัจจุบัน ประวัติที่บันทึกไว้จะเก็บไว้</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History ไม่พร้อมใช้งาน ติดตั้งรุ่นตัวอย่างสำหรับนักพัฒนาแล้วลองใหม่</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>คืนค่าเวอร์ชันที่บันทึกไว้นี้ไปยังตำแหน่งเดิมหรือไม่ Windows จะถามเมื่อขัดแย้งกับไฟล์ที่มีอยู่ ประวัติที่บันทึกไว้จะเก็บไว้</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>คืนค่าเวอร์ชันที่บันทึกไว้หรือไม่</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>กำลังคืนค่าเวอร์ชันที่เลือก...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>ข้อมูลสำรองไม่พร้อมใช้งาน เปิด Fluff-History เพื่อทำต่อ</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>คืนค่า</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>รีเฟรช</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>ประวัติโฟลเดอร์ประกอบจากเวอร์ชันไฟล์ที่บันทึกไว้
+เวลาไทม์ไลน์ล่าสุด:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>ยังไม่มีเวอร์ชันไฟล์ที่บันทึกไว้</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · แก้ไข {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>ไม่มีเวอร์ชันที่บันทึกไว้ของไฟล์นี้ เปิดไทม์ไลน์หรือการกำหนดค่าเพื่อทำต่อ</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>เวอร์ชันล่าสุดที่บันทึก: {0:f}
+เวอร์ชันที่เก็บไว้: {1:N0}
+เวอร์ชันเก่าสุดที่เก็บไว้: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>เวอร์ชันล่าสุดที่บันทึก: {0:f}
+เวอร์ชันที่เก็บไว้: {1:N0}+ เปิดไทม์ไลน์เพื่อดูประวัติทั้งหมด
+เวอร์ชันเก่าสุดที่เก็บไว้: เปิดไทม์ไลน์เพื่อดูประวัติทั้งหมด</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Fluff-History ไม่ได้สำรองข้อมูล</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>ต้องกู้คืน เปิด Fluff-History เพื่อกู้คืนการเข้าถึง</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>ข้อมูลสำรองไม่พร้อมใช้งาน เปิด Fluff-History หรือลองใหม่</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>การคืนค่าต้องตรวจสอบ ตรวจสอบปลายทางก่อนลองใหม่</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>ยกเลิกการคืนค่าแล้ว การดำเนินการไฟล์ที่เสร็จแล้วยังมีผล</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>คืนค่าไฟล์แล้ว ประวัติที่บันทึกไว้ไม่เปลี่ยนแปลง</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>ไม่ได้คืนค่าไฟล์ใด ตรวจสอบปลายทาง</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>ประวัติเปลี่ยนแล้ว รีเฟรชก่อนคืนค่า</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>คืนค่าไม่ได้ เปิด Fluff-History เพื่อทำต่อ</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>ยกเลิกการคืนค่าแล้ว ตรวจสอบปลายทาง</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>th-TH</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>ทางลัด:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>สร้างทางลัดบนเดสก์ท็อป (&amp;D)</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>สร้างทางลัดในเมนูเริ่ม (&amp;S)</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History ต้องใช้โฟลเดอร์ติดตั้งเฉพาะผู้ใช้ที่กำหนดไว้</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>มีการติดตั้งหรือเริ่มแอปอยู่ รอสักครู่แล้วลองใหม่</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History เตรียมอัปเดตไม่ได้ ปิดการดำเนินการไฟล์ที่ใช้งานและหน้าคุณสมบัติแล้วลองใหม่ ที่เก็บข้อมูลสำรองไม่เปลี่ยนแปลง</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History ติดตั้งไม่เสร็จ เก็บสถานะแอปไว้เพื่อลองใหม่ ที่เก็บข้อมูลสำรองไม่เปลี่ยนแปลง</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>การติดตั้งต้องตรวจสอบ</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History ติดตั้งไม่เสร็จ การตั้งค่าแอปและที่เก็บข้อมูลสำรองยังเก็บไว้ เรียกตัวติดตั้งใหม่เพื่อลองอีกครั้ง</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>ปิด Fluff-History การดำเนินการไฟล์ที่ใช้งาน และหน้าคุณสมบัติก่อนถอนการติดตั้ง ไม่มีการบังคับหยุดใดๆ</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>คัดลอกข้อมูลวินิจฉัยแล้ว ตรวจสอบเส้นทางโฟลเดอร์ก่อนแชร์</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>ภาษา</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ภาษาของแอป</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>ใช้ภาษาของ Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>การเปลี่ยนแปลงมีผลทันที วันที่และตัวเลขใช้การตั้งค่าภูมิภาคของคุณ</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>ซ่อมแซมการกู้คืนผ่าน OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>ปิดในเครื่อง…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>ต้องอัปเกรดการกู้คืนแบบเดิมไปใช้ OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>ยังไม่ได้กำหนดค่าการกู้คืนผ่าน OneDrive แบบทดลองในรุ่นนี้</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>ลงชื่อเข้าใช้ Microsoft เพื่อใช้การกู้คืนผ่าน OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>การลงชื่อเข้าใช้หรือความยินยอมของ Microsoft ถูกปฏิเสธ ยังคงกู้คืนด้วยรหัสผ่านได้</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>สิทธิ์โฟลเดอร์แอป OneDrive ที่ต้องการไม่พร้อมใช้งาน ยังคงกู้คืนด้วยรหัสผ่านได้</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>การกู้คืนผ่าน OneDrive ต้องใช้อินเทอร์เน็ต รหัสผ่านและการเข้าถึง Windows ในเครื่องยังใช้งานได้</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>ไม่สามารถตรวจสอบการกู้คืนผ่าน OneDrive ได้ในขณะนี้ โปรดลองภายหลังหรือใช้รหัสผ่านการกู้คืน</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive ไม่ว่าง โปรดลองภายหลัง</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive ไม่พร้อมใช้งานหรือยังไม่ได้ตั้งค่าสำหรับบัญชี Microsoft นี้ โปรดใช้รหัสผ่านการกู้คืน</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>คีย์การกู้คืน OneDrive เปลี่ยนไปหรือไม่ถูกต้อง โปรดใช้รหัสผ่านการกู้คืนหรือซ่อมแซมการกู้คืนบนพีซีที่ปลดล็อกข้อมูลสำรองนี้ได้</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>อาจยังต้องล้างข้อมูลใน OneDrive มีผลเฉพาะคีย์การกู้คืนเท่านั้น รหัสผ่านและการเข้าถึงผ่าน Windows ไม่เปลี่ยนแปลง</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>อาจยังต้องล้างข้อมูลใน OneDrive ไฟล์การกู้คืน: {0}</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>การกู้คืนผ่าน OneDrive ทำงานได้ แต่ไม่สามารถลบข้อมูลรับรองการกู้คืน Windows แบบเดิมได้ทั้งหมด</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>ปิดการกู้คืนผ่าน OneDrive ในเครื่องหรือไม่?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>การดำเนินการนี้จะลบลิงก์การกู้คืน OneDrive ของข้อมูลสำรองโดยไม่ลบไฟล์การกู้คืนในคลาวด์ คุณอาจต้องลบไฟล์นั้นออกจาก OneDrive ด้วยตนเอง รหัสผ่านและการเข้าถึงผ่าน Windows ไม่เปลี่ยนแปลง</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>ปิดการกู้คืนผ่าน OneDrive ในเครื่องแล้ว</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>ซ่อมแซมการกู้คืนผ่าน OneDrive หรือไม่?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>สร้างและตรวจสอบคีย์การกู้คืนใหม่ก่อนเลิกใช้คีย์เก่า ไฟล์ในคลาวด์ที่ถูกแก้ไขจะยังเก็บไว้</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>การอัปเดต</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>ช่องทางการอัปเดต</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>ตรวจสอบอัตโนมัติ</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>รุ่นเสถียร</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>เบต้า</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>ไม่เลย</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>ทุกวัน</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>ทุกสัปดาห์</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>ทุกเดือน</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>ตรวจสอบตอนนี้</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>เวอร์ชันปัจจุบัน: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>ตรวจสอบล่าสุด: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>รุ่นพัฒนาที่ยังไม่เผยแพร่</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>มี {0} ({1}) ให้ใช้งาน: {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>ดาวน์โหลดและติดตั้ง</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>ดูบันทึกประจำรุ่น</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>เป็นเวอร์ชันล่าสุดแล้ว</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>กำลังตรวจสอบการอัปเดต…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>กำลังดาวน์โหลดการอัปเดต… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>กำลังตรวจสอบความถูกต้องของการอัปเดต…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>พร้อมติดตั้ง</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>กำลังรอให้การสำรองข้อมูลหรืองานอื่นที่กำลังทำอยู่เสร็จสิ้น</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>กำลังติดตั้งการอัปเดต…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>ไม่สามารถติดต่อ GitHub ได้ โปรดลองอีกครั้งภายหลัง</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub กำลังจำกัดคำขอ โปรดลองอีกครั้งภายหลัง</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>ไม่มีรุ่นที่สามารถติดตั้งได้</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>การตรวจสอบโปรแกรมติดตั้งล้มเหลว ไม่ได้ติดตั้งการอัปเดต</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>การติดตั้งอัตโนมัติจะพร้อมใช้งานหลังจากผู้ลงนามรุ่นได้รับการอนุมัติ</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>ไม่สามารถติดตั้งการอัปเดตได้ โปรดลองอีกครั้งภายหลัง</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>ติดตั้งการอัปเดตแล้ว แต่ไม่สามารถเปิดหน้าต่างอีกครั้งได้</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>รุ่นที่ยังไม่เผยแพร่นี้ไม่สามารถติดตั้งการอัปเดตสาธารณะได้</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>ปิดใช้งานการตรวจสอบการอัปเดตอัตโนมัติแล้ว</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>การตรวจสอบอัตโนมัติจะติดต่อ GitHub โดยไม่ส่งรายละเอียดการสำรองข้อมูลหรือบัญชี</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>กำลังสำรองข้อมูลอยู่ ต้องการหยุดและติดตั้งการอัปเดตหรือไม่</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>หยุดสำรองข้อมูลและติดตั้ง</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>ยังไม่ได้ตรวจสอบ</value></data>
+</root>

@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <data name="UILanguage" xml:space="preserve">
+    <value>ro-RO</value>
+    <comment>Resource locale identifier; use the exact locale tag of this catalog. Not a UI label.</comment>
+  </data>
+  <data name="Navigation_Overview.Content" xml:space="preserve">
+    <value>Prezentare generală</value>
+  </data>
+  <data name="Navigation_Timeline.Content" xml:space="preserve">
+    <value>Cronologie</value>
+    <comment>Page showing individual saved file versions, not backup runs or snapshots.</comment>
+  </data>
+  <data name="Navigation_Configuration.Content" xml:space="preserve">
+    <value>Configurare</value>
+  </data>
+  <data name="Navigation_About.Content" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="Navigation_Settings" xml:space="preserve">
+    <value>Setările aplicației</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Pregătit</value>
+  </data>
+  <data name="Configuration_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Configurare</value>
+  </data>
+  <data name="Configuration_TextBlock_BackupLocation.Text" xml:space="preserve">
+    <value>Locația copiei de rezervă</value>
+  </data>
+  <data name="Configuration_Button_ChangePassword.Content" xml:space="preserve">
+    <value>Schimbă parola de recuperare…</value>
+  </data>
+  <data name="Configuration_Button_TurnOnEncryption.Content" xml:space="preserve">
+    <value>Activează criptarea…</value>
+  </data>
+  <data name="Configuration_Button_TurnOffEncryption.Content" xml:space="preserve">
+    <value>Dezactivează criptarea…</value>
+  </data>
+  <data name="Configuration_ProgressBar_EncryptionProgress.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Progresul conversiei criptării</value>
+  </data>
+  <data name="Configuration_Button_ResumeEncryption.Content" xml:space="preserve">
+    <value>Reia</value>
+  </data>
+  <data name="Configuration_Button_PauseEncryption.Content" xml:space="preserve">
+    <value>Pauză</value>
+  </data>
+  <data name="Configuration_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Spațiu pe disc</value>
+  </data>
+  <data name="Configuration_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spațiul utilizat pe discul de backup</value>
+  </data>
+  <data name="Configuration_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Recuperează accesul…</value>
+  </data>
+  <data name="Configuration_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Recuperează accesul…</value>
+  </data>
+  <data name="Configuration_Button_RecoverExperimental.Content" xml:space="preserve">
+    <value>Recuperează cu contul Microsoft (experimental)</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.Content" xml:space="preserve">
+    <value>Schimbă…</value>
+  </data>
+  <data name="Configuration_Button_ChangeLocation.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Schimbă locația copiei de rezervă</value>
+  </data>
+  <data name="Configuration_TextBlock_SourceFolders.Text" xml:space="preserve">
+    <value>Foldere de inclus în backup</value>
+  </data>
+  <data name="Configuration_ListView_SourceFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Foldere de inclus în backup</value>
+  </data>
+  <data name="Configuration_Button_Add.Content" xml:space="preserve">
+    <value>Adaugă foldere…</value>
+  </data>
+  <data name="Configuration_Button_Remove.Content" xml:space="preserve">
+    <value>Elimină din backup</value>
+  </data>
+  <data name="Configuration_TextBlock_RemoveFolderExplanation.Text" xml:space="preserve">
+    <value>Eliminarea unui folder oprește copiile de rezervă viitoare. Istoricul existent este păstrat conform setărilor de retenție.</value>
+  </data>
+  <data name="Configuration_TextBlock_ExcludedFolders.Text" xml:space="preserve">
+    <value>Foldere excluse</value>
+  </data>
+  <data name="Configuration_TextBlock_ExclusionsExplanation.Text" xml:space="preserve">
+    <value>Folderele excluse nu sunt incluse în copiile viitoare. Istoricul existent este păstrat.</value>
+  </data>
+  <data name="Configuration_ListView_ExcludedFolders.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Foldere excluse</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.Content" xml:space="preserve">
+    <value>Exclude un folder…</value>
+  </data>
+  <data name="Configuration_Button_ExcludeFolder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Exclude un folder</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.Content" xml:space="preserve">
+    <value>Elimină excluderea</value>
+  </data>
+  <data name="Configuration_Button_RemoveExclusion.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Elimină excluderea utilizatorului selectată</value>
+  </data>
+  <data name="Configuration_TextBlock_AutomaticBackups.Text" xml:space="preserve">
+    <value>Copii de rezervă automate</value>
+  </data>
+  <data name="Configuration_ToggleSwitch_AutomaticBackups.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Copii de rezervă automate</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.Header" xml:space="preserve">
+    <value>Creează copii ale fișierelor</value>
+  </data>
+  <data name="Configuration_ComboBox_BackupFrequency.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Frecvența copiilor de rezervă</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.Header" xml:space="preserve">
+    <value>Păstrează versiunile salvate</value>
+  </data>
+  <data name="Configuration_ComboBox_RetentionPolicy.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Retenția versiunilor salvate</value>
+  </data>
+  <data name="Configuration_TextBlock_BackgroundSchedulingExplanation.Text" xml:space="preserve">
+    <value>Copiile automate continuă când această fereastră este închisă. Copiile ratate nu sunt puse în așteptare.</value>
+  </data>
+  <data name="Configuration_Expander_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alimentare și rețea</value>
+  </data>
+  <data name="Configuration_StackPanel_PowerNetwork.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alimentare și rețea</value>
+  </data>
+  <data name="Configuration_TextBlock_PowerNetwork.Text" xml:space="preserve">
+    <value>Alimentare și rețea</value>
+  </data>
+  <data name="Configuration_CheckBox_PauseOnBattery.Content" xml:space="preserve">
+    <value>Pune pe pauză copiile automate când se utilizează bateria</value>
+  </data>
+  <data name="Configuration_CheckBox_AllowMeteredNetwork.Content" xml:space="preserve">
+    <value>Permite copiile care folosesc rețeaua pe conexiuni tarifate</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForNetwork.Content" xml:space="preserve">
+    <value>Așteaptă când Windows raportează lipsa rețelei pentru un backup în rețea</value>
+  </data>
+  <data name="Configuration_Expander_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avansat</value>
+  </data>
+  <data name="Configuration_StackPanel_Advanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avansat</value>
+  </data>
+  <data name="Configuration_TextBlock_Advanced.Text" xml:space="preserve">
+    <value>Avansat</value>
+  </data>
+  <data name="Configuration_CheckBox_ToggleExperimental.Content" xml:space="preserve">
+    <value>Salvează o cheie de recuperare în OneDrive (experimental)</value>
+  </data>
+  <data name="Configuration_Button_VerifyExperimental.Content" xml:space="preserve">
+    <value>Verifică recuperarea prin OneDrive</value>
+  </data>
+  <data name="Configuration_InfoBar_ExperimentalRecovery.Title" xml:space="preserve">
+    <value>Recuperare experimentală</value>
+  </data>
+  <data name="Configuration_CheckBox_WaitForPowerState.Content" xml:space="preserve">
+    <value>Așteaptă când Windows nu poate determina starea alimentării</value>
+  </data>
+  <data name="Configuration_Button_Reset.Content" xml:space="preserve">
+    <value>Resetează configurarea aplicației…</value>
+  </data>
+  <data name="Configuration_Button_Apply.Content" xml:space="preserve">
+    <value>Salvează modificările</value>
+  </data>
+  <data name="Configuration_Button_Discard.Content" xml:space="preserve">
+    <value>Renunță</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
+    <value>Fluff-History — previzualizare pentru dezvoltatori</value>
+  </data>
+  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+    <value>Copiile programate continuă când această fereastră este închisă. Integrarea cu Explorer și Proprietăți se instalează împreună cu Fluff-History. Sunt acceptate recuperarea prin parolă și accesul local Windows. Fără telemetrie sau încărcare automată.</value>
+  </data>
+  <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
+    <value>Copiază diagnosticul fără date sensibile</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsPrivacy.Text" xml:space="preserve">
+    <value>Verifică căile folderelor înainte de partajare. Nu sunt incluse parole de recuperare, material de chei sau tokenuri de cont.</value>
+  </data>
+  <data name="Diagnostics_TextBlock_DiagnosticsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Diagnosticul aplicației</value>
+  </data>
+  <data name="History_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Cronologie</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Title" xml:space="preserve">
+    <value>Schimbarea criptării este în curs</value>
+  </data>
+  <data name="History_InfoBar_EncryptionMaintenance.Message" xml:space="preserve">
+    <value>Istoricul copiilor este temporar indisponibil. Reia schimbarea criptării în Configurare pentru a termina.</value>
+  </data>
+  <data name="History_BreadcrumbBar_FolderBreadcrumbs.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Calea folderului din Cronologie</value>
+  </data>
+  <data name="History_TextBlock_TimelineTimeName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cronologie la momentul</value>
+  </data>
+  <data name="History_Button_Latest.Content" xml:space="preserve">
+    <value>Cel mai recent</value>
+  </data>
+  <data name="History_Button_ChooseTime.Content" xml:space="preserve">
+    <value>Alege data/ora…</value>
+  </data>
+  <data name="History_TextBlock_ChooseTimeExplanation.Text" xml:space="preserve">
+    <value>Afișează Cronologia la ora locală</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.Header" xml:space="preserve">
+    <value>Dată</value>
+  </data>
+  <data name="History_CalendarDatePicker_AsOfDate.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Data stării afișate</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.Header" xml:space="preserve">
+    <value>Oră</value>
+  </data>
+  <data name="History_TimePicker_AsOfTime.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ora stării afișate</value>
+  </data>
+  <data name="History_Button_ShowTimeline.Content" xml:space="preserve">
+    <value>Afișează Cronologia</value>
+  </data>
+  <data name="History_Button_Refresh.Content" xml:space="preserve">
+    <value>Reîmprospătează</value>
+  </data>
+  <data name="History_AppBarButton_Parent.Label" xml:space="preserve">
+    <value>Părinte</value>
+  </data>
+  <data name="History_AppBarButton_Parent.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Folder părinte</value>
+  </data>
+  <data name="History_AppBarButton_RestoreOriginal.Label" xml:space="preserve">
+    <value>Restaurează</value>
+  </data>
+  <data name="History_AppBarButton_Older.Label" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="History_AppBarButton_Older.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Moment anterior în Cronologie</value>
+  </data>
+  <data name="History_AppBarButton_Newer.Label" xml:space="preserve">
+    <value>Ulterior</value>
+  </data>
+  <data name="History_AppBarButton_Newer.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Moment ulterior în Cronologie</value>
+  </data>
+  <data name="History_AppBarButton_Refresh.Label" xml:space="preserve">
+    <value>Reîmprospătează</value>
+  </data>
+  <data name="History_AppBarButton_Cleanup.Label" xml:space="preserve">
+    <value>Curăță versiunile vechi…</value>
+  </data>
+  <data name="History_AppBarButton_View.Label" xml:space="preserve">
+    <value>Vizualizare</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_LargeIcons.Text" xml:space="preserve">
+    <value>Pictograme mari</value>
+  </data>
+  <data name="History_ToggleMenuFlyoutItem_ListView.Text" xml:space="preserve">
+    <value>Listă</value>
+  </data>
+  <data name="History_AppBarButton_RestoreSelected.Label" xml:space="preserve">
+    <value>Restaurează selecția…</value>
+  </data>
+  <data name="History_AppBarButton_Clear.Label" xml:space="preserve">
+    <value>Deselectează tot</value>
+  </data>
+  <data name="History_ListView_TimelineList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lista Cronologiei</value>
+  </data>
+  <data name="History_GridView_TimelineTiles.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cronologie cu pictograme mari</value>
+  </data>
+  <data name="History_TextBlock_EmptyTimeline.Text" xml:space="preserve">
+    <value>Nu există versiuni de afișat în Cronologie</value>
+  </data>
+  <data name="History_Button_Setup.Content" xml:space="preserve">
+    <value>Deschide Configurare</value>
+  </data>
+  <data name="History_Button_LoadChildren.Content" xml:space="preserve">
+    <value>Încarcă mai multe fișiere și foldere</value>
+  </data>
+  <data name="History_Button_Preview.Content" xml:space="preserve">
+    <value>Previzualizează / Deschide</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.Content" xml:space="preserve">
+    <value>Restaurează</value>
+  </data>
+  <data name="History_Button_RestoreExactOriginal.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Restaurează versiunea selectată</value>
+  </data>
+  <data name="History_Button_VersionOptionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Opțiunile versiunii salvate</value>
+  </data>
+  <data name="History_MenuFlyoutItem_RestoreExact.Text" xml:space="preserve">
+    <value>Restaurează în…</value>
+  </data>
+  <data name="History_MenuFlyoutItem_DeleteVersion.Text" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="History_TextBlock_VersionOrder.Text" xml:space="preserve">
+    <value>Versiuni · cele mai noi primele</value>
+  </data>
+  <data name="History_ListView_VersionsName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Versiunile fișierului</value>
+  </data>
+  <data name="History_Button_LoadVersions.Content" xml:space="preserve">
+    <value>Încarcă mai multe versiuni</value>
+  </data>
+  <data name="History_ProgressRing_LoadingName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Se încarcă Cronologia</value>
+  </data>
+  <data name="History_Button_Cancel.Content" xml:space="preserve">
+    <value>Anulează încărcarea</value>
+  </data>
+  <data name="Overview_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Prezentare generală</value>
+  </data>
+  <data name="Overview_Button_Setup.Content" xml:space="preserve">
+    <value>Configurează Fluff-History</value>
+  </data>
+  <data name="Overview_Button_BackUp.Content" xml:space="preserve">
+    <value>Creează o copie acum</value>
+  </data>
+  <data name="Overview_Button_Recover.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Recuperează accesul…</value>
+  </data>
+  <data name="Overview_TextBlock_RecoverAccess.Text" xml:space="preserve">
+    <value>Recuperează accesul…</value>
+  </data>
+  <data name="Overview_HyperlinkButton_Setup.Content" xml:space="preserve">
+    <value>Configurare</value>
+  </data>
+  <data name="Overview_InfoBar_NeedsAttention.Title" xml:space="preserve">
+    <value>Necesită atenție</value>
+  </data>
+  <data name="Overview_TextBlock_Status.Text" xml:space="preserve">
+    <value>Stare</value>
+  </data>
+  <data name="Overview_ProgressBar_BackupActivity.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Activitatea copiei de rezervă</value>
+  </data>
+  <data name="Overview_TextBlock_DriveSpace.Text" xml:space="preserve">
+    <value>Spațiu pe disc</value>
+  </data>
+  <data name="Overview_ProgressBar_DriveSpaceUsed.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spațiul utilizat pe discul de backup</value>
+  </data>
+  <data name="Overview_Expander_SourceProblems.Header" xml:space="preserve">
+    <value>Probleme cu fișiere sau foldere</value>
+  </data>
+  <data name="Overview_Button_Cancel.Content" xml:space="preserve">
+    <value>Anulează copia de rezervă</value>
+  </data>
+  <data name="Overview_HyperlinkButton_OpenHistory.Content" xml:space="preserve">
+    <value>Deschide Cronologia</value>
+  </data>
+  <data name="Settings_TextBlock_PageTitle.Text" xml:space="preserve">
+    <value>Setările aplicației</value>
+  </data>
+  <data name="Settings_TextBlock_Appearance.Text" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="Settings_TextBlock_AppearanceExplanation.Text" xml:space="preserve">
+    <value>Alege aspectul Fluff-History. Sistem urmează aspectul Windows.</value>
+  </data>
+  <data name="Settings_ComboBox_Appearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="Settings_InfoBar_PreferencesUnavailable.Message" xml:space="preserve">
+    <value>Preferințele aplicației nu au putut fi încărcate. Se folosesc valori implicite sigure. Alege o preferință pentru a salva o copie nouă.</value>
+  </data>
+  <data name="Settings_TextBlock_SettingsExplanation.Text" xml:space="preserve">
+    <value>Folderele, programarea și retenția se gestionează în Configurare. Cronologia reține alegerea dintre Pictograme mari și Listă.</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.Header" xml:space="preserve">
+    <value>Elimină versiunile salvate</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.PlaceholderText" xml:space="preserve">
+    <value>Alege ce să elimini...</value>
+  </data>
+  <data name="TimelineCleanup_ComboBox_CleanupSelection.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Intervalul de curățare</value>
+  </data>
+  <data name="TimelineCleanup_Button_Cancel.Content" xml:space="preserve">
+    <value>Anulează curățarea</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Deschide</value>
+  </data>
+  <data name="Action_Restore" xml:space="preserve">
+    <value>Restaurează</value>
+    <comment>Action: restore saved file contents, never change or delete history.</comment>
+  </data>
+  <data name="Action_RestoreTo" xml:space="preserve">
+    <value>Restaurează în…</value>
+  </data>
+  <data name="Action_Preview" xml:space="preserve">
+    <value>Previzualizează / Deschide</value>
+  </data>
+  <data name="Action_DeleteVersion" xml:space="preserve">
+    <value>Șterge versiunea salvată…</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="Action_Continue" xml:space="preserve">
+    <value>Continuă</value>
+  </data>
+  <data name="Action_Resume" xml:space="preserve">
+    <value>Reia</value>
+  </data>
+  <data name="Action_Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="Action_Confirm" xml:space="preserve">
+    <value>Confirmă</value>
+  </data>
+  <data name="Action_UseBackupLocation" xml:space="preserve">
+    <value>Folosește această locație de backup</value>
+  </data>
+  <data name="Status_Closing" xml:space="preserve">
+    <value>Se închide</value>
+  </data>
+  <data name="Status_ClosingWait" xml:space="preserve">
+    <value>Se așteaptă finalizarea operațiilor active…</value>
+  </data>
+  <data name="Status_ShutdownAttention" xml:space="preserve">
+    <value>Închiderea necesită atenție</value>
+  </data>
+  <data name="Status_ShutdownAdvice" xml:space="preserve">
+    <value>Așteaptă operația activă cu fișiere și încearcă din nou să închizi.</value>
+  </data>
+  <data name="Status_ActionAttention" xml:space="preserve">
+    <value>Acțiunea necesită atenție</value>
+  </data>
+  <data name="Status_RecoveryRequired" xml:space="preserve">
+    <value>Este necesară recuperarea</value>
+  </data>
+  <data name="Status_RecoveryAdvice" xml:space="preserve">
+    <value>Deschide Prezentare generală sau Configurare pentru a recupera accesul cu parola de recuperare.</value>
+  </data>
+  <data name="Status_NotConfigured" xml:space="preserve">
+    <value>Neconfigurat</value>
+  </data>
+  <data name="Status_SetupAdvice" xml:space="preserve">
+    <value>Alege Configurează Fluff-History în Prezentare generală pentru a începe.</value>
+  </data>
+  <data name="Status_ReadyToConfigure" xml:space="preserve">
+    <value>Pregătit pentru configurare</value>
+  </data>
+  <data name="Status_CancelledOperations" xml:space="preserve">
+    <value>Anulat; operațiile cu fișiere deja finalizate rămân finalizate.</value>
+  </data>
+  <data name="Status_OperationFailure" xml:space="preserve">
+    <value>Operația nu s-a putut finaliza. Verifică folderele selectate, configurarea și conexiunea, apoi încearcă din nou.</value>
+  </data>
+  <data name="Status_PreferencesSaved" xml:space="preserve">
+    <value>Preferințele aplicației au fost salvate</value>
+  </data>
+  <data name="Status_ResetRequired" xml:space="preserve">
+    <value>Resetează explicit setările corupte ale aplicației înainte de salvare.</value>
+  </data>
+  <data name="Status_UpdateClosing" xml:space="preserve">
+    <value>Fluff-History se închide pentru o actualizare.</value>
+  </data>
+  <data name="Status_AgentUnavailableAdvice" xml:space="preserve">
+    <value>Agentul de fundal este indisponibil. Redeschide Fluff-History sau repară instalarea.</value>
+  </data>
+  <data name="Status_PreviewOpened" xml:space="preserve">
+    <value>Previzualizarea Cronologiei a fost deschisă</value>
+  </data>
+  <data name="Status_RestoreResult" xml:space="preserve">
+    <value>Restaurare: {0:N0} copiate · {1:N0} omise · {2:N0} eșuate · {3:N0} neconfirmate · {4:N0} avertismente de metadate</value>
+    <comment>Counts are exact file operation outcomes; unconfirmed is not failure or success.</comment>
+  </data>
+  <data name="Status_RestoreCancelled" xml:space="preserve">
+    <value> · Anulat</value>
+    <comment>Suffix appended to restore counts; preserve initial space and separator.</comment>
+  </data>
+  <data name="Recovery_Completed" xml:space="preserve">
+    <value>Recuperare finalizată. Acest utilizator Windows poate acum deschide copia de rezervă.</value>
+  </data>
+  <data name="Recovery_WrongPassword" xml:space="preserve">
+    <value>Parola de recuperare nu a putut debloca această copie. Verifică parola și încearcă din nou.</value>
+    <comment>Portable backup recovery password, not Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Recovery_UncertainOpen" xml:space="preserve">
+    <value>Recuperarea nu a putut fi confirmată complet. O nouă deschidere locală a reușit; verifică accesul înainte de a reîncerca.</value>
+  </data>
+  <data name="Recovery_UncertainAccess" xml:space="preserve">
+    <value>Accesul local nu a putut fi confirmat după recuperare. Verifică locația copiei înainte de a reîncerca.</value>
+  </data>
+  <data name="Recovery_InvalidBackup" xml:space="preserve">
+    <value>Locația copiei este invalidă sau deteriorată. Recuperarea nu s-a finalizat.</value>
+  </data>
+  <data name="Recovery_Cancelled" xml:space="preserve">
+    <value>Recuperare anulată.</value>
+  </data>
+  <data name="Recovery_Unavailable" xml:space="preserve">
+    <value>Recuperarea nu s-a putut finaliza. Verifică locația copiei și conexiunea înainte de a reîncerca.</value>
+  </data>
+  <data name="Dialog_BackupLocation" xml:space="preserve">
+    <value>Locația copiei de rezervă</value>
+  </data>
+  <data name="Dialog_AddFolders" xml:space="preserve">
+    <value>Adaugă foldere</value>
+  </data>
+  <data name="Dialog_SourceFolders" xml:space="preserve">
+    <value>Foldere de inclus în backup</value>
+  </data>
+  <data name="Dialog_ProtectOption" xml:space="preserve">
+    <value>Protejează această copie cu o parolă de recuperare</value>
+  </data>
+  <data name="Dialog_SetupTitle" xml:space="preserve">
+    <value>Configurezi această locație de backup?</value>
+  </data>
+  <data name="Dialog_EmptyLocationExplanation" xml:space="preserve">
+    <value>Acest folder gol va fi configurat acum. Salvează apoi modificările pentru a începe să îl folosești.</value>
+  </data>
+  <data name="Dialog_RecoveryPassword" xml:space="preserve">
+    <value>Parolă de recuperare</value>
+    <comment>Portable backup recovery password, not the Windows or Microsoft account sign-in password.</comment>
+  </data>
+  <data name="Dialog_ConfirmPassword" xml:space="preserve">
+    <value>Confirmă parola</value>
+  </data>
+  <data name="Dialog_ChangePasswordTitle" xml:space="preserve">
+    <value>Schimbă parola de recuperare</value>
+  </data>
+  <data name="Dialog_ResumeEncryptionTitle" xml:space="preserve">
+    <value>Reia schimbarea criptării</value>
+  </data>
+  <data name="Dialog_ProtectTitle" xml:space="preserve">
+    <value>Protejează copia de rezervă</value>
+  </data>
+  <data name="Dialog_RecoveryTitle" xml:space="preserve">
+    <value>Recuperează accesul la copie</value>
+  </data>
+  <data name="Dialog_ChangePasswordAction" xml:space="preserve">
+    <value>Schimbă parola</value>
+  </data>
+  <data name="Dialog_ProtectedSetupAction" xml:space="preserve">
+    <value>Configurează o copie protejată</value>
+  </data>
+  <data name="Dialog_RecoverAction" xml:space="preserve">
+    <value>Recuperează accesul</value>
+  </data>
+  <data name="Dialog_ChangePasswordExplanation" xml:space="preserve">
+    <value>Schimbă parola folosită pentru recuperarea portabilă. Datele existente nu trebuie recriptate. Păstrează noua parolă într-un loc sigur.</value>
+    <comment>Same master key; only its password wrapping changes.</comment>
+  </data>
+  <data name="Dialog_ResumeEncryptionExplanation" xml:space="preserve">
+    <value>Introdu parola de recuperare pentru această schimbare a criptării. Copierea rămâne pe pauză dacă accesul nu poate fi confirmat.</value>
+  </data>
+  <data name="Dialog_ProtectExplanation" xml:space="preserve">
+    <value>Păstrează parola de recuperare într-un loc sigur. Vei avea nevoie de ea pentru a recupera accesul pe o altă instalare Windows. Acest utilizator Windows poate deschide copia în mod normal.</value>
+  </data>
+  <data name="Dialog_RecoveryExplanation" xml:space="preserve">
+    <value>Această copie există, dar acest utilizator Windows nu o poate deschide încă. Introdu parola de recuperare pentru a permite accesul.</value>
+  </data>
+  <data name="Dialog_PasswordMismatch" xml:space="preserve">
+    <value>Introdu o parolă; confirmarea trebuie să coincidă</value>
+  </data>
+  <data name="Dialog_ExistingBackupTitle" xml:space="preserve">
+    <value>A fost găsită o copie existentă</value>
+  </data>
+  <data name="Cleanup_Title" xml:space="preserve">
+    <value>Curăță versiunile vechi</value>
+  </data>
+  <data name="Cleanup_ExecuteAction" xml:space="preserve">
+    <value>Elimină versiuni…</value>
+  </data>
+  <data name="Cleanup_ConfirmationTitle" xml:space="preserve">
+    <value>Confirmă curățarea Cronologiei</value>
+  </data>
+  <data name="Configuration_FolderRemoved" xml:space="preserve">
+    <value>Eliminat din copiile viitoare. Istoricul existent este păstrat conform setărilor de retenție.</value>
+  </data>
+  <data name="Configuration_ExclusionRemoved" xml:space="preserve">
+    <value>Acest folder va fi inclus în copiile viitoare dacă nu se aplică altă excludere. Istoricul existent este păstrat.</value>
+  </data>
+  <data name="Configuration_ResetTitle" xml:space="preserve">
+    <value>Resetezi configurarea aplicației?</value>
+  </data>
+  <data name="Configuration_ResetExplanation" xml:space="preserve">
+    <value>Datele de backup și cele sursă rămân neatinse. Se resetează doar setările acestei aplicații.</value>
+  </data>
+  <data name="Configuration_ResetAction" xml:space="preserve">
+    <value>Resetează configurarea</value>
+  </data>
+  <data name="Encryption_Paused" xml:space="preserve">
+    <value>Schimbarea criptării este pe pauză</value>
+  </data>
+  <data name="Encryption_RemovalPaused" xml:space="preserve">
+    <value>Eliminarea criptării este pe pauză</value>
+  </data>
+  <data name="Encryption_Attention" xml:space="preserve">
+    <value>Schimbarea criptării necesită atenție</value>
+  </data>
+  <data name="Encryption_Preparing" xml:space="preserve">
+    <value>Se pregătește schimbarea criptării</value>
+  </data>
+  <data name="Encryption_Progress" xml:space="preserve">
+    <value>{0} din {1} · {2:N0} din {3:N0} fișiere</value>
+    <comment>Completed size, total size, completed files, total files.</comment>
+  </data>
+  <data name="Encryption_ControlUnverified" xml:space="preserve">
+    <value>Controlul conversiei nu a putut fi verificat. Istoricul copiilor rămâne indisponibil. Verifică conexiunea copiei și diagnosticul.</value>
+  </data>
+  <data name="Encryption_UnavailableResumable" xml:space="preserve">
+    <value>Istoricul copiilor este temporar indisponibil în timpul conversiei. După o întrerupere, conversia poate fi reluată.</value>
+  </data>
+  <data name="Encryption_Encrypted" xml:space="preserve">
+    <value>Criptat</value>
+  </data>
+  <data name="Encryption_Unencrypted" xml:space="preserve">
+    <value>Necriptat</value>
+  </data>
+  <data name="Recovery_EnableWindowsAdvice" xml:space="preserve">
+    <value>Folosește recuperarea pentru a permite accesul acestui cont Windows.</value>
+  </data>
+  <data name="Recovery_WindowsAvailable" xml:space="preserve">
+    <value>Acest cont Windows poate debloca această copie.</value>
+  </data>
+  <data name="Experimental_Checking" xml:space="preserve">
+    <value>Se verifică recuperarea prin OneDrive…</value>
+  </data>
+  <data name="Experimental_Available" xml:space="preserve">
+    <value>Recuperare prin OneDrive: activată</value>
+  </data>
+  <data name="Experimental_NotAvailable" xml:space="preserve">
+    <value>Cheia de recuperare lipsește din OneDrive</value>
+  </data>
+  <data name="Experimental_CleanupRequired" xml:space="preserve">
+    <value>Recuperarea prin OneDrive este dezactivată local; poate fi necesară curățarea în cloud</value>
+  </data>
+  <data name="Experimental_Invalid" xml:space="preserve">
+    <value>Recuperarea prin OneDrive necesită atenție</value>
+  </data>
+  <data name="Experimental_Unavailable" xml:space="preserve">
+    <value>Recuperarea prin OneDrive nu este disponibilă</value>
+  </data>
+  <data name="Experimental_Off" xml:space="preserve">
+    <value>Recuperare prin OneDrive: dezactivată</value>
+  </data>
+  <data name="Experimental_Explanation" xml:space="preserve">
+    <value>Experimental. O cheie de recuperare aleatorie este stocată în folderul aplicației Fluff-History din OneDrive; fișierele salvate rămân în locația copiei de siguranță. Permisiunea acoperă doar acest folder. Un alt PC poate recupera copia după conectarea la contul Microsoft. Microsoft marchează această permisiune ca Preview. Păstrează parola de recuperare.</value>
+    <comment>Never promise roaming, timing, Microsoft cloud escrow, or recovery on another PC. Credential is random key protection, not user files. Keep portable recovery password.</comment>
+  </data>
+  <data name="Security_PasswordChanged" xml:space="preserve">
+    <value>Parola de recuperare a fost schimbată. Păstrează noua parolă într-un loc sigur.</value>
+  </data>
+  <data name="Security_ExperimentalEnabled" xml:space="preserve">
+    <value>Recuperarea prin OneDrive este activată și verificată. Păstrează parola de recuperare.</value>
+  </data>
+  <data name="Security_ExperimentalDisabled" xml:space="preserve">
+    <value>Recuperarea prin OneDrive este dezactivată. Parola și accesul Windows rămân neschimbate.</value>
+  </data>
+  <data name="Security_ExperimentalVerified" xml:space="preserve">
+    <value>Recuperare prin OneDrive verificată.</value>
+  </data>
+  <data name="Security_RecoveryCompleted" xml:space="preserve">
+    <value>Recuperare finalizată. Acest cont Windows poate acum debloca această copie.</value>
+  </data>
+  <data name="Security_CredentialNotAvailable" xml:space="preserve">
+    <value>Cheia de recuperare lipsește din OneDrive. Folosește parola de recuperare.</value>
+  </data>
+  <data name="Security_AuthenticationFailed" xml:space="preserve">
+    <value>Cheia de recuperare OneDrive nu a putut autentifica această copie. Folosește parola de recuperare.</value>
+  </data>
+  <data name="Security_Uncertain" xml:space="preserve">
+    <value>Modificarea nu a putut fi confirmată complet. Verifică accesul înainte de a reîncerca; istoricul copiilor este neschimbat.</value>
+  </data>
+  <data name="Security_Cancelled" xml:space="preserve">
+    <value>Operație anulată.</value>
+  </data>
+  <data name="Security_Failed" xml:space="preserve">
+    <value>Modificarea de securitate nu s-a putut finaliza. Verifică accesul și încearcă din nou. Recuperarea prin parolă rămâne disponibilă.</value>
+  </data>
+  <data name="Security_Title" xml:space="preserve">
+    <value>Criptarea copiei de rezervă</value>
+  </data>
+  <data name="Encryption_EnableExplanation" xml:space="preserve">
+    <value>Conținutul existent va fi criptat în locația actuală. Copierea și restaurarea sunt temporar indisponibile. Păstrează parola de recuperare; accesul Windows este adăugat automat. Este necesar spațiu liber suficient, iar conversia poate fi reluată după întrerupere.</value>
+    <comment>Conversion of existing stored backup only, not source files, BitLocker, or deletion. Recovery password remains portable.</comment>
+  </data>
+  <data name="Encryption_DisableExplanation" xml:space="preserve">
+    <value>Metadatele și conținutul fișierelor vor fi stocate necriptat la locația copiei. Copierea și restaurarea sunt temporar indisponibile în timpul conversiei. Conversia poate fi reluată după întrerupere.</value>
+    <comment>Existing backup conversion, not deleting history or decrypting source files/BitLocker.</comment>
+  </data>
+  <data name="Encryption_EnableTitle" xml:space="preserve">
+    <value>Activezi criptarea?</value>
+  </data>
+  <data name="Encryption_DisableTitle" xml:space="preserve">
+    <value>Dezactivezi criptarea?</value>
+  </data>
+  <data name="Encryption_Completed" xml:space="preserve">
+    <value>Schimbarea criptării s-a finalizat.</value>
+  </data>
+  <data name="Encryption_PlaintextCleanupDeferred" xml:space="preserve">
+    <value> Unele metadate retrase pot rămâne necriptate până la reușita curățării. Curățarea va fi reîncercată.</value>
+    <comment>Suffix to completion message. Preserve leading space; do not imply all old plaintext has already been removed.</comment>
+  </data>
+  <data name="Encryption_CleanupDeferred" xml:space="preserve">
+    <value> Unele metadate vechi nu au putut fi încă eliminate; curățarea va fi reîncercată.</value>
+    <comment>Suffix to completion message; preserve leading space.</comment>
+  </data>
+  <data name="Encryption_PausedAdvice" xml:space="preserve">
+    <value>Schimbarea criptării este pe pauză. Reia pentru a termina; fișierele deja convertite sunt păstrate.</value>
+  </data>
+  <data name="Encryption_NotStarted" xml:space="preserve">
+    <value>Conversia criptării nu a fost pornită.</value>
+  </data>
+  <data name="Encryption_MoreSpaceResume" xml:space="preserve">
+    <value>Este necesar mai mult spațiu liber. Eliberează spațiu, apoi reia. Nu a fost eliminat istoric.</value>
+  </data>
+  <data name="Encryption_MoreSpaceStart" xml:space="preserve">
+    <value>Este necesar mai mult spațiu liber. Eliberează spațiu, apoi încearcă din nou schimbarea criptării. Nu a fost eliminat istoric.</value>
+  </data>
+  <data name="Encryption_RecoveryRequired" xml:space="preserve">
+    <value>Folosește parola de recuperare pentru a continua schimbarea criptării.</value>
+  </data>
+  <data name="Encryption_ResumeAttention" xml:space="preserve">
+    <value>Schimbarea criptării necesită atenție. Verifică conexiunea copiei și parola de recuperare, apoi reia. Nu elimina fișierele de conversie.</value>
+  </data>
+  <data name="Encryption_StartAttention" xml:space="preserve">
+    <value>Schimbarea criptării nu a putut porni. Verifică conexiunea copiei și datele opționale de cache, apoi încearcă din nou. Istoricul copiilor este neschimbat.</value>
+  </data>
+  <data name="Configuration_ForeverTitle" xml:space="preserve">
+    <value>Păstrează versiunile pentru totdeauna</value>
+  </data>
+  <data name="Configuration_NoExclusions" xml:space="preserve">
+    <value>Nu există foldere excluse.</value>
+  </data>
+  <data name="Configuration_ChooseStorage" xml:space="preserve">
+    <value>Alege unde vor fi stocate copiile de rezervă</value>
+  </data>
+  <data name="Configuration_ChooseLocationContinue" xml:space="preserve">
+    <value>Alege o locație de backup pentru a continua.</value>
+  </data>
+  <data name="Configuration_EncryptionPaused" xml:space="preserve">
+    <value>Criptarea acestei copii este pe pauză</value>
+  </data>
+  <data name="Configuration_DecryptionPaused" xml:space="preserve">
+    <value>Eliminarea criptării este pe pauză</value>
+  </data>
+  <data name="Configuration_Unsaved" xml:space="preserve">
+    <value>Modificări nesalvate · păstrate la schimbarea paginii</value>
+  </data>
+  <data name="Configuration_UpToDate" xml:space="preserve">
+    <value>Configurarea este la zi</value>
+  </data>
+  <data name="Configuration_ChooseFrequency" xml:space="preserve">
+    <value>Alege o frecvență de backup acceptată.</value>
+  </data>
+  <data name="Configuration_ChooseLocation" xml:space="preserve">
+    <value>Alege o locație de backup.</value>
+  </data>
+  <data name="Configuration_ChooseLocationSave" xml:space="preserve">
+    <value>Alege o locație de backup înainte de salvare.</value>
+  </data>
+  <data name="Configuration_LocationUnavailable" xml:space="preserve">
+    <value>Locația copiei este indisponibilă. Alege Schimbă pentru a o selecta din nou sau a folosi altă locație.</value>
+  </data>
+  <data name="Configuration_CheckFolders" xml:space="preserve">
+    <value>Verifică folderele selectate și locația copiei.</value>
+  </data>
+  <data name="Configuration_UnrelatedFolder" xml:space="preserve">
+    <value>Acest folder conține deja date fără legătură. Fluff-History nu va configura o copie nouă aici. Alege un folder gol sau o copie Fluff-History existentă.</value>
+  </data>
+  <data name="Configuration_ChooseAnotherLocation" xml:space="preserve">
+    <value>Alege altă locație de backup</value>
+  </data>
+  <data name="Configuration_InaccessibleLocation" xml:space="preserve">
+    <value>Această locație este indisponibilă. Verifică conexiunea sau alege altă locație.</value>
+  </data>
+  <data name="Status_BackupUnavailable" xml:space="preserve">
+    <value>Locația copiei este indisponibilă</value>
+  </data>
+  <data name="Configuration_AdoptExplanation" xml:space="preserve">
+    <value>Salvează modificările pentru a folosi această locație de backup.</value>
+  </data>
+  <data name="Configuration_PasswordFailed" xml:space="preserve">
+    <value>Parola de recuperare nu a putut debloca această copie.</value>
+  </data>
+  <data name="Configuration_RecoveryUncertain" xml:space="preserve">
+    <value>Accesul nu a putut fi confirmat complet. Verifică această copie înainte de a reîncerca.</value>
+  </data>
+  <data name="Configuration_LocationSelected" xml:space="preserve">
+    <value>Locația copiei a fost selectată. Alege folderele, apoi salvează modificările.</value>
+  </data>
+  <data name="Configuration_FolderLimit" xml:space="preserve">
+    <value>Alege cel mult 1.024 de foldere.</value>
+  </data>
+  <data name="Configuration_FolderCovered" xml:space="preserve">
+    <value>Deja inclus în backup prin {0}</value>
+    <comment>Display name of the covering selected folder; never translate the actual path.</comment>
+  </data>
+  <data name="Configuration_FolderRejected" xml:space="preserve">
+    <value>Acest folder nu a putut fi selectat.</value>
+  </data>
+  <data name="Configuration_ConflictTitle" xml:space="preserve">
+    <value>Conflict la selectarea folderelor</value>
+  </data>
+  <data name="Configuration_ConfirmFoldersTitle" xml:space="preserve">
+    <value>Creezi copii pentru aceste foldere?</value>
+  </data>
+  <data name="Configuration_ForceInclude" xml:space="preserve">
+    <value>Creează copia oricum</value>
+  </data>
+  <data name="Configuration_AlreadyExcluded" xml:space="preserve">
+    <value>Acest folder este deja exclus.</value>
+  </data>
+  <data name="Configuration_FolderExcluded" xml:space="preserve">
+    <value>Folder exclus din copiile viitoare. Istoricul existent este păstrat.</value>
+  </data>
+  <data name="History_Latest" xml:space="preserve">
+    <value>Cel mai recent</value>
+    <comment>Latest surviving file versions; not a complete backup run or snapshot.</comment>
+  </data>
+  <data name="History_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="History_EmptyRoot" xml:space="preserve">
+    <value>Adaugă foldere în Configurare pentru a începe. Folderele salvate vor apărea aici.</value>
+  </data>
+  <data name="History_NoVersions" xml:space="preserve">
+    <value>Acest folder nu are încă versiuni salvate. Fișierele vor apărea după o copie reușită.</value>
+  </data>
+  <data name="History_EmptyTime" xml:space="preserve">
+    <value>Acest folder nu are fișiere salvate la momentul selectat. Încearcă alt moment sau alege Cel mai recent.</value>
+  </data>
+  <data name="History_RefreshAdvice" xml:space="preserve">
+    <value>Cronologia s-a modificat. Reîmprospătează pentru a continua.</value>
+  </data>
+  <data name="History_AsOf" xml:space="preserve">
+    <value>Cronologie la: {0}</value>
+    <comment>Local date/time or localized Latest label.</comment>
+  </data>
+  <data name="History_ChildrenLimit" xml:space="preserve">
+    <value>S-au încărcat 4.096 de elemente. Deschide un folder pentru a restrânge vizualizarea.</value>
+  </data>
+  <data name="History_TimesLimit" xml:space="preserve">
+    <value>S-au încărcat 1.024 de momente. Restrânge folderul sau alege o dată și o oră.</value>
+  </data>
+  <data name="History_VersionsLimit" xml:space="preserve">
+    <value>S-au încărcat 1.024 de versiuni. Această previzualizare limitează lista.</value>
+  </data>
+  <data name="History_NoFolders" xml:space="preserve">
+    <value>Nu există foldere în Cronologie</value>
+  </data>
+  <data name="History_LatestVersions" xml:space="preserve">
+    <value>Cele mai recente versiuni rămase</value>
+  </data>
+  <data name="History_ProtectedVersion" xml:space="preserve">
+    <value>Versiunea curentă reușită este protejată și nu poate fi ștearsă.</value>
+    <comment>Current successful backed-up file version is protected against version removal. Not the time 'now'.</comment>
+  </data>
+  <data name="History_SelectItem" xml:space="preserve">
+    <value>Selectează un fișier sau folder</value>
+  </data>
+  <data name="History_OpenFolder" xml:space="preserve">
+    <value>Deschide acest folder pentru a-i explora fișierele salvate.
+</value>
+  </data>
+  <data name="History_VirtualRootExplanation" xml:space="preserve">
+    <value>Deschide un folder pentru a-i explora fișierele salvate. Aceste foldere sunt elemente de navigare, nu versiuni de directoare restaurabile.</value>
+  </data>
+  <data name="History_SelectionExplanation" xml:space="preserve">
+    <value>Selectează fișiere sau foldere din această vizualizare pentru a le restaura împreună. Selectează un singur fișier pentru a-i explora versiunile.</value>
+  </data>
+  <data name="History_FolderExplanation" xml:space="preserve">
+    <value>Folderele afișează fișierele salvate în Cronologie. Datele și proprietățile folderelor nu sunt salvate separat.
+</value>
+  </data>
+  <data name="History_ConfigureTimeline" xml:space="preserve">
+    <value>Deschide Configurare pentru a configura Cronologia.</value>
+  </data>
+  <data name="History_ConfigureContinue" xml:space="preserve">
+    <value>. Deschide Configurare pentru a continua.</value>
+    <comment>Suffix appended to repository readiness; preserve initial punctuation/space.</comment>
+  </data>
+  <data name="History_LoadAdvice" xml:space="preserve">
+    <value>Reîmprospătează pentru a încărca Cronologia acestei copii.</value>
+  </data>
+  <data name="History_NotProtected" xml:space="preserve">
+    <value>Acest element nu este inclus momentan în copiile Fluff-History.</value>
+  </data>
+  <data name="History_OpenBackupAdvice" xml:space="preserve">
+    <value>Deschide Configurare sau Prezentare generală pentru a accesa această copie.</value>
+  </data>
+  <data name="History_NoItemHistory" xml:space="preserve">
+    <value>Acest element nu are încă istoric salvat.</value>
+  </data>
+  <data name="History_NoFileVersion" xml:space="preserve">
+    <value>Acest fișier nu are încă o versiune salvată.</value>
+  </data>
+  <data name="History_Inactive" xml:space="preserve">
+    <value>Momentan nu este inclus în backup</value>
+  </data>
+  <data name="History_InactiveSuffix" xml:space="preserve">
+    <value> · Momentan nu este inclus în backup</value>
+    <comment>Suffix appended to a real source path; preserve separator/space.</comment>
+  </data>
+  <data name="History_FolderGone" xml:space="preserve">
+    <value>Acest folder nu mai este în Cronologie.</value>
+  </data>
+  <data name="History_InvalidLocalTime" xml:space="preserve">
+    <value>Această oră locală nu există din cauza orei de vară. Alege altă oră.</value>
+  </data>
+  <data name="History_LoadingCancelledRows" xml:space="preserve">
+    <value>Încărcare anulată. Rândurile finalizate rămân disponibile.</value>
+  </data>
+  <data name="History_Loading" xml:space="preserve">
+    <value>Se încarcă Cronologia…</value>
+  </data>
+  <data name="History_LoadingCancelled" xml:space="preserve">
+    <value>Încărcare anulată.</value>
+  </data>
+  <data name="History_RestoreConflictTitle" xml:space="preserve">
+    <value>Elementele selectate nu pot fi restaurate</value>
+  </data>
+  <data name="History_RestoreOriginalTitle" xml:space="preserve">
+    <value>Restaurezi în locația originală?</value>
+  </data>
+  <data name="History_RestoreOriginalExplanation" xml:space="preserve">
+    <value>Fișierele istorice selectate vor fi restaurate în locațiile sursă originale. Windows va întreba despre conflictele cu fișiere existente.</value>
+  </data>
+  <data name="History_DeleteTitle" xml:space="preserve">
+    <value>Ștergi această versiune salvată?</value>
+  </data>
+  <data name="History_Deleted" xml:space="preserve">
+    <value>Versiunea salvată a fost ștearsă.</value>
+  </data>
+  <data name="History_DeleteCancelled" xml:space="preserve">
+    <value>Ștergere anulată. {0:N0} versiuni salvate au fost șterse înainte de anulare; eliminările confirmate rămân finalizate.</value>
+  </data>
+  <data name="History_DeleteAttention" xml:space="preserve">
+    <value>Ștergerea necesită atenție. Unele modificări sau curățări ale conținutului pot fi neconfirmate. Verifică copia înainte de a reîncerca.</value>
+  </data>
+  <data name="Status_CommandFailure" xml:space="preserve">
+    <value>Acțiunea nu s-a putut finaliza. Verifică configurarea și încearcă din nou.</value>
+  </data>
+  <data name="Overview_EncryptionBusy" xml:space="preserve">
+    <value>Schimbarea criptării este în curs</value>
+  </data>
+  <data name="Overview_AgentUnavailable" xml:space="preserve">
+    <value>Agentul de fundal este indisponibil</value>
+  </data>
+  <data name="Overview_Setup" xml:space="preserve">
+    <value>Configurează Fluff-History</value>
+  </data>
+  <data name="Overview_BackupRunning" xml:space="preserve">
+    <value>Copie de rezervă în curs</value>
+  </data>
+  <data name="Overview_BackupAttention" xml:space="preserve">
+    <value>Copia de rezervă necesită atenție</value>
+  </data>
+  <data name="Overview_SetupExplanation" xml:space="preserve">
+    <value>Alege o locație de backup și folderele pe care dorești să le copiezi.</value>
+  </data>
+  <data name="Overview_SchedulingEnabled" xml:space="preserve">
+    <value>Copiile automate sunt activate</value>
+  </data>
+  <data name="Overview_SchedulingDisabled" xml:space="preserve">
+    <value>Copiile automate sunt dezactivate</value>
+  </data>
+  <data name="Progress_CheckingSafeguards" xml:space="preserve">
+    <value>Se verifică condițiile de backup…</value>
+  </data>
+  <data name="Progress_OpeningBackup" xml:space="preserve">
+    <value>Se deschide copia de rezervă…</value>
+  </data>
+  <data name="Progress_Scanning" xml:space="preserve">
+    <value>Se scanează și se copiază fișierele…</value>
+  </data>
+  <data name="Progress_Retention" xml:space="preserve">
+    <value>Se aplică politica de retenție…</value>
+  </data>
+  <data name="Progress_CheckingMetadata" xml:space="preserve">
+    <value>Se verifică metadatele…</value>
+  </data>
+  <data name="Progress_CompactingMetadata" xml:space="preserve">
+    <value>Se compactează metadatele…</value>
+  </data>
+  <data name="Progress_CleaningMetadata" xml:space="preserve">
+    <value>Se curăță metadatele…</value>
+  </data>
+  <data name="Progress_CompressingMetadata" xml:space="preserve">
+    <value>Se comprimă metadatele…</value>
+  </data>
+  <data name="Progress_Encrypting" xml:space="preserve">
+    <value>Se criptează…</value>
+  </data>
+  <data name="Progress_Decrypting" xml:space="preserve">
+    <value>Se decriptează…</value>
+  </data>
+  <data name="Progress_Finishing" xml:space="preserve">
+    <value>Se finalizează copia…</value>
+  </data>
+  <data name="Overview_CancellationRequested" xml:space="preserve">
+    <value> · Anulare solicitată</value>
+    <comment>Status suffix; preserve initial space/separator.</comment>
+  </data>
+  <data name="Overview_UnmappedFolder" xml:space="preserve">
+    <value>Folder neasociat</value>
+  </data>
+  <data name="Overview_ProblemsLimited" xml:space="preserve">
+    <value>
+
+Se afișează {0:N0} din {1:N0} probleme înregistrate în această sesiune.</value>
+    <comment>Shown count, total count. Preserve paragraph separation.</comment>
+  </data>
+  <data name="Overview_MigrationAdvice" xml:space="preserve">
+    <value>Istoricul copiilor este temporar indisponibil. Reia schimbarea criptării în Configurare.</value>
+  </data>
+  <data name="Overview_RecoveryAdvice" xml:space="preserve">
+    <value>Copia există, dar acest utilizator Windows nu are acces. Parola de recuperare poate restabili accesul.</value>
+  </data>
+  <data name="Overview_MaintenanceAdvice" xml:space="preserve">
+    <value>Copia s-a finalizat, dar întreținerea Cronologiei necesită atenție. Vezi diagnosticul înainte de a reîncerca curățarea.</value>
+  </data>
+  <data name="Overview_ReconciliationAdvice" xml:space="preserve">
+    <value>Unele modificări nu au putut fi confirmate. Verifică locația copiei înainte de a continua.</value>
+  </data>
+  <data name="Overview_CapacityAdvice" xml:space="preserve">
+    <value>Locația copiei necesită mai mult spațiu liber înainte de continuarea copierii.</value>
+  </data>
+  <data name="Overview_SourceProblemsAdvice" xml:space="preserve">
+    <value>Unele fișiere sau foldere au fost omise. Extinde Probleme cu fișiere sau foldere mai jos pentru a vedea căile și motivele. Celelalte versiuni reușite rămân salvate.</value>
+  </data>
+  <data name="Overview_AddFoldersAdvice" xml:space="preserve">
+    <value>Adaugă foldere în Configurare pentru a începe copiile.</value>
+  </data>
+  <data name="Outcome_NoChanges" xml:space="preserve">
+    <value>Nu există modificări de copiat.</value>
+  </data>
+  <data name="Duration_LessThanSecond" xml:space="preserve">
+    <value>mai puțin de o secundă</value>
+  </data>
+  <data name="Duration_Joined" xml:space="preserve">
+    <value>{0} și {1}</value>
+    <comment>Whole-hour duration and remaining whole-minute duration. Seconds are omitted after one minute.</comment>
+  </data>
+  <data name="Failure_RecoveryRequired" xml:space="preserve">
+    <value>Este necesară recuperarea. Folosește parola de recuperare pentru a permite accesul acestui utilizator Windows.</value>
+  </data>
+  <data name="Failure_MigrationRequired" xml:space="preserve">
+    <value>Finalizează schimbarea criptării în Configurare înainte de a folosi istoricul copiilor.</value>
+  </data>
+  <data name="Failure_RefreshRequired" xml:space="preserve">
+    <value>Cronologia s-a modificat. Reîmprospătează pentru a continua explorarea și restaurarea.</value>
+  </data>
+  <data name="Failure_InvalidRepository" xml:space="preserve">
+    <value>Această locație de backup este invalidă sau deteriorată. Verifică locația selectată.</value>
+  </data>
+  <data name="Failure_Busy" xml:space="preserve">
+    <value>O copie sau o curățare este deja în curs. Așteaptă să se termine, apoi încearcă din nou.</value>
+  </data>
+  <data name="Failure_InvalidSelection" xml:space="preserve">
+    <value>Această selecție nu poate fi folosită aici. Alege elemente din folderul și momentul curente.</value>
+  </data>
+  <data name="Failure_RestoreConflict" xml:space="preserve">
+    <value>Elementele istorice selectate conțin un fișier și un folder cu aceeași cale și nu pot fi restaurate împreună.</value>
+  </data>
+  <data name="Failure_Cancelled" xml:space="preserve">
+    <value>Operație anulată. Operațiile cu fișiere finalizate rămân finalizate.</value>
+  </data>
+  <data name="Failure_Unavailable" xml:space="preserve">
+    <value>Locația copiei sau destinația este indisponibilă. Verifică locația și conexiunea, apoi încearcă din nou.</value>
+  </data>
+  <data name="Status_InvalidLocation" xml:space="preserve">
+    <value>Locație de backup invalidă</value>
+  </data>
+  <data name="Outcome_Completed" xml:space="preserve">
+    <value>Copie finalizată</value>
+  </data>
+  <data name="Outcome_SourceProblems" xml:space="preserve">
+    <value>Copie finalizată cu probleme de foldere sau fișiere</value>
+  </data>
+  <data name="Outcome_Cancelled" xml:space="preserve">
+    <value>Copie anulată</value>
+  </data>
+  <data name="Outcome_CapacityBlocked" xml:space="preserve">
+    <value>Copie pe pauză: spațiu insuficient</value>
+  </data>
+  <data name="Outcome_Deferred" xml:space="preserve">
+    <value>Copie amânată</value>
+  </data>
+  <data name="Outcome_Attention" xml:space="preserve">
+    <value>Copia necesită atenție</value>
+  </data>
+  <data name="Outcome_NoAttempt" xml:space="preserve">
+    <value>Nu a rulat nicio copie în această sesiune a aplicației.</value>
+  </data>
+  <data name="Safeguard_OnBattery" xml:space="preserve">
+    <value>Se așteaptă alimentarea externă.</value>
+  </data>
+  <data name="Safeguard_UnknownPower" xml:space="preserve">
+    <value>Windows nu a putut determina starea alimentării.</value>
+  </data>
+  <data name="Safeguard_MeteredNetwork" xml:space="preserve">
+    <value>Se așteaptă o conexiune netarifată.</value>
+  </data>
+  <data name="Safeguard_NoNetwork" xml:space="preserve">
+    <value>Windows raportează lipsa rețelei pentru copia pe o cale de rețea.</value>
+  </data>
+  <data name="Appearance_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Appearance_Light" xml:space="preserve">
+    <value>Luminos</value>
+  </data>
+  <data name="Appearance_Dark" xml:space="preserve">
+    <value>Întunecat</value>
+  </data>
+  <data name="Storage_DriveUsage" xml:space="preserve">
+    <value>{0} utilizați din {1} · {2} liberi</value>
+    <comment>Used size, capacity, available size. Each size is already formatted.</comment>
+  </data>
+  <data name="Storage_CheckingDrive" xml:space="preserve">
+    <value>Se verifică spațiul pe disc…</value>
+  </data>
+  <data name="Storage_DriveUnavailable" xml:space="preserve">
+    <value>Informațiile despre spațiul pe disc sunt indisponibile.</value>
+  </data>
+  <data name="Storage_CheckingBackup" xml:space="preserve">
+    <value>Se calculează dimensiunea copiei…</value>
+  </data>
+  <data name="Storage_LastBackupSize" xml:space="preserve">
+    <value>Copia ocupa {0} la ultima verificare</value>
+  </data>
+  <data name="Storage_BackupSize" xml:space="preserve">
+    <value>Copia ocupă {0}</value>
+  </data>
+  <data name="Storage_BackupSizeUnavailable" xml:space="preserve">
+    <value>Dimensiunea copiei este indisponibilă</value>
+  </data>
+  <data name="Cleanup_Initial" xml:space="preserve">
+    <value>Alege ce să elimini pentru a vedea o previzualizare. Nu se elimină nimic până nu confirmi.</value>
+  </data>
+  <data name="Cleanup_Checking" xml:space="preserve">
+    <value>Se verifică versiunile salvate…</value>
+  </data>
+  <data name="Cleanup_Changed" xml:space="preserve">
+    <value>Cronologia s-a modificat. Alege din nou ce să elimini.</value>
+  </data>
+  <data name="Cleanup_SpaceEstimate" xml:space="preserve">
+    <value>S-ar elibera aproximativ {0}.
+</value>
+    <comment>Formatted logical size, not guaranteed physical space reclaimed.</comment>
+  </data>
+  <data name="Cleanup_Empty" xml:space="preserve">
+    <value>Nu există nimic de eliminat pentru această selecție.</value>
+  </data>
+  <data name="Cleanup_Review" xml:space="preserve">
+    <value>Verifică previzualizarea înainte de a elimina versiuni.</value>
+  </data>
+  <data name="Cleanup_PreviewCancelled" xml:space="preserve">
+    <value>Previzualizare anulată. Nu s-a eliminat nimic.</value>
+  </data>
+  <data name="Cleanup_PreviewIncomplete" xml:space="preserve">
+    <value>Previzualizare incompletă: limită de lucru atinsă. Curățarea nu se poate executa.</value>
+  </data>
+  <data name="Cleanup_Removing" xml:space="preserve">
+    <value>Se elimină versiunile salvate…</value>
+  </data>
+  <data name="Cleanup_Stale" xml:space="preserve">
+    <value>Cronologia s-a modificat după această previzualizare. Previzualizează din nou înainte de a elimina versiuni.</value>
+  </data>
+  <data name="Cleanup_PayloadDeferred" xml:space="preserve">
+    <value>O parte din conținutul salvat nu a putut fi încă șters.
+</value>
+  </data>
+  <data name="Cleanup_Completed" xml:space="preserve">
+    <value>Curățare finalizată. Reîmprospătează Cronologia pentru a vedea versiunile rămase.</value>
+  </data>
+  <data name="Cleanup_Cancelled" xml:space="preserve">
+    <value>Curățare anulată. Eliminările confirmate rămân finalizate. Reîmprospătează Cronologia.</value>
+  </data>
+  <data name="Cleanup_Attention" xml:space="preserve">
+    <value>Curățarea necesită atenție. Unele modificări pot fi neconfirmate; verifică copia înainte de a reîncerca. Reîmprospătează Cronologia.</value>
+  </data>
+  <data name="Cleanup_KeepRecentExplanation" xml:space="preserve">
+    <value>Păstrează cea mai recentă versiune rămasă la fiecare cale, inclusiv pentru fișierele care nu mai sunt copiate. Versiunile curente rămân protejate.</value>
+  </data>
+  <data name="Cleanup_AgeExplanation" xml:space="preserve">
+    <value>Versiunile curente rămân protejate. Fișierele existente doar în Cronologie pot dispărea complet dacă toate versiunile lor sunt mai vechi decât această limită.</value>
+  </data>
+  <data name="Cleanup_EstimateExplanation" xml:space="preserve">
+    <value>Spațiu estimat; spațiul liber real poate diferi.</value>
+  </data>
+  <data name="Count_Bytes_Zero" xml:space="preserve">
+    <value>{0:N0} de octeți</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_One" xml:space="preserve">
+    <value>{0:N0} octet</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Two" xml:space="preserve">
+    <value>{0:N0} de octeți</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Few" xml:space="preserve">
+    <value>{0:N0} octeți</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Many" xml:space="preserve">
+    <value>{0:N0} de octeți</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Bytes_Other" xml:space="preserve">
+    <value>{0:N0} de octeți</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Zero" xml:space="preserve">
+    <value>{0:N0} de foldere existente</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_One" xml:space="preserve">
+    <value>{0:N0} folder existent</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Two" xml:space="preserve">
+    <value>{0:N0} de foldere existente</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Few" xml:space="preserve">
+    <value>{0:N0} foldere existente</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Many" xml:space="preserve">
+    <value>{0:N0} de foldere existente</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_ExistingFolders_Other" xml:space="preserve">
+    <value>{0:N0} de foldere existente</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Zero" xml:space="preserve">
+    <value>{0:N0} de probleme cu fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_One" xml:space="preserve">
+    <value>{0:N0} problemă cu fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Two" xml:space="preserve">
+    <value>{0:N0} de probleme cu fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Few" xml:space="preserve">
+    <value>{0:N0} probleme cu fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Many" xml:space="preserve">
+    <value>{0:N0} de probleme cu fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileProblems_Other" xml:space="preserve">
+    <value>{0:N0} de probleme cu fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Zero" xml:space="preserve">
+    <value>{0:N0} de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_One" xml:space="preserve">
+    <value>{0:N0} fișier</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Two" xml:space="preserve">
+    <value>{0:N0} de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Few" xml:space="preserve">
+    <value>{0:N0} fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Many" xml:space="preserve">
+    <value>{0:N0} de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Files_Other" xml:space="preserve">
+    <value>{0:N0} de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Zero" xml:space="preserve">
+    <value>{0:N0} de versiuni de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_One" xml:space="preserve">
+    <value>{0:N0} versiune de fișier</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Two" xml:space="preserve">
+    <value>{0:N0} de versiuni de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Few" xml:space="preserve">
+    <value>{0:N0} versiuni de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Many" xml:space="preserve">
+    <value>{0:N0} de versiuni de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_FileVersions_Other" xml:space="preserve">
+    <value>{0:N0} de versiuni de fișiere</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Zero" xml:space="preserve">
+    <value>{0:N0} de foldere</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_One" xml:space="preserve">
+    <value>{0:N0} folder</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Two" xml:space="preserve">
+    <value>{0:N0} de foldere</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Few" xml:space="preserve">
+    <value>{0:N0} foldere</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Many" xml:space="preserve">
+    <value>{0:N0} de foldere</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Folders_Other" xml:space="preserve">
+    <value>{0:N0} de foldere</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Zero" xml:space="preserve">
+    <value>{0:N0} de ore</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_One" xml:space="preserve">
+    <value>{0:N0} oră</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Two" xml:space="preserve">
+    <value>{0:N0} de ore</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Few" xml:space="preserve">
+    <value>{0:N0} ore</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Many" xml:space="preserve">
+    <value>{0:N0} de ore</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Hours_Other" xml:space="preserve">
+    <value>{0:N0} de ore</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Zero" xml:space="preserve">
+    <value>{0:N0} de elemente</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_One" xml:space="preserve">
+    <value>{0:N0} element</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Two" xml:space="preserve">
+    <value>{0:N0} de elemente</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Few" xml:space="preserve">
+    <value>{0:N0} elemente</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Many" xml:space="preserve">
+    <value>{0:N0} de elemente</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Items_Other" xml:space="preserve">
+    <value>{0:N0} de elemente</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Zero" xml:space="preserve">
+    <value>{0:N0} de minute</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_One" xml:space="preserve">
+    <value>{0:N0} minut</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Two" xml:space="preserve">
+    <value>{0:N0} de minute</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Few" xml:space="preserve">
+    <value>{0:N0} minute</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Many" xml:space="preserve">
+    <value>{0:N0} de minute</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Minutes_Other" xml:space="preserve">
+    <value>{0:N0} de minute</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Zero" xml:space="preserve">
+    <value>{0:N0} de versiuni noi salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_One" xml:space="preserve">
+    <value>{0:N0} versiune nouă salvată</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Two" xml:space="preserve">
+    <value>{0:N0} de versiuni noi salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Few" xml:space="preserve">
+    <value>{0:N0} versiuni noi salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Many" xml:space="preserve">
+    <value>{0:N0} de versiuni noi salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_NewVersions_Other" xml:space="preserve">
+    <value>{0:N0} de versiuni noi salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Zero" xml:space="preserve">
+    <value>{0:N0} de versiuni salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_One" xml:space="preserve">
+    <value>{0:N0} versiune salvată</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Two" xml:space="preserve">
+    <value>{0:N0} de versiuni salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Few" xml:space="preserve">
+    <value>{0:N0} versiuni salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Many" xml:space="preserve">
+    <value>{0:N0} de versiuni salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_SavedVersions_Other" xml:space="preserve">
+    <value>{0:N0} de versiuni salvate</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Zero" xml:space="preserve">
+    <value>{0:N0} de secunde</value>
+    <comment>Nonnegative integer count. Cardinal category Zero; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_One" xml:space="preserve">
+    <value>{0:N0} secundă</value>
+    <comment>Nonnegative integer count. Cardinal category One; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Two" xml:space="preserve">
+    <value>{0:N0} de secunde</value>
+    <comment>Nonnegative integer count. Cardinal category Two; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Few" xml:space="preserve">
+    <value>{0:N0} secunde</value>
+    <comment>Nonnegative integer count. Cardinal category Few; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Many" xml:space="preserve">
+    <value>{0:N0} de secunde</value>
+    <comment>Nonnegative integer count. Cardinal category Many; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="Count_Seconds_Other" xml:space="preserve">
+    <value>{0:N0} de secunde</value>
+    <comment>Nonnegative integer count. Cardinal category Other; translate for the locale, not the English two-form rule.</comment>
+  </data>
+  <data name="History_FolderAccessible" xml:space="preserve">
+    <value>{0}, folder</value>
+    <comment>Actual folder name, isolated in RTL.</comment>
+  </data>
+  <data name="History_FileAccessible" xml:space="preserve">
+    <value>{0}, fișier, {1}</value>
+    <comment>Actual file name, localized file description.</comment>
+  </data>
+  <data name="History_VersionAccessible" xml:space="preserve">
+    <value>Salvat {0}, {1}</value>
+    <comment>Localized stored date/time, localized version description.</comment>
+  </data>
+  <data name="History_SelectionCounts" xml:space="preserve">
+    <value>{0} · {1:N0} selectate</value>
+    <comment>Localized item count, selected count.</comment>
+  </data>
+  <data name="History_SelectedCount" xml:space="preserve">
+    <value>{0:N0} elemente selectate</value>
+    <comment>Selection heading. Prefer neutral count wording if inflection requires it.</comment>
+  </data>
+  <data name="History_DeleteExplanation" xml:space="preserve">
+    <value>{0}
+Salvat: {1:f}
+
+Se elimină definitiv doar această versiune salvată. Fișierul sursă și celelalte versiuni salvate sunt păstrate. Acțiunea nu poate fi anulată.</value>
+    <comment>Actual path, local saved-version time. Current successful version cannot be deleted.</comment>
+  </data>
+  <data name="Configuration_FoldersInTimeline" xml:space="preserve">
+    <value>
+{0:N0} foldere în Cronologie</value>
+    <comment>Folder count. Neutral count label is acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersAdded" xml:space="preserve">
+    <value>Adăugate {0} · Reactivate {1} · {2} deja selectate</value>
+    <comment>Localized added folder count, re-enabled folder count, already-selected count. Neutral count labels are acceptable.</comment>
+  </data>
+  <data name="Configuration_FoldersRejected" xml:space="preserve">
+    <value> · {0} neadăugate</value>
+    <comment>Rejected-folder count suffix; preserve initial separator.</comment>
+  </data>
+  <data name="Cleanup_RemovedSummary" xml:space="preserve">
+    <value>{0} eliminate ({1} de conținut salvat).
+</value>
+    <comment>Localized removed version count, logical saved content size. Not guaranteed physical free space.</comment>
+  </data>
+  <data name="Cleanup_Confirmation" xml:space="preserve">
+    <value>Elimini definitiv {0} din {1}? Fișierele sursă și versiunile curente sunt păstrate. Acțiunea nu poate fi anulată.</value>
+    <comment>Localized saved-version count, affected-file count. Current means the current successful saved file version, not time now.</comment>
+  </data>
+  <data name="Overview_ConfigurationSummary" xml:space="preserve">
+    <value>{0}
+{1} · {2} selectate pentru backup</value>
+    <comment>Actual path, localized encryption status, localized selected-folder count.</comment>
+  </data>
+  <data name="Overview_LastBackup" xml:space="preserve">
+    <value>Ultima copie a fost creată la {0:f} și a durat {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. No seconds after one minute.</comment>
+  </data>
+  <data name="Overview_LastAttempt" xml:space="preserve">
+    <value>Ultima încercare de backup a fost la {0:f} și a durat {1}.</value>
+    <comment>Local finish date/time and localized elapsed duration. An attempt need not have succeeded.</comment>
+  </data>
+  <data name="History_FileDescription" xml:space="preserve">
+    <value>{0} · Salvat {1:g}</value>
+    <comment>Localized byte count and local saved-version time.</comment>
+  </data>
+  <data name="History_VersionDescription" xml:space="preserve">
+    <value>{0} · Fișier modificat {1:g}</value>
+    <comment>Localized byte count and original local modification time.</comment>
+  </data>
+  <data name="History_FileDetails" xml:space="preserve">
+    <value>{0}
+{1}
+Salvat: {2:G}
+Fișier modificat: {3:G}</value>
+    <comment>Actual relative path, localized byte count, local stored time, local original modification time.</comment>
+  </data>
+  <data name="History_AsOfDate" xml:space="preserve">
+    <value>Cronologie la {0:f}</value>
+    <comment>Local historical browsing time, not a snapshot/run.</comment>
+  </data>
+  <data name="History_BreadcrumbRoot" xml:space="preserve">
+    <value>Cronologie</value>
+  </data>
+  <data name="Frequency_TenMinutes" xml:space="preserve">
+    <value>La fiecare 10 minute</value>
+  </data>
+  <data name="Frequency_ThirtyMinutes" xml:space="preserve">
+    <value>La fiecare 30 de minute</value>
+  </data>
+  <data name="Frequency_Hour" xml:space="preserve">
+    <value>La fiecare oră</value>
+  </data>
+  <data name="Frequency_ThreeHours" xml:space="preserve">
+    <value>La fiecare 3 ore</value>
+  </data>
+  <data name="Frequency_SixHours" xml:space="preserve">
+    <value>La fiecare 6 ore</value>
+  </data>
+  <data name="Frequency_TwelveHours" xml:space="preserve">
+    <value>La fiecare 12 ore</value>
+  </data>
+  <data name="Frequency_Day" xml:space="preserve">
+    <value>În fiecare zi</value>
+  </data>
+  <data name="Retention_UntilSaturation" xml:space="preserve">
+    <value>Până la umplerea spațiului</value>
+  </data>
+  <data name="Retention_OneMonth" xml:space="preserve">
+    <value>1 lună</value>
+  </data>
+  <data name="Retention_ThreeMonths" xml:space="preserve">
+    <value>3 luni</value>
+  </data>
+  <data name="Retention_SixMonths" xml:space="preserve">
+    <value>6 luni</value>
+  </data>
+  <data name="Retention_NineMonths" xml:space="preserve">
+    <value>9 luni</value>
+  </data>
+  <data name="Retention_OneYear" xml:space="preserve">
+    <value>1 an</value>
+  </data>
+  <data name="Retention_TwoYears" xml:space="preserve">
+    <value>2 ani</value>
+  </data>
+  <data name="Retention_Forever" xml:space="preserve">
+    <value>Pentru totdeauna</value>
+  </data>
+  <data name="Retention_AgeExplanation" xml:space="preserve">
+    <value>Versiunile mai vechi decât această limită pot fi eliminate după o copie reușită. Versiunile curente rămân protejate.</value>
+    <comment>Current successful backed-up file versions remain protected. Fixed age never authorizes pressure deletion.</comment>
+  </data>
+  <data name="Retention_CapacityExplanation" xml:space="preserve">
+    <value>Versiunile sunt păstrate până când volumul de backup atinge pragul de siguranță al capacității. Când este nevoie de spațiu, cele mai vechi versiuni eligibile sunt eliminate automat. Versiunile curente rămân protejate.</value>
+  </data>
+  <data name="Retention_ForeverExplanation" xml:space="preserve">
+    <value>Politica „Pentru totdeauna” nu elimină niciodată automat istoricul Cronologiei. Se adaugă versiuni până când volumul nu mai poate accepta în siguranță o altă copie. Atunci va trebui să eliberezi spațiu sau să cureți manual Cronologia.</value>
+  </data>
+  <data name="Cleanup_OlderMonth" xml:space="preserve">
+    <value>Mai vechi de 1 lună</value>
+  </data>
+  <data name="Cleanup_OlderThreeMonths" xml:space="preserve">
+    <value>Mai vechi de 3 luni</value>
+  </data>
+  <data name="Cleanup_OlderSixMonths" xml:space="preserve">
+    <value>Mai vechi de 6 luni</value>
+  </data>
+  <data name="Cleanup_OlderNineMonths" xml:space="preserve">
+    <value>Mai vechi de 9 luni</value>
+  </data>
+  <data name="Cleanup_OlderYear" xml:space="preserve">
+    <value>Mai vechi de 1 an</value>
+  </data>
+  <data name="Cleanup_OlderTwoYears" xml:space="preserve">
+    <value>Mai vechi de 2 ani</value>
+  </data>
+  <data name="Cleanup_KeepRecent" xml:space="preserve">
+    <value>Păstrează doar cea mai recentă versiune</value>
+  </data>
+  <data name="FolderSafety_ApplicationData" xml:space="preserve">
+    <value>AppData conține starea aplicațiilor, cache-uri, baze de date și fișiere temporare. Se poate schimba frecvent și poate mări rapid Cronologia. Restaurarea acestor fișiere nu înlocuiește reinstalarea sau restaurarea corectă a unei aplicații.</value>
+    <comment>AppData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_System" xml:space="preserve">
+    <value>Fișierele de sistem și ale programelor instalate sunt mari și se schimbă frecvent. Fluff-History nu este un backup de imagine de sistem. Restaurarea doar a acestor fișiere poate să nu repare Windows sau o aplicație instalată.</value>
+  </data>
+  <data name="FolderSafety_SharedData" xml:space="preserve">
+    <value>ProgramData poate conține stare partajată a aplicațiilor, cache-uri și baze de date care se schimbă frecvent. Aceasta poate crea un volum mare de date în Cronologie.</value>
+    <comment>ProgramData is an invariant physical Windows folder name.</comment>
+  </data>
+  <data name="FolderSafety_Temporary" xml:space="preserve">
+    <value>Această locație conține în principal fișiere temporare sau de instalare și poate genera multe modificări de scurtă durată în Cronologie.</value>
+  </data>
+  <data name="FolderSafety_Blocked" xml:space="preserve">
+    <value>Această locație conține metadate de sistem sau fișiere de lucru Fluff-History și nu poate fi copiată.</value>
+  </data>
+  <data name="Configuration_Checking" xml:space="preserve">
+    <value>Se verifică configurarea copiei…</value>
+  </data>
+  <data name="Configuration_SettingsNeedReset" xml:space="preserve">
+    <value>Setările aplicației necesită atenție. Resetează explicit configurarea; datele de backup nu sunt atinse.</value>
+  </data>
+  <data name="Configuration_SavedInvalid" xml:space="preserve">
+    <value>Configurarea salvată este indisponibilă sau invalidă. Verifică Configurare înainte de a continua.</value>
+  </data>
+  <data name="Configuration_WorkspaceUnavailable" xml:space="preserve">
+    <value>Windows nu a putut valida locația copiei sau datele temporare de lucru ale aplicației. Verifică accesul și spațiul liber, apoi încearcă din nou.</value>
+  </data>
+  <data name="Configuration_ExclusionConflict" xml:space="preserve">
+    <value>Un folder selectat pentru backup nu poate fi și exclus. Elimină folderul din backup sau schimbă excluderea.</value>
+  </data>
+  <data name="Configuration_ExclusionLimit" xml:space="preserve">
+    <value>Alege cel mult 256 de foldere excluse, cu cel mult 256 KiB de căi.</value>
+  </data>
+  <data name="Configuration_EffectiveExclusionLimit" xml:space="preserve">
+    <value>Această sursă acceptă cel mult 256 de foldere excluse efective și 256 KiB de configurare. Alege excluderi mai puține sau mai scurte.</value>
+  </data>
+  <data name="Configuration_DuplicateFolder" xml:space="preserve">
+    <value>Un folder poate fi selectat o singură dată.</value>
+  </data>
+  <data name="Configuration_NestedFolder" xml:space="preserve">
+    <value>Folderele selectate imbricate trebuie excluse din folderul părinte.</value>
+  </data>
+  <data name="Configuration_AbsolutePath" xml:space="preserve">
+    <value>Alege o cale absolută de folder.</value>
+  </data>
+  <data name="Configuration_OrdinaryPath" xml:space="preserve">
+    <value>Alege un folder obișnuit de disc sau rețea.</value>
+  </data>
+  <data name="Configuration_CompleteShare" xml:space="preserve">
+    <value>Alege o cale completă de partajare în rețea.</value>
+  </data>
+  <data name="Configuration_AmbiguousPath" xml:space="preserve">
+    <value>Această cale este ambiguă sau iese din rădăcină. Alege o cale absolută obișnuită de folder.</value>
+  </data>
+  <data name="Configuration_Overlap" xml:space="preserve">
+    <value>Un folder din locația copiei sau care conține locația copiei nu poate fi inclus în backup.</value>
+  </data>
+  <data name="Configuration_ConfirmWarning" xml:space="preserve">
+    <value>Confirmă avertismentul înainte de a adăuga acest folder.</value>
+  </data>
+  <data name="Configuration_ResolvedWarning" xml:space="preserve">
+    <value>Aceasta indică un folder de sistem Windows sau de date ale aplicațiilor. Selectează locația reală și confirmă mai întâi avertismentul.</value>
+  </data>
+  <data name="Configuration_ResolvedOverlap" xml:space="preserve">
+    <value>Aceste foldere indică locații Windows suprapuse. Selectează fiecare locație o singură dată.</value>
+  </data>
+  <data name="Configuration_OwnedWorkingData" xml:space="preserve">
+    <value>Acest folder indică date temporare de lucru Fluff-History și nu poate fi copiat.</value>
+  </data>
+  <data name="Folder_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="Folder_Documents" xml:space="preserve">
+    <value>Documente</value>
+  </data>
+  <data name="Folder_Downloads" xml:space="preserve">
+    <value>Descărcări</value>
+  </data>
+  <data name="Folder_Pictures" xml:space="preserve">
+    <value>Imagini</value>
+  </data>
+  <data name="Folder_Music" xml:space="preserve">
+    <value>Muzică</value>
+  </data>
+  <data name="Folder_Videos" xml:space="preserve">
+    <value>Videoclipuri</value>
+  </data>
+  <data name="SourceProblem_UnsupportedName" xml:space="preserve">
+    <value>Nume de fișier sau folder neacceptat.</value>
+  </data>
+  <data name="SourceProblem_AmbiguousAlias" xml:space="preserve">
+    <value>Alias ambiguu ca majuscule/minuscule.</value>
+  </data>
+  <data name="SourceProblem_UnsupportedBoundary" xml:space="preserve">
+    <value>Limită neacceptată, de punct de reparsare sau EFS.</value>
+  </data>
+  <data name="SourceProblem_Oversized" xml:space="preserve">
+    <value>Fișier neacceptat sau prea mare.</value>
+  </data>
+  <data name="SourceProblem_SourceChanged" xml:space="preserve">
+    <value>Sursa s-a schimbat în timpul copierii.</value>
+  </data>
+  <data name="SourceProblem_Access" xml:space="preserve">
+    <value>Acest fișier sau folder nu poate fi accesat.</value>
+  </data>
+  <data name="SourceProblem_WindowsError" xml:space="preserve">
+    <value>Acest fișier sau folder nu poate fi accesat (eroare Windows {0:N0}).</value>
+    <comment>Numeric native Windows error. Actual paths are shown separately and stay unchanged.</comment>
+  </data>
+  <data name="SourceProblem_RootBoundary" xml:space="preserve">
+    <value>Rădăcina sursei sau un strămoș nu este un director obișnuit.</value>
+  </data>
+  <data name="SourceProblem_DirectoryBoundary" xml:space="preserve">
+    <value>Limită de director neacceptată.</value>
+  </data>
+  <data name="Encryption_CheckingSpace" xml:space="preserve">
+    <value>Se verifică spațiul</value>
+  </data>
+  <data name="Encryption_EncryptingFiles" xml:space="preserve">
+    <value>Se criptează fișierele</value>
+  </data>
+  <data name="Encryption_DecryptingFiles" xml:space="preserve">
+    <value>Se decriptează fișierele</value>
+  </data>
+  <data name="Encryption_RebuildingMetadata" xml:space="preserve">
+    <value>Se reconstruiesc metadatele</value>
+  </data>
+  <data name="Encryption_Finalizing" xml:space="preserve">
+    <value>Se finalizează copia</value>
+  </data>
+  <data name="SourceProblem_FileInUse" xml:space="preserve">
+    <value>Acest fișier sau folder este utilizat de altă aplicație.</value>
+  </data>
+  <data name="SourceProblem_AccessDenied" xml:space="preserve">
+    <value>Accesul la acest fișier sau folder a fost refuzat.</value>
+  </data>
+  <data name="SourceProblem_NotFound" xml:space="preserve">
+    <value>Acest fișier sau folder nu a fost găsit în timpul scanării.</value>
+  </data>
+  <data name="Action_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Configuration_Saved" xml:space="preserve">
+    <value>Configurare salvată</value>
+  </data>
+  <data name="Configuration_FoldersForScheduled" xml:space="preserve">
+    <value>Modificările folderelor au fost salvate. Folderele actualizate vor fi incluse în următoarea copie programată.</value>
+  </data>
+  <data name="Configuration_FoldersForNext" xml:space="preserve">
+    <value>Modificările folderelor au fost salvate. Folderele actualizate vor fi incluse în următoarea copie.</value>
+  </data>
+  <data name="Admission_Started" xml:space="preserve">
+    <value>Copie de rezervă solicitată</value>
+  </data>
+  <data name="Admission_Busy" xml:space="preserve">
+    <value>O copie este deja în curs sau se finalizează.</value>
+  </data>
+  <data name="Admission_NotReady" xml:space="preserve">
+    <value>Configurează o locație de backup pregătită și foldere în Configurare.</value>
+  </data>
+  <data name="Shell_CommandTitle" xml:space="preserve">
+    <value>Restaurează versiunea anterioară…</value>
+    <comment>Explorer command opens the product Timeline for this path.</comment>
+  </data>
+  <data name="Shell_Loading" xml:space="preserve">
+    <value>Se încarcă istoricul...</value>
+  </data>
+  <data name="Shell_BackedUp" xml:space="preserve">
+    <value>Copiat</value>
+  </data>
+  <data name="Shell_Inactive" xml:space="preserve">
+    <value>Momentan nu este inclus în backup</value>
+  </data>
+  <data name="Shell_NotProtected" xml:space="preserve">
+    <value>Nu este inclus în copiile Fluff-History</value>
+  </data>
+  <data name="Shell_RecoveryRequired" xml:space="preserve">
+    <value>Este necesară recuperarea</value>
+  </data>
+  <data name="Shell_Unavailable" xml:space="preserve">
+    <value>Copie indisponibilă</value>
+  </data>
+  <data name="Shell_Expired" xml:space="preserve">
+    <value>Sesiunea istoricului a expirat</value>
+  </data>
+  <data name="Shell_UnavailableRefresh" xml:space="preserve">
+    <value>Copie indisponibilă. Deschide Fluff-History sau reîmprospătează.</value>
+  </data>
+  <data name="Shell_ExpiredRefresh" xml:space="preserve">
+    <value>Sesiunea istoricului a expirat. Reîmprospătează pentru a continua.</value>
+  </data>
+  <data name="Shell_BackupLocation" xml:space="preserve">
+    <value>Locația copiei: </value>
+  </data>
+  <data name="Shell_BrowseFolder" xml:space="preserve">
+    <value>Explorează istoricul folderului</value>
+  </data>
+  <data name="Shell_OpenApp" xml:space="preserve">
+    <value>Deschide Fluff-History</value>
+  </data>
+  <data name="Shell_BrowseVersions" xml:space="preserve">
+    <value>Explorează toate versiunile</value>
+  </data>
+  <data name="Shell_FolderFooter" xml:space="preserve">
+    <value>Folderele sunt reconstruite din versiuni de fișiere salvate.</value>
+  </data>
+  <data name="Shell_FileFooter" xml:space="preserve">
+    <value>Restaurarea modifică fișierul activ. Istoricul salvat este păstrat.</value>
+  </data>
+  <data name="Shell_AppUnavailable" xml:space="preserve">
+    <value>Fluff-History este indisponibil. Instalează versiunea pentru dezvoltatori și încearcă din nou.</value>
+  </data>
+  <data name="Shell_RestoreConfirmation" xml:space="preserve">
+    <value>Restaurezi această versiune salvată în locația originală? Windows va întreba despre conflictele cu fișiere existente. Istoricul salvat este păstrat.</value>
+  </data>
+  <data name="Shell_RestoreTitle" xml:space="preserve">
+    <value>Restaurezi versiunea salvată?</value>
+  </data>
+  <data name="Shell_Restoring" xml:space="preserve">
+    <value>Se restaurează versiunea selectată...</value>
+  </data>
+  <data name="Shell_UnavailableContinue" xml:space="preserve">
+    <value>Copie indisponibilă. Deschide Fluff-History pentru a continua.</value>
+  </data>
+  <data name="Shell_Restore" xml:space="preserve">
+    <value>Restaurează</value>
+  </data>
+  <data name="Shell_Refresh" xml:space="preserve">
+    <value>Reîmprospătează</value>
+  </data>
+  <data name="Shell_FolderSummary" xml:space="preserve">
+    <value>Istoricul folderului este reconstruit din versiuni de fișiere salvate.
+Momente recente din Cronologie:
+{0}</value>
+    <comment>Formatted local dates, at most five. Folders are not independently versioned.</comment>
+  </data>
+  <data name="Shell_NoFolderVersions" xml:space="preserve">
+    <value>Nu există încă versiuni de fișiere salvate.</value>
+  </data>
+  <data name="Shell_VersionRow" xml:space="preserve">
+    <value>{0:g} · {1} · Modificat {2:g}</value>
+    <comment>Local stored time, localized byte count, original local modification time.</comment>
+  </data>
+  <data name="Shell_NoFileVersions" xml:space="preserve">
+    <value>Nu există versiuni salvate ale acestui fișier. Deschide Cronologie sau Configurare pentru a continua.</value>
+  </data>
+  <data name="Shell_FileSummary" xml:space="preserve">
+    <value>Cea mai recentă versiune salvată: {0:f}
+Versiuni păstrate: {1:N0}
+Cea mai veche versiune păstrată: {2:f}</value>
+    <comment>Local latest time, exact retained count, local oldest time.</comment>
+  </data>
+  <data name="Shell_FileSummaryPartial" xml:space="preserve">
+    <value>Cea mai recentă versiune salvată: {0:f}
+Versiuni păstrate: {1:N0}+; deschide Cronologia pentru istoricul complet
+Cea mai veche versiune păstrată: deschide Cronologia pentru istoricul complet</value>
+    <comment>Local latest time and lower bound on count. Never imply the oldest time is known.</comment>
+  </data>
+  <data name="Shell_EmptyNotProtected" xml:space="preserve">
+    <value>Nu este inclus în copiile Fluff-History.</value>
+  </data>
+  <data name="Shell_EmptyRecovery" xml:space="preserve">
+    <value>Este necesară recuperarea. Deschide Fluff-History pentru a recupera accesul.</value>
+  </data>
+  <data name="Shell_EmptyUnavailable" xml:space="preserve">
+    <value>Copie indisponibilă. Deschide Fluff-History sau încearcă din nou.</value>
+  </data>
+  <data name="Shell_RestoreAttention" xml:space="preserve">
+    <value>Restaurarea necesită atenție. Verifică destinația înainte de a reîncerca.</value>
+  </data>
+  <data name="Shell_RestoreCancelled" xml:space="preserve">
+    <value>Restaurare anulată. Operațiile cu fișiere finalizate rămân finalizate.</value>
+  </data>
+  <data name="Shell_Restored" xml:space="preserve">
+    <value>Fișier restaurat. Istoricul salvat este neschimbat.</value>
+  </data>
+  <data name="Shell_RestoreNothing" xml:space="preserve">
+    <value>Nu s-a restaurat niciun fișier. Verifică destinația.</value>
+  </data>
+  <data name="Shell_RestoreRefresh" xml:space="preserve">
+    <value>Istoricul s-a modificat. Reîmprospătează înainte de restaurare.</value>
+  </data>
+  <data name="Shell_RestoreUnavailable" xml:space="preserve">
+    <value>Restaurare indisponibilă. Deschide Fluff-History pentru a continua.</value>
+  </data>
+  <data name="Shell_RestoreCancelledInspect" xml:space="preserve">
+    <value>Restaurare anulată. Verifică destinația.</value>
+  </data>
+  <data name="Shell_ResourceLanguage" xml:space="preserve">
+    <value>ro-RO</value>
+    <comment>Exact catalog language tag, not visible text; used to keep broker text in the native page resource language.</comment>
+  </data>
+  <data name="Installer_ShortcutsGroup" xml:space="preserve">
+    <value>Comenzi rapide:</value>
+    <comment>Inno task-group label; accelerator characters use &amp;.</comment>
+  </data>
+  <data name="Installer_DesktopShortcut" xml:space="preserve">
+    <value>Creează o comandă rapidă pe &amp;desktop</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_StartMenuShortcut" xml:space="preserve">
+    <value>Creează o comandă rapidă în meniul &amp;Start</value>
+    <comment>Inno task label; choose one distinct accelerator with &amp;.</comment>
+  </data>
+  <data name="Installer_FixedFolder" xml:space="preserve">
+    <value>Fluff-History necesită folderul său fix de instalare per utilizator.</value>
+  </data>
+  <data name="Installer_Busy" xml:space="preserve">
+    <value>O instalare sau o pornire a aplicației este activă. Așteaptă puțin și reîncearcă.</value>
+  </data>
+  <data name="Installer_PrepareFailed" xml:space="preserve">
+    <value>Fluff-History nu a putut pregăti actualizarea. Închide operațiile active cu fișiere și paginile Proprietăți, apoi reîncearcă. Depozitul de backup este neschimbat.</value>
+  </data>
+  <data name="Installer_InstallFailed" xml:space="preserve">
+    <value>Fluff-History nu a putut finaliza instalarea. Starea aplicației a fost păstrată pentru reîncercare; depozitul de backup este neschimbat.</value>
+  </data>
+  <data name="Installer_AttentionTitle" xml:space="preserve">
+    <value>Instalarea necesită atenție</value>
+  </data>
+  <data name="Installer_AttentionBody" xml:space="preserve">
+    <value>Fluff-History nu a putut finaliza instalarea. Setările aplicației și depozitul de backup au fost păstrate. Rulează din nou instalarea pentru a reîncerca.</value>
+  </data>
+  <data name="Installer_UninstallBusy" xml:space="preserve">
+    <value>Închide Fluff-History, operațiile active cu fișiere și paginile Proprietăți înainte de dezinstalare. Nimic nu a fost oprit forțat.</value>
+  </data>
+  <data name="Diagnostics_Copied" xml:space="preserve">
+    <value>Diagnostic copiat. Verifică căile folderelor înainte de partajare.</value>
+    <comment>Normal UI confirmation; the diagnostic body itself may remain English.</comment>
+  </data>
+  <data name="Settings_TextBlock_Language.Text" xml:space="preserve">
+    <value>Limbă</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_ComboBox_Language.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Limba aplicației</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Language_UseWindows" xml:space="preserve">
+    <value>Folosește limba Windows</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Settings_TextBlock_LanguageExplanation.Text" xml:space="preserve">
+    <value>Modificările se aplică imediat. Datele și numerele folosesc setările regionale.</value>
+    <comment>Application Settings language choice; applies immediately. Regional date/number formatting is independent.</comment>
+  </data>
+  <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
+    <value>Repară recuperarea prin OneDrive</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
+    <value>Dezactivează local…</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Legacy" xml:space="preserve">
+    <value>Recuperarea veche trebuie actualizată la OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_NotConfigured" xml:space="preserve">
+    <value>Recuperarea experimentală prin OneDrive nu este configurată în această versiune.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_SignInRequired" xml:space="preserve">
+    <value>Conectează-te la Microsoft pentru a folosi recuperarea prin OneDrive.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ConsentDenied" xml:space="preserve">
+    <value>Conectarea sau consimțământul Microsoft a fost refuzat. Recuperarea prin parolă rămâne disponibilă.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
+    <value>Permisiunea necesară pentru folderul aplicației OneDrive nu este disponibilă. Recuperarea prin parolă rămâne disponibilă.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Offline" xml:space="preserve">
+    <value>Recuperarea prin OneDrive necesită internet. Parola și accesul local Windows rămân disponibile.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
+    <value>Recuperarea prin OneDrive nu a putut fi verificată acum. Încearcă mai târziu sau folosește parola de recuperare.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Throttled" xml:space="preserve">
+    <value>OneDrive este ocupat. Încearcă mai târziu.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_Unavailable" xml:space="preserve">
+    <value>OneDrive nu este disponibil sau configurat pentru acest cont Microsoft. Folosește parola de recuperare.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_InvalidObject" xml:space="preserve">
+    <value>Cheia de recuperare OneDrive s-a schimbat sau este nevalidă. Folosește parola de recuperare sau repară recuperarea pe un PC care poate debloca această copie.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanup" xml:space="preserve">
+    <value>Poate fi necesară încă o curățare OneDrive. Este afectată doar cheia de recuperare; parola și accesul Windows rămân neschimbate.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
+    <value>Poate fi necesară încă o curățare OneDrive. Fișier de recuperare: {0}.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_LegacyCleanup" xml:space="preserve">
+    <value>Recuperarea prin OneDrive funcționează, dar acreditarea veche de recuperare Windows nu a putut fi eliminată complet.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
+    <value>Dezactivezi local recuperarea prin OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
+    <value>Aceasta elimină legătura de recuperare OneDrive a copiei fără a șterge fișierul de recuperare din cloud. Poate fi necesar să elimini manual acel fișier din OneDrive. Parola și accesul Windows rămân neschimbate.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_DisabledLocally" xml:space="preserve">
+    <value>Recuperarea prin OneDrive este dezactivată local.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairTitle" xml:space="preserve">
+    <value>Repari recuperarea prin OneDrive?</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="OneDrive_RepairExplanation" xml:space="preserve">
+    <value>Creează și verifică o cheie de recuperare nouă înainte de retragerea celei vechi. Fișierele cloud modificate vor fi păstrate.</value>
+    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+  </data>
+  <data name="Update_Title" xml:space="preserve"><value>Actualizări</value></data>
+  <data name="Update_Channel" xml:space="preserve"><value>Canal de actualizare</value></data>
+  <data name="Update_Frequency" xml:space="preserve"><value>Verifică automat</value></data>
+  <data name="Update_Stable" xml:space="preserve"><value>Stabil</value></data>
+  <data name="Update_Beta" xml:space="preserve"><value>Beta</value></data>
+  <data name="Update_Never" xml:space="preserve"><value>Niciodată</value></data>
+  <data name="Update_Daily" xml:space="preserve"><value>Zilnic</value></data>
+  <data name="Update_Weekly" xml:space="preserve"><value>Săptămânal</value></data>
+  <data name="Update_Monthly" xml:space="preserve"><value>Lunar</value></data>
+  <data name="Update_CheckNow" xml:space="preserve"><value>Verifică acum</value></data>
+  <data name="Update_Current" xml:space="preserve"><value>Versiunea curentă: {0}</value></data>
+  <data name="Update_LastChecked" xml:space="preserve"><value>Ultima verificare: {0}</value></data>
+  <data name="Update_Development" xml:space="preserve"><value>Compilare de dezvoltare nepublicată</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Este disponibilă {0} ({1}): {2}</value></data>
+  <data name="Update_Install" xml:space="preserve"><value>Descarcă și instalează</value></data>
+  <data name="Update_Notes" xml:space="preserve"><value>Vezi notele versiunii</value></data>
+  <data name="Update_Idle" xml:space="preserve"><value>La zi</value></data>
+  <data name="Update_Checking" xml:space="preserve"><value>Se caută actualizări…</value></data>
+  <data name="Update_Downloading" xml:space="preserve"><value>Se descarcă actualizarea… {0}%</value></data>
+  <data name="Update_Verifying" xml:space="preserve"><value>Se verifică actualizarea…</value></data>
+  <data name="Update_Ready" xml:space="preserve"><value>Gata de instalare</value></data>
+  <data name="Update_Waiting" xml:space="preserve"><value>Se așteaptă încheierea copierii de siguranță sau a altor operațiuni active.</value></data>
+  <data name="Update_Installing" xml:space="preserve"><value>Se instalează actualizarea…</value></data>
+  <data name="Update_Network" xml:space="preserve"><value>Nu s-a putut contacta GitHub. Încercați din nou mai târziu.</value></data>
+  <data name="Update_RateLimited" xml:space="preserve"><value>GitHub limitează solicitările. Încercați din nou mai târziu.</value></data>
+  <data name="Update_Invalid" xml:space="preserve"><value>Nu este disponibilă nicio versiune instalabilă.</value></data>
+  <data name="Update_VerificationFailed" xml:space="preserve"><value>Verificarea programului de instalare a eșuat. Actualizarea nu a fost instalată.</value></data>
+  <data name="Update_SignerGate" xml:space="preserve"><value>Instalarea automată va fi disponibilă după aprobarea semnatarului versiunii.</value></data>
+  <data name="Update_InstallFailed" xml:space="preserve"><value>Actualizarea nu a putut fi instalată. Încercați din nou mai târziu.</value></data>
+  <data name="Update_RelaunchFailed" xml:space="preserve"><value>Actualizarea a fost instalată, dar fereastra nu a putut fi redeschisă.</value></data>
+  <data name="Update_DevelopmentInstall" xml:space="preserve"><value>Această compilare nepublicată nu poate instala actualizări publice.</value></data>
+  <data name="Update_Disabled" xml:space="preserve"><value>Verificarea automată a actualizărilor este dezactivată.</value></data>
+  <data name="Update_Privacy" xml:space="preserve"><value>Verificările automate contactează GitHub. Nu se trimit date despre copii de siguranță sau conturi.</value></data>
+  <data name="Update_Confirm" xml:space="preserve"><value>Se creează o copie de siguranță. Opriți și instalați actualizarea?</value></data>
+  <data name="Update_StopInstall" xml:space="preserve"><value>Oprește copierea și instalează</value></data>
+  <data name="Update_NotChecked" xml:space="preserve"><value>Încă neverificat</value></data>
+</root>
