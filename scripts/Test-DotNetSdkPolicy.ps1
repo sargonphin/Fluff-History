@@ -13,7 +13,8 @@ try {
     )) {
         @{sdk=@{version='10.0.402';rollForward=$case.roll;allowPrerelease=$false}} |
             ConvertTo-Json | Set-Content -LiteralPath (Join-Path $temporary 'global.json') -Encoding UTF8
-        "Write-Output '$($case.selected)'; `$global:LASTEXITCODE = $($case.exit)" |
+        # Model a command result in the validator's scope without changing the CI host's exit state.
+        "Write-Output '$($case.selected)'; Set-Variable -Name LASTEXITCODE -Value $($case.exit) -Scope 1" |
             Set-Content -LiteralPath $fake -Encoding UTF8
         $accepted = $true
         try { & "$PSScriptRoot\Test-DotNetSdk.ps1" -Repository $temporary -DotNet $fake | Out-Null }
