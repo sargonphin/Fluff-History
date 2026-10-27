@@ -20,7 +20,7 @@ internal static class LargeDiagnosticRoot
         var optIn = Environment.GetEnvironmentVariable("FLUFF_HISTORY_DIAGNOSTICS");
         var worktree = FindWorktree(sourceFile);
         var storage = new LocalStorage();
-        return Admit(optIn, Environment.GetEnvironmentVariable("FLUFF_HISTORY_M222_ROOT"), worktree, storage, childDirectories);
+        return Admit(optIn, Environment.GetEnvironmentVariable("FLUFF_HISTORY_METADATA_DIAGNOSTIC_ROOT"), worktree, storage, childDirectories);
     }
 
     internal static string Admit(string? optIn, string? requested, string worktree, Storage storage,

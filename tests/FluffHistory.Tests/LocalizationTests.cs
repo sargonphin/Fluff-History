@@ -12,6 +12,27 @@ namespace FluffHistory.Tests;
 public sealed class LocalizationTests
 {
     [Fact]
+    public void ReleaseBrandingGuardProtectsNormalAboutWithoutBanningDevelopmentTooling()
+    {
+        var normal = new Dictionary<string, string>
+        {
+            ["Diagnostics_TextBlock_ProductTitle.Text"] = "Fluff-History",
+            ["Diagnostics_TextBlock_Capabilities.Text"] = "Scheduled backups continue when the window is closed.",
+            ["DevelopmentBuildNotice"] = "Fluff-History Developer Preview"
+        };
+        Assert.Empty(CatalogValidation.ReleaseBranding(normal));
+        foreach (var title in new[] { "Fluff-History Developer Preview", "Fluff-History Entwicklervorschau" })
+            Assert.NotEmpty(CatalogValidation.ReleaseBranding(new Dictionary<string, string>(normal)
+            { ["Diagnostics_TextBlock_ProductTitle.Text"] = title }));
+        var missing = new Dictionary<string, string>(normal); missing.Remove("Diagnostics_TextBlock_ProductTitle.Text");
+        Assert.NotEmpty(CatalogValidation.ReleaseBranding(missing));
+        foreach (var key in new[] { "Diagnostics_TextBlock_PreviewTitle.Text", "Diagnostics_TextBlock_PreviewCapabilities.Text" })
+            Assert.NotEmpty(CatalogValidation.ReleaseBranding(new Dictionary<string, string>(normal) { [key] = "Fluff-History" }));
+        Assert.NotEmpty(CatalogValidation.ReleaseBranding(new Dictionary<string, string>(normal)
+        { ["Diagnostics_TextBlock_Capabilities.Text"] = "Developer Preview features" }));
+    }
+
+    [Fact]
     public void CanonicalCatalogCoversEveryTypedIdentifierAndCountCategory()
     {
         var english = CatalogValidation.Read(CatalogValidation.Load(Path.Combine(AppContext.BaseDirectory, "Localization/en-US/Resources.resw")));

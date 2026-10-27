@@ -245,12 +245,29 @@ public sealed partial class RepositoryWriter
         Format.Require(!OneDriveRecoverySidecar.Exists(_repository.DirectoryPath), "OneDrive recovery removal readback");
         _repository.OneDriveRecoveryObserved?.Invoke(OneDriveRecoveryStage.AfterRemoval);
     }
+    internal void RecordOneDriveCleanupForConversion(EncryptionMigrationControl control, CancellationToken token)
+    {
+        token.ThrowIfCancellationRequested(); ValidateConversionControl(control);
+        Format.Require(control.SourceEncrypted && !control.TargetEncrypted && control.RepositoryId == _repository.Identity.RepositoryId,
+            "conversion OneDrive cleanup identity");
+        var sidecar = OneDriveRecoverySidecar.Read(_repository.DirectoryPath, control.RepositoryId);
+        new OneDriveCleanupRecord("Fluff-History", 1, control.OperationId, sidecar.Reference,
+            Convert.ToHexString(SHA256.HashData(Convert.FromBase64String(control.SourceBootstrap))),
+            Convert.ToHexString(SHA256.HashData(Convert.FromBase64String(control.TargetBootstrap)))).Install(_repository.DirectoryPath);
+        token.ThrowIfCancellationRequested(); ValidateConversionControl(control);
+    }
     internal void RetireOneDriveRecoveryForConversion(EncryptionMigrationControl control, CancellationToken token)
     {
         token.ThrowIfCancellationRequested(); ValidateConversionControl(control);
         Format.Require(control.SourceEncrypted && !control.TargetEncrypted && control.RepositoryId == _repository.Identity.RepositoryId,
             "conversion OneDrive recovery retirement identity");
         var sidecar = OneDriveRecoverySidecar.Read(_repository.DirectoryPath, _repository.Identity.RepositoryId);
+        var pending = OneDriveCleanupRecord.Read(Path.Combine(_repository.DirectoryPath,
+            OneDriveCleanupRecord.Prefix + control.OperationId.ToString("N") + ".dat"), control.RepositoryId);
+        Format.Require(pending.Reference == sidecar.Reference && pending.Record.OperationId == control.OperationId &&
+            pending.Record.SourceBootstrapSha256 == Convert.ToHexString(SHA256.HashData(Convert.FromBase64String(control.SourceBootstrap))) &&
+            pending.Record.TargetBootstrapSha256 == Convert.ToHexString(SHA256.HashData(Convert.FromBase64String(control.TargetBootstrap))),
+            "conversion OneDrive cleanup must precede retirement");
         RemoveOneDriveRecovery(sidecar.GenerationId, token);
     }
 }

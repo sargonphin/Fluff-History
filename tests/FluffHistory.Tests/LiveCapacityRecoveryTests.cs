@@ -140,6 +140,6 @@ public sealed class LiveCapacityRecoveryTests
         }
         var result = f.Scan(f.Engine()); Assert.Equal(ScanOutcome.Completed, result.Outcome);
         Assert.Equal(boundary == "live-capacity-published" ? 0 : 1, result.VersionsCreated);
-        Assert.Equal(orphans, Directory.GetFiles(f.Repository.DirectoryPath, "*.part", SearchOption.AllDirectories)); // No M17 adoption/sweep.
+        Assert.Equal(orphans, Directory.GetFiles(f.Repository.DirectoryPath, "*.part", SearchOption.AllDirectories)); // No arbitrary adoption/sweep.
     }
 }

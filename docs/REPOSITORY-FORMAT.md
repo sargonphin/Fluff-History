@@ -3,7 +3,7 @@
 This is the active Fluff-History storage specification. Codecs in
 `FluffHistory.Storage` and frozen models in `FluffHistory.Core` are the implementation
 authority; regression tests validate bindings, ordering, malformed input, publication
-and recovery. Current behavior is independent of historical milestone numbering.
+and recovery. These contracts define the current storage format.
 
 Numeric development formats 2 and 3, foreign product headers and compression-only
 Format-4 headers without explicit bootstrap encryption schema are unsupported.
@@ -400,6 +400,30 @@ is sealed using the random cloud half, context as wrapper binding and purpose
 `onedrive-appfolder-master-v1`. The remote object/hash, packet binding, current
 state/root and local sidecar are verified before success. This does not amend
 repository history authority. Legacy PasswordVault material is cleanup-only.
+
+Decryption first writes a bounded non-authoritative local cleanup obligation in
+`onedrive-cleanup-<operation UUID N>.dat`. Its CurrentUser DPAPI payload is canonical
+JSON: product `Fluff-History`, schema1, operationId, the exact validated recovery
+reference, sourceBootstrapSha256 and targetBootstrapSha256. The reference contains
+repository/generation UUIDs, itemId, fileName, eTag and cloudSecretSha256. The record
+contains no recovery half or repository master. Its fixed DPAPI entropy is
+`FluffHistory/onedrive-exact-cleanup/v1`. It must be flushed and authenticated/read back
+under retained conversion ownership before retiring the local recovery sidecar.
+At most eight records can accumulate; they have no timed expiry. Explicit cloud retry
+requires an ordinary locally unlocked repository, matching repository/plain-bootstrap
+binding and no migration marker. It can run after re-encryption, but rejects any ticket
+matching the currently active recovery generation or item. Verified exact content and
+the original eTag must precede conditional deletion; only its success or already-absent
+response permits writer-owned acknowledgement. An initial not-found read is ambiguous
+across accounts and retains the record. Identical full references share one verified
+deletion proof only within the same authenticated invocation and retained writer.
+Normal opening, backups, re-encryption and Shell do not consume records. See
+[security and recovery](SECURITY-AND-RECOVERY.md) for profile/relocation limitations.
+
+The literal cryptographic domain strings in this document are frozen storage-format
+bytes. They are not presentation labels and must not be renamed without a deliberate
+format/interoperability change.
+
 ## Resumable encryption conversion
 
 ## Persistent fence and commit point
@@ -412,7 +436,7 @@ repository history authority. Legacy PasswordVault material is cleanup-only.
 2. Atomically replace `repository.json` with the exact unsupported-mode sentinel:
    ordinary plain bootstrap identity/schema, no key slots, encryption mode
    `maintenance-<operation UUID in lowercase N format>`. This is a maintenance
-   fence, never an accepted ordinary codec. Released M25.1 fresh and retained
+   fence, never an accepted ordinary codec. Older fresh and retained
    clients reject it after the writer lock is released on pause/process death.
    Updated clients show migration-required before parsing the sentinel.
 3. **Payloads / Metadata** retain the fence. Stream surviving versions and replace

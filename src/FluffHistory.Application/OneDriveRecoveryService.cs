@@ -3,7 +3,7 @@ using FluffHistory.Storage;
 
 namespace FluffHistory.Application;
 
-public enum OneDriveRecoveryState { Off, Enabled, LegacyUpgradeRequired, ConfigurationRequired, Invalid, Unavailable }
+public enum OneDriveRecoveryState { Off, Enabled, LegacyUpgradeRequired, ConfigurationRequired, Invalid, Unavailable, CleanupRequired, EnabledWithCleanup }
 public enum OneDriveRecoveryOutcome { Verified, Disabled, DisabledLocally, Failed, Cancelled, Uncertain }
 [Flags]
 public enum OneDriveRecoveryCleanup { None = 0, Remote = 1, Legacy = 2 }
@@ -17,7 +17,7 @@ public interface ILegacyRecoveryCleanup
     Task RemoveAsync(string path, Guid repositoryId, CancellationToken token);
 }
 
-internal enum CloudRecoveryStage { BeforeAuthentication, AfterAppRoot, AfterUpload, AfterReadback, BeforePublication, AfterPublication, BeforeFinalVerification }
+internal enum CloudRecoveryStage { BeforeAuthentication, AfterAppRoot, AfterUpload, AfterReadback, BeforePublication, AfterPublication, BeforeFinalVerification, CleanupDeletedBeforeAcknowledgement }
 
 /// <summary>Explicit management operations under shared mutation admission. Desktop retires browser/
 /// preview owners first. HTTP/auth never enters Storage, the Agent or ordinary repository opening.</summary>
@@ -31,7 +31,9 @@ public sealed class OneDriveRecoveryService(BackupOperationGate gate, ICloudReco
         token.ThrowIfCancellationRequested();
         try
         {
-            if (Repository.InspectOneDriveRecovery(path) is not null) return OneDriveRecoveryState.Enabled;
+            if (Repository.InspectOneDriveRecovery(path) is not null)
+                return Repository.HasPendingOneDriveCleanup(path) ? OneDriveRecoveryState.EnabledWithCleanup : OneDriveRecoveryState.Enabled;
+            if (Repository.HasPendingOneDriveCleanup(path)) return OneDriveRecoveryState.CleanupRequired;
             if (File.Exists(Path.Combine(path, "microsoft-account-recovery.json"))) return OneDriveRecoveryState.LegacyUpgradeRequired;
             return stores.IsConfigured ? OneDriveRecoveryState.Off : OneDriveRecoveryState.ConfigurationRequired;
         }
@@ -140,14 +142,59 @@ public sealed class OneDriveRecoveryService(BackupOperationGate gate, ICloudReco
 
     // Called by Application encryption orchestration under the same already-held gate.
     // Local retirement stays in the verified Storage transition; Graph failure never blocks conversion.
-    internal async Task<CloudRecoveryCleanupReport> CleanupAfterDecryptionAsync(OneDriveRecoveryReference reference, CancellationToken token)
+    internal async Task<CloudRecoveryCleanupReport> CleanupAfterDecryptionAsync(string path, CancellationToken token)
     {
+        var result = await CleanupPendingOwnedAsync(path, token);
+        return new(result.Outcome != OneDriveRecoveryOutcome.Disabled, result.CleanupFileName);
+    }
+
+    /// <summary>Explicit maintenance only. At most eight recorded IDs, one conditional attempt each.
+    /// Authentication and uncertainty retain the records; ordinary opening never invokes this path.</summary>
+    public Task<OneDriveRecoveryResult> RetryCleanupAsync(string path, CancellationToken token = default)
+        => Run(async () =>
+        {
+            using var lease = gate.TryAcquire() ?? throw new ApplicationOperationException(ApplicationFailure.Busy);
+            return await CleanupPendingOwnedAsync(path, token);
+        });
+
+    private async Task<OneDriveRecoveryResult> CleanupPendingOwnedAsync(string path, CancellationToken token)
+    {
+        string? name = null;
         try
         {
+            token.ThrowIfCancellationRequested();
+            using var repository = await Task.Run(() => OpenLocal(path), token);
+            // Retain exclusive repository ownership across authentication, exact cloud operations and acknowledgement.
+            using var writer = repository.OpenWriter();
+            var pending = writer.ReadPendingOneDriveCleanup();
+            if (pending.Count == 0) return new(OneDriveRecoveryOutcome.Disabled);
+            name = pending[0].Reference.FileName;
             using var store = await stores.OpenAsync(token);
-            return new(!await CleanupExact(store, reference, token), reference.FileName);
+            foreach (var group in pending.GroupBy(ticket => ticket.Reference))
+            {
+                var reference = group.Key; name = reference.FileName;
+                token.ThrowIfCancellationRequested();
+                // An initial 404 is ambiguous: these references do not bind a Microsoft account.
+                // Prove the recorded object in this authenticated invocation before accepting
+                // deletion or an already-absent conditional-delete response as terminal.
+                using var remote = await store.ReadExactAsync(reference.ItemId, token);
+                if (remote.ItemId != reference.ItemId || remote.ETag != reference.ETag)
+                    throw new CloudRecoveryException(CloudRecoveryFailure.ObjectChanged);
+                using var secret = OneDriveRecoverySecret.ParseCloudObject(remote.Content.Span, reference);
+                // Never refresh ownership to a newer eTag, even if the content still parses.
+                _ = await store.DeleteExactAsync(reference.ItemId, reference.ETag, token);
+                Observed?.Invoke(CloudRecoveryStage.CleanupDeletedBeforeAcknowledgement);
+                // One proof covers duplicate obligations for the identical full reference,
+                // only within this authenticated invocation and retained writer lifetime.
+                foreach (var ticket in group) writer.AcknowledgeOneDriveCleanup(ticket);
+            }
+            return new(OneDriveRecoveryOutcome.Disabled);
         }
-        catch (Exception) { return new(true, reference.FileName); } // Local conversion already committed, including on auth cancellation.
+        catch (Exception error)
+        {
+            return new(error is OperationCanceledException ? OneDriveRecoveryOutcome.Cancelled : OneDriveRecoveryOutcome.Failed,
+                Classify(error), OneDriveRecoveryCleanup.Remote, name);
+        }
     }
     private async Task<OneDriveRecoveryCleanup> CleanupLegacy(string path, Guid repositoryId, CancellationToken token)
     {

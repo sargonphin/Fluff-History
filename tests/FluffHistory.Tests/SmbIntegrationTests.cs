@@ -119,9 +119,9 @@ public sealed class SmbIntegrationTests(ITestOutputHelper output)
 
     [SmbTheory]
     [InlineData("reusable-a-partial", false)] [InlineData("reusable-a-ready", false)]
-    [InlineData("m19-before-candidate", false)] [InlineData("reusable-a-prepared", false)]
+    [InlineData("before-candidate", false)] [InlineData("reusable-a-prepared", false)]
     [InlineData("before-replace", false)] [InlineData("after-replace", true)]
-    [InlineData("m19-confirmation", true)]
+    [InlineData("confirmation", true)]
     public async Task ProcessDeathPreservesExactRemoteAuthorityAndReconciliation(string mode, bool published)
     {
         using var f = new SmbTestEnvironment(); var repo = Repository.Create(Path.Combine(f.Remote, "repository"));
@@ -213,7 +213,7 @@ public sealed class SmbIntegrationTests(ITestOutputHelper output)
             Assert.True(fresh.RemoveReadyReusablePayload(ready.Entries[0]));
         }
         using var reader = repo.OpenReader(); Assert.Equal(discard ? 0 : 1, reader.EnumerateCurrent().Count());
-        output.WriteLine("SMB_CASE M17 lifecycle discard=" + discard);
+        output.WriteLine("SMB_CASE reusable lifecycle discard=" + discard);
     }
 
     [SmbTheory]
@@ -239,7 +239,7 @@ public sealed class SmbIntegrationTests(ITestOutputHelper output)
         Assert.Equal(published ? PublicationOutcome.Published : PublicationOutcome.Unpublished, fresh.Reconcile(transaction));
         using var ready = fresh.FindReusablePayload(ReuseFixture.PathKey, 5, FoundationTests.Time);
         Assert.Equal(!published, ready is not null);
-        output.WriteLine("SMB_CASE M17 reconcile published=" + published);
+        output.WriteLine("SMB_CASE reusable reconcile published=" + published);
     }
 
     [SmbTheory]

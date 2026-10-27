@@ -43,9 +43,12 @@ checked representative recovery presentation; it was not every dialog/language c
 
 OneDrive recovery remains Experimental. Wrong-account/revocation/quota/recycle-bin,
 real legacy cleanup, complete installed-dialog and bare-metal campaigns remain
-unclaimed. Late decryption can leave a cloud-only secret after local-half retirement
-and lose exact cleanup coordinates; it cannot recover the master alone. No secure
-erasure, perfect memory erasure or external anti-replay freshness is promised.
+unclaimed. At this milestone, late decryption could lose exact cleanup coordinates
+after local-half retirement and leave a cloud-only secret; it could not recover the
+master alone. Later work added protected durable exact-cleanup records and explicit
+safe retry; the current security and recovery document describes that behavior and
+its conservative absence handling. No secure erasure, perfect memory erasure or
+external anti-replay freshness is promised.
 Current contracts, registration and conversion are in
 [security and recovery](../SECURITY-AND-RECOVERY.md); legal approvals are in
 [licensing](../LICENSING.md).

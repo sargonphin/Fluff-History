@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Over</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History-ontwikkelaarsversie</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Geplande back-ups gaan door als dit venster gesloten is. Integratie met Verkenner en Eigenschappen wordt met Fluff-History geïnstalleerd. Herstel met een wachtwoord en lokale Windows-toegang worden ondersteund. Geen telemetrie of automatische uploads.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Bestand gewijzigd: {3:G}</value>
     <value>Herstellen wijzigt het huidige bestand. Opgeslagen geschiedenis blijft behouden.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History is niet beschikbaar. Installeer de ontwikkelaarsversie en probeer het opnieuw.</value>
+    <value>Fluff-History is niet beschikbaar. Voer het installatieprogramma opnieuw uit om de installatie te herstellen.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Deze opgeslagen versie herstellen naar de oorspronkelijke locatie? Windows vraagt naar conflicten met bestaande bestanden. Opgeslagen geschiedenis blijft behouden.</value>
@@ -2007,83 +2007,83 @@ Oudste bewaarde versie: open Tijdlijn voor de volledige geschiedenis</value>
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>OneDrive-herstel repareren</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Lokaal uitschakelen…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>De oude herstelfunctie moet worden bijgewerkt naar OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Experimenteel OneDrive-herstel is niet ingesteld in deze versie.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Meld u aan bij Microsoft om OneDrive-herstel te gebruiken.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Aanmelding bij Microsoft of toestemming is geweigerd. Herstel met een wachtwoord blijft beschikbaar.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>De vereiste machtiging voor de OneDrive-appmap is niet beschikbaar. Herstel met een wachtwoord blijft beschikbaar.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>OneDrive-herstel vereist een internetverbinding. Wachtwoord en lokale Windows-toegang blijven beschikbaar.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>OneDrive-herstel kan momenteel niet worden gecontroleerd. Probeer het later opnieuw of gebruik uw herstelwachtwoord.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive is bezet. Probeer het later opnieuw.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive is niet beschikbaar of niet ingesteld voor dit Microsoft-account. Gebruik uw herstelwachtwoord.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>De OneDrive-herstelsleutel is gewijzigd of ongeldig. Gebruik uw herstelwachtwoord of repareer de herstelfunctie op een pc die deze back-up kan ontgrendelen.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Opruimen in OneDrive kan nog nodig zijn. Alleen de herstelsleutel wordt beïnvloed; wachtwoord en Windows-toegang blijven ongewijzigd.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Opruimen in OneDrive kan nog nodig zijn. Herstelbestand: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>OneDrive-herstel werkt, maar de oude Windows-herstelreferentie kon niet volledig worden verwijderd.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>OneDrive-herstel lokaal uitschakelen?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Hiermee verwijdert u de OneDrive-herstelkoppeling van de back-up zonder het herstelbestand in de cloud te verwijderen. Mogelijk moet u dat bestand handmatig uit OneDrive verwijderen. Wachtwoord en Windows-toegang blijven ongewijzigd.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>OneDrive-herstel lokaal uitgeschakeld.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>OneDrive-herstel repareren?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Maak en controleer een nieuwe herstelsleutel voordat de oude buiten gebruik wordt gesteld. Gewijzigde cloudbestanden blijven behouden.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Updates</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Updatekanaal</value></data>
@@ -2121,4 +2121,13 @@ Oudste bewaarde versie: open Tijdlijn voor de volledige geschiedenis</value>
   <data name="Update_Confirm" xml:space="preserve"><value>Er wordt een back-up gemaakt. Stoppen en de update installeren?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Back-up stoppen en installeren</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Nog niet gecontroleerd</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>OneDrive-opruiming voltooid.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Cloudopruiming opnieuw proberen</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Geïnstalleerd. De moderne Verkenner-opdracht is niet beschikbaar; de app en het eigenschappenvenster werken wel. Voer de installatie opnieuw uit.</value>
+  </data>
 </root>

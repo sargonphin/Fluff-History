@@ -13,7 +13,7 @@ namespace FluffHistory.Tests;
 
 public sealed class EncryptionTests
 {
-    internal const string Password = "synthetic-M20-unit-test-recovery";
+    internal const string Password = "synthetic-unit-test-recovery";
     internal static StoredVersion Add(Repository repo, string name = "canary-private-path.txt", byte[]? bytes = null)
     {
         bytes ??= "canary-private-file-content"u8.ToArray();

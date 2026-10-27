@@ -59,7 +59,7 @@ public sealed class MicrosoftAccountLiveFactAttribute : FactAttribute
 {
     public MicrosoftAccountLiveFactAttribute()
     {
-        if (!OperatingSystem.IsWindows() || Environment.GetEnvironmentVariable("FLUFF_HISTORY_M202_ACCOUNT_DIAGNOSTICS") != "1")
-            Skip = "Opt-in native live Microsoft-account/PasswordVault diagnostic; configure disposable MSA and set FLUFF_HISTORY_M202_ACCOUNT_DIAGNOSTICS=1. Never required by hosted CI.";
+        if (!OperatingSystem.IsWindows() || Environment.GetEnvironmentVariable("FLUFF_HISTORY_ACCOUNT_DIAGNOSTICS") != "1")
+            Skip = "Opt-in native live Microsoft-account/PasswordVault diagnostic; configure disposable MSA and set FLUFF_HISTORY_ACCOUNT_DIAGNOSTICS=1. Never required by hosted CI.";
     }
 }

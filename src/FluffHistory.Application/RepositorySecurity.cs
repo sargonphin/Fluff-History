@@ -2,9 +2,9 @@ using FluffHistory.Storage;
 
 namespace FluffHistory.Application;
 
-public enum ExperimentalRecoveryState { Off, Available, NotAvailable, Unavailable, Invalid, CleanupRequired, Legacy, ConfigurationRequired }
+public enum ExperimentalRecoveryState { Off, Available, NotAvailable, Unavailable, Invalid, CleanupRequired, Legacy, ConfigurationRequired, AvailableWithCleanup }
 public enum SecurityOperationOutcome { Success, NotAvailable, AuthenticationFailed, Unavailable, Uncertain, Cancelled }
-public enum RepositorySecurityOperation { ChangePassword, EnableRoaming, DisableRoaming, RecoverRoaming, VerifyRoaming, RepairRoaming, DisableRoamingLocally }
+public enum RepositorySecurityOperation { ChangePassword, EnableRoaming, DisableRoaming, RecoverRoaming, VerifyRoaming, RepairRoaming, DisableRoamingLocally, RetryCloudCleanup }
 public sealed record SecurityOperationResult(SecurityOperationOutcome Outcome,
     CloudRecoveryFailure? CloudFailure = null, OneDriveRecoveryCleanup Cleanup = OneDriveRecoveryCleanup.None, string? CleanupFileName = null);
 

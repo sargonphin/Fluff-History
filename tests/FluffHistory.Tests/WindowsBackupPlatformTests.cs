@@ -63,7 +63,7 @@ public sealed class WindowsBackupPlatformTests(ITestOutputHelper output)
         using (Repository.CreateEncrypted(temp.Child(), EncryptionTests.Password, true)) { }
         var time = new ManualSchedulerTime(BackupCoordinatorTests.Anchor.AddMinutes(-1));
         var rootId = Guid.NewGuid();
-        // This deliberate disposable source is inside Windows Temp. Production M23.3 policy
+        // This deliberate disposable source is inside Windows Temp. Production source safety policy
         // requires explicit per-source consent for that location, just like the product warning.
         var configuration = new BackupConfiguration(temp.Child(), [new(new SourceRootConfiguration(rootId, source), source)],
             safeguards: new(AllowOnBattery: true)) { ForcedSourceIds = [rootId] };

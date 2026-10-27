@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Par programmu</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History izstrādātāja priekšskatījums</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Plānotā dublēšana turpinās, kad šis logs ir aizvērts. Explorer un rekvizītu integrācija tiek instalēta kopā ar Fluff-History. Tiek atbalstīta atkopšana ar paroli un vietējā Windows piekļuve. Nav telemetrijas vai automātiskas augšupielādes.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Fails mainīts: {3:G}</value>
     <value>Atjaunošana maina pašreizējo failu. Saglabātā vēsture tiek paturēta.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History nav pieejama. Instalējiet izstrādātāja priekšskatījumu un mēģiniet vēlreiz.</value>
+    <value>Fluff-History nav pieejama. Lai labotu instalāciju, palaidiet instalēšanas programmu vēlreiz.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Atjaunot šo saglabāto versiju sākotnējā atrašanās vietā? Windows vaicās par esošo failu konfliktiem. Saglabātā vēsture tiek paturēta.</value>
@@ -2007,83 +2007,83 @@ Vecākā paturētā versija: pilnai vēsturei atveriet laika skalu</value>
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Labot OneDrive atkopšanu</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Izslēgt lokāli…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Iepriekšējā atkopšana jājaunina uz OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Eksperimentālā OneDrive atkopšana šajā versijā nav konfigurēta.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Lai izmantotu OneDrive atkopšanu, pierakstieties Microsoft.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Microsoft pierakstīšanās vai piekrišana tika noraidīta. Atkopšana ar paroli joprojām ir pieejama.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Nepieciešamā OneDrive lietotnes mapes atļauja nav pieejama. Atkopšana ar paroli joprojām ir pieejama.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>OneDrive atkopšanai nepieciešams interneta savienojums. Parole un lokālā Windows piekļuve joprojām ir pieejama.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>OneDrive atkopšanu pašlaik nevarēja pārbaudīt. Mēģiniet vēlāk vai izmantojiet atkopšanas paroli.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive ir aizņemts. Mēģiniet vēlāk.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive šim Microsoft kontam nav pieejams vai iestatīts. Izmantojiet atkopšanas paroli.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>OneDrive atkopšanas atslēga ir mainīta vai nederīga. Izmantojiet atkopšanas paroli vai labojiet atkopšanu datorā, kas var atbloķēt šo dublējumu.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Joprojām var būt nepieciešama OneDrive tīrīšana. Tas ietekmē tikai atkopšanas atslēgu; parole un Windows piekļuve nav mainīta.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Joprojām var būt nepieciešama OneDrive tīrīšana. Atkopšanas fails: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>OneDrive atkopšana darbojas, bet vecos Windows atkopšanas akreditācijas datus nevarēja pilnībā noņemt.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Vai izslēgt OneDrive atkopšanu lokāli?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Tas noņem dublējuma OneDrive atkopšanas saiti, neizdzēšot mākoņa atkopšanas failu. Iespējams, šis fails no OneDrive būs jānoņem manuāli. Parole un Windows piekļuve nav mainīta.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>OneDrive atkopšana lokāli izslēgta.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Vai labot OneDrive atkopšanu?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Pirms vecās atslēgas atcelšanas izveidojiet un pārbaudiet jaunu atkopšanas atslēgu. Mainītie mākoņa faili tiks saglabāti.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Atjauninājumi</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Atjauninājumu kanāls</value></data>
@@ -2121,4 +2121,13 @@ Vecākā paturētā versija: pilnai vēsturei atveriet laika skalu</value>
   <data name="Update_Confirm" xml:space="preserve"><value>Notiek dublēšana. Vai apturēt to un instalēt atjauninājumu?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Apturēt dublēšanu un instalēt</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Vēl nav pārbaudīts</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>OneDrive tīrīšana pabeigta.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Atkārtot mākoņa tīrīšanu</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Instalēts. Modernā Explorer komanda nav pieejama; lietotne un rekvizītu lapa darbojas. Palaidiet instalēšanu vēlreiz.</value>
+  </data>
 </root>

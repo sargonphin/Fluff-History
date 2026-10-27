@@ -8,8 +8,8 @@ param(
     [switch]$AllowWindowsUI
 )
 $ErrorActionPreference = 'Stop'
-if ($env:OS -ne 'Windows_NT' -or $env:FLUFF_HISTORY_M202_ACCOUNT_DIAGNOSTICS -ne '1') {
-    throw 'Opt-in native Windows diagnostic: set FLUFF_HISTORY_M202_ACCOUNT_DIAGNOSTICS=1. Use synthetic data only.'
+if ($env:OS -ne 'Windows_NT' -or $env:FLUFF_HISTORY_ACCOUNT_DIAGNOSTICS -ne '1') {
+    throw 'Opt-in native Windows diagnostic: set FLUFF_HISTORY_ACCOUNT_DIAGNOSTICS=1. Use synthetic data only.'
 }
 Add-Type -Path (Join-Path $PSScriptRoot 'MicrosoftAccountProbeNative.cs')
 $identity = [FluffHistory.Tests.Diagnostics.MicrosoftAccountProbeNative]::InspectIdentity()
@@ -22,7 +22,7 @@ function Test-ExactCredential($Vault, [string]$Resource) {
 if ($Mode -eq 'Inspect') {
     if ($SampleId -ne [Guid]::Empty) {
         $vault = New-Object 'Windows.Security.Credentials.PasswordVault,Windows.Security.Credentials,ContentType=WindowsRuntime'
-        $metadata.ownSyntheticCredentialPresent = Test-ExactCredential $vault ('FluffHistory-M202-' + $SampleId.ToString('N'))
+        $metadata.ownSyntheticCredentialPresent = Test-ExactCredential $vault ('FluffHistory-AccountProbe-' + $SampleId.ToString('N'))
     }
     $metadata | ConvertTo-Json -Compress; return
 }
@@ -35,7 +35,7 @@ if ($Mode -eq 'Protect') {
     if (Test-Path -LiteralPath $Directory) { throw 'Protect requires a fresh directory; never overwrites another sample.' }
     $null = New-Item -ItemType Directory -Path $Directory
     if ($SampleId -eq [Guid]::Empty) { $SampleId = [Guid]::NewGuid() }
-    $resource = 'FluffHistory-M202-' + $SampleId.ToString('N')
+    $resource = 'FluffHistory-AccountProbe-' + $SampleId.ToString('N')
     if (Test-ExactCredential $vault $resource) { throw 'Synthetic coordinate already exists; never overwrite a credential.' }
     $user = 'SyntheticProbe'
     $random = New-Object byte[] 32
@@ -81,7 +81,7 @@ if ($Mode -eq 'Protect') {
 }
 if ((Get-Item -LiteralPath $path).Length -gt 400000) { throw 'Synthetic manifest exceeds diagnostic bound.' }
 $manifest = Get-Content -Raw -Encoding UTF8 -LiteralPath $path | ConvertFrom-Json
-if ($manifest.schema -ne 1 -or $manifest.resource -notmatch '^FluffHistory-M202-[0-9a-f]{32}$' -or $manifest.user -ne 'SyntheticProbe') {
+if ($manifest.schema -ne 1 -or $manifest.resource -notmatch '^FluffHistory-AccountProbe-[0-9a-f]{32}$' -or $manifest.user -ne 'SyntheticProbe') {
     throw 'Unexpected synthetic manifest ownership.'
 }
 if ($Mode -eq 'Cleanup') {

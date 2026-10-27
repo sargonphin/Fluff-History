@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>حول</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>معاينة Fluff-History للمطورين</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>تستمر النسخ المجدولة عند إغلاق هذه النافذة. يُثبّت التكامل مع مستكشف الملفات والخصائص مع Fluff-History. يُدعم الاسترداد بكلمة المرور والوصول المحلي عبر Windows. لا توجد بيانات تتبع أو رفع تلقائي.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@
     <value>تغيّر الاستعادة الملف الحالي. يُحتفظ بالسجل المحفوظ.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History غير متاح. ثبّت معاينة المطورين ثم حاول مجددًا.</value>
+    <value>Fluff-History غير متاح. شغّل برنامج الإعداد مجددًا لإصلاح التثبيت.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>استعادة هذا الإصدار المحفوظ إلى موقعه الأصلي؟ سيسأل Windows عن تعارضات الملفات الموجودة. يُحتفظ بالسجل المحفوظ.</value>
@@ -2007,83 +2007,83 @@
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>إصلاح الاسترداد عبر OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>تعطيل محليًا…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>يلزم ترقية طريقة الاسترداد القديمة إلى OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>الاسترداد التجريبي عبر OneDrive غير مهيأ في هذا الإصدار.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>سجّل الدخول إلى Microsoft لاستخدام الاسترداد عبر OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>تم رفض تسجيل الدخول إلى Microsoft أو الموافقة. يبقى الاسترداد بكلمة المرور متاحًا.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>إذن مجلد تطبيق OneDrive المطلوب غير متاح. يبقى الاسترداد بكلمة المرور متاحًا.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>يتطلب الاسترداد عبر OneDrive اتصالًا بالإنترنت. تبقى كلمة المرور وإمكانية الوصول المحلي عبر Windows متاحتين.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>تعذر التحقق من الاسترداد عبر OneDrive الآن. حاول لاحقًا أو استخدم كلمة مرور الاسترداد.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive مشغول. حاول لاحقًا.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive غير متاح أو غير مُعدّ لحساب Microsoft هذا. استخدم كلمة مرور الاسترداد.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>تغير مفتاح استرداد OneDrive أو أنه غير صالح. استخدم كلمة مرور الاسترداد أو أصلح الاسترداد على كمبيوتر يمكنه فتح هذه النسخة.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>قد يظل تنظيف OneDrive مطلوبًا. يتأثر مفتاح الاسترداد فقط؛ ولا تتغير كلمة المرور وإمكانية الوصول عبر Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>قد يظل تنظيف OneDrive مطلوبًا. ملف الاسترداد: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>يعمل الاسترداد عبر OneDrive، لكن تعذرت إزالة بيانات اعتماد الاسترداد القديمة في Windows بالكامل.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>هل تريد تعطيل الاسترداد عبر OneDrive محليًا؟</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>يؤدي هذا إلى إزالة رابط الاسترداد عبر OneDrive من النسخة دون حذف ملف الاسترداد في السحابة. قد تحتاج إلى إزالة ذلك الملف من OneDrive يدويًا. لا تتغير كلمة المرور وإمكانية الوصول عبر Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>تم تعطيل الاسترداد عبر OneDrive محليًا.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>هل تريد إصلاح الاسترداد عبر OneDrive؟</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>أنشئ مفتاح استرداد جديدًا وتحقق منه قبل إيقاف استخدام القديم. ستبقى ملفات السحابة المعدّلة محفوظة.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>التحديثات</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>قناة التحديث</value></data>
@@ -2121,4 +2121,13 @@
   <data name="Update_Confirm" xml:space="preserve"><value>هناك عملية نسخ احتياطي جارية. هل تريد إيقافها وتثبيت التحديث؟</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>إيقاف النسخ الاحتياطي والتثبيت</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>لم يتم التحقق بعد</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>تم إكمال تنظيف OneDrive.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>إعادة محاولة تنظيف السحابة</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>تم التثبيت. أمر مستكشف الملفات الحديث غير متاح؛ يعمل التطبيق وصفحة الخصائص. شغّل برنامج الإعداد مجددًا.</value>
+  </data>
 </root>

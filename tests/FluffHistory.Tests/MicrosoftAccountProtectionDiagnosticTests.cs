@@ -15,8 +15,8 @@ public sealed class MicrosoftAccountProtectionDiagnosticTests(ITestOutputHelper 
     {
         if (!OperatingSystem.IsWindows()) return;
         Assert.Equal(0, RoundTrip("LOCAL=user", out var localStep)); Assert.Equal("complete", localStep);
-        var status = RoundTrip("WEBCREDENTIALS=FluffHistory-M201-synthetic", out var step);
-        output.WriteLine($"WEBCREDENTIALS synthetic diagnostic: stage={step}, status=0x{unchecked((uint)status):X8}. Descriptor parsing/same-session results do not prove MSA portability. This probe does not inspect account provisioning; use the M20.2 live diagnostic for that evidence.");
+        var status = RoundTrip("WEBCREDENTIALS=FluffHistory-Ownership-synthetic", out var step);
+        output.WriteLine($"WEBCREDENTIALS synthetic diagnostic: stage={step}, status=0x{unchecked((uint)status):X8}. Descriptor parsing/same-session results do not prove MSA portability. This probe does not inspect account provisioning; use the live account diagnostic for that evidence.");
     }
 
     // The official descriptor parser selects the provider. Only synthetic nonrepository data is passed.

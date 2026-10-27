@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Apie</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History kūrėjo peržiūra</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Suplanuotos kopijos kuriamos ir uždarius šį langą. „Explorer“ ir ypatybių integracija įdiegiama kartu su Fluff-History. Palaikomas atkūrimas slaptažodžiu ir vietinė „Windows“ prieiga. Nėra telemetrijos ar automatinio nusiuntimo.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Failas keistas: {3:G}</value>
     <value>Atkūrimas pakeičia dabartinį failą. Išsaugota retrospektyva paliekama.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History nepasiekiama. Įdiekite kūrėjo peržiūrą ir bandykite dar kartą.</value>
+    <value>Fluff-History nepasiekiama. Dar kartą paleiskite diegimo programą, kad pataisytumėte diegimą.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Atkurti šią išsaugotą versiją pradinėje vietoje? „Windows“ klaus apie esamų failų konfliktus. Išsaugota retrospektyva paliekama.</value>
@@ -2007,83 +2007,83 @@ Seniausia išlaikyta versija: visą retrospektyvą rasite laiko juostoje</value>
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Taisyti atkūrimą per OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Išjungti vietoje…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Seną atkūrimo būdą reikia atnaujinti į OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Eksperimentinis atkūrimas per OneDrive šioje versijoje nesukonfigūruotas.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Norėdami naudoti atkūrimą per OneDrive, prisijunkite prie Microsoft.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Microsoft prisijungimas arba sutikimas atmestas. Atkūrimas slaptažodžiu lieka pasiekiamas.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Būtinas OneDrive programėlės aplanko leidimas nepasiekiamas. Atkūrimas slaptažodžiu lieka pasiekiamas.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>Atkūrimui per OneDrive reikia interneto ryšio. Slaptažodis ir vietinė Windows prieiga lieka pasiekiami.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Atkūrimo per OneDrive šiuo metu nepavyko patikrinti. Bandykite vėliau arba naudokite atkūrimo slaptažodį.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive užimtas. Bandykite vėliau.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive nepasiekiamas arba nenustatytas šiai Microsoft paskyrai. Naudokite atkūrimo slaptažodį.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>OneDrive atkūrimo raktas pasikeitė arba netinkamas. Naudokite atkūrimo slaptažodį arba taisykite atkūrimą kompiuteryje, galinčiame atrakinti šią kopiją.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Dar gali reikėti išvalyti OneDrive. Tai veikia tik atkūrimo raktą; slaptažodis ir Windows prieiga nepasikeitė.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Dar gali reikėti išvalyti OneDrive. Atkūrimo failas: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>Atkūrimas per OneDrive veikia, bet seno Windows atkūrimo kredencialo nepavyko visiškai pašalinti.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Išjungti atkūrimą per OneDrive vietoje?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Tai pašalina kopijos OneDrive atkūrimo saitą, bet neištrina atkūrimo failo debesyje. Gali tekti šį failą pašalinti iš OneDrive rankiniu būdu. Slaptažodis ir Windows prieiga nepasikeitė.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>Atkūrimas per OneDrive išjungtas vietoje.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Taisyti atkūrimą per OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Prieš panaikindami seną raktą, sukurkite ir patikrinkite naują atkūrimo raktą. Pakeisti debesies failai bus išsaugoti.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Atnaujinimai</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Atnaujinimų kanalas</value></data>
@@ -2121,4 +2121,13 @@ Seniausia išlaikyta versija: visą retrospektyvą rasite laiko juostoje</value>
   <data name="Update_Confirm" xml:space="preserve"><value>Vyksta atsarginis kopijavimas. Sustabdyti ir įdiegti atnaujinimą?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Sustabdyti kopijavimą ir įdiegti</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Dar netikrinta</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>„OneDrive“ valymas baigtas.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Bandyti dar kartą išvalyti debesį</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Įdiegta. Šiuolaikinė failų naršyklės komanda nepasiekiama; programa ir ypatybių puslapis veikia. Paleiskite diegimą dar kartą.</value>
+  </data>
 </root>

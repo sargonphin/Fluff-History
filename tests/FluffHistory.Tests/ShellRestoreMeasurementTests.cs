@@ -49,7 +49,7 @@ public sealed class ShellRestoreMeasurementTests(ITestOutputHelper output)
         }
         Assert.Equal(before, Inventory(repo)); Assert.Equal(authority, File.ReadAllBytes(Path.Combine(repo.DirectoryPath, "state.json")));
         using var process = Process.GetCurrentProcess();
-        output.WriteLine("M142_JSON " + JsonSerializer.Serialize(new { smallFiles, largeFile, result.SelectedVisibleItems, result.ExpandedFiles,
+        output.WriteLine("SHELL_RESTORE_JSON " + JsonSerializer.Serialize(new { smallFiles, largeFile, result.SelectedVisibleItems, result.ExpandedFiles,
             result.QueuedCopies, result.PerformOperationsCount, result.PlannedBytes, result.PlanChargedBytes, result.VerifiedPayloads,
             result.VerificationBytes, result.Copied, result.CopiedPayloadBytes, result.PeakVerificationHandles,
             verificationMs = result.VerificationElapsedTicks * 1000.0 / Stopwatch.Frequency,

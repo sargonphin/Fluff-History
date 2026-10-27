@@ -156,6 +156,9 @@ public static partial class Localize
             case "Diagnostics_Button_Copy":
                 Bind(target, global::Microsoft.UI.Xaml.Controls.Button.ContentProperty, "Diagnostics_Button_Copy/Content");
                 break;
+            case "Diagnostics_TextBlock_Capabilities":
+                Bind(target, global::Microsoft.UI.Xaml.Controls.TextBlock.TextProperty, "Diagnostics_TextBlock_Capabilities/Text");
+                break;
             case "Diagnostics_TextBlock_DiagnosticsName":
                 Bind(target, global::Microsoft.UI.Xaml.Automation.AutomationProperties.NameProperty, "Diagnostics_TextBlock_DiagnosticsName/[using:Microsoft.UI.Xaml.Automation]AutomationProperties/Name");
                 break;
@@ -165,11 +168,8 @@ public static partial class Localize
             case "Diagnostics_TextBlock_PageTitle":
                 Bind(target, global::Microsoft.UI.Xaml.Controls.TextBlock.TextProperty, "Diagnostics_TextBlock_PageTitle/Text");
                 break;
-            case "Diagnostics_TextBlock_PreviewCapabilities":
-                Bind(target, global::Microsoft.UI.Xaml.Controls.TextBlock.TextProperty, "Diagnostics_TextBlock_PreviewCapabilities/Text");
-                break;
-            case "Diagnostics_TextBlock_PreviewTitle":
-                Bind(target, global::Microsoft.UI.Xaml.Controls.TextBlock.TextProperty, "Diagnostics_TextBlock_PreviewTitle/Text");
+            case "Diagnostics_TextBlock_ProductTitle":
+                Bind(target, global::Microsoft.UI.Xaml.Controls.TextBlock.TextProperty, "Diagnostics_TextBlock_ProductTitle/Text");
                 break;
             case "History_AppBarButton_Cleanup":
                 Bind(target, global::Microsoft.UI.Xaml.Controls.AppBarButton.LabelProperty, "History_AppBarButton_Cleanup/Label");

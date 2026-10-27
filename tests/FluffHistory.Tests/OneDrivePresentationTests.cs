@@ -8,6 +8,75 @@ namespace FluffHistory.Tests;
 public sealed partial class PresentationTests
 {
     [Theory]
+    [InlineData(false, "en-US")][InlineData(true, "en-US")][InlineData(true, "de-DE")]
+    public async Task CompletedDecryptionOffersExplicitCleanupWithoutChangingActiveRecovery(bool encrypted, string language)
+    {
+        using var temp = new TemporaryDirectory(); var operations = new List<RepositorySecurityOperation>();
+        var state = encrypted ? ExperimentalRecoveryState.AvailableWithCleanup : ExperimentalRecoveryState.CleanupRequired;
+        var owner = new Context
+        {
+            Strings = new TestAppStrings(language),
+            Settings = AppSettings.Empty with { RepositoryPath = temp.Child() },
+            Inspection = new(RepositoryReadiness.Ready, encrypted, Guid.NewGuid()),
+            SecurityInspector = _ => Task.FromResult(state),
+            SecurityExecutor = operation =>
+            { operations.Add(operation); state = encrypted ? ExperimentalRecoveryState.Available : ExperimentalRecoveryState.Off; return new(SecurityOperationOutcome.Success); }
+        };
+        var dialogs = new Dialogs(); var model = new ConfigurationViewModel(owner, dialogs); await model.RefreshSecurityAsync();
+        Assert.True(model.HasPendingCloudCleanup); Assert.True(model.RetryCloudCleanup.CanExecute(null));
+        Assert.Equal(encrypted, model.ToggleExperimental.CanExecute(null)); Assert.Empty(operations);
+        await model.RetryCloudCleanup.ExecuteAsync();
+        Assert.Equal(RepositorySecurityOperation.RetryCloudCleanup, Assert.Single(operations));
+        Assert.False(model.HasPendingCloudCleanup);
+        Assert.Equal(encrypted, model.ExperimentalEnabled);
+        Assert.Equal(owner.Strings[TextId.OneDrive_CleanupCompleted], Assert.Single(dialogs.Notices));
+        Assert.NotEqual(owner.Strings[TextId.Security_ExperimentalDisabled], dialogs.Notices[0]);
+    }
+
+    [Theory]
+    [InlineData(false)][InlineData(true)]
+    public async Task CloudCleanupSharesMutualExclusionAndSiblingRefreshWithSecurityCommands(bool cleanupFirst)
+    {
+        using var temp = new TemporaryDirectory();
+        var pending = new TaskCompletionSource<SecurityOperationResult>(TaskCreationOptions.RunContinuationsAsynchronously);
+        var operations = new List<RepositorySecurityOperation>();
+        var owner = new Context
+        {
+            Settings = AppSettings.Empty with { RepositoryPath = temp.Child() },
+            Inspection = new(RepositoryReadiness.Ready, true, Guid.NewGuid()),
+            SecurityInspector = _ => Task.FromResult(ExperimentalRecoveryState.AvailableWithCleanup),
+            AsyncSecurityExecutor = operation => { operations.Add(operation); return pending.Task; }
+        };
+        var model = new ConfigurationViewModel(owner, new Dialogs()); await model.RefreshSecurityAsync();
+        var active = cleanupFirst ? model.RetryCloudCleanup : model.VerifyExperimental;
+        var sibling = cleanupFirst ? model.VerifyExperimental : model.RetryCloudCleanup;
+        Assert.True(active.CanExecute(null)); Assert.True(sibling.CanExecute(null));
+        var refreshes = 0; sibling.CanExecuteChanged += (_, _) => refreshes++;
+        var work = active.ExecuteAsync();
+        Assert.True(active.IsBusy); Assert.False(sibling.CanExecute(null)); Assert.True(refreshes > 0);
+        await sibling.ExecuteAsync(); Assert.Single(operations);
+        pending.SetResult(new(SecurityOperationOutcome.Success)); await work;
+        Assert.False(active.IsBusy); Assert.True(sibling.CanExecute(null));
+    }
+
+    [Fact]
+    public async Task CloudCleanupUsesCommonCommandFailureHandlingAndRestoresEnablement()
+    {
+        using var temp = new TemporaryDirectory();
+        var owner = new Context
+        {
+            Settings = AppSettings.Empty with { RepositoryPath = temp.Child() },
+            Inspection = new(RepositoryReadiness.Ready, true, Guid.NewGuid()),
+            SecurityInspector = _ => Task.FromResult(ExperimentalRecoveryState.AvailableWithCleanup),
+            SecurityExecutor = _ => throw new IOException("Synthetic command failure.")
+        };
+        var model = new ConfigurationViewModel(owner, new Dialogs()); await model.RefreshSecurityAsync();
+        await model.RetryCloudCleanup.ExecuteAsync();
+        Assert.Equal(owner.Strings[TextId.Status_CommandFailure], owner.LastOutcome);
+        Assert.False(model.RetryCloudCleanup.IsBusy);
+        Assert.True(model.RetryCloudCleanup.CanExecute(null)); Assert.True(model.VerifyExperimental.CanExecute(null));
+    }
+    [Theory]
     [InlineData(ExperimentalRecoveryState.Legacy, TextId.OneDrive_Legacy)]
     [InlineData(ExperimentalRecoveryState.ConfigurationRequired, TextId.OneDrive_NotConfigured)]
     public async Task OneDriveLegacyAndUnconfiguredStatusNeverOfferLegacyRecovery(ExperimentalRecoveryState state, TextId expected)

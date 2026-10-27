@@ -20,7 +20,7 @@
     <Product>Fluff-History</Product>
     <Company>Fish &amp; Dog Software</Company>
   </PropertyGroup>
-  <!-- Preserve the five private libraries' pre-M25.3 binding identity; PE/file/product
+  <!-- Preserve the five internal libraries' established binding identity; PE/file/product
        release metadata still follows ProductVersion. Executables retain their existing
        exact assembly version (the Agent exposes that value in its status). -->
   <PropertyGroup Condition="'$(MSBuildProjectName)' == 'FluffHistory.Core' or '$(MSBuildProjectName)' == 'FluffHistory.Storage' or '$(MSBuildProjectName)' == 'FluffHistory.Engine' or '$(MSBuildProjectName)' == 'FluffHistory.Application' or '$(MSBuildProjectName)' == 'FluffHistory.Windows'">

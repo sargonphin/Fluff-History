@@ -103,7 +103,7 @@ public sealed class RetentionOrchestrationTests
 
     [Theory]
     [InlineData(HistoryCleanupMode.OlderThanOneMonth)] [InlineData(HistoryCleanupMode.KeepOnlyMostRecent)]
-    public async Task ManualCleanupUsesExactM153ModesAndRejectsAuthorityChanges(HistoryCleanupMode mode)
+    public async Task ManualCleanupUsesExactCleanupModesAndRejectsAuthorityChanges(HistoryCleanupMode mode)
     {
         using var f = new HistoryFixture(); var old = f.Add(); var latest = f.Add(day: 1);
         var service = new TimelineMaintenanceService(new()); var stale = await service.PreviewAsync(f.Temp.Child(), mode, Utc);

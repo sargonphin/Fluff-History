@@ -12,7 +12,8 @@ public sealed class OneDriveRecoveryServiceTests
     {
         internal sealed record Entry(string Name, string ETag, byte[] Bytes);
         internal Dictionary<string, Entry> Items { get; } = [];
-        internal int Uploads, Deletes, SignIns, Reads;
+        internal int Uploads, Deletes, SignIns, Reads, DeleteRequests;
+        internal Action? BeforeDelete;
         internal CloudRecoveryFailure? Failure;
         internal bool RejectDelete;
         internal bool LoseUploadResponse;
@@ -43,7 +44,7 @@ public sealed class OneDriveRecoveryServiceTests
             }
             public Task<CloudRecoveryDeleteResult> DeleteExactAsync(string itemId, string eTag, CancellationToken token)
             {
-                token.ThrowIfCancellationRequested();
+                token.ThrowIfCancellationRequested(); owner.DeleteRequests++; owner.BeforeDelete?.Invoke();
                 if (!owner.Items.TryGetValue(itemId, out var entry)) return Task.FromResult(CloudRecoveryDeleteResult.AlreadyAbsent);
                 if (owner.RejectDelete || entry.ETag != eTag) throw new CloudRecoveryException(CloudRecoveryFailure.ObjectChanged);
                 owner.Items.Remove(itemId); CryptographicOperations.ZeroMemory(entry.Bytes); owner.Deletes++;

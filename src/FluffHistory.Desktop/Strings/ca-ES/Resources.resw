@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Quant a</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Versió preliminar per a desenvolupadors del Fluff-History</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Les còpies programades continuen amb aquesta finestra tancada. La integració amb l'Explorador i les propietats s'instal·la amb el Fluff-History. S'admeten la recuperació amb contrasenya i l'accés local del Windows. No hi ha telemetria ni càrregues automàtiques.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Fitxer modificat: {3:G}</value>
     <value>La restauració modifica el fitxer actual. Es conserva l'historial desat.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>El Fluff-History no està disponible. Instal·leu la versió preliminar i torneu-ho a provar.</value>
+    <value>Fluff-History no està disponible. Torneu a executar l’instal·lador per reparar la instal·lació.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Voleu restaurar aquesta versió desada a la ubicació original? El Windows preguntarà pels conflictes amb fitxers existents. Es conserva l'historial desat.</value>
@@ -2007,83 +2007,83 @@ Versió conservada més antiga: obriu la línia de temps per veure l'historial c
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Repara la recuperació amb el OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Desactiva localment…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Cal actualitzar la recuperació antiga al OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>La recuperació experimental amb el OneDrive no està configurada en aquesta versió.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Inicieu sessió a Microsoft per utilitzar la recuperació amb el OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>S’ha rebutjat l’inici de sessió o el consentiment de Microsoft. La recuperació amb contrasenya continua disponible.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>El permís necessari per a la carpeta de l’aplicació del OneDrive no està disponible. La recuperació amb contrasenya continua disponible.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>La recuperació amb el OneDrive requereix connexió a Internet. La contrasenya i l’accés local del Windows continuen disponibles.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Ara no s’ha pogut verificar la recuperació amb el OneDrive. Torneu-ho a provar més tard o utilitzeu la contrasenya de recuperació.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>El OneDrive està ocupat. Torneu-ho a provar més tard.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>El OneDrive no està disponible o no està configurat per a aquest compte Microsoft. Utilitzeu la contrasenya de recuperació.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>La clau de recuperació del OneDrive ha canviat o no és vàlida. Utilitzeu la contrasenya de recuperació o repareu la recuperació en un PC que pugui desbloquejar aquesta còpia.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Encara pot caldre netejar el OneDrive. Només afecta la clau de recuperació; la contrasenya i l’accés del Windows no canvien.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Encara pot caldre netejar el OneDrive. Fitxer de recuperació: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>La recuperació amb el OneDrive funciona, però no s’ha pogut eliminar del tot la credencial de recuperació antiga del Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Voleu desactivar localment la recuperació amb el OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Això elimina l’enllaç de recuperació amb el OneDrive de la còpia sense esborrar el fitxer de recuperació al núvol. Pot ser que hàgiu d’eliminar aquest fitxer manualment del OneDrive. La contrasenya i l’accés del Windows no canvien.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>Recuperació amb el OneDrive desactivada localment.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Voleu reparar la recuperació amb el OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Creeu i verifiqueu una clau de recuperació nova abans de retirar l’antiga. Es conservaran els fitxers modificats al núvol.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Actualitzacions</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Canal d’actualització</value></data>
@@ -2121,4 +2121,13 @@ Versió conservada més antiga: obriu la línia de temps per veure l'historial c
   <data name="Update_Confirm" xml:space="preserve"><value>Hi ha una còpia de seguretat en curs. Voleu aturar-la i instal·lar l’actualització?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Atura la còpia i instal·la</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Encara no s’ha comprovat</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>S&apos;ha completat la neteja del OneDrive.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Torna a provar la neteja al núvol</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Instal·lat. L’ordre modern de l’Explorador no està disponible; l’aplicació i les Propietats funcionen. Torneu a executar l’instal·lador.</value>
+  </data>
 </root>

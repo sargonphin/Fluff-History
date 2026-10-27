@@ -109,7 +109,7 @@ public sealed class ConfigurationViewModel : ObservableObject
         ToggleExperimental = new(() => owner.RunAsync(token => SecurityOperationAsync(
             ExperimentalEnabled ? RepositorySecurityOperation.DisableRoaming : RepositorySecurityOperation.EnableRoaming, null, token)), () => SecurityReady && ExperimentalStateApplies);
         VerifyExperimental = new(() => owner.RunAsync(token => SecurityOperationAsync(RepositorySecurityOperation.VerifyRoaming, null, token)),
-            () => SecurityReady && ExperimentalStateApplies && _experimentalState == ExperimentalRecoveryState.Available);
+            () => SecurityReady && ExperimentalStateApplies && _experimentalState is ExperimentalRecoveryState.Available or ExperimentalRecoveryState.AvailableWithCleanup);
         RepairExperimental = new(() => owner.RunAsync(async token =>
         {
             if (await dialogs.ConfirmAsync(S[TextId.OneDrive_RepairTitle], S[TextId.OneDrive_RepairExplanation], S[TextId.Action_Continue]))
@@ -122,6 +122,8 @@ public sealed class ConfigurationViewModel : ObservableObject
         }), () => SecurityReady && ExperimentalStateApplies && ExperimentalEnabled);
         RecoverExperimental = new(() => owner.RunAsync(token => SecurityOperationAsync(RepositorySecurityOperation.RecoverRoaming, null, token)),
             () => CanOfferExperimentalRecovery);
+        RetryCloudCleanup = new(() => owner.RunAsync(token => SecurityOperationAsync(RepositorySecurityOperation.RetryCloudCleanup, null, token)),
+            () => HasPendingCloudCleanup && CanChangeEncryption);
         TurnOnEncryption = new(() => ChangeEncryptionAsync(true, false), () => CanChangeEncryption && !IsEncrypted);
         TurnOffEncryption = new(() => ChangeEncryptionAsync(false, false), () => CanChangeEncryption && IsEncrypted);
         ResumeEncryption = new(() => ChangeEncryptionAsync(_owner.Inspection.EncryptionChange?.TargetEncrypted ?? false, true),
@@ -133,7 +135,7 @@ public sealed class ConfigurationViewModel : ObservableObject
                 await owner.RunAsync(token => owner.SaveAsync(AppSettings.Empty, token, reset: true));
         });
         CommandGroup.Attach(owner, () => Changed(""), Apply, Discard, ChangeLocation, Add, Remove, ExcludeFolder, RemoveExclusion, Recover, Reset,
-            ChangePassword, ToggleExperimental, RecoverExperimental, VerifyExperimental, RepairExperimental, DisableExperimentalLocally,
+            ChangePassword, ToggleExperimental, RecoverExperimental, VerifyExperimental, RepairExperimental, DisableExperimentalLocally, RetryCloudCleanup,
             TurnOnEncryption, TurnOffEncryption, ResumeEncryption, PauseEncryption);
         PauseEncryption.GroupAvailable = null; // Pause must remain available while a conversion command owns the group.
         Load(owner.Settings);
@@ -163,6 +165,10 @@ public sealed class ConfigurationViewModel : ObservableObject
     public AsyncCommand VerifyExperimental { get; }
     public AsyncCommand RepairExperimental { get; }
     public AsyncCommand DisableExperimentalLocally { get; }
+    public AsyncCommand RetryCloudCleanup { get; }
+    public bool HasPendingCloudCleanup => ExperimentalStateApplies && _experimentalState is ExperimentalRecoveryState.CleanupRequired or ExperimentalRecoveryState.AvailableWithCleanup;
+    public string CloudCleanupStatus => S[TextId.OneDrive_RemoteCleanup];
+    public string RetryCloudCleanupLabel => S[TextId.OneDrive_RetryCleanup];
     public AsyncCommand TurnOnEncryption { get; }
     public AsyncCommand TurnOffEncryption { get; }
     public AsyncCommand ResumeEncryption { get; }
@@ -183,18 +189,18 @@ public sealed class ConfigurationViewModel : ObservableObject
         { Phase: EncryptionChangePhase.EncryptingFiles or EncryptionChangePhase.DecryptingFiles, TotalBytes: > 0 };
     public bool CanChangeEncryption => HasEncryptionStatus && !IsDirty && _owner.AgentAvailable && _owner.Inspection.State == RepositoryReadiness.Ready && _owner.Status?.IsAttemptActive != true && !_owner.EncryptionBusy;
     public bool CanEdit => !MigrationRequired && !_owner.EncryptionBusy && !new[] { Apply, Discard, ChangeLocation, Add, Remove, ExcludeFolder, RemoveExclusion, Recover, Reset,
-        ChangePassword, ToggleExperimental, RecoverExperimental, VerifyExperimental, RepairExperimental, DisableExperimentalLocally }.Any(c => c.IsBusy);
+        ChangePassword, ToggleExperimental, RecoverExperimental, VerifyExperimental, RepairExperimental, DisableExperimentalLocally, RetryCloudCleanup }.Any(c => c.IsBusy);
     public bool HasEncryptionStatus => _owner.Settings.RepositoryPath.Length != 0 && _owner.Inspection.State is RepositoryReadiness.Ready or RepositoryReadiness.RecoveryRequired;
     public string EncryptionStatus => _owner.Inspection.Encrypted ? S[TextId.Encryption_Encrypted] : S[TextId.Encryption_Unencrypted];
     public bool IsEncrypted => HasEncryptionStatus && _owner.Inspection.Encrypted;
     public bool IsUnencrypted => HasEncryptionStatus && !_owner.Inspection.Encrypted;
     public bool SecurityReady => IsEncrypted && _owner.Inspection.State == RepositoryReadiness.Ready && !IsDirty && _owner.AgentAvailable && !_owner.EncryptionBusy && _owner.Status?.IsAttemptActive != true;
     public string WindowsUnlockStatus => !IsEncrypted ? "" : NeedsRecovery ? S[TextId.Recovery_EnableWindowsAdvice] : S[TextId.Recovery_WindowsAvailable];
-    public bool CanOfferExperimentalRecovery => NeedsRecovery && ExperimentalStateApplies && _experimentalState is ExperimentalRecoveryState.Available or ExperimentalRecoveryState.NotAvailable;
-    public bool ExperimentalEnabled => ExperimentalStateApplies && _experimentalState is ExperimentalRecoveryState.Available or ExperimentalRecoveryState.NotAvailable or ExperimentalRecoveryState.CleanupRequired or ExperimentalRecoveryState.Invalid;
+    public bool CanOfferExperimentalRecovery => NeedsRecovery && ExperimentalStateApplies && _experimentalState is ExperimentalRecoveryState.Available or ExperimentalRecoveryState.AvailableWithCleanup or ExperimentalRecoveryState.NotAvailable;
+    public bool ExperimentalEnabled => ExperimentalStateApplies && _experimentalState is ExperimentalRecoveryState.Available or ExperimentalRecoveryState.AvailableWithCleanup or ExperimentalRecoveryState.NotAvailable or ExperimentalRecoveryState.Invalid;
     public string ExperimentalStatus => !ExperimentalStateApplies ? S[TextId.Experimental_Checking] : _experimentalState switch
     {
-        ExperimentalRecoveryState.Available => S[TextId.Experimental_Available],
+        ExperimentalRecoveryState.Available or ExperimentalRecoveryState.AvailableWithCleanup => S[TextId.Experimental_Available],
         ExperimentalRecoveryState.NotAvailable => S[TextId.Experimental_NotAvailable],
         ExperimentalRecoveryState.CleanupRequired => S[TextId.Experimental_CleanupRequired],
         ExperimentalRecoveryState.Invalid => S[TextId.Experimental_Invalid],
@@ -226,6 +232,7 @@ public sealed class ConfigurationViewModel : ObservableObject
                 RepositorySecurityOperation.ChangePassword => S[TextId.Security_PasswordChanged],
                 RepositorySecurityOperation.EnableRoaming or RepositorySecurityOperation.RepairRoaming => S[TextId.Security_ExperimentalEnabled],
                 RepositorySecurityOperation.DisableRoaming => S[TextId.Security_ExperimentalDisabled],
+                RepositorySecurityOperation.RetryCloudCleanup => S[TextId.OneDrive_CleanupCompleted],
                 RepositorySecurityOperation.DisableRoamingLocally => S[TextId.OneDrive_DisabledLocally],
                 RepositorySecurityOperation.VerifyRoaming => S[TextId.Security_ExperimentalVerified],
                 _ => S[TextId.Security_RecoveryCompleted]
@@ -505,7 +512,7 @@ public sealed class ConfigurationViewModel : ObservableObject
     }
     private void DraftChanged()
     { _ = Storage.SetPathAsync(RepositoryPath); Changed(""); foreach (var command in new[] { Apply, Discard, ChangeLocation, Add, Remove, ExcludeFolder, RemoveExclusion, Recover,
-        ChangePassword, ToggleExperimental, RecoverExperimental, VerifyExperimental, RepairExperimental, DisableExperimentalLocally,
+        ChangePassword, ToggleExperimental, RecoverExperimental, VerifyExperimental, RepairExperimental, DisableExperimentalLocally, RetryCloudCleanup,
         TurnOnEncryption, TurnOffEncryption, ResumeEncryption, PauseEncryption }) command?.Refresh(); }
     private static bool SamePath(string? a, string? b)
     { try { return SourcePaths.Same(a, b); } catch (InvalidDataException) { return false; } }

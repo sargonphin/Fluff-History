@@ -25,7 +25,7 @@ public sealed class EncryptionConversionLegacyTests
 
         async Task RunKilledCommit()
         {
-            await using var child = WriterProcess.Start($"m252-convert-{(encrypted ? "encrypt" : "decrypt")}-AfterBootstrapPivot", temp.Child());
+            await using var child = WriterProcess.Start($"convert-{(encrypted ? "encrypt" : "decrypt")}-AfterBootstrapPivot", temp.Child());
             await child.WaitUntilReadyAsync(); await child.KillAsync();
         }
     }

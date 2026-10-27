@@ -1,5 +1,42 @@
 {
+    "zh-Hant":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "zh-Hans":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "uk-UA":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "th-TH":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "sr-Cyrl-RS":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "ru-RU":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "ko-KR":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "hi-IN":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "he-IL":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "fa-IR":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "bn-BD":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
+    "ar-SA":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages."
+              },
     "de-DE":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Overview_TextBlock_Status.Text":  "Status is the standard German Windows term.",
                   "Appearance_System":  "System is the standard German appearance option.",
                   "Folder_Desktop":  "Desktop is the German Windows known-folder name.",
@@ -10,6 +47,7 @@
                   "Update_Beta":  "Reviewed de-DE update terminology: this short localized label has the same spelling as English."
               },
     "fr-FR":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Navigation_Configuration.Content":  "Configuration is also the French term.",
                   "Configuration_TextBlock_PageTitle.Text":  "Configuration is also the French page title.",
                   "Overview_HyperlinkButton_Setup.Content":  "Configuration is also the French navigation label.",
@@ -26,6 +64,7 @@
                   "Update_Stable":  "Reviewed fr-FR update terminology: this short localized label has the same spelling as English."
               },
     "es-ES":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Count_Bytes_Zero":  "Spanish Windows also uses the standard unit bytes.",
                   "Count_Bytes_One":  "Spanish Windows also uses the standard unit byte.",
                   "Count_Bytes_Two":  "Spanish Windows also uses the standard unit bytes.",
@@ -35,6 +74,7 @@
                   "Update_Beta":  "Reviewed es-ES update terminology: this short localized label has the same spelling as English."
               },
     "it-IT":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Count_Bytes_One":  "Italian Windows also uses the standard unit byte.",
                   "Count_Files_One":  "File is also the Italian Windows noun.",
                   "History_FileAccessible":  "File is also the Italian Windows noun; the other fields are data placeholders.",
@@ -43,6 +83,7 @@
                   "Update_Beta":  "Reviewed it-IT update terminology: this short localized label has the same spelling as English."
               },
     "pt-BR":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
                   "Count_Bytes_Zero":  "The standard byte unit has the same spelling in this locale.",
                   "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
@@ -56,6 +97,7 @@
                   "Update_Beta":  "Reviewed pt-BR update terminology: this short localized label has the same spelling as English."
               },
     "pt-PT":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Count_Bytes_Zero":  "The standard byte unit has the same spelling in this locale.",
                   "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
                   "Count_Bytes_Two":  "The standard byte unit has the same spelling in this locale.",
@@ -67,6 +109,7 @@
                   "Update_Beta":  "Reviewed pt-PT update terminology: this short localized label has the same spelling as English."
               },
     "nl-NL":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "History_AppBarButton_Newer.Label":  "Later is also the Dutch navigation label for a later time.",
                   "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
                   "Count_Bytes_Zero":  "The standard byte unit has the same spelling in this locale.",
@@ -86,6 +129,7 @@
                   "Update_Title":  "Reviewed nl-NL update terminology: this short localized label has the same spelling as English."
               },
     "sv-SE":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
                   "Appearance_System":  "System is also the localized appearance option.",
                   "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
@@ -93,6 +137,7 @@
                   "Update_Beta":  "Reviewed sv-SE update terminology: this short localized label has the same spelling as English."
               },
     "nb-NO":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
                   "Appearance_System":  "System is also the localized appearance option.",
                   "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
@@ -100,6 +145,7 @@
                   "Update_Beta":  "Reviewed nb-NO update terminology: this short localized label has the same spelling as English."
               },
     "da-DK":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Overview_TextBlock_Status.Text":  "Status is also the localized status heading.",
                   "Appearance_System":  "System is also the localized appearance option.",
                   "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
@@ -107,6 +153,7 @@
                   "Update_Beta":  "Reviewed da-DK update terminology: this short localized label has the same spelling as English."
               },
     "pl-PL":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "History_Folder":  "Folder is also the Polish Windows noun.",
                   "Appearance_System":  "System is also the localized appearance option.",
                   "Count_Folders_One":  "Folder is also the Polish noun in this singular count.",
@@ -115,17 +162,21 @@
                   "Update_Beta":  "Reviewed pl-PL update terminology: this short localized label has the same spelling as English."
               },
     "cs-CZ":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Action_OK":  "OK is the standard Windows confirmation label.",
                   "Update_Beta":  "Reviewed cs-CZ update terminology: this short localized label has the same spelling as English."
               },
     "sk-SK":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Action_OK":  "OK is the standard Windows confirmation label.",
                   "Update_Beta":  "Reviewed sk-SK update terminology: this short localized label has the same spelling as English."
               },
     "bg-BG":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Action_OK":  "OK is the standard Windows confirmation label."
               },
     "ca-ES":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Count_Bytes_Zero":  "The standard byte unit is also used in this locale.",
                   "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
                   "Count_Bytes_Two":  "The standard byte unit is also used in this locale.",
@@ -136,6 +187,7 @@
                   "Update_Beta":  "Reviewed ca-ES update terminology: this short localized label has the same spelling as English."
               },
     "el-GR":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Count_Bytes_Zero":  "The standard byte unit is also used in this locale.",
                   "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
                   "Count_Bytes_Two":  "The standard byte unit is also used in this locale.",
@@ -145,12 +197,15 @@
                   "Action_OK":  "OK is the standard confirmation label in this locale."
               },
     "et-EE":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Action_OK":  "OK is the standard confirmation label in this locale."
               },
     "fi-FI":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Action_OK":  "OK is the standard confirmation label in this locale."
               },
     "fil-PH":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                    "History_Folder":  "Folder is also the standard localized Windows noun.",
                    "Count_Bytes_Zero":  "The standard byte unit is also used in this locale.",
                    "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
@@ -168,9 +223,11 @@
                    "Update_Beta":  "Reviewed fil-PH update terminology: this short localized label has the same spelling as English."
                },
     "hu-HU":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Action_OK":  "OK is the standard confirmation label in this locale."
               },
     "id-ID":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Overview_TextBlock_Status.Text":  "Status is also the standard localized heading.",
                   "History_Folder":  "Folder is also the standard localized Windows noun.",
                   "Count_Folders_One":  "Folder is also the localized noun after a numeric count.",
@@ -181,9 +238,11 @@
                   "Update_Beta":  "Reviewed id-ID update terminology: this short localized label has the same spelling as English."
               },
     "ja-JP":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Action_OK":  "OK is the standard confirmation label in this locale."
               },
     "ms-MY":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Overview_TextBlock_Status.Text":  "Status is also the standard localized heading.",
                   "History_Folder":  "Folder is also the standard localized Windows noun.",
                   "Count_Folders_One":  "Folder is also the localized noun after a numeric count.",
@@ -194,6 +253,7 @@
                   "Update_Beta":  "Reviewed ms-MY update terminology: this short localized label has the same spelling as English."
               },
     "ro-RO":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "History_Folder":  "Folder is also the standard localized Windows noun.",
                   "Count_Folders_One":  "Folder is also the localized noun after a numeric count.",
                   "Folder_Desktop":  "Desktop is also the localized Windows known-folder label.",
@@ -201,26 +261,33 @@
                   "Update_Beta":  "Reviewed ro-RO update terminology: this short localized label has the same spelling as English."
               },
     "vi-VN":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Count_Bytes_One":  "The standard byte unit is also used in this locale.",
                   "Action_OK":  "OK is the standard confirmation label in this locale.",
                   "Update_Beta":  "Reviewed vi-VN update terminology: this short localized label has the same spelling as English."
               },
     "lv-LV":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Update_Beta":  "Reviewed lv-LV update terminology: this short localized label has the same spelling as English."
               },
     "lt-LT":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Update_Beta":  "Reviewed lt-LT update terminology: this short localized label has the same spelling as English."
               },
     "sl-SI":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Update_Beta":  "Reviewed sl-SI update terminology: this short localized label has the same spelling as English."
               },
     "hr-HR":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Update_Beta":  "Reviewed hr-HR update terminology: this short localized label has the same spelling as English."
               },
     "tr-TR":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                   "Update_Beta":  "Reviewed tr-TR update terminology: this short localized label has the same spelling as English."
               },
     "sr-Latn-RS":  {
+                  "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
                        "Update_Beta":  "Reviewed sr-Latn-RS update terminology: this short localized label has the same spelling as English."
                    }
 }

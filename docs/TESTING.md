@@ -5,6 +5,9 @@ coverage percentage or universal filesystem compatibility. Commands and prerequi
 are in [BUILDING](BUILDING.md). Current hosted CI is the single Windows Release job
 in [ci.yml](../.github/workflows/ci.yml). Windows is the authoritative validation
 platform; other operating systems are not a supported-product or release gate.
+The SDK is pinned exactly by `global.json` with roll-forward disabled. CI checks
+`dotnet --version` before locked restore; contributor and Setup builds use the same
+selection guard. SDK changes require a reviewed implicit-dependency/lock update.
 
 ## Ordinary regression
 
@@ -20,21 +23,16 @@ hooks make boundary behavior deterministic. They are complemented by actual loca
 Windows handle sharing, atomic replacement, child-process ownership and native/COM
 tests. A simulated service response is not a live account or SMB test.
 
-As dated baseline evidence on 2026-10-26 at
-`672f929e8da53d309670506f0690387f045ef682`, Windows locked restore and the ordinary
-Release build passed with zero warnings/errors. The ordinary run passed **1701**
-tests, skipped **6**, failed **0**. Skips were three released-client conversion
-cases needing external legacy clients and three non-Windows-only
-capacity/descriptor/pipe cases. This is dated evidence, not a
-permanent headline count. Platform-specific test seams and skipped diagnostic cases
-do not establish support or a release-validation requirement for another OS.
+Platform-specific test seams and skipped diagnostic cases do not establish support
+or a release-validation requirement for another OS. External-client compatibility
+tests require deliberately supplied legacy payloads; see their opt-in fixture gates.
 
 ## Native and packaging checks
 
 Desktop builds run `Build-NativeShell.ps1`. Native Shell checks validate protocol,
 selection, resource and COM behavior. Fault tests cover malformed replies with
 refresh, broker disconnect with refresh, closure with an outstanding query, and
-actual worker/page lifetime. The baseline run passed 267 native checks plus 512
+actual worker/page lifetime. The baseline run passed 325 native checks plus 512
 blocked-pool queued closures and 128 default-pool rapid closures. The blocked-pool
 test includes an explicit cancelling positive control; it exercises actual
 StartWorker submissions rather than a duplicate queue implementation.
@@ -123,7 +121,7 @@ disruptive child watchdogs are diagnostic containment, not proof of nonpublicati
 
 Large metadata diagnostics require explicit `FLUFF_HISTORY_DIAGNOSTICS=1`, the
 selected fixture/filter and disposable-root settings. The runtime-maintenance
-fixture additionally requires explicit `FLUFF_HISTORY_M222_ROOT`, rejects source,
+fixture additionally requires explicit `FLUFF_HISTORY_METADATA_DIAGNOSTIC_ROOT`, rejects source,
 release/build/persistent storage and aliases into them, and checks at least 16 GiB
 available. Never run all large diagnostics just to obtain a test count. Fixture
 construction, measured operation, transfer and cleanup are separate costs.
@@ -146,11 +144,10 @@ bytes / 553625565 encoded segment bytes (22.88%), and compact output at 15305484
 36396874 bytes (23.78%). One-file publication appended 100142 logical / 13325
 physical bytes without rewriting a committed prefix. Those metadata-only Windows
 VM observations exclude payloads/controls/allocation and use uncontrolled caches;
-they are neither CI timing thresholds nor bare-metal promises. M18 separately
+they are neither CI timing thresholds nor bare-metal promises. A separate collector test
 measured a 500000-tick collector retaining 4000000 raw timestamp bytes; that was a
 collector experiment, not a 500000-version repository throughput result.
 
-Compact [milestone records](milestones/M12-STORAGE-FOUNDATION.md) preserve the
-historical decisions and evidence boundaries. Further servers, hardware sleep/resume,
+Further servers, hardware sleep/resume,
 security review, accessibility and publisher distribution checks remain in the
 [roadmap](ROADMAP.md). There is no claim that a passing ordinary suite proves them.

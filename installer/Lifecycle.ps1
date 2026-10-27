@@ -14,6 +14,8 @@ $record = Join-Path $records 'installation-v1.json'
 $pending = Join-Path $records 'pending-v1.json'
 $packageName = 'Sargonphin.FluffHistory.DeveloperPreview'
 $family = 'Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr'
+$previewFamily = $family
+$publicComposition = $false
 $clsid = '{80F01E21-B634-4183-834E-CF09D7242402}'
 function IsProductVersion([string]$value) {
     if ($value.Length -gt 23 -or $value -notmatch '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$' -or $value -eq '0.0.0.0') { return $false }
@@ -140,7 +142,7 @@ function BackupState {
     $backup = Join-Path $records ('Migration\' + $Version)
     CheckParents $backup; New-Item -ItemType Directory -Path $backup -Force | Out-Null
     if ($Fault -eq 'MigrationCopy') { throw 'Controlled migration copy failure.' }
-    foreach ($origin in @(@{ name='canonical'; directory=$data }, @{ name='legacy'; directory=(Join-Path $local ('Packages\' + $family + '\LocalState')) })) {
+    foreach ($origin in @(@{ name='canonical'; directory=$data }, @{ name='legacy'; directory=(Join-Path $local ('Packages\' + $previewFamily + '\LocalState')) })) {
         foreach ($file in @(@{name='settings-v2.json';maximum=4194304},@{name='preferences-v1.json';maximum=16384})) {
             $source = Join-Path $origin.directory $file.name
             if (!(Test-Path -LiteralPath $source)) { continue }
@@ -226,6 +228,47 @@ function ProductPackage {
     if ($packages.Count -gt 1) { throw 'Multiple product package identities require attention.' }
     if ($packages.Count) { return $packages[0] }
     return $null
+}
+function RegisterProductIdentity($info, $transaction) {
+    # Invalid pins are fatal; Windows registration failure is an optional-integration outcome.
+    if ($publicComposition) {
+        $identity = GetSparseIdentityPolicy $PSScriptRoot
+        try {
+            if ($identity.Policy.packageName -cne $info.packageIdentity -or $identity.Policy.packageFamilyName -cne $info.packageFamily -or
+                $identity.Policy.certificateThumbprint -cne $info.certificateThumbprint) { throw 'Sparse identity metadata/pin mismatch.' }
+        } finally { $identity.Certificate.Dispose() }
+    }
+    $existing = ProductPackage
+    if ($existing -and [version]$existing.Version -gt [version]$Version) { throw 'A newer product identity is installed.' }
+    if ($existing -and [version]$existing.Version -eq [version]$Version -and (!$transaction.previous -or $transaction.previous.version -ne $Version)) { throw 'An unrecognized same-version package is already registered.' }
+    if ($publicComposition -and $existing -and !$transaction.previous) { throw 'An unowned sparse identity was preserved.' }
+    try {
+        if ($Fault -eq 'Identity') { throw 'Controlled identity registration failure.' }
+        if ($publicComposition) { SparseIdentityTrust 'Trust' $PSScriptRoot }
+        if (!$existing -or [version]$existing.Version -ne [version]$Version) {
+            StopComponents
+            MarkPending 'identityChanged' $true
+            Add-AppxPackage -Path (Join-Path $payload 'Identity.msix') -ExternalLocation $payload
+        }
+        $confirmed = ProductPackage
+        if (!$confirmed -or [version]$confirmed.Version -ne [version]$Version) { throw 'Sparse identity registration was not confirmed.' }
+        if (Test-Path -LiteralPath (Join-Path $records 'integration-warning.txt')) { Remove-Item -LiteralPath (Join-Path $records 'integration-warning.txt') }
+        return $true
+    } catch {
+        if (!$publicComposition) { throw }
+        # Never leave an old command pointing at a payload eligible for retirement.
+        $current = ProductPackage
+        if ($current) {
+            if ([version]$current.Version -ne [version]$Version -and
+                (!$transaction.previous -or [version]$current.Version -ne [version]$transaction.previous.version)) { throw 'Unexpected sparse identity was preserved.' }
+            MarkPending 'identityChanged' $true
+            $current | Remove-AppxPackage
+            if (ProductPackage) { throw 'Failed sparse registration could not be retired safely.' }
+        }
+        [IO.File]::WriteAllText((Join-Path $records 'integration-warning.txt'),
+            'Modern Explorer context command unavailable; application, Agent and native Properties integration remain installed. Run Setup again to retry.',[Text.Encoding]::UTF8)
+        return $false
+    }
 }
 function RemoveVersionMarker([string]$ExpectedVersion = $Version) {
     if (!(IsProductVersion $ExpectedVersion)) { throw 'Invalid active version.' }
@@ -351,6 +394,17 @@ function RemoveProperties {
 CheckParents $root; CheckParents $records
 New-Item -ItemType Directory -Path $records -Force | Out-Null
 try {
+    $buildPath = Join-Path $payload 'build-info.json'
+    if (Test-Path -LiteralPath $buildPath) {
+        $composition = ReadJson $buildPath
+        if ($composition.PSObject.Properties.Name -contains 'signingMode' -and $composition.signingMode -eq 'UnsignedPublic') {
+            $publicComposition = $true
+            $packageName = 'Sargonphin.FluffHistory'; $family = 'Sargonphin.FluffHistory_53b6jha2b007a'
+            # Prepare runs the extracted lifecycle before payload installation. It only
+            # inspects existing metadata; trust operations run from the installed helpers.
+            if ($Action -ne 'Prepare') { . (Join-Path $PSScriptRoot 'SparseIdentityTrust.ps1') }
+        }
+    }
     switch ($Action) {
         'Prepare' {
             if ((New-Object Security.Principal.WindowsPrincipal ([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
@@ -382,7 +436,7 @@ try {
         }
         'Install' {
             CheckPayload; RunSupport -arguments @('--validate-state',$data)
-            $legacy = Join-Path $local ('Packages\' + $family + '\LocalState')
+            $legacy = Join-Path $local ('Packages\' + $previewFamily + '\LocalState')
             if (Test-Path -LiteralPath $legacy) { RunSupport -arguments @('--validate-state',$legacy) }
             New-Item -ItemType Directory -Path $data -Force | Out-Null
             foreach ($name in @('settings-v2.json','preferences-v1.json')) {
@@ -399,14 +453,15 @@ try {
                 $trusted = Test-Path -LiteralPath ('HKLM:\SOFTWARE\Fluff-History\DevelopmentTrust\' + $certificate.Thumbprint)
                 if (!$alreadyTrusted) { MarkPending 'trustAdded' $true; MarkPending 'certificateThumbprint' $certificate.Thumbprint }
             }
-            if ($Fault -eq 'Identity') { throw 'Controlled identity registration failure.' }
-            $existing = ProductPackage
-            if ($existing -and [version]$existing.Version -gt [version]$Version) { throw 'A newer product identity is installed.' }
-            if ($existing -and [version]$existing.Version -eq [version]$Version -and (!$transaction.previous -or $transaction.previous.version -ne $Version)) { throw 'An unrecognized same-version package is already registered.' }
-            if (!$existing -or [version]$existing.Version -ne [version]$Version) {
-                StopComponents
-                Add-AppxPackage -Path (Join-Path $payload 'Identity.msix') -ExternalLocation $payload
-                MarkPending 'identityChanged' $true
+            $modernContextMenu = RegisterProductIdentity $info $transaction
+            if ($publicComposition -and $transaction.previous -and
+                ($transaction.previous.PSObject.Properties.Name -notcontains 'packageIdentity' -or $transaction.previous.packageIdentity -eq 'Sargonphin.FluffHistory.DeveloperPreview')) {
+                $oldPreview = @(Get-AppxPackage -Name 'Sargonphin.FluffHistory.DeveloperPreview' | Where-Object PackageFamilyName -eq $previewFamily)
+                foreach ($old in $oldPreview) {
+                    if ([version]$old.Version -ne [version]$transaction.previous.version) { throw 'Unexpected preview identity was preserved.' }
+                    MarkPending 'previewIdentityRemoved' $true
+                    $old | Remove-AppxPackage
+                }
             }
             if ($Fault -eq 'Properties') { throw 'Controlled Properties registration failure.' }
             RemoveProperties; RegisterProperties
@@ -429,7 +484,13 @@ try {
             $known += [ordered]@{version=$Version;manifestSha256=$manifestHash}
             if ($known.Count -gt 32) { throw 'Too many retained deployment versions.' }
             $releaseVersion = if ($info.PSObject.Properties.Name -contains 'releaseVersion') { $info.releaseVersion } else { 'development' }
-            WriteJson $record ([ordered]@{schema=1;version=$Version;releaseVersion=$releaseVersion;root=$root;manifestSha256=$manifestHash;knownVersions=$known;certificateThumbprint=$info.certificateThumbprint;ownedDevelopmentTrust=$trusted;activated=$false})
+            $ownedSparse = $false
+            if ($publicComposition) {
+                $publicIdentity = GetSparseIdentityPolicy $PSScriptRoot
+                try { $ownedSparse = Test-Path -LiteralPath ('HKLM:\Software\Fluff-History\SparseIdentityTrust\' + $publicIdentity.Policy.certificateSha256) }
+                finally { $publicIdentity.Certificate.Dispose() }
+            }
+            WriteJson $record ([ordered]@{schema=1;version=$Version;releaseVersion=$releaseVersion;root=$root;manifestSha256=$manifestHash;knownVersions=$known;certificateThumbprint=$info.certificateThumbprint;ownedDevelopmentTrust=$trusted;ownedSparseTrust=$ownedSparse;packageIdentity=$packageName;packageFamily=$family;modernContextMenuAvailable=$modernContextMenu;activated=$false})
         }
         'Activate' {
             if ($Fault -eq 'Agent') { throw 'Controlled agent first-launch failure.' }
@@ -453,7 +514,7 @@ try {
             if ($transaction.previous) {
                 $previousPayload = Join-Path $root ('Versions\' + $transaction.previous.version)
                 CheckParents $previousPayload
-                if ($transaction.identityChanged) { Add-AppxPackage -Path (Join-Path $previousPayload 'Identity.msix') -ExternalLocation $previousPayload }
+                if ($transaction.identityChanged -or ($transaction.PSObject.Properties.Name -contains 'previewIdentityRemoved' -and $transaction.previewIdentityRemoved)) { Add-AppxPackage -Path (Join-Path $previousPayload 'Identity.msix') -ExternalLocation $previousPayload }
                 [IO.File]::WriteAllText((Join-Path $root 'current-version.txt'),$transaction.previous.version,[Text.Encoding]::ASCII)
                 WriteJson $record $transaction.previous
             } else {
@@ -464,6 +525,7 @@ try {
             if ($transaction.trustAdded) {
                 DevelopmentTrust 'RemoveIfUnused' (Join-Path $payload 'identity.cer') $transaction.certificateThumbprint
             }
+            if ($publicComposition) { SparseIdentityTrust 'RemoveIfUnused' $PSScriptRoot }
         }
         'Uninstall' {
             CheckTree $root
@@ -483,10 +545,12 @@ try {
                     $activeCertificate = Join-Path $root ('Versions\' + $activeVersion + '\identity.cer')
                     DevelopmentTrust 'RemoveIfUnused' $activeCertificate $installed.certificateThumbprint
                 }
+                if ($publicComposition) { SparseIdentityTrust 'RemoveIfUnused' $PSScriptRoot }
                 Remove-Item -LiteralPath $record
             }
             # A failed upgrade can leave a newer Inno uninstaller while registration rolled back.
             RemoveVersionMarker $activeVersion
+            if (Test-Path -LiteralPath (Join-Path $records 'integration-warning.txt')) { Remove-Item -LiteralPath (Join-Path $records 'integration-warning.txt') }
             if (Test-Path -LiteralPath $pending) {
                 $transaction = ReadJson $pending
                 if ($transaction.root -ne $root -or $transaction.version -ne $Version) { throw 'Unexpected pending installation was preserved.' }

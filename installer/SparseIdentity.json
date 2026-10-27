@@ -1,0 +1,9 @@
+{
+    "schema":  1,
+    "packageName":  "Sargonphin.FluffHistory",
+    "publisher":  "CN=Fluff-History Sparse Identity",
+    "certificateSha256":  "BCB70D4791C570AB029C8F5A967A8FA1A20731C836AF348E2B7C73DDE3ECFC15",
+    "certificateThumbprint":  "FA9BBFBA571F7592EDFD355DDCAB021A7C8B6E9A",
+    "trustStore":  "LocalMachine\\TrustedPeople",
+    "packageFamilyName":  "Sargonphin.FluffHistory_53b6jha2b007a"
+}

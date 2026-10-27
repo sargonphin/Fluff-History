@@ -79,7 +79,7 @@ public sealed class WindowsAgentTests
         if (!OperatingSystem.IsWindows()) return;
         using var temp = new TemporaryDirectory(); var path = Path.Combine(temp.Child(), "writer.lock");
         var admission = new WindowsOperationAdmission(path);
-        await using var child = WriterProcess.Start("m221-admission", temp.Child()); await child.WaitUntilReadyAsync();
+        await using var child = WriterProcess.Start("admission", temp.Child()); await child.WaitUntilReadyAsync();
         Assert.Null(admission.TryAcquire()); await child.KillAsync();
         using var lease = admission.TryAcquire(); Assert.NotNull(lease); Assert.True(File.Exists(path)); Assert.Equal(0, new FileInfo(path).Length);
     }

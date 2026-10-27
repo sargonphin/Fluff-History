@@ -27,7 +27,7 @@ public sealed class SmbWriterReconnectTests(ITestOutputHelper output)
         var aliasPath = Path.Combine(aliasRoot, Path.GetFileName(f.Remote), "repository");
         var alias = Repository.Open(aliasPath); Assert.Equal(repo.Identity, alias.Identity);
         var before = repo.ReadAuthority().Identity;
-        await using var child = WriterProcess.Start("m19-held-prepared-" + probe, repo.DirectoryPath); await child.WaitUntilReadyAsync();
+        await using var child = WriterProcess.Start("held-prepared-" + probe, repo.DirectoryPath); await child.WaitUntilReadyAsync();
         Assert.ThrowsAny<IOException>(() => alias.OpenWriter(f.Local));
         // Main test share only; alias share remains connected. No global Samba restart.
         var share = SmbNetworkMeasurementTests.Remote.TrimStart('\\').Split('\\')[1];

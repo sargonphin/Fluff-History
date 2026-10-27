@@ -21,7 +21,7 @@ public sealed class TimelineReadMeasurementTests(ITestOutputHelper output)
             FoundationTests.Time.AddDays(pass == 1 && i % 3 == 0 ? -1 : i % 5));
         if (paths == 25_000)
         {
-            // Match the historical M14 25k membership/configuration boundary.
+            // Match the 25k membership/configuration boundary.
             using var w = repo.OpenWriter(); using var r = repo.OpenReader();
             w.Apply(new(currentRemovals: Enumerable.Range(paths - 37, 37).Select(i =>
                 new FluffHistory.Core.HistoryPath(FoundationTests.Root, MetadataDiagnosticFixture.Name(i)))), r.Authority);
@@ -32,7 +32,7 @@ public sealed class TimelineReadMeasurementTests(ITestOutputHelper output)
         }
         var before = Inventory(repo); var authority = File.ReadAllBytes(Path.Combine(repo.DirectoryPath, "state.json"));
         var files = Directory.GetFiles(Path.Combine(repo.DirectoryPath, "metadata"), "*.seg");
-        output.WriteLine("M141_FIXTURE " + JsonSerializer.Serialize(new { paths, versions = paths * 2, segments = files.Length,
+        output.WriteLine("TIMELINE_READ_FIXTURE " + JsonSerializer.Serialize(new { paths, versions = paths * 2, segments = files.Length,
             metadataBytes = files.Sum(p => new FileInfo(p).Length) }));
         var scope = new HistoryScope(FoundationTests.Root);
         // Independent fixture oracle, derived from both input populations rather than the projection.
@@ -55,7 +55,7 @@ public sealed class TimelineReadMeasurementTests(ITestOutputHelper output)
             Assert.InRange(io.PeakHandles, 1, 8); Assert.Null(reader.Workspace!.CreatedDirectory);
             Assert.Equal(before, Inventory(repo)); Assert.Equal(authority, File.ReadAllBytes(Path.Combine(repo.DirectoryPath, "state.json")));
             using var process = Process.GetCurrentProcess();
-            output.WriteLine("M141_JSON " + JsonSerializer.Serialize(new { paths, size, keyByteLimit = budget.MaximumKeyBytes,
+            output.WriteLine("TIMELINE_READ_JSON " + JsonSerializer.Serialize(new { paths, size, keyByteLimit = budget.MaximumKeyBytes,
                 returned = page.Items.Count, digest, expectedDigest, matchingVersions = s.MatchingVersions,
                 semanticFrames = s.ValidatedVersions, indexPages = io.PagesRead, opens = io.SegmentOpens,
                 requests = r.DestinationReadRequests, requestedBytes = r.DestinationBytesRequested, frameBytes = r.LogicalFrameBytes,

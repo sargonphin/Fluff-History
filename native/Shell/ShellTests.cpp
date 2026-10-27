@@ -19,11 +19,40 @@ struct TestLanguage {
  }
  ~TestLanguage(){SetThreadUILanguage(previous);ULONG ignored{};if(!names.empty())SetThreadPreferredUILanguages(MUI_LANGUAGE_NAME,names.data(),&ignored);}
 };
+void ActivationChecks(){
+ auto token=fh::RandomToken();
+ for(const auto* prefix:{L"--shell-request ",L"--shell-broker "})Require(fh::ActivationArguments(std::wstring(prefix)+token));
+ for(const auto& args:{L"",L"--shell-request ../bad",L"--shell-broker",L"--other aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",L"--shell-request aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa extra"})Require(!fh::ActivationArguments(args));
+ wchar_t temporary[32768],self[32768];Require(GetTempPathW(32768,temporary)>0);Require(GetModuleFileNameW(nullptr,self,32768)>0);
+ std::wstring root=std::wstring(temporary)+L"Shell activation "+token;Require(CreateDirectoryW(root.c_str(),nullptr)!=FALSE);
+ auto versions=root+L"\\Versions";Require(CreateDirectoryW(versions.c_str(),nullptr)!=FALSE);
+ auto first=versions+L"\\1.0.0.1",second=versions+L"\\1.0.0.2";
+ for(const auto& directory:{first,second}){Require(CreateDirectoryW(directory.c_str(),nullptr)!=FALSE);Require(CopyFileW(self,(directory+L"\\FluffHistory.Desktop.exe").c_str(),TRUE)!=FALSE);}
+ auto marker=root+L"\\current-version.txt";
+ auto write=[&](const std::string& value){fh::Handle file(CreateFileW(marker.c_str(),GENERIC_WRITE,0,nullptr,CREATE_ALWAYS,FILE_ATTRIBUTE_NORMAL,nullptr));Require(file.valid());DWORD written{};Require(WriteFile(file.value,value.data(),static_cast<DWORD>(value.size()),&written,nullptr)&&written==value.size());};
+ Require(FAILED(fh::ActivateInstalled(root,L"--shell-request "+token)));
+ for(const auto& version:{"","0.0.0.0","1.0.0","1.0.0.65536","01.0.0.1","1.0.0.1\nignored","1.0.0.1/other","1.0.0.1\r","1.0.0.1.2"}){write(version);Reject([&]{fh::InstalledDesktop(root);});}
+ write("1.0.0.1\r\n");Require(fh::InstalledDesktop(root)==first+L"\\FluffHistory.Desktop.exe");
+ write("1.0.0.2\n");Require(fh::InstalledDesktop(root)==second+L"\\FluffHistory.Desktop.exe");
+ Require(fh::ActivateInstalled(root,L"--shell-request ../bad")==E_INVALIDARG);
+ Require(SUCCEEDED(fh::ActivateInstalled(root,L"--shell-broker "+token)));
+ auto ready=root+L"\\"+token+L".ready";
+ auto deadline=GetTickCount64()+10000;while(GetFileAttributesW(ready.c_str())==INVALID_FILE_ATTRIBUTES && GetTickCount64()<deadline)Sleep(10);
+ Require(GetFileAttributesW(ready.c_str())!=INVALID_FILE_ATTRIBUTES);
+ DeleteFileW(ready.c_str());DeleteFileW(marker.c_str());
+ // The child has finished using the executable when Windows permits deletion.
+ for(const auto& directory:{first,second}){auto executable=directory+L"\\FluffHistory.Desktop.exe";deadline=GetTickCount64()+10000;while(!DeleteFileW(executable.c_str())&&GetTickCount64()<deadline)Sleep(10);Require(GetFileAttributesW(executable.c_str())==INVALID_FILE_ATTRIBUTES);Require(RemoveDirectoryW(directory.c_str())!=FALSE);}
+ Require(RemoveDirectoryW(versions.c_str())!=FALSE);Require(RemoveDirectoryW(root.c_str())!=FALSE);
+}
 }
 int wmain(int argc,wchar_t**argv){
+ if(argc==3 && std::wstring(argv[1])==L"--shell-broker" && fh::Token(argv[2])){
+  fh::Handle ready(CreateFileW((std::wstring(argv[2])+L".ready").c_str(),GENERIC_WRITE,0,nullptr,CREATE_NEW,FILE_ATTRIBUTE_NORMAL,nullptr));return ready.valid()?0:1;
+ }
  auto com=CoInitializeEx(nullptr,COINIT_APARTMENTTHREADED);
  try{
   Require(SUCCEEDED(com));Require(argc==2);std::wstring directory=argv[1];TestLanguage english(L"en-US");
+  ActivationChecks();
   fh::Writer response;response.u32(0);response.text(std::wstring(32,L'a'),32);response.text(L"History",4096);response.text(L"D:\\Backup",32760);response.u32(1);response.u32(1);response.text(std::wstring(32,L'b'),32);response.text(L"Exact saved version",1024);
   auto good=response.frame(101);auto parsed=fh::ParseReply(good);Require(parsed.rows.size()==1&&parsed.restore);
   auto invalid=good;invalid[0]=0;Reject([&]{fh::ParseReply(invalid);});invalid=good;invalid.push_back(0);Reject([&]{fh::ParseReply(invalid);});

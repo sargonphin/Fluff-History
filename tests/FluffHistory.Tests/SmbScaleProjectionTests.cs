@@ -69,6 +69,6 @@ public sealed class SmbScaleProjectionTests(ITestOutputHelper output)
     {
         var model = Project(250_000, 5_000_000, 0);
         new SmbNetworkMeasurementTests(output).Save("stress-projection", new { Model = model,
-            Notes = "Projection for the fixed M19 path shape. No physical 5M repository. Excludes unknown legacy retired-segment identities, pending payload cleanup anchors and dirty COW data; add these independently. Compression uses separate measured clean Baseline/Heavy ratios. Local storage lower model is raw input plus equal-size output, excluding sort scratch and transient archives." });
+            Notes = "Projection for the fixed network path shape. No physical 5M repository. Excludes unknown legacy retired-segment identities, pending payload cleanup anchors and dirty COW data; add these independently. Compression uses separate measured clean Baseline/Heavy ratios. Local storage lower model is raw input plus equal-size output, excluding sort scratch and transient archives." });
     }
 }

@@ -22,9 +22,6 @@ public sealed class RepositoryEncryptionService(BackupOperationGate gate, ILegac
         {
             token.ThrowIfCancellationRequested();
             using var lease = gate.TryAcquire() ?? throw new ApplicationOperationException(ApplicationFailure.Busy);
-            // Capture the exact optional coordinates before Storage retires the local half. Do not
-            // delete a still-useful cloud half if admission/password/conversion fails or is paused.
-            var cloudReference = encrypted ? null : await Task.Run(() => Repository.InspectOneDriveRecoveryForEncryptionChange(path), token);
             var result = await Task.Run(() =>
             {
                 try
@@ -46,11 +43,16 @@ public sealed class RepositoryEncryptionService(BackupOperationGate gate, ILegac
                 catch (OperationCanceledException) { return new(EncryptionChangeOutcome.Paused); }
                 catch (Exception) { return new(EncryptionChangeOutcome.NeedsAttention); }
             });
-            if (result.Outcome != EncryptionChangeOutcome.Completed || cloudReference is null) return result;
-            var remoteCleanup = cloudRecovery is not null
-                ? await cloudRecovery.CleanupAfterDecryptionAsync(cloudReference, token)
-                : new CloudRecoveryCleanupReport(true, cloudReference.FileName);
-            return result with { RemoteRecoveryCleanupRequired = remoteCleanup.Required, RemoteCleanupFileName = remoteCleanup.FileName };
+            if (result.Outcome != EncryptionChangeOutcome.Completed || encrypted) return result;
+            try
+            {
+                if (!Repository.HasPendingOneDriveCleanup(path)) return result;
+                var remoteCleanup = cloudRecovery is not null
+                    ? await cloudRecovery.CleanupAfterDecryptionAsync(path, token)
+                    : new CloudRecoveryCleanupReport(true);
+                return result with { RemoteRecoveryCleanupRequired = remoteCleanup.Required, RemoteCleanupFileName = remoteCleanup.FileName };
+            }
+            catch (Exception) { return result with { RemoteRecoveryCleanupRequired = true }; } // Committed local mode cannot be rolled back by bookkeeping failure.
         }
         catch (OperationCanceledException) { return new(EncryptionChangeOutcome.Paused); }
         finally { if (ownedPassword is not null) Array.Clear(ownedPassword); }

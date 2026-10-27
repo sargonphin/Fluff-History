@@ -1,11 +1,12 @@
 [CmdletBinding()]
 param([string]$OutputDirectory, [string]$DotNet = 'dotnet', [string]$InnoCompiler, [string]$StagingRoot,
     [switch]$AllowUncommitted, [switch]$LocalizationCheckpoint, [string]$ProductVersion, [string]$ReleaseVersion = 'development',
-    [switch]$DevelopmentUpdateTesting)
+    [switch]$DevelopmentUpdateTesting, [ValidateSet('Development','UnsignedPublic')][string]$SigningMode = 'Development')
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 if ([Environment]::OSVersion.Platform -ne 'Win32NT') { throw 'Setup requires Windows.' }
 $repo = Split-Path $PSScriptRoot -Parent
+& "$PSScriptRoot\Test-DotNetSdk.ps1" -DotNet $DotNet
 Push-Location $repo
 try {
     $sha = (& git rev-parse HEAD).Trim()
@@ -16,6 +17,7 @@ try {
     $version = & "$PSScriptRoot\Get-ProductVersion.ps1" -Repository $repo -ProductVersion $ProductVersion
     $release = & "$PSScriptRoot\Get-ReleaseVersion.ps1" -ReleaseVersion $ReleaseVersion -ProductVersion $version
     if ($DevelopmentUpdateTesting -and (!$OutputDirectory -or $release -eq 'development')) { throw 'Update tests require explicit output and controlled release identity.' }
+    if ($DevelopmentUpdateTesting -and $SigningMode -ne 'Development') { throw 'Update test signing is restricted to development composition.' }
     if (!$OutputDirectory) { $OutputDirectory = Join-Path (Join-Path $repo 'artifacts\releases') $version }
     $OutputDirectory = [IO.Path]::GetFullPath($OutputDirectory)
     if ((Test-Path -LiteralPath $OutputDirectory) -and (Get-ChildItem -LiteralPath $OutputDirectory -Force | Select-Object -First 1)) { throw 'Installer archive must be new/empty.' }
@@ -37,8 +39,13 @@ try {
     $distributionTerms = & "$PSScriptRoot\Get-DistributionTerms.ps1" -Repository $repo
     $payload = Join-Path $staging 'Payload'
     $sourceSha = if ($dirty) { "$sha-dirty" } else { $sha }
-    $certificate = Get-ChildItem Cert:\CurrentUser\My | Where-Object { $_.Subject -eq 'CN=Fluff-History Developer Preview' -and $_.HasPrivateKey -and $_.NotAfter -gt (Get-Date).AddDays(7) } | Sort-Object NotAfter -Descending | Select-Object -First 1
-    if (!$certificate) { $certificate = New-SelfSignedCertificate -Type CodeSigningCert -Subject 'CN=Fluff-History Developer Preview' -CertStoreLocation Cert:\CurrentUser\My -HashAlgorithm SHA256 -KeyAlgorithm RSA -KeyLength 2048 -KeyExportPolicy NonExportable -NotAfter (Get-Date).AddYears(1) }
+    $signing = & "$PSScriptRoot\Get-SetupSigning.ps1" -SigningMode $SigningMode
+    $certificate = $signing.Certificate
+    $applicationManifest = Join-Path $staging 'Desktop.manifest'
+    [xml]$application = Get-Content -LiteralPath src\FluffHistory.Desktop\app.manifest -Raw
+    $application.assembly.msix.publisher = $signing.Publisher
+    $application.assembly.msix.packageName = $signing.PackageName
+    $application.Save($applicationManifest)
     $signerHash = ''
     if ($DevelopmentUpdateTesting) {
         $hashAlgorithm = [Security.Cryptography.SHA256]::Create()
@@ -46,7 +53,8 @@ try {
     }
     foreach ($project in @('Desktop','Agent','InstallSupport')) {
         $output = Join-Path $staging $project
-        & $DotNet publish "src\FluffHistory.$project\FluffHistory.$project.csproj" -c Release --no-restore "-p:ArtifactsPath=$buildArtifacts" "-p:NativeShellOutputDirectory=$nativeOutput" "-p:ProductVersion=$version" "-p:ReleaseVersion=$release" "-p:DevelopmentUpdateTesting=$($DevelopmentUpdateTesting.ToString().ToLowerInvariant())" "-p:UpdateSignerCertificateSha256=$signerHash" "-p:GitCommit=$sourceSha" -o $output
+        [string[]]$identityArguments = if ($project -eq 'Desktop') { @("-p:ApplicationManifest=$applicationManifest") } else { @() }
+        & $DotNet publish "src\FluffHistory.$project\FluffHistory.$project.csproj" -c Release --no-restore "-p:ArtifactsPath=$buildArtifacts" "-p:NativeShellOutputDirectory=$nativeOutput" "-p:ProductVersion=$version" "-p:ReleaseVersion=$release" "-p:DevelopmentUpdateTesting=$($DevelopmentUpdateTesting.ToString().ToLowerInvariant())" "-p:UpdateSignerCertificateSha256=$signerHash" "-p:GitCommit=$sourceSha" @identityArguments -o $output
         if ($LASTEXITCODE) { throw "$project publish failed." }
         New-Item -ItemType Directory -Path $payload -Force | Out-Null
         foreach ($file in Get-ChildItem -LiteralPath $output -File -Recurse) {
@@ -60,6 +68,7 @@ try {
     Copy-Item -LiteralPath (Join-Path $nativeOutput 'FluffHistory.PropertySheet.dll'),(Join-Path $nativeOutput 'FluffHistory.AgentLauncher.exe') -Destination $payload
     New-Item -ItemType Directory -Path (Join-Path $payload 'Installer'),(Join-Path $payload 'ThirdPartyNotices') -Force | Out-Null
     Copy-Item -LiteralPath installer\Lifecycle.ps1 -Destination (Join-Path $payload 'Installer')
+    Copy-Item -LiteralPath installer\SparseIdentityTrust.ps1,installer\SparseIdentity.json,installer\SparseIdentity.cer -Destination (Join-Path $payload 'Installer')
     Copy-Item -LiteralPath $distributionTerms.File -Destination (Join-Path $payload 'Installer\DistributionTerms.txt')
     Copy-Item -LiteralPath (Join-Path $repo 'LICENSE') -Destination (Join-Path $payload 'LICENSE')
     $innoLicense = Join-Path (Split-Path $InnoCompiler -Parent) 'LICENSE.TXT'
@@ -89,16 +98,16 @@ try {
         }
     }
     $sdk = Join-Path $nuget 'microsoft.windows.sdk.buildtools\10.0.26100.6584\bin\10.0.26100.0\x64'
-    $certificate = Get-ChildItem Cert:\CurrentUser\My | Where-Object { $_.Subject -eq 'CN=Fluff-History Developer Preview' -and $_.HasPrivateKey -and $_.NotAfter -gt (Get-Date).AddDays(7) } | Sort-Object NotAfter -Descending | Select-Object -First 1
-    if (!$certificate) { $certificate = New-SelfSignedCertificate -Type CodeSigningCert -Subject 'CN=Fluff-History Developer Preview' -CertStoreLocation Cert:\CurrentUser\My -HashAlgorithm SHA256 -KeyAlgorithm RSA -KeyLength 2048 -KeyExportPolicy NonExportable -NotAfter (Get-Date).AddYears(1) }
-    foreach ($file in Get-ChildItem -LiteralPath $payload -File | Where-Object { $_.Name -like 'FluffHistory.*.exe' -or $_.Name -like 'FluffHistory.*.dll' }) {
+    foreach ($file in @(Get-ChildItem -LiteralPath $payload -File | Where-Object { $signing.PeSigning -and ($_.Name -like 'FluffHistory.*.exe' -or $_.Name -like 'FluffHistory.*.dll') })) {
         & "$sdk\signtool.exe" sign /fd SHA256 /s My /sha1 $certificate.Thumbprint $file.FullName
         if ($LASTEXITCODE) { throw 'Product binary signing failed.' }
     }
-    Export-Certificate -Cert $certificate -FilePath (Join-Path $payload 'identity.cer') | Out-Null
+    if ($signing.PeSigning) { Export-Certificate -Cert $certificate -FilePath (Join-Path $payload 'identity.cer') | Out-Null }
     $identity = Join-Path $staging 'Identity'; New-Item -ItemType Directory -Path $identity -Force | Out-Null
     [xml]$manifest = Get-Content -LiteralPath installer\Identity.appxmanifest -Raw
     $manifest.Package.Identity.Version = $version
+    $manifest.Package.Identity.Name = $signing.PackageName
+    $manifest.Package.Identity.Publisher = $signing.Publisher
     $manifest.Save((Join-Path $identity 'AppxManifest.xml'))
     Copy-Item -LiteralPath src\FluffHistory.Desktop\Assets -Destination $identity -Recurse
     & "$sdk\makeappx.exe" pack /d $identity /p (Join-Path $payload 'Identity.msix') /nv
@@ -106,7 +115,8 @@ try {
     & "$sdk\signtool.exe" sign /fd SHA256 /s My /sha1 $certificate.Thumbprint (Join-Path $payload 'Identity.msix')
     if ($LASTEXITCODE) { throw 'Identity signing failed.' }
     [ordered]@{schema=1;version=$version;releaseVersion=$release;developmentUpdateTesting=[bool]$DevelopmentUpdateTesting;gitCommit=$sourceSha;uncommittedChanges=$dirty;localizationCheckpoint=[bool]$LocalizationCheckpoint;architecture='x64';minimumWindows='10.0.22000.0';
-        packageIdentity='Sargonphin.FluffHistory.DeveloperPreview';identityVersion=$version;developmentSigning=$true;
+        packageIdentity=$signing.PackageName;packageFamily=$signing.PackageFamily;identityVersion=$version;developmentSigning=$signing.PeSigning;
+        signingMode=$SigningMode;productPeSigning=$(if ($signing.PeSigning) {'DevelopmentSelfSigned'} else {'Unsigned'});setupPeSigning=$(if ($signing.PeSigning) {'DevelopmentSelfSigned'} else {'Unsigned'});sparseIdentitySigning='SelfSigned';
         distributionTermsRevision=$distributionTerms.Revision;distributionTermsSha256=$distributionTerms.Sha256;
         certificateThumbprint=$certificate.Thumbprint;dotnetSdk=(& $DotNet --version);windowsAppSdk='2.5.1';
         dotnetSelfContained=$true;windowsAppSdkSelfContained=$true;innoSetup='7.1.0';
@@ -121,16 +131,19 @@ try {
     # Inno writes translation/deprecation warnings to stderr even on success. PS5's
     # native-command error handling must not replace the compiler's actual exit code.
     $compilerOut = Join-Path $staging 'inno-stdout.log'; $compilerErr = Join-Path $staging 'inno-stderr.log'
-    $compilerArguments = @("--define=Payload=`"$payload`"", "--define=ProductVersion=$version", "--define=ReleaseVersion=$release", "--define=DistributionTermsHash=$($distributionTerms.Sha256)", "--output-dir=`"$OutputDirectory`"", "`"$(Join-Path $repo 'installer\FluffHistory.iss')`"")
+    $compilerArguments = @("--define=Payload=`"$payload`"", "--define=ProductVersion=$version", "--define=ReleaseVersion=$release", "--define=PackageFamily=$($signing.PackageFamily)", "--define=SigningMode=$SigningMode", "--define=DistributionTermsHash=$($distributionTerms.Sha256)", "--output-dir=`"$OutputDirectory`"", "`"$(Join-Path $repo 'installer\FluffHistory.iss')`"")
     $compiler = Start-Process -FilePath $InnoCompiler -ArgumentList $compilerArguments -WindowStyle Hidden -Wait -PassThru -RedirectStandardOutput $compilerOut -RedirectStandardError $compilerErr
     Get-Content -LiteralPath $compilerOut | Write-Output
     Get-Content -LiteralPath $compilerErr | ForEach-Object { Write-Warning $_ }
     if ($compiler.ExitCode -ne 0) { throw "Setup compilation failed with exit code $($compiler.ExitCode)." }
     $setup = Join-Path $OutputDirectory 'Fluff-History-Setup.exe'
-    & "$sdk\signtool.exe" sign /fd SHA256 /s My /sha1 $certificate.Thumbprint $setup
-    if ($LASTEXITCODE) { throw 'Setup signing failed.' }
+    if ($signing.PeSigning) {
+        & "$sdk\signtool.exe" sign /fd SHA256 /s My /sha1 $certificate.Thumbprint $setup
+        if ($LASTEXITCODE) { throw 'Setup signing failed.' }
+    } elseif ((Get-AuthenticodeSignature -LiteralPath $setup).Status -ne 'NotSigned') { throw 'Public Setup must be unsigned.' }
     & "$PSScriptRoot\Test-VersionMetadata.ps1" -Path $setup -ProductVersion $version -ReleaseVersion $release
-    Copy-Item -LiteralPath (Join-Path $payload 'build-info.json'),(Join-Path $payload 'installed-files.json'),(Join-Path $payload 'Identity.msix'),(Join-Path $payload 'identity.cer'),(Join-Path $payload 'LICENSE') -Destination $OutputDirectory
+    Copy-Item -LiteralPath (Join-Path $payload 'build-info.json'),(Join-Path $payload 'installed-files.json'),(Join-Path $payload 'Identity.msix'),(Join-Path $payload 'LICENSE') -Destination $OutputDirectory
+    if ($signing.PeSigning) { Copy-Item -LiteralPath (Join-Path $payload 'identity.cer') -Destination $OutputDirectory }
     Copy-Item -LiteralPath $distributionTerms.File -Destination (Join-Path $OutputDirectory 'DistributionTerms.txt')
     Copy-Item -LiteralPath (Join-Path $payload 'ThirdPartyNotices') -Destination $OutputDirectory -Recurse
     $hash = (Get-FileHash -LiteralPath $setup).Hash

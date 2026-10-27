@@ -1,0 +1,11 @@
+Fluff-History uses the classic per-user Setup installer.
+
+Setup and the application executables are unsigned. Windows may show an unknown-publisher or reputation warning. Do not install files from an untrusted source.
+
+The modern Explorer context command uses a small, separately signed Windows identity package. With administrator approval, Setup installs its exact pinned public self-signed certificate into the computer's Trusted People store. This certificate trust affects every user of the computer; application and Explorer registration remain per-user. Only this certificate step requests elevation. This is local package trust, not publicly trusted Authenticode signing. No private signing key is included and no Trusted Root certificate is installed.
+
+If Windows cannot register this optional identity, Setup reports that the modern Explorer command is unavailable. The application, background Agent and classic native Properties page remain available. Run Setup again to retry registration.
+
+Automatic installer execution remains restricted to an approved publicly trusted signer. Install unsigned releases manually.
+
+Uninstall removes only trust installed by Fluff-History, after no user's matching package requires it. Removing that owned machine trust can also require administrator approval. Existing and unrelated certificates are preserved.

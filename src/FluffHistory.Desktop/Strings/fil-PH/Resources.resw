@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Tungkol dito</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Preview para sa mga developer ng Fluff-History</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Tuloy ang mga nakaiskedyul na backup kahit sarado ang window na ito. Kasama sa pag-install ng Fluff-History ang integrasyon sa Explorer at Mga Katangian. Sinusuportahan ang pagbawi gamit ang password at lokal na Windows access. Walang telemetry o awtomatikong pag-upload.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Binago ang file: {3:G}</value>
     <value>Binabago ng pagpapanumbalik ang aktuwal na file. Pananatilihin ang naka-save na kasaysayan.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Hindi magagamit ang Fluff-History. I-install ang preview para sa mga developer at subukan muli.</value>
+    <value>Hindi magagamit ang Fluff-History. Patakbuhin muli ang Setup upang ayusin ang pag-install.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Ibalik ang naka-save na bersyong ito sa orihinal na lokasyon? Magtatanong ang Windows tungkol sa salungatan sa kasalukuyang mga file. Pananatilihin ang naka-save na kasaysayan.</value>
@@ -2007,83 +2007,83 @@ Pinakalumang pinanatiling bersyon: buksan ang linya ng panahon para sa buong kas
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Ayusin ang pagbawi sa OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>I-off nang lokal…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Kailangang i-upgrade sa OneDrive ang lumang pagbawi.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Hindi pa na-configure ang eksperimental na pagbawi sa OneDrive sa build na ito.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Mag-sign in sa Microsoft para gamitin ang pagbawi sa OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Tinanggihan ang pag-sign in o pahintulot sa Microsoft. Available pa rin ang pagbawi gamit ang password.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Hindi available ang kinakailangang pahintulot sa app folder ng OneDrive. Available pa rin ang pagbawi gamit ang password.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>Kailangan ng internet ang pagbawi sa OneDrive. Available pa rin ang password at lokal na pag-access sa Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Hindi maberipika ngayon ang pagbawi sa OneDrive. Subukang muli mamaya o gamitin ang iyong password sa pagbawi.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>Abala ang OneDrive. Subukang muli mamaya.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>Hindi available o hindi pa naka-set up ang OneDrive para sa Microsoft account na ito. Gamitin ang iyong password sa pagbawi.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>Nagbago o hindi wasto ang susi sa pagbawi ng OneDrive. Gamitin ang iyong password sa pagbawi o ayusin ang pagbawi sa PC na kayang mag-unlock ng backup na ito.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Maaaring kailangan pa ring linisin ang OneDrive. Susi sa pagbawi lamang ang apektado; hindi nagbago ang password at pag-access sa Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Maaaring kailangan pa ring linisin ang OneDrive. File sa pagbawi: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>Gumagana ang pagbawi sa OneDrive, pero hindi ganap na maalis ang lumang kredensyal sa pagbawi ng Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>I-off nang lokal ang pagbawi sa OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Inaalis nito ang link ng backup para sa pagbawi sa OneDrive nang hindi binubura ang file sa pagbawi sa cloud. Maaaring kailanganin mong manu-manong alisin ang file na iyon sa OneDrive. Hindi nagbago ang password at pag-access sa Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>Naka-off nang lokal ang pagbawi sa OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Ayusin ang pagbawi sa OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Gumawa at beripikahin ang bagong susi sa pagbawi bago ihinto ang paggamit ng luma. Pananatilihin ang mga nabagong file sa cloud.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Mga update</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Channel ng update</value></data>
@@ -2121,4 +2121,13 @@ Pinakalumang pinanatiling bersyon: buksan ang linya ng panahon para sa buong kas
   <data name="Update_Confirm" xml:space="preserve"><value>May kasalukuyang pag-backup. Ihinto ito at i-install ang update?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Ihinto ang backup at i-install</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Hindi pa nasusuri</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>Tapos na ang paglilinis ng OneDrive.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Subukang muli ang paglilinis sa cloud</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Na-install na. Hindi available ang modernong utos ng Explorer; gumagana ang app at pahina ng Properties. Patakbuhin muli ang Setup.</value>
+  </data>
 </root>

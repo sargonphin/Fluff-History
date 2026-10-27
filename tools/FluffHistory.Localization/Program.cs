@@ -37,6 +37,7 @@ else if (args[0] == "validate")
         try
         {
             var translated = CatalogValidation.Read(CatalogValidation.Load(path));
+            errors.AddRange(CatalogValidation.ReleaseBranding(translated).Select(e => tag + ": " + e));
             errors.AddRange(CatalogValidation.Compare(english, translated, tag).Select(e => tag + ": " + e));
             if (tag != "en-US") errors.AddRange(TranslationHygiene.Check(english, translated,
                 exceptions.GetValueOrDefault(tag) ?? []).Select(e => tag + ": " + e));

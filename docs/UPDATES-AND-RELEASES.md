@@ -1,9 +1,18 @@
 # Updates and releases
 
-Source builds default to a development identity. A locally signed Setup does not
-automatically meet the updater's publisher trust requirements. Production execution
-requires an explicitly reviewed signing identity; the default source composition
-does not configure an approved publisher certificate.
+Version 1.0 uses intentionally unsigned Setup and application binaries. Installation
+is manual: download `Fluff-History-Setup.exe` from this project's public GitHub
+Releases and review its origin and checksum. Windows may show an unknown-publisher or
+reputation warning. A checksum detects a changed download; it is not a signing identity.
+
+The separately self-signed sparse identity needs its exact certificate in the
+computer's TrustedPeople store, with administrator approval. Its package and Explorer
+registration remain per-user. That certificate is not an approved
+public-update signer. The updater remains fail-closed: it may announce an unsigned
+release, but will not automatically execute its unsigned installer. In-app installer
+execution, including explicit manual handoff, still requires the full signer gate.
+Install unsigned releases directly through ordinary Setup. Future trusted signing
+needs a separate publisher/compatibility review.
 
 ## Release identity
 
@@ -16,7 +25,7 @@ its first three components must match the declared release. An unpublished
 
 Publisher assets use the exact name `Fluff-History-Setup.exe`. GitHub tag, prerelease
 flag, uploaded asset identity, size, fixed download/page URLs, semantic release and
-signed product/company/description/build metadata must agree. Missing GitHub SHA-256
+product/company/description/build metadata must agree. Missing GitHub SHA-256
 makes a valid release announcement-only. Drafts, malformed identities and ambiguous
 equal versions cannot authorize execution; equal/older releases never downgrade.
 
@@ -72,7 +81,7 @@ normal preferences or environment variables. It must not be used as a public pac
 
 ## Handoff and ordinary Setup
 
-Agent retains shared mutation admission through drained shutdown. The signed
+Agent retains shared mutation admission through drained shutdown. The
 single-file helper validates its hash/request and binds exact processes by PID,
 start time, installed path, current user and session. Ready/commit events and an
 exclusive startup barrier bridge process exit to Setup's existing installation lock.
@@ -93,7 +102,8 @@ installer so new terms can be accepted or cancelled. Legacy helpers that always 
 silent may require one direct interactive Setup. See [licensing](LICENSING.md).
 
 Current Setup includes independent Desktop and Start menu shortcut choices, both
-initially selected. Development signing may require narrowly scoped Windows trust
-setup; it is disclosed and not equivalent to public signing or MS Store approval.
+initially selected. Public Setup/application PE files stay unsigned; only the sparse
+package has the pinned self-signed identity. Local sparse trust and development
+signing are disclosed and are not equivalent to public signing or Store approval.
 [BUILDING](BUILDING.md) gives reproducible commands, [LICENSING](LICENSING.md) the
 distribution inventory, and [TESTING](TESTING.md) the limits of installed evidence.

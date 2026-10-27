@@ -7,6 +7,12 @@
 #ifndef ReleaseVersion
  #define ReleaseVersion "development"
 #endif
+#ifndef PackageFamily
+ #define PackageFamily "Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr"
+#endif
+#ifndef SigningMode
+ #define SigningMode "Development"
+#endif
 [Setup]
 SetupArchitecture=x64
 AppId={{7753C55A-17C1-4BC2-B36C-2A8B95E93221}
@@ -33,7 +39,11 @@ Compression=lzma2/fast
 SolidCompression=yes
 WizardStyle=modern
 LanguageDetectionMethod=uilanguage
+#if SigningMode == "UnsignedPublic"
+InfoBeforeFile=UnsignedPublic.txt
+#else
 InfoBeforeFile=DevelopmentPreview.txt
+#endif
 LicenseFile=DistributionTerms.txt
 CloseApplications=no
 RestartApplications=no
@@ -50,8 +60,8 @@ Name: desktopicon; Description: "{cm:Installer_DesktopShortcut}"; GroupDescripti
 Name: startmenuicon; Description: "{cm:Installer_StartMenuShortcut}"; GroupDescription: "{cm:Installer_ShortcutsGroup}"
 
 [Icons]
-Name: "{userdesktop}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr!App"; Tasks: desktopicon
-Name: "{userprograms}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr!App"; Tasks: startmenuicon
+Name: "{userdesktop}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "{#PackageFamily}!App"; Tasks: desktopicon
+Name: "{userprograms}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "{#PackageFamily}!App"; Tasks: startmenuicon
 
 [InstallDelete]
 Type: files; Name: "{userdesktop}\Fluff-History.lnk"; Tasks: not desktopicon
@@ -180,6 +190,9 @@ begin
   if (PageID = wpFinished) and RegistrationFailed then begin
     WizardForm.FinishedHeadingLabel.Caption := CustomMessage('Installer_AttentionTitle');
     WizardForm.FinishedLabel.Caption := CustomMessage('Installer_AttentionBody');
+  end else if (PageID = wpFinished) and FileExists(ExpandConstant('{localappdata}\Fluff-History\Installer\integration-warning.txt')) then begin
+    WizardForm.FinishedHeadingLabel.Caption := CustomMessage('Installer_AttentionTitle');
+    WizardForm.FinishedLabel.Caption := CustomMessage('Installer_ExplorerUnavailable');
   end;
 end;
 

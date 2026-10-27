@@ -7,7 +7,7 @@ This tool is deliberately absent from the solution, installer and normal CI.
 
 ```powershell
 dotnet run --project tools/FluffHistory.OneDriveSmoke -c Release `
-  -p:ArtifactsPath=D:\FluffHistoryDiagnostics\M203\LiveTool -- `
+  -p:ArtifactsPath=D:\FluffHistoryDiagnostics\OneDrive\LiveTool -- `
   --run-live --client-id <real-public-client-guid> `
   --evidence D:\OwnedDiagnostics\appfolder-evidence.json
 ```

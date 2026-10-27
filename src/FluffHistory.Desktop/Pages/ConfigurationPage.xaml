@@ -89,6 +89,10 @@
       </StackPanel>
       <InfoBar loc:Localize.Uid="Configuration_InfoBar_ExperimentalRecovery" IsOpen="True" IsClosable="False" Severity="Informational" Message="{x:Bind Model.ExperimentalExplanation, Mode=OneWay}" />
      </StackPanel>
+     <StackPanel Spacing="8" Visibility="{x:Bind Model.HasPendingCloudCleanup, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+      <TextBlock Text="{x:Bind Model.CloudCleanupStatus, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+      <Button Content="{x:Bind Model.RetryCloudCleanupLabel, Mode=OneWay}" Command="{x:Bind Model.RetryCloudCleanup}" />
+     </StackPanel>
      <CheckBox loc:Localize.Uid="Configuration_CheckBox_WaitForPowerState" IsChecked="{x:Bind Model.BlockUnknownPower, Mode=TwoWay}" />
      <Button loc:Localize.Uid="Configuration_Button_Reset" Command="{x:Bind Model.Reset}" />
     </StackPanel></Expander>

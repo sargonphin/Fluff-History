@@ -12,11 +12,11 @@ namespace FluffHistory.Tests;
 [Collection("SMB diagnostics"), Trait("Category", "MetadataDiagnostic")]
 public sealed class SmbNetworkMeasurementTests(ITestOutputHelper output)
 {
-    internal static string Root => Environment.GetEnvironmentVariable("FLUFF_HISTORY_M19_LOCAL_ROOT")
-        ?? throw new InvalidOperationException("Set FLUFF_HISTORY_M19_LOCAL_ROOT to an owned disposable diagnostic directory.");
+    internal static string Root => Environment.GetEnvironmentVariable("FLUFF_HISTORY_SMB_LOCAL_ROOT")
+        ?? throw new InvalidOperationException("Set FLUFF_HISTORY_SMB_LOCAL_ROOT to an owned disposable diagnostic directory.");
     internal static string Remote => Environment.GetEnvironmentVariable("FLUFF_HISTORY_SMB_TEST_ROOT")
         ?? throw new InvalidOperationException("Set FLUFF_HISTORY_SMB_TEST_ROOT to an owned UNC directory.");
-    internal static bool After => Environment.GetEnvironmentVariable("FLUFF_HISTORY_M19_PHASE") == "after";
+    internal static bool After => Environment.GetEnvironmentVariable("FLUFF_HISTORY_SMB_MEASUREMENT_PHASE") == "after";
     internal static string ResultDirectory => Path.Combine(Root, After ? "results-after" : "results");
     internal static readonly JsonSerializerOptions Json = new() { WriteIndented = true, IncludeFields = true };
     internal static MaintenanceLimits Limits => new(MaximumRecords: 4_000_000, MaximumOutputBytes: 2L * 1024 * 1024 * 1024,

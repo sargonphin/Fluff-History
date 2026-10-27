@@ -22,7 +22,6 @@ using Microsoft::WRL::ComPtr;
 namespace fh {
 inline HINSTANCE module{};
 inline std::atomic<long> objects{};
-inline constexpr wchar_t AppId[] = L"Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr!App";
 inline constexpr uint32_t Magic = 0x31485346, MaxBody = 128 * 1024;
 inline constexpr CLSID CommandId = {0x80f01e21,0xb634,0x4183,{0x83,0x4e,0xcf,0x09,0xd7,0x24,0x24,0x01}};
 inline constexpr CLSID PropertiesId = {0x80f01e21,0xb634,0x4183,{0x83,0x4e,0xcf,0x09,0xd7,0x24,0x24,0x02}};
@@ -90,9 +89,47 @@ inline std::wstring RequestsDirectory(){
  OrdinaryDirectories(path);path+=L"\\Fluff-History";Check(CreateDirectoryW(path.c_str(),nullptr)||GetLastError()==ERROR_ALREADY_EXISTS);OrdinaryDirectories(path);
  path+=L"\\ShellRequests";Check(CreateDirectoryW(path.c_str(),nullptr)||GetLastError()==ERROR_ALREADY_EXISTS);OrdinaryDirectories(path);return path;
 }
+inline bool ActivationArguments(const std::wstring& arguments){
+ for(const auto* prefix:{L"--shell-request ",L"--shell-broker "}){
+  auto length=wcslen(prefix);if(arguments.compare(0,length,prefix)==0)return Token(arguments.substr(length));
+ }
+ return false;
+}
+inline std::wstring InstalledDesktop(const std::wstring& root){
+ // Resolve the active Setup version, not the version of an already-loaded Shell DLL.
+ // Properties must also work when optional sparse identity registration is unavailable.
+ OrdinaryDirectories(root);
+ Handle marker(CreateFileW((root+L"\\current-version.txt").c_str(),GENERIC_READ,FILE_SHARE_READ,nullptr,OPEN_EXISTING,FILE_FLAG_OPEN_REPARSE_POINT,nullptr));
+ Check(marker.valid());FILE_ATTRIBUTE_TAG_INFO attributes{};LARGE_INTEGER size{};char bytes[32]{};DWORD read{};
+ Check(GetFileInformationByHandleEx(marker.value,FileAttributeTagInfo,&attributes,sizeof(attributes)) &&
+  !(attributes.FileAttributes&(FILE_ATTRIBUTE_REPARSE_POINT|FILE_ATTRIBUTE_DIRECTORY)) &&
+  GetFileSizeEx(marker.value,&size) && size.QuadPart>0 && size.QuadPart<static_cast<LONGLONG>(sizeof(bytes)) &&
+  ReadFile(marker.value,bytes,static_cast<DWORD>(size.QuadPart),&read,nullptr) && read==static_cast<DWORD>(size.QuadPart));
+ std::string version(bytes,read);if(!version.empty() && version.back()=='\n'){version.pop_back();if(!version.empty() && version.back()=='\r')version.pop_back();}
+ unsigned parts{},value{},digits{};bool nonzero=false;std::wstring wide;
+ for(char c:version){
+  if(c=='.'){Check(digits>0 && parts<3);++parts;digits=0;value=0;}
+  else{Check(c>='0' && c<='9' && digits<5 && !(digits && value==0));value=value*10+static_cast<unsigned>(c-'0');Check(value<=65535);++digits;nonzero|=value!=0;}
+  wide.push_back(static_cast<wchar_t>(c));
+ }
+ Check(parts==3 && digits>0 && nonzero);
+ auto directory=root+L"\\Versions\\"+wide;OrdinaryDirectories(directory);
+ auto executable=directory+L"\\FluffHistory.Desktop.exe";auto flags=GetFileAttributesW(executable.c_str());
+ Check(flags!=INVALID_FILE_ATTRIBUTES && !(flags&(FILE_ATTRIBUTE_DIRECTORY|FILE_ATTRIBUTE_REPARSE_POINT)));return executable;
+}
+inline HRESULT ActivateInstalled(const std::wstring& root,const std::wstring& arguments){
+ return Boundary([&](){if(!ActivationArguments(arguments))return E_INVALIDARG;
+  auto executable=InstalledDesktop(root);auto command=L"\""+executable+L"\" "+arguments;Check(command.size()<32767);
+  STARTUPINFOW startup{};startup.cb=sizeof(startup);PROCESS_INFORMATION process{};
+  if(!CreateProcessW(executable.c_str(),command.data(),nullptr,nullptr,FALSE,CREATE_NO_WINDOW,nullptr,root.c_str(),&startup,&process))return HRESULT_FROM_WIN32(GetLastError());
+  Handle thread(process.hThread),child(process.hProcess);return S_OK;
+ });
+}
 inline HRESULT Activate(const std::wstring& arguments){
- ComPtr<IApplicationActivationManager> activation;HRESULT hr=CoCreateInstance(CLSID_ApplicationActivationManager,nullptr,CLSCTX_INPROC_SERVER,IID_PPV_ARGS(&activation));
- if(FAILED(hr))return hr;DWORD process{};return activation->ActivateApplication(AppId,arguments.c_str(),AO_NOERRORUI,&process);
+ return Boundary([&](){PWSTR raw{};auto hr=SHGetKnownFolderPath(FOLDERID_LocalAppData,0,nullptr,&raw);if(FAILED(hr))return hr;
+  std::unique_ptr<wchar_t,decltype(&CoTaskMemFree)> free(raw,CoTaskMemFree);
+  return ActivateInstalled(std::wstring(raw)+L"\\Programs\\Fluff-History",arguments);
+ });
 }
 inline HRESULT Browse(const Selection& selection){
  return Boundary([&](){auto directory=RequestsDirectory();auto token=RandomToken();auto path=directory+L"\\"+token+L".request";

@@ -36,7 +36,7 @@ public sealed class CurrentCatalogMeasurementTests(ITestOutputHelper output)
         Assert.Equal(before, Inventory(temp.Child()));
         Assert.False(Directory.Exists(Path.Combine(temp.Child(), "staging")));
 
-        // Exercise real M12 preparation/publication for a small change set against the large catalog.
+        // Exercise real mutation preparation/publication for a small change set against the large catalog.
         using (var writer = repo.OpenWriter())
         using (var reader = repo.OpenReader())
         {

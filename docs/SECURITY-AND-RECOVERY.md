@@ -128,7 +128,43 @@ than rolling it back. Cancellation pauses, never reverses completed payload chan
 Capacity checks take no compression credit and never pressure-delete history to
 make conversion fit. Insufficient space or uncertain controls require attention.
 
-After verified decryption, the local OneDrive sidecar is retired. A late crash/pause after local-sidecar retirement can lose exact remote cleanup coordinates and leave a cloud-only random secret. It cannot unwrap the master without the missing protected local half. Never compensate with broad listing or wildcard deletion.
+Before decryption retires the local OneDrive sidecar, it flushes and reads back a
+user-DPAPI-protected `onedrive-cleanup-<operation>.dat` record in the repository root.
+It contains only exact repository/generation/item/eTag/hash coordinates and the
+conversion operation and bootstrap hashes, never a master, password, cloud secret or
+sign-in token. This is local cleanup bookkeeping; `state.json` remains sole history
+authority. A failed record write leaves the recovery sidecar intact and conversion
+resumable. A completed decryption does not depend on cloud availability.
+
+After a crash, finish any pending conversion first. Configuration's Advanced section
+offers an explicit cloud-cleanup retry after local conversion has completed. It
+authenticates only after local validation and retains exclusive writer ownership
+through acknowledgement. A retry reads only the recorded item IDs, validates their
+canonical content, and deletes with their recorded eTags. An already-absent response
+to that conditional delete acknowledges completion only after the same invocation
+verified the recorded object. Changed content, eTags, preconditions, network failures,
+cancellation and unreadable records preserve the obligation and any changed object.
+No listing, guessed deletion or background sign-in occurs.
+
+Select the Microsoft account originally used to enable recovery. The local reference
+does not bind an account ID: an initial not-found response cannot prove absence in
+the original account and therefore retains the record. This also applies if the
+object was already deleted, including an interruption between remote deletion and
+local acknowledgement. Without new ownership proof, a cleanup notice can persist
+and eventually reach the eight-record admission limit. No automatic expiry or
+guessed deletion resolves that uncertainty; deliberately discarding local bookkeeping
+abandons its future cloud cleanup and can leave residue, without changing history.
+
+At most eight exact obligations are retained per repository, with no timed expiry;
+finish explicit cleanup before accumulating more. Removal happens only after proven
+exact deletion/absence. Moving the repository within the same Windows profile keeps
+cleanup usable. Another profile cannot unwrap the record; losing its DPAPI profile
+or deleting the record can leave harmless cloud-only residue that cannot be guessed
+away. Corrupt bookkeeping never prevents ordinary history/password access.
+Re-encryption does not automatically consume prior decryption obligations. Explicit
+retry can remove retired generations on either mode, protecting any currently active
+recovery generation/item. A full ledger is rejected before fencing the next decryption,
+so explicit retry remains available. A recreated repository cannot adopt old coordinates.
 
 Remote cleanup is
 best effort and can require an exact later cleanup; authentication failure cannot

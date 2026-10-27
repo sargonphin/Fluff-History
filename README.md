@@ -93,12 +93,12 @@ More detail: [Explorer integration](docs/SHELL-INTEGRATION.md)
 
 Fluff-History has a large automated and environment-specific validation surface rather than relying only on UI smoke tests
 
-At the reviewed **2026-10-26** baseline
+In the **Release 1.0 Windows validation baseline**
 
 <table>
-<tr><td>✅ <strong>1,701 managed tests passed</strong>, 6 environment/platform-dependent tests were skipped and <strong>0 failed</strong> in the ordinary Windows Release suite</td></tr>
-<tr><td>🪟 Native Shell validation passed <strong>267 checks</strong>, plus malformed-response, disconnect, outstanding-read, queued-worker and rapid-lifetime stress cases</td></tr>
-<tr><td>🌍 All <strong>44 localization catalogs / 671 keys</strong> passed structural and generation guards</td></tr>
+<tr><td>✅ <strong>1,748 managed tests passed</strong>, 6 environment/platform-dependent tests were skipped and <strong>0 failed</strong> in the ordinary Windows Release suite</td></tr>
+<tr><td>🪟 Native Shell validation passed <strong>325 checks</strong>, plus malformed-response, disconnect, outstanding-read, queued-worker and rapid-lifetime stress cases</td></tr>
+<tr><td>🌍 All <strong>44 localization catalogs</strong> passed structural and generation guards</td></tr>
 <tr><td>🌐 Validation has included multi-machine environments spanning VMs and bare-metal hosts, with real network paths and Windows/Samba SMB scenarios rather than only simulated network responses</td></tr>
 <tr><td>🔐 Authentication dependency hashes and licenses, installer lifecycle rules, version policy, crypto and recovery fault stages, retention, capacity, update state, restore, and repository corruption paths have dedicated regression coverage</td></tr>
 <tr><td>🧰 Separate opt-in suites exist for real SMB faults, large metadata populations, live Microsoft-account recovery, installed lifecycle and other environment-specific behavior</td></tr>
@@ -127,6 +127,10 @@ Fluff-History targets **Windows 11 x64, build 22000 or later**
 
 The application uses a self-contained per-user Setup. No separately installed .NET runtime or LocalSystem service is required
 
+Version 1.0 Setup and application binaries are unsigned; Windows may show an unknown-publisher or reputation warning. Only the small Explorer identity package is self-signed. Setup verifies its pinned public certificate and trusts it in LocalMachine TrustedPeople with administrator approval. This is local package trust, not publicly trusted application signing. If Windows refuses that optional integration, Setup reports the missing modern context command while the app, Agent and native Properties page remain available
+
+Install unsigned releases manually. The built-in updater retains its approved Authenticode signer requirement and cannot execute an unsigned installer. See [updates and releases](docs/UPDATES-AND-RELEASES.md)
+
 For source builds and development installers, see [Building Fluff-History](docs/BUILDING.md)
 
 Release identity and updater behavior are documented in [Updates and releases](docs/UPDATES-AND-RELEASES.md)
@@ -148,8 +152,6 @@ Release identity and updater behavior are documented in [Updates and releases](d
 <tr><td>🗺️ <strong><a href="docs/ROADMAP.md">Roadmap</a></strong> - Known limits and future work</td></tr>
 <tr><td>⚖️ <strong><a href="docs/LICENSING.md">Licensing and provenance</a></strong> - Dependency, runtime and artwork licensing details</td></tr>
 </table>
-
-Historical implementation decisions are compacted under [`docs/milestones/`](docs/milestones/) and are not competing specifications for current behavior
 
 ## 🤝 Contributing
 

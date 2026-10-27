@@ -12,8 +12,8 @@ namespace FluffHistory.Tests;
 [Trait("Category", "MetadataDiagnostic")]
 public sealed class Format4DesignGateTests(ITestOutputHelper output)
 {
-    internal static string Root => Environment.GetEnvironmentVariable("FLUFF_HISTORY_M191_ROOT")
-        ?? throw new InvalidOperationException("Set FLUFF_HISTORY_M191_ROOT to owned disposable storage.");
+    internal static string Root => Environment.GetEnvironmentVariable("FLUFF_HISTORY_FORMAT_DIAGNOSTIC_ROOT")
+        ?? throw new InvalidOperationException("Set FLUFF_HISTORY_FORMAT_DIAGNOSTIC_ROOT to owned disposable storage.");
 
     [Format3CompressionDiagnosticFact]
     public void MeasureBaselineCandidates()

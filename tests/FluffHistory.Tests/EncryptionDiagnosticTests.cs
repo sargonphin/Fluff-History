@@ -16,7 +16,7 @@ public sealed class EncryptionDiagnosticTests(ITestOutputHelper output)
     [ExternalM20RecoveryFact] [Trait("Category", "MetadataDiagnostic")]
     public void RecoverWindowsWrittenRepositoryOnCleanEnvironment()
     {
-        using var repo = Repository.OpenWithPassword(Environment.GetEnvironmentVariable("FLUFF_HISTORY_M20_EXTERNAL_REPOSITORY")!, EncryptionTests.Password);
+        using var repo = Repository.OpenWithPassword(Environment.GetEnvironmentVariable("FLUFF_HISTORY_ENCRYPTION_EXTERNAL_REPOSITORY")!, EncryptionTests.Password);
         using var reader = repo.OpenReader(); Assert.Equal(1001, reader.EnumerateCurrentComparison().Count());
         var version = reader.GetNewestVersion(new(FoundationTests.Root, "sparse-extra-file"))!;
         using var payload = reader.OpenVersionPayload(version.Identity)!; using var copy = new MemoryStream(); payload.Content.CopyTo(copy);
@@ -66,7 +66,7 @@ public sealed class EncryptionDiagnosticTests(ITestOutputHelper output)
             var bootstrapPath = Path.Combine(copy, "repository.json"); var bootstrap = RepositoryBootstrap.Read(copy) with { WindowsUserKey = null }; File.WriteAllBytes(bootstrapPath, bootstrap.Bytes());
             using var recovered = Repository.OpenWithPassword(copy, EncryptionTests.Password); using var copied = recovered.OpenReader(); Assert.Equal(1001, copied.EnumerateCurrentComparison().Count());
             // Optional export is a synthetic repository only, for independent Linux production recovery.
-            var export = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M20_RECOVERY_COPY");
+            var export = Environment.GetEnvironmentVariable("FLUFF_HISTORY_ENCRYPTION_RECOVERY_COPY");
             if (export is not null)
             {
                 Directory.CreateDirectory(export);
@@ -76,7 +76,7 @@ public sealed class EncryptionDiagnosticTests(ITestOutputHelper output)
         }
         var evidence = new { passwordKdfIterations = 600000, unlockMs, metadataEncryptedOverheadPerBlock = 96, queries, payloads, copiedRecoveryWithoutWindowsSlot = "passed", timingContext = "native Windows VM; uncontrolled OS caches; not CI thresholds or SMB wire counters" };
         var json = JsonSerializer.Serialize(evidence, new JsonSerializerOptions { WriteIndented = true }); output.WriteLine(json);
-        var pathOut = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M20_EVIDENCE"); if (pathOut is not null) File.WriteAllText(pathOut, json);
+        var pathOut = Environment.GetEnvironmentVariable("FLUFF_HISTORY_ENCRYPTION_EVIDENCE"); if (pathOut is not null) File.WriteAllText(pathOut, json);
     }
 
     [MetadataDiagnosticFact] [Trait("Category", "MetadataDiagnostic")]
@@ -92,11 +92,11 @@ public sealed class EncryptionDiagnosticTests(ITestOutputHelper output)
         var result = await new InteractiveRestore(repo).RestoreAsync(request); watch.Stop();
         Assert.Equal(7, result.Copied); Assert.Equal(0, result.HResult); Assert.Empty(result.Problems); Assert.Equal(1, result.PerformOperationsCount);
         Assert.Equal(7, result.PlaintextStagingFiles); Assert.Equal(result.PlannedBytes, result.PlaintextStagingBytes);
-        var evidence = JsonSerializer.Serialize(new { kind = "M20-native-Shell", result.Copied, result.PlannedBytes, result.VerificationBytes, result.PeakVerificationHandles,
+        var evidence = JsonSerializer.Serialize(new { kind = "Encrypted-native-Shell", result.Copied, result.PlannedBytes, result.VerificationBytes, result.PeakVerificationHandles,
             result.PlaintextStagingBytes, result.PlaintextStagingFiles, stagingMs = result.PlaintextStagingElapsedTicks * 1000.0 / Stopwatch.Frequency,
             elapsedMs = watch.Elapsed.TotalMilliseconds, allocations = GC.GetTotalAllocatedBytes(true) - allocated, liveBytes = GC.GetTotalMemory(false) });
         output.WriteLine(evidence);
-        var evidencePath = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M20_SHELL_EVIDENCE"); if (evidencePath is not null) File.WriteAllText(evidencePath, evidence);
+        var evidencePath = Environment.GetEnvironmentVariable("FLUFF_HISTORY_ENCRYPTION_SHELL_EVIDENCE"); if (evidencePath is not null) File.WriteAllText(evidencePath, evidence);
         using var reader = repo.OpenReader(); var buffer = new byte[128 * 1024];
         foreach (var id in identities)
         {
@@ -111,5 +111,5 @@ public sealed class EncryptionDiagnosticTests(ITestOutputHelper output)
 public sealed class ExternalM20RecoveryFactAttribute : FactAttribute
 {
     public ExternalM20RecoveryFactAttribute()
-    { if (Environment.GetEnvironmentVariable("FLUFF_HISTORY_M20_EXTERNAL_REPOSITORY") is null) Skip = "Requires a copied synthetic Windows-written M20 repository."; }
+    { if (Environment.GetEnvironmentVariable("FLUFF_HISTORY_ENCRYPTION_EXTERNAL_REPOSITORY") is null) Skip = "Requires a copied synthetic Windows-written encrypted repository."; }
 }
