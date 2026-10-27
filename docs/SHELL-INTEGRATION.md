@@ -69,8 +69,8 @@ the current design does not use a cancelling cleanup group. A queued callback af
 page closure releases its ownership without activating a broker. Generation checks
 reject stale window notifications. Native regressions exercise blocked-pool queued
 closure and default-pool rapid closure, alongside malformed replies, disconnect and
-outstanding reads. The historical thread-pool review is summarized in
-[M24](milestones/M24-EXPLORER-INTEGRATION.md).
+outstanding reads. Closing the work object does not cancel its queued callbacks;
+explicit cancellation is a separate thread-pool operation.
 
 Application path resolution uses explicit normalized runtime mappings and stable
 root UUIDs, not OriginalPath or leaf-name similarity. Nested-root barriers remain
@@ -80,6 +80,15 @@ Activation arguments contain only a fixed switch and token; one exact bounded
 traversal is rejected. Cleanup examines at most 64 entries and removes only exact
 ordinary token files older than one day. Requests remain untrusted same-user input.
 
+Native activation resolves Setup's bounded `current-version.txt` under the current
+user's fixed installation directory and starts that version's exact Desktop EXE.
+Only the broker/request switches with one validated token are accepted. This avoids
+depending on sparse package activation for the classic Properties broker and lets
+an already-loaded DLL select the active installed version after an upgrade. Invalid
+markers, missing executables and reparse paths fail closed. Launch does not wait for
+the child process; Properties performs it on its worker. Existing AppInstance
+admission still separates brokers from the single management window.
+
 ## Deployment and limits
 
 Unified per-user Setup installs immutable versioned native files, sparse identity
@@ -87,6 +96,24 @@ for the modern command, and exact HKCU x64 CLSID/Apartment Properties registrati
 Update/uninstall unregister before exact inventory/hash-bound file cleanup. A loaded
 DLL may defer physical retirement until its host exits normally; Explorer is never
 killed or restarted. Static MSVC runtime linkage avoids a Visual Studio prerequisite.
+
+The public composition leaves Setup and Fluff-History binaries unsigned. A dedicated
+stable self-signed certificate signs only the sparse identity, whose package name is
+`Sargonphin.FluffHistory`. Setup verifies the exact pinned public DER, subject and
+thumbprint before installing it into LocalMachine TrustedPeople. No Trusted Root or
+private key is installed. This exact package requires machine trust on Windows;
+user-only trust fails with 0x800B0109. Only this certificate step requests administrator
+approval. Owned trust is recorded separately and removed only after the same-publisher
+product package is absent for all users; pre-existing trust and unrelated certificates
+are preserved. Development-preview identity/trust is a separate composition.
+
+If Windows refuses sparse trust or registration, Setup reports the modern context
+command as unavailable and retains that fact in About diagnostics. It continues
+classic native Properties registration and Agent/application installation. Data and
+history never depend on sparse identity. A changed pin or unowned/unexpected package
+is a fatal admission error, not a reason to import an arbitrary certificate. Rerunning
+Setup retries optional integration. Existing owned preview identity is retired during
+the transition, with rollback retaining its exact prior package and payload.
 
 Archived full-MSIX development helpers required separate Properties registration;
 they are not the current deployment workflow. Neither the Properties broker nor

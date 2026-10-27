@@ -31,7 +31,7 @@ public sealed class OwnershipEnrollmentTests
                 after["repository.json"] = before["repository.json"]; Assert.Equal(before, after);
             }
         }
-        await using (var child = WriterProcess.Start("m201-silent-open", directory))
+        await using (var child = WriterProcess.Start("silent-open", directory))
         { await child.WaitUntilReadyAsync(); Assert.Equal(0, await child.ExitCodeAsync()); }
         using var recovered = Repository.OpenWithPassword(directory, EncryptionTests.Password);
         using var reader = recovered.OpenReader(); Assert.Single(reader.EnumerateCurrent());

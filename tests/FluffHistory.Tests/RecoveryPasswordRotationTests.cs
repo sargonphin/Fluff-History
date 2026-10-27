@@ -84,7 +84,7 @@ public sealed class RecoveryPasswordRotationTests
             Assert.Equal(before, TemporaryDirectory.Snapshot(temp.Child()));
             repository.ChangeRecoveryPassword(NewPassword);
         }
-        await using var child = WriterProcess.Start("m201-silent-open", temp.Child());
+        await using var child = WriterProcess.Start("silent-open", temp.Child());
         await child.WaitUntilReadyAsync(); Assert.Equal(0, await child.ExitCodeAsync());
     }
 

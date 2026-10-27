@@ -8,8 +8,8 @@
 
  <presentation:PageLayout.Body>
 <StackPanel Style="{StaticResource PageSections}">
-   <TextBlock loc:Localize.Uid="Diagnostics_TextBlock_PreviewTitle" Style="{StaticResource SectionTitle}" />
-   <TextBlock loc:Localize.Uid="Diagnostics_TextBlock_PreviewCapabilities" Style="{StaticResource SecondaryText}" />
+   <TextBlock loc:Localize.Uid="Diagnostics_TextBlock_ProductTitle" Style="{StaticResource SectionTitle}" />
+   <TextBlock loc:Localize.Uid="Diagnostics_TextBlock_Capabilities" Style="{StaticResource SecondaryText}" />
    <Button loc:Localize.Uid="Diagnostics_Button_Copy" Command="{x:Bind Model.Copy}" />
    <TextBlock loc:Localize.Uid="Diagnostics_TextBlock_DiagnosticsPrivacy" Style="{StaticResource SecondaryText}" />
    <TextBlock loc:Localize.Uid="Diagnostics_TextBlock_DiagnosticsName" Text="{x:Bind Model.Summary, Mode=OneWay}" Style="{StaticResource BodyText}" FontFamily="Consolas" />

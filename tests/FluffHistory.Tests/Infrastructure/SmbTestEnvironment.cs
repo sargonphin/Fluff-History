@@ -29,16 +29,16 @@ internal sealed class SmbTestEnvironment : IDisposable
             throw new ArgumentException("SMB tests require an ordinary UNC test root.");
         var owned = "case-" + Guid.NewGuid().ToString("N");
         Remote = Path.Combine(Path.GetFullPath(root), owned);
-        Local = Path.Combine(Path.GetTempPath(), "FluffHistory-M19-" + Guid.NewGuid().ToString("N"));
+        Local = Path.Combine(Path.GetTempPath(), "FluffHistory-Smb-" + Guid.NewGuid().ToString("N"));
         Directory.CreateDirectory(Remote); Directory.CreateDirectory(Local);
-        File.WriteAllText(Path.Combine(Remote, ".m19-owned"), owned);
+        File.WriteAllText(Path.Combine(Remote, ".smb-owned"), owned);
     }
     public void Dispose()
     {
         // Both exact generated roots are owned by this instance; never delete the configured share/root.
         var name = Path.GetFileName(Remote);
         if (!name.StartsWith("case-", StringComparison.Ordinal) || !Guid.TryParseExact(name[5..], "N", out _) ||
-            File.ReadAllText(Path.Combine(Remote, ".m19-owned")) != name) throw new IOException("SMB cleanup ownership mismatch.");
+            File.ReadAllText(Path.Combine(Remote, ".smb-owned")) != name) throw new IOException("SMB cleanup ownership mismatch.");
         Directory.Delete(Remote, true); Directory.Delete(Local, true);
     }
 }

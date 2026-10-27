@@ -4,6 +4,7 @@ $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 if ([Environment]::OSVersion.Platform -ne 'Win32NT') { throw 'Developer Preview packaging requires Windows.' }
 $repository = Split-Path $PSScriptRoot -Parent
+& "$PSScriptRoot\Test-DotNetSdk.ps1" -DotNet $DotNet
 Push-Location $repository
 try {
     $sha = (& git rev-parse HEAD).Trim()
@@ -68,7 +69,7 @@ try {
         certificateSubject = $subject; certificateThumbprint = $certificate.Thumbprint;
         msixSha256 = (Get-FileHash -LiteralPath $msix -Algorithm SHA256).Hash;
         propertySheetSha256 = (Get-FileHash -LiteralPath $propertyDll -Algorithm SHA256).Hash;
-        propertySheetDeployment = 'Development-only external per-user registration; production installer deferred to M25'
+        propertySheetDeployment = 'Development-only external per-user registration; use canonical Setup for normal deployment'
     } | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $OutputDirectory 'build-info.json') -Encoding UTF8
     Write-Output "Signed Developer Preview: $msix"
     Write-Output "Public certificate: $(Join-Path $OutputDirectory 'Fluff-History-Developer-Preview.cer')"

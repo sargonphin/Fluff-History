@@ -223,7 +223,7 @@ public sealed class EncryptionConversionFaultTests
             EncryptionTests.Add(repository); EncryptionTests.Add(repository, "second.txt", "second version"u8.ToArray());
             using var reader = repository.OpenReader(); digest = Repository.SemanticDigest(reader, default);
         }
-        await using (var child = WriterProcess.Start($"m252-convert-{(encrypted ? "encrypt" : "decrypt")}-{point}", temp.Child()))
+        await using (var child = WriterProcess.Start($"convert-{(encrypted ? "encrypt" : "decrypt")}-{point}", temp.Child()))
         { await child.WaitUntilReadyAsync(); await child.KillAsync(); }
         if (point != "AfterMarkerRemoval")
             Repository.ConvertEncryption(temp.Child(), encrypted, EncryptionTests.Password, EncryptionConversionTests.Options(temp.Root));

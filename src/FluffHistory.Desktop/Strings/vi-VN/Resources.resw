@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Giới thiệu</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History — bản xem trước cho nhà phát triển</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Sao lưu theo lịch tiếp tục khi đóng cửa sổ này. Tích hợp Explorer và Thuộc tính được cài cùng Fluff-History. Hỗ trợ khôi phục bằng mật khẩu và truy cập Windows cục bộ. Không thu thập đo từ xa hay tự động tải lên.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Tệp sửa đổi: {3:G}</value>
     <value>Khôi phục thay đổi tệp hiện tại. Lịch sử đã lưu được giữ lại.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History không khả dụng. Cài bản xem trước cho nhà phát triển rồi thử lại.</value>
+    <value>Fluff-History không khả dụng. Chạy lại trình cài đặt để sửa chữa bản cài đặt.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Khôi phục phiên bản này về vị trí gốc? Windows sẽ hỏi về xung đột tệp hiện có. Lịch sử đã lưu được giữ lại.</value>
@@ -2007,83 +2007,83 @@ Phiên bản cũ nhất giữ lại: mở Dòng thời gian để xem lịch s�
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Sửa khôi phục OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Tắt cục bộ…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Cần nâng cấp cách khôi phục cũ sang OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Khôi phục OneDrive thử nghiệm chưa được cấu hình trong bản dựng này.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Đăng nhập Microsoft để dùng khôi phục OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Đăng nhập hoặc sự đồng ý với Microsoft bị từ chối. Khôi phục bằng mật khẩu vẫn khả dụng.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Quyền thư mục ứng dụng OneDrive cần thiết không khả dụng. Khôi phục bằng mật khẩu vẫn khả dụng.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>Khôi phục OneDrive cần kết nối Internet. Mật khẩu và truy cập Windows cục bộ vẫn khả dụng.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Hiện không thể xác minh khôi phục OneDrive. Thử lại sau hoặc dùng mật khẩu khôi phục.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive đang bận. Hãy thử lại sau.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive không khả dụng hoặc chưa được thiết lập cho tài khoản Microsoft này. Hãy dùng mật khẩu khôi phục.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>Khóa khôi phục OneDrive đã thay đổi hoặc không hợp lệ. Dùng mật khẩu khôi phục hoặc sửa khôi phục trên PC có thể mở khóa bản sao lưu này.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Có thể vẫn cần dọn dẹp OneDrive. Chỉ khóa khôi phục bị ảnh hưởng; mật khẩu và truy cập Windows không đổi.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Có thể vẫn cần dọn dẹp OneDrive. Tệp khôi phục: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>Khôi phục OneDrive hoạt động, nhưng không thể xóa hoàn toàn thông tin xác thực khôi phục Windows cũ.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Tắt khôi phục OneDrive cục bộ?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Thao tác này xóa liên kết khôi phục OneDrive của bản sao lưu mà không xóa tệp khôi phục trên đám mây. Bạn có thể cần xóa thủ công tệp đó khỏi OneDrive. Mật khẩu và truy cập Windows không đổi.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>Đã tắt khôi phục OneDrive cục bộ.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Sửa khôi phục OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Tạo và xác minh khóa khôi phục mới trước khi ngừng dùng khóa cũ. Các tệp đám mây đã sửa đổi sẽ được giữ lại.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Bản cập nhật</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Kênh cập nhật</value></data>
@@ -2121,4 +2121,13 @@ Phiên bản cũ nhất giữ lại: mở Dòng thời gian để xem lịch s�
   <data name="Update_Confirm" xml:space="preserve"><value>Đang sao lưu. Dừng sao lưu và cài đặt bản cập nhật?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Dừng sao lưu và cài đặt</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Chưa kiểm tra</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>Đã hoàn tất dọn dẹp OneDrive.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Thử dọn dẹp đám mây lại</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Đã cài đặt. Lệnh Explorer hiện đại không khả dụng; ứng dụng và trang Thuộc tính vẫn hoạt động. Chạy lại trình cài đặt.</value>
+  </data>
 </root>

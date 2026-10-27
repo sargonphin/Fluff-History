@@ -56,7 +56,7 @@ public sealed class SmbFaultTests(ITestOutputHelper output)
         Assert.True(System.Net.IPAddress.TryParse(server, out _)); Assert.True(System.Net.IPAddress.TryParse(client, out _));
         // Shell commands contain only parsed IP literals and an internally generated table.
         var table = "m19_" + Guid.NewGuid().ToString("N");
-        await using var process = WriterProcess.Start("m19-fault-" + mode, repo.DirectoryPath);
+        await using var process = WriterProcess.Start("fault-" + mode, repo.DirectoryPath);
         try
         {
             await process.WaitUntilReadyAsync();

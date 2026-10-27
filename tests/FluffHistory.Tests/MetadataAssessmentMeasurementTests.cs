@@ -20,7 +20,7 @@ public sealed class MetadataAssessmentMeasurementTests(ITestOutputHelper output)
         var root = LargeDiagnosticRoot.FromEnvironment(["baseline", "work"]);
         Directory.CreateDirectory(root);
         var path = Path.Combine(root, "baseline");
-        var reuse = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M222_REUSE") == "1";
+        var reuse = Environment.GetEnvironmentVariable("FLUFF_HISTORY_METADATA_REUSE") == "1";
         Assert.True(reuse || !Directory.Exists(path), "Use a fresh owned root; never overwrite earlier measurements.");
         using var repo = reuse ? Repository.Open(path) : Repository.Create(path);
         var build = Stopwatch.StartNew();

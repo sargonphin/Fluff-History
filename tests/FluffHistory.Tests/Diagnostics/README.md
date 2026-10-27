@@ -1,9 +1,9 @@
-# M20.2 synthetic Windows-account diagnostics
+# Synthetic Windows-account diagnostics
 
 Run only on a disposable native Windows environment. No Microsoft password, PIN, token, repository key or user data is accepted by these scripts. Windows PowerShell 5.1 supplies its existing WinRT PasswordVault projection; the C# native adapter intentionally targets that runtime and is excluded from the .NET test build.
 
 ```powershell
-$env:FLUFF_HISTORY_M202_ACCOUNT_DIAGNOSTICS = '1'
+$env:FLUFF_HISTORY_ACCOUNT_DIAGNOSTICS = '1'
 & ./Invoke-MicrosoftAccountProbe.ps1 -Mode Inspect
 # For clean-machine proof, choose a fresh UUID and Inspect this exact coordinate on A AND B before Protect on A.
 $sampleId = [Guid]::NewGuid()
@@ -22,4 +22,4 @@ The manifest contains bounded protected synthetic blobs and SHA256 verification 
 
 The opt-in `MicrosoftAccountLiveTests` wrapper checks same-profile fresh-process recovery and failure after removing the synthetic vault entry, then cleans its own artifact directory. It requires an MSA-connected user; hosted CI excludes the diagnostic category and never needs an account. The standalone script also runs under a deliberately unrelated local profile for negative controls.
 
-A LOCAL=user or same-profile WEBCREDENTIALS roundtrip proves neither cloud roaming nor independent Microsoft-account recovery. Required account/roaming/clean-machine gates and observed limitations belong in [the historical recovery record](../../../docs/milestones/M20-ENCRYPTION-AND-RECOVERY.md).
+A LOCAL=user or same-profile WEBCREDENTIALS roundtrip proves neither cloud roaming nor independent Microsoft-account recovery. Current account-recovery boundaries are described in [security and recovery](../../../docs/SECURITY-AND-RECOVERY.md).

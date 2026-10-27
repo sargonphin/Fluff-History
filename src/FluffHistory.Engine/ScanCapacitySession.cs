@@ -4,7 +4,7 @@ using FluffHistory.Storage;
 
 namespace FluffHistory.Engine;
 
-/// <summary>Admission and telemetry only. All destructive work delegates to M16.1.</summary>
+/// <summary>Admission and telemetry only. All destructive work delegates to CapacityRetentionEngine.</summary>
 internal sealed class ScanCapacitySession
 {
     private readonly Repository _repository;
@@ -48,7 +48,7 @@ internal sealed class ScanCapacitySession
     private void Upcoming(long bytes)
     { _stats.LatestUpcomingAllocation = bytes; _stats.MaximumUpcomingAllocation = Math.Max(_stats.MaximumUpcomingAllocation, bytes); }
 
-    // Safe with vulnerable pending state: observation only, no M16.1 invocation or deletion.
+    // Safe with vulnerable pending state: observation only, no retention invocation or deletion.
     internal bool Assess(long bytes)
     {
         _token.ThrowIfCancellationRequested(); Upcoming(bytes);

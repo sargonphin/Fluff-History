@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>परिचय</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History डेवलपर पूर्वावलोकन</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>यह विंडो बंद होने पर भी शेड्यूल किए गए बैकअप चलते रहते हैं। Explorer और गुण एकीकरण Fluff-History के साथ स्थापित होते हैं। पासवर्ड पुनर्प्राप्ति और स्थानीय Windows पहुँच समर्थित हैं। कोई टेलीमेट्री या स्वचालित अपलोड नहीं।</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@
     <value>पुनर्स्थापना मौजूदा फ़ाइल बदलती है। सहेजा इतिहास रखा जाता है।</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History अनुपलब्ध है। डेवलपर पूर्वावलोकन स्थापित करें और फिर प्रयास करें।</value>
+    <value>Fluff-History उपलब्ध नहीं है। इंस्टॉलेशन सुधारने के लिए सेटअप फिर से चलाएँ।</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>इस सहेजे गए संस्करण को मूल स्थान पर पुनर्स्थापित करें? Windows मौजूदा फ़ाइल विरोधों के बारे में पूछेगा। सहेजा इतिहास रखा जाता है।</value>
@@ -2007,83 +2007,83 @@
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति सुधारें</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>स्थानीय रूप से बंद करें…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>पुरानी पुनर्प्राप्ति को OneDrive में अपग्रेड करना आवश्यक है।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>इस बिल्ड में प्रायोगिक OneDrive पुनर्प्राप्ति कॉन्फ़िगर नहीं है।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति उपयोग करने के लिए Microsoft में साइन इन करें।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Microsoft साइन-इन या सहमति अस्वीकार कर दी गई। पासवर्ड से पुनर्प्राप्ति उपलब्ध है।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>आवश्यक OneDrive ऐप-फ़ोल्डर अनुमति उपलब्ध नहीं है। पासवर्ड से पुनर्प्राप्ति उपलब्ध है।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति के लिए इंटरनेट कनेक्शन चाहिए। पासवर्ड और स्थानीय Windows पहुँच उपलब्ध हैं।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>अभी OneDrive पुनर्प्राप्ति सत्यापित नहीं हो सकी। बाद में फिर प्रयास करें या अपना पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive व्यस्त है। बाद में फिर प्रयास करें।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>इस Microsoft खाते के लिए OneDrive उपलब्ध नहीं है या सेट अप नहीं है। अपना पुनर्प्राप्ति पासवर्ड उपयोग करें।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति कुंजी बदल गई है या अमान्य है। अपना पुनर्प्राप्ति पासवर्ड उपयोग करें या उस PC पर पुनर्प्राप्ति सुधारें जो यह बैकअप अनलॉक कर सकता है।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>OneDrive सफ़ाई की अब भी आवश्यकता हो सकती है। केवल पुनर्प्राप्ति कुंजी प्रभावित होती है; पासवर्ड और Windows पहुँच अपरिवर्तित हैं।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>OneDrive सफ़ाई की अब भी आवश्यकता हो सकती है। पुनर्प्राप्ति फ़ाइल: {0}।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति काम करती है, लेकिन पुराना Windows पुनर्प्राप्ति क्रेडेंशियल पूरी तरह हटाया नहीं जा सका।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति स्थानीय रूप से बंद करें?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>इससे क्लाउड की पुनर्प्राप्ति फ़ाइल हटाए बिना बैकअप का OneDrive पुनर्प्राप्ति लिंक हटता है। आपको वह फ़ाइल OneDrive से स्वयं हटानी पड़ सकती है। पासवर्ड और Windows पहुँच अपरिवर्तित हैं।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति स्थानीय रूप से बंद है।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>OneDrive पुनर्प्राप्ति सुधारें?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>पुरानी कुंजी हटाने से पहले नई पुनर्प्राप्ति कुंजी बनाएँ और सत्यापित करें। बदली गई क्लाउड फ़ाइलें रखी जाएँगी।</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>अपडेट</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>अपडेट चैनल</value></data>
@@ -2121,4 +2121,13 @@
   <data name="Update_Confirm" xml:space="preserve"><value>बैकअप चल रहा है। इसे रोककर अपडेट इंस्टॉल करें?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>बैकअप रोकें और इंस्टॉल करें</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>अभी तक जाँच नहीं हुई</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>OneDrive की सफ़ाई पूरी हुई।</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>क्लाउड की सफ़ाई फिर से करें</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>इंस्टॉल हो गया। एक्सप्लोरर का आधुनिक कमांड उपलब्ध नहीं है; ऐप और गुण पृष्ठ काम करते हैं। सेटअप फिर से चलाएँ।</value>
+  </data>
 </root>

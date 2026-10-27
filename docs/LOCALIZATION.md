@@ -2,8 +2,8 @@
 
 Desktop and native Shell resources cover 44 language catalogs. The canonical source
 is `src/FluffHistory.Desktop/Strings/en-US/Resources.resw`; translations use the same
-keys and English-first changes. At the reviewed baseline there are 671 keys, 538
-imperative identifiers and 133 live XAML properties. Those are source counts, not
+keys and English-first changes. The catalogs contain 674 keys, 541 imperative
+identifiers and 133 live XAML properties. Those are source counts, not
 claims of individual native-speaker or installed visual review for every language.
 
 ## Selection and formatting
@@ -68,9 +68,13 @@ live bindings, native resources, installer messages and manifests. Do not edit
 generated output as an alternative source of truth. Explicit identical translations
 require justified entries in the tool's allowlist.
 
+Release-branding validation fixes the normal About heading to the untranslated
+product name `Fluff-History`, rejects preview-specific About identifiers and checks
+About resource text for Developer Preview branding. Separate development build/install
+branding remains permitted. The product-name equality exception is explicit per locale.
+
 `tools/FluffHistory.Localization.Runtime` and
 `scripts/Test-LocalizationRuntime.ps1` check actual PRI resolution/fallback. Use
 representative Latin, RTL and CJK visual checks after structural presentation changes;
 batch catalog validation is not a native-speaker translation review. See
-[testing](TESTING.md), [Shell integration](SHELL-INTEGRATION.md) and the historical
-[M25 record](milestones/M25-PRE-RELEASE-PREPARATIONS.md).
+[testing](TESTING.md) and [Shell integration](SHELL-INTEGRATION.md).

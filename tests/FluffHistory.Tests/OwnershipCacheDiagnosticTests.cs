@@ -10,11 +10,11 @@ namespace FluffHistory.Tests;
 
 public sealed class OwnershipCacheDiagnosticTests(ITestOutputHelper output)
 {
-    [ExternalM201RecoveryFact]
+    [ExternalOwnershipRecoveryFact]
     [Trait("Category", "MetadataDiagnostic")]
     public void PasswordRecoveryOfWindowsEnrolledRepositoryOnIndependentPlatform()
     {
-        var path = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M201_EXTERNAL_REPOSITORY")!;
+        var path = Environment.GetEnvironmentVariable("FLUFF_HISTORY_OWNERSHIP_EXTERNAL_REPOSITORY")!;
         if (OperatingSystem.IsWindows() && !Directory.Exists(path))
         {
             using var created = Repository.CreateEncrypted(path, EncryptionTests.Password);
@@ -38,8 +38,8 @@ public sealed class OwnershipCacheDiagnosticTests(ITestOutputHelper output)
     [Trait("Category", "MetadataDiagnostic")]
     public void CompareWorkspaceDecodedCache()
     {
-        var root = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M201_MEASUREMENT_ROOT")!;
-        Assert.False(string.IsNullOrEmpty(root), "Set a disposable M20.1 measurement root.");
+        var root = Environment.GetEnvironmentVariable("FLUFF_HISTORY_OWNERSHIP_MEASUREMENT_ROOT")!;
+        Assert.False(string.IsNullOrEmpty(root), "Set a disposable ownership measurement root.");
         Directory.CreateDirectory(root); var path = Path.Combine(root, "repository");
         if (!Directory.Exists(path))
         {
@@ -50,10 +50,10 @@ public sealed class OwnershipCacheDiagnosticTests(ITestOutputHelper output)
         var observations = new List<object>();
         var authority = repo.ReadAuthority();
         using var workspace = new MetadataWorkspace(repo, Path.Combine(root, "workspace"));
-        var budget = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M201_CACHE_MIB");
+        var budget = Environment.GetEnvironmentVariable("FLUFF_HISTORY_OWNERSHIP_CACHE_MIB");
         if (budget is not null)
         {
-            // Reflection lets the same diagnostic run against an instrumented M20 disk baseline.
+            // Reflection lets the same diagnostic run against an instrumented disk-cache baseline.
             var property = typeof(MetadataWorkspace).GetProperty("MaximumDecodedBytes", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)!;
             property.SetValue(workspace, long.Parse(budget, System.Globalization.CultureInfo.InvariantCulture) * 1024 * 1024);
         }
@@ -61,7 +61,7 @@ public sealed class OwnershipCacheDiagnosticTests(ITestOutputHelper output)
         var seen = new HashSet<(SegmentHeader, long)>(); long redecoded = 0, decodedBytes = 0;
         workspace.DecodedObserved = (segment, header) => { if (!seen.Add((segment, header.Physical))) redecoded++; decodedBytes += header.DecodedLength; };
         using (var segments = new SegmentReader(path, repo.Identity, authority.Root.Epoch, authority.Address, workspace, stats, crypto: repo.Crypto))
-        using (var candidate = new MetadataReadCandidate(repo, authority, "m201", Path.Combine(root, "candidate"), segments.Read))
+        using (var candidate = new MetadataReadCandidate(repo, authority, "ownership-diagnostic", Path.Combine(root, "candidate"), segments.Read))
         {
             Measure("workspace-grouped-current-cold", () => Assert.Equal(6000, candidate.Current().Count));
             Measure("workspace-timeline", () => Assert.Equal(18000, candidate.Timeline().Count));
@@ -95,16 +95,16 @@ public sealed class OwnershipCacheDiagnosticTests(ITestOutputHelper output)
             observations.Add(new { operation = "production-timeline-control", elapsedMs = watch.Elapsed.TotalMilliseconds, io = Format4ProductionMeasurementTests.Snapshot(reader.LastTimelineStatistics!.Reads.Io) });
         }
         var json = JsonSerializer.Serialize(new { currentPaths = 6000, versions = 18000, encrypted = true, budgetMiB = budget, observations,
-            note = "Same persisted fixture, deterministic path/pass ordering; generated UUID/key entropy; VM uncontrolled OS caches. Workspace counters cumulative. Segment IO excludes fold's separate reader; workspace counters include it. M20 baseline requires counter-only instrumentation; its decoded bytes are disk bytes and reader RAM accounting is separate." }, new JsonSerializerOptions { WriteIndented = true });
-        output.WriteLine(json); File.WriteAllText(Environment.GetEnvironmentVariable("FLUFF_HISTORY_M201_EVIDENCE")!, json);
+            note = "Same persisted fixture, deterministic path/pass ordering; generated UUID/key entropy; VM uncontrolled OS caches. Workspace counters cumulative. Segment IO excludes fold's separate reader; workspace counters include it. Disk-cache baseline requires counter-only instrumentation; its decoded bytes are disk bytes and reader RAM accounting is separate." }, new JsonSerializerOptions { WriteIndented = true });
+        output.WriteLine(json); File.WriteAllText(Environment.GetEnvironmentVariable("FLUFF_HISTORY_OWNERSHIP_EVIDENCE")!, json);
     }
 }
 
-public sealed class ExternalM201RecoveryFactAttribute : FactAttribute
+public sealed class ExternalOwnershipRecoveryFactAttribute : FactAttribute
 {
-    public ExternalM201RecoveryFactAttribute()
+    public ExternalOwnershipRecoveryFactAttribute()
     {
-        if (Environment.GetEnvironmentVariable("FLUFF_HISTORY_M201_EXTERNAL_REPOSITORY") is null)
-            Skip = "Requires a synthetic Windows-enrolled M20.1 repository copy; set FLUFF_HISTORY_M201_EXTERNAL_REPOSITORY. No real account credentials.";
+        if (Environment.GetEnvironmentVariable("FLUFF_HISTORY_OWNERSHIP_EXTERNAL_REPOSITORY") is null)
+            Skip = "Requires a synthetic Windows-enrolled repository copy; set FLUFF_HISTORY_OWNERSHIP_EXTERNAL_REPOSITORY. No real account credentials.";
     }
 }

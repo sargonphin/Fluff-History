@@ -11,7 +11,7 @@ public sealed class LegacyStorageTheoryAttribute : TheoryAttribute
     public LegacyStorageTheoryAttribute()
     {
         if (!OperatingSystem.IsWindows() || string.IsNullOrEmpty(Environment.GetEnvironmentVariable("FLUFF_HISTORY_LEGACY_STORAGE_ROOT")))
-            Skip = "Opt-in released-client compatibility: set FLUFF_HISTORY_LEGACY_STORAGE_ROOT to the untouched M25.1 payload.";
+            Skip = "Opt-in released-client compatibility: set FLUFF_HISTORY_LEGACY_STORAGE_ROOT to the untouched legacy payload.";
     }
 }
 

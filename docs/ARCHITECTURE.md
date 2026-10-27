@@ -150,5 +150,4 @@ backup-data migration is part of update installation. See [updates](UPDATES-AND-
 ## Documentation authority
 
 README introduces the product. Current `docs/*.md` describe implementation contracts.
-`docs/milestones/` contains historical decisions and evidence, not competing current
-specifications. Exact upstream legal files govern their material.
+Exact upstream legal files govern their material.

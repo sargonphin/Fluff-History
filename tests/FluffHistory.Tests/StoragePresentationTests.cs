@@ -44,7 +44,7 @@ public sealed partial class PresentationTests
     [Fact]
     public void SharedGaugeHasStableGeometryAndNetworkCopyNamesTheOperationDependency()
     {
-        var root = M251SourceRoot();
+        var root = PresentationSourceRoot();
         var styles = XDocument.Load(Path.Combine(root, "src/FluffHistory.Desktop/Presentation/Styles.xaml"));
         XNamespace x = "http://schemas.microsoft.com/winfx/2006/xaml";
         var width = styles.Root!.Elements().Single(e => (string?)e.Attribute(x + "Key") == "DriveUsageWidth");
@@ -59,6 +59,6 @@ public sealed partial class PresentationTests
         Assert.Equal("Allow backups that use the network on metered connections", TestAppStrings.Read("en-US")["Configuration_CheckBox_AllowMeteredNetwork.Content"]);
     }
 
-    private static string M251SourceRoot([CallerFilePath] string file = "") =>
+    private static string PresentationSourceRoot([CallerFilePath] string file = "") =>
         Path.GetFullPath(Path.Combine(Path.GetDirectoryName(file)!, "../.."));
 }

@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>เกี่ยวกับ</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History รุ่นตัวอย่างสำหรับนักพัฒนา</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>การสำรองข้อมูลตามกำหนดเวลาจะดำเนินต่อเมื่อปิดหน้าต่างนี้ การผสานกับ Explorer และคุณสมบัติจะติดตั้งพร้อม Fluff-History รองรับการกู้คืนด้วยรหัสผ่านและการเข้าถึง Windows ในเครื่อง ไม่มีการวัดและส่งข้อมูลหรือการอัปโหลดอัตโนมัติ</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@
     <value>การคืนค่าจะเปลี่ยนไฟล์ปัจจุบัน ประวัติที่บันทึกไว้จะเก็บไว้</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History ไม่พร้อมใช้งาน ติดตั้งรุ่นตัวอย่างสำหรับนักพัฒนาแล้วลองใหม่</value>
+    <value>ไม่สามารถใช้งาน Fluff-History ได้ เรียกใช้โปรแกรมติดตั้งอีกครั้งเพื่อซ่อมแซมการติดตั้ง</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>คืนค่าเวอร์ชันที่บันทึกไว้นี้ไปยังตำแหน่งเดิมหรือไม่ Windows จะถามเมื่อขัดแย้งกับไฟล์ที่มีอยู่ ประวัติที่บันทึกไว้จะเก็บไว้</value>
@@ -2007,83 +2007,83 @@
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>ซ่อมแซมการกู้คืนผ่าน OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>ปิดในเครื่อง…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>ต้องอัปเกรดการกู้คืนแบบเดิมไปใช้ OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>ยังไม่ได้กำหนดค่าการกู้คืนผ่าน OneDrive แบบทดลองในรุ่นนี้</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>ลงชื่อเข้าใช้ Microsoft เพื่อใช้การกู้คืนผ่าน OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>การลงชื่อเข้าใช้หรือความยินยอมของ Microsoft ถูกปฏิเสธ ยังคงกู้คืนด้วยรหัสผ่านได้</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>สิทธิ์โฟลเดอร์แอป OneDrive ที่ต้องการไม่พร้อมใช้งาน ยังคงกู้คืนด้วยรหัสผ่านได้</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>การกู้คืนผ่าน OneDrive ต้องใช้อินเทอร์เน็ต รหัสผ่านและการเข้าถึง Windows ในเครื่องยังใช้งานได้</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>ไม่สามารถตรวจสอบการกู้คืนผ่าน OneDrive ได้ในขณะนี้ โปรดลองภายหลังหรือใช้รหัสผ่านการกู้คืน</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive ไม่ว่าง โปรดลองภายหลัง</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive ไม่พร้อมใช้งานหรือยังไม่ได้ตั้งค่าสำหรับบัญชี Microsoft นี้ โปรดใช้รหัสผ่านการกู้คืน</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>คีย์การกู้คืน OneDrive เปลี่ยนไปหรือไม่ถูกต้อง โปรดใช้รหัสผ่านการกู้คืนหรือซ่อมแซมการกู้คืนบนพีซีที่ปลดล็อกข้อมูลสำรองนี้ได้</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>อาจยังต้องล้างข้อมูลใน OneDrive มีผลเฉพาะคีย์การกู้คืนเท่านั้น รหัสผ่านและการเข้าถึงผ่าน Windows ไม่เปลี่ยนแปลง</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>อาจยังต้องล้างข้อมูลใน OneDrive ไฟล์การกู้คืน: {0}</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>การกู้คืนผ่าน OneDrive ทำงานได้ แต่ไม่สามารถลบข้อมูลรับรองการกู้คืน Windows แบบเดิมได้ทั้งหมด</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>ปิดการกู้คืนผ่าน OneDrive ในเครื่องหรือไม่?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>การดำเนินการนี้จะลบลิงก์การกู้คืน OneDrive ของข้อมูลสำรองโดยไม่ลบไฟล์การกู้คืนในคลาวด์ คุณอาจต้องลบไฟล์นั้นออกจาก OneDrive ด้วยตนเอง รหัสผ่านและการเข้าถึงผ่าน Windows ไม่เปลี่ยนแปลง</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>ปิดการกู้คืนผ่าน OneDrive ในเครื่องแล้ว</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>ซ่อมแซมการกู้คืนผ่าน OneDrive หรือไม่?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>สร้างและตรวจสอบคีย์การกู้คืนใหม่ก่อนเลิกใช้คีย์เก่า ไฟล์ในคลาวด์ที่ถูกแก้ไขจะยังเก็บไว้</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>การอัปเดต</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>ช่องทางการอัปเดต</value></data>
@@ -2121,4 +2121,13 @@
   <data name="Update_Confirm" xml:space="preserve"><value>กำลังสำรองข้อมูลอยู่ ต้องการหยุดและติดตั้งการอัปเดตหรือไม่</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>หยุดสำรองข้อมูลและติดตั้ง</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>ยังไม่ได้ตรวจสอบ</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>ล้างข้อมูล OneDrive เสร็จสมบูรณ์</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>ลองล้างข้อมูลบนคลาวด์อีกครั้ง</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>ติดตั้งแล้ว คำสั่งสมัยใหม่ของ Explorer ใช้งานไม่ได้ แต่แอปและหน้าคุณสมบัติยังทำงานอยู่ โปรดเรียกใช้ตัวติดตั้งอีกครั้ง</value>
+  </data>
 </root>

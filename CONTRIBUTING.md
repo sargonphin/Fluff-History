@@ -6,9 +6,8 @@ material. This guide does not establish a separate contribution license, CLA or
 vulnerability contact. Do not post secrets or private source data.
 
 Read [architecture](docs/ARCHITECTURE.md) and the relevant current topic contract,
-then [building](docs/BUILDING.md) and [testing](docs/TESTING.md). Historical milestone
-records explain decisions; current code and reconciled topic docs describe present
-behavior. Exact upstream notices must remain intact.
+then [building](docs/BUILDING.md) and [testing](docs/TESTING.md). Current code and topic
+documents describe the supported behavior. Exact upstream notices must remain intact.
 
 Keep changes focused and explain the trigger, resulting behavior and validation.
 Separate documentation-only work from runtime fixes when practical. Backup/history,

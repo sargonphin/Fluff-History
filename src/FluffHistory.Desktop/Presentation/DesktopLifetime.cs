@@ -312,6 +312,8 @@ public sealed class DesktopLifetime(DispatcherQueue dispatcher, PreferencesLoadR
         => Settings.RepositoryPath.Length == 0 ? ExperimentalRecoveryState.Off : (await CloudSecurity.InspectAsync(Settings.RepositoryPath, token)) switch
         {
             OneDriveRecoveryState.Enabled => ExperimentalRecoveryState.Available,
+            OneDriveRecoveryState.EnabledWithCleanup => ExperimentalRecoveryState.AvailableWithCleanup,
+            OneDriveRecoveryState.CleanupRequired => ExperimentalRecoveryState.CleanupRequired,
             OneDriveRecoveryState.LegacyUpgradeRequired => ExperimentalRecoveryState.Legacy,
             OneDriveRecoveryState.ConfigurationRequired => ExperimentalRecoveryState.ConfigurationRequired,
             OneDriveRecoveryState.Invalid => ExperimentalRecoveryState.Invalid,
@@ -329,6 +331,7 @@ public sealed class DesktopLifetime(DispatcherQueue dispatcher, PreferencesLoadR
                 RepositorySecurityOperation.EnableRoaming => CloudResult(await CloudSecurity.EnableAsync(Settings.RepositoryPath, token: token)),
                 RepositorySecurityOperation.RepairRoaming => CloudResult(await CloudSecurity.EnableAsync(Settings.RepositoryPath, repair: true, token)),
                 RepositorySecurityOperation.DisableRoaming => CloudResult(await CloudSecurity.DisableAsync(Settings.RepositoryPath, token: token)),
+                RepositorySecurityOperation.RetryCloudCleanup => CloudResult(await CloudSecurity.RetryCleanupAsync(Settings.RepositoryPath, token)),
                 RepositorySecurityOperation.DisableRoamingLocally => CloudResult(await CloudSecurity.DisableAsync(Settings.RepositoryPath, localOnly: true, token)),
                 RepositorySecurityOperation.RecoverRoaming => CloudResult(await CloudSecurity.VerifyAsync(Settings.RepositoryPath, enroll: true, token)),
                 RepositorySecurityOperation.VerifyRoaming => CloudResult(await CloudSecurity.VerifyAsync(Settings.RepositoryPath, token: token)),

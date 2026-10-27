@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>درباره</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>پیش‌نمایش توسعه‌دهندهٔ Fluff-History</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>پشتیبان‌گیری زمان‌بندی‌شده با بسته‌بودن این پنجره ادامه می‌یابد. یکپارچه‌سازی با کاوشگر و ویژگی‌ها همراه Fluff-History نصب می‌شود. بازیابی با گذرواژه و دسترسی محلی Windows پشتیبانی می‌شوند. بدون دورسنجی یا بارگذاری خودکار.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@
     <value>بازگردانی، پروندهٔ فعلی را تغییر می‌دهد. تاریخچهٔ ذخیره‌شده حفظ می‌شود.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History در دسترس نیست. پیش‌نمایش توسعه‌دهنده را نصب کرده و دوباره تلاش کنید.</value>
+    <value>Fluff-History در دسترس نیست. برای تعمیر نصب، برنامهٔ نصب را دوباره اجرا کنید.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>این نسخهٔ ذخیره‌شده به محل اصلی بازگردانی شود؟ Windows دربارهٔ تداخل با پرونده‌های موجود می‌پرسد. تاریخچهٔ ذخیره‌شده حفظ می‌شود.</value>
@@ -2007,83 +2007,83 @@
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>ترمیم بازیابی OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>غیرفعال‌سازی محلی…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>روش بازیابی قدیمی باید به OneDrive ارتقا یابد.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>بازیابی آزمایشی OneDrive در این نسخه پیکربندی نشده است.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>برای استفاده از بازیابی OneDrive وارد Microsoft شوید.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>ورود به Microsoft یا رضایت رد شد. بازیابی با گذرواژه همچنان در دسترس است.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>مجوز لازم برای پوشهٔ برنامهٔ OneDrive در دسترس نیست. بازیابی با گذرواژه همچنان در دسترس است.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>بازیابی OneDrive به اتصال اینترنت نیاز دارد. گذرواژه و دسترسی محلی Windows همچنان در دسترس‌اند.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>بازیابی OneDrive اکنون قابل تأیید نیست. بعداً دوباره تلاش کنید یا از گذرواژهٔ بازیابی استفاده کنید.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive مشغول است. بعداً دوباره تلاش کنید.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive برای این حساب Microsoft در دسترس نیست یا راه‌اندازی نشده است. از گذرواژهٔ بازیابی استفاده کنید.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>کلید بازیابی OneDrive تغییر کرده یا نامعتبر است. از گذرواژهٔ بازیابی استفاده کنید یا بازیابی را در رایانه‌ای که می‌تواند قفل این پشتیبان را باز کند ترمیم کنید.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>ممکن است پاک‌سازی OneDrive همچنان لازم باشد. فقط کلید بازیابی تحت تأثیر است؛ گذرواژه و دسترسی Windows تغییر نکرده‌اند.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>ممکن است پاک‌سازی OneDrive همچنان لازم باشد. فایل بازیابی: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>بازیابی OneDrive کار می‌کند، اما اعتبارنامهٔ بازیابی قدیمی Windows به‌طور کامل حذف نشد.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>بازیابی OneDrive به‌صورت محلی غیرفعال شود؟</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>این کار پیوند بازیابی OneDrive پشتیبان را بدون حذف فایل بازیابی ابری برمی‌دارد. ممکن است لازم باشد آن فایل را دستی از OneDrive حذف کنید. گذرواژه و دسترسی Windows تغییر نکرده‌اند.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>بازیابی OneDrive به‌صورت محلی غیرفعال شد.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>بازیابی OneDrive ترمیم شود؟</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>پیش از کنار گذاشتن کلید قدیمی، یک کلید بازیابی تازه بسازید و تأیید کنید. فایل‌های ابری تغییریافته حفظ می‌شوند.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>به‌روزرسانی‌ها</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>کانال به‌روزرسانی</value></data>
@@ -2121,4 +2121,13 @@
   <data name="Update_Confirm" xml:space="preserve"><value>پشتیبان‌گیری در حال اجراست. متوقف شود و به‌روزرسانی نصب شود؟</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>توقف پشتیبان‌گیری و نصب</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>هنوز بررسی نشده</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>پاک‌سازی OneDrive کامل شد.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>تلاش دوباره برای پاک‌سازی فضای ابری</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>نصب شد. فرمان جدید فایل اکسپلورر در دسترس نیست؛ برنامه و صفحهٔ ویژگی‌ها کار می‌کنند. راه‌انداز را دوباره اجرا کنید.</value>
+  </data>
 </root>

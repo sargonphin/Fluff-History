@@ -39,7 +39,7 @@ public sealed class RetentionMeasurementTests(ITestOutputHelper output)
             Assert.True(preview.Complete); Assert.Equal(3328, preview.Examined); Assert.Equal(1024, preview.Protected);
             Assert.Equal(policy == RetentionPolicy.OneMonth ? 1408 : 448, preview.Eligible);
             var sample = Measure(preview, watch.ElapsedMilliseconds, GC.GetTotalAllocatedBytes(true) - allocated);
-            output.WriteLine("M152_PREVIEW " + JsonSerializer.Serialize(new { fixture = "mixed-real-payload", policy = policy.ToString(), sample }));
+            output.WriteLine("RETENTION_PREVIEW " + JsonSerializer.Serialize(new { fixture = "mixed-real-payload", policy = policy.ToString(), sample }));
         }
         Assert.Equal(inventory, RetentionTests.Inventory(repo));
         var complete = engine.Preview(RetentionPolicy.OneMonth, RetentionTests.Evaluation);
@@ -51,7 +51,7 @@ public sealed class RetentionMeasurementTests(ITestOutputHelper output)
                 var page = engine.GetCandidates(reader, complete.Evaluation, cursor: cursor); candidates += page.Items.Count;
                 maxCount = Math.Max(maxCount, page.Items.Count); maxBytes = Math.Max(maxBytes, page.ChargedCandidateBytes); cursor = page.Continuation;
             } while (cursor is not null);
-            Assert.Equal(complete.Eligible, candidates); output.WriteLine("M152_PAGES " + JsonSerializer.Serialize(new { candidates, maxCount, maxBytes }));
+            Assert.Equal(complete.Eligible, candidates); output.WriteLine("RETENTION_PAGES " + JsonSerializer.Serialize(new { candidates, maxCount, maxBytes }));
         }
         // Hold four exact eligible payloads on Windows; independently omit one retired payload
         // to demonstrate already-absent accounting without any preview content reads.
@@ -66,7 +66,7 @@ public sealed class RetentionMeasurementTests(ITestOutputHelper output)
             Assert.Equal(3328, result.Reads!.VersionsExamined); Assert.Equal(1, result.Cleanup.AlreadyAbsent); Assert.Equal(held.Count, result.Cleanup.Deferred); Assert.Equal(0, result.Cleanup.Failed);
             var allocation = GC.GetTotalAllocatedBytes(true) - allocated;
             long survivors; using (var reader = repo.OpenReader()) survivors = reader.EnumerateRetentionVersions().LongCount(); Assert.Equal(1920, survivors);
-            output.WriteLine("M152_EXECUTION " + JsonSerializer.Serialize(new { result, survivors, cumulativeAllocatedBytes = allocation,
+            output.WriteLine("RETENTION_EXECUTION " + JsonSerializer.Serialize(new { result, survivors, cumulativeAllocatedBytes = allocation,
                 liveManagedBytes = GC.GetTotalMemory(false), elapsedMs = watch.ElapsedMilliseconds, processLifetimePeakWorkingSet = Process.GetCurrentProcess().PeakWorkingSet64 }));
         }
         finally { foreach (var handle in held) handle.Dispose(); }
@@ -80,7 +80,7 @@ public sealed class RetentionMeasurementTests(ITestOutputHelper output)
         using var temp = new TemporaryDirectory(); var repo = Repository.Create(temp.Child());
         MetadataDiagnosticFixture.Populate(repo, paths, storedTime: (pass, i) => FoundationTests.Time.AddDays(pass == 0 ? i % 100 == 0 ? 100 : 900 : i % 10 == 0 ? 50 : 990));
         var inventory = RetentionTests.Inventory(repo); var files = Directory.GetFiles(Path.Combine(repo.DirectoryPath, "metadata"), "*.seg");
-        output.WriteLine("M152_LARGE_FIXTURE " + JsonSerializer.Serialize(new { paths, versions = paths * 2, segments = files.Length, metadataBytes = files.Sum(p => new FileInfo(p).Length), payloads = 0 }));
+        output.WriteLine("RETENTION_LARGE_FIXTURE " + JsonSerializer.Serialize(new { paths, versions = paths * 2, segments = files.Length, metadataBytes = files.Sum(p => new FileInfo(p).Length), payloads = 0 }));
         foreach (var policy in new[] { RetentionPolicy.TwoYears, RetentionPolicy.OneMonth })
         {
             var allocated = GC.GetTotalAllocatedBytes(true); var watch = Stopwatch.StartNew();
@@ -89,7 +89,7 @@ public sealed class RetentionMeasurementTests(ITestOutputHelper output)
             Assert.True(preview.Complete); Assert.Equal(paths * 2, preview.Examined); Assert.Equal(paths, preview.Protected);
             Assert.Equal(policy == RetentionPolicy.OneMonth ? paths : paths / 100, preview.Eligible);
             Assert.Null(reader.Workspace!.CreatedDirectory); Assert.InRange(preview.Reads!.PeakRetainedHandles, 1, 8);
-            output.WriteLine("M152_LARGE_PREVIEW " + JsonSerializer.Serialize(new { policy = policy.ToString(), sample = Measure(preview, watch.ElapsedMilliseconds, GC.GetTotalAllocatedBytes(true) - allocated) }));
+            output.WriteLine("RETENTION_LARGE_PREVIEW " + JsonSerializer.Serialize(new { policy = policy.ToString(), sample = Measure(preview, watch.ElapsedMilliseconds, GC.GetTotalAllocatedBytes(true) - allocated) }));
         }
         Assert.Equal(inventory, RetentionTests.Inventory(repo));
     }

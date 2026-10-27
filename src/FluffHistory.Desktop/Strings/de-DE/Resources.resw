@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Info</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History-Entwicklervorschau</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Geplante Sicherungen werden fortgesetzt, wenn dieses Fenster geschlossen ist. Explorer- und Eigenschaftenintegration werden mit Fluff-History installiert. Kennwortwiederherstellung und lokaler Windows-Zugriff werden unterstützt. Keine Telemetrie oder automatischen Uploads.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Datei geändert: {3:G}</value>
     <value>Die Wiederherstellung ändert die aktuelle Datei. Der gespeicherte Verlauf bleibt erhalten.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History ist nicht verfügbar. Installieren Sie die Entwicklervorschau und versuchen Sie es erneut.</value>
+    <value>Fluff-History ist nicht verfügbar. Führen Sie Setup erneut aus, um die Installation zu reparieren.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Diese gespeicherte Version am ursprünglichen Ort wiederherstellen? Windows fragt bei Konflikten mit vorhandenen Dateien nach. Der gespeicherte Verlauf bleibt erhalten.</value>
@@ -2007,83 +2007,83 @@ Aufbewahrte Versionen: {1:N0}+; vollständiger Verlauf in der Zeitachse
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>OneDrive-Wiederherstellung reparieren</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Lokal deaktivieren…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Die bisherige Wiederherstellung muss auf OneDrive umgestellt werden.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Experimentelle OneDrive-Wiederherstellung ist in dieser Version nicht konfiguriert.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Melden Sie sich bei Microsoft an, um die OneDrive-Wiederherstellung zu verwenden.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Microsoft-Anmeldung oder Zustimmung wurde abgelehnt. Die Kennwortwiederherstellung bleibt verfügbar.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Die erforderliche Berechtigung für den OneDrive-App-Ordner ist nicht verfügbar. Die Kennwortwiederherstellung bleibt verfügbar.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>OneDrive-Wiederherstellung erfordert eine Internetverbindung. Kennwort und lokaler Windows-Zugriff bleiben verfügbar.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Die OneDrive-Wiederherstellung konnte gerade nicht überprüft werden. Versuchen Sie es später erneut oder verwenden Sie Ihr Wiederherstellungskennwort.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive ist ausgelastet. Versuchen Sie es später erneut.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive ist für dieses Microsoft-Konto nicht verfügbar oder nicht eingerichtet. Verwenden Sie Ihr Wiederherstellungskennwort.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>Der OneDrive-Wiederherstellungsschlüssel wurde geändert oder ist ungültig. Verwenden Sie Ihr Wiederherstellungskennwort oder reparieren Sie die Wiederherstellung auf einem PC, der diese Sicherung entsperren kann.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Eine OneDrive-Bereinigung ist möglicherweise noch erforderlich. Nur der Wiederherstellungsschlüssel ist betroffen; Kennwort und Windows-Zugriff bleiben unverändert.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Eine OneDrive-Bereinigung ist möglicherweise noch erforderlich. Wiederherstellungsdatei: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>OneDrive-Wiederherstellung funktioniert, aber die alten Windows-Wiederherstellungsanmeldedaten konnten nicht vollständig entfernt werden.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>OneDrive-Wiederherstellung lokal deaktivieren?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Dies entfernt die OneDrive-Wiederherstellungsverknüpfung der Sicherung, ohne die Wiederherstellungsdatei in der Cloud zu löschen. Möglicherweise müssen Sie diese Datei manuell aus OneDrive entfernen. Kennwort und Windows-Zugriff bleiben unverändert.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>OneDrive-Wiederherstellung lokal deaktiviert.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>OneDrive-Wiederherstellung reparieren?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Erstellen und überprüfen Sie einen neuen Wiederherstellungsschlüssel, bevor der alte außer Betrieb genommen wird. Geänderte Clouddateien bleiben erhalten.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Updates</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Updatekanal</value></data>
@@ -2121,4 +2121,13 @@ Aufbewahrte Versionen: {1:N0}+; vollständiger Verlauf in der Zeitachse
   <data name="Update_Confirm" xml:space="preserve"><value>Eine Sicherung läuft. Soll sie beendet und das Update installiert werden?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Sicherung beenden und installieren</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Noch nicht geprüft</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>OneDrive-Bereinigung abgeschlossen.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Cloud-Bereinigung erneut versuchen</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Installiert. Der moderne Explorer-Befehl ist nicht verfügbar; die App und die Eigenschaftenseite funktionieren weiterhin. Führen Sie Setup erneut aus.</value>
+  </data>
 </root>

@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Om</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History – förhandsversion för utvecklare</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Schemalagd säkerhetskopiering fortsätter när fönstret är stängt. Integrering med Utforskaren och Egenskaper installeras med Fluff-History. Lösenordsåterställning och lokal Windows-åtkomst stöds. Ingen telemetri eller automatisk uppladdning.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Fil ändrad: {3:G}</value>
     <value>Återställning ändrar den aktuella filen. Sparad historik behålls.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History är otillgängligt. Installera förhandsversionen för utvecklare och försök igen.</value>
+    <value>Fluff-History är inte tillgängligt. Kör installationsprogrammet igen för att reparera installationen.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Återställa den sparade versionen till ursprunglig plats? Windows frågar om konflikter med befintliga filer. Sparad historik behålls.</value>
@@ -2007,83 +2007,83 @@ Behållna versioner: {1:N0}+; öppna Tidslinje för fullständig historik
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Reparera OneDrive-återställning</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Inaktivera lokalt…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Den äldre återställningen behöver uppgraderas till OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Experimentell OneDrive-återställning är inte konfigurerad i den här versionen.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Logga in på Microsoft för att använda OneDrive-återställning.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Microsoft-inloggning eller samtycke nekades. Lösenordsåterställning är fortfarande tillgänglig.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Den nödvändiga behörigheten för OneDrive-appmappen är inte tillgänglig. Lösenordsåterställning är fortfarande tillgänglig.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>OneDrive-återställning kräver internetanslutning. Lösenord och lokal Windows-åtkomst är fortfarande tillgängliga.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>OneDrive-återställning kunde inte verifieras just nu. Försök igen senare eller använd ditt återställningslösenord.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive är upptaget. Försök igen senare.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive är inte tillgängligt eller inte konfigurerat för det här Microsoft-kontot. Använd ditt återställningslösenord.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>OneDrive-återställningsnyckeln har ändrats eller är ogiltig. Använd ditt återställningslösenord eller reparera återställningen på en dator som kan låsa upp säkerhetskopian.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>OneDrive-rensning kan fortfarande behövas. Endast återställningsnyckeln berörs; lösenord och Windows-åtkomst är oförändrade.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>OneDrive-rensning kan fortfarande behövas. Återställningsfil: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>OneDrive-återställning fungerar, men den gamla Windows-återställningsuppgiften kunde inte tas bort helt.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Inaktivera OneDrive-återställning lokalt?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Detta tar bort säkerhetskopians OneDrive-återställningslänk utan att ta bort återställningsfilen i molnet. Du kan behöva ta bort filen manuellt från OneDrive. Lösenord och Windows-åtkomst är oförändrade.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>OneDrive-återställning inaktiverad lokalt.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Reparera OneDrive-återställning?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Skapa och verifiera en ny återställningsnyckel innan den gamla tas ur bruk. Ändrade molnfiler behålls.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Uppdateringar</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Uppdateringskanal</value></data>
@@ -2121,4 +2121,13 @@ Behållna versioner: {1:N0}+; öppna Tidslinje för fullständig historik
   <data name="Update_Confirm" xml:space="preserve"><value>En säkerhetskopiering pågår. Stoppa den och installera uppdateringen?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Stoppa säkerhetskopiering och installera</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Inte kontrollerad än</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>Rensningen av OneDrive är klar.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Försök rensa molnet igen</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Installerat. Det moderna Utforskarkommandot är inte tillgängligt; appen och egenskapssidan fungerar. Kör installationen igen.</value>
+  </data>
 </root>

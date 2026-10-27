@@ -30,7 +30,7 @@ public sealed class Format4ProductionMeasurementTests(ITestOutputHelper output)
         {
             Assert.False(Directory.Exists(path), "Inspect incomplete fixture before rebuilding.");
             var reference = Path.Combine(root, "v4-dirty-reference");
-            if (Environment.GetEnvironmentVariable("FLUFF_HISTORY_M191_USE_DIRTY_REFERENCE") == "1" && Directory.Exists(reference))
+            if (Environment.GetEnvironmentVariable("FLUFF_HISTORY_FORMAT_USE_DIRTY_REFERENCE") == "1" && Directory.Exists(reference))
             {
                 SmbNetworkMeasurementTests.CopyTree(reference, path); repository = Repository.Open(path);
                 results.Add(new { Phase = "dirty-production-reference", BuildExcluded = true, Footprint = Footprint(path) });

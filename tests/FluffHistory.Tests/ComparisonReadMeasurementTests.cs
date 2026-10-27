@@ -24,7 +24,7 @@ public sealed class ComparisonReadMeasurementTests(ITestOutputHelper output)
         MetadataDiagnosticFixture.Populate(repo, paths);
         if (paths == 250_000)
         {
-            // Match the M12.1 after-sparse comparison boundary, using the public writer.
+            // Match the sparse Current comparison boundary, using the public writer.
             using var writer = repo.OpenWriter(); using var reader = repo.OpenReader();
             var changes = Enumerable.Range(0, 16).Select(i => FoundationTests.Prepare(writer, MetadataDiagnosticFixture.Name(i * 15_001))).ToArray();
             writer.Apply(new(changes), reader.Authority);

@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>אודות</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>תצוגה מקדימה למפתחים של Fluff-History</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>גיבויים מתוזמנים ממשיכים כשהחלון סגור. שילוב בסייר ובמאפיינים מותקן עם Fluff-History. נתמכים שחזור בסיסמה וגישה מקומית של Windows. אין טלמטריה או העלאה אוטומטית.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@
     <value>השחזור משנה את הקובץ הפעיל. ההיסטוריה השמורה נשמרת.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History אינו זמין. התקינו את התצוגה המקדימה למפתחים ונסו שוב.</value>
+    <value>Fluff-History אינו זמין. הפעילו שוב את תוכנית ההתקנה כדי לתקן את ההתקנה.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>לשחזר גרסה שמורה זו למיקומה המקורי? Windows ישאל על התנגשויות עם קבצים קיימים. ההיסטוריה השמורה נשמרת.</value>
@@ -2007,83 +2007,83 @@
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>תיקון שחזור דרך OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>השבתה מקומית…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>יש לשדרג את השחזור הישן ל-OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>שחזור OneDrive הניסיוני אינו מוגדר בגרסה זו.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>היכנסו ל-Microsoft כדי להשתמש בשחזור דרך OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>הכניסה ל-Microsoft או ההסכמה נדחו. שחזור באמצעות סיסמה עדיין זמין.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>ההרשאה הנדרשת לתיקיית היישום ב-OneDrive אינה זמינה. שחזור באמצעות סיסמה עדיין זמין.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>שחזור דרך OneDrive דורש חיבור לאינטרנט. הסיסמה והגישה המקומית דרך Windows עדיין זמינות.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>לא ניתן לאמת כרגע שחזור דרך OneDrive. נסו שוב מאוחר יותר או השתמשו בסיסמת השחזור.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive עסוק. נסו שוב מאוחר יותר.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive אינו זמין או אינו מוגדר עבור חשבון Microsoft זה. השתמשו בסיסמת השחזור.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>מפתח השחזור של OneDrive השתנה או אינו תקין. השתמשו בסיסמת השחזור או תקנו את השחזור במחשב שיכול לפתוח גיבוי זה.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>ייתכן שעדיין נדרש ניקוי ב-OneDrive. רק מפתח השחזור מושפע; הסיסמה והגישה דרך Windows לא השתנו.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>ייתכן שעדיין נדרש ניקוי ב-OneDrive. קובץ שחזור: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>השחזור דרך OneDrive פועל, אך לא ניתן היה להסיר במלואו את אישור השחזור הישן של Windows.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>להשבית שחזור דרך OneDrive מקומית?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>פעולה זו מסירה את קישור שחזור OneDrive של הגיבוי בלי למחוק את קובץ השחזור בענן. ייתכן שתצטרכו להסיר קובץ זה ידנית מ-OneDrive. הסיסמה והגישה דרך Windows לא השתנו.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>השחזור דרך OneDrive הושבת מקומית.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>לתקן שחזור דרך OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>צרו ואמתו מפתח שחזור חדש לפני הוצאת הישן משימוש. קבצי ענן ששונו יישמרו.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>עדכונים</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>ערוץ עדכונים</value></data>
@@ -2121,4 +2121,13 @@
   <data name="Update_Confirm" xml:space="preserve"><value>מתבצע גיבוי. להפסיק אותו ולהתקין את העדכון?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>הפסקת הגיבוי והתקנה</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>טרם נבדק</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>ניקוי OneDrive הושלם.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>ניסיון חוזר לניקוי הענן</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>ההתקנה הושלמה. פקודת הסייר המודרנית אינה זמינה; היישום ודף המאפיינים פועלים. יש להפעיל את ההתקנה שוב.</value>
+  </data>
 </root>

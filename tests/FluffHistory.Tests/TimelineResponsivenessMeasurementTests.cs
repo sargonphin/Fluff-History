@@ -152,9 +152,9 @@ public sealed class TimelineResponsivenessMeasurementTests(ITestOutputHelper out
 
     private static Repository OpenFixture(TemporaryDirectory temporary, string shape, int paths)
     {
-        var shared = Environment.GetEnvironmentVariable("FLUFF_M18_FIXTURES");
+        var shared = Environment.GetEnvironmentVariable("FLUFF_HISTORY_TIMELINE_FIXTURES");
         var version = shape == "retained" ? 2 : 1;
-        var directory = shared is null ? temporary.Child() : Path.Combine(shared, $"m18-v{version}-" + shape);
+        var directory = shared is null ? temporary.Child() : Path.Combine(shared, $"timeline-v{version}-" + shape);
         var marker = directory + ".complete";
         if (shared is not null && File.Exists(marker))
         { Assert.Equal($"{shape}|{paths}|{version}", File.ReadAllText(marker)); return Repository.Open(directory); }

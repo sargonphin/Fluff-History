@@ -151,7 +151,7 @@ public sealed class LiveCapacityTests
         var engine = f.Engine(); engine.ConfigureWriter = w => w.PayloadObserve = (stage, _) => { if (stage == PayloadStage.BeforeFlush) f.Probe.Free = 0; };
         var result = f.Scan(engine); Assert.True(result.CapacityBlocked); Assert.Equal(1, result.ContentStreamsOpened); Assert.Equal(0, result.VersionsCreated);
         Assert.Equal(0, result.Capacity.HistoryScans); Assert.Equal(0, result.Capacity.VersionsRemoved);
-        // M17 preserves only this fully stable unpublished copy as optional Ready cache.
+        // Reuse preserves only this fully stable unpublished copy as optional Ready cache.
         var part = Assert.Single(Directory.GetFiles(f.Repository.DirectoryPath, "*.part", SearchOption.AllDirectories));
         Assert.Equal("changed", File.ReadAllText(part));
         Assert.Single(Directory.GetFiles(f.Repository.DirectoryPath, "*.ready", SearchOption.AllDirectories));

@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Tentang</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Pratinjau Pengembang Fluff-History</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Pencadangan terjadwal tetap berjalan saat jendela ini ditutup. Integrasi Explorer dan Properti dipasang bersama Fluff-History. Mendukung pemulihan dengan kata sandi dan akses Windows lokal. Tanpa telemetri atau unggahan otomatis.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Berkas diubah: {3:G}</value>
     <value>Pemulihan mengubah berkas aktif. Riwayat tersimpan tetap ada.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History tidak tersedia. Pasang Pratinjau Pengembang dan coba lagi.</value>
+    <value>Fluff-History tidak tersedia. Jalankan kembali pemasang untuk memperbaiki instalasi.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Pulihkan versi tersimpan ini ke lokasi aslinya? Windows akan menanyakan konflik berkas yang ada. Riwayat tersimpan tetap ada.</value>
@@ -2007,83 +2007,83 @@ Versi tertua dipertahankan: buka garis waktu untuk riwayat lengkap</value>
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Perbaiki pemulihan OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Nonaktifkan secara lokal…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Pemulihan lama perlu ditingkatkan ke OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Pemulihan OneDrive eksperimental belum dikonfigurasi dalam build ini.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Masuk ke Microsoft untuk menggunakan pemulihan OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Masuk atau persetujuan Microsoft ditolak. Pemulihan dengan kata sandi tetap tersedia.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Izin folder aplikasi OneDrive yang diperlukan tidak tersedia. Pemulihan dengan kata sandi tetap tersedia.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>Pemulihan OneDrive memerlukan koneksi internet. Kata sandi dan akses Windows lokal tetap tersedia.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Pemulihan OneDrive tidak dapat diverifikasi saat ini. Coba lagi nanti atau gunakan kata sandi pemulihan Anda.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive sedang sibuk. Coba lagi nanti.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive tidak tersedia atau belum disiapkan untuk akun Microsoft ini. Gunakan kata sandi pemulihan Anda.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>Kunci pemulihan OneDrive berubah atau tidak valid. Gunakan kata sandi pemulihan Anda atau perbaiki pemulihan di PC yang dapat membuka kunci cadangan ini.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Pembersihan OneDrive mungkin masih diperlukan. Hanya kunci pemulihan yang terpengaruh; kata sandi dan akses Windows tidak berubah.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Pembersihan OneDrive mungkin masih diperlukan. File pemulihan: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>Pemulihan OneDrive berfungsi, tetapi kredensial pemulihan Windows lama tidak dapat dihapus sepenuhnya.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Nonaktifkan pemulihan OneDrive secara lokal?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Ini menghapus tautan pemulihan OneDrive cadangan tanpa menghapus file pemulihannya di cloud. Anda mungkin perlu menghapus file itu secara manual dari OneDrive. Kata sandi dan akses Windows tidak berubah.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>Pemulihan OneDrive dinonaktifkan secara lokal.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Perbaiki pemulihan OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Buat dan verifikasi kunci pemulihan baru sebelum menonaktifkan yang lama. File cloud yang diubah akan dipertahankan.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Pembaruan</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Saluran pembaruan</value></data>
@@ -2121,4 +2121,13 @@ Versi tertua dipertahankan: buka garis waktu untuk riwayat lengkap</value>
   <data name="Update_Confirm" xml:space="preserve"><value>Pencadangan sedang berjalan. Hentikan dan instal pembaruan?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Hentikan pencadangan dan instal</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Belum diperiksa</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>Pembersihan OneDrive selesai.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Coba lagi pembersihan cloud</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Terpasang. Perintah Explorer modern tidak tersedia; aplikasi dan halaman Properti tetap berfungsi. Jalankan pemasangan lagi.</value>
+  </data>
 </root>

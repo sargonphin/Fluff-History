@@ -141,7 +141,7 @@ pins exact Microsoft license evidence and rejects drift until deliberately revie
 When upstream obligations change, review whether the downstream agreement needs
 changes; never treat a policy/hash update alone as permission to weaken protection.
 
-For unattended installation, review the signed release's agreement and exact notices,
+For unattended installation, review the release's agreement and exact notices,
 then use its accompanying build metadata:
 
 ```powershell

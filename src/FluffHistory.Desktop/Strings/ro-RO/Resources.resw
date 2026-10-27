@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Despre</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History — previzualizare pentru dezvoltatori</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Copiile programate continuă când această fereastră este închisă. Integrarea cu Explorer și Proprietăți se instalează împreună cu Fluff-History. Sunt acceptate recuperarea prin parolă și accesul local Windows. Fără telemetrie sau încărcare automată.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Fișier modificat: {3:G}</value>
     <value>Restaurarea modifică fișierul activ. Istoricul salvat este păstrat.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History este indisponibil. Instalează versiunea pentru dezvoltatori și încearcă din nou.</value>
+    <value>Fluff-History nu este disponibil. Rulați din nou programul de instalare pentru a repara instalarea.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Restaurezi această versiune salvată în locația originală? Windows va întreba despre conflictele cu fișiere existente. Istoricul salvat este păstrat.</value>
@@ -2007,83 +2007,83 @@ Cea mai veche versiune păstrată: deschide Cronologia pentru istoricul complet<
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Repară recuperarea prin OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Dezactivează local…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Recuperarea veche trebuie actualizată la OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Recuperarea experimentală prin OneDrive nu este configurată în această versiune.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Conectează-te la Microsoft pentru a folosi recuperarea prin OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Conectarea sau consimțământul Microsoft a fost refuzat. Recuperarea prin parolă rămâne disponibilă.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Permisiunea necesară pentru folderul aplicației OneDrive nu este disponibilă. Recuperarea prin parolă rămâne disponibilă.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>Recuperarea prin OneDrive necesită internet. Parola și accesul local Windows rămân disponibile.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Recuperarea prin OneDrive nu a putut fi verificată acum. Încearcă mai târziu sau folosește parola de recuperare.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive este ocupat. Încearcă mai târziu.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive nu este disponibil sau configurat pentru acest cont Microsoft. Folosește parola de recuperare.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>Cheia de recuperare OneDrive s-a schimbat sau este nevalidă. Folosește parola de recuperare sau repară recuperarea pe un PC care poate debloca această copie.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Poate fi necesară încă o curățare OneDrive. Este afectată doar cheia de recuperare; parola și accesul Windows rămân neschimbate.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Poate fi necesară încă o curățare OneDrive. Fișier de recuperare: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>Recuperarea prin OneDrive funcționează, dar acreditarea veche de recuperare Windows nu a putut fi eliminată complet.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Dezactivezi local recuperarea prin OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Aceasta elimină legătura de recuperare OneDrive a copiei fără a șterge fișierul de recuperare din cloud. Poate fi necesar să elimini manual acel fișier din OneDrive. Parola și accesul Windows rămân neschimbate.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>Recuperarea prin OneDrive este dezactivată local.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Repari recuperarea prin OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Creează și verifică o cheie de recuperare nouă înainte de retragerea celei vechi. Fișierele cloud modificate vor fi păstrate.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Actualizări</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Canal de actualizare</value></data>
@@ -2121,4 +2121,13 @@ Cea mai veche versiune păstrată: deschide Cronologia pentru istoricul complet<
   <data name="Update_Confirm" xml:space="preserve"><value>Se creează o copie de siguranță. Opriți și instalați actualizarea?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Oprește copierea și instalează</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Încă neverificat</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>Curățarea OneDrive s-a încheiat.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Reîncearcă curățarea în cloud</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Instalat. Comanda modernă din Explorer nu este disponibilă; aplicația și pagina Proprietăți funcționează. Rulați din nou instalarea.</value>
+  </data>
 </root>

@@ -6,7 +6,7 @@ namespace FluffHistory.Engine;
 internal enum CapacityExecutionStage { OrderDerived, BatchCommitted, BeforeProbe, AfterProbe }
 
 /// <summary>Standalone UntilSaturation operation. The caller supplies conservative upcoming allocation B.
-/// Capacity observation, never logical removed lengths, controls satisfaction. No M13 invocation.</summary>
+/// Capacity observation, never logical removed lengths, controls satisfaction. No source scan.</summary>
 public sealed class CapacityRetentionEngine
 {
     private readonly Repository _repository;

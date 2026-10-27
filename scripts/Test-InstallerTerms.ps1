@@ -170,7 +170,10 @@ try {
 finally {
     foreach($scope in @('main','interactive','cancel')){
         $uninstaller=Join-Path $root ($scope+'\unins000.exe')
-        if(Test-Path -LiteralPath $uninstaller){$p=Start-Process $uninstaller -ArgumentList '/VERYSILENT /NORESTART' -PassThru -WindowStyle Hidden;try{$null=$p.WaitForExit(30000)}finally{$p.Dispose()}}
+        # Inno can defer deletion of its EXE after the DAT has already been removed.
+        # A second cleanup launch at that point opens a missing-DAT error dialog.
+        $uninstallData=Join-Path $root ($scope+'\unins000.dat')
+        if((Test-Path -LiteralPath $uninstaller) -and (Test-Path -LiteralPath $uninstallData)){$p=Start-Process $uninstaller -ArgumentList '/VERYSILENT /NORESTART' -PassThru -WindowStyle Hidden;try{$null=$p.WaitForExit(30000)}finally{$p.Dispose()}}
     }
     @{passed=($null -eq $failure);error=$failure;interactive=[bool]$Interactive;cases=$cases.ToArray()} | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $Directory 'result.json') -Encoding UTF8
 }

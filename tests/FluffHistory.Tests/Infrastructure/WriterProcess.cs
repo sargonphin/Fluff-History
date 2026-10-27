@@ -41,11 +41,11 @@ internal sealed class WriterProcess(Process process, string directory) : IAsyncD
 
         try
         {
-            if (args[0].StartsWith("m252-convert-", StringComparison.Ordinal))
+            if (args[0].StartsWith("convert-", StringComparison.Ordinal))
             {
                 var parts = args[0].Split('-');
-                var encrypted = parts[2] == "encrypt";
-                var point = Enum.Parse<EncryptionConversionStage>(parts[3]);
+                var encrypted = parts[1] == "encrypt";
+                var point = Enum.Parse<EncryptionConversionStage>(parts[2]);
                 var options = EncryptionConversionTests.Options(Path.GetDirectoryName(args[1])!) with
                 {
                     Observed = stage => { if (stage == point) { ReportReady(); Thread.Sleep(Timeout.Infinite); } }
@@ -53,14 +53,14 @@ internal sealed class WriterProcess(Process process, string directory) : IAsyncD
                 Repository.ConvertEncryption(args[1], encrypted, EncryptionTests.Password, options);
                 return 3;
             }
-            if (args[0] == "m221-admission")
+            if (args[0] == "admission")
             {
                 if (!OperatingSystem.IsWindows()) return 2;
                 using var lease = new FluffHistory.Windows.WindowsOperationAdmission(Path.Combine(args[1], "writer.lock")).TryAcquire();
                 if (lease is null) return 3;
                 ReportReady(); Thread.Sleep(Timeout.Infinite); return 0;
             }
-            if (args[0] == "m201-silent-open")
+            if (args[0] == "silent-open")
             {
                 using var repository = Repository.OpenWithWindowsUser(args[1]);
                 using var reader = repository.OpenReader();
@@ -70,7 +70,7 @@ internal sealed class WriterProcess(Process process, string directory) : IAsyncD
                 if (!bytes.ToArray().AsSpan().SequenceEqual("canary-private-file-content"u8)) return 3;
                 ReportReady(); return 0;
             }
-            if (args[0].StartsWith("m19-held-prepared", StringComparison.Ordinal))
+            if (args[0].StartsWith("held-prepared", StringComparison.Ordinal))
             {
                 if (!OperatingSystem.IsWindows()) return 2;
                 var repository = Repository.Open(args[1]); using var writer = repository.OpenWriter(Path.GetTempPath());
@@ -89,20 +89,20 @@ internal sealed class WriterProcess(Process process, string directory) : IAsyncD
                 }
                 catch (IOException error) { Console.WriteLine("error:" + error.GetType().Name + ":" + error.Message); return 10; }
             }
-            if (args[0].StartsWith("m19-fault-", StringComparison.Ordinal))
+            if (args[0].StartsWith("fault-", StringComparison.Ordinal))
                 return SmbFaultChild.Run(args[0][10..], args[1], ReportReady);
-            if (args[0] is "m19-before-candidate" or "m19-confirmation")
+            if (args[0] is "before-candidate" or "confirmation")
             {
                 var repository = Repository.Open(args[1]);
                 using var writer = repository.OpenWriter(Path.GetTempPath());
                 writer.Observe = stage =>
                 {
-                    if (stage != (args[0] == "m19-before-candidate" ? PublicationStage.LocalPrepared : PublicationStage.AfterReplace)) return;
-                    if (args[0] == "m19-confirmation") { writer.LoseHandleForTest(); return; }
+                    if (stage != (args[0] == "before-candidate" ? PublicationStage.LocalPrepared : PublicationStage.AfterReplace)) return;
+                    if (args[0] == "confirmation") { writer.LoseHandleForTest(); return; }
                     ReportReady(); using var wait = new ManualResetEventSlim(); wait.Wait();
                 };
                 try { writer.Apply(new(sourceRoots: [new(Guid.NewGuid(), "Source")]), repository.ReadAuthority().Identity); }
-                catch (PublicationUncertainException) when (args[0] == "m19-confirmation")
+                catch (PublicationUncertainException) when (args[0] == "confirmation")
                 { ReportReady(); using var wait = new ManualResetEventSlim(); wait.Wait(); }
                 return 2;
             }

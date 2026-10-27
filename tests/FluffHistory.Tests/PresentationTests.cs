@@ -679,8 +679,9 @@ public sealed partial class PresentationTests
         public Func<CancellationToken, Task<ExperimentalRecoveryState>>? SecurityInspector { get; set; }
         public Task<ExperimentalRecoveryState> InspectSecurityAsync(CancellationToken token) => SecurityInspector?.Invoke(token) ?? Task.FromResult(ExperimentalRecoveryState.Off);
         public Func<RepositorySecurityOperation, SecurityOperationResult>? SecurityExecutor { get; set; }
+        public Func<RepositorySecurityOperation, Task<SecurityOperationResult>>? AsyncSecurityExecutor { get; init; }
         public Task<SecurityOperationResult> ExecuteSecurityAsync(RepositorySecurityOperation operation, char[]? password, CancellationToken token)
-            => Task.FromResult(SecurityExecutor?.Invoke(operation) ?? throw new NotSupportedException());
+            => AsyncSecurityExecutor?.Invoke(operation) ?? Task.FromResult(SecurityExecutor?.Invoke(operation) ?? throw new NotSupportedException());
         public ExactVersionRemovalService? VersionRemoval { get; set; }
         public BrowserVersion? RestoredVersion { get; private set; }
         public BrowserVersion? PreviewedVersion { get; private set; }

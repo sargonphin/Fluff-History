@@ -23,7 +23,8 @@ internal enum EncryptionConversionStage
     PayloadFlushed, BeforePayloadReplace, AfterPayloadReplace, PayloadsCompleted, BeforeMetadata,
     MetadataSegmentCreated, MetadataFlushed, TargetStatePrepared, BeforeBootstrapPivot, AfterBootstrapPivot, BeforeStatePivot,
     AfterStatePivot, FinalVerified, BeforeMarkerRemoval, AfterMarkerRemoval,
-    BeforeFence, AfterFence, BeforeReady, ReadyRecorded
+    BeforeFence, AfterFence, BeforeReady, ReadyRecorded,
+    BeforeOneDriveCleanupRecord, OneDriveCleanupRecorded, BeforeOneDriveRetirement, AfterOneDriveRetirement
 }
 
 public sealed partial class Repository
@@ -81,6 +82,9 @@ public sealed partial class Repository
             Format.Require(AuthorityFiles.ReadSmall(Path.Combine(directory, "repository.json")).AsSpan().SequenceEqual(sourceBytes) &&
                 AuthorityFiles.ReadSmall(Path.Combine(directory, "state.json")).AsSpan().SequenceEqual(sourceState), "conversion initial predecessor changed");
             writer.RequireConversionCleanBoundary();
+            // Reject a full cleanup ledger before fencing ordinary access; explicit retry must
+            // remain usable on the still-encrypted source to free old obligations.
+            if (!encrypted && OneDriveRecoverySidecar.Exists(directory)) writer.AdmitOneDriveCleanupForConversion();
         }
         RepositoryBootstrap targetBootstrap;
         if (existing is not null) targetBootstrap = RepositoryBootstrap.Parse(Convert.FromBase64String(existing.TargetBootstrap));
@@ -227,7 +231,16 @@ public sealed partial class Repository
         }
         // Cloud cleanup is Application-owned; a remote orphan never blocks verified physical conversion.
         // Retire the non-authoritative local half only after all target objects are proven.
-        if (!encrypted && OneDriveRecoverySidecar.Exists(directory)) writer.RetireOneDriveRecoveryForConversion(control, token);
+        if (!encrypted && OneDriveRecoverySidecar.Exists(directory))
+        {
+            options.Observed?.Invoke(EncryptionConversionStage.BeforeOneDriveCleanupRecord);
+            writer.RecordOneDriveCleanupForConversion(control, token);
+            options.Observed?.Invoke(EncryptionConversionStage.OneDriveCleanupRecorded);
+            token.ThrowIfCancellationRequested();
+            options.Observed?.Invoke(EncryptionConversionStage.BeforeOneDriveRetirement);
+            writer.RetireOneDriveRecoveryForConversion(control, token);
+            options.Observed?.Invoke(EncryptionConversionStage.AfterOneDriveRetirement);
+        }
         token.ThrowIfCancellationRequested(); writer.ValidateConversionControl(control);
         Space(4L * EncryptionMigrationControl.MaximumBytes);
         Report("Finalizing backup", inventory.LogicalBytes, inventory.Versions, true);

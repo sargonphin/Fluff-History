@@ -5,7 +5,7 @@ Set-StrictMode -Version Latest
 $package = Get-AppxPackage -Name 'Sargonphin.FluffHistory.DeveloperPreview'
 if (!$package) { throw 'Install the matching Developer Preview package first.' }
 $info = Get-Content -LiteralPath (Join-Path $ArtifactDirectory 'build-info.json') -Raw | ConvertFrom-Json
-if ($info.version -notmatch '^0\.24\.0\.\d{1,5}$' -or $package.Version -ne $info.version) { throw 'The installed package must match this M24 archive.' }
+if ($info.version -notmatch '^0\.24\.0\.\d{1,5}$' -or $package.Version -ne $info.version) { throw 'The installed package must match this development archive.' }
 $payload = Join-Path $ArtifactDirectory 'ShellIntegration\FluffHistory.PropertySheet.dll'
 if ((Get-FileHash -LiteralPath $payload -Algorithm SHA256).Hash -ne $info.propertySheetSha256) { throw 'Properties payload hash does not match this archive.' }
 $root = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'Fluff-History\ShellIntegration'
@@ -43,4 +43,4 @@ try {
 Add-Type -TypeDefinition 'using System; using System.Runtime.InteropServices; public static class FluffHistoryShellNotify { [DllImport("shell32.dll")] public static extern void SHChangeNotify(uint e,uint f,IntPtr a,IntPtr b); }'
 [FluffHistoryShellNotify]::SHChangeNotify(0x08000000,0,[IntPtr]::Zero,[IntPtr]::Zero)
 Write-Output "Development Properties page registered per-user: $dll"
-Write-Output 'Run Uninstall-ShellIntegration.ps1 before removing the package. Production deployment is deferred to M25.'
+Write-Output 'Run Uninstall-ShellIntegration.ps1 before removing the package. Use canonical Setup for normal deployment.'

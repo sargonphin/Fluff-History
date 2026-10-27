@@ -63,7 +63,7 @@ public sealed class CapacityMeasurementTests(ITestOutputHelper output)
                 foreach (var item in expected.Skip((int)result.Removed)) Assert.NotNull(reader.GetVersion(item.Identity));
                 Assert.Equal(1024, reader.EnumerateCurrentComparison().Count());
             }
-            output.WriteLine("M161_MIXED " + JsonSerializer.Serialize(new { result, survivors = 3328 - result.Removed, compared,
+            output.WriteLine("CAPACITY_RETENTION_MIXED " + JsonSerializer.Serialize(new { result, survivors = 3328 - result.Removed, compared,
                 cumulativeAllocatedBytes = allocation, liveManagedBytes = GC.GetTotalMemory(false), processLifetimePeakWorkingSet = Process.GetCurrentProcess().PeakWorkingSet64, elapsedMs = watch.ElapsedMilliseconds }));
         }
         finally { foreach (var handle in held) handle.Dispose(); }
@@ -83,7 +83,7 @@ public sealed class CapacityMeasurementTests(ITestOutputHelper output)
         }
         var probe = new BatchModelProbe(batch); var result = new CapacityRetentionEngine(f.Repository, new(BatchSize: batch), probe).EnsureCapacity(32);
         Assert.True(result.Satisfied); Assert.Equal((37 + batch - 1) / batch * batch, result.Removed);
-        output.WriteLine("M161_BATCH " + JsonSerializer.Serialize(new { batch, minimumModelRemovals = 37, extraModelRemovals = result.Removed - 37, result.Removed,
+        output.WriteLine("CAPACITY_RETENTION_BATCH " + JsonSerializer.Serialize(new { batch, minimumModelRemovals = 37, extraModelRemovals = result.Removed - 37, result.Removed,
             result.BatchesCommitted, result.CapacityObservations, result.VersionPagesWritten, result.MetadataBytesAppended, result.MaximumBatchCount }));
     }
     private sealed class BatchModelProbe(int batch) : IRepositoryCapacityProbe
@@ -101,7 +101,7 @@ public sealed class CapacityMeasurementTests(ITestOutputHelper output)
         var inventory = RetentionTests.Inventory(repo); var segments = Directory.GetFiles(Path.Combine(repo.DirectoryPath, "metadata"), "*.seg");
         var cheap = new CapacityRetentionEngine(repo, probe: new ScriptedCapacityProbe(new CapacityObservation(100, 5))).EnsureCapacity(0);
         Assert.Equal(0, cheap.HistoryScans); Assert.Equal(0, cheap.Sort.RunsCreated); Assert.Equal(inventory, RetentionTests.Inventory(repo));
-        output.WriteLine("M161_LARGE_FIXTURE " + JsonSerializer.Serialize(new { paths, versions = paths * 2, segments = segments.Length,
+        output.WriteLine("CAPACITY_RETENTION_LARGE_FIXTURE " + JsonSerializer.Serialize(new { paths, versions = paths * 2, segments = segments.Length,
             metadataBytes = segments.Sum(p => new FileInfo(p).Length), payloads = 0, cheap.HistoryScans, cheap.CapacityObservations, cheap.Sort.RunsCreated }));
         var probe = new ScriptedCapacityProbe(new CapacityObservation(100000, 0), new CapacityObservation(100000, 0), new CapacityObservation(100000, 0), new CapacityObservation(100000, 0), new CapacityObservation(100000, 5000));
         var engine = new CapacityRetentionEngine(repo, new(WorkspaceRoot: temp.Child("work")), probe); long compared = 0;
@@ -124,7 +124,7 @@ public sealed class CapacityMeasurementTests(ITestOutputHelper output)
         Assert.True(result.Satisfied); Assert.Equal(1, result.HistoryScans); Assert.Equal(2, result.BatchesCommitted); Assert.Equal(500000, result.Examined);
         Assert.Equal(250000, compared); Assert.Equal(250000, result.Protected); Assert.Equal(250000, result.Eligible); Assert.Equal(result.Removed, result.Cleanup.AlreadyAbsent);
         Assert.InRange(result.Sort.PeakChunkEntries, 1, 4096); Assert.InRange(result.Sort.PeakChunkBytes, 1, 4 * 1024 * 1024); Assert.InRange(result.Sort.PeakOpenFiles, 1, 10);
-        output.WriteLine("M161_LARGE " + JsonSerializer.Serialize(new { result, compared, survivors = 500000 - result.Removed,
+        output.WriteLine("CAPACITY_RETENTION_LARGE " + JsonSerializer.Serialize(new { result, compared, survivors = 500000 - result.Removed,
             cumulativeAllocatedBytes = allocated, liveManagedBytes = GC.GetTotalMemory(false), processLifetimePeakWorkingSet = Process.GetCurrentProcess().PeakWorkingSet64, elapsedMs = watch.ElapsedMilliseconds }));
         Assert.Empty(Directory.GetDirectories(temp.Child("work"), "FluffHistory-capacity-*"));
     }

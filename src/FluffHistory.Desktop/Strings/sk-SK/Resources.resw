@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Informácie</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History – vývojárska ukážka</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Plánované zálohovanie pokračuje po zatvorení okna. Integrácia s Prieskumníkom a Vlastnosťami sa inštaluje s Fluff-History. Podporované je obnovenie heslom a lokálny prístup Windows. Bez telemetrie a automatického odosielania.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Súbor zmenený: {3:G}</value>
     <value>Obnovenie zmení aktuálny súbor. Uložená história sa zachová.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History nie je dostupné. Nainštalujte vývojársku ukážku a skúste to znova.</value>
+    <value>Fluff-History nie je k dispozícii. Znova spustite inštalačný program a opravte inštaláciu.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Obnoviť túto uloženú verziu do pôvodného umiestnenia? Windows sa spýta na konflikty s existujúcimi súbormi. Uložená história sa zachová.</value>
@@ -2007,83 +2007,83 @@ Najstaršia uchovaná verzia: úplnú históriu otvorte na Časovej osi</value>
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>Opraviť obnovenie cez OneDrive</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Vypnúť lokálne…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Pôvodné obnovenie je potrebné aktualizovať na OneDrive.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Experimentálne obnovenie cez OneDrive nie je v tejto zostave nastavené.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>Ak chcete používať obnovenie cez OneDrive, prihláste sa do Microsoftu.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Prihlásenie do Microsoftu alebo súhlas boli odmietnuté. Obnovenie pomocou hesla zostáva dostupné.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Požadované povolenie pre priečinok aplikácie v OneDrive nie je dostupné. Obnovenie pomocou hesla zostáva dostupné.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>Obnovenie cez OneDrive vyžaduje pripojenie na internet. Heslo a lokálny prístup cez Windows zostávajú dostupné.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>Obnovenie cez OneDrive sa teraz nepodarilo overiť. Skúste to neskôr alebo použite heslo na obnovenie.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive je zaneprázdnený. Skúste to neskôr.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive nie je pre toto konto Microsoft dostupný alebo nastavený. Použite heslo na obnovenie.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>Kľúč na obnovenie z OneDrive sa zmenil alebo nie je platný. Použite heslo na obnovenie alebo opravte obnovenie na počítači, ktorý dokáže odomknúť túto zálohu.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>Ešte môže byť potrebné vyčistenie OneDrive. Týka sa to iba kľúča na obnovenie; heslo a prístup cez Windows zostávajú nezmenené.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>Ešte môže byť potrebné vyčistenie OneDrive. Súbor na obnovenie: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>Obnovenie cez OneDrive funguje, ale pôvodný obnovovací prihlasovací údaj Windows sa nepodarilo úplne odstrániť.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>Vypnúť obnovenie cez OneDrive lokálne?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Tým sa odstráni prepojenie zálohy s obnovením cez OneDrive bez odstránenia súboru na obnovenie v cloude. Tento súbor možno budete musieť z OneDrive odstrániť ručne. Heslo a prístup cez Windows zostávajú nezmenené.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>Obnovenie cez OneDrive je lokálne vypnuté.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>Opraviť obnovenie cez OneDrive?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Pred vyradením starého kľúča vytvorte a overte nový kľúč na obnovenie. Upravené súbory v cloude zostanú zachované.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Aktualizácie</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Kanál aktualizácií</value></data>
@@ -2121,4 +2121,13 @@ Najstaršia uchovaná verzia: úplnú históriu otvorte na Časovej osi</value>
   <data name="Update_Confirm" xml:space="preserve"><value>Prebieha zálohovanie. Zastaviť ho a nainštalovať aktualizáciu?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Zastaviť zálohovanie a inštalovať</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Zatiaľ nekontrolované</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>Čistenie OneDrivu bolo dokončené.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Znova skúsiť vyčistiť cloud</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Nainštalované. Moderný príkaz Prieskumníka nie je dostupný; aplikácia a stránka Vlastnosti fungujú. Spustite inštaláciu znova.</value>
+  </data>
 </root>

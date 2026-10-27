@@ -182,10 +182,10 @@
   <data name="Diagnostics_TextBlock_PageTitle.Text" xml:space="preserve">
     <value>Hakkında</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewTitle.Text" xml:space="preserve">
-    <value>Fluff-History Geliştirici Önizlemesi</value>
+  <data name="Diagnostics_TextBlock_ProductTitle.Text" xml:space="preserve">
+    <value>Fluff-History</value>
   </data>
-  <data name="Diagnostics_TextBlock_PreviewCapabilities.Text" xml:space="preserve">
+  <data name="Diagnostics_TextBlock_Capabilities.Text" xml:space="preserve">
     <value>Bu pencere kapalıyken zamanlanmış yedeklemeler devam eder. Gezgin ve Özellikler tümleştirmesi Fluff-History ile kurulur. Parola ile kurtarma ve yerel Windows erişimi desteklenir. Telemetri veya otomatik yükleme yoktur.</value>
   </data>
   <data name="Diagnostics_Button_Copy.Content" xml:space="preserve">
@@ -1870,7 +1870,7 @@ Dosya değiştirildi: {3:G}</value>
     <value>Geri yükleme mevcut dosyayı değiştirir. Kaydedilen geçmiş korunur.</value>
   </data>
   <data name="Shell_AppUnavailable" xml:space="preserve">
-    <value>Fluff-History kullanılamıyor. Geliştirici Önizlemesi'ni kurup yeniden deneyin.</value>
+    <value>Fluff-History kullanılamıyor. Yüklemeyi onarmak için kurulum programını yeniden çalıştırın.</value>
   </data>
   <data name="Shell_RestoreConfirmation" xml:space="preserve">
     <value>Bu kaydedilen sürüm özgün konumuna geri yüklensin mi? Windows mevcut dosya çakışmalarını soracak. Kaydedilen geçmiş korunur.</value>
@@ -2007,83 +2007,83 @@ En eski saklanan sürüm: tam geçmiş için Zaman çizelgesi'ni açın</value>
   </data>
   <data name="Configuration_Button_RepairExperimental.Content" xml:space="preserve">
     <value>OneDrive kurtarmasını onar</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Configuration_Button_DisableExperimentalLocally.Content" xml:space="preserve">
     <value>Yerel olarak kapat…</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Legacy" xml:space="preserve">
     <value>Eski kurtarmanın OneDrive&apos;a yükseltilmesi gerekiyor.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_NotConfigured" xml:space="preserve">
     <value>Deneysel OneDrive kurtarması bu derlemede yapılandırılmadı.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_SignInRequired" xml:space="preserve">
     <value>OneDrive kurtarmasını kullanmak için Microsoft&apos;ta oturum açın.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ConsentDenied" xml:space="preserve">
     <value>Microsoft oturumu açma veya onay reddedildi. Parolayla kurtarma kullanılabilir durumda.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_PermissionUnavailable" xml:space="preserve">
     <value>Gerekli OneDrive uygulama klasörü izni kullanılamıyor. Parolayla kurtarma kullanılabilir durumda.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Offline" xml:space="preserve">
     <value>OneDrive kurtarması internet bağlantısı gerektirir. Parola ve yerel Windows erişimi kullanılabilir durumda.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_ServiceUnavailable" xml:space="preserve">
     <value>OneDrive kurtarması şu anda doğrulanamadı. Daha sonra tekrar deneyin veya kurtarma parolanızı kullanın.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Throttled" xml:space="preserve">
     <value>OneDrive meşgul. Daha sonra tekrar deneyin.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_Unavailable" xml:space="preserve">
     <value>OneDrive bu Microsoft hesabı için kullanılamıyor veya ayarlanmadı. Kurtarma parolanızı kullanın.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_InvalidObject" xml:space="preserve">
     <value>OneDrive kurtarma anahtarı değişmiş veya geçersiz. Kurtarma parolanızı kullanın ya da bu yedeğin kilidini açabilen bir bilgisayarda kurtarmayı onarın.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanup" xml:space="preserve">
     <value>OneDrive temizliği hâlâ gerekebilir. Yalnızca kurtarma anahtarı etkilenir; parola ve Windows erişimi değişmez.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RemoteCleanupFile" xml:space="preserve">
     <value>OneDrive temizliği hâlâ gerekebilir. Kurtarma dosyası: {0}.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_LegacyCleanup" xml:space="preserve">
     <value>OneDrive kurtarması çalışıyor, ancak eski Windows kurtarma kimlik bilgisi tamamen kaldırılamadı.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyTitle" xml:space="preserve">
     <value>OneDrive kurtarması yerel olarak kapatılsın mı?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisableLocallyExplanation" xml:space="preserve">
     <value>Bu işlem yedeğin OneDrive kurtarma bağlantısını kaldırır, ancak buluttaki kurtarma dosyasını silmez. Bu dosyayı OneDrive&apos;dan elle kaldırmanız gerekebilir. Parola ve Windows erişimi değişmez.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_DisabledLocally" xml:space="preserve">
     <value>OneDrive kurtarması yerel olarak kapatıldı.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairTitle" xml:space="preserve">
     <value>OneDrive kurtarması onarılsın mı?</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="OneDrive_RepairExplanation" xml:space="preserve">
     <value>Eski anahtarı devre dışı bırakmadan önce yeni bir kurtarma anahtarı oluşturup doğrulayın. Değiştirilmiş bulut dosyaları korunur.</value>
-    <comment>M20.3: recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
+    <comment>Recovery key is random app-folder material, not a recovery password or Microsoft password. This feature uploads no backed-up files.</comment>
   </data>
   <data name="Update_Title" xml:space="preserve"><value>Güncellemeler</value></data>
   <data name="Update_Channel" xml:space="preserve"><value>Güncelleme kanalı</value></data>
@@ -2121,4 +2121,13 @@ En eski saklanan sürüm: tam geçmiş için Zaman çizelgesi'ni açın</value>
   <data name="Update_Confirm" xml:space="preserve"><value>Bir yedekleme sürüyor. Durdurulup güncelleme yüklensin mi?</value></data>
   <data name="Update_StopInstall" xml:space="preserve"><value>Yedeklemeyi durdur ve yükle</value></data>
   <data name="Update_NotChecked" xml:space="preserve"><value>Henüz denetlenmedi</value></data>
+  <data name="OneDrive_CleanupCompleted" xml:space="preserve">
+    <value>OneDrive temizliği tamamlandı.</value>
+  </data>
+  <data name="OneDrive_RetryCleanup" xml:space="preserve">
+    <value>Bulut temizliğini yeniden dene</value>
+  </data>
+  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
+    <value>Yüklendi. Modern Gezgin komutu kullanılamıyor; uygulama ve Özellikler sayfası çalışıyor. Kurulumu yeniden çalıştırın.</value>
+  </data>
 </root>

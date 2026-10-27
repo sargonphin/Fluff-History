@@ -90,7 +90,7 @@ public sealed class HistoryCleanupMeasurementTests(ITestOutputHelper output)
             Assert.Equal(held.Count, writer.CleanupRetiredPayloads().Result.Deleted); writer.RebuildIndexes(); writer.CompactMetadata(); writer.CleanupRetiredMetadata(); writer.RebuildIndexes();
         }
         using (var fresh = repo.OpenReader()) Assert.Equal(survivorCount, fresh.EnumerateRetentionVersions().LongCount());
-        output.WriteLine("M153_MIXED " + JsonSerializer.Serialize(new { mode = evaluation.Mode.ToString(), fixture = new { paths, versions = inputs.Count, protectedPaths, deletedPaths = 128, unprotectedPaths = 128, realPayloads = inputs.Count },
+        output.WriteLine("HISTORY_CLEANUP_MIXED " + JsonSerializer.Serialize(new { mode = evaluation.Mode.ToString(), fixture = new { paths, versions = inputs.Count, protectedPaths, deletedPaths = 128, unprotectedPaths = 128, realPayloads = inputs.Count },
             previewSample, pages = new { pages, candidates = actual.Count, maxCount, maxBytes, maximumPendingVersions = latest ? 1 : 0 }, executionSample,
             survivorCount, survivorPaths, globalSort = false, selectionScratchBytes = 0, payloadBytesReadForSelection = 0,
             note = "Logical bytes are not reclaimed capacity. Writer materialization is separate from selection scratch. Live samples are unforced; peak includes fixture construction. Moderate oracle collections are test-only." }));
@@ -111,7 +111,7 @@ public sealed class HistoryCleanupMeasurementTests(ITestOutputHelper output)
         Assert.Equal(500_000, preview.Reads!.VersionsExamined); Assert.InRange(preview.Reads.PeakRetainedHandles, 1, 8);
         Assert.InRange(preview.Reads.MaximumRetainedEntries, 1, 32768); Assert.InRange(preview.Reads.MaximumRetainedKeyBytes, 1, 8 * 1024 * 1024);
         Assert.Null(reader.Workspace!.CreatedDirectory); Assert.Equal(inventory, RetentionTests.Inventory(repo));
-        output.WriteLine("M153_LARGE " + JsonSerializer.Serialize(new { fixture = new { paths, versions = paths * 2, segments = files.Length, metadataBytes = files.Sum(p => new FileInfo(p).Length), payloads = 0 },
+        output.WriteLine("HISTORY_CLEANUP_LARGE " + JsonSerializer.Serialize(new { fixture = new { paths, versions = paths * 2, segments = files.Length, metadataBytes = files.Sum(p => new FileInfo(p).Length), payloads = 0 },
             preview, retainedPerPathPublications = 1, logicallyRetainedVersions = paths, historyTraversals = 1,
             globalSort = false, candidateArray = false, selectionScratchBytes = 0, workspaceBytes = 0, repositoryBytesWritten = 0, payloadBytesRead = 0,
             cumulativeAllocatedBytes = GC.GetTotalAllocatedBytes(true) - allocated, liveManagedBytes = GC.GetTotalMemory(false), elapsedMs = watch.ElapsedMilliseconds,

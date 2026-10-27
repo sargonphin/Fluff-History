@@ -3,8 +3,7 @@
 Fluff-History is a Windows per-file history application. Read the current topic
 documents before changing a subsystem. [Architecture](docs/ARCHITECTURE.md) defines
 the product model; [Format 4](docs/REPOSITORY-FORMAT.md) defines active storage bytes.
-Current implementation and reconciled topic documents take precedence over obsolete
-development records.
+Current implementation and topic documents define the supported behavior.
 
 ## History and source safety
 

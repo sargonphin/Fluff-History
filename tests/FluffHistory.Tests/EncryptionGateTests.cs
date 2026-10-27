@@ -59,7 +59,7 @@ public sealed class EncryptionGateTests
         using var inflater = new DeflateStream(input, CompressionMode.Decompress);
         using var decoded = new MemoryStream(); inflater.CopyTo(decoded); Assert.Equal(canary, decoded.ToArray());
         // Optional portable probe: only a clearly synthetic gate fixture is exported.
-        var fixture = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M20_GATE");
+        var fixture = Environment.GetEnvironmentVariable("FLUFF_HISTORY_ENCRYPTION_GATE");
         if (fixture is not null)
         {
             slot[^1] ^= 1;

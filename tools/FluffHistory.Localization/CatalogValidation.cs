@@ -2,12 +2,27 @@ using System.Globalization;
 using System.Text;
 using System.Xml;
 using System.Xml.Linq;
+using System.Text.RegularExpressions;
 
 namespace FluffHistory.Localization;
 
 public static class CatalogValidation
 {
     public static IReadOnlyList<string> ShippingLanguages => FluffHistory.Application.ApplicationLanguage.SupportedTags;
+    public static IReadOnlyList<string> ReleaseBranding(IReadOnlyDictionary<string, string> catalog)
+    {
+        var errors = new List<string>();
+        if (!catalog.TryGetValue("Diagnostics_TextBlock_ProductTitle.Text", out var title) || title != "Fluff-History")
+            errors.Add("Normal About product title must be Fluff-History.");
+        foreach (var (key, value) in catalog.Where(entry => entry.Key.StartsWith("Diagnostics_", StringComparison.Ordinal)))
+        {
+            if (key.Contains("Preview", StringComparison.OrdinalIgnoreCase))
+                errors.Add("Obsolete preview-specific About identifier: " + key);
+            if (Regex.IsMatch(value, @"\bdeveloper[\s-]+preview\b", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+                errors.Add("Developer Preview branding in normal About resources: " + key);
+        }
+        return errors;
+    }
     public static XDocument Load(string path)
     {
         using var reader = XmlReader.Create(path, new XmlReaderSettings

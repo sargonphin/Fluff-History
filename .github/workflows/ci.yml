@@ -28,6 +28,11 @@ jobs:
           global-json-file: global.json
           cache: true
           cache-dependency-path: '**/packages.lock.json'
+      - name: Verify exact .NET SDK selection
+        shell: pwsh
+        run: |
+          ./scripts/Test-DotNetSdk.ps1
+          ./scripts/Test-DotNetSdkPolicy.ps1
       - name: Restore locked dependencies
         run: dotnet restore FluffHistory.sln --locked-mode
       - name: Validate localization source and generated resources
@@ -48,6 +53,14 @@ jobs:
           ./scripts/Test-RecoveryDependencies.ps1
           ./scripts/Test-RecoveryDependencyGuard.ps1
           ./scripts/Test-DistributionTerms.ps1
+      - name: Validate installer signing and lifecycle policy
+        shell: pwsh
+        run: |
+          ./scripts/Test-SetupSigning.ps1
+          ./scripts/Test-SparseIdentityLifecycle.ps1
+          ./scripts/Test-InstallerLifecycle.ps1
+          ./scripts/Test-VersionPolicy.ps1
+          ./scripts/Test-BuildOutputPolicy.ps1
       - name: Build Release
         run: dotnet build FluffHistory.sln --configuration Release --no-restore "-p:GitCommit=$(git rev-parse HEAD)"
       - name: Test

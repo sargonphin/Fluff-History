@@ -1,34 +1,37 @@
 # Roadmap and known limits
 
-Fluff-History is pre-release. Future work is subject to validation and review; no
+Future work is subject to validation and review; no
 dates or completion guarantees are implied. The file-history model in
 [architecture](ARCHITECTURE.md) remains the boundary: no disk imaging, global
 snapshots, rename identity, backup-run restore points or Cloud Files provider.
 
-## Release readiness
+## Distribution and platform hardening
 
-- Preserve the first-party MIT license and establish verified vulnerability reporting.
-- Review redistributed binary terms, complete notices and approve production signing.
-- Validate immutable releases, signing/key rotation and the updater's fixed endpoint.
+- Maintain the first-party MIT license, component terms, notices and private reporting.
+- Obtain publicly trusted signing and plan certificate/package-publisher migration.
+  Version 1.0 intentionally leaves product/Setup PEs unsigned and self-signs only its
+  locally trusted sparse identity; trusted public signing is future work.
+- Validate signing/key rotation while preserving the updater's fixed endpoint and
+  approved-signer gate. Unsigned public installers require direct manual installation.
 - Complete installed/bare-metal recovery, suspend/resume, interaction and accessibility
-  checks before release candidates. VM reboot/sign-out results do not prove physical sleep.
+  checks on representative hardware. VM reboot/sign-out results do not prove physical sleep.
 - Review Store certification/distribution policy and update-channel behavior separately.
   The current per-user EXE/sparse-identity installer is not a full-MSIX Store package.
 
 The Entra recovery registration is separate from code signing and Store publisher
 identity. Domain verification does not itself establish signing trust or a verified
-publisher badge. Any later MSIX route needs a complete startup/update/Properties
-deployment plan, not just proof that a Shell extension can be registered.
+publisher badge. Store policy is a separate future review; the supported deployment
+remains classic Setup with the in-process native Properties integration.
 
 ## Recovery and user experience
 
 Experimental OneDrive recovery needs broader wrong-account/revocation/quota,
 recycle-bin, real legacy cleanup and installed/bare-metal campaigns. Core independent
 Windows-machine recovery has passed historically; those results do not complete all
-failure/dialog checks. A late decryption crash can retire the local recovery half
-before remote cleanup, losing exact coordinates to a harmless cloud-only random
-secret. Consider bounded coordinate retention through completion; never compensate
-with a wildcard cloud sweep.
+failure/dialog checks. Decryption retains bounded exact cleanup coordinates before
+retiring the local recovery half. Corrupt/lost user-DPAPI bookkeeping or a lost cloud
+upload response can still leave harmless residue; never compensate with a wildcard
+cloud sweep. See [security and recovery](SECURITY-AND-RECOVERY.md).
 
 Framework-owned ToggleSwitch captions can follow Windows language while application
 labels switch live. Native Explorer language and installer base messages have their

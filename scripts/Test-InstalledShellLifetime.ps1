@@ -3,6 +3,7 @@
 [CmdletBinding()]
 param([Parameter(Mandatory)][int]$UiProcessId,
     [ValidateRange(1,100)][int]$Iterations = 10,
+    [ValidateSet('Sargonphin.FluffHistory','Sargonphin.FluffHistory.DeveloperPreview')][string]$PackageIdentity = 'Sargonphin.FluffHistory',
     [Parameter(Mandatory)][string]$OutputPath)
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
@@ -52,7 +53,7 @@ if ($process.ProcessName -ne 'FluffHistory.Desktop' -or $process.SessionId -ne (
 $null = $process.Handle # Retain identity/exit status even if Windows terminates it.
 $windows = @(ManagementWindows)
 if ($windows.Count -ne 1 -or $windows[0].Current.ProcessId -ne $UiProcessId) { throw 'Expected one existing management window.' }
-$package = Get-AppxPackage -Name Sargonphin.FluffHistory.DeveloperPreview
+$package = Get-AppxPackage -Name $PackageIdentity
 if (!$package) { throw 'The product identity is not registered.' }
 $agentBefore = @(Get-Process FluffHistory.Agent -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Id | Sort-Object)
 $cases = New-Object 'Collections.Generic.List[object]'

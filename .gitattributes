@@ -2,3 +2,5 @@
 src/FluffHistory.Core/OrdinalCaseMap.txt text eol=lf
 # Preserve verbatim upstream legal snapshots, including original whitespace.
 installer/ThirdPartyNotices/*.rtf -text -whitespace
+# Certificate pins cover the exact public DER bytes.
+installer/SparseIdentity.cer -text

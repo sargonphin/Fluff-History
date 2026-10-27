@@ -13,7 +13,7 @@ internal static class MetadataDiagnosticFixture
     internal static void Populate(Repository repo, int fileCount, Action<int>? afterPopulation = null, long rotation = Format.MaximumSegmentBytes,
         Func<int, int, DateTimeOffset>? storedTime = null, Func<int, string>? name = null)
     {
-        // Test-only fixture construction: valid M12 semantic chain, both indexes and roots.
+        // Test-only fixture construction: valid semantic chain, both indexes and roots.
         // First pass is an ordered initial population; second pass represents later changes
         // whose chronology is independent of path order. No padding or reduced rotation size.
         using var ownership = repo.OpenWriter();

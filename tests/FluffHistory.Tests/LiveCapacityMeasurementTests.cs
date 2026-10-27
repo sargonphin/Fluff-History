@@ -90,7 +90,7 @@ public sealed class LiveCapacityMeasurementTests(ITestOutputHelper output)
         var engine = new FileHistoryEngine(repo, new(Capacity: new(RetentionPolicy.UntilSaturation)), new NoContent(), probe, new AllocationProbe());
         using var initial = repo.OpenReader();
         var result = Measure("no-change250k", () => engine.Scan([new(config, source)]), initial.Authority.Generation,
-            "M12/M13 distributed two-pass metadata fixture, real 250k source files; metadata fixture has no historical payload files; injected adequate capacity/geometry");
+            "Distributed two-pass metadata fixture, real 250k source files; metadata fixture has no historical payload files; injected adequate capacity/geometry");
         Assert.Equal(count, result.FilesEnumerated); Assert.Equal(count, result.ComparisonEntries); Assert.Equal(count, result.Unchanged);
         Assert.Equal(1, probe.Calls); Assert.Equal(0, result.Capacity.HistoryScans); Assert.Equal(0, result.HistoricalLookups);
         Assert.Equal(1, result.WriterAcquisitions); Assert.Equal(1, result.CurrentComparisonScans); Assert.Equal(0, result.HistoricalReaderRefreshes);
@@ -103,11 +103,11 @@ public sealed class LiveCapacityMeasurementTests(ITestOutputHelper output)
     public void NativeSeparateWorkspace()
     {
         if (!OperatingSystem.IsWindows()) return;
-        var workspace = Environment.GetEnvironmentVariable("FLUFF_M162_WORKSPACE_ROOT");
-        if (workspace is null) { output.WriteLine("Native separate-volume diagnostic requires FLUFF_M162_WORKSPACE_ROOT."); return; }
+        var workspace = Environment.GetEnvironmentVariable("FLUFF_HISTORY_CAPACITY_WORKSPACE_ROOT");
+        if (workspace is null) { output.WriteLine("Native separate-volume diagnostic requires FLUFF_HISTORY_CAPACITY_WORKSPACE_ROOT."); return; }
         using var f = new LiveCapacityFixture(); f.File();
         var geometry = f.Repository.ObserveAllocationGeometry(workspace);
-        output.WriteLine("M162_NATIVE_GEOMETRY " + JsonSerializer.Serialize(geometry));
+        output.WriteLine("SCAN_CAPACITY_NATIVE_GEOMETRY " + JsonSerializer.Serialize(geometry));
         var engine = new FileHistoryEngine(f.Repository, new(WorkspaceRoot: workspace, Capacity: new(RetentionPolicy.UntilSaturation)));
         using var initial = f.Repository.OpenReader();
         var result = Measure("native-separate-workspace", () => f.Scan(engine), initial.Authority.Generation, "native Windows capacity and allocation/volume probes; separate filesystem workspace");
@@ -118,7 +118,7 @@ public sealed class LiveCapacityMeasurementTests(ITestOutputHelper output)
     {
         var allocated = GC.GetTotalAllocatedBytes(true); var watch = Stopwatch.StartNew(); var result = scan(); watch.Stop();
         using var process = Process.GetCurrentProcess();
-        output.WriteLine("M162_JSON " + JsonSerializer.Serialize(new
+        output.WriteLine("SCAN_CAPACITY_JSON " + JsonSerializer.Serialize(new
         {
             scenario, fixture, result, sourceGenerations = result.BatchesCommitted, capacityGenerations = result.Capacity.RemovalBatches,
             generationDelta = result.Authority.Generation - generation, allocatedBytes = GC.GetTotalAllocatedBytes(true) - allocated,

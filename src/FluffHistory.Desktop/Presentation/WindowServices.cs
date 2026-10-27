@@ -53,12 +53,18 @@ internal sealed class WindowServices(Window window, DesktopLifetime lifetime, Ac
     {
         get
         {
-            var id = Package.Current.Id; var v = id.Version;
+            var identity = "none (unpackaged)";
+            try
+            {
+                var id = Package.Current.Id; var v = id.Version;
+                identity = $"{id.Name} {v.Major}.{v.Minor}.{v.Build}.{v.Revision}";
+            }
+            catch (Exception error) when (error is InvalidOperationException or System.Runtime.InteropServices.COMException) { }
             var sha = typeof(App).Assembly.GetCustomAttributes<AssemblyMetadataAttribute>().FirstOrDefault(a => a.Key == "GitCommit")?.Value ?? "local development";
-            // The visible release stage is independent of implementation milestones.
-            // Update it for Pre-Release / Release Candidate N / final Fluff-History.
             var release = FluffHistory.Application.InstalledReleaseIdentity.FromAssembly(typeof(App).Assembly)?.ToString() ?? "unpublished development";
-            return $"Fluff-History Developer Preview\nRelease: {release}\nIdentity: {id.Name} {v.Major}.{v.Minor}.{v.Build}.{v.Revision}\nGit SHA: {sha}\nWindows App SDK: 2.5.1 · x64 · self-contained\n.NET: {Environment.Version} · Windows: {Environment.OSVersion.Version}";
+            var warning = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Fluff-History", "Installer", "integration-warning.txt");
+            var integration = File.Exists(warning) ? "unavailable (Setup reported sparse registration failure; run Setup again to retry)" : identity.StartsWith("none", StringComparison.Ordinal) ? "unavailable (no package identity)" : "registered";
+            return $"Fluff-History\nRelease: {release}\nIdentity: {identity}\nModern Explorer command: {integration}\nGit SHA: {sha}\nWindows App SDK: 2.5.1 · x64 · self-contained\n.NET: {Environment.Version} · Windows: {Environment.OSVersion.Version}";
         }
     }
     public void CopyText(string text) { var data = new DataPackage(); data.SetText(text); Clipboard.SetContent(data); }

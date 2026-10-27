@@ -58,7 +58,7 @@ public sealed class SmbCapacityTests(ITestOutputHelper output)
         File.WriteAllBytes(file, new byte[32 * 1024 * 1024]);
         // Phase A explicitly supplies the server-observed allocation unit. Native UNC geometry
         // failure is separately recorded; Phase B must validate the ordinary production probe.
-        IRepositoryAllocationProbe? allocation = Environment.GetEnvironmentVariable("FLUFF_HISTORY_M19_NATIVE_GEOMETRY") == "1" ? null : new ServerGeometryProbe(Geometry(Root));
+        IRepositoryAllocationProbe? allocation = Environment.GetEnvironmentVariable("FLUFF_HISTORY_SMB_NATIVE_GEOMETRY") == "1" ? null : new ServerGeometryProbe(Geometry(Root));
         var result = new FileHistoryEngine(repo, new(WorkspaceRoot: f.Local, Capacity: new(policy)), allocationProbe: allocation).Scan(selection);
         Assert.True(result.Reuse.CapacityEvictions > 0);
         if (policy == RetentionPolicy.UntilSaturation)
@@ -92,7 +92,7 @@ public sealed class SmbCapacityTests(ITestOutputHelper output)
         using var capture = repo.OpenReader(); var expected = capture.GetCurrent(ReuseFixture.PathKey)!.Identity;
         File.WriteAllBytes(Path.Combine(source, "foo.txt"), new byte[16 * 1024 * 1024]);
         var engine = new FileHistoryEngine(repo, new(WorkspaceRoot: f.Local, Capacity: new(RetentionPolicy.Forever)),
-            allocationProbe: Environment.GetEnvironmentVariable("FLUFF_HISTORY_M19_NATIVE_GEOMETRY") == "1" ? null : new ServerGeometryProbe(Geometry(Root)));
+            allocationProbe: Environment.GetEnvironmentVariable("FLUFF_HISTORY_SMB_NATIVE_GEOMETRY") == "1" ? null : new ServerGeometryProbe(Geometry(Root)));
         var filled = false;
         engine.ConfigureWriter = writer => writer.PayloadObserve = (stage, _) =>
         { if (!filled && stage == PayloadStage.BeforeWrite) { filled = true; FillTo(repo, Path.Combine(f.Remote, "external.bin"), 1024 * 1024); } };

@@ -96,7 +96,7 @@ public sealed class VersionRemovalMeasurementTests(ITestOutputHelper output)
                 PeakMergeReaders = fold.PeakMergeReaders, RemovalAllocatedBytes = removalAllocated,
                 RemovalMilliseconds = removalMs, RebuildMilliseconds = rebuildMs, StagingContentBytes = 0
             };
-            output.WriteLine("M151_JSON " + JsonSerializer.Serialize(resultData));
+            output.WriteLine("VERSION_REMOVAL_JSON " + JsonSerializer.Serialize(resultData));
         }
         finally { foreach (var payload in held) payload.Dispose(); }
     }
