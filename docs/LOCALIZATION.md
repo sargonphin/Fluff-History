@@ -64,9 +64,9 @@ translator credits and license files remain unchanged.
 Edit canonical English and translations, then use `scripts/Test-Localization.ps1`.
 It runs literal/raw-exception guards, negative guard fixtures, exact catalog and
 placeholder/whitespace/brand checks, and `--check` generation for typed identifiers,
-live bindings, native resources, installer messages and manifests. Do not edit
-generated output as an alternative source of truth. Explicit identical translations
-require justified entries in the tool's allowlist.
+live bindings, native resources and installer messages. Do not edit generated output
+as an alternative source of truth. Explicit identical translations require justified
+entries in the tool's allowlist.
 
 Release-branding validation fixes the normal About heading to the untranslated
 product name `Fluff-History`, rejects preview-specific About identifiers and checks
