@@ -8,9 +8,9 @@ snapshots, rename identity, backup-run restore points or Cloud Files provider.
 ## Distribution and platform hardening
 
 - Maintain the first-party MIT license, component terms, notices and private reporting.
-- Obtain publicly trusted signing and plan certificate/package-publisher migration.
-  Version 1.0 intentionally leaves product/Setup PEs unsigned and self-signs only its
-  locally trusted sparse identity; trusted public signing is future work.
+- Obtain publicly trusted Authenticode signing for Setup and product binaries.
+  Current public releases remain intentionally unsigned; trusted public signing is
+  future work.
 - Validate signing/key rotation while preserving the updater's fixed endpoint and
   approved-signer gate. Unsigned public installers require direct manual installation.
 - Complete installed/bare-metal recovery, suspend/resume, interaction and accessibility
