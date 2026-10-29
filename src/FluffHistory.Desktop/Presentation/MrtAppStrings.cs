@@ -13,7 +13,7 @@ internal sealed class MrtAppStrings : IAppStrings
     internal static MrtAppStrings Instance { get; } = new();
     internal MrtAppStrings(string? pri = null, string? languageOverride = null)
     {
-        // Explicit path also works for the external executable with sparse identity.
+        // Explicit PRI path supports the unpackaged executable.
         _manager = new(pri ?? Path.Combine(AppContext.BaseDirectory, "FluffHistory.Desktop.pri"));
         _resources = _manager.MainResourceMap.GetSubtree("Resources");
         _context = _manager.CreateResourceContext();

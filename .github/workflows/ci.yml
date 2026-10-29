@@ -46,7 +46,7 @@ jobs:
           dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate . --check
           dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate-native . --check
           dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate-installer . --check
-          dotnet run --project tools/FluffHistory.Localization -c Release --no-build --no-restore -- generate-manifests . --check
+
       - name: Validate reviewed recovery dependencies and license regression guard
         shell: pwsh
         run: |
@@ -56,8 +56,10 @@ jobs:
       - name: Validate installer signing and lifecycle policy
         shell: pwsh
         run: |
+          ./scripts/Test-WindowsPlatformPolicy.ps1
           ./scripts/Test-SetupSigning.ps1
-          ./scripts/Test-SparseIdentityLifecycle.ps1
+          ./scripts/Test-ClassicVerb.ps1
+          ./scripts/Test-LegacyShellMigration.ps1
           ./scripts/Test-InstallerLifecycle.ps1
           ./scripts/Test-VersionPolicy.ps1
           ./scripts/Test-BuildOutputPolicy.ps1

@@ -1,9 +1,10 @@
 using System.Reflection;
+using FluffHistory.Windows;
 using FluffHistory.Desktop.Presentation.Models;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Controls;
-using Windows.ApplicationModel;
+
 using Windows.ApplicationModel.DataTransfer;
 
 namespace FluffHistory.Desktop.Presentation;
@@ -53,18 +54,23 @@ internal sealed class WindowServices(Window window, DesktopLifetime lifetime, Ac
     {
         get
         {
-            var identity = "none (unpackaged)";
-            try
-            {
-                var id = Package.Current.Id; var v = id.Version;
-                identity = $"{id.Name} {v.Major}.{v.Minor}.{v.Build}.{v.Revision}";
-            }
-            catch (Exception error) when (error is InvalidOperationException or System.Runtime.InteropServices.COMException) { }
             var sha = typeof(App).Assembly.GetCustomAttributes<AssemblyMetadataAttribute>().FirstOrDefault(a => a.Key == "GitCommit")?.Value ?? "local development";
             var release = FluffHistory.Application.InstalledReleaseIdentity.FromAssembly(typeof(App).Assembly)?.ToString() ?? "unpublished development";
-            var warning = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Fluff-History", "Installer", "integration-warning.txt");
-            var integration = File.Exists(warning) ? "unavailable (Setup reported sparse registration failure; run Setup again to retry)" : identity.StartsWith("none", StringComparison.Ordinal) ? "unavailable (no package identity)" : "registered";
-            return $"Fluff-History\nRelease: {release}\nIdentity: {identity}\nModern Explorer command: {integration}\nGit SHA: {sha}\nWindows App SDK: 2.5.1 · x64 · self-contained\n.NET: {Environment.Version} · Windows: {Environment.OSVersion.Version}";
+            var version = typeof(App).Assembly.GetCustomAttribute<AssemblyFileVersionAttribute>()?.Version
+                ?? typeof(App).Assembly.GetName().Version?.ToString() ?? "unknown";
+            var launcher = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Programs", "Fluff-History", "FluffHistory.ShellLauncher.exe");
+            var expected = "\"" + launcher + "\" \"%1\"";
+            var registered = false;
+            try
+            {
+                registered = new[] { "*", "Directory" }.All(scope =>
+                    Microsoft.Win32.Registry.GetValue(@"HKEY_CURRENT_USER\Software\Classes\" + scope + @"\shell\FluffHistory.RestorePreviousVersion\command", "", null) as string == expected);
+            }
+            catch (Exception error) when (error is UnauthorizedAccessException or System.Security.SecurityException or IOException) { }
+            var integration = registered && File.Exists(launcher) ? "Available (classic context menu)" : "Registration needs repair; run Setup again";
+            if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Fluff-History", "Installer", "integration-warning.txt")))
+                integration += "; legacy Explorer package cleanup pending, run Setup again";
+            return $"Fluff-History\nApp version: {version}\nRelease: {release}\nApplication: unpackaged\nClassic Explorer command: {integration}\nGit SHA: {sha}\nWindows App SDK: 2.5.1 · x64 · self-contained\n.NET: {Environment.Version} · Windows: {Environment.OSVersion.Version}";
         }
     }
     public void CopyText(string text) { var data = new DataPackage(); data.SetText(text); Clipboard.SetContent(data); }

@@ -1,4 +1,6 @@
 using FluffHistory.Windows;
+using FluffHistory.Application;
+using FluffHistory.Desktop.Presentation.Models;
 using FluffHistory.Tests.Infrastructure;
 using Xunit;
 
@@ -6,6 +8,25 @@ namespace FluffHistory.Tests;
 
 public sealed class HistoricalPreviewTests
 {
+    [WindowsFact]
+    public async Task PropertiesPreviewRevalidatesTheSelectedVersionWithoutUpdatingTheList()
+    {
+        using var f = new HistoryFixture(); var old = f.Add("report.txt", "selected historical bytes"); f.Add("report.txt", "newer bytes", 1);
+        var mapping = SourceMapping.New(f.Temp.Child("live")) with { SourceRootId = HistoryFixture.Root };
+        var settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child(), Sources = [mapping] };
+        await using var session = await ShellPathSession.OpenAsync(settings, Path.Combine(mapping.RuntimePath!, "report.txt"),
+            ShellItemKind.File, new ShellHistoryText(TestAppStrings.English));
+        var selected = session.Summary.Rows[1]; await session.ReleaseReadCaptureAsync(); f.Add("report.txt", "another backup", 2);
+        var before = TemporaryDirectory.Snapshot(f.Repository.DirectoryPath);
+        var exact = await session.RevalidateActionAsync(session.SessionId, selected.Token, settings); var launcher = new FakeLauncher();
+        using (var lease = await new WindowsHistoryActions { PreviewLauncher = launcher }.PreviewAsync(settings.RepositoryPath, exact.Version, (nint)123))
+        {
+            Assert.Equal("selected historical bytes", File.ReadAllText(lease.FilePath));
+            Assert.Equal(old.Metadata.LastWriteTimeUtc.UtcDateTime, File.GetLastWriteTimeUtc(lease.FilePath));
+            Assert.Equal((nint)123, launcher.Owner);
+        }
+        Assert.Equal(2, session.Summary.Rows.Length); Assert.Equal(before, TemporaryDirectory.Snapshot(f.Repository.DirectoryPath));
+    }
     [Theory]
     [InlineData(false, false)] [InlineData(true, false)] [InlineData(false, true)] [InlineData(true, true)]
     public void PreviewUsesExactBytesHistoricalNameTimeAndNormalOpenWithFallback(bool noAssociation, bool encrypted)

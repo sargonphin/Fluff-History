@@ -7,7 +7,6 @@ See [licensing](docs/LICENSING.md) for the dependency and distribution inventory
 | Material | Exact retained notice / provenance |
 | --- | --- |
 | Icons8 Flat Color Icons base artwork | [MIT notice](artwork/LICENSE-Icons8.txt), [artwork provenance](artwork/README.md) |
-| Microsoft Fluent System Icons history icon | [MIT notice](native/Shell/Assets/LICENSE.txt), [source/conversion](native/Shell/Assets/README.md) |
 | Microsoft.Identity.Client / Broker 4.83.3 | [MSAL.NET notice](installer/ThirdPartyNotices/MSAL.NET-4.83.3.txt) |
 | NativeInterop 0.20.4 | [MIT notice](installer/ThirdPartyNotices/NativeInterop-0.20.4.txt) |
 | IdentityModel.Abstractions 8.14.0 | [MIT notice](installer/ThirdPartyNotices/IdentityModel-Abstractions-8.14.0.txt) |

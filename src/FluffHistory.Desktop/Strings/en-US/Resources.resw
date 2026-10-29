@@ -2127,7 +2127,66 @@ Oldest retained version: open Timeline for complete history</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Retry cloud cleanup</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Installed. The modern Explorer command is unavailable; the app and Properties page still work. Run Setup again to retry.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Up to date at version {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>A new version is available</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Previous versions of this file stored in Fluff-History Timeline.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Previous file versions in this folder stored in Fluff-History Timeline.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Date modified</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(latest)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(oldest)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Opening the selected version…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>The saved version is open for preview.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>That saved version is unavailable. Open Fluff-History to check the backup.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>This file has {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>This file has at least {0}. Open Timeline for the full history.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Select a saved version to preview or restore.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>This file is no longer being backed up. Its saved versions are still available.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versions</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} version</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versions</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versions</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versions</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versions</value>
   </data>
 </root>

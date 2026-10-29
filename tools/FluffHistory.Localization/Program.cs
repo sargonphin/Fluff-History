@@ -7,11 +7,11 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using FluffHistory.Localization;
 
-if (args.Length < 2) throw new ArgumentException("Usage: localization <audit|guard|guard-inventory|test-guards|pseudo|generate|generate-native|generate-installer|generate-manifests|validate> <repository> [output|--check|locale]");
+if (args.Length < 2) throw new ArgumentException("Usage: localization <audit|guard|guard-inventory|test-guards|pseudo|generate|generate-native|generate-installer|validate> <repository> [output|--check|locale]");
 var root = Path.GetFullPath(args[1]);
 if (args[0] == "generate-native") NativeResources.Generate(root, args.Length > 2 && args[2] == "--check");
 else if (args[0] == "generate-installer") InstallerResources.Generate(root, args.Length > 2 && args[2] == "--check");
-else if (args[0] == "generate-manifests") ManifestResources.Generate(root, args.Length > 2 && args[2] == "--check");
+
 else if (args[0] == "pseudo") PseudoCatalog.Generate(root, args[2]);
 else if (args[0] == "guard") PresentationGuard.Check(root);
 else if (args[0] == "test-guards") GuardChecks.Run();

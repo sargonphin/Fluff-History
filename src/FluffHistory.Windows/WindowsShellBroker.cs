@@ -16,6 +16,7 @@ public static class WindowsShellBroker
         using var pipe = new NamedPipeServerStream(PipePrefix + token, PipeDirection.InOut, 1,
             PipeTransmissionMode.Byte, PipeOptions.Asynchronous | PipeOptions.CurrentUserOnly, 4096, 4096);
         ShellPathSession? session = null;
+        PreviewLease? previewLease = null;
         try
         {
             using (var connect = new CancellationTokenSource(TimeSpan.FromSeconds(15))) await pipe.WaitForConnectionAsync(connect.Token).ConfigureAwait(false);
@@ -35,25 +36,49 @@ public static class WindowsShellBroker
                     if (completed.Status == TaskStatus.RanToCompletion && completed.Result is { } late) await late.DisposeAsync().ConfigureAwait(false);
                     else _ = completed.Exception;
                 }, TaskScheduler.Default).Unwrap();
-                await ReplyAsync(new ShellOpenReply(ShellPathSession.Empty(ShellHistoryStatus.Unavailable, text))).ConfigureAwait(false); return;
+                await OpenReplyAsync(ShellPathSession.Empty(ShellHistoryStatus.Unavailable, text)).ConfigureAwait(false); return;
             }
             session = await loading.ConfigureAwait(false);
-            await ReplyAsync(new ShellOpenReply(session?.Summary ?? ShellPathSession.Empty(ShellHistoryStatus.Unavailable, text))).ConfigureAwait(false);
+            await OpenReplyAsync(session?.Summary ?? ShellPathSession.Empty(ShellHistoryStatus.Unavailable, text)).ConfigureAwait(false);
             if (session is null) return;
+            if (open.VersionTable) await session.ReleaseReadCaptureAsync().ConfigureAwait(false);
             while (true)
             {
-                using var idle = new CancellationTokenSource(TimeSpan.FromMinutes(2));
+                // New pages retain only twenty detached selections, not a repository/key capture.
+                // The owned pipe ends with the page. Old loaded DLLs retain their two-minute contract.
+                using var idle = open.VersionTable ? new CancellationTokenSource() : new CancellationTokenSource(TimeSpan.FromMinutes(2));
                 var message = await ShellWire.ReadAsync(pipe, idle.Token).ConfigureAwait(false);
                 if (message is ShellCloseRequest) return;
+                if (message is ShellPreviewRequest preview && open.VersionTable)
+                {
+                    if (!OwnedWindow(preview.OwnerWindow)) return;
+                    var opened = false;
+                    try
+                    {
+                        var settings = await store.LoadAsync().ConfigureAwait(false);
+                        if (settings.State != SettingsLoadState.Loaded || settings.Settings is null) throw new ApplicationOperationException(ApplicationFailure.RefreshRequired);
+                        var exact = await session.RevalidateActionAsync(preview.SessionId, preview.VersionToken, settings.Settings).ConfigureAwait(false);
+                        using var cancellation = new CancellationTokenSource();
+                        var opening = new WindowsHistoryActions().PreviewAsync(settings.Settings.RepositoryPath, exact.Version, (nint)preview.OwnerWindow, cancellation.Token);
+                        while (await Task.WhenAny(opening, Task.Delay(250)).ConfigureAwait(false) != opening)
+                            if (!PeekNamedPipe(pipe.SafePipeHandle, 0, 0, 0, 0, 0) || !IsWindow((nint)preview.OwnerWindow)) { await cancellation.CancelAsync().ConfigureAwait(false); break; }
+                        var lease = await opening.ConfigureAwait(false);
+                        previewLease?.Dispose(); previewLease = lease; opened = true;
+                    }
+                    catch (Exception error) when (error is ApplicationOperationException or OperationCanceledException) { }
+                    await ReplyAsync(new ShellResultReply(text.Preview(opened))).ConfigureAwait(false);
+                    continue;
+                }
                 if (message is not ShellRestoreRequest restore) return;
-                if (restore.OwnerWindow > long.MaxValue || !IsWindow((nint)restore.OwnerWindow) ||
-                    GetWindowThreadProcessId((nint)restore.OwnerWindow, out var windowProcess) == 0 || windowProcess != clientProcess) return;
+                if (!OwnedWindow(restore.OwnerWindow)) return;
                 ShellRestoreStatus result;
                 try
                 {
                     var settings = await store.LoadAsync().ConfigureAwait(false);
                     if (settings.State != SettingsLoadState.Loaded || settings.Settings is null) throw new ApplicationOperationException(ApplicationFailure.RefreshRequired);
-                    var exact = await session.GetRestoreAsync(restore.SessionId, restore.VersionToken, settings.Settings).ConfigureAwait(false);
+                    var exact = open.VersionTable
+                        ? await session.RevalidateActionAsync(restore.SessionId, restore.VersionToken, settings.Settings).ConfigureAwait(false)
+                        : await session.GetRestoreAsync(restore.SessionId, restore.VersionToken, settings.Settings).ConfigureAwait(false);
                     using var cancellation = new CancellationTokenSource();
                     var restoring = new WindowsHistoryActions().RestoreExactAsync(settings.Settings.RepositoryPath, exact.Version,
                         null, (nint)restore.OwnerWindow, exact.Mapping.ToSelection(), cancellation.Token);
@@ -65,7 +90,7 @@ public static class WindowsShellBroker
                 }
                 catch (ApplicationOperationException error) { result = error.Failure == ApplicationFailure.RefreshRequired ? ShellRestoreStatus.RefreshRequired : ShellRestoreStatus.Unavailable; }
                 catch (OperationCanceledException) { result = ShellRestoreStatus.CancelledInspect; }
-                await ReplyAsync(new ShellResultReply(text.Restore(result))).ConfigureAwait(false);
+                await ReplyAsync(new ShellResultReply(open.VersionTable && result == ShellRestoreStatus.RefreshRequired ? text.Preview(false) : text.Restore(result))).ConfigureAwait(false);
             }
             async Task<ShellPathSession?> OpenAsync()
             {
@@ -79,9 +104,14 @@ public static class WindowsShellBroker
                 await pipe.WriteAsync(ShellWire.Encode(reply), timeout.Token).ConfigureAwait(false);
                 await pipe.FlushAsync(timeout.Token).ConfigureAwait(false);
             }
+            Task OpenReplyAsync(ShellHistorySummary summary) => ReplyAsync(open.VersionTable
+                ? new ShellTableReply(summary with { Summary = open.Kind == ShellItemKind.File ? text.Status(summary.Status) : summary.Summary })
+                : new ShellOpenReply(summary));
+            bool OwnedWindow(ulong window) => window <= long.MaxValue && IsWindow((nint)window) &&
+                GetWindowThreadProcessId((nint)window, out var process) != 0 && process == clientProcess;
         }
         catch (Exception error) when (error is IOException or UnauthorizedAccessException or OperationCanceledException or ApplicationOperationException or ArgumentException) { }
-        finally { if (session is not null) await session.DisposeAsync().ConfigureAwait(false); }
+        finally { previewLease?.Dispose(); if (session is not null) await session.DisposeAsync().ConfigureAwait(false); }
     }
     [DllImport("kernel32.dll", SetLastError = true)] [return: MarshalAs(UnmanagedType.Bool)]
     private static extern bool GetNamedPipeClientProcessId(SafePipeHandle pipe, out uint process);

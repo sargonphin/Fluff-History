@@ -18,5 +18,8 @@ inline std::vector<uint8_t> LocalizedOpenFrame(const Selection& selection,const 
  if(language.empty())return OpenFrame(selection); // Existing operation1 remains compatible.
  Writer w;w.u32(selection.kind);w.text(selection.path,32760);w.text(language,LOCALE_NAME_MAX_LENGTH);return w.frame(4);
 }
+inline std::vector<uint8_t> TableOpenFrame(const Selection& selection,const std::wstring& language){
+ Check(!language.empty());Writer w;w.u32(selection.kind);w.text(selection.path,32760);w.text(language,LOCALE_NAME_MAX_LENGTH);return w.frame(5);
+}
 inline std::wstring Technical(const std::wstring& value){return L"\x2066"+value+L"\x2069";}
 }

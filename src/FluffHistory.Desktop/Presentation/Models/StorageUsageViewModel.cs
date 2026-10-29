@@ -2,7 +2,7 @@ using FluffHistory.Core;
 
 namespace FluffHistory.Desktop.Presentation.Models;
 
-/// <summary>Visible-page observations coalesced across entry/completion/location changes.
+/// <summary>Coalesced storage observations with a window- or page-owned lifetime.
 /// Only the cheap drive query repeats while active. No I/O in paint/layout getters.</summary>
 public sealed class StorageUsageViewModel(IDesktopContext owner, bool includeBackupSize, TimeProvider? timeProvider = null) : ObservableObject
 {
@@ -17,6 +17,7 @@ public sealed class StorageUsageViewModel(IDesktopContext owner, bool includeBac
     private Task? _refresh;
     private CapacityObservation? _drive;
     private long? _backupBytes;
+    private bool _backupStale;
     public bool HasLocation => _path.Length != 0;
     public bool HasDriveSpace => _drive is not null;
     public double UsedPercent => _drive is { } drive ? 100d * (drive.Capacity - drive.Free) / drive.Capacity : 0;
@@ -24,7 +25,7 @@ public sealed class StorageUsageViewModel(IDesktopContext owner, bool includeBac
         S.Format(TextId.Storage_DriveUsage, PresentationText.Size(S, drive.Capacity - drive.Free), PresentationText.Size(S, drive.Capacity), PresentationText.Size(S, drive.Free)) :
         _checkingDrive ? S[TextId.Storage_CheckingDrive] : S[TextId.Storage_DriveUnavailable];
     public string BackupSize => _checkingBackup ? S[TextId.Storage_CheckingBackup] : _backupBytes is { } bytes ?
-        _backupActive ? S.Format(TextId.Storage_LastBackupSize, PresentationText.Size(S, bytes)) : S.Format(TextId.Storage_BackupSize, PresentationText.Size(S, bytes)) : S[TextId.Storage_BackupSizeUnavailable];
+        _backupActive || _backupStale ? S.Format(TextId.Storage_LastBackupSize, PresentationText.Size(S, bytes)) : S.Format(TextId.Storage_BackupSize, PresentationText.Size(S, bytes)) : S[TextId.Storage_BackupSizeUnavailable];
 
     public Task ActivateAsync(string path)
     {
@@ -67,7 +68,7 @@ public sealed class StorageUsageViewModel(IDesktopContext owner, bool includeBac
         _lastAttempt = attempt; _historyRevision = owner.HistoryRevision;
         var wasActive = _backupActive; _backupActive = owner.Status?.IsAttemptActive == true;
         if (wasActive != _backupActive) { UpdatePolling(); Changed(nameof(BackupSize)); }
-        if (_active && (completed || changed)) _ = RequestRefreshAsync(true);
+        if (_active && (completed || changed && !_backupActive)) _ = RequestRefreshAsync(true);
     }
     public void Deactivate()
     {
@@ -98,7 +99,7 @@ public sealed class StorageUsageViewModel(IDesktopContext owner, bool includeBac
     {
         if (!_active) return Task.CompletedTask;
         _pending = true; _fullPending |= full;
-        if (full) { _generation++; _backupBytes = null; _checkingBackup = HasLocation && includeBackupSize; Changed(nameof(BackupSize)); }
+        if (full) { _generation++; _backupStale = true; _checkingBackup = HasLocation && includeBackupSize && _backupBytes is null; Changed(nameof(BackupSize)); }
         if (_refresh is not null) return _refresh;
         var completion = new TaskCompletionSource(TaskCreationOptions.RunContinuationsAsynchronously);
         _refresh = completion.Task; _ = DrainAsync(completion); return completion.Task;
@@ -121,7 +122,7 @@ public sealed class StorageUsageViewModel(IDesktopContext owner, bool includeBac
         using var query = new CancellationTokenSource(); _query = query;
         var path = _path;
         UpdateDrive(_drive, HasLocation);
-        if (full) { _backupBytes = null; _checkingBackup = HasLocation && includeBackupSize; Changed(nameof(BackupSize)); }
+        if (full) { _backupStale = true; _checkingBackup = HasLocation && includeBackupSize && _backupBytes is null; Changed(nameof(BackupSize)); }
         bool Current() => _active && generation == _generation;
         async Task DriveAsync()
         {
@@ -132,7 +133,7 @@ public sealed class StorageUsageViewModel(IDesktopContext owner, bool includeBac
         }
         async Task BackupAsync()
         {
-            try { var value = await owner.ObserveBackupSizeAsync(path, query.Token); if (Current() && value >= 0) _backupBytes = value; }
+            try { var value = await owner.ObserveBackupSizeAsync(path, query.Token); if (Current() && value >= 0) { _backupBytes = value; _backupStale = false; } }
             catch (Exception) { }
             finally { if (Current()) { _checkingBackup = false; Changed(nameof(BackupSize)); } }
         }

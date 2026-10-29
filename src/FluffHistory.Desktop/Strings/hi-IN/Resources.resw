@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>क्लाउड की सफ़ाई फिर से करें</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>इंस्टॉल हो गया। एक्सप्लोरर का आधुनिक कमांड उपलब्ध नहीं है; ऐप और गुण पृष्ठ काम करते हैं। सेटअप फिर से चलाएँ।</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>संस्करण {0} अद्यतित है</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>एक नया संस्करण उपलब्ध है</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Fluff-History टाइमलाइन में सहेजे गए इस फ़ाइल के पिछले संस्करण।</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Fluff-History टाइमलाइन में इस फ़ोल्डर की फ़ाइलों के पिछले संस्करण।</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>बदलाव की तारीख</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(नवीनतम)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(सबसे पुराना)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>पूर्वावलोकन</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>चुना गया संस्करण खोला जा रहा है…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>सहेजा गया संस्करण पूर्वावलोकन के लिए खुला है।</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>यह संस्करण उपलब्ध नहीं है। बैकअप जाँचने के लिए Fluff-History खोलें।</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>इस फ़ाइल के संस्करण: {0}।</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>इस फ़ाइल के संस्करण: कम से कम {0}। पूरे इतिहास के लिए टाइमलाइन खोलें।</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>पूर्वावलोकन या बहाली के लिए सहेजा गया संस्करण चुनें।</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>अब इस फ़ाइल का बैकअप नहीं लिया जाता। इसके सहेजे गए संस्करण अभी भी उपलब्ध हैं।</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} संस्करण</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} संस्करण</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} संस्करण</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} संस्करण</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} संस्करण</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} संस्करण</value>
   </data>
 </root>

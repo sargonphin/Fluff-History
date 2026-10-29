@@ -1,9 +1,19 @@
 # Building Fluff-History
 
-Fluff-History is a Windows 11 x64 application. The Desktop project and
-Setup require Windows build 22000 or later; the current compile target is 26100.
+The current 1.1 source targets Windows 11 x64 and Windows 10 22H2 x64,
+build 19045. The `v1.0.0` tag remains Windows 11-only. The compile target
+remains 26100. The Desktop's SDK contract baseline is 19041; ordinary Setup requires
+19045. These are distinct from the tested product target and Microsoft servicing.
 Windows is the authoritative build and release-validation platform. Other operating
 systems are outside the supported product and release-readiness matrix.
+
+`installer/WindowsPlatform.props` defines the technical and tested product minimums.
+MSBuild, Setup, build metadata and platform guards consume this policy. Both Windows
+families use the same classic static Shell verb and native Properties page.
+
+Windows 10 compatibility does not imply that Microsoft supports every Windows 10
+edition, .NET deployment or Windows App SDK servicing configuration. In particular,
+22H2 and supported LTSC releases are different targets.
 
 ## Prerequisites
 
@@ -34,6 +44,7 @@ dotnet test tests/FluffHistory.Tests/FluffHistory.Tests.csproj -c Release --no-b
 ./scripts/Test-RecoveryDependencies.ps1
 ./scripts/Test-RecoveryDependencyGuard.ps1
 ./scripts/Test-BuildOutputPolicy.ps1
+./scripts/Test-WindowsPlatformPolicy.ps1
 ```
 
 The Windows Desktop build compiles native Shell components and runs the native
@@ -63,7 +74,7 @@ Without OutputDirectory, both packaging scripts use the versioned ignored
 can keep archives elsewhere; all outputs must remain new or empty. Canonical Setup
 restores locked dependencies, validates localization,
 license approvals, installer lifecycle and version policy, publishes Desktop,
-Agent and InstallSupport, builds native images and a sparse identity package,
+Agent and InstallSupport, builds native Properties and launcher images,
 collects notices, signs product files and creates a hash inventory. It rejects
 conflicting shared publish files and nonempty archives.
 
@@ -77,30 +88,16 @@ The default `ReleaseVersion` is `development`. Product PE/package identity is
 `0.24.1.<Git height>` unless an explicitly valid four-part version is supplied.
 Public semantic release identity is separate; see [updates and releases](UPDATES-AND-RELEASES.md).
 The default `SigningMode Development` uses the local Developer Preview certificate
-for product images, Setup and the preview sparse package. It is local test trust,
+for product images and Setup. Setup does not install its certificate. Signing is
 separate from the public composition below. No signing private key belongs in source.
 
 ## Public installer composition
 
 `SigningMode UnsignedPublic` leaves Setup and all Fluff-History PE files unsigned.
-Only `Identity.msix` is self-signed using the stable public certificate pinned in
-`installer/SparseIdentity.json`. The production sparse family is
-`Sargonphin.FluffHistory_53b6jha2b007a`, with Publisher
-`CN=Fluff-History Sparse Identity`. This is a classic EXE installation; the sparse
-package grants identity for the modern Explorer command and is not an MSIX installer.
-
-The publisher must import the exact corresponding private signing key into the build
-account's CurrentUser My store before building. Source and installer contain only
-the public certificate. The build never creates or searches for a Developer Preview
-signer in this mode. Setup pins the public certificate before trusting it in
-LocalMachine TrustedPeople, records ownership, and removes only unused owned trust.
-Windows rejects this exact sparse registration against user-only trust with
-0x800B0109; adding only the same public certificate to machine TrustedPeople permits
-normal registration. Only the certificate step requests administrator approval.
-Uninstall may need that approval to remove owned trust after no user's same-publisher
-package requires it. Setup never installs a Trusted Root. Registration failure is reported at Setup
-completion and in About diagnostics; it does not disable the application, Agent or
-classic native Properties page. Rerun Setup to retry. See [Shell](SHELL-INTEGRATION.md).
+It requires no certificate or private key, and creates no sparse identity package.
+Context integration is entirely per-user and needs no certificate trust or elevation.
+The build-info schema is 2; `peSignerThumbprint` describes only optional development
+PE signing. Current metadata has no package-family/identity/trust fields.
 
 For publisher builds, supply explicit semantic/four-part identities, for example:
 
@@ -115,12 +112,11 @@ increase the fourth UInt16 field for every separately produced distributable bui
 never reuse an existing package full version with different contents. A new semantic
 core starts at revision1. Compare against all previously distributed Windows versions
 before allocation; never use Git height for release identity. Archive the exact source,
-build facts and hashes. Signing the sparse package does not authorize automatic updates:
+build facts and hashes. Development PE signing does not authorize public automatic updates:
 the [updater](UPDATES-AND-RELEASES.md) still requires an approved Authenticode signer.
 
-`Build-DeveloperPreview.ps1` and the install/uninstall development scripts remain
-legacy diagnostics. Ordinary deployment uses the unified Setup. Dirty smoke builds
-require explicit arguments and are recorded as such; they are not canonical releases.
+Dirty smoke builds require explicit arguments and are recorded as such; they are not
+canonical releases. Ordinary deployment uses only the unified Setup.
 
 ## Components and provenance
 

@@ -11,6 +11,7 @@ public sealed class OverviewViewModel : ObservableObject
         _owner = owner;
         Storage = new(owner, includeBackupSize: true);
         Storage.PropertyChanged += (_, _) => Changed(nameof(ResultDetail));
+        OpenUpdates = new(() => { dialogs.Navigate("Updates"); return Task.CompletedTask; });
         Setup = new(() => { dialogs.Navigate("Configuration"); return Task.CompletedTask; });
         OpenHistory = new(() => { dialogs.Navigate("History"); return Task.CompletedTask; }, () => IsReady);
         BackUp = new(() => owner.RunAsync(owner.BackUpNowAsync), () => owner.AgentAvailable && IsReady && owner.Settings.Sources.Any(s => s.RuntimePath is not null) && !IsActive && owner.ConfigurationProblem.Length == 0);
@@ -23,6 +24,14 @@ public sealed class OverviewViewModel : ObservableObject
         }, () => NeedsRecovery);
         owner.Changed += Update;
     }
+    public AsyncCommand OpenUpdates { get; }
+    public bool HasUpdate => UpdatePresentation.HasNewerRelease(_owner);
+    public bool HasNoUpdate => !HasUpdate;
+    public bool ShowUpdateStatus => IsReady && !IsActive;
+    public string UpdateText => HasUpdate ? S[TextId.Overview_NewVersion] :
+        UpdatePresentation.CurrentVersion(_owner) is not { } version ? S[TextId.Update_Development] :
+        _owner.Updates?.LastCheckedUtc is null ? S[TextId.Update_NotChecked] :
+        _owner.Updates?.Failure != UpdateFailure.None ? S[TextId.Update_Network] : S.Format(TextId.Overview_UpToDate, S.Technical(version));
     public AsyncCommand Setup { get; }
     public StorageUsageViewModel Storage { get; }
     public string StoragePath => _owner.Settings.RepositoryPath;

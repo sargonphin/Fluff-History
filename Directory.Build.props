@@ -1,4 +1,5 @@
 <Project>
+  <Import Project="$(MSBuildThisFileDirectory)installer/WindowsPlatform.props" />
   <PropertyGroup>
     <ReleaseVersion Condition="'$(ReleaseVersion)' == ''">development</ReleaseVersion>
     <DefineConstants Condition="'$(DevelopmentUpdateTesting)' == 'true'">$(DefineConstants);FH_UPDATE_TESTING</DefineConstants>
@@ -9,6 +10,8 @@
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
   <ItemGroup>
+    <AssemblyMetadata Include="WindowsTechnicalMinimum" Value="$(WindowsTechnicalMinimum)" />
+    <AssemblyMetadata Include="WindowsProductMinimum" Value="$(WindowsProductMinimum)" />
     <AssemblyMetadata Include="ReleaseVersion" Value="$(ReleaseVersion)" />
     <AssemblyMetadata Include="UpdateSignerCertificateSha256" Value="$(UpdateSignerCertificateSha256)" Condition="'$(UpdateSignerCertificateSha256)' != ''" />
   </ItemGroup>

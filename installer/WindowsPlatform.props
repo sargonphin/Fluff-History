@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- SDK contract baseline; the tested product and installer deliberately require 22H2. -->
+    <WindowsTechnicalMinimum>10.0.19041.0</WindowsTechnicalMinimum>
+    <WindowsProductMinimum>10.0.19045.0</WindowsProductMinimum>
+  </PropertyGroup>
+</Project>

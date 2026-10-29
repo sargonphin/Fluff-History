@@ -44,7 +44,8 @@
                   "Folder_Videos":  "Videos is the German Windows known-folder name.",
                   "Action_OK":  "OK is the standard Windows confirmation label.",
                   "Update_Title":  "Reviewed de-DE update terminology: this short localized label has the same spelling as English.",
-                  "Update_Beta":  "Reviewed de-DE update terminology: this short localized label has the same spelling as English."
+                  "Update_Beta":  "Reviewed de-DE update terminology: this short localized label has the same spelling as English.",
+                  "Shell_Name":  "Name is the standard German column caption, identical to English."
               },
     "fr-FR":  {
                   "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
@@ -61,7 +62,13 @@
                   "Count_Minutes_Other":  "The French plural minutes has the same spelling as English.",
                   "Folder_Documents":  "Documents is the French Windows known-folder name.",
                   "Action_OK":  "OK is the standard Windows confirmation label.",
-                  "Update_Stable":  "Reviewed fr-FR update terminology: this short localized label has the same spelling as English."
+                  "Update_Stable":  "Reviewed fr-FR update terminology: this short localized label has the same spelling as English.",
+                  "Count_Versions_Few": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Many": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_One": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Other": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Two": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Zero": "The standard localized version noun has the same spelling as English."
               },
     "es-ES":  {
                   "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
@@ -134,7 +141,8 @@
                   "Appearance_System":  "System is also the localized appearance option.",
                   "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
                   "Action_OK":  "OK is the standard Windows confirmation label.",
-                  "Update_Beta":  "Reviewed sv-SE update terminology: this short localized label has the same spelling as English."
+                  "Update_Beta":  "Reviewed sv-SE update terminology: this short localized label has the same spelling as English.",
+                  "Count_Versions_One": "The standard localized version noun has the same spelling as English."
               },
     "nb-NO":  {
                   "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
@@ -150,7 +158,8 @@
                   "Appearance_System":  "System is also the localized appearance option.",
                   "Count_Bytes_One":  "The standard byte unit has the same spelling in this locale.",
                   "Action_OK":  "OK is the standard Windows confirmation label.",
-                  "Update_Beta":  "Reviewed da-DK update terminology: this short localized label has the same spelling as English."
+                  "Update_Beta":  "Reviewed da-DK update terminology: this short localized label has the same spelling as English.",
+                  "Count_Versions_One": "The standard localized version noun has the same spelling as English."
               },
     "pl-PL":  {
                   "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",
@@ -184,7 +193,12 @@
                   "Count_Bytes_Many":  "The standard byte unit is also used in this locale.",
                   "Count_Bytes_Other":  "The standard byte unit is also used in this locale.",
                   "Folder_Documents":  "Documents is also the Catalan Windows known-folder name.",
-                  "Update_Beta":  "Reviewed ca-ES update terminology: this short localized label has the same spelling as English."
+                  "Update_Beta":  "Reviewed ca-ES update terminology: this short localized label has the same spelling as English.",
+                  "Count_Versions_Few": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Many": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Other": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Two": "The standard localized version noun has the same spelling as English.",
+                  "Count_Versions_Zero": "The standard localized version noun has the same spelling as English."
               },
     "el-GR":  {
                   "Diagnostics_TextBlock_ProductTitle.Text":  "The Fluff-History product name is unchanged across languages.",

@@ -2127,7 +2127,66 @@ Versi paling lama dikekalkan: buka garis masa untuk sejarah penuh</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Cuba lagi pembersihan awan</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Dipasang. Perintah Explorer moden tidak tersedia; aplikasi dan halaman Sifat masih berfungsi. Jalankan persediaan semula.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Versi {0} sudah terkini</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Versi baharu tersedia</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Versi terdahulu fail ini dalam garis masa Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Versi terdahulu fail dalam folder ini dalam garis masa Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Tarikh diubah suai</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(terbaharu)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(tertua)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Pratonton</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Membuka versi yang dipilih…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Versi tersimpan dibuka untuk pratonton.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Versi itu tidak tersedia. Buka Fluff-History untuk menyemak sandaran.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Versi fail ini: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Versi fail ini: sekurang-kurangnya {0}. Buka garis masa untuk sejarah penuh.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Pilih versi tersimpan untuk pratonton atau pemulihan.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Fail ini tidak lagi disandarkan. Versi tersimpan masih tersedia.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versi</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} versi</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versi</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versi</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versi</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versi</value>
   </data>
 </root>

@@ -7,7 +7,7 @@ public sealed partial class OverviewPage : UserControl
     public OverviewPage(OverviewViewModel model)
     {
         Model = model; InitializeComponent();
-        Loaded += async (_, _) => await Model.Storage.ActivateAsync(Model.StoragePath);
-        Unloaded += (_, _) => Model.Storage.Deactivate();
+
+
     }
 }

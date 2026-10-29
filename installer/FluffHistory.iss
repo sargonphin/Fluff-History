@@ -4,11 +4,11 @@
 #ifndef ProductVersion
  #error ProductVersion is required
 #endif
+#ifndef ProductMinimumWindows
+ #error ProductMinimumWindows is required
+#endif
 #ifndef ReleaseVersion
  #define ReleaseVersion "development"
-#endif
-#ifndef PackageFamily
- #define PackageFamily "Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr"
 #endif
 #ifndef SigningMode
  #define SigningMode "Development"
@@ -33,7 +33,7 @@ DisableProgramGroupPage=yes
 PrivilegesRequired=lowest
 ArchitecturesAllowed=x64os
 ArchitecturesInstallIn64BitMode=x64os
-MinVersion=10.0.22000
+MinVersion={#ProductMinimumWindows}
 OutputBaseFilename=Fluff-History-Setup
 Compression=lzma2/fast
 SolidCompression=yes
@@ -60,8 +60,8 @@ Name: desktopicon; Description: "{cm:Installer_DesktopShortcut}"; GroupDescripti
 Name: startmenuicon; Description: "{cm:Installer_StartMenuShortcut}"; GroupDescription: "{cm:Installer_ShortcutsGroup}"
 
 [Icons]
-Name: "{userdesktop}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "{#PackageFamily}!App"; Tasks: desktopicon
-Name: "{userprograms}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "{#PackageFamily}!App"; Tasks: startmenuicon
+Name: "{userdesktop}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "FluffHistory.Desktop"; Tasks: desktopicon
+Name: "{userprograms}\Fluff-History"; Filename: "{app}\Versions\{#ProductVersion}\FluffHistory.Desktop.exe"; WorkingDir: "{app}\Versions\{#ProductVersion}"; AppUserModelID: "FluffHistory.Desktop"; Tasks: startmenuicon
 
 [InstallDelete]
 Type: files; Name: "{userdesktop}\Fluff-History.lnk"; Tasks: not desktopicon
@@ -72,6 +72,7 @@ Source: "{#Payload}\*"; DestDir: "{app}\Versions\{#ProductVersion}"; Flags: recu
 Source: "{#Payload}\Installer\Lifecycle.ps1"; DestDir: "{tmp}"; Flags: dontcopy
 Source: "{#Payload}\installed-files.json"; DestDir: "{tmp}"; Flags: dontcopy
 Source: "{#Payload}\FluffHistory.AgentLauncher.exe"; DestDir: "{app}"; DestName: "FluffHistory.Agent.exe"; Flags: ignoreversion
+Source: "{#Payload}\FluffHistory.ShellLauncher.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 [Code]
 var
@@ -138,7 +139,7 @@ begin
     '" -Action ' + Action + ' -Version "{#ProductVersion}"';
   if Action = 'Prepare' then Parameters := Parameters + ' -ExpectedManifest "' + ExpandConstant('{tmp}\installed-files.json') + '"';
   if Fault <> '' then begin
-    if (Fault <> 'Identity') and (Fault <> 'Properties') and (Fault <> 'Startup') and
+    if (Fault <> 'ClassicVerb') and (Fault <> 'Properties') and (Fault <> 'Startup') and
        (Fault <> 'Agent') and (Fault <> 'MigrationCopy') and (Fault <> 'Shutdown') then begin Result := False; Exit; end;
     Parameters := Parameters + ' -Fault ' + Fault;
   end;
@@ -190,9 +191,6 @@ begin
   if (PageID = wpFinished) and RegistrationFailed then begin
     WizardForm.FinishedHeadingLabel.Caption := CustomMessage('Installer_AttentionTitle');
     WizardForm.FinishedLabel.Caption := CustomMessage('Installer_AttentionBody');
-  end else if (PageID = wpFinished) and FileExists(ExpandConstant('{localappdata}\Fluff-History\Installer\integration-warning.txt')) then begin
-    WizardForm.FinishedHeadingLabel.Caption := CustomMessage('Installer_AttentionTitle');
-    WizardForm.FinishedLabel.Caption := CustomMessage('Installer_ExplorerUnavailable');
   end;
 end;
 

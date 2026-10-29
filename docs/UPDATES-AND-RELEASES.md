@@ -5,10 +5,8 @@ is manual: download `Fluff-History-Setup.exe` from this project's public GitHub
 Releases and review its origin and checksum. Windows may show an unknown-publisher or
 reputation warning. A checksum detects a changed download; it is not a signing identity.
 
-The separately self-signed sparse identity needs its exact certificate in the
-computer's TrustedPeople store, with administrator approval. Its package and Explorer
-registration remain per-user. That certificate is not an approved
-public-update signer. The updater remains fail-closed: it may announce an unsigned
+Current classic Explorer integration uses no package identity or certificate trust.
+The updater remains fail-closed: it may announce an unsigned
 release, but will not automatically execute its unsigned installer. In-app installer
 execution, including explicit manual handoff, still requires the full signer gate.
 Install unsigned releases directly through ordinary Setup. Future trusted signing
@@ -89,7 +87,7 @@ Desktop receives normal close; blocked workers are waited out rather than termin
 
 Ordinary per-user x64 Inno Setup is the sole replacement/rollback owner. The helper
 waits for actual installer exit and records its bounded result. Setup owns immutable
-versioned payloads, sparse identity, modern Explorer command, native Properties,
+versioned payloads, classic static Explorer verbs, native Properties,
 Agent startup and exact uninstall cleanup. Loaded Shell images can defer deletion
 without killing Explorer; later exact inventory-validated cleanup retries them.
 Settings and repository data are separate from installed version directories.
@@ -102,8 +100,7 @@ installer so new terms can be accepted or cancelled. Legacy helpers that always 
 silent may require one direct interactive Setup. See [licensing](LICENSING.md).
 
 Current Setup includes independent Desktop and Start menu shortcut choices, both
-initially selected. Public Setup/application PE files stay unsigned; only the sparse
-package has the pinned self-signed identity. Local sparse trust and development
-signing are disclosed and are not equivalent to public signing or Store approval.
+initially selected. Public Setup/application PE files stay unsigned. Development PE
+signing does not authorize public updates or establish Store approval.
 [BUILDING](BUILDING.md) gives reproducible commands, [LICENSING](LICENSING.md) the
 distribution inventory, and [TESTING](TESTING.md) the limits of installed evidence.

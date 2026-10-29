@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>إعادة محاولة تنظيف السحابة</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>تم التثبيت. أمر مستكشف الملفات الحديث غير متاح؛ يعمل التطبيق وصفحة الخصائص. شغّل برنامج الإعداد مجددًا.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>الإصدار {0} محدّث</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>يتوفر إصدار جديد</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>الإصدارات السابقة من هذا الملف المحفوظة في المخطط الزمني لـ Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>الإصدارات السابقة لملفات هذا المجلد في المخطط الزمني لـ Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>تاريخ التعديل</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(الأحدث)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(الأقدم)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>معاينة</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>جارٍ فتح الإصدار المحدد…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>الإصدار المحفوظ مفتوح للمعاينة.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>هذا الإصدار غير متاح. افتح Fluff-History للتحقق من النسخة الاحتياطية.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>إصدارات هذا الملف: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>إصدارات هذا الملف: على الأقل {0}. افتح المخطط الزمني لعرض السجل الكامل.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>حدد إصدارًا محفوظًا لمعاينته أو استعادته.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>لم يعد هذا الملف يُنسخ احتياطيًا. ما زالت إصداراته المحفوظة متاحة.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} إصدارات</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} إصدار</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>إصداران ({0:N0})</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} إصدارات</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} إصدار</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} إصدار</value>
   </data>
 </root>

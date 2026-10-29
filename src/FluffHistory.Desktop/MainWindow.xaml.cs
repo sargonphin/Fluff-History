@@ -18,6 +18,7 @@ public sealed partial class MainWindow : Window
     private readonly DesktopLifetime _lifetime;
     private readonly Dictionary<string, FrameworkElement> _pages;
     private readonly HistoryViewModel _history;
+    private readonly StorageUsageViewModel _storage;
     private bool _closing, _closeReady;
     private bool _ready, _routing;
     private long _pendingActivation, _appliedActivation;
@@ -31,7 +32,7 @@ public sealed partial class MainWindow : Window
         SetTitleBar(AppTitleBar);
         AppWindow.TitleBar.ButtonBackgroundColor = Microsoft.UI.Colors.Transparent;
         AppWindow.TitleBar.ButtonInactiveBackgroundColor = Microsoft.UI.Colors.Transparent;
-        // The sparse identity's package logos are separate from the external UI payload.
+        // The unpackaged UI uses its installed product icon.
         AppTitleBar.IconSource = new ImageIconSource { ImageSource = new BitmapImage(new Uri(
             Path.Combine(AppContext.BaseDirectory, "Assets", "Square44x44Logo.scale-400.png"))) };
         AppTitleBar.Loaded += (_, _) => UpdateCaptionForeground();
@@ -43,10 +44,12 @@ public sealed partial class MainWindow : Window
         var dialogs = new WindowServices(this, _lifetime, Navigate);
         _history = new(_lifetime, dialogs);
         var cleanup = new TimelineCleanupPresenter(new(_lifetime, dialogs));
+        var overview = new OverviewViewModel(_lifetime, dialogs);
+        _storage = overview.Storage;
         _pages = new()
         {
-            ["Overview"] = new OverviewPage(new(_lifetime, dialogs)), ["History"] = new HistoryPage(_history, cleanup),
-            ["Configuration"] = new ConfigurationPage(new(_lifetime, dialogs)), ["Diagnostics"] = new DiagnosticsPage(new(_lifetime, dialogs)),
+            ["Overview"] = new OverviewPage(overview), ["History"] = new HistoryPage(_history, cleanup),
+            ["Configuration"] = new ConfigurationPage(new(_lifetime, dialogs, _storage)), ["Diagnostics"] = new DiagnosticsPage(new(_lifetime, dialogs)),
             ["Settings"] = new SettingsPage(new(_lifetime, dialogs))
         };
         _lifetime.Changed += UpdateStatus;
@@ -56,6 +59,7 @@ public sealed partial class MainWindow : Window
             if (Navigation.SettingsItem is NavigationViewItem settingsItem)
             { settingsItem.Content = MrtAppStrings.Instance[TextId.Navigation_Settings]; Microsoft.UI.Xaml.Automation.AutomationProperties.SetName(settingsItem, MrtAppStrings.Instance[TextId.Navigation_Settings]); }
             await _lifetime.RunAsync(_lifetime.InitializeAsync);
+            _ = _storage.ActivateAsync(_lifetime.Settings.RepositoryPath);
             Navigation.IsEnabled = !_closing;
             _ready = true; await RouteActivationAsync();
         };
@@ -67,7 +71,7 @@ public sealed partial class MainWindow : Window
             GlobalNotice.Title = S[TextId.Status_Closing]; GlobalNotice.Message = S[TextId.Status_ClosingWait]; GlobalNotice.IsOpen = true;
             DispatcherQueue.TryEnqueue(async () =>
             {
-                try { _history.Deactivate(); await _lifetime.DisposeAsync(); _closeReady = true; Close(); }
+                try { _storage.Deactivate(); _history.Deactivate(); await _lifetime.DisposeAsync(); _closeReady = true; Close(); }
                 catch (Exception) { GlobalNotice.Title = S[TextId.Status_ShutdownAttention]; GlobalNotice.Message = S[TextId.Status_ShutdownAdvice]; GlobalNotice.Severity = InfoBarSeverity.Error; GlobalNotice.IsOpen = true; _closing = false; Navigation.IsEnabled = true; }
             });
         };
@@ -108,7 +112,12 @@ public sealed partial class MainWindow : Window
         }
         finally { _routing = false; }
     }
-    private void Navigate(string page) => Navigation.SelectedItem = Navigation.MenuItems.OfType<NavigationViewItem>().First(i => (string)i.Tag == page);
+    private void Navigate(string page)
+    {
+        var updates = page == "Updates";
+        Navigation.SelectedItem = updates ? Navigation.SettingsItem : Navigation.MenuItems.OfType<NavigationViewItem>().First(i => (string)i.Tag == page);
+        if (updates) DispatcherQueue.TryEnqueue(() => ((SettingsPage)_pages["Settings"]).ShowUpdates());
+    }
     private void ToggleNavigationPane(TitleBar sender, object args)
     {
         if (Navigation.IsEnabled) Navigation.IsPaneOpen = !Navigation.IsPaneOpen;

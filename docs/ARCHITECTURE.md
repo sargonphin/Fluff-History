@@ -20,7 +20,7 @@ There are no complete backup-run snapshots, manifests or restore points.
 
 The native Explorer components never load CLR/WinUI or parse repositories. They
 activate management UI or use an on-demand read-only broker. Ordinary Setup owns
-the installed Agent, binaries, sparse identity and both Shell registrations.
+the installed Agent, binaries, classic static verbs and native Properties registration.
 
 `repository.json` identifies the product, format, encryption mode and unlock slots.
 `state.json` is the sole history-authority pointer. Metadata roots bind generation,

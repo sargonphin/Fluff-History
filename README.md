@@ -4,11 +4,11 @@
 
 <h1>Fluff-History</h1>
 
-<p><strong>A modern file-history experience for Windows 11</strong><br>
+<p><strong>A modern file-history experience for Windows 10 and Windows 11</strong><br>
 Automatically keep earlier versions of your files, browse them through time, and restore them from the app or directly from File Explorer</p>
 
 <p>
-  <img src="https://img.shields.io/badge/Windows%2011-x64-0078D4?logo=windows11&logoColor=white" alt="Windows 11 x64">
+  <img src="https://img.shields.io/badge/Windows%2010%20%2B%2011-x64-0078D4?logo=windows11&logoColor=white" alt="Windows 10 and Windows 11 x64">
   <img src="https://img.shields.io/badge/backup-local%20%2B%20SMB-16A34A" alt="Local and SMB backup">
   <img src="https://img.shields.io/badge/languages-44-7C3AED" alt="44 languages">
   <img src="https://img.shields.io/badge/Explorer-integrated-2563EB" alt="File Explorer integration">
@@ -80,7 +80,7 @@ Fluff-History uses a modern WinUI interface, while common recovery actions are a
 
 <table>
 <tr><td>📂 <strong>Browse history</strong> directly from the File Explorer context menu</td></tr>
-<tr><td>🕔 See up to <strong>five recent versions</strong> of a file from its native Properties page</td></tr>
+<tr><td>🕔 See up to <strong>20 saved versions</strong> in a sortable table, with Preview and Restore, from a file's native Properties page</td></tr>
 <tr><td>↩️ Restore an exact version with normal Windows conflict handling</td></tr>
 <tr><td>⚡ Keep Explorer responsive because the native Shell components do not load WinUI/.NET or parse the repository inside Explorer</td></tr>
 </table>
@@ -123,11 +123,15 @@ The Fluff-History UI keeps backup configuration separate from application prefer
 
 ## 📦 Installation & source
 
-Fluff-History targets **Windows 11 x64, build 22000 or later**
+The current 1.1 source targets **Windows 11 x64** and **Windows 10 22H2 x64, build 19045**. The `v1.0.0` tag remains Windows 11-only
+
+Explorer integration offers **Restore previous version…** in the classic context menu (use **Show more options** on Windows 11), plus the native Fluff-History Properties history page on both systems
+
+Product compatibility does not extend Microsoft's support lifecycle for your Windows edition or servicing configuration. Older Windows 10 versions, Windows Server, x86 and ARM64 are outside this compatibility target
 
 The application uses a self-contained per-user Setup. No separately installed .NET runtime or LocalSystem service is required
 
-Version 1.0 Setup and application binaries are unsigned; Windows may show an unknown-publisher or reputation warning. Only the small Explorer identity package is self-signed. Setup verifies its pinned public certificate and trusts it in LocalMachine TrustedPeople with administrator approval. This is local package trust, not publicly trusted application signing. If Windows refuses that optional integration, Setup reports the missing modern context command while the app, Agent and native Properties page remain available
+Public Setup and application binaries are unsigned; Windows may show an unknown-publisher or reputation warning. Current Setup uses ordinary per-user registration without package identity or certificate installation. The experimental modern Windows 11 context entry has been retired; the classic command and Properties page remain available
 
 Install unsigned releases manually. The built-in updater retains its approved Authenticode signer requirement and cannot execute an unsigned installer. See [updates and releases](docs/UPDATES-AND-RELEASES.md)
 

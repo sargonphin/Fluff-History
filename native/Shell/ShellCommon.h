@@ -23,7 +23,6 @@ namespace fh {
 inline HINSTANCE module{};
 inline std::atomic<long> objects{};
 inline constexpr uint32_t Magic = 0x31485346, MaxBody = 128 * 1024;
-inline constexpr CLSID CommandId = {0x80f01e21,0xb634,0x4183,{0x83,0x4e,0xcf,0x09,0xd7,0x24,0x24,0x01}};
 inline constexpr CLSID PropertiesId = {0x80f01e21,0xb634,0x4183,{0x83,0x4e,0xcf,0x09,0xd7,0x24,0x24,0x02}};
 struct Handle {
  HANDLE value = INVALID_HANDLE_VALUE;
@@ -97,7 +96,7 @@ inline bool ActivationArguments(const std::wstring& arguments){
 }
 inline std::wstring InstalledDesktop(const std::wstring& root){
  // Resolve the active Setup version, not the version of an already-loaded Shell DLL.
- // Properties must also work when optional sparse identity registration is unavailable.
+ // Both native entry points work without package identity.
  OrdinaryDirectories(root);
  Handle marker(CreateFileW((root+L"\\current-version.txt").c_str(),GENERIC_READ,FILE_SHARE_READ,nullptr,OPEN_EXISTING,FILE_FLAG_OPEN_REPARSE_POINT,nullptr));
  Check(marker.valid());FILE_ATTRIBUTE_TAG_INFO attributes{};LARGE_INTEGER size{};char bytes[32]{};DWORD read{};
@@ -131,15 +130,18 @@ inline HRESULT Activate(const std::wstring& arguments){
   return ActivateInstalled(std::wstring(raw)+L"\\Programs\\Fluff-History",arguments);
  });
 }
-inline HRESULT Browse(const Selection& selection){
- return Boundary([&](){auto directory=RequestsDirectory();auto token=RandomToken();auto path=directory+L"\\"+token+L".request";
+template<class ActivateRequest> HRESULT BrowseInto(const Selection& selection,const std::wstring& directory,ActivateRequest&& activate){
+ return Boundary([&](){auto token=RandomToken();auto path=directory+L"\\"+token+L".request";
   auto bytes=OpenFrame(selection);Handle file(CreateFileW(path.c_str(),GENERIC_WRITE,0,nullptr,CREATE_NEW,FILE_ATTRIBUTE_NORMAL|FILE_FLAG_OPEN_REPARSE_POINT,nullptr));Check(file.valid());
   DWORD written{};bool ok=WriteFile(file.value,bytes.data(),static_cast<DWORD>(bytes.size()),&written,nullptr)!=FALSE && written==bytes.size();
   if(!ok){CloseHandle(file.value);file.value=INVALID_HANDLE_VALUE;DeleteFileW(path.c_str());return E_FAIL;}
   CloseHandle(file.value);file.value=INVALID_HANDLE_VALUE;
-  auto result=Activate(L"--shell-request "+token);if(FAILED(result))DeleteFileW(path.c_str());return result;
+  HRESULT result=E_FAIL;
+  try { result=activate(L"--shell-request "+token); } catch(...) { DeleteFileW(path.c_str());throw; }
+  if(FAILED(result))DeleteFileW(path.c_str());return result;
  });
 }
+inline HRESULT Browse(const Selection& selection){return Boundary([&](){return BrowseInto(selection,RequestsDirectory(),Activate);});}
 template<class Object> class Factory final:public IClassFactory {
  std::atomic<ULONG> refs{1};
 public:

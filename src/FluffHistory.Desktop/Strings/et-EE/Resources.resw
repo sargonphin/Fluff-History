@@ -2127,7 +2127,66 @@ Vanim säilitatud versioon: täieliku ajaloo jaoks ava ajajoon</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Proovi pilve puhastamist uuesti</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Installitud. Exploreri moodne käsk pole saadaval; rakendus ja atribuutide leht töötavad. Käivita paigaldus uuesti.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Versioon {0} on ajakohane</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Saadaval on uus versioon</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Selle faili varasemad versioonid Fluff-History ajajoonel.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Selle kausta failide varasemad versioonid Fluff-History ajajoonel.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Muutmiskuupäev</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(uusim)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(vanim)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Eelvaade</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Valitud versiooni avamine…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Salvestatud versioon on eelvaateks avatud.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>See versioon pole saadaval. Varukoopia kontrollimiseks avage Fluff-History.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Selle faili versioonid: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Selle faili versioonid: vähemalt {0}. Kogu ajalugu on ajajoonel.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Valige salvestatud versioon eelvaateks või taastamiseks.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Seda faili enam ei varundata. Salvestatud versioonid on endiselt saadaval.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versiooni</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} versioon</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versiooni</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versiooni</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versiooni</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versiooni</value>
   </data>
 </root>

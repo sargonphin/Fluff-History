@@ -61,6 +61,7 @@ public sealed class DesktopLifetime(DispatcherQueue dispatcher, PreferencesLoadR
     public BackupStatus? Status { get; private set; }
     public LastBackupStatus? SavedBackupStatus => _agentState?.LastBackupStatus;
     public UpdateSnapshot? Updates => _agentState?.Updates;
+    public string? InstalledProductVersion => _agentState?.ProductVersion;
     public async Task SaveUpdatePreferencesAsync(UpdatePreferences preferences, CancellationToken token)
     {
         await new UpdateJsonStore<UpdatePreferences>(WindowsProductPaths.UpdatePreferences, UpdatePreferences.Default, p => p.Validate(), 4096).SaveAsync(preferences, token);

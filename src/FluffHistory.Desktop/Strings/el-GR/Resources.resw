@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Επανάληψη εκκαθάρισης στο cloud</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Εγκαταστάθηκε. Η σύγχρονη εντολή της Εξερεύνησης δεν είναι διαθέσιμη· η εφαρμογή και οι Ιδιότητες λειτουργούν. Εκτελέστε ξανά την εγκατάσταση.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Ενημερωμένο στην έκδοση {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Υπάρχει διαθέσιμη νέα έκδοση</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Προηγούμενες εκδόσεις αυτού του αρχείου στο χρονολόγιο Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Προηγούμενες εκδόσεις αρχείων αυτού του φακέλου στο χρονολόγιο Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Ημερομηνία τροποποίησης</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(νεότερη)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(παλαιότερη)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Προεπισκόπηση</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Άνοιγμα της επιλεγμένης έκδοσης…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Η αποθηκευμένη έκδοση άνοιξε για προεπισκόπηση.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Αυτή η έκδοση δεν είναι διαθέσιμη. Ανοίξτε το Fluff-History για έλεγχο του αντιγράφου.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Εκδόσεις αυτού του αρχείου: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Εκδόσεις αυτού του αρχείου: τουλάχιστον {0}. Ανοίξτε το χρονολόγιο για όλο το ιστορικό.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Επιλέξτε αποθηκευμένη έκδοση για προεπισκόπηση ή επαναφορά.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Αυτό το αρχείο δεν αντιγράφεται πλέον. Οι αποθηκευμένες εκδόσεις παραμένουν διαθέσιμες.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} εκδόσεις</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} έκδοση</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} εκδόσεις</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} εκδόσεις</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} εκδόσεις</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} εκδόσεις</value>
   </data>
 </root>

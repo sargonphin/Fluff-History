@@ -2127,7 +2127,66 @@ En eski saklanan sürüm: tam geçmiş için Zaman çizelgesi'ni açın</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Bulut temizliğini yeniden dene</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Yüklendi. Modern Gezgin komutu kullanılamıyor; uygulama ve Özellikler sayfası çalışıyor. Kurulumu yeniden çalıştırın.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>{0} sürümü güncel</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Yeni bir sürüm mevcut</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Bu dosyanın Fluff-History Zaman Çizelgesi’nde saklanan önceki sürümleri.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Bu klasördeki dosyaların Fluff-History Zaman Çizelgesi’nde saklanan önceki sürümleri.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Değiştirilme tarihi</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(en yeni)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(en eski)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Seçilen sürüm açılıyor…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Kaydedilmiş sürüm önizleme için açıldı.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Bu sürüm kullanılamıyor. Yedeği denetlemek için Fluff-History’yi açın.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Bu dosyanın sürümleri: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Bu dosyanın sürümleri: en az {0}. Tüm geçmiş için Zaman Çizelgesi’ni açın.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Önizlemek veya geri yüklemek için kaydedilmiş bir sürüm seçin.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Bu dosya artık yedeklenmiyor. Kaydedilmiş sürümler kullanılabilir durumda.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} sürüm</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} sürüm</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} sürüm</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} sürüm</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} sürüm</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} sürüm</value>
   </data>
 </root>

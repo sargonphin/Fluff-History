@@ -10,7 +10,7 @@ $project = Join-Path $repo 'tools\FluffHistory.Localization\FluffHistory.Localiz
 if ($LASTEXITCODE) { throw 'Localization tool locked restore failed.' }
 & $DotNet build $project -c Release --no-restore "-p:ArtifactsPath=$ArtifactsPath"
 if ($LASTEXITCODE) { throw 'Localization tool build failed.' }
-foreach ($operation in @('guard','test-guards','validate','generate','generate-native','generate-installer','generate-manifests')) {
+foreach ($operation in @('guard','test-guards','validate','generate','generate-native','generate-installer')) {
     if ($LocalizationCheckpoint -and $operation -eq 'validate') {
         Write-Output 'INCOMPLETE LOCALIZATION CHECKPOINT: shipping catalog validation was skipped; this is not a complete language bundle.'
         continue

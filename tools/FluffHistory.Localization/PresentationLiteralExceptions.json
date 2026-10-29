@@ -556,5 +556,15 @@
         "Member":  "LastUpdateCheck",
         "Value":  "g",
         "Reason":  "Standard .NET general short-date/time format, using the separate user formatting culture."
+    },
+    { "File": "src/FluffHistory.Desktop/MainWindow.xaml.cs", "Member": "Navigate", "Value": "Updates", "Reason": "Internal route to the Settings Updates section." },
+    { "File": "src/FluffHistory.Desktop/MainWindow.xaml.cs", "Member": "Navigate", "Value": "Settings", "Reason": "Internal Settings page key, not displayed text." },
+    { "File": "src/FluffHistory.Desktop/Presentation/Models/OverviewViewModel.cs", "Member": "OverviewViewModel", "Value": "Updates", "Reason": "Internal route to the Settings Updates section." },
+    { "File": "src/FluffHistory.Desktop/Presentation/PageLayout.xaml.cs", "Member": "PageLayout", "Value": "PageContentMaxWidth", "Reason": "Shared XAML resource key for the existing page content width." },
+    {
+        "File": "src/FluffHistory.Desktop/Presentation/Models/ShellHistoryText.cs",
+        "Member": "Modified",
+        "Value": "g",
+        "Reason": "Standard .NET regional short date/time format, not visible prose."
     }
 ]

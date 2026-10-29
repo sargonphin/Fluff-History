@@ -9,6 +9,15 @@ The SDK is pinned exactly by `global.json` with roll-forward disabled. CI checks
 `dotnet --version` before locked restore; contributor and Setup builds use the same
 selection guard. SDK changes require a reviewed implicit-dependency/lock update.
 
+The current development compatibility target adds Windows 10 22H2 x64 (19045) to
+Windows 11 x64. A real Windows 10 installed campaign covers UI/Agent startup,
+backup, Timeline/preview/restore, the existing classic Explorer command and native
+Properties page, local unlock, installer lifecycle and cross-version storage.
+The hosted Windows job does not substitute for this VM evidence. Technical SDK
+contracts (19041) and Setup/product admission (19045) are separate. `Test-WindowsPlatformPolicy.ps1` checks those
+boundaries without adding another hosted OS runner. Product compatibility does not
+extend Microsoft's servicing lifecycle or imply support for other Windows 10 builds.
+
 ## Ordinary regression
 
 The ordinary filter is `Category!=MetadataDiagnostic`, after locked restore and
@@ -31,17 +40,27 @@ tests require deliberately supplied legacy payloads; see their opt-in fixture ga
 
 Desktop builds run `Build-NativeShell.ps1`. Native Shell checks validate protocol,
 selection, resource and COM behavior. Fault tests cover malformed replies with
-refresh, broker disconnect with refresh, closure with an outstanding query, and
+explicit page reopening, broker disconnection, closure with an outstanding query, and
 actual worker/page lifetime. The baseline run passed 325 native checks plus 512
 blocked-pool queued closures and 128 default-pool rapid closures. The blocked-pool
 test includes an explicit cancelling positive control; it exercises actual
 StartWorker submissions rather than a duplicate queue implementation.
 
+The Properties table regressions cover twenty rows, date sorting with exact selection,
+latest/oldest publication markers, single status, product icon, Preview dispatch and
+silent detached display after peer loss. Focused managed Shell/preview/broker tests
+exercise exact on-click revalidation after authority advancement, removal, changed
+mapping/repository and unavailability; the real user-only pipe checks legacy/table
+negotiation and invalid-owner refusal. `ShellPropertiesPerformanceTests` compares five
+and twenty retained rows on one 256-version fixture; run it separately for timings.
+Its elapsed time, allocations and reply-size observations are not hardware-independent
+thresholds or cold network performance promises.
+
 `Test-InstallerLifecycle.ps1` checks owned payload inventory, loaded-file deferral,
 later exact cleanup and active-version protection. `Test-VersionPolicy.ps1` and
 `Test-VersionMetadata.ps1` check identities and metadata. `Test-SetupPayload.ps1`
-checks the actual published payload. `Test-BuildOutputPolicy.ps1` runs both packaging
-scripts' admission statements in a disposable Git fixture, stopping before compiler
+checks the actual published payload. `Test-BuildOutputPolicy.ps1` runs the active packaging
+Setup admission statements in a disposable Git fixture, stopping before compiler
 or packaging work. It checks portable versioned defaults, overrides, collision
 preservation and dirty-source refusal. These static/component checks do not replace
 installed clean/update/rollback/uninstall testing in an interactive Windows session.
@@ -59,7 +78,7 @@ in a disposable Windows user session, separately from a real backup installation
 
 `Test-Localization.ps1` validates catalog parity, placeholder/whitespace/brand
 contracts, presentation literal classification, guard regressions and generated
-managed/native/installer/manifest output. The runtime localization tool checks real
+managed/native/installer output. The runtime localization tool checks real
 PRI lookup/fallback and live resource behavior. Representative Latin, RTL and CJK
 installed checks are historical evidence, not individual visual certification of
 all 44 languages. Diagnostics and machine-readable contracts remain English/stable.
@@ -151,3 +170,23 @@ collector experiment, not a 500000-version repository throughput result.
 Further servers, hardware sleep/resume,
 security review, accessibility and publisher distribution checks remain in the
 [roadmap](ROADMAP.md). There is no claim that a passing ordinary suite proves them.
+
+## Classic Explorer migration regression
+
+`Test-ClassicVerb.ps1` exercises exact HKCU file/directory keys, quoted command,
+indirect localized MUI label, icon, Single selection, idempotent repair, ownership
+collision refusal and neighbor-preserving uninstall in an isolated registry fixture.
+`Test-LegacyShellMigration.ps1` checks exact predecessor identity/inventory binding,
+failed package removal/discovery, retained payloads, retry and unrelated packages.
+The active native checks cover Properties protocol/COM, fault/lifetime stress,
+launcher path/argument/request cleanup, localization resources and active-version
+resolution. The retired modern COM command suite is not current-product validation.
+
+Installed validation must cover clean Windows 11 and Windows 10 users, no new package
+or machine trust, file/folder menu invocation, single-instance activation and Properties.
+Windows 11 uses Show more options; Windows 10 uses its ordinary classic menu. Record
+exact build/UBR. Also exercise actual legacy upgrade, missing-key repair and uninstall.
+Hash repository state.json around context browse, preview and restore; those actions
+must not alter authority. Include local unavailable/reconnected repository and bounded
+SMB smoke when available. Run update signing/staging/channel and recovery tests;
+report explicitly when no live disposable Microsoft account is used for WAM.

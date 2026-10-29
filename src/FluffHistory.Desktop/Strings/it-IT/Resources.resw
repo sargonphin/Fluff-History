@@ -2127,7 +2127,66 @@ Versione conservata più vecchia: apri Sequenza temporale per la cronologia comp
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Riprova la pulizia nel cloud</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Installato. Il comando moderno di Esplora file non è disponibile; l’app e la pagina Proprietà funzionano. Esegui di nuovo il programma di installazione.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Aggiornato alla versione {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>È disponibile una nuova versione</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Versioni precedenti di questo file nella cronologia di Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Versioni precedenti dei file di questa cartella nella cronologia di Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Data modifica</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(più recente)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(più vecchia)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Anteprima</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Apertura della versione selezionata…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>La versione salvata è aperta in anteprima.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Questa versione non è disponibile. Aprire Fluff-History per controllare il backup.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Questo file ha {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Questo file ha almeno {0}. Aprire la cronologia per la storia completa.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Selezionare una versione salvata da visualizzare o ripristinare.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Il backup di questo file non è più attivo. Le versioni salvate sono ancora disponibili.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versioni</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} versione</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versioni</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versioni</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versioni</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versioni</value>
   </data>
 </root>

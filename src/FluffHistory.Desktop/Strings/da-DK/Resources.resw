@@ -2127,7 +2127,66 @@ Bevarede versioner: {1:N0}+; åbn Tidslinje for fuld historik
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Prøv skyoprydning igen</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Installeret. Den moderne Stifinder-kommando er ikke tilgængelig; appen og egenskabssiden virker. Kør installationen igen.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Opdateret til version {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>En ny version er tilgængelig</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Tidligere versioner af denne fil på Fluff-History-tidslinjen.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Tidligere filversioner i denne mappe på Fluff-History-tidslinjen.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Ændringsdato</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(nyeste)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(ældste)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Forhåndsvis</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Åbner den valgte version…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Den gemte version er åbnet til forhåndsvisning.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Den version er ikke tilgængelig. Åbn Fluff-History for at kontrollere sikkerhedskopien.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Denne fil har {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Denne fil har mindst {0}. Åbn tidslinjen for hele historikken.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Vælg en gemt version til forhåndsvisning eller gendannelse.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Denne fil sikkerhedskopieres ikke længere. Gemte versioner er stadig tilgængelige.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versioner</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} version</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versioner</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versioner</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versioner</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versioner</value>
   </data>
 </root>

@@ -58,11 +58,13 @@ public sealed class ConfigurationViewModel : ObservableObject
         { Label = PresentationText.Retention(S, p.Policy), Notice = PresentationText.RetentionNotice(S, p.Policy) }).ToImmutableArray();
         _retention = RetentionPolicies.Single(p => p.Name == _retention.Name);
     }
-    public ConfigurationViewModel(IDesktopContext owner, IDesktopDialogs dialogs)
+    public ConfigurationViewModel(IDesktopContext owner, IDesktopDialogs dialogs, StorageUsageViewModel? backupStorage = null)
     {
         _owner = owner; _dialogs = dialogs;
         RefreshChoices();
         Storage = new(owner, includeBackupSize: false);
+        _backupStorage = backupStorage;
+        if (_backupStorage is not null) _backupStorage.PropertyChanged += (_, _) => Changed(nameof(BackupSize));
         Apply = new(() => owner.RunAsync(async token =>
         {
             var draft = BuildDraft(DateTimeOffset.UtcNow);
@@ -150,6 +152,8 @@ public sealed class ConfigurationViewModel : ObservableObject
         };
     }
     public AsyncCommand Apply { get; }
+    private readonly StorageUsageViewModel? _backupStorage;
+    public string BackupSize => SamePath(RepositoryPath, _owner.Settings.RepositoryPath) ? _backupStorage?.BackupSize ?? "" : "";
     public StorageUsageViewModel Storage { get; }
     public AsyncCommand Discard { get; }
     public AsyncCommand ChangeLocation { get; }

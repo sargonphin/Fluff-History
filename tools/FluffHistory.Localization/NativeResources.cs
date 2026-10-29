@@ -14,7 +14,9 @@ internal static class NativeResources
      "FileFooter", "AppUnavailable", "RestoreConfirmation", "RestoreTitle", "Restoring", "UnavailableContinue", "Restore", "Refresh",
      "FolderSummary", "NoFolderVersions", "VersionRow", "NoFileVersions", "FileSummary", "FileSummaryPartial", "EmptyNotProtected",
      "EmptyRecovery", "EmptyUnavailable", "RestoreAttention", "RestoreCancelled", "Restored", "RestoreNothing", "RestoreRefresh",
-     "RestoreUnavailable", "RestoreCancelledInspect", "ResourceLanguage"];
+     "RestoreUnavailable", "RestoreCancelledInspect", "ResourceLanguage",
+     "IntroFile", "IntroFolder", "Name", "Modified", "LatestTag", "OldestTag", "Preview", "Previewing",
+     "PreviewOpened", "PreviewUnavailable", "CountTitle", "CountPartial", "AvailableDescription", "InactiveDescription"];
     internal static void Generate(string root, bool check)
     {
         var strings = Path.Combine(root, "src/FluffHistory.Desktop/Strings");
@@ -42,15 +44,16 @@ internal static class NativeResources
             table.Append("// ").Append(tag).Append('\n').Append(directive).Append("STRINGTABLE\nBEGIN\n");
             for (var i = 0; i < names.Length; i++) table.Append(' ').Append(3000 + i).Append(" \"").Append(Escape(values[names[i]])).Append("\"\n");
             table.Append("END\n");
-            dialogs.Append("// ").Append(tag).Append('\n').Append(directive).Append("201 DIALOGEX 0, 0, 260, 232\nSTYLE DS_SETFONT | DS_CONTROL | WS_CHILD\n");
+            dialogs.Append("// ").Append(tag).Append('\n').Append(directive).Append("201 DIALOGEX 0, 0, 260, 232\nSTYLE DS_SHELLFONT | DS_CONTROL | WS_CHILD\n");
             if (culture.TextInfo.IsRightToLeft) dialogs.Append("EXSTYLE WS_EX_LAYOUTRTL | WS_EX_RTLREADING\n");
             dialogs.Append("FONT 9, \"Segoe UI\", 400, 0, 1\nBEGIN\n")
-                .Append(" LTEXT \"").Append(Escape(values["Shell_Loading"])).Append("\",2101,10,8,240,20,SS_NOPREFIX\n")
-                .Append(" LTEXT \"\",2102,10,31,240,77,SS_NOPREFIX\n LISTBOX 2103,10,112,240,65,LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP\n")
-                .Append(" PUSHBUTTON \"").Append(Escape(values["Shell_Restore"])).Append("\",2104,10,184,58,15\n")
-                .Append(" PUSHBUTTON \"").Append(Escape(values["Shell_BrowseVersions"])).Append("\",2105,75,184,106,15\n")
-                .Append(" PUSHBUTTON \"").Append(Escape(values["Shell_Refresh"])).Append("\",2106,188,184,62,15\n")
-                .Append(" LTEXT \"").Append(Escape(values["Shell_FileFooter"])).Append("\",2107,10,207,240,20,SS_NOPREFIX\nEND\n");
+                .Append(" ICON 1,2109,10,8,24,24,SS_ICON\n LTEXT \"").Append(Escape(values["Shell_IntroFile"])).Append("\",2101,42,8,208,28,SS_NOPREFIX\n")
+                .Append(" LTEXT \"\",2102,10,40,240,30,SS_NOPREFIX\n LTEXT \"\",2108,10,76,240,16,SS_NOPREFIX\n")
+                .Append(" CONTROL \"\",2103,\"SysListView32\",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,10,94,240,90\n")
+                .Append(" PUSHBUTTON \"").Append(Escape(values["Shell_Preview"])).Append("\",2106,10,190,58,15\n")
+                .Append(" PUSHBUTTON \"").Append(Escape(values["Shell_Restore"])).Append("\",2104,75,190,58,15\n")
+                .Append(" PUSHBUTTON \"").Append(Escape(values["Shell_BrowseVersions"])).Append("\",2105,140,190,110,15\n")
+                .Append(" LTEXT \"").Append(Escape(values["Shell_FileFooter"])).Append("\",2107,10,209,240,20,SS_NOPREFIX\nEND\n");
             languages.Add(tag); inputs[Path.GetRelativePath(root, file).Replace('\\', '/')] = Hash(string.Join("\0", names.SelectMany(n => new[] { n, values[n] })));
         }
         var directory = Path.Combine(root, "native/Shell/Generated"); Directory.CreateDirectory(directory);

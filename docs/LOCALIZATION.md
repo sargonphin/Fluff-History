@@ -2,8 +2,8 @@
 
 Desktop and native Shell resources cover 44 language catalogs. The canonical source
 is `src/FluffHistory.Desktop/Strings/en-US/Resources.resw`; translations use the same
-keys and English-first changes. The catalogs contain 674 keys, 541 imperative
-identifiers and 133 live XAML properties. Those are source counts, not
+keys and English-first changes. The catalogs contain 695 keys, 562 imperative
+identifiers, 133 live XAML properties and 54 native IDs. Those are source counts, not
 claims of individual native-speaker or installed visual review for every language.
 
 ## Selection and formatting
@@ -42,7 +42,7 @@ selection; framework ToggleSwitch On/Off captions can still follow Windows langu
 
 `ApplicationLanguage` defines the exact choice set. Chinese script tags are
 intentional. Native Shell resources are generated from shared `Shell_*` keys with
-stable IDs and RTL dialog styles. Open4 carries the native page's captured resource
+stable IDs and RTL dialog styles. Table Open5 (and legacy Open4) carries the native page's captured resource
 language to its broker; it remains separate from management preference.
 
 ## Installer languages

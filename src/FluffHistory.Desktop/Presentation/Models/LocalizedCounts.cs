@@ -2,7 +2,7 @@ using System.Globalization;
 
 namespace FluffHistory.Desktop.Presentation.Models;
 
-public enum CountKind { Files, Folders, ExistingFolders, SavedVersions, NewVersions, FileVersions, FileProblems, Items, Seconds, Minutes, Hours, Bytes }
+public enum CountKind { Files, Folders, ExistingFolders, SavedVersions, NewVersions, FileVersions, FileProblems, Items, Seconds, Minutes, Hours, Bytes, Versions }
 public enum CardinalCategory { Zero, One, Two, Few, Many, Other }
 
 /// <summary>Integer cardinal subset of Unicode CLDR 48 for the closed shipped locale set.

@@ -2127,7 +2127,66 @@ Nejstarší uchovaná verze: úplnou historii otevřete na Časové ose</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Zkusit znovu vyčistit cloud</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Nainstalováno. Moderní příkaz Průzkumníka není dostupný; aplikace a stránka Vlastnosti fungují. Spusťte instalaci znovu.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Aktuální verze: {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Je dostupná nová verze</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Předchozí verze tohoto souboru na časové ose Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Předchozí verze souborů v této složce na časové ose Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Datum změny</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(nejnovější)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(nejstarší)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Náhled</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Otevírání vybrané verze…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Uložená verze je otevřena pro náhled.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Tato verze není dostupná. Otevřete Fluff-History a zkontrolujte zálohu.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Verze tohoto souboru: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Verze tohoto souboru: nejméně {0}. Úplnou historii najdete na časové ose.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Vyberte uloženou verzi pro náhled nebo obnovení.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Tento soubor se již nezálohuje. Uložené verze jsou stále dostupné.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} verzí</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} verze</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} verzí</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} verze</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} verzí</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} verzí</value>
   </data>
 </root>

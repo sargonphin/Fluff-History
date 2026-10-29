@@ -2127,7 +2127,66 @@ Seniausia išlaikyta versija: visą retrospektyvą rasite laiko juostoje</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Bandyti dar kartą išvalyti debesį</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Įdiegta. Šiuolaikinė failų naršyklės komanda nepasiekiama; programa ir ypatybių puslapis veikia. Paleiskite diegimą dar kartą.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Versija {0} yra naujausia</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Yra nauja versija</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Ankstesnės šio failo versijos Fluff-History laiko juostoje.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Ankstesnės šio aplanko failų versijos Fluff-History laiko juostoje.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Keitimo data</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(naujausia)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(seniausia)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Peržiūra</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Atveriama pasirinkta versija…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Įrašyta versija atverta peržiūrai.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Ši versija nepasiekiama. Atverkite Fluff-History ir patikrinkite atsarginę kopiją.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Šio failo versijos: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Šio failo versijos: bent {0}. Visa istorija pateikta laiko juostoje.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Pasirinkite įrašytą versiją peržiūrai arba atkūrimui.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Šio failo atsarginės kopijos nebekuriamos. Įrašytos versijos vis dar pasiekiamos.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versijų</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} versija</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versijų</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versijos</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versijų</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versijų</value>
   </data>
 </root>
