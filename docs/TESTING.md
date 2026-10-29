@@ -9,7 +9,7 @@ The SDK is pinned exactly by `global.json` with roll-forward disabled. CI checks
 `dotnet --version` before locked restore; contributor and Setup builds use the same
 selection guard. SDK changes require a reviewed implicit-dependency/lock update.
 
-The current development compatibility target adds Windows 10 22H2 x64 (19045) to
+The current compatibility target includes Windows 10 22H2 x64 (19045) alongside
 Windows 11 x64. A real Windows 10 installed campaign covers UI/Agent startup,
 backup, Timeline/preview/restore, the existing classic Explorer command and native
 Properties page, local unlock, installer lifecycle and cross-version storage.
@@ -41,7 +41,7 @@ tests require deliberately supplied legacy payloads; see their opt-in fixture ga
 Desktop builds run `Build-NativeShell.ps1`. Native Shell checks validate protocol,
 selection, resource and COM behavior. Fault tests cover malformed replies with
 explicit page reopening, broker disconnection, closure with an outstanding query, and
-actual worker/page lifetime. The baseline run passed 325 native checks plus 512
+actual worker/page lifetime. The Release 1.0 baseline passed 325 native checks plus 512
 blocked-pool queued closures and 128 default-pool rapid closures. The blocked-pool
 test includes an explicit cancelling positive control; it exercises actual
 StartWorker submissions rather than a duplicate queue implementation.
