@@ -22,6 +22,8 @@ Automatically keep earlier versions of your files, browse them through time, and
 
 Fluff-History keeps **successful versions of individual files** instead of creating monolithic disk images or pretending every backup run is a complete filesystem snapshot
 
+<img width="1310" height="753" alt="Fluff-History Overview tab shows important information at a glance" src="https://github.com/user-attachments/assets/465e1f55-1b3c-43bf-934b-1f05ba6dee0c" />
+
 That model gives a few useful properties
 
 <table>
@@ -43,6 +45,8 @@ That model gives a few useful properties
 More detail: [Architecture](docs/ARCHITECTURE.md) · [Configuration](docs/CONFIGURATION.md) · [Timeline & restore](docs/RESTORE.md) · [Retention](docs/RETENTION.md)
 
 ## ✨ Features
+
+<img width="1310" height="753" alt="A modern Timeline allows browsing for files as if it was modern Explorer" src="https://github.com/user-attachments/assets/18e0a13e-a1e2-44b6-82ba-dd85004da7a2" />
 
 <table>
 <tr><td>🕒 <strong>Timeline browsing</strong> - Move through retained versions by folder and time, including files that no longer exist at the source</td></tr>
@@ -77,6 +81,8 @@ The full implementation details and security boundaries are documented in [Secur
 ## 🪟 Built into Windows where it matters
 
 Fluff-History uses a modern WinUI interface, while common recovery actions are also available directly from File Explorer
+
+<img width="477" height="536" alt="Fluff-History is also available from the Properties tab" src="https://github.com/user-attachments/assets/e9315a30-19df-48f9-b464-6392194681c8" />
 
 <table>
 <tr><td>📂 <strong>Browse history</strong> directly from the File Explorer context menu</td></tr>
