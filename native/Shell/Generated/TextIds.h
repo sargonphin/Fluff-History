@@ -42,6 +42,20 @@ enum class TextId : unsigned {
  Shell_RestoreUnavailable = 3037,
  Shell_RestoreCancelledInspect = 3038,
  Shell_ResourceLanguage = 3039,
+ Shell_IntroFile = 3040,
+ Shell_IntroFolder = 3041,
+ Shell_Name = 3042,
+ Shell_Modified = 3043,
+ Shell_LatestTag = 3044,
+ Shell_OldestTag = 3045,
+ Shell_Preview = 3046,
+ Shell_Previewing = 3047,
+ Shell_PreviewOpened = 3048,
+ Shell_PreviewUnavailable = 3049,
+ Shell_CountTitle = 3050,
+ Shell_CountPartial = 3051,
+ Shell_AvailableDescription = 3052,
+ Shell_InactiveDescription = 3053,
 };
-inline constexpr unsigned NativeTextFirst=3000, NativeTextLast=3039;
+inline constexpr unsigned NativeTextFirst=3000, NativeTextLast=3053;
 }

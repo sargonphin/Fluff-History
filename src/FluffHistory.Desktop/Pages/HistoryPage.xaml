@@ -62,7 +62,7 @@
     </ListView>
     <GridView loc:Localize.Uid="History_GridView_TimelineTiles" x:Name="TileList" ItemsSource="{x:Bind Model.Items, Mode=OneWay}" Visibility="{x:Bind Model.IsLargeIcons, Mode=OneWay, Converter={StaticResource VisibleWhen}}" SelectionMode="Extended" SelectionChanged="ChildrenSelected" DoubleTapped="ChildDoubleTapped" ContextRequested="ItemsContextRequested" ContextCanceled="ContextMenuCanceled" ItemContainerStyle="{StaticResource FullTileItem}">
      <GridView.ItemTemplate><DataTemplate x:DataType="models:TimelineItem">
-      <Grid Width="160" Height="160" Background="Transparent" Padding="10" RowSpacing="6" AutomationProperties.Name="{x:Bind AccessibleName, Mode=OneWay}" ToolTipService.ToolTip="{x:Bind ToolTip, Mode=OneWay}">
+      <Grid Width="148" Height="160" Background="Transparent" Padding="10" RowSpacing="6" AutomationProperties.Name="{x:Bind AccessibleName, Mode=OneWay}" ToolTipService.ToolTip="{x:Bind ToolTip, Mode=OneWay}">
        <Grid.RowDefinitions><RowDefinition Height="70" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
        <presentation:ShellIcon Key="{x:Bind IconKey}" Width="64" Height="64" HorizontalAlignment="Center" />
        <TextBlock Grid.Row="1" Text="{x:Bind Name, Mode=OneWay}" TextAlignment="Center" TextWrapping="Wrap" MaxLines="2" IsTextSelectionEnabled="False" />

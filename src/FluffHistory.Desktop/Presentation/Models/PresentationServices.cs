@@ -25,6 +25,7 @@ public interface IDesktopContext
     ApplicationPreferences Preferences => ApplicationPreferences.Default;
     bool PreferencesNeedAttention => false;
     UpdateSnapshot? Updates => null;
+    string? InstalledProductVersion => null;
     Task SaveUpdatePreferencesAsync(UpdatePreferences preferences, CancellationToken token) => Task.CompletedTask;
     Task CheckUpdatesAsync(CancellationToken token) => Task.CompletedTask;
     Task InstallUpdateAsync(bool cancelBackup, CancellationToken token) => Task.CompletedTask;

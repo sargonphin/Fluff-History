@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Повторить очистку облака</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Установлено. Современная команда Проводника недоступна; приложение и страница свойств работают. Запустите установку ещё раз.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Установлена актуальная версия {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Доступна новая версия</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Предыдущие версии этого файла в хронологии Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Предыдущие версии файлов этой папки в хронологии Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Дата изменения</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(последняя)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(самая ранняя)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Открытие выбранной версии…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Сохранённая версия открыта для просмотра.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Эта версия недоступна. Откройте Fluff-History, чтобы проверить резервную копию.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Версии этого файла: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Версии этого файла: не менее {0}. Полная история доступна в хронологии.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Выберите сохранённую версию для просмотра или восстановления.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Этот файл больше не резервируется. Сохранённые версии по-прежнему доступны.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} версий</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} версия</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} версий</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} версии</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} версий</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} версий</value>
   </data>
 </root>

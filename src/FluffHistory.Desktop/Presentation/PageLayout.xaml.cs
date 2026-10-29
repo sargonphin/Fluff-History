@@ -1,6 +1,7 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Media;
 
 namespace FluffHistory.Desktop.Presentation;
 
@@ -15,12 +16,12 @@ public sealed partial class PageLayout : UserControl
     public UIElement? Body { get => (UIElement?)GetValue(BodyProperty); set => SetValue(BodyProperty, value); }
     public UIElement? Footer { get => (UIElement?)GetValue(FooterProperty); set => SetValue(FooterProperty, value); }
     public bool Scrollable { get => (bool)GetValue(ScrollableProperty); set => SetValue(ScrollableProperty, value); }
-    private readonly ContentPresenter _body = new() { HorizontalContentAlignment = HorizontalAlignment.Stretch };
+    private readonly ContentPresenter _body = new() { HorizontalContentAlignment = HorizontalAlignment.Stretch, Margin = new Thickness(24, 0, 24, 20) };
     private readonly Grid _viewport = new();
     private readonly ScrollViewer _scroll = new() { HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled,
-        HorizontalContentAlignment = HorizontalAlignment.Stretch, VerticalScrollBarVisibility = ScrollBarVisibility.Auto };
+        Background = new SolidColorBrush(Microsoft.UI.Colors.Transparent), HorizontalContentAlignment = HorizontalAlignment.Stretch, VerticalScrollBarVisibility = ScrollBarVisibility.Auto };
     private bool _ready;
-    public PageLayout() { InitializeComponent(); _ready = true; Apply(); }
+    public PageLayout() { InitializeComponent(); _body.MaxWidth = (double)Microsoft.UI.Xaml.Application.Current.Resources["PageContentMaxWidth"]; _ready = true; Apply(); }
     private static void Changed(DependencyObject sender, DependencyPropertyChangedEventArgs args) { if (sender is PageLayout { _ready: true } layout) layout.Apply(); }
     private void Apply()
     {

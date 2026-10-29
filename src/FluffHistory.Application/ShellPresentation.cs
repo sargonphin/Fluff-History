@@ -12,5 +12,9 @@ public interface IShellHistoryText
     string Folder(ImmutableArray<DateTimeOffset> times);
     string File(DateTimeOffset? latest, DateTimeOffset? oldest, int count, bool complete);
     string Version(BrowserVersion version);
+    string Modified(BrowserVersion version);
+    string Status(ShellHistoryStatus status);
+    string VersionCount(int count, bool complete);
+    string Preview(bool opened);
     string Restore(ShellRestoreStatus status);
 }

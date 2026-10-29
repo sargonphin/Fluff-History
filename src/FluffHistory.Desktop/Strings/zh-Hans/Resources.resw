@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>重试云端清理</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>已安装。现代资源管理器命令不可用；应用和属性页仍可使用。请重新运行安装程序以重试。</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>版本 {0} 已是最新</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>有新版本可用</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>此文件保存在 Fluff-History 时间线中的以前版本。</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>此文件夹中的文件保存在 Fluff-History 时间线中的以前版本。</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>（最新）</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>（最早）</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>正在打开所选版本…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>已打开保存的版本进行预览。</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>该版本不可用。请打开 Fluff-History 检查备份。</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>此文件有 {0}。</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>此文件至少有 {0}。打开时间线以查看完整历史。</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>选择一个保存的版本进行预览或还原。</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>此文件已停止备份。已保存的版本仍然可用。</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} 个版本</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} 个版本</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} 个版本</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} 个版本</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} 个版本</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} 个版本</value>
   </data>
 </root>

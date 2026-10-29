@@ -2127,7 +2127,66 @@ Najstarejša ohranjena različica: za celotno zgodovino odprite časovnico</valu
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Znova poskusi čiščenje oblaka</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Nameščeno. Sodobni ukaz Raziskovalca ni na voljo; aplikacija in stran Lastnosti delujeta. Znova zaženite namestitev.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Različica {0} je posodobljena</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Na voljo je nova različica</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Prejšnje različice te datoteke na časovnici Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Prejšnje različice datotek v tej mapi na časovnici Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Datum spremembe</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(najnovejša)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(najstarejša)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Predogled</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Odpiranje izbrane različice…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Shranjena različica je odprta za predogled.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Ta različica ni na voljo. Odprite Fluff-History in preverite varnostno kopijo.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Različice te datoteke: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Različice te datoteke: najmanj {0}. Celotna zgodovina je na časovnici.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Izberite shranjeno različico za predogled ali obnovitev.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Ta datoteka se ne varnostno kopira več. Shranjene različice so še na voljo.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} različic</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} različica</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} različici</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} različice</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} različic</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} različic</value>
   </data>
 </root>

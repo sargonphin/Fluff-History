@@ -1,4 +1,5 @@
 using System.Buffers.Binary;
+using System.Collections.Immutable;
 using FluffHistory.Application;
 using FluffHistory.Core;
 using FluffHistory.Engine;
@@ -60,7 +61,7 @@ public sealed class ShellIntegrationTests
         var settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child(), Sources = [mapping] };
         var path = Path.Combine(root, "Folder", "a"); // Never existed; no source traversal is needed.
         await using var session = await ShellPathSession.OpenAsync(settings, path, ShellItemKind.File, Text);
-        Assert.Equal(ShellHistoryStatus.BackedUp, session.Summary.Status); Assert.Equal(5, session.Summary.Rows.Length);
+        Assert.Equal(ShellHistoryStatus.BackedUp, session.Summary.Status); Assert.Equal(8, session.Summary.Rows.Length);
         Assert.Contains("8", session.Summary.Summary); Assert.Contains("Oldest retained version:", session.Summary.Summary);
         var exact = await session.GetRestoreAsync(session.SessionId, session.Summary.Rows[0].Token, settings);
         Assert.True(exact.Version.IsCurrent); Assert.Equal(HistoryFixture.Time.AddDays(-1), exact.Version.StoredUtc);
@@ -73,14 +74,97 @@ public sealed class ShellIntegrationTests
         Assert.Equal(8, after.GetPathHistoryPage(new(HistoryFixture.Root, "Folder/a")).Items.Count);
     }
     [Fact]
-    public async Task IncompleteCountDoesNotInventOldestOrRetainMoreThanFiveHandles()
+    public async Task IncompleteCountDoesNotInventOldestOrRetainMoreThanTwentyHandles()
     {
         using var f = new HistoryFixture(); for (var i = 0; i < 130; i++) f.Add(day: i);
         var mapping = Map(f.Temp.Child("not-created")) with { SourceRootId = HistoryFixture.Root };
         var settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child(), Sources = [mapping] };
         await using var session = await ShellPathSession.OpenBoundedAsync(settings, Path.Combine(mapping.RuntimePath!, "a"), ShellItemKind.File, 128, Text);
-        Assert.Equal(5, session.Summary.Rows.Length); Assert.Contains("128+", session.Summary.Summary);
+        Assert.Equal(20, session.Summary.Rows.Length); Assert.Contains("128+", session.Summary.Summary);
         Assert.Contains("Oldest retained version: open Timeline", session.Summary.Summary);
+        Assert.DoesNotContain(session.Summary.Rows, row => row.Oldest);
+        Assert.Contains("at least", session.Summary.VersionCount);
+    }
+    [Theory]
+    [InlineData(1)] [InlineData(2)] [InlineData(20)] [InlineData(25)]
+    public async Task TableUsesOriginalModifiedDatesAndExactPublicationMarkers(int count)
+    {
+        using var f = new HistoryFixture();
+        for (var i = 0; i < count; i++) f.Add("Folder/report & 目录.txt", "content" + i, day: -i, mtime: HistoryFixture.Time.AddHours(i));
+        var mapping = Map(f.Temp.Child("live")) with { SourceRootId = HistoryFixture.Root };
+        var settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child(), Sources = [mapping] };
+        var before = File.ReadAllBytes(Path.Combine(settings.RepositoryPath, "state.json"));
+        await using var session = await ShellPathSession.OpenAsync(settings, Path.Combine(mapping.RuntimePath!, "Folder", "report & 目录.txt"), ShellItemKind.File, Text);
+        Assert.Equal(Math.Min(count, 20), session.Summary.Rows.Length);
+        Assert.All(session.Summary.Rows, row => Assert.Equal("report & 目录.txt", row.Name));
+        Assert.True(session.Summary.Rows[0].Latest);
+        Assert.Single(session.Summary.Rows.Where(row => row.Latest));
+        Assert.Equal(count > 1 && count <= 20 ? 1 : 0, session.Summary.Rows.Count(row => row.Oldest));
+        Assert.DoesNotContain(session.Summary.Rows, row => row.Latest && row.Oldest);
+        Assert.Equal(HistoryFixture.Time.AddHours(count - 1).UtcTicks, session.Summary.Rows[0].ModifiedUtcTicks);
+        Assert.Contains(count.ToString(), session.Summary.VersionCount);
+        Assert.Equal(before, File.ReadAllBytes(Path.Combine(settings.RepositoryPath, "state.json")));
+    }
+    [WindowsFact]
+    public async Task UserActionReopensExactSurvivingVersionAfterCaptureReleaseAndAuthorityAdvance()
+    {
+        using var f = new HistoryFixture(); var old = f.Add("a.txt", "old"); f.Add("a.txt", "new", 1);
+        var mapping = Map(f.Temp.Child("live")) with { SourceRootId = HistoryFixture.Root };
+        var settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child(), Sources = [mapping] };
+        await using var session = await ShellPathSession.OpenAsync(settings, Path.Combine(mapping.RuntimePath!, "a.txt"), ShellItemKind.File, Text);
+        var selected = session.Summary.Rows[1];
+        await session.ReleaseReadCaptureAsync(); await session.ReleaseReadCaptureAsync();
+        f.Add("a.txt", "newer after page opened", 2);
+        var before = File.ReadAllBytes(Path.Combine(settings.RepositoryPath, "state.json"));
+        var exact = await session.RevalidateActionAsync(session.SessionId, selected.Token, settings);
+        Assert.Equal(old.Identity, exact.Version.Identity); Assert.False(exact.Version.IsCurrent);
+        var result = await new WindowsHistoryActions().RestoreExactAsync(settings.RepositoryPath, exact.Version, f.Temp.Child("output"), 0);
+        Assert.Equal(1, result.Copied); Assert.Equal("old", File.ReadAllText(Path.Combine(f.Temp.Child("output"), "a.txt")));
+        Assert.Equal(before, File.ReadAllBytes(Path.Combine(settings.RepositoryPath, "state.json")));
+        using (var writer = f.Repository.OpenWriter()) using (var reader = f.Repository.OpenReader()) writer.RemoveVersions([old.Identity], reader.Authority);
+        var afterRemoval = File.ReadAllBytes(Path.Combine(settings.RepositoryPath, "state.json"));
+        Assert.Equal(ApplicationFailure.RefreshRequired, (await Assert.ThrowsAsync<ApplicationOperationException>(() => session.RevalidateActionAsync(session.SessionId, selected.Token, settings))).Failure);
+        Assert.Equal(afterRemoval, File.ReadAllBytes(Path.Combine(settings.RepositoryPath, "state.json")));
+        Assert.Equal(2, session.Summary.Rows.Length); // No automatic list update, even after an action.
+    }
+    [Fact]
+    public async Task OnDemandRevalidationRejectsChangedMappingOfflineAndReplacementRepository()
+    {
+        using var f = new HistoryFixture(); f.Add();
+        var mapping = Map(f.Temp.Child("live")) with { SourceRootId = HistoryFixture.Root };
+        var settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child(), Sources = [mapping] };
+        await using var session = await ShellPathSession.OpenAsync(settings, Path.Combine(mapping.RuntimePath!, "a"), ShellItemKind.File, Text);
+        await session.ReleaseReadCaptureAsync(); var row = session.Summary.Rows[0];
+        await Assert.ThrowsAsync<ApplicationOperationException>(() => session.RevalidateActionAsync(session.SessionId, row.Token, settings with { Sources = [mapping with { RuntimePath = f.Temp.Child("other") }] }));
+        var directory = settings.RepositoryPath; var moved = directory + ".offline";
+        Directory.Move(directory, moved);
+        try
+        {
+            await Assert.ThrowsAsync<ApplicationOperationException>(() => session.RevalidateActionAsync(session.SessionId, row.Token, settings));
+            using (Repository.Create(directory))
+                Assert.Equal(ApplicationFailure.RefreshRequired, (await Assert.ThrowsAsync<ApplicationOperationException>(() => session.RevalidateActionAsync(session.SessionId, row.Token, settings))).Failure);
+        }
+        finally { if (Directory.Exists(directory)) Directory.Delete(directory, true); Directory.Move(moved, directory); }
+    }
+    [Fact]
+    public void TableAndPreviewWireAreBoundedAndOldRepliesKeepTheFiveRowLayout()
+    {
+        var rows = Enumerable.Range(0, 20).Select(i => new ShellRecentVersion(i.ToString("x32"), "legacy label", "report.txt", "28/10/2026", 100 + i, i == 0, i == 19)).ToImmutableArray();
+        var summary = new ShellHistorySummary(ShellHistoryStatus.BackedUp, new string('a', 32), "Select a saved version.", "private backup location", rows, true, "20 versions");
+        var bytes = ShellWire.Encode(new ShellTableReply(summary));
+        var table = Assert.IsType<ShellTableReply>(ShellWire.Decode(bytes)).Value;
+        Assert.Equal(rows.ToArray(), table.Rows.Select(row => row with { Display = "legacy label" }).ToArray());
+        Assert.Empty(table.BackupLocation); Assert.Equal("20 versions", table.VersionCount);
+        Assert.Equal(5, Assert.IsType<ShellOpenReply>(ShellWire.Decode(ShellWire.Encode(new ShellOpenReply(summary)))).Value.Rows.Length);
+        var open = new ShellOpenRequest(@"C:\a.txt", ShellItemKind.File, "en-US", VersionTable: true);
+        Assert.Equal(open, ShellWire.Decode(ShellWire.Encode(open)));
+        var preview = new ShellPreviewRequest(summary.SessionId, rows[19].Token, 123456789012);
+        Assert.Equal(preview, ShellWire.Decode(ShellWire.Encode(preview)));
+        Assert.Throws<InvalidDataException>(() => ShellWire.Encode(new ShellTableReply(summary with { Rows = rows.Add(rows[0]) })));
+        Assert.Throws<InvalidDataException>(() => ShellWire.Encode(new ShellTableReply(summary with { Rows = [rows[0], rows[0]] })));
+        Assert.Throws<InvalidDataException>(() => ShellWire.Encode(new ShellTableReply(summary with { Rows = [rows[0] with { ModifiedUtcTicks = -1 }] })));
+        Assert.Throws<InvalidDataException>(() => ShellWire.Encode(preview with { VersionToken = "../bad" }));
+        Assert.Throws<InvalidDataException>(() => ShellWire.Encode(open with { Language = null }));
     }
     [Fact]
     public async Task InactiveHistoryAndFolderTimesAreTruthfulAndOutsideMappingsDoNotOpenRepository()

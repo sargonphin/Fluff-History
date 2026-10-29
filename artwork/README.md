@@ -18,10 +18,7 @@ ICO frames are 16, 20, 24, 32, 40, 48, 64, 96, 128 and 256 pixels. Small frames 
 32-bit DIB/alpha/masks; 256 uses PNG. Package logos include scale and unplated
 target-size variants. Preserve source aspect ratio.
 
-Configuration icons are loaded from the installed OS: stock fixed drive, Explorer
-application icon, shell32 folder-with-red-X resource 16715, Task Scheduler
-miguiresource index 1 and shell32 gear resource 16826 with native fallback. The
-battery glyph uses installed Segoe Fluent Icons. Known library icons also come from
-Windows. None of these OS resources is redistributed here or represented as MIT.
-The separately bundled Shell history SVG/ICO has its own
-[Fluent MIT provenance](../native/Shell/Assets/README.md).
+Configuration icons are loaded from the installed OS: fixed drive, Explorer,
+folder protection, Task Scheduler, native Power Options and the gear-and-checklist
+Tools alternative. Known library icons also come from Windows. These OS resources
+are not redistributed. The classic Shell launcher uses the product icon above.

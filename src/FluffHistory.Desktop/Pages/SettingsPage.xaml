@@ -11,17 +11,17 @@
    <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
     <TextBlock loc:Localize.Uid="Settings_TextBlock_Appearance" Style="{StaticResource SectionTitle}" />
     <TextBlock loc:Localize.Uid="Settings_TextBlock_AppearanceExplanation" Style="{StaticResource SecondaryText}" />
-    <ComboBox loc:Localize.Uid="Settings_ComboBox_Appearance" ItemsSource="{x:Bind Model.Appearances, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedAppearance, Mode=TwoWay}" DisplayMemberPath="Label" HorizontalAlignment="Stretch" />
+    <ComboBox loc:Localize.Uid="Settings_ComboBox_Appearance" ItemsSource="{x:Bind Model.Appearances, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedAppearance, Mode=TwoWay}" DisplayMemberPath="Label" Width="280" HorizontalAlignment="Left" />
    </StackPanel></Border>
    <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
     <TextBlock loc:Localize.Uid="Settings_TextBlock_Language" Style="{StaticResource SectionTitle}" />
-    <ComboBox loc:Localize.Uid="Settings_ComboBox_Language" ItemsSource="{x:Bind Model.Languages, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedLanguage, Mode=TwoWay}" DisplayMemberPath="Label" HorizontalAlignment="Stretch" />
+    <ComboBox loc:Localize.Uid="Settings_ComboBox_Language" ItemsSource="{x:Bind Model.Languages, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedLanguage, Mode=TwoWay}" DisplayMemberPath="Label" Width="280" HorizontalAlignment="Left" />
     <TextBlock loc:Localize.Uid="Settings_TextBlock_LanguageExplanation" Style="{StaticResource SecondaryText}" />
    </StackPanel></Border>
    <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
-    <TextBlock Text="{x:Bind Model.UpdateTitle, Mode=OneWay}" Style="{StaticResource SectionTitle}" />
-    <ComboBox Header="{x:Bind Model.UpdateChannelLabel, Mode=OneWay}" ItemsSource="{x:Bind Model.UpdateChannels, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedUpdateChannel, Mode=TwoWay}" DisplayMemberPath="Label" IsEnabled="{x:Bind Model.CanCheckUpdates, Mode=OneWay}" HorizontalAlignment="Stretch" />
-    <ComboBox Header="{x:Bind Model.UpdateFrequencyLabel, Mode=OneWay}" ItemsSource="{x:Bind Model.UpdateFrequencies, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedUpdateFrequency, Mode=TwoWay}" DisplayMemberPath="Label" IsEnabled="{x:Bind Model.CanCheckUpdates, Mode=OneWay}" HorizontalAlignment="Stretch" />
+    <TextBlock x:Name="UpdatesSection" Text="{x:Bind Model.UpdateTitle, Mode=OneWay}" Style="{StaticResource SectionTitle}" />
+    <ComboBox Header="{x:Bind Model.UpdateChannelLabel, Mode=OneWay}" ItemsSource="{x:Bind Model.UpdateChannels, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedUpdateChannel, Mode=TwoWay}" DisplayMemberPath="Label" IsEnabled="{x:Bind Model.CanCheckUpdates, Mode=OneWay}" Width="280" HorizontalAlignment="Left" />
+    <ComboBox Header="{x:Bind Model.UpdateFrequencyLabel, Mode=OneWay}" ItemsSource="{x:Bind Model.UpdateFrequencies, Mode=OneWay}" SelectedItem="{x:Bind Model.SelectedUpdateFrequency, Mode=TwoWay}" DisplayMemberPath="Label" IsEnabled="{x:Bind Model.CanCheckUpdates, Mode=OneWay}" Width="280" HorizontalAlignment="Left" />
     <TextBlock Text="{x:Bind Model.CurrentUpdateVersion, Mode=OneWay}" TextWrapping="Wrap" />
     <TextBlock Text="{x:Bind Model.LastUpdateCheck, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
     <TextBlock Text="{x:Bind Model.UpdateStatus, Mode=OneWay}" TextWrapping="Wrap" />

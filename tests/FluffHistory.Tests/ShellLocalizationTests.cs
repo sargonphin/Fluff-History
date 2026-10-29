@@ -34,6 +34,16 @@ public sealed class ShellLocalizationTests
         Assert.Equal(strings[TextId.Shell_RestoreCancelled], text.Restore(ShellRestoreStatus.Cancelled));
         Assert.Equal(strings[TextId.Shell_RestoreRefresh], text.Restore(ShellRestoreStatus.RefreshRequired));
         Assert.Equal(strings[TextId.Shell_RestoreUnavailable], text.Restore(ShellRestoreStatus.Unavailable));
+        Assert.Equal(strings.Format(TextId.Shell_CountTitle, strings.Count(CountKind.Versions, 1)), text.VersionCount(1, true));
+        Assert.Equal(strings.Format(TextId.Shell_CountPartial, strings.Count(CountKind.Versions, 128)), text.VersionCount(128, false));
+        if (language == "en-US")
+        {
+            Assert.Equal("This file has 1 version.", text.VersionCount(1, true));
+            Assert.Equal("This file has 20 versions.", text.VersionCount(20, true));
+        }
+        Assert.Equal(strings[TextId.Shell_AvailableDescription], text.Status(ShellHistoryStatus.BackedUp));
+        Assert.Equal(strings[TextId.Shell_InactiveDescription], text.Status(ShellHistoryStatus.Inactive));
+        Assert.Equal(strings[TextId.Shell_PreviewOpened], text.Preview(true));
         if (language != "en-US")
         {
             Assert.NotEqual(TestAppStrings.English[TextId.Shell_EmptyRecovery], text.Empty(ShellHistoryStatus.RecoveryRequired));

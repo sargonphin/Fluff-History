@@ -44,21 +44,6 @@ public sealed class LocalizationTests
         Assert.Equal(44, CatalogValidation.ShippingLanguages.Distinct(StringComparer.OrdinalIgnoreCase).Count());
     }
     [Fact]
-    public void ManifestLanguagesFollowTheClosedShippingSetAndKeepSparseApplicationSeparation()
-    {
-        var root = SourceRoot();
-        foreach (var file in new[] { "src/FluffHistory.Desktop/Package.appxmanifest", "installer/Identity.appxmanifest" })
-        {
-            var document = XDocument.Load(Path.Combine(root, file)); var ns = document.Root!.Name.Namespace;
-            Assert.Equal(CatalogValidation.ShippingLanguages,
-                document.Root.Element(ns + "Resources")!.Elements(ns + "Resource").Select(e => e.Attribute("Language")!.Value));
-            Assert.Equal("Sargonphin.FluffHistory.DeveloperPreview", document.Root.Element(ns + "Identity")!.Attribute("Name")!.Value);
-        }
-        var sparse = XDocument.Load(Path.Combine(root, "installer/Identity.appxmanifest")); var schema = sparse.Root!.Name.Namespace;
-        Assert.Equal(new[] { "App", "Shell" }, sparse.Root.Element(schema + "Applications")!.Elements(schema + "Application").Select(e => e.Attribute("Id")!.Value));
-        Assert.Equal("en-US", XDocument.Load(Path.Combine(root, "src/FluffHistory.Desktop/FluffHistory.Desktop.csproj")).Root!.Element("PropertyGroup")!.Element("DefaultLanguage")!.Value);
-    }
-    [Fact]
     public void StaticXamlUsesValidResourceIdentifiersIncludingAccessibility()
     {
         var root = SourceRoot(); var desktop = Path.Combine(root, "src/FluffHistory.Desktop");

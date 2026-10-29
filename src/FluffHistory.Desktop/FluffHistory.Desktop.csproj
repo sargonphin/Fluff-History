@@ -2,8 +2,8 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
-    <TargetPlatformMinVersion>10.0.22000.0</TargetPlatformMinVersion>
-    <SupportedOSPlatformVersion>10.0.22000.0</SupportedOSPlatformVersion>
+    <TargetPlatformMinVersion>$(WindowsTechnicalMinimum)</TargetPlatformMinVersion>
+    <SupportedOSPlatformVersion>$(WindowsTechnicalMinimum)</SupportedOSPlatformVersion>
     <Platforms>x64</Platforms>
     <PlatformTarget>x64</PlatformTarget>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
@@ -12,6 +12,8 @@
     <WindowsPackageType>None</WindowsPackageType>
     <Version Condition="'$(ProductVersion)' != ''">$(ProductVersion)</Version>
     <DefineConstants>$(DefineConstants);DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+    <!-- WinUI's build targets require this for PRI generation even with
+         WindowsPackageType=None. It does not grant runtime package identity. -->
     <EnableMsixTooling>true</EnableMsixTooling>
     <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
     <SelfContained>true</SelfContained>
@@ -38,8 +40,6 @@
     <Content Update="Assets\Square44x44Logo.scale-400.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Include="Assets\FluffHistory.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Include="..\..\artwork\LICENSE-Icons8.txt" Link="ThirdPartyNotices\Icons8.txt" CopyToOutputDirectory="PreserveNewest" />
-    <Content Include="$(NativeShellOutputDirectory)\FluffHistory.ExplorerCommand.dll" Link="FluffHistory.ExplorerCommand.dll" CopyToOutputDirectory="PreserveNewest" />
-    <Content Include="..\..\native\Shell\Assets\LICENSE.txt" Link="ThirdPartyNotices\FluentSystemIcons.txt" CopyToOutputDirectory="PreserveNewest" />
     <!-- Components from the pinned stable 2.5.1 graph. Foundation supplies AppLifecycle
          and Storage Pickers transitively; preserve the existing InteractiveExperiences version. -->
     <PackageReference Include="Microsoft.WindowsAppSDK.WinUI" />
@@ -54,16 +54,6 @@
   </ItemGroup>
   <Target Name="BuildNativeShell" BeforeTargets="PrepareForBuild">
     <Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildThisFileDirectory)..\..\scripts\Build-NativeShell.ps1&quot; -OutputDirectory &quot;$(NativeShellOutputDirectory)&quot; -ProductVersion &quot;$(ProductVersion)&quot;" />
-  </Target>
-  <Target Name="PrepareDeveloperPreviewManifest" BeforeTargets="PrepareForBuild" Condition="'$(DeveloperPreviewVersion)' != ''">
-    <MakeDir Directories="$(IntermediateOutputPath)" />
-    <Copy SourceFiles="Package.appxmanifest" DestinationFiles="$(IntermediateOutputPath)DeveloperPreview.appxmanifest" />
-    <XmlPoke XmlInputPath="$(IntermediateOutputPath)DeveloperPreview.appxmanifest"
-      Query="/*[local-name()='Package']/*[local-name()='Identity']/@Version" Value="$(DeveloperPreviewVersion)" />
-    <ItemGroup>
-      <AppxManifest Remove="@(AppxManifest)" />
-      <AppxManifest Include="$(IntermediateOutputPath)DeveloperPreview.appxmanifest" />
-    </ItemGroup>
   </Target>
   <!-- This preview intentionally emits no symbol package. The SDK otherwise probes VS native PDB tools
        even when symbol packaging is disabled. Do not require a C++ workload for unused symbol conversion. -->

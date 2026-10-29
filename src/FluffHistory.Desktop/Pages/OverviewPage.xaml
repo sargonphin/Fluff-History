@@ -13,6 +13,10 @@
      <TextBlock Text="{x:Bind Model.Title, Mode=OneWay}" Style="{StaticResource SectionTitle}" AutomationProperties.LiveSetting="Polite" />
      <TextBlock Text="{x:Bind Model.Summary, Mode=OneWay}" Style="{StaticResource BodyText}" />
      <TextBlock Text="{x:Bind Model.Schedule, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+     <StackPanel Visibility="{x:Bind Model.ShowUpdateStatus, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
+      <TextBlock Text="{x:Bind Model.UpdateText, Mode=OneWay}" Style="{StaticResource SecondaryText}" Visibility="{x:Bind Model.HasNoUpdate, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+      <HyperlinkButton Content="{x:Bind Model.UpdateText, Mode=OneWay}" Command="{x:Bind Model.OpenUpdates}" Padding="0,4" Visibility="{x:Bind Model.HasUpdate, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
+     </StackPanel>
      <Button loc:Localize.Uid="Overview_Button_Setup" Command="{x:Bind Model.Setup}" Style="{StaticResource AccentButtonStyle}" Visibility="{x:Bind Model.IsUnconfigured, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
      <Button loc:Localize.Uid="Overview_Button_BackUp" Command="{x:Bind Model.BackUp}" Style="{StaticResource AccentButtonStyle}" Visibility="{x:Bind Model.IsReady, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
      <Button loc:Localize.Uid="Overview_Button_Recover" Command="{x:Bind Model.Recover}" Visibility="{x:Bind Model.NeedsRecovery, Mode=OneWay, Converter={StaticResource VisibleWhen}}"><StackPanel Orientation="Horizontal" Spacing="8"><FontIcon Glyph="" FontSize="16" /><TextBlock loc:Localize.Uid="Overview_TextBlock_RecoverAccess" /></StackPanel></Button>

@@ -61,7 +61,7 @@ Current implementation and topic documents define the supported behavior.
 - Native Shell DLLs load no CLR/WinUI, parse no repository and perform no blocking
   history work on Explorer threads. Preserve COM/page/module/worker ownership,
   asynchronous closure, protocol limits, client HWND binding and exact opaque handles.
-- Ordinary Setup owns replacement/rollback, sparse identity, startup and both Shell
+- Ordinary Setup owns replacement/rollback, classic static verbs, startup and Properties
   integrations. Preserve versioned immutable payloads and inventory-bound deferred
   cleanup without force-killing Explorer or backup processes.
 

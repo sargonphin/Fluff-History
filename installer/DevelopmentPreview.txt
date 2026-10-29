@@ -1,7 +1,5 @@
-Fluff-History development preview
+Fluff-History Development Build
 
-This preview installs for your Windows account. The background agent continues automatic backups when the main window is closed.
+This local test build uses development PE signatures. Setup does not install a certificate or request machine trust. This does not establish publicly trusted release signing.
 
-This build uses a development signing certificate. Windows may ask for administrator permission to trust that exact public certificate on this test computer. Certificate trust affects every user of the computer. Only this trust step needs elevation; application and Explorer registration stay in your own account. This is local preview trust; it does not establish publicly trusted release signing.
-
-Uninstall retains your application settings and never deletes your backup repository. Development trust is removed only when this setup installed it and no other user's package still relies on it.
+The per-user installer registers the classic Explorer command (Show more options on Windows 11) and native Properties page without package identity or elevation. An unused exact certificate from an older installation may remain unchanged.

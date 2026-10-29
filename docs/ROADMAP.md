@@ -16,7 +16,7 @@ snapshots, rename identity, backup-run restore points or Cloud Files provider.
 - Complete installed/bare-metal recovery, suspend/resume, interaction and accessibility
   checks on representative hardware. VM reboot/sign-out results do not prove physical sleep.
 - Review Store certification/distribution policy and update-channel behavior separately.
-  The current per-user EXE/sparse-identity installer is not a full-MSIX Store package.
+  The current unpackaged per-user EXE installer is not a Store MSIX package.
 
 The Entra recovery registration is separate from code signing and Store publisher
 identity. Domain verification does not itself establish signing trust or a verified

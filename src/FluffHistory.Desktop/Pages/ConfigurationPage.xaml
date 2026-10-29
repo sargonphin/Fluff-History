@@ -8,11 +8,11 @@
 
  <presentation:PageLayout.Body>
 <StackPanel Style="{StaticResource PageSections}">
-    <Border Style="{StaticResource SectionPanel}" HorizontalAlignment="Stretch"><Grid ColumnSpacing="16">
-     <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
-     <presentation:ShellIcon Key="section:Drive" Width="24" Height="24" VerticalAlignment="Top" Margin="0,3,0,0" />
-     <StackPanel Grid.Column="1" Spacing="6">
-      <TextBlock loc:Localize.Uid="Configuration_TextBlock_BackupLocation" Style="{StaticResource SectionTitle}" />
+    <Border Style="{StaticResource SectionPanel}" HorizontalAlignment="Stretch"><Grid ColumnSpacing="16" RowSpacing="12">
+     <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+     <StackPanel Style="{StaticResource SectionHeading}"><presentation:ShellIcon Key="section:Drive" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_BackupLocation" Style="{StaticResource SectionTitle}" /></StackPanel>
+     <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Spacing="6">
+
       <TextBlock Text="{x:Bind Model.RepositoryPath, Mode=OneWay}" Style="{StaticResource BodyText}" IsTextSelectionEnabled="True" />
       <TextBlock Text="{x:Bind Model.RepositoryStatus, Mode=OneWay}" Style="{StaticResource SecondaryText}" AutomationProperties.LiveSetting="Polite" />
       <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,4" Visibility="{x:Bind Model.HasEncryptionStatus, Mode=OneWay, Converter={StaticResource VisibleWhen}}">
@@ -32,11 +32,12 @@
         <ProgressBar loc:Localize.Uid="Configuration_ProgressBar_DriveSpaceUsed" Style="{StaticResource DriveUsageBar}" Value="{x:Bind Model.Storage.UsedPercent, Mode=OneWay}" />
        </Border>
        <TextBlock Text="{x:Bind Model.Storage.DriveSpace, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
+       <TextBlock Text="{x:Bind Model.BackupSize, Mode=OneWay}" Style="{StaticResource SecondaryText}" />
       </StackPanel>
       <Button loc:Localize.Uid="Configuration_Button_Recover" Command="{x:Bind Model.Recover}" Visibility="{x:Bind Model.NeedsRecovery, Mode=OneWay, Converter={StaticResource VisibleWhen}}"><StackPanel Orientation="Horizontal" Spacing="8"><FontIcon Glyph="" FontSize="16" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_RecoverAccess" /></StackPanel></Button>
       <Button loc:Localize.Uid="Configuration_Button_RecoverExperimental" Command="{x:Bind Model.RecoverExperimental}" Visibility="{x:Bind Model.CanOfferExperimentalRecovery, Mode=OneWay, Converter={StaticResource VisibleWhen}}" />
      </StackPanel>
-     <Button loc:Localize.Uid="Configuration_Button_ChangeLocation" Grid.Column="2" Command="{x:Bind Model.ChangeLocation}" IsEnabled="{x:Bind Model.CanEdit, Mode=OneWay}" VerticalAlignment="Top" />
+     <Button loc:Localize.Uid="Configuration_Button_ChangeLocation" Grid.Column="1" Command="{x:Bind Model.ChangeLocation}" IsEnabled="{x:Bind Model.CanEdit, Mode=OneWay}" VerticalAlignment="Top" />
     </Grid></Border>
    <ContentControl IsEnabled="{x:Bind Model.CanEdit, Mode=OneWay}" HorizontalContentAlignment="Stretch"><StackPanel Spacing="16" HorizontalAlignment="Stretch" Padding="0,0,0,12">
     <Border Style="{StaticResource SectionPanel}"><StackPanel Spacing="12">
@@ -70,7 +71,7 @@
      <TextBlock loc:Localize.Uid="Configuration_TextBlock_BackgroundSchedulingExplanation" Style="{StaticResource SecondaryText}" />
     </StackPanel></Border>
     <Expander loc:Localize.Uid="Configuration_Expander_PowerNetwork" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
-     <Expander.Header><StackPanel loc:Localize.Uid="Configuration_StackPanel_PowerNetwork" Style="{StaticResource SectionHeading}"><FontIcon FontFamily="Segoe Fluent Icons" Glyph="" FontSize="22" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_PowerNetwork" Style="{StaticResource SectionTitle}" VerticalAlignment="Center" /></StackPanel></Expander.Header>
+     <Expander.Header><StackPanel loc:Localize.Uid="Configuration_StackPanel_PowerNetwork" Style="{StaticResource SectionHeading}"><presentation:ShellIcon Key="section:PowerOptions" Width="24" Height="24" VerticalAlignment="Center" /><TextBlock loc:Localize.Uid="Configuration_TextBlock_PowerNetwork" Style="{StaticResource SectionTitle}" VerticalAlignment="Center" /></StackPanel></Expander.Header>
      <StackPanel Spacing="8">
      <CheckBox loc:Localize.Uid="Configuration_CheckBox_PauseOnBattery" IsChecked="{x:Bind Model.PauseOnBattery, Mode=TwoWay}" />
      <CheckBox loc:Localize.Uid="Configuration_CheckBox_AllowMeteredNetwork" IsChecked="{x:Bind Model.AllowMetered, Mode=TwoWay}" />

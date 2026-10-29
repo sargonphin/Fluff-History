@@ -25,7 +25,6 @@ conditions; it is not a blanket legal approval of a distribution or license comb
 | Microsoft.Web.WebView2 1.0.3719.77 | Package LICENSE.txt/NOTICE.txt (Microsoft copyright, BSD-style conditions) | Transitive SDK material; package inclusion does not mean the app implements a browser or bundles an Evergreen installation |
 | Inno Setup 7.1.0 setup/uninstall and language bases | Inno Setup License, retained translator credits | Compiler is build tooling; generated Setup/uninstall include Inno components |
 | Icons8 Flat Color Icons folder derivative | artwork/LICENSE-Icons8.txt, MIT | Preserve base notice with generated application logos/ICO |
-| Fluent System Icons History 20 Regular derivative | native/Shell/Assets/LICENSE.txt, MIT | Preserve notice with native Shell history icon |
 | Static MSVC runtime portions | Microsoft toolchain redistribution terms | Native images link runtime statically; toolchain rights are separate from first-party source licensing |
 
 The selected Windows App SDK components match the relevant subset of the 2.5.1

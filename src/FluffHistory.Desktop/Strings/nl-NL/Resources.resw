@@ -2127,7 +2127,66 @@ Oudste bewaarde versie: open Tijdlijn voor de volledige geschiedenis</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Cloudopruiming opnieuw proberen</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Geïnstalleerd. De moderne Verkenner-opdracht is niet beschikbaar; de app en het eigenschappenvenster werken wel. Voer de installatie opnieuw uit.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Bijgewerkt naar versie {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Er is een nieuwe versie beschikbaar</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Eerdere versies van dit bestand in de Fluff-History-tijdlijn.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Eerdere bestandsversies in deze map in de Fluff-History-tijdlijn.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Gewijzigd op</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(nieuwste)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(oudste)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>De geselecteerde versie wordt geopend…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>De opgeslagen versie is geopend als voorbeeld.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Die versie is niet beschikbaar. Open Fluff-History om de back-up te controleren.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Dit bestand heeft {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Dit bestand heeft minstens {0}. Open de tijdlijn voor de volledige geschiedenis.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Selecteer een opgeslagen versie om te bekijken of te herstellen.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Van dit bestand worden geen back-ups meer gemaakt. Opgeslagen versies blijven beschikbaar.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versies</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} versie</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versies</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versies</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versies</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versies</value>
   </data>
 </root>

@@ -2127,7 +2127,66 @@ Eldste beholdte versjon: åpne Tidslinje for full historikk</value>
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Prøv skyopprydding på nytt</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Installert. Den moderne Utforsker-kommandoen er utilgjengelig; appen og egenskapssiden fungerer. Kjør installasjonen på nytt.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Oppdatert til versjon {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>En ny versjon er tilgjengelig</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Tidligere versjoner av denne filen på Fluff-History-tidslinjen.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Tidligere filversjoner i denne mappen på Fluff-History-tidslinjen.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Endringsdato</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(nyeste)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(eldste)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Forhåndsvis</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Åpner den valgte versjonen…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Den lagrede versjonen er åpnet for forhåndsvisning.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Denne versjonen er utilgjengelig. Åpne Fluff-History for å kontrollere sikkerhetskopien.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Denne filen har {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Denne filen har minst {0}. Åpne tidslinjen for hele historikken.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Velg en lagret versjon for forhåndsvisning eller gjenoppretting.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Denne filen sikkerhetskopieres ikke lenger. Lagrede versjoner er fortsatt tilgjengelige.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} versjoner</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} versjon</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} versjoner</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versjoner</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} versjoner</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} versjoner</value>
   </data>
 </root>

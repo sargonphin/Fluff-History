@@ -3,16 +3,17 @@ using System.Collections.Immutable;
 namespace FluffHistory.Application;
 
 public enum ShellHistoryStatus { BackedUp, Inactive, NotProtected, RecoveryRequired, Unavailable, Expired }
-public sealed record ShellRecentVersion(string Token, string Display);
+public sealed record ShellRecentVersion(string Token, string Display, string Name = "", string Modified = "",
+    long ModifiedUtcTicks = 0, bool Latest = false, bool Oldest = false);
 public sealed record ShellHistorySummary(ShellHistoryStatus Status, string SessionId, string Summary, string BackupLocation,
-    ImmutableArray<ShellRecentVersion> Rows, bool CanRestore);
+    ImmutableArray<ShellRecentVersion> Rows, bool CanRestore, string VersionCount = "");
 public sealed record ShellExactRestore(BrowserVersion Version, SourceMapping Mapping);
 
-/// <summary>One read-only captured browser and at most five exact handles. No scheduler, writer or password.
+/// <summary>One read-only captured browser and at most twenty exact handles. No scheduler, writer or password.
 /// The host owns timeout/process isolation for native I/O that outlasts cooperative cancellation.</summary>
 public sealed class ShellPathSession : IAsyncDisposable
 {
-    public const int MaximumCount = 4096, MaximumRecent = 5;
+    public const int MaximumCount = 4096, MaximumRecent = 20, LegacyMaximumRecent = 5;
     private readonly Dictionary<string, BrowserVersion> _versions = new(StringComparer.Ordinal);
     private readonly SemaphoreSlim _gate = new(1);
     private HistoryBrowserSession? _browser;
@@ -24,9 +25,10 @@ public sealed class ShellPathSession : IAsyncDisposable
 
     public static Task<ShellPathSession> OpenAsync(AppSettings settings, string path, ShellItemKind kind, IShellHistoryText text, CancellationToken token = default)
         => OpenBoundedAsync(settings, path, kind, MaximumCount, text, token);
-    internal static async Task<ShellPathSession> OpenBoundedAsync(AppSettings settings, string path, ShellItemKind kind, int countLimit, IShellHistoryText text, CancellationToken token = default)
+    internal static async Task<ShellPathSession> OpenBoundedAsync(AppSettings settings, string path, ShellItemKind kind, int countLimit, IShellHistoryText text, CancellationToken token = default, int recentLimit = MaximumRecent)
     {
         if (countLimit is < 128 or > MaximumCount || countLimit % 128 != 0) throw new ArgumentOutOfRangeException(nameof(countLimit));
+        if (recentLimit is < 1 or > MaximumRecent) throw new ArgumentOutOfRangeException(nameof(recentLimit));
         ArgumentNullException.ThrowIfNull(text);
         var session = new ShellPathSession { _settings = settings, _target = ShellPathResolver.Resolve(settings, path, kind) };
         try
@@ -36,7 +38,7 @@ public sealed class ShellPathSession : IAsyncDisposable
             session._browser = await HistoryBrowserSession.OpenAsync(settings.RepositoryPath, token).ConfigureAwait(false);
             if (kind == ShellItemKind.Folder)
             {
-                var page = await session._browser.GetTimelineAsync(new(target.SourceRootId, target.RelativePath), pageSize: MaximumRecent, token: token).ConfigureAwait(false);
+                var page = await session._browser.GetTimelineAsync(new(target.SourceRootId, target.RelativePath), pageSize: LegacyMaximumRecent, token: token).ConfigureAwait(false);
                 session.Summary = new(target.IsActive ? ShellHistoryStatus.BackedUp : page.Items.Length > 0 ? ShellHistoryStatus.Inactive : ShellHistoryStatus.NotProtected,
                     session.SessionId, text.Folder(page.Items), settings.RepositoryPath, [], false);
                 return session;
@@ -51,16 +53,19 @@ public sealed class ShellPathSession : IAsyncDisposable
                 {
                     count++; latest ??= version.StoredUtc;
                     if (oldest is null || version.StoredUtc < oldest) oldest = version.StoredUtc;
-                    if (rows.Count < MaximumRecent)
+                    if (rows.Count < recentLimit)
                     {
                         var key = Guid.NewGuid().ToString("N"); session._versions.Add(key, version);
-                        rows.Add(new(key, text.Version(version)));
+                        rows.Add(new(key, text.Version(version), version.RelativePath.Split('/')[^1], text.Modified(version),
+                            version.LastWriteUtc.UtcTicks, Latest: count == 1));
                     }
                 }
                 next = page.Continuation;
             } while (next is not null && count < countLimit);
             var status = count == 0 ? ShellHistoryStatus.NotProtected : target.IsActive ? ShellHistoryStatus.BackedUp : ShellHistoryStatus.Inactive;
-            session.Summary = new(status, session.SessionId, text.File(latest, oldest, count, next is null), settings.RepositoryPath, rows.ToImmutable(), count > 0);
+            if (next is null && count > 1 && count == rows.Count) rows[^1] = rows[^1] with { Oldest = true };
+            session.Summary = new(status, session.SessionId, text.File(latest, oldest, count, next is null), settings.RepositoryPath,
+                rows.ToImmutable(), count > 0, text.VersionCount(count, next is null));
             return session;
         }
         catch (OperationCanceledException) { await session.DisposeAsync().ConfigureAwait(false); throw; }
@@ -88,6 +93,39 @@ public sealed class ShellPathSession : IAsyncDisposable
             if (currentTarget?.SourceRootId != _target.SourceRootId) throw new ApplicationOperationException(ApplicationFailure.RefreshRequired);
             // The Windows restore leaf independently validates exact live repository authority and payload.
             return new(version, mapping);
+        }
+        finally { _gate.Release(); }
+    }
+    /// <summary>Reopen only on a user action. Keep the exact selected identity; never substitute the
+    /// latest version, another repository, or a similar path. The Windows leaf checks authority again.</summary>
+    public async Task<ShellExactRestore> RevalidateActionAsync(string sessionId, string versionToken, AppSettings currentSettings, CancellationToken token = default)
+    {
+        var selected = await GetRestoreAsync(sessionId, versionToken, currentSettings, token).ConfigureAwait(false);
+        try { return await Task.Run(() =>
+        {
+            token.ThrowIfCancellationRequested();
+            using var repository = ApplicationRepository.Open(currentSettings.RepositoryPath);
+            using var reader = repository.OpenReader();
+            if (reader.Authority.RepositoryId != selected.Version.Authority.RepositoryId)
+                throw new ApplicationOperationException(ApplicationFailure.RefreshRequired);
+            var stored = reader.GetVersion(selected.Version.Identity) ?? throw new ApplicationOperationException(ApplicationFailure.RefreshRequired);
+            token.ThrowIfCancellationRequested();
+            return new ShellExactRestore(new BrowserVersion(stored, reader.Authority,
+                reader.GetCurrent(stored.Identity.Path)?.Identity == stored.Identity), selected.Mapping);
+        }, token).ConfigureAwait(false); }
+        catch (OperationCanceledException) { throw; }
+        catch (ApplicationOperationException) { throw; }
+        catch (Exception error) { throw ApplicationRepository.Failure(error); }
+    }
+    /// <summary>The table is detached metadata. Release reader/key ownership after displaying it;
+    /// retain only the bounded opaque selections until the page closes. No timer or live queries.</summary>
+    public async Task ReleaseReadCaptureAsync()
+    {
+        await _gate.WaitAsync().ConfigureAwait(false);
+        try
+        {
+            ObjectDisposedException.ThrowIf(_disposed, this);
+            if (_browser is { } browser) { _browser = null; await browser.DisposeAsync().ConfigureAwait(false); }
         }
         finally { _gate.Release(); }
     }

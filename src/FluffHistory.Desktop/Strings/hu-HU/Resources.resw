@@ -2127,7 +2127,66 @@ Legrégebbi megőrzött verzió: a teljes előzményhez nyissa meg az idővonala
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Felhőtisztítás újrapróbálása</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Telepítve. A Fájlkezelő modern parancsa nem érhető el; az alkalmazás és a Tulajdonságok lap működik. Futtassa újra a telepítőt.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>A(z) {0} verzió naprakész</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Új verzió érhető el</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>A fájl korábbi verziói a Fluff-History idővonalán.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>A mappa fájljainak korábbi verziói a Fluff-History idővonalán.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Módosítás dátuma</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(legújabb)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(legrégebbi)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Előnézet</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>A kijelölt verzió megnyitása…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>A mentett verzió megnyílt előnézetben.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Ez a verzió nem érhető el. Ellenőrizze a biztonsági mentést a Fluff-History alkalmazásban.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>A fájl verziói: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>A fájl verziói: legalább {0}. A teljes előzmény az idővonalon látható.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Válasszon mentett verziót az előnézethez vagy visszaállításhoz.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>A fájlról már nem készül biztonsági mentés. A mentett verziók továbbra is elérhetők.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} verzió</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} verzió</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} verzió</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} verzió</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} verzió</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} verzió</value>
   </data>
 </root>

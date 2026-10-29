@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>ক্লাউড পরিষ্কার করার চেষ্টা আবার করুন</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>ইনস্টল হয়েছে। এক্সপ্লোরারের আধুনিক কমান্ড উপলভ্য নয়; অ্যাপ ও বৈশিষ্ট্য পৃষ্ঠা কাজ করে। সেটআপ আবার চালান।</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>সংস্করণ {0} হালনাগাদ আছে</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>একটি নতুন সংস্করণ উপলব্ধ</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Fluff-History টাইমলাইনে সংরক্ষিত এই ফাইলের আগের সংস্করণগুলো।</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Fluff-History টাইমলাইনে এই ফোল্ডারের ফাইলগুলোর আগের সংস্করণগুলো।</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>নাম</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>পরিবর্তনের তারিখ</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(সর্বশেষ)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(সবচেয়ে পুরোনো)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>পূর্বরূপ</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>নির্বাচিত সংস্করণ খোলা হচ্ছে…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>সংরক্ষিত সংস্করণটি পূর্বরূপের জন্য খোলা আছে।</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>এই সংস্করণটি পাওয়া যাচ্ছে না। ব্যাকআপ পরীক্ষা করতে Fluff-History খুলুন।</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>এই ফাইলের সংস্করণ: {0}।</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>এই ফাইলের সংস্করণ: অন্তত {0}। সম্পূর্ণ ইতিহাসের জন্য টাইমলাইন খুলুন।</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>পূর্বরূপ বা পুনরুদ্ধারের জন্য একটি সংরক্ষিত সংস্করণ বেছে নিন।</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>এই ফাইলের আর ব্যাকআপ নেওয়া হচ্ছে না। সংরক্ষিত সংস্করণগুলো এখনও পাওয়া যায়।</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0}টি সংস্করণ</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0}টি সংস্করণ</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0}টি সংস্করণ</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0}টি সংস্করণ</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0}টি সংস্করণ</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0}টি সংস্করণ</value>
   </data>
 </root>

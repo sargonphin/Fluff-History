@@ -4,6 +4,10 @@ $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 $info = Get-Content -LiteralPath (Join-Path $Payload 'build-info.json') -Raw | ConvertFrom-Json
 $files = Get-Content -LiteralPath (Join-Path $Payload 'installed-files.json') -Raw | ConvertFrom-Json
+. "$PSScriptRoot\..\installer\WindowsPlatform.ps1"
+$platform = GetWindowsPlatformPolicy (Join-Path $Payload 'Installer')
+if ($info.minimumWindows -cne $platform.ProductMinimum.ToString() -or
+    $info.technicalPlatformMinimum -cne $platform.TechnicalMinimum.ToString()) { throw 'Windows platform metadata mismatch.' }
 $distributionTerms = & "$PSScriptRoot\Get-DistributionTerms.ps1"
 if ($info.distributionTermsSha256 -cne $distributionTerms.Sha256 -or $info.distributionTermsRevision -cne $distributionTerms.Revision -or
     (Get-FileHash -LiteralPath (Join-Path $Payload 'Installer\DistributionTerms.txt')).Hash -cne (Get-FileHash -LiteralPath $distributionTerms.File).Hash -or
@@ -30,53 +34,35 @@ foreach ($required in @('Microsoft.Windows.AppLifecycle.Projection.dll','Microso
     'Microsoft.Windows.Storage.Pickers.winmd','Microsoft.WindowsAppRuntime.dll','Microsoft.Windows.SDK.NET.dll','WinRT.Runtime.dll')) {
     if (!(Test-Path -LiteralPath (Join-Path $Payload $required))) { throw "Missing required activation component: $required" }
 }
-foreach ($name in @('FluffHistory.Desktop.exe','FluffHistory.Agent.exe','FluffHistory.InstallSupport.exe','FluffHistory.AgentLauncher.exe','FluffHistory.PropertySheet.dll','FluffHistory.ExplorerCommand.dll','Identity.msix','Installer\Lifecycle.ps1','coreclr.dll','Microsoft.ui.xaml.dll')) {
+foreach ($name in @('FluffHistory.Desktop.exe','FluffHistory.Desktop.pri','FluffHistory.Agent.exe','FluffHistory.InstallSupport.exe','FluffHistory.AgentLauncher.exe','FluffHistory.PropertySheet.dll','FluffHistory.ShellLauncher.exe','Installer\Lifecycle.ps1','coreclr.dll','Microsoft.ui.xaml.dll')) {
     if (!(Test-Path -LiteralPath (Join-Path $Payload $name))) { throw "Missing installer payload: $name" }
 }
 foreach ($file in $files.files) {
     if ($file.path -match '(^[\/]|:|(^|[\/])\.\.?([\/]|$))' -or (Get-FileHash -LiteralPath (Join-Path $Payload $file.path)).Hash -ne $file.sha256) { throw 'Payload inventory hash/path mismatch.' }
 }
-if ((Get-FileHash -LiteralPath (Join-Path $Payload 'Identity.msix')).Hash -ne $info.identitySha256) { throw 'Identity hash mismatch.' }
 $productImages = @(Get-ChildItem -LiteralPath $Payload -File | Where-Object { $_.Name -like 'FluffHistory.*' -and $_.Extension -in @('.exe','.dll') })
 foreach ($binary in $productImages) {
     & "$PSScriptRoot\Test-VersionMetadata.ps1" -Path $binary.FullName -ProductVersion $info.version
     $signature = Get-AuthenticodeSignature -LiteralPath $binary.FullName
     if ($info.developmentSigning) {
-        if (!$signature.SignerCertificate -or $signature.SignerCertificate.Thumbprint -ne $info.certificateThumbprint) { throw 'Product signing mismatch.' }
+        if (!$signature.SignerCertificate -or $signature.SignerCertificate.Thumbprint -ne $info.peSignerThumbprint) { throw 'Product signing mismatch.' }
     } elseif ($info.signingMode -cne 'UnsignedPublic' -or $info.productPeSigning -cne 'Unsigned' -or $signature.Status -ne 'NotSigned') { throw 'Public product PE must be unsigned.' }
 }
-Add-Type -AssemblyName System.IO.Compression.FileSystem
-$identity = [IO.Compression.ZipFile]::OpenRead((Join-Path $Payload 'Identity.msix'))
-try {
-    $entry = $identity.GetEntry('AppxManifest.xml')
-    if (!$entry) { throw 'Missing sparse manifest.' }
-    $reader = New-Object IO.StreamReader($entry.Open())
-    try { [xml]$manifest = $reader.ReadToEnd() } finally { $reader.Dispose() }
-    if ($manifest.Package.Identity.Version -cne $info.version -or $info.identityVersion -cne $info.version -or
-        $manifest.Package.Identity.Name -cne $info.packageIdentity) { throw 'Sparse identity metadata mismatch.' }
-    if (!$info.developmentSigning) {
-        . "$PSScriptRoot\..\installer\SparseIdentityTrust.ps1"
-        $sparse = GetSparseIdentityPolicy (Join-Path $Payload 'Installer')
-        try {
-            if ($manifest.Package.Identity.Publisher -cne $sparse.Policy.publisher -or $info.certificateThumbprint -cne $sparse.Policy.certificateThumbprint -or
-                $info.packageFamily -cne $sparse.Policy.packageFamilyName -or $info.sparseIdentitySigning -cne 'SelfSigned' -or
-                (Test-Path -LiteralPath (Join-Path $Payload 'identity.cer'))) { throw 'Public sparse signing composition mismatch.' }
-            $signature = Get-AuthenticodeSignature -LiteralPath (Join-Path $Payload 'Identity.msix')
-            if (!$signature.SignerCertificate -or $signature.SignerCertificate.Thumbprint -cne $sparse.Policy.certificateThumbprint) { throw 'Sparse package signature mismatch.' }
-        } finally { $sparse.Certificate.Dispose() }
-    }
-    [xml]$sourceManifest = [IO.File]::ReadAllText((Join-Path $PSScriptRoot '..\installer\Identity.appxmanifest'))
-    $expectedLanguages = @($sourceManifest.Package.Resources.Resource | ForEach-Object { $_.Language })
-    $actualLanguages = @($manifest.Package.Resources.Resource | ForEach-Object { $_.Language })
-    if ($expectedLanguages.Count -ne 44 -or $expectedLanguages[0] -cne 'en-US' -or
-        [string]::Join('|',$actualLanguages) -cne [string]::Join('|',$expectedLanguages)) { throw 'Sparse identity language declarations mismatch.' }
-} finally { $identity.Dispose() }
+$retired=@('FluffHistory.ExplorerCommand.dll','Identity.msix','SparseIdentityTrust.ps1','SparseIdentity.json','SparseIdentity.cer','Identity.appxmanifest','identity.cer')
+foreach ($file in Get-ChildItem -LiteralPath $Payload -File -Recurse) {
+    if ($file.Name -in $retired) { throw ('Retired modern context artifact in payload: ' + $file.Name) }
+}
+foreach ($field in @('packageIdentity','packageFamily','identityVersion','certificateThumbprint','sparseIdentitySigning','identitySha256','modernExplorerMinimum','shellPackageMinimum')) {
+    if ($info.PSObject.Properties.Name -contains $field) { throw ('Obsolete build metadata: ' + $field) }
+}
+if ($info.schema -ne 2) { throw 'Unexpected current build-info schema.' }
 $setupSource = Get-Content -LiteralPath (Join-Path $PSScriptRoot '..\installer\FluffHistory.iss') -Raw
 if ($setupSource -match '(?im)^\s*SetupIconFile\s*=') { throw 'Setup must retain the default Inno installer icon.' }
 $descriptions = @{
     'FluffHistory.Desktop.exe' = 'Fluff-History UI'
     'FluffHistory.Agent.exe' = 'Fluff-History Background Agent'
     'FluffHistory.AgentLauncher.exe' = 'Fluff-History Background Agent'
+    'FluffHistory.ShellLauncher.exe' = 'Fluff-History Shell Launcher'
     'FluffHistory.InstallSupport.exe' = 'Fluff-History Installation Helper'
 }
 foreach ($name in $descriptions.Keys) {

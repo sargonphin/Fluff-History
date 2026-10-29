@@ -24,6 +24,21 @@ public sealed class ShellHistoryText(IAppStrings strings) : IShellHistoryText
     }
     public string Version(BrowserVersion version) => strings.Format(TextId.Shell_VersionRow,
         version.StoredUtc.ToLocalTime(), strings.Count(CountKind.Bytes, version.Length), version.LastWriteUtc.ToLocalTime());
+    public string Modified(BrowserVersion version) => version.LastWriteUtc.ToLocalTime().ToString("g", strings.FormatCulture);
+    public string Status(ShellHistoryStatus status) => strings[status switch
+    {
+        ShellHistoryStatus.BackedUp => TextId.Shell_AvailableDescription,
+        ShellHistoryStatus.Inactive => TextId.Shell_InactiveDescription,
+        _ => status switch
+        {
+            ShellHistoryStatus.NotProtected => TextId.Shell_EmptyNotProtected,
+            ShellHistoryStatus.RecoveryRequired => TextId.Shell_EmptyRecovery,
+            _ => TextId.Shell_EmptyUnavailable
+        }
+    }];
+    public string VersionCount(int count, bool complete) => strings.Format(complete ? TextId.Shell_CountTitle : TextId.Shell_CountPartial,
+        strings.Count(CountKind.Versions, count));
+    public string Preview(bool opened) => strings[opened ? TextId.Shell_PreviewOpened : TextId.Shell_PreviewUnavailable];
     public string Restore(ShellRestoreStatus status) => strings[status switch
     {
         ShellRestoreStatus.NeedsAttention => TextId.Shell_RestoreAttention, ShellRestoreStatus.Cancelled => TextId.Shell_RestoreCancelled,

@@ -33,7 +33,7 @@ public sealed class CodecTests
         finally { CultureInfo.CurrentCulture = saved; }
     }
     [Fact]
-    public void FrozenMappingsAgreeWithPlatformOrdinalComparison()
+    public void FrozenMappingsKeepTheirSpecifiedCanonicalKeysOnEveryPlatform()
     {
         using var stream = typeof(HistoryPath).Assembly.GetManifestResourceStream("FluffHistory.Core.OrdinalCaseMap.txt")!;
         using var reader = new StreamReader(stream); int count = 0;
@@ -41,9 +41,22 @@ public sealed class CodecTests
         {
             var pair = line.Split(';'); var a = new Rune(int.Parse(pair[0], NumberStyles.HexNumber, CultureInfo.InvariantCulture)).ToString();
             var b = new Rune(int.Parse(pair[1], NumberStyles.HexNumber, CultureInfo.InvariantCulture)).ToString();
-            Assert.True(StringComparer.OrdinalIgnoreCase.Equals(a, b), line); Assert.Equal(HistoryPath.Fold(a), HistoryPath.Fold(b)); count++;
+            // Host case tables differ across Windows releases. Only the frozen
+            // format table defines repository identity (its exact hash is checked above).
+            Assert.Equal(b, HistoryPath.Fold(a)); Assert.Equal(b, HistoryPath.Fold(b)); count++;
         }
         Assert.Equal(1448, count);
+    }
+    [Fact]
+    public void GlagoliticPairUsesTheSameFrozenBytesEvenOnAnOlderWindowsCaseTable()
+    {
+        var root = Guid.Parse("00112233-4455-6677-8899-aabbccddeeff");
+        var lower = new HistoryPath(root, "\u2c5f");
+        var upper = new HistoryPath(root, "\u2c2f");
+        const string key = "00112233445566778899AABBCCDDEEFF2C2F0000";
+        Assert.Equal(key, Convert.ToHexString(PathKeys.Current(lower)));
+        Assert.Equal(key, Convert.ToHexString(PathKeys.Current(upper)));
+        Assert.Equal(upper, PathKeys.DecodePath(Convert.FromHexString(key)));
     }
     [Theory]
     [InlineData("../bad")]

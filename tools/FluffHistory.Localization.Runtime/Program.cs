@@ -6,6 +6,25 @@ using System.Text.Json;
 if (args.Length != 3) throw new ArgumentException("Usage: runtime-probe <published-payload> <nonshipping-fixture.pri> <result.json>");
 if (!Native.SetDllDirectoryW(Path.GetFullPath(args[0]))) throw new System.ComponentModel.Win32Exception();
 WinRT.ComWrappersSupport.InitializeComWrappers();
+// Validate the actual shipping index, including the default unpackaged context.
+// A synthetic fallback fixture alone cannot detect a missing product PRI.
+var productPri = Path.Combine(Path.GetFullPath(args[0]), "FluffHistory.Desktop.pri");
+if (!File.Exists(productPri)) throw new InvalidDataException("Missing product resource index.");
+var product = new ResourceManager(productPri);
+var productResources = product.MainResourceMap.GetSubtree("Resources");
+string ProductValue(string key, ResourceContext context) => productResources.GetValue(key, context).ValueAsString;
+var defaultLanguage = ProductValue("UILanguage", product.CreateResourceContext());
+if (string.IsNullOrWhiteSpace(defaultLanguage)) throw new InvalidDataException("Missing default product language.");
+var catalogs = new[] { "en-US", "de-DE", "fr-FR", "ar-SA", "ja-JP" };
+foreach (var tag in catalogs)
+{
+    var context = product.CreateResourceContext(); context.QualifierValues["Language"] = tag;
+    if (ProductValue("UILanguage", context) != tag ||
+        string.IsNullOrWhiteSpace(ProductValue("Shell_CommandTitle", context)) ||
+        string.IsNullOrWhiteSpace(ProductValue("History_TextBlock_PageTitle/Text", context)))
+        throw new InvalidDataException("Product PRI lookup failed: " + tag);
+}
+Console.WriteLine($"Unpackaged product PRI passed: default {defaultLanguage}, five representative locales.");
 var manager = new ResourceManager(Path.GetFullPath(args[1]));
 var resources = manager.MainResourceMap.GetSubtree("Resources");
 var evidence = new List<object>();

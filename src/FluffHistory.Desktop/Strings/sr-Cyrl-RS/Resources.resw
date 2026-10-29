@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Понови чишћење облака</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Инсталирано. Модерна команда Explorera није доступна; апликација и страница Својства раде. Поново покрените инсталацију.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Верзија {0} је ажурна</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Доступна је нова верзија</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Претходне верзије ове датотеке на временској линији Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Претходне верзије датотека у овој фасцикли на временској линији Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Назив</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Датум измене</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(најновија)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(најстарија)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Преглед</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Отварање изабране верзије…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Сачувана верзија је отворена за преглед.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Та верзија није доступна. Отворите Fluff-History да проверите резервну копију.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Верзије ове датотеке: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Верзије ове датотеке: најмање {0}. Потпуна историја је на временској линији.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Изаберите сачувану верзију за преглед или враћање.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Ова датотека се више не чува у резервној копији. Сачуване верзије су и даље доступне.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} верзија</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} верзија</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} верзија</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} верзије</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} верзија</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} верзија</value>
   </data>
 </root>

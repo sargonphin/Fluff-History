@@ -665,6 +665,7 @@ public sealed partial class PresentationTests
         public AppSettings Settings { get; set; } = AppSettings.Empty;
         public ApplicationPreferences Preferences { get; set; } = ApplicationPreferences.Default;
         public UpdateSnapshot? Updates { get; set; }
+        public string? InstalledProductVersion { get; set; }
         public int UpdateChecks { get; private set; }
         public List<bool> UpdateInstalls { get; } = [];
         public Task SaveUpdatePreferencesAsync(UpdatePreferences preferences, CancellationToken token)

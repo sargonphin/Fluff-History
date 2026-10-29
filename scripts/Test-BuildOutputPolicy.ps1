@@ -33,7 +33,7 @@ try {
     & git add .gitignore
     & git -c user.name=BuildPolicyTest -c user.email=build-policy@example.invalid commit --quiet -m 'Fixture'
     if ($LASTEXITCODE) { throw 'Cannot commit test fixture.' }
-    foreach ($name in @('Build-Setup.ps1', 'Build-DeveloperPreview.ps1')) {
+    foreach ($name in @('Build-Setup.ps1')) {
         $tokens = $null; $errors = $null
         $ast = [Management.Automation.Language.Parser]::ParseFile((Join-Path $scriptDirectory $name), [ref]$tokens, [ref]$errors)
         if ($errors) { throw 'Build script syntax error.' }
@@ -42,8 +42,7 @@ try {
         $statements = @(); $stopped = $false
         foreach ($statement in $body[0].Body.Statements) {
             $text = $statement.Extent.Text
-            if (($name -eq 'Build-Setup.ps1' -and $text.StartsWith('if (!$InnoCompiler)')) -or
-                ($name -eq 'Build-DeveloperPreview.ps1' -and $text.StartsWith('$sdk ='))) { $stopped = $true; break }
+            if ($text.StartsWith('if (!$InnoCompiler)')) { $stopped = $true; break }
             $statements += $text
         }
         if (!$stopped) { throw 'Cannot isolate admission before packaging.' }

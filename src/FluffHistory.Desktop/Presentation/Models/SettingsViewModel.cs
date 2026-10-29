@@ -65,13 +65,15 @@ public sealed class SettingsViewModel : ObservableObject
         set { if (value is not null && value.Value != UpdatePolicy.Frequency) _ = _owner.RunAsync(t => _owner.SaveUpdatePreferencesAsync(UpdatePolicy with { Frequency = value.Value }, t)); }
     }
     public bool CanCheckUpdates => _owner.AgentAvailable && _owner.Updates?.Phase is not (UpdatePhase.Checking or UpdatePhase.Downloading or UpdatePhase.Verifying or UpdatePhase.HandingOff);
-    public bool HasUpdate => _owner.Updates?.Available is not null;
-    public bool CanInstallUpdate => CanCheckUpdates && _owner.Updates is { CurrentReleaseVersion: not null, Available.CanDownload: true };
+    public bool HasUpdate => UpdatePresentation.HasNewerRelease(_owner);
+    public bool CanInstallUpdate => HasUpdate && CanCheckUpdates && _owner.Updates is { CurrentReleaseVersion: not null, Available.CanDownload: true };
     public bool AutomaticChecksDisabled => UpdatePolicy.Frequency == UpdateFrequency.Never;
-    public string CurrentUpdateVersion => S.Format(TextId.Update_Current, _owner.Updates?.CurrentReleaseVersion is { } version ?
-        version + (ReleaseVersion.Parse(version).IsBeta ? " · " + S[TextId.Update_Beta] : "") : S[TextId.Update_Development]);
+    public string CurrentUpdateVersion => S.Format(TextId.Update_Current,
+        _owner.Updates?.CurrentReleaseVersion is { } release ? release +
+            (ReleaseVersion.Parse(release).IsBeta ? " · " + S[TextId.Update_Beta] : "") :
+        _owner.InstalledProductVersion is { } build ? build + " · " + S[TextId.Update_Development] : S[TextId.Update_Development]);
     public string LastUpdateCheck => _owner.Updates?.LastCheckedUtc is { } utc ? S.Format(TextId.Update_LastChecked, utc.ToLocalTime().ToString("g", S.FormatCulture)) : S[TextId.Update_NotChecked];
-    public string AvailableUpdate => _owner.Updates?.Available is { } release ?
+    public string AvailableUpdate => HasUpdate && _owner.Updates?.Available is { } release ?
         S.Format(TextId.Update_Available, release.Version.ToString(), S[release.Prerelease ? TextId.Update_Beta : TextId.Update_Stable], release.Name) : "";
     public string UpdateStatus
     {
@@ -98,7 +100,7 @@ public sealed class SettingsViewModel : ObservableObject
                 _ => TextId.Update_InstallFailed
             }];
             if (state.Phase is UpdatePhase.Ready) return S[TextId.Update_Ready];
-            return state.LastCheckedUtc is null || state.Available is not null ? "" : S[TextId.Update_Idle];
+            return state.LastCheckedUtc is null || HasUpdate ? "" : S[TextId.Update_Idle];
         }
     }
     public Task CheckUpdatesAsync() => _owner.RunAsync(_owner.CheckUpdatesAsync);

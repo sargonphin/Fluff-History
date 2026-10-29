@@ -12,10 +12,7 @@ $data = Join-Path $userRoot 'AppData'
 $records = Join-Path $userRoot 'Installer'
 $record = Join-Path $records 'installation-v1.json'
 $pending = Join-Path $records 'pending-v1.json'
-$packageName = 'Sargonphin.FluffHistory.DeveloperPreview'
-$family = 'Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr'
-$previewFamily = $family
-$publicComposition = $false
+$previewFamily = 'Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr'
 $clsid = '{80F01E21-B634-4183-834E-CF09D7242402}'
 function IsProductVersion([string]$value) {
     if ($value.Length -gt 23 -or $value -notmatch '^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$' -or $value -eq '0.0.0.0') { return $false }
@@ -23,7 +20,8 @@ function IsProductVersion([string]$value) {
     return $true
 }
 if (!(IsProductVersion $Version)) { throw 'Invalid installation version.' }
-if ($Fault -notin @('','Identity','Properties','Startup','Agent','MigrationCopy','Shutdown')) { throw 'Invalid validation fault.' }
+if ($Action -ne 'Prepare') { . (Join-Path $PSScriptRoot 'WindowsPlatform.ps1') }
+if ($Fault -notin @('','ClassicVerb','Properties','Startup','Agent','MigrationCopy','Shutdown')) { throw 'Invalid validation fault.' }
 $payload = Join-Path $root ('Versions\' + $Version)
 $support = Join-Path $payload 'FluffHistory.InstallSupport.exe'
 function CheckParents([string]$path) {
@@ -55,65 +53,11 @@ function RunSupport {
     }
     finally { $process.Dispose() }
 }
-function DevelopmentTrust([ValidateSet('Trust','RemoveIfUnused')][string]$mode, [string]$certificatePath, [string]$thumbprint) {
-    if ($thumbprint -notmatch '^[0-9A-F]{40}$') { throw 'Invalid development certificate identity.' }
-    $certificate = New-Object Security.Cryptography.X509Certificates.X509Certificate2 $certificatePath
-    if ($certificate.Thumbprint -ne $thumbprint -or $certificate.Subject -ne 'CN=Fluff-History Developer Preview') { throw 'Unexpected development certificate.' }
-    $machinePath = 'Cert:\LocalMachine\TrustedPeople\' + $thumbprint
-    if ($mode -eq 'Trust' -and (Test-Path -LiteralPath $machinePath)) { return }
-    $ownership = 'HKLM:\SOFTWARE\Fluff-History\DevelopmentTrust\' + $thumbprint
-    if ($mode -eq 'RemoveIfUnused' -and !(Test-Path -LiteralPath $ownership)) { return }
-    # Only the exact public DER and a fixed mode cross the elevation boundary. The elevated child
-    # performs no package/HKCU registration, profile access, app launch or external-script loading.
-    $script = @'
-$ErrorActionPreference='Stop'
-$bytes=[Convert]::FromBase64String('__DER__')
-$certificate=New-Object Security.Cryptography.X509Certificates.X509Certificate2 (,$bytes)
-if($certificate.Thumbprint -ne '__THUMB__' -or $certificate.Subject -ne 'CN=Fluff-History Developer Preview'){exit 1}
-$sha=[BitConverter]::ToString(([Security.Cryptography.SHA256]::Create()).ComputeHash($bytes)).Replace('-','')
-$registry=[Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine,[Microsoft.Win32.RegistryView]::Registry64)
-$keyName='SOFTWARE\Fluff-History\DevelopmentTrust\__THUMB__'
-$store=New-Object Security.Cryptography.X509Certificates.X509Store 'TrustedPeople','LocalMachine'
-try {
- $store.Open([Security.Cryptography.X509Certificates.OpenFlags]::ReadWrite)
- $matching=@($store.Certificates.Find([Security.Cryptography.X509Certificates.X509FindType]::FindByThumbprint,'__THUMB__',$false))
- foreach($item in $matching){if([Convert]::ToBase64String($item.RawData) -ne '__DER__'){exit 1}}
- if('__MODE__' -eq 'Trust') {
-  if(!$matching.Count) {
-   $store.Add($certificate)
-   $key=$registry.CreateSubKey($keyName)
-   try{$key.SetValue('Owned',1,[Microsoft.Win32.RegistryValueKind]::DWord);$key.SetValue('CertificateSha256',$sha)}finally{$key.Dispose()}
-  }
- } else {
-  $key=$registry.OpenSubKey($keyName)
-  if(!$key){exit 0}
-  try{$owned=$key.GetValue('Owned') -eq 1 -and $key.GetValue('CertificateSha256') -eq $sha}finally{$key.Dispose()}
-  if(!$owned){exit 1}
-  # Do not remove shared machine trust while any user's same-publisher package still needs it.
-  Import-Module (Join-Path $PSHOME 'Modules\Appx\Appx.psd1') -Force
-  if(@(Get-AppxPackage -AllUsers | Where-Object Publisher -eq 'CN=Fluff-History Developer Preview').Count){exit 0}
-  foreach($item in $matching){$store.Remove($item)}
-  $registry.DeleteSubKey($keyName)
- }
-} finally {$store.Close();$registry.Dispose()}
-exit 0
-'@
-    $script = $script.Replace('__DER__',[Convert]::ToBase64String($certificate.RawData)).Replace('__THUMB__',$thumbprint).Replace('__MODE__',$mode)
-    $encoded = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($script))
-    $start = New-Object Diagnostics.ProcessStartInfo
-    $start.FileName = Join-Path ([Environment]::SystemDirectory) 'WindowsPowerShell\v1.0\powershell.exe'
-    $start.Arguments = '-NoLogo -NoProfile -NonInteractive -EncodedCommand ' + $encoded
-    $start.UseShellExecute = $true; $start.Verb = 'runas'; $start.WindowStyle = [Diagnostics.ProcessWindowStyle]::Hidden
-    $process = [Diagnostics.Process]::Start($start)
-    try { if (!$process.WaitForExit(120000) -or $process.ExitCode -ne 0) { throw 'Development certificate trust could not be completed.' } }
-    finally { $process.Dispose() }
-    if ($mode -eq 'Trust' -and !(Test-Path -LiteralPath $machinePath)) { throw 'Windows did not confirm the exact development trust.' }
-}
 function OwnedProcess($process) {
     try {
         $path = $process.Path
         return $path.StartsWith($root + '\', [StringComparison]::OrdinalIgnoreCase) -or
-            $path.StartsWith((Join-Path ${env:ProgramFiles} ('WindowsApps\' + $packageName + '_')), [StringComparison]::OrdinalIgnoreCase)
+            $path.StartsWith((Join-Path ${env:ProgramFiles} 'WindowsApps\Sargonphin.FluffHistory.DeveloperPreview_'), [StringComparison]::OrdinalIgnoreCase)
     } catch { return $false }
 }
 function StopComponents {
@@ -223,51 +167,146 @@ function CheckOwnedVersions {
         }
     }
 }
-function ProductPackage {
-    $packages = @(Get-AppxPackage -Name $packageName | Where-Object PackageFamilyName -eq $family)
-    if ($packages.Count -gt 1) { throw 'Multiple product package identities require attention.' }
-    if ($packages.Count) { return $packages[0] }
-    return $null
-}
-function RegisterProductIdentity($info, $transaction) {
-    # Invalid pins are fatal; Windows registration failure is an optional-integration outcome.
-    if ($publicComposition) {
-        $identity = GetSparseIdentityPolicy $PSScriptRoot
-        try {
-            if ($identity.Policy.packageName -cne $info.packageIdentity -or $identity.Policy.packageFamilyName -cne $info.packageFamily -or
-                $identity.Policy.certificateThumbprint -cne $info.certificateThumbprint) { throw 'Sparse identity metadata/pin mismatch.' }
-        } finally { $identity.Certificate.Dispose() }
+# Fixed legacy identities are migration-only, never a current build requirement.
+function LegacyPackages {
+    $result = @()
+    foreach ($known in @(
+        @{name='Sargonphin.FluffHistory';family='Sargonphin.FluffHistory_53b6jha2b007a';publisher='CN=Fluff-History Sparse Identity'},
+        @{name='Sargonphin.FluffHistory.DeveloperPreview';family='Sargonphin.FluffHistory.DeveloperPreview_c87380kbqs5fr';publisher='CN=Fluff-History Developer Preview'})) {
+        foreach ($item in @(Get-AppxPackage -Name $known.name -ErrorAction Stop)) {
+            if ($item.Name -ceq $known.name -and $item.PackageFamilyName -ceq $known.family -and $item.Publisher -ceq $known.publisher) {
+                $legacyVersion=[string]$item.Version
+                $publisherId=$known.family.Substring($known.name.Length+1)
+                if (!(IsProductVersion $legacyVersion) -or $item.PackageFullName -cne ($known.name+'_'+$legacyVersion+'_x64__'+$publisherId)) { throw 'Unexpected legacy package identity; payloads were preserved.' }
+                $result += $item
+            }
+        }
     }
-    $existing = ProductPackage
-    if ($existing -and [version]$existing.Version -gt [version]$Version) { throw 'A newer product identity is installed.' }
-    if ($existing -and [version]$existing.Version -eq [version]$Version -and (!$transaction.previous -or $transaction.previous.version -ne $Version)) { throw 'An unrecognized same-version package is already registered.' }
-    if ($publicComposition -and $existing -and !$transaction.previous) { throw 'An unowned sparse identity was preserved.' }
+    if ($result.Count -gt 32) { throw 'Too many legacy registrations; payloads were preserved.' }
+    return $result
+}
+function LegacyReferences([string]$versionName) {
+    # Query failure must prevent deletion, including during a later deferred cleanup.
+    return @((LegacyPackages) | Where-Object { [string]$_.Version -ceq $versionName }).Count -gt 0
+}
+function RetireLegacyPackages {
+    $installed = ReadJson $record
+    $remaining = @()
+    if ($installed.PSObject.Properties.Name -contains 'integrationSchema' -and $installed.integrationSchema -eq 2 -and
+        @($installed.knownVersions).Count -eq 1 -and $installed.knownVersions[0].version -eq $Version -and
+        @($installed.legacyCleanup).Count -eq 0) { return } # Fresh/current-only installs have no AppX dependency.
     try {
-        if ($Fault -eq 'Identity') { throw 'Controlled identity registration failure.' }
-        if ($publicComposition) { SparseIdentityTrust 'Trust' $PSScriptRoot }
-        if (!$existing -or [version]$existing.Version -ne [version]$Version) {
-            StopComponents
-            MarkPending 'identityChanged' $true
-            Add-AppxPackage -Path (Join-Path $payload 'Identity.msix') -ExternalLocation $payload
+        foreach ($item in @(LegacyPackages)) {
+            $matches = @($installed.knownVersions | Where-Object { $_.version -ceq [string]$item.Version })
+            if ($matches.Count -ne 1) { continue } # No ownership proof: preserve unrelated/unowned registration.
+            $previousPayload = Join-Path $root ('Versions\' + $matches[0].version)
+            CheckVersion $previousPayload $matches[0].version $matches[0].manifestSha256 $true
+            $legacyInfo = ReadJson (Join-Path $previousPayload 'build-info.json')
+            if ($legacyInfo.PSObject.Properties.Name -notcontains 'packageFamily' -or
+                $legacyInfo.packageFamily -cne $item.PackageFamilyName -or $legacyInfo.packageIdentity -cne $item.Name) {
+                $remaining += [ordered]@{version=$matches[0].version;ownershipUnproven=$true}; continue
+            }
+            # Only exact current-user package removal. Never AllUsers or a wildcard removal.
+            try { Remove-AppxPackage -Package $item.PackageFullName -ErrorAction Stop } catch { }
+            if (LegacyReferences $matches[0].version) {
+                $remaining += [ordered]@{version=$matches[0].version;packageFullName=$item.PackageFullName;packageFamily=$item.PackageFamilyName}
+            }
         }
-        $confirmed = ProductPackage
-        if (!$confirmed -or [version]$confirmed.Version -ne [version]$Version) { throw 'Sparse identity registration was not confirmed.' }
-        if (Test-Path -LiteralPath (Join-Path $records 'integration-warning.txt')) { Remove-Item -LiteralPath (Join-Path $records 'integration-warning.txt') }
-        return $true
     } catch {
-        if (!$publicComposition) { throw }
-        # Never leave an old command pointing at a payload eligible for retirement.
-        $current = ProductPackage
-        if ($current) {
-            if ([version]$current.Version -ne [version]$Version -and
-                (!$transaction.previous -or [version]$current.Version -ne [version]$transaction.previous.version)) { throw 'Unexpected sparse identity was preserved.' }
-            MarkPending 'identityChanged' $true
-            $current | Remove-AppxPackage
-            if (ProductPackage) { throw 'Failed sparse registration could not be retired safely.' }
+        # No payload deletion when discovery is uncertain. Keep the bounded inventory.
+        $remaining = @($installed.knownVersions | ForEach-Object { [ordered]@{version=$_.version;discoveryUnavailable=$true} })
+    }
+    $installed | Add-Member -NotePropertyName legacyCleanup -NotePropertyValue $remaining -Force
+    WriteJson $record $installed
+    $warning = Join-Path $records 'integration-warning.txt'
+    if ($remaining.Count) {
+        [IO.File]::WriteAllText($warning,'Legacy Explorer package retirement is pending. Referenced payloads were retained. Run Setup again to retry. Existing certificate trust was left unchanged.',[Text.Encoding]::UTF8)
+    } elseif (Test-Path -LiteralPath $warning) { Remove-Item -LiteralPath $warning }
+}
+function ClassicVerbPaths { @('*\shell\FluffHistory.RestorePreviousVersion','Directory\shell\FluffHistory.RestorePreviousVersion') }
+function ClassicCommand([string]$launcher) {
+    if (!$launcher -or $launcher.IndexOfAny([char[]]'"%') -ge 0 -or $launcher -match '[\x00-\x1f]' -or ![IO.Path]::IsPathRooted($launcher)) { throw 'Invalid owned Shell launcher path.' }
+    return '"' + $launcher + '" "%1"'
+}
+function ValidateClassicKey($key,[string]$launcher) {
+    if (@($key.GetValueNames() | Where-Object { $_ -notin @('MUIVerb','Icon','MultiSelectModel') }).Count -or
+        @($key.GetSubKeyNames() | Where-Object { $_ -cne 'command' }).Count) { throw 'Unexpected classic verb content was preserved.' }
+    foreach ($pair in @(@('MUIVerb',('@' + $launcher + ',-3000')),@('Icon',('"' + $launcher + '",0')),@('MultiSelectModel','Single'))) {
+        $value=$key.GetValue($pair[0],$null)
+        if ($null -ne $value -and ($key.GetValueKind($pair[0]) -ne [Microsoft.Win32.RegistryValueKind]::String -or $value -cne $pair[1])) { throw 'An unrelated classic verb value was preserved.' }
+    }
+    $command=$key.OpenSubKey('command')
+    if ($command) {
+        try {
+            if (@($command.GetSubKeyNames()).Count -or @($command.GetValueNames() | Where-Object { $_ -cne '' }).Count -or
+                ($null -ne $command.GetValue('',$null) -and ($command.GetValueKind('') -ne [Microsoft.Win32.RegistryValueKind]::String -or $command.GetValue('') -cne (ClassicCommand $launcher)))) { throw 'An unrelated classic command was preserved.' }
+        } finally { $command.Dispose() }
+    }
+}
+function ClassicVerbs([ValidateSet('Install','Remove')][string]$mode,$classes,[string]$launcher) {
+    # Validate both before mutation. Only the two exact keys belong to this feature.
+    foreach ($path in (ClassicVerbPaths)) {
+        $key=$classes.OpenSubKey($path)
+        if ($key) { try { ValidateClassicKey $key $launcher } finally { $key.Dispose() } }
+    }
+    foreach ($path in (ClassicVerbPaths)) {
+        if ($mode -eq 'Remove') { $classes.DeleteSubKeyTree($path,$false); continue }
+        $key=$classes.CreateSubKey($path)
+        try {
+            $key.SetValue('MUIVerb',('@' + $launcher + ',-3000'))
+            $key.SetValue('Icon',('"' + $launcher + '",0'))
+            $key.SetValue('MultiSelectModel','Single')
+            $command=$key.CreateSubKey('command')
+            try { $command.SetValue('',(ClassicCommand $launcher)) } finally { $command.Dispose() }
+        } finally { $key.Dispose() }
+    }
+}
+function RegisterClassic([string]$mode) {
+    $classes=[Microsoft.Win32.Registry]::CurrentUser.CreateSubKey('Software\Classes')
+    try { ClassicVerbs $mode $classes (Join-Path $root 'FluffHistory.ShellLauncher.exe') } finally { $classes.Dispose() }
+    NotifyShell
+}
+function ClassicSnapshot($classes,[string]$launcher) {
+    foreach ($path in (ClassicVerbPaths)) {
+        $key=$classes.OpenSubKey($path)
+        $snapshot=[ordered]@{path=$path;exists=($null -ne $key);values=@();commandExists=$false;commandValue=$null}
+        if ($key) {
+            try {
+                ValidateClassicKey $key $launcher
+                $snapshot.values=@($key.GetValueNames() | ForEach-Object { @{name=$_;value=$key.GetValue($_)} })
+                $command=$key.OpenSubKey('command')
+                if ($command) { try { $snapshot.commandExists=$true;$snapshot.commandValue=$command.GetValue('',$null) } finally { $command.Dispose() } }
+            } finally { $key.Dispose() }
         }
-        [IO.File]::WriteAllText((Join-Path $records 'integration-warning.txt'),
-            'Modern Explorer context command unavailable; application, Agent and native Properties integration remain installed. Run Setup again to retry.',[Text.Encoding]::UTF8)
-        return $false
+        [pscustomobject]$snapshot
+    }
+}
+function RestoreClassicSnapshot($classes,[string]$launcher,$snapshots) {
+    $paths=@(ClassicVerbPaths)
+    if (@($snapshots).Count -ne 2 -or ($snapshots.path -join '|') -cne ($paths -join '|')) { throw 'Invalid classic registration rollback ownership.' }
+    $expected=@{MUIVerb=('@'+$launcher+',-3000');Icon=('"'+$launcher+'",0');MultiSelectModel='Single'}
+    foreach ($snapshot in $snapshots) {
+        if ($snapshot.exists -isnot [bool] -or $snapshot.commandExists -isnot [bool] -or @($snapshot.values).Count -gt 3 -or
+            @($snapshot.values | Group-Object { $_.name } | Where-Object Count -gt 1).Count) { throw 'Invalid classic rollback shape.' }
+        foreach ($value in $snapshot.values) { if (!$expected.ContainsKey($value.name) -or $value.value -cne $expected[$value.name]) { throw 'Invalid classic rollback value.' } }
+        if ($null -ne $snapshot.commandValue -and $snapshot.commandValue -cne (ClassicCommand $launcher)) { throw 'Invalid classic rollback command.' }
+    }
+    # Current keys must still contain only our values before exact rollback.
+    ClassicVerbs 'Remove' $classes $launcher
+    foreach ($snapshot in $snapshots) {
+        if (!$snapshot.exists) { continue }
+        $key=$classes.CreateSubKey($snapshot.path)
+        try {
+            foreach ($value in $snapshot.values) {
+                if ($value.name -notin @('MUIVerb','Icon','MultiSelectModel') -or $value.value -isnot [string]) { throw 'Invalid classic rollback value.' }
+                $key.SetValue($value.name,$value.value)
+            }
+            if ($snapshot.commandExists) {
+                $command=$key.CreateSubKey('command')
+                try { if ($null -ne $snapshot.commandValue) { if ($snapshot.commandValue -cne (ClassicCommand $launcher)) { throw 'Invalid classic rollback command.' };$command.SetValue('',$snapshot.commandValue) } } finally { $command.Dispose() }
+            }
+            ValidateClassicKey $key $launcher
+        } finally { $key.Dispose() }
     }
 }
 function RemoveVersionMarker([string]$ExpectedVersion = $Version) {
@@ -338,6 +377,7 @@ function RetireOldPayloads {
     $installed = ReadJson $record
     foreach ($entry in @($installed.knownVersions)) {
         if ($entry.version -eq $Version) { continue }
+        try { if (LegacyReferences $entry.version) { continue } } catch { continue }
         $directory = Join-Path $root ('Versions\' + $entry.version)
         CheckTree $directory; CheckVersion $directory $entry.version $entry.manifestSha256 $true
         $files = Inventory $directory $entry.version $entry.manifestSha256
@@ -368,10 +408,13 @@ function CleanupDeferred {
         if (!(IsProductVersion $versionName) -or $parent -ne (Join-Path $root ('Versions\' + $versionName)) -or
             $leaf -notin @('FluffHistory.PropertySheet.dll','FluffHistory.ExplorerCommand.dll','installed-files.json') -or $file.sha256 -notmatch '^[0-9A-F]{64}$') { throw 'Deferred cleanup path is not owned.' }
         if ($versionName -eq $activeVersion) { $remaining += $file; continue }
+        try { if (LegacyReferences $versionName) { $remaining += $file; continue } } catch { $remaining += $file; continue }
         CheckParents $file.path
         if (!(Test-Path -LiteralPath $file.path)) { continue }
         if ((Get-FileHash -LiteralPath $file.path).Hash -ne $file.sha256) { throw 'Deferred Shell image changed; it was preserved.' }
-        try { Remove-Item -LiteralPath $file.path } catch [IO.IOException] { $remaining += $file; continue }
+        try { Remove-Item -LiteralPath $file.path }
+        catch [IO.IOException] { $remaining += $file; continue }
+        catch [System.UnauthorizedAccessException] { $remaining += $file; continue }
         if (!(Get-ChildItem -LiteralPath $parent -Force | Select-Object -First 1)) { Remove-Item -LiteralPath $parent }
     }
     WriteJson $marker ([ordered]@{schema=1;root=$root;files=$remaining})
@@ -394,17 +437,6 @@ function RemoveProperties {
 CheckParents $root; CheckParents $records
 New-Item -ItemType Directory -Path $records -Force | Out-Null
 try {
-    $buildPath = Join-Path $payload 'build-info.json'
-    if (Test-Path -LiteralPath $buildPath) {
-        $composition = ReadJson $buildPath
-        if ($composition.PSObject.Properties.Name -contains 'signingMode' -and $composition.signingMode -eq 'UnsignedPublic') {
-            $publicComposition = $true
-            $packageName = 'Sargonphin.FluffHistory'; $family = 'Sargonphin.FluffHistory_53b6jha2b007a'
-            # Prepare runs the extracted lifecycle before payload installation. It only
-            # inspects existing metadata; trust operations run from the installed helpers.
-            if ($Action -ne 'Prepare') { . (Join-Path $PSScriptRoot 'SparseIdentityTrust.ps1') }
-        }
-    }
     switch ($Action) {
         'Prepare' {
             if ((New-Object Security.Principal.WindowsPrincipal ([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
@@ -414,7 +446,7 @@ try {
             CheckTree $root
             CheckOwnedVersions
             if (Test-Path -LiteralPath $root) {
-                $unexpected = @(Get-ChildItem -LiteralPath $root -Force | Where-Object { $_.Name -notin @('Versions','FluffHistory.Agent.exe','current-version.txt','unins000.exe','unins000.dat','unins000.msg') })
+                $unexpected = @(Get-ChildItem -LiteralPath $root -Force | Where-Object { $_.Name -notin @('Versions','FluffHistory.Agent.exe','FluffHistory.ShellLauncher.exe','current-version.txt','unins000.exe','unins000.dat','unins000.msg') })
                 if ($unexpected.Count) { throw 'The installation directory contains unexpected content.' }
                 if (!(Test-Path -LiteralPath $record) -and (Get-ChildItem -LiteralPath $root -Force | Select-Object -First 1) -and !(Test-Path -LiteralPath $pending)) {
                     $deferredMarker = Join-Path $records 'deferred-shell-v1.json'
@@ -432,7 +464,9 @@ try {
             $previous = if (Test-Path -LiteralPath $record) { ReadJson $record } else { $null }
             $previousDll = [Microsoft.Win32.Registry]::GetValue('HKEY_CURRENT_USER\Software\Classes\CLSID\' + $clsid + '\InprocServer32','','')
             $previousRun = [Microsoft.Win32.Registry]::GetValue('HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run','Fluff-History',$null)
-            WriteJson $pending ([ordered]@{schema=1;version=$Version;root=$root;manifestSha256=(Get-FileHash -LiteralPath $ExpectedManifest).Hash;backup=$backup;previous=$previous;previousDll=$previousDll;previousRun=$previousRun;identityChanged=$false;trustAdded=$false;startupAdded=$false})
+            $classes=[Microsoft.Win32.Registry]::CurrentUser.CreateSubKey('Software\Classes')
+            try { $previousClassic=@(ClassicSnapshot $classes (Join-Path $root 'FluffHistory.ShellLauncher.exe')) } finally { $classes.Dispose() }
+            WriteJson $pending ([ordered]@{schema=1;version=$Version;root=$root;manifestSha256=(Get-FileHash -LiteralPath $ExpectedManifest).Hash;backup=$backup;previous=$previous;previousDll=$previousDll;previousRun=$previousRun;previousClassic=$previousClassic;classicAdded=$false;startupAdded=$false})
         }
         'Install' {
             CheckPayload; RunSupport -arguments @('--validate-state',$data)
@@ -444,25 +478,10 @@ try {
                 if (!(Test-Path -LiteralPath $target) -and (Test-Path -LiteralPath $source)) { CheckParents $source; Copy-Item -LiteralPath $source -Destination $target }
             }
             $info = ReadJson (Join-Path $payload 'build-info.json')
-            $transaction = ReadJson $pending; $trusted = $false
-            if ($info.developmentSigning) {
-                $certificate = New-Object Security.Cryptography.X509Certificates.X509Certificate2 (Join-Path $payload 'identity.cer')
-                if ($certificate.Thumbprint -ne $info.certificateThumbprint -or $certificate.Subject -ne 'CN=Fluff-History Developer Preview') { throw 'Unexpected development trust payload.' }
-                $alreadyTrusted = Test-Path -LiteralPath ('Cert:\LocalMachine\TrustedPeople\' + $certificate.Thumbprint)
-                DevelopmentTrust 'Trust' (Join-Path $payload 'identity.cer') $certificate.Thumbprint
-                $trusted = Test-Path -LiteralPath ('HKLM:\SOFTWARE\Fluff-History\DevelopmentTrust\' + $certificate.Thumbprint)
-                if (!$alreadyTrusted) { MarkPending 'trustAdded' $true; MarkPending 'certificateThumbprint' $certificate.Thumbprint }
-            }
-            $modernContextMenu = RegisterProductIdentity $info $transaction
-            if ($publicComposition -and $transaction.previous -and
-                ($transaction.previous.PSObject.Properties.Name -notcontains 'packageIdentity' -or $transaction.previous.packageIdentity -eq 'Sargonphin.FluffHistory.DeveloperPreview')) {
-                $oldPreview = @(Get-AppxPackage -Name 'Sargonphin.FluffHistory.DeveloperPreview' | Where-Object PackageFamilyName -eq $previewFamily)
-                foreach ($old in $oldPreview) {
-                    if ([version]$old.Version -ne [version]$transaction.previous.version) { throw 'Unexpected preview identity was preserved.' }
-                    MarkPending 'previewIdentityRemoved' $true
-                    $old | Remove-AppxPackage
-                }
-            }
+            $transaction = ReadJson $pending
+            if ($Fault -eq 'ClassicVerb') { throw 'Controlled classic verb registration failure.' }
+            MarkPending 'classicAdded' $true
+            RegisterClassic 'Install'
             if ($Fault -eq 'Properties') { throw 'Controlled Properties registration failure.' }
             RemoveProperties; RegisterProperties
             if ($Fault -eq 'Startup') { throw 'Controlled startup registration failure.' }
@@ -478,19 +497,12 @@ try {
             $known = @()
             if ($transaction.previous) {
                 $known = @($transaction.previous.knownVersions | Where-Object { $_.version -ne $Version })
-                if ($transaction.previous.certificateThumbprint -eq $info.certificateThumbprint -and $transaction.previous.ownedDevelopmentTrust) { $trusted = $true }
             }
             $manifestHash = (Get-FileHash -LiteralPath (Join-Path $payload 'installed-files.json')).Hash
             $known += [ordered]@{version=$Version;manifestSha256=$manifestHash}
             if ($known.Count -gt 32) { throw 'Too many retained deployment versions.' }
             $releaseVersion = if ($info.PSObject.Properties.Name -contains 'releaseVersion') { $info.releaseVersion } else { 'development' }
-            $ownedSparse = $false
-            if ($publicComposition) {
-                $publicIdentity = GetSparseIdentityPolicy $PSScriptRoot
-                try { $ownedSparse = Test-Path -LiteralPath ('HKLM:\Software\Fluff-History\SparseIdentityTrust\' + $publicIdentity.Policy.certificateSha256) }
-                finally { $publicIdentity.Certificate.Dispose() }
-            }
-            WriteJson $record ([ordered]@{schema=1;version=$Version;releaseVersion=$releaseVersion;root=$root;manifestSha256=$manifestHash;knownVersions=$known;certificateThumbprint=$info.certificateThumbprint;ownedDevelopmentTrust=$trusted;ownedSparseTrust=$ownedSparse;packageIdentity=$packageName;packageFamily=$family;modernContextMenuAvailable=$modernContextMenu;activated=$false})
+            WriteJson $record ([ordered]@{schema=1;version=$Version;releaseVersion=$releaseVersion;root=$root;manifestSha256=$manifestHash;knownVersions=$known;integrationSchema=2;classicVerbAvailable=$true;propertiesRegistered=$true;activated=$false;legacyCleanup=@()})
         }
         'Activate' {
             if ($Fault -eq 'Agent') { throw 'Controlled agent first-launch failure.' }
@@ -498,8 +510,10 @@ try {
             $installed = ReadJson $record; $installed.activated = $true; WriteJson $record $installed
             if (Test-Path -LiteralPath $pending) { Remove-Item -LiteralPath $pending }
             if (Test-Path -LiteralPath (Join-Path $records 'last-error.txt')) { Remove-Item -LiteralPath (Join-Path $records 'last-error.txt') }
+            # Activation is committed. Optional legacy retirement cannot roll it back.
+            try { RetireLegacyPackages } catch { }
             # Only old, hash-validated payloads are eligible. A sharing refusal leaves files for a later setup.
-            try { RetireOldPayloads } catch [IO.IOException] { }
+            try { RetireOldPayloads } catch { }
         }
         'Rollback' {
             # Recoverable failure: remove integration before Inno rolls back new files. Retain state backup.
@@ -507,14 +521,16 @@ try {
             $transaction = ReadJson $pending
             $currentDll = [Microsoft.Win32.Registry]::GetValue('HKEY_CURRENT_USER\Software\Classes\CLSID\' + $clsid + '\InprocServer32','','')
             if ($currentDll -eq (Join-Path $payload 'FluffHistory.PropertySheet.dll')) { RemoveProperties }
-            $existing = ProductPackage
-            if ($transaction.identityChanged -and $existing -and [version]$existing.Version -eq [version]$Version) { $existing | Remove-AppxPackage }
+            if ($transaction.classicAdded) {
+                $classes=[Microsoft.Win32.Registry]::CurrentUser.CreateSubKey('Software\Classes')
+                try { RestoreClassicSnapshot $classes (Join-Path $root 'FluffHistory.ShellLauncher.exe') $transaction.previousClassic } finally { $classes.Dispose() }
+                NotifyShell
+            }
             $run = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Software\Microsoft\Windows\CurrentVersion\Run',$true)
             if ($run) { try { if ($transaction.startupAdded -and $run.GetValue('Fluff-History') -eq ('"' + (Join-Path $root 'FluffHistory.Agent.exe') + '"')) { $run.DeleteValue('Fluff-History') } } finally { $run.Dispose() } }
             if ($transaction.previous) {
                 $previousPayload = Join-Path $root ('Versions\' + $transaction.previous.version)
                 CheckParents $previousPayload
-                if ($transaction.identityChanged -or ($transaction.PSObject.Properties.Name -contains 'previewIdentityRemoved' -and $transaction.previewIdentityRemoved)) { Add-AppxPackage -Path (Join-Path $previousPayload 'Identity.msix') -ExternalLocation $previousPayload }
                 [IO.File]::WriteAllText((Join-Path $root 'current-version.txt'),$transaction.previous.version,[Text.Encoding]::ASCII)
                 WriteJson $record $transaction.previous
             } else {
@@ -522,30 +538,24 @@ try {
                 RemoveVersionMarker
             }
             if ($transaction.previousDll -and (Test-Path -LiteralPath $transaction.previousDll)) { RegisterProperties $transaction.previousDll }
-            if ($transaction.trustAdded) {
-                DevelopmentTrust 'RemoveIfUnused' (Join-Path $payload 'identity.cer') $transaction.certificateThumbprint
-            }
-            if ($publicComposition) { SparseIdentityTrust 'RemoveIfUnused' $PSScriptRoot }
         }
         'Uninstall' {
             CheckTree $root
             CheckOwnedVersions
             StopComponents
+            if (Test-Path -LiteralPath $record) {
+                RetireLegacyPackages
+                if (@((ReadJson $record).legacyCleanup).Count) { throw 'A legacy package still references installed files. Uninstall preserved the payload; retry after resolving the exact registration.' }
+            }
             RememberShellFiles
+            RegisterClassic 'Remove'
             RemoveProperties
-            $existing = ProductPackage
-            if ($existing) { $existing | Remove-AppxPackage }
             $run = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey('Software\Microsoft\Windows\CurrentVersion\Run',$true)
             if ($run) { try { if ($run.GetValue('Fluff-History') -eq ('"' + (Join-Path $root 'FluffHistory.Agent.exe') + '"')) { $run.DeleteValue('Fluff-History') } } finally { $run.Dispose() } }
             $activeVersion = $Version
             if (Test-Path -LiteralPath $record) {
                 $installed = ReadJson $record
                 $activeVersion = $installed.version
-                if ($installed.ownedDevelopmentTrust -and $installed.certificateThumbprint -match '^[0-9A-F]{40}$') {
-                    $activeCertificate = Join-Path $root ('Versions\' + $activeVersion + '\identity.cer')
-                    DevelopmentTrust 'RemoveIfUnused' $activeCertificate $installed.certificateThumbprint
-                }
-                if ($publicComposition) { SparseIdentityTrust 'RemoveIfUnused' $PSScriptRoot }
                 Remove-Item -LiteralPath $record
             }
             # A failed upgrade can leave a newer Inno uninstaller while registration rolled back.

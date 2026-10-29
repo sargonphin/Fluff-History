@@ -14,10 +14,11 @@ public static class WindowsSectionIcons
         if (!OperatingSystem.IsWindows()) throw new PlatformNotSupportedException();
         var images = new Dictionary<string, byte[]>(StringComparer.Ordinal);
         Add("Drive", WindowsFolderIcons.ReadStock(8 /* SIID_DRIVEFIXED */));
+        Add("PowerOptions", Extract(Path.Combine(Environment.SystemDirectory, "powercpl.dll"), -1));
         Add("Folders", Extract(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Windows), "explorer.exe"), 0));
         Add("ExcludedFolders", Resource("shell32.dll", 16715)); // Windows folder with red X.
         Add("AutomaticBackups", Extract(Path.Combine(Environment.SystemDirectory, "miguiresource.dll"), 1)); // Task Scheduler shortcut icon.
-        Add("Advanced", Resource("shell32.dll", 16826) ?? Resource("imageres.dll", 114));
+        Add("Advanced", Resource("imageres.dll", 114) ?? Resource("shell32.dll", 16826));
         return images;
         void Add(string key, byte[]? pixels) { if (pixels is not null) images.Add(key, pixels); }
     }

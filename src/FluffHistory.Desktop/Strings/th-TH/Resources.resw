@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>ลองล้างข้อมูลบนคลาวด์อีกครั้ง</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>ติดตั้งแล้ว คำสั่งสมัยใหม่ของ Explorer ใช้งานไม่ได้ แต่แอปและหน้าคุณสมบัติยังทำงานอยู่ โปรดเรียกใช้ตัวติดตั้งอีกครั้ง</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>เวอร์ชัน {0} เป็นเวอร์ชันล่าสุด</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>มีเวอร์ชันใหม่พร้อมใช้งาน</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>รุ่นก่อนหน้าของไฟล์นี้ที่เก็บไว้ในไทม์ไลน์ Fluff-History</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>รุ่นก่อนหน้าของไฟล์ในโฟลเดอร์นี้ที่เก็บไว้ในไทม์ไลน์ Fluff-History</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>วันที่แก้ไข</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(ล่าสุด)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(เก่าที่สุด)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>ดูตัวอย่าง</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>กำลังเปิดรุ่นที่เลือก…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>เปิดรุ่นที่บันทึกไว้เพื่อดูตัวอย่างแล้ว</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>รุ่นนั้นไม่พร้อมใช้งาน เปิด Fluff-History เพื่อตรวจสอบข้อมูลสำรอง</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>รุ่นของไฟล์นี้: {0}</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>รุ่นของไฟล์นี้: อย่างน้อย {0} เปิดไทม์ไลน์เพื่อดูประวัติทั้งหมด</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>เลือกรุ่นที่บันทึกไว้เพื่อดูตัวอย่างหรือคืนค่า</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>ไฟล์นี้ไม่ได้สำรองอีกต่อไป รุ่นที่บันทึกไว้ยังคงพร้อมใช้งาน</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} เวอร์ชัน</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} เวอร์ชัน</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} เวอร์ชัน</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} เวอร์ชัน</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} เวอร์ชัน</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} เวอร์ชัน</value>
   </data>
 </root>

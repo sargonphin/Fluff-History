@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>ניסיון חוזר לניקוי הענן</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>ההתקנה הושלמה. פקודת הסייר המודרנית אינה זמינה; היישום ודף המאפיינים פועלים. יש להפעיל את ההתקנה שוב.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>גרסה {0} מעודכנת</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>זמינה גרסה חדשה</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>גרסאות קודמות של קובץ זה השמורות בציר הזמן של Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>גרסאות קודמות של קבצים בתיקייה זו בציר הזמן של Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>תאריך שינוי</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(החדשה ביותר)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(הישנה ביותר)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>תצוגה מקדימה</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>הגרסה שנבחרה נפתחת…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>הגרסה השמורה פתוחה לתצוגה מקדימה.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>גרסה זו אינה זמינה. יש לפתוח את Fluff-History לבדיקת הגיבוי.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>גרסאות של קובץ זה: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>גרסאות של קובץ זה: לפחות {0}. ההיסטוריה המלאה זמינה בציר הזמן.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>יש לבחור גרסה שמורה לתצוגה מקדימה או לשחזור.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>קובץ זה אינו מגובה עוד. הגרסאות השמורות שלו עדיין זמינות.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} גרסאות</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} גרסה</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} גרסאות</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} גרסאות</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} גרסאות</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} גרסאות</value>
   </data>
 </root>

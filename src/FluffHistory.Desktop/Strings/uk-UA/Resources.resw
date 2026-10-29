@@ -2127,7 +2127,66 @@
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Повторити очищення хмари</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Установлено. Сучасна команда Провідника недоступна; застосунок і сторінка властивостей працюють. Запустіть інсталяцію ще раз.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>Встановлено актуальну версію {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Доступна нова версія</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Попередні версії цього файлу в хронології Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Попередні версії файлів цієї папки в хронології Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Ім’я</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Дата змінення</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(остання)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(найдавніша)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Відкриття вибраної версії…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Збережену версію відкрито для перегляду.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Ця версія недоступна. Відкрийте Fluff-History, щоб перевірити резервну копію.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Версії цього файлу: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Версії цього файлу: щонайменше {0}. Повна історія доступна в хронології.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Виберіть збережену версію для перегляду або відновлення.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Резервне копіювання цього файлу припинено. Збережені версії досі доступні.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} версій</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} версія</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} версій</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} версії</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} версій</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} версій</value>
   </data>
 </root>

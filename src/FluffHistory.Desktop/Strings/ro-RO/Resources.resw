@@ -2127,7 +2127,66 @@ Cea mai veche versiune păstrată: deschide Cronologia pentru istoricul complet<
   <data name="OneDrive_RetryCleanup" xml:space="preserve">
     <value>Reîncearcă curățarea în cloud</value>
   </data>
-  <data name="Installer_ExplorerUnavailable" xml:space="preserve">
-    <value>Instalat. Comanda modernă din Explorer nu este disponibilă; aplicația și pagina Proprietăți funcționează. Rulați din nou instalarea.</value>
+  <data name="Overview_UpToDate" xml:space="preserve"><value>La zi cu versiunea {0}</value></data>
+  <data name="Overview_NewVersion" xml:space="preserve"><value>Este disponibilă o versiune nouă</value></data>
+  <data name="Shell_IntroFile" xml:space="preserve">
+    <value>Versiunile anterioare ale acestui fișier din cronologia Fluff-History.</value>
+  </data>
+  <data name="Shell_IntroFolder" xml:space="preserve">
+    <value>Versiunile anterioare ale fișierelor din acest dosar din cronologia Fluff-History.</value>
+  </data>
+  <data name="Shell_Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Shell_Modified" xml:space="preserve">
+    <value>Data modificării</value>
+  </data>
+  <data name="Shell_LatestTag" xml:space="preserve">
+    <value>(cea mai recentă)</value>
+  </data>
+  <data name="Shell_OldestTag" xml:space="preserve">
+    <value>(cea mai veche)</value>
+  </data>
+  <data name="Shell_Preview" xml:space="preserve">
+    <value>Previzualizare</value>
+  </data>
+  <data name="Shell_Previewing" xml:space="preserve">
+    <value>Se deschide versiunea selectată…</value>
+  </data>
+  <data name="Shell_PreviewOpened" xml:space="preserve">
+    <value>Versiunea salvată este deschisă pentru previzualizare.</value>
+  </data>
+  <data name="Shell_PreviewUnavailable" xml:space="preserve">
+    <value>Acea versiune nu este disponibilă. Deschideți Fluff-History pentru a verifica copia de rezervă.</value>
+  </data>
+  <data name="Shell_CountTitle" xml:space="preserve">
+    <value>Versiunile acestui fișier: {0}.</value>
+  </data>
+  <data name="Shell_CountPartial" xml:space="preserve">
+    <value>Versiunile acestui fișier: cel puțin {0}. Istoricul complet este în cronologie.</value>
+  </data>
+  <data name="Shell_AvailableDescription" xml:space="preserve">
+    <value>Selectați o versiune salvată pentru previzualizare sau restaurare.</value>
+  </data>
+  <data name="Shell_InactiveDescription" xml:space="preserve">
+    <value>Acest fișier nu mai este inclus în backup. Versiunile salvate sunt încă disponibile.</value>
+  </data>
+  <data name="Count_Versions_Zero" xml:space="preserve">
+    <value>{0:N0} de versiuni</value>
+  </data>
+  <data name="Count_Versions_One" xml:space="preserve">
+    <value>{0:N0} versiune</value>
+  </data>
+  <data name="Count_Versions_Two" xml:space="preserve">
+    <value>{0:N0} de versiuni</value>
+  </data>
+  <data name="Count_Versions_Few" xml:space="preserve">
+    <value>{0:N0} versiuni</value>
+  </data>
+  <data name="Count_Versions_Many" xml:space="preserve">
+    <value>{0:N0} de versiuni</value>
+  </data>
+  <data name="Count_Versions_Other" xml:space="preserve">
+    <value>{0:N0} de versiuni</value>
   </data>
 </root>
