@@ -1,6 +1,6 @@
 # Updates and releases
 
-Version 1.0 uses intentionally unsigned Setup and application binaries. Installation
+Current public releases use intentionally unsigned Setup and application binaries. Installation
 is manual: download `Fluff-History-Setup.exe` from this project's public GitHub
 Releases and review its origin and checksum. Windows may show an unknown-publisher or
 reputation warning. A checksum detects a changed download; it is not a signing identity.
@@ -17,7 +17,7 @@ needs a separate publisher/compatibility review.
 Public release grammar is `v?MAJOR.MINOR.PATCH[-beta.NUMBER]`: ASCII nonnegative
 Int32 components without leading zeros, lowercase optional `v` and `beta`. Numeric
 comparison makes 1.10.0 newer than 1.9.0 and beta.2 newer than beta.1. Stable wins
-over any beta of the same core. Four-part UInt16 PE/package build identity is separate;
+over any beta of the same core. Four-part UInt16 PE build identity is separate;
 its first three components must match the declared release. An unpublished
 `development` identity can announce available releases but cannot execute an update.
 

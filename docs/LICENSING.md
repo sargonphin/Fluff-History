@@ -73,8 +73,7 @@ contribution is subject to the first-party license status described above.
 Known-folder/drive/Explorer/Task Scheduler/gear icons are loaded from the installed
 Windows OS. Segoe Fluent Icons glyphs are referenced through the installed font.
 These Windows resources are not copied into the repository or represented as MIT
-assets. The separately bundled Fluent history SVG/ICO is covered by its retained
-MIT notice. No third-party license text has been rewritten for style.
+assets. No third-party license text has been rewritten for style.
 
 ## Build validation and notice locations
 
@@ -113,8 +112,8 @@ section 3 and the nuspec-linked Windows SDK license section 2(a). Microsoft does
 not prescribe a particular dialog or consent database. The implementation is not
 Microsoft certification or formal legal approval. Publisher obligations such as
 adding primary functionality, preserving distribution restrictions, retaining valid
-notices and the applicable indemnity remain obligations of the distributor; they
-are not silently transferred to the end user by a startup popup.
+notices and the applicable indemnity remain obligations of the distributor; they are
+not silently transferred to the end user by a startup popup.
 
 | Distribution path | Acceptance behavior |
 | --- | --- |

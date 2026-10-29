@@ -47,5 +47,6 @@ rapid closures. No callback leak/cancellation-before-start was established.
 
 Blocked native I/O can outlast cancellation inside the isolated broker. Resource
 captions follow Windows native selection independently of management UI preference.
-Windows 10 compatibility is not established. Full current protocol, path, lifetime
-and deployment contracts are in [Shell integration](../SHELL-INTEGRATION.md).
+At M24, Windows 10 compatibility was not established; Release 1.1 later added
+Windows 10 22H2 x64 support. Full current protocol, path, lifetime and deployment
+contracts are in [Shell integration](../SHELL-INTEGRATION.md).

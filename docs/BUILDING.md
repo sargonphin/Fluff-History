@@ -69,7 +69,7 @@ with paths chosen on a disposable build volume:
   -StagingRoot D:\FluffHistoryWork\Setup
 ```
 
-Without OutputDirectory, both packaging scripts use the versioned ignored
+Without OutputDirectory, `Build-Setup.ps1` uses the versioned ignored
 `artifacts/releases/<version>` directory under the checkout. An explicit override
 can keep archives elsewhere; all outputs must remain new or empty. Canonical Setup
 restores locked dependencies, validates localization,
@@ -84,7 +84,7 @@ require prior same-terms acceptance or an explicit `/ACCEPTDISTRIBUTABLETERMS=<h
 argument after review. The hash is in build-info.json and covers the normalized
 agreement text. See [licensing](LICENSING.md) for unattended installs and updates.
 
-The default `ReleaseVersion` is `development`. Product PE/package identity is
+The default `ReleaseVersion` is `development`. Product PE version is
 `0.24.1.<Git height>` unless an explicitly valid four-part version is supplied.
 Public semantic release identity is separate; see [updates and releases](UPDATES-AND-RELEASES.md).
 The default `SigningMode Development` uses the local Developer Preview certificate
@@ -109,7 +109,7 @@ For publisher builds, supply explicit semantic/four-part identities, for example
 
 The first public `1.0.0` build is allocated `1.0.0.1`. For a given semantic core,
 increase the fourth UInt16 field for every separately produced distributable build;
-never reuse an existing package full version with different contents. A new semantic
+never reuse an existing four-part product version with different contents. A new semantic
 core starts at revision1. Compare against all previously distributed Windows versions
 before allocation; never use Git height for release identity. Archive the exact source,
 build facts and hashes. Development PE signing does not authorize public automatic updates:

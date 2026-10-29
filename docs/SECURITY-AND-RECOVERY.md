@@ -187,7 +187,6 @@ Updates require fixed release identity, SHA-256, Authenticode and explicit selec
 signer approval, with retained file/path leases through handoff. Production signer
 approval is required for executable updates. See [updates and releases](UPDATES-AND-RELEASES.md).
 
-This source tree does not include a repository-level vulnerability-reporting policy
-or verified private contact. Security-sensitive reports need a verified private
-reporting route. [TESTING](TESTING.md) separates ordinary regression
-coverage from live recovery, network, crash and bare-metal evidence.
+Security-sensitive reports should use the repository's [security policy](../SECURITY.md)
+and private vulnerability-reporting route. [TESTING](TESTING.md) separates ordinary
+regression coverage from live recovery, network, crash and bare-metal evidence.
