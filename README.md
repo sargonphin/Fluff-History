@@ -145,6 +145,12 @@ For source builds and development installers, see [Building Fluff-History](docs/
 
 Release identity and updater behavior are documented in [Updates and releases](docs/UPDATES-AND-RELEASES.md)
 
+## 🧹 What's new in 1.1.1
+
+Fluff-History 1.1.1 fixes a crash when choosing a Timeline cleanup option, including **Keep only the most recent version**. You can preview the versions to remove and review the separate confirmation before cleanup starts
+
+See the [1.1.1 release notes](docs/RELEASE-1_1_1.md) for details and upgrade information
+
 ## 📚 Documentation
 
 <table>

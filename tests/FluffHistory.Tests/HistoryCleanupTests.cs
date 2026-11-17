@@ -111,6 +111,49 @@ public sealed class HistoryCleanupTests
     }
 
     [Fact]
+    public async Task LatestPreviewAcrossFortyThreeSegmentsPreservesAllRepositoryBytes()
+    {
+        using var temp = new TemporaryDirectory(); using var repo = Repository.Create(temp.Child());
+        var versions = new List<StoredVersion>();
+        var deletedPath = new HistoryPath(FoundationTests.Root, "file7");
+        using (var writer = repo.OpenWriter())
+        {
+            // Exercise real rotation/seals/handle eviction with small valid segments,
+            // without making a multi-gigabyte diagnostic part of ordinary CI.
+            writer.RotationBytes = 65_536;
+            for (var i = 0; Directory.GetFiles(Path.Combine(repo.DirectoryPath, "metadata"), "*.seg").Length < 43; i++)
+            {
+                Assert.InRange(i, 0, 127);
+                using var reader = repo.OpenReader();
+                var prepared = writer.PrepareVersion(new(FoundationTests.Root, $"file{i % 8}", 1, FoundationTests.Time,
+                    FoundationTests.Time.AddMinutes(i), FileAttributes.Archive), FoundationTests.Time.AddDays(i % 3), new("D24EC4F1A98C6E5B"));
+                var payload = writer.GetPreparedPayloadPath(prepared);
+                Directory.CreateDirectory(Path.GetDirectoryName(payload)!); File.WriteAllBytes(payload, [42]);
+                writer.Apply(new([prepared], currentRemovals: i % 8 == 7 ? null : [deletedPath],
+                    sourceRoots: [new(FoundationTests.Root, "missing-source")]), reader.Authority);
+                using var fresh = repo.OpenReader(); versions.Add(fresh.GetNewestVersion(prepared.Path)!);
+            }
+        }
+        Assert.Equal(43, Directory.GetFiles(Path.Combine(repo.DirectoryPath, "metadata"), "*.seg").Length);
+        Assert.Equal(63, versions.Count);
+        var before = TemporaryDirectory.Snapshot(repo.DirectoryPath);
+        using var capture = repo.OpenReader(); var authority = capture.Authority;
+        Assert.Null(capture.GetCurrent(deletedPath));
+        var engine = new HistoryCleanupEngine(repo); var preview = engine.Preview(capture, Latest);
+        Assert.True(preview.Complete); Assert.Equal(63, preview.Examined); Assert.Equal(8, preview.PathsExamined);
+        Assert.Equal(55, preview.Eligible); Assert.Equal(8, preview.AffectedPaths); Assert.Equal(55, preview.EligibleLogicalBytes); Assert.Equal(7, preview.Protected);
+        var expected = versions.GroupBy(v => v.Identity.Path).SelectMany(g => g.OrderBy(v => v.Identity.Sequence).SkipLast(1))
+            .Select(v => v.Identity).OrderBy(v => v.Path).ThenBy(v => v.Sequence).ToArray();
+        Assert.Equal(expected, engine.GetCandidates(capture, Latest).Items.Select(v => v.Identity));
+        Assert.InRange(preview.Reads!.PeakRetainedHandles, 1, 8);
+        var application = await new FluffHistory.Application.TimelineMaintenanceService(new()).PreviewAsync(repo.DirectoryPath,
+            HistoryCleanupMode.KeepOnlyMostRecent, DateTimeOffset.UtcNow);
+        Assert.True(application.Complete); Assert.Equal(55, application.Candidates); Assert.Equal(7, application.ProtectedCurrent);
+        using var after = repo.OpenReader(); Assert.Equal(authority, after.Authority);
+        Assert.Equal(before, TemporaryDirectory.Snapshot(repo.DirectoryPath));
+    }
+
+    [Fact]
     public void SameSequenceUsesOrdinalDespiteReverseStoredMtimeCreationAndUuid()
     {
         using var f = new HistoryFixture(); var first = f.Add(); var path = first.Identity.Path;

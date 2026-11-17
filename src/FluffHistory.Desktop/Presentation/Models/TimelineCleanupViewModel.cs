@@ -78,7 +78,7 @@ public sealed class TimelineCleanupViewModel : ObservableObject
         if (Busy) return;
         Choices = ProductConfiguration.CleanupChoices.Select(c => c with { Label = PresentationText.Cleanup(S, c.Mode) }).ToImmutableArray();
         _choice = null; _preview = null; _service = null; _path = null; _confirm = false;
-        _summary = InitialSummary; _result = ""; Update();
+        _summary = InitialSummary; _result = ""; Changed(nameof(Choices)); Update();
     }
     public AsyncCommand Preview { get; }
     public AsyncCommand Execute { get; }
@@ -105,7 +105,17 @@ public sealed class TimelineCleanupViewModel : ObservableObject
         try { await _owner.RunAsync(async token => { using var linked = CancellationTokenSource.CreateLinkedTokenSource(token, cancel.Token); await action(linked.Token); }); }
         finally { _cancel = null; Update(); }
     }
-    private void Update() { Changed(""); Preview.Refresh(); Execute.Refresh(); ConfirmExecution.Refresh(); Cancel.Refresh(); }
+    private void Update()
+    {
+        // An all-properties notification also republishes the boxed ImmutableArray to
+        // ComboBox.ItemsSource. WinUI resets SelectedItem and re-enters SelectedChoice
+        // before this update returns. Publish Choices only when Reset replaces it.
+        Changed(nameof(SelectedChoice)); Changed(nameof(Summary)); Changed(nameof(Result));
+        Changed(nameof(Busy)); Changed(nameof(CanEdit)); Changed(nameof(CanOpen));
+        Changed(nameof(ConfirmRequested)); Changed(nameof(Confirmation)); Changed(nameof(HasSpaceEstimate));
+        Changed(nameof(Explanation)); Changed(nameof(SpaceExplanation)); Changed(nameof(Strings));
+        Preview.Refresh(); Execute.Refresh(); ConfirmExecution.Refresh(); Cancel.Refresh();
+    }
 }
 
 internal static class DesktopContextState
