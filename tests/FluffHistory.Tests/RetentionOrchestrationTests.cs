@@ -188,6 +188,67 @@ public sealed class RetentionOrchestrationTests
         cleanup.Reset(); Assert.Null(cleanup.SelectedChoice); Assert.False(cleanup.Execute.CanExecute(null)); Assert.False(cleanup.HasSpaceEstimate);
     }
 
+    [Fact]
+    public async Task CleanupSelectionAndStatusDoNotReplaceTheBoundChoiceSource()
+    {
+        using var f = new HistoryFixture(); f.Add(); f.Add(day: 1);
+        var owner = new ProductContext { Settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child() }, Maintenance = new(new()) };
+        var cleanup = new TimelineCleanupViewModel(owner, new ProductDialogs());
+        object source = cleanup.Choices;
+        int replacements = 0; bool resetting = false;
+        cleanup.PropertyChanged += (_, change) =>
+        {
+            // x:Bind republishes ItemsSource for an all-properties or Choices notification.
+            // Boxing ImmutableArray again gives WinUI a different source, clearing selection.
+            if (!string.IsNullOrEmpty(change.PropertyName) && change.PropertyName != nameof(cleanup.Choices)) return;
+            object next = cleanup.Choices;
+            if (ReferenceEquals(source, next)) return;
+            source = next; replacements++;
+            // Bound the simulated callback so a regression fails instead of crashing testhost.
+            if (resetting) return;
+            resetting = true;
+            try { cleanup.SelectedChoice = null; }
+            finally { resetting = false; }
+        };
+        var before = TemporaryDirectory.Snapshot(f.Temp.Child());
+        for (var open = 0; open < 12; open++)
+        {
+            foreach (var choice in new[] { cleanup.Choices[0], cleanup.Choices[^1] })
+            {
+                var priorReplacements = replacements;
+                cleanup.SelectedChoice = choice; await cleanup.PreviewCompletion;
+                Assert.Equal(choice, cleanup.SelectedChoice);
+                Assert.True(cleanup.HasSpaceEstimate); Assert.True(cleanup.Execute.CanExecute(null));
+                owner.Notify();
+                await cleanup.Execute.ExecuteAsync(); Assert.True(cleanup.ConfirmRequested);
+                await cleanup.CancelConfirmation.ExecuteAsync(); Assert.False(cleanup.ConfirmRequested);
+                Assert.Equal(priorReplacements, replacements);
+            }
+            cleanup.Reset(); Assert.Null(cleanup.SelectedChoice); Assert.False(cleanup.HasSpaceEstimate);
+        }
+        Assert.Equal(before, TemporaryDirectory.Snapshot(f.Temp.Child()));
+    }
+
+    [Fact]
+    public async Task CleanupCancellationCanBeFollowedByACompletePreviewAndReset()
+    {
+        using var f = new HistoryFixture(); f.Add(); f.Add(day: 1);
+        var owner = new ProductContext { Settings = AppSettings.Empty with { RepositoryPath = f.Temp.Child() }, Maintenance = new(new()) };
+        var cleanup = new TimelineCleanupViewModel(owner, new ProductDialogs());
+        var before = TemporaryDirectory.Snapshot(f.Temp.Child()); bool cancel = true;
+        cleanup.PropertyChanged += (_, _) =>
+        {
+            if (!cancel || !cleanup.Busy || cleanup.Summary != owner.Strings[TextId.Cleanup_Checking]) return;
+            cancel = false; cleanup.Cancel.Execute(null);
+        };
+        cleanup.SelectedChoice = cleanup.Choices[^1]; await cleanup.PreviewCompletion;
+        Assert.False(cancel); Assert.False(cleanup.Busy); Assert.False(cleanup.Execute.CanExecute(null));
+        Assert.True(cleanup.CanOpen); Assert.True(cleanup.CanEdit); Assert.False(owner.Maintenance.IsBusy);
+        cleanup.Reset(); cleanup.SelectedChoice = cleanup.Choices[^1]; await cleanup.PreviewCompletion;
+        Assert.True(cleanup.HasSpaceEstimate); Assert.True(cleanup.Execute.CanExecute(null));
+        Assert.Equal(before, TemporaryDirectory.Snapshot(f.Temp.Child()));
+    }
+
     [Theory]
     [InlineData(0L, "0 bytes")]
     [InlineData(1L, "1 byte")]
